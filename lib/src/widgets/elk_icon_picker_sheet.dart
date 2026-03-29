@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/icon_source.dart';
+import '../models/lucide_category.dart';
 import 'elk_icon_picker.dart';
 
 /// Shows a Lucide icon picker in a modal bottom sheet.
@@ -14,6 +15,9 @@ Future<IconSelection?> showElkIconPicker(
   double borderRadius = 12.0,
   int crossAxisCount = 5,
   void Function(IconSelection)? onSelected,
+  bool showSearch = true,
+  bool showCategories = true,
+  CategoryStyle categoryStyle = CategoryStyle.both,
 }) {
   return showModalBottomSheet<IconSelection>(
     context: context,
@@ -74,6 +78,9 @@ Future<IconSelection?> showElkIconPicker(
                   iconColor: iconColor,
                   selectedColor: selectedColor,
                   borderRadius: borderRadius,
+                  showSearch: showSearch,
+                  showCategories: showCategories,
+                  categoryStyle: categoryStyle,
                 ),
               ),
             ],

@@ -31,6 +31,15 @@ class ElkIconPicker extends StatefulWidget {
   /// Controller for the icon grid scroll.
   final ScrollController? scrollController;
 
+  /// Whether to show the search bar. Defaults to true.
+  final bool showSearch;
+
+  /// Whether to show category tabs. Defaults to true.
+  final bool showCategories;
+
+  /// How to display the category tabs. Defaults to [CategoryStyle.both].
+  final CategoryStyle categoryStyle;
+
   const ElkIconPicker({
     super.key,
     required this.onSelected,
@@ -41,6 +50,9 @@ class ElkIconPicker extends StatefulWidget {
     this.selectedColor,
     this.borderRadius = 8.0,
     this.scrollController,
+    this.showSearch = true,
+    this.showCategories = true,
+    this.categoryStyle = CategoryStyle.both,
   });
 
   @override
@@ -51,7 +63,7 @@ class _ElkIconPickerState extends State<ElkIconPicker>
     with SingleTickerProviderStateMixin {
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
-  late TabController _tabController;
+  TabController? _tabController;
 
   // We add an "All" category at index 0.
   static const _allCategory = LucideCategory(
@@ -65,14 +77,30 @@ class _ElkIconPickerState extends State<ElkIconPicker>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: _categories.length, vsync: this);
-    _tabController.addListener(() => setState(() {}));
+    if (widget.showCategories) {
+      _tabController = TabController(length: _categories.length, vsync: this);
+      _tabController?.addListener(() => setState(() {}));
+    }
+  }
+
+  @override
+  void didUpdateWidget(ElkIconPicker oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (widget.showCategories != oldWidget.showCategories) {
+      _tabController?.dispose();
+      if (widget.showCategories) {
+        _tabController = TabController(length: _categories.length, vsync: this);
+        _tabController?.addListener(() => setState(() {}));
+      } else {
+        _tabController = null;
+      }
+    }
   }
 
   @override
   void dispose() {
     _searchController.dispose();
-    _tabController.dispose();
+    _tabController?.dispose();
     super.dispose();
   }
 
@@ -82,7 +110,10 @@ class _ElkIconPickerState extends State<ElkIconPicker>
     final selectedColor = widget.selectedColor ?? theme.colorScheme.primary;
     final iconColor = widget.iconColor ?? theme.iconTheme.color ?? Colors.black54;
 
-    final currentCategory = _categories[_tabController.index];
+    final currentCategory = (_tabController != null && widget.showCategories)
+        ? _categories[_tabController!.index]
+        : _allCategory;
+
     final filteredIcons = IconSearchService.filter(
       _searchQuery,
       categoryId: currentCategory.id == 'all' ? null : currentCategory.id,
@@ -93,49 +124,58 @@ class _ElkIconPickerState extends State<ElkIconPicker>
       child: Column(
         children: [
           // Search bar
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: TextField(
-              controller: _searchController,
-              decoration: InputDecoration(
-                hintText: 'Search icons...',
-                prefixIcon: const Icon(Icons.search),
-                suffixIcon: _searchQuery.isNotEmpty
-                    ? IconButton(
-                        icon: const Icon(Icons.clear),
-                        onPressed: () {
-                          _searchController.clear();
-                          setState(() => _searchQuery = '');
-                        },
-                      )
-                    : null,
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(widget.borderRadius),
+          if (widget.showSearch)
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: TextField(
+                controller: _searchController,
+                decoration: InputDecoration(
+                  hintText: 'Search icons...',
+                  prefixIcon: const Icon(Icons.search),
+                  suffixIcon: _searchQuery.isNotEmpty
+                      ? IconButton(
+                          icon: const Icon(Icons.clear),
+                          onPressed: () {
+                            _searchController.clear();
+                            setState(() => _searchQuery = '');
+                          },
+                        )
+                      : null,
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(widget.borderRadius),
+                  ),
+                  contentPadding: const EdgeInsets.symmetric(horizontal: 16.0),
                 ),
-                contentPadding: const EdgeInsets.symmetric(horizontal: 16.0),
+                onChanged: (value) => setState(() => _searchQuery = value),
               ),
-              onChanged: (value) => setState(() => _searchQuery = value),
             ),
-          ),
 
           // Categories
-          TabBar(
-            controller: _tabController,
-            isScrollable: true,
-            tabAlignment: TabAlignment.start,
-            tabs: _categories.map((cat) {
-              return Tab(
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    LucideIcon(cat.representativeIcon, size: 16),
-                    const SizedBox(width: 8),
-                    Text(cat.title),
-                  ],
-                ),
-              );
-            }).toList(),
-          ),
+          if (widget.showCategories && _tabController != null)
+            TabBar(
+              controller: _tabController,
+              isScrollable: true,
+              tabAlignment: TabAlignment.start,
+              tabs: _categories.map((cat) {
+                final showIcon = widget.categoryStyle == CategoryStyle.both ||
+                    widget.categoryStyle == CategoryStyle.iconsOnly;
+                final showText = widget.categoryStyle == CategoryStyle.both ||
+                    widget.categoryStyle == CategoryStyle.textOnly;
+
+                return Tab(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      if (showIcon) ...[
+                        LucideIcon(cat.representativeIcon, size: 16),
+                        if (showText) const SizedBox(width: 8),
+                      ],
+                      if (showText) Text(cat.title),
+                    ],
+                  ),
+                );
+              }).toList(),
+            ),
 
           // Icon Grid
           Expanded(

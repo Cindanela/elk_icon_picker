@@ -1,0 +1,3452 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: unnecessary_const, constant_identifier_names
+
+import '../models/lucide_icon_data.dart';
+import '../models/lucide_category.dart';
+
+/// A registry of all Lucide icons available in the package.
+class LucideIcons {
+  LucideIcons._();
+
+  static const LucideIconData aArrowDown = LucideIconData(name: 'a-arrow-down',paths: ['m14 12 4 4 4-4', 'M18 16V7', 'm2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16', 'M3.304 13h6.392'],tags: ['letter', 'font size', 'text', 'formatting', 'smaller'],categories: ['text', 'design'],);
+  static const LucideIconData aArrowUp = LucideIconData(name: 'a-arrow-up',paths: ['m14 11 4-4 4 4', 'M18 16V7', 'm2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16', 'M3.304 13h6.392'],tags: ['letter', 'font size', 'text', 'formatting', 'larger', 'bigger'],categories: ['text', 'design'],);
+  static const LucideIconData aLargeSmall = LucideIconData(name: 'a-large-small',paths: ['m15 16 2.536-7.328a1.02 1.02 1 0 1 1.928 0L22 16', 'M15.697 14h5.606', 'm2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16', 'M3.304 13h6.392'],tags: ['letter', 'font size', 'text', 'formatting'],categories: ['text', 'design'],);
+  static const LucideIconData accessibility = LucideIconData(name: 'accessibility',circles: [(16.0, 4.0, 1.0)],paths: ['m18 19 1-7-6 1', 'm5 8 3-3 5.5 3-2.36 3.5', 'M4.24 14.5a5 5 0 0 0 6.88 6', 'M13.76 17.5a5 5 0 0 0-6.88-6'],tags: ['disability', 'disabled', 'dda', 'wheelchair'],categories: ['accessibility', 'medical'],);
+  static const LucideIconData activity = LucideIconData(name: 'activity',paths: ['M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2'],tags: ['pulse', 'action', 'motion', 'movement', 'exercise', 'fitness', 'healthcare', 'heart rate monitor', 'vital signs', 'vitals', 'emergency room', 'er', 'intensive care', 'hospital', 'defibrillator', 'earthquake', 'siesmic', 'magnitude', 'richter scale', 'aftershock', 'tremor', 'shockwave', 'audio', 'waveform', 'synthesizer', 'synthesiser', 'music'],categories: ['medical', 'account', 'social', 'science', 'multimedia'],);
+  static const LucideIconData airVent = LucideIconData(name: 'air-vent',paths: ['M18 17.5a2.5 2.5 0 1 1-4 2.03V12', 'M6 12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2', 'M6 8h12', 'M6.6 15.572A2 2 0 1 0 10 17v-5'],tags: ['air conditioner', 'ac', 'central air', 'cooling', 'climate-control'],categories: ['home'],);
+  static const LucideIconData airplay = LucideIconData(name: 'airplay',paths: ['M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1', 'm12 15 5 6H7Z'],tags: ['stream', 'cast', 'mirroring', 'screen', 'monitor', 'macos', 'osx'],categories: ['multimedia', 'connectivity'],);
+  static const LucideIconData alarmClock = LucideIconData(name: 'alarm-clock',circles: [(12.0, 13.0, 8.0)],paths: ['M12 9v4l2 2', 'M5 3 2 6', 'm22 6-3-3', 'M6.38 18.7 4 21', 'M17.64 18.67 20 21'],tags: ['morning'],categories: ['devices', 'notifications', 'time'],);
+  static const LucideIconData alarmClockCheck = LucideIconData(name: 'alarm-clock-check',circles: [(12.0, 13.0, 8.0)],paths: ['M5 3 2 6', 'm22 6-3-3', 'M6.38 18.7 4 21', 'M17.64 18.67 20 21', 'm9 13 2 2 4-4'],tags: ['done', 'todo', 'tick', 'complete', 'task'],categories: ['devices', 'notifications', 'time'],);
+  static const LucideIconData alarmClockMinus = LucideIconData(name: 'alarm-clock-minus',circles: [(12.0, 13.0, 8.0)],paths: ['M5 3 2 6', 'm22 6-3-3', 'M6.38 18.7 4 21', 'M17.64 18.67 20 21', 'M9 13h6'],tags: ['remove'],categories: ['devices', 'notifications', 'time'],);
+  static const LucideIconData alarmClockOff = LucideIconData(name: 'alarm-clock-off',paths: ['M6.87 6.87a8 8 0 1 0 11.26 11.26', 'M19.9 14.25a8 8 0 0 0-9.15-9.15', 'm22 6-3-3', 'M6.26 18.67 4 21', 'm2 2 20 20', 'M4 4 2 6'],tags: ['morning', 'turn-off'],categories: ['devices', 'notifications', 'time'],);
+  static const LucideIconData alarmClockPlus = LucideIconData(name: 'alarm-clock-plus',circles: [(12.0, 13.0, 8.0)],paths: ['M5 3 2 6', 'm22 6-3-3', 'M6.38 18.7 4 21', 'M17.64 18.67 20 21', 'M12 10v6', 'M9 13h6'],tags: ['add'],categories: ['devices', 'notifications', 'time'],);
+  static const LucideIconData alarmSmoke = LucideIconData(name: 'alarm-smoke',paths: ['M11 21c0-2.5 2-2.5 2-5', 'M16 21c0-2.5 2-2.5 2-5', 'm19 8-.8 3a1.25 1.25 0 0 1-1.2 1H7a1.25 1.25 0 0 1-1.2-1L5 8', 'M21 3a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a1 1 0 0 1 1-1z', 'M6 21c0-2.5 2-2.5 2-5'],tags: ['fire', 'alert', 'warning', 'detector', 'carbon monoxide', 'safety', 'equipment', 'amenities'],categories: ['home', 'devices', 'travel'],);
+  static const LucideIconData album = LucideIconData(name: 'album',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],polylines: [[(11.0, 3.0), (11.0, 11.0), (14.0, 8.0), (17.0, 11.0), (17.0, 3.0)]],tags: ['photo', 'book'],categories: ['photography', 'multimedia'],);
+  static const LucideIconData alignCenterHorizontal = LucideIconData(name: 'align-center-horizontal',paths: ['M2 12h20', 'M10 16v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4', 'M10 8V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4', 'M20 16v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-1', 'M14 8V7c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v1'],tags: ['items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignCenterVertical = LucideIconData(name: 'align-center-vertical',paths: ['M12 2v20', 'M8 10H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h4', 'M16 10h4a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-4', 'M8 20H7a2 2 0 0 1-2-2v-2c0-1.1.9-2 2-2h1', 'M16 14h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1'],tags: ['items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignEndHorizontal = LucideIconData(name: 'align-end-horizontal',rects: [(4.0, 2.0, 6.0, 16.0, 2.0), (14.0, 9.0, 6.0, 9.0, 2.0)],paths: ['M22 22H2'],tags: ['items', 'bottom', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignEndVertical = LucideIconData(name: 'align-end-vertical',rects: [(2.0, 4.0, 16.0, 6.0, 2.0), (9.0, 14.0, 9.0, 6.0, 2.0)],paths: ['M22 22V2'],tags: ['items', 'right', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignHorizontalDistributeCenter = LucideIconData(name: 'align-horizontal-distribute-center',rects: [(4.0, 5.0, 6.0, 14.0, 2.0), (14.0, 7.0, 6.0, 10.0, 2.0)],paths: ['M17 22v-5', 'M17 7V2', 'M7 22v-3', 'M7 5V2'],tags: ['items', 'flex', 'justify', 'space', 'evenly', 'around'],categories: ['layout'],);
+  static const LucideIconData alignHorizontalDistributeEnd = LucideIconData(name: 'align-horizontal-distribute-end',rects: [(4.0, 5.0, 6.0, 14.0, 2.0), (14.0, 7.0, 6.0, 10.0, 2.0)],paths: ['M10 2v20', 'M20 2v20'],tags: ['right', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignHorizontalDistributeStart = LucideIconData(name: 'align-horizontal-distribute-start',rects: [(4.0, 5.0, 6.0, 14.0, 2.0), (14.0, 7.0, 6.0, 10.0, 2.0)],paths: ['M4 2v20', 'M14 2v20'],tags: ['left', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignHorizontalJustifyCenter = LucideIconData(name: 'align-horizontal-justify-center',rects: [(2.0, 5.0, 6.0, 14.0, 2.0), (16.0, 7.0, 6.0, 10.0, 2.0)],paths: ['M12 2v20'],tags: ['center', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignHorizontalJustifyEnd = LucideIconData(name: 'align-horizontal-justify-end',rects: [(2.0, 5.0, 6.0, 14.0, 2.0), (12.0, 7.0, 6.0, 10.0, 2.0)],paths: ['M22 2v20'],tags: ['right', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignHorizontalJustifyStart = LucideIconData(name: 'align-horizontal-justify-start',rects: [(6.0, 5.0, 6.0, 14.0, 2.0), (16.0, 7.0, 6.0, 10.0, 2.0)],paths: ['M2 2v20'],tags: ['left', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignHorizontalSpaceAround = LucideIconData(name: 'align-horizontal-space-around',rects: [(9.0, 7.0, 6.0, 10.0, 2.0)],paths: ['M4 22V2', 'M20 22V2'],tags: ['center', 'items', 'flex', 'justify', 'distribute', 'between'],categories: ['layout'],);
+  static const LucideIconData alignHorizontalSpaceBetween = LucideIconData(name: 'align-horizontal-space-between',rects: [(3.0, 5.0, 6.0, 14.0, 2.0), (15.0, 7.0, 6.0, 10.0, 2.0)],paths: ['M3 2v20', 'M21 2v20'],tags: ['around', 'items', 'bottom', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignStartHorizontal = LucideIconData(name: 'align-start-horizontal',rects: [(4.0, 6.0, 6.0, 16.0, 2.0), (14.0, 6.0, 6.0, 9.0, 2.0)],paths: ['M22 2H2'],tags: ['top', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignStartVertical = LucideIconData(name: 'align-start-vertical',rects: [(6.0, 14.0, 9.0, 6.0, 2.0), (6.0, 4.0, 16.0, 6.0, 2.0)],paths: ['M2 2v20'],tags: ['left', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignVerticalDistributeCenter = LucideIconData(name: 'align-vertical-distribute-center',paths: ['M22 17h-3', 'M22 7h-5', 'M5 17H2', 'M7 7H2'],tags: ['items', 'flex', 'justify', 'space', 'evenly', 'around'],categories: ['layout'],);
+  static const LucideIconData alignVerticalDistributeEnd = LucideIconData(name: 'align-vertical-distribute-end',rects: [(5.0, 14.0, 14.0, 6.0, 2.0), (7.0, 4.0, 10.0, 6.0, 2.0)],paths: ['M2 20h20', 'M2 10h20'],tags: ['bottom', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignVerticalDistributeStart = LucideIconData(name: 'align-vertical-distribute-start',rects: [(5.0, 14.0, 14.0, 6.0, 2.0), (7.0, 4.0, 10.0, 6.0, 2.0)],paths: ['M2 14h20', 'M2 4h20'],tags: ['top', 'items', 'flex', 'justify'],categories: ['layout'],);
+  static const LucideIconData alignVerticalJustifyCenter = LucideIconData(name: 'align-vertical-justify-center',rects: [(5.0, 16.0, 14.0, 6.0, 2.0), (7.0, 2.0, 10.0, 6.0, 2.0)],paths: ['M2 12h20'],tags: ['center', 'items', 'flex', 'justify', 'distribute', 'between'],categories: ['layout'],);
+  static const LucideIconData alignVerticalJustifyEnd = LucideIconData(name: 'align-vertical-justify-end',rects: [(5.0, 12.0, 14.0, 6.0, 2.0), (7.0, 2.0, 10.0, 6.0, 2.0)],paths: ['M2 22h20'],tags: ['bottom', 'items', 'flex', 'justify', 'distribute', 'between'],categories: ['layout'],);
+  static const LucideIconData alignVerticalJustifyStart = LucideIconData(name: 'align-vertical-justify-start',rects: [(5.0, 16.0, 14.0, 6.0, 2.0), (7.0, 6.0, 10.0, 6.0, 2.0)],paths: ['M2 2h20'],tags: ['top', 'items', 'flex', 'justify', 'distribute', 'between'],categories: ['layout'],);
+  static const LucideIconData alignVerticalSpaceAround = LucideIconData(name: 'align-vertical-space-around',rects: [(7.0, 9.0, 10.0, 6.0, 2.0)],paths: ['M22 20H2', 'M22 4H2'],tags: ['center', 'items', 'flex', 'justify', 'distribute', 'between'],categories: ['layout'],);
+  static const LucideIconData alignVerticalSpaceBetween = LucideIconData(name: 'align-vertical-space-between',rects: [(5.0, 15.0, 14.0, 6.0, 2.0), (7.0, 3.0, 10.0, 6.0, 2.0)],paths: ['M2 21h20', 'M2 3h20'],tags: ['center', 'items', 'flex', 'justify', 'distribute', 'between'],categories: ['layout'],);
+  static const LucideIconData ambulance = LucideIconData(name: 'ambulance',circles: [(17.0, 18.0, 2.0), (7.0, 18.0, 2.0)],paths: ['M10 10H6', 'M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2', 'M19 18h2a1 1 0 0 0 1-1v-3.28a1 1 0 0 0-.684-.948l-1.923-.641a1 1 0 0 1-.578-.502l-1.539-3.076A1 1 0 0 0 16.382 8H14', 'M8 8v4', 'M9 18h6'],tags: ['ambulance', 'emergency', 'medical', 'vehicle', 'siren', 'healthcare', 'transportation', 'rescue', 'urgent', 'first aid'],categories: ['medical', 'transportation'],);
+  static const LucideIconData ampersand = LucideIconData(name: 'ampersand',paths: ['M16 12h3', 'M17.5 12a8 8 0 0 1-8 8A4.5 4.5 0 0 1 5 15.5c0-6 8-4 8-8.5a3 3 0 1 0-6 0c0 3 2.5 8.5 12 13'],tags: ['and', 'typography', 'operator', 'join', 'concatenate', 'code', '&'],categories: ['text', 'development'],);
+  static const LucideIconData ampersands = LucideIconData(name: 'ampersands',paths: ['M10 17c-5-3-7-7-7-9a2 2 0 0 1 4 0c0 2.5-5 2.5-5 6 0 1.7 1.3 3 3 3 2.8 0 5-2.2 5-5', 'M22 17c-5-3-7-7-7-9a2 2 0 0 1 4 0c0 2.5-5 2.5-5 6 0 1.7 1.3 3 3 3 2.8 0 5-2.2 5-5'],tags: ['and', 'operator', 'then', 'code', '&&'],categories: ['text', 'development'],);
+  static const LucideIconData amphora = LucideIconData(name: 'amphora',paths: ['M10 2v5.632c0 .424-.272.795-.653.982A6 6 0 0 0 6 14c.006 4 3 7 5 8', 'M10 5H8a2 2 0 0 0 0 4h.68', 'M14 2v5.632c0 .424.272.795.652.982A6 6 0 0 1 18 14c0 4-3 7-5 8', 'M14 5h2a2 2 0 0 1 0 4h-.68', 'M18 22H6', 'M9 2h6'],tags: ['pottery', 'artifact', 'artefact', 'vase', 'ceramics', 'clay', 'archaeology', 'museum', 'wine', 'oil'],categories: ['food-beverage', 'gaming'],);
+  static const LucideIconData anchor = LucideIconData(name: 'anchor',circles: [(12.0, 4.0, 2.0)],paths: ['M12 6v16', 'm19 13 2-1a9 9 0 0 1-18 0l2 1', 'M9 11h6'],tags: ['ship'],categories: ['transportation', 'text'],);
+  static const LucideIconData angry = LucideIconData(name: 'angry',circles: [(12.0, 12.0, 10.0)],paths: ['M16 16s-1.5-2-4-2-4 2-4 2', 'M7.5 8 10 9', 'm14 9 2.5-1', 'M9 10h.01', 'M15 10h.01'],tags: ['emoji', 'anger', 'face', 'emotion'],categories: ['emoji'],);
+  static const LucideIconData annoyed = LucideIconData(name: 'annoyed',circles: [(12.0, 12.0, 10.0)],paths: ['M8 15h8', 'M8 9h2', 'M14 9h2'],tags: ['emoji', 'nuisance', 'face', 'emotion'],categories: ['emoji'],);
+  static const LucideIconData antenna = LucideIconData(name: 'antenna',paths: ['M2 12 7 2', 'm7 12 5-10', 'm12 12 5-10', 'm17 12 5-10', 'M4.5 7h15', 'M12 16v6'],tags: ['signal', 'connection', 'connectivity', 'tv', 'television', 'broadcast', 'live', 'frequency', 'tune', 'scan', 'channels', 'aerial', 'receiver', 'transmission', 'transducer', 'terrestrial', 'satellite', 'cable'],categories: ['devices', 'multimedia', 'communication'],);
+  static const LucideIconData anvil = LucideIconData(name: 'anvil',paths: ['M7 10H6a4 4 0 0 1-4-4 1 1 0 0 1 1-1h4', 'M7 5a1 1 0 0 1 1-1h13a1 1 0 0 1 1 1 7 7 0 0 1-7 7H8a1 1 0 0 1-1-1z', 'M9 12v5', 'M15 12v5', 'M5 20a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3 1 1 0 0 1-1 1H6a1 1 0 0 1-1-1'],tags: ['metal', 'iron', 'alloy', 'materials', 'heavy', 'weight', 'blacksmith', 'forge', 'acme'],categories: ['buildings', 'tools', 'gaming'],);
+  static const LucideIconData aperture = LucideIconData(name: 'aperture',circles: [(12.0, 12.0, 10.0)],paths: ['m14.31 8 5.74 9.94', 'M9.69 8h11.48', 'm7.38 12 5.74-9.94', 'M9.69 16 3.95 6.06', 'M14.31 16H2.83', 'm16.62 12-5.74 9.94'],tags: ['camera', 'photo', 'pictures', 'shutter', 'exposure'],categories: ['photography'],);
+  static const LucideIconData appWindow = LucideIconData(name: 'app-window',paths: ['M10 4v4', 'M2 8h20', 'M6 4v4'],tags: ['application', 'menu bar', 'pane', 'executable'],categories: ['layout', 'design', 'development', 'files'],);
+  static const LucideIconData appWindowMac = LucideIconData(name: 'app-window-mac',rects: [(2.0, 4.0, 20.0, 16.0, 2.0)],paths: ['M6 8h.01', 'M10 8h.01', 'M14 8h.01'],tags: ['application', 'menu bar', 'pane', 'preferences', 'macos', 'osx', 'executable'],categories: ['layout', 'design', 'development', 'files'],);
+  static const LucideIconData apple = LucideIconData(name: 'apple',paths: ['M12 6.528V3a1 1 0 0 1 1-1h0', 'M18.237 21A15 15 0 0 0 22 11a6 6 0 0 0-10-4.472A6 6 0 0 0 2 11a15.1 15.1 0 0 0 3.763 10 3 3 0 0 0 3.648.648 5.5 5.5 0 0 1 5.178 0A3 3 0 0 0 18.237 21'],tags: ['fruit', 'food', 'healthy', 'snack', 'nutrition', 'fresh', 'produce', 'grocery', 'organic', 'harvest', 'vitamin', 'red', 'green', 'juicy', 'sweet', 'tart', 'bite', 'orchard', 'plant', 'core', 'raw', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData archive = LucideIconData(name: 'archive',rects: [(2.0, 3.0, 20.0, 5.0, 1.0)],paths: ['M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8', 'M10 12h4'],tags: ['index', 'backup', 'box', 'storage', 'records'],categories: ['files', 'mail'],);
+  static const LucideIconData archiveRestore = LucideIconData(name: 'archive-restore',rects: [(2.0, 3.0, 20.0, 5.0, 1.0)],paths: ['M4 8v11a2 2 0 0 0 2 2h2', 'M20 8v11a2 2 0 0 1-2 2h-2', 'm9 15 3-3 3 3', 'M12 12v9'],tags: ['unarchive', 'index', 'backup', 'box', 'storage', 'records'],categories: ['files', 'mail'],);
+  static const LucideIconData archiveX = LucideIconData(name: 'archive-x',rects: [(2.0, 3.0, 20.0, 5.0, 1.0)],paths: ['M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8', 'm9.5 17 5-5', 'm9.5 12 5 5'],tags: ['index', 'backup', 'box', 'storage', 'records', 'junk'],categories: ['files', 'mail'],);
+  static const LucideIconData armchair = LucideIconData(name: 'armchair',paths: ['M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3', 'M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z', 'M5 18v2', 'M19 18v2'],tags: ['sofa', 'furniture', 'leisure', 'lounge', 'loveseat', 'couch'],categories: ['home'],);
+  static const LucideIconData arrowBigDown = LucideIconData(name: 'arrow-big-down',paths: ['M9 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6a1 1 0 0 0 1 1h3.293a.707.707 0 0 1 .5 1.207l-7.086 7.086a1 1 0 0 1-1.414 0l-7.086-7.086a.707.707 0 0 1 .5-1.207H8a1 1 0 0 0 1-1z'],tags: ['backwards', 'reverse', 'direction', 'south'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData arrowBigDownDash = LucideIconData(name: 'arrow-big-down-dash',paths: ['M14 8a1 1 0 0 1 1 1v2a1 1 0 0 0 1 1h3.293a.707.707 0 0 1 .5 1.207l-6.939 6.939a1.207 1.207 0 0 1-1.708 0l-6.94-6.94a.707.707 0 0 1 .5-1.206H8a1 1 0 0 0 1-1V9a1 1 0 0 1 1-1z', 'M9 4h6'],tags: ['backwards', 'reverse', 'slow', 'direction', 'south', 'download'],categories: ['arrows', 'gaming', 'files'],);
+  static const LucideIconData arrowBigLeft = LucideIconData(name: 'arrow-big-left',paths: ['M10.793 19.793a.707.707 0 0 0 1.207-.5V16a1 1 0 0 1 1-1h6a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-6a1 1 0 0 1-1-1V4.707a.707.707 0 0 0-1.207-.5l-6.94 6.94a1.207 1.207 0 0 0 0 1.707z'],tags: ['previous', 'back', 'direction', 'west', 'indicate turn'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData arrowBigLeftDash = LucideIconData(name: 'arrow-big-left-dash',paths: ['M13 9a1 1 0 0 1-1-1V4.707a.707.707 0 0 0-1.207-.5l-6.94 6.94a1.207 1.207 0 0 0 0 1.707l6.94 6.94a.707.707 0 0 0 1.207-.5V16a1 1 0 0 1 1-1h2a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1z', 'M20 9v6'],tags: ['previous', 'back', 'direction', 'west', 'turn', 'corner'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData arrowBigRight = LucideIconData(name: 'arrow-big-right',paths: ['M13.207 19.793a.707.707 0 0 1-1.207-.5V16a1 1 0 0 0-1-1H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h6a1 1 0 0 0 1-1V4.707a.707.707 0 0 1 1.207-.5l6.94 6.94a1.207 1.207 0 0 1 0 1.707z'],tags: ['next', 'forward', 'direction', 'east', 'indicate turn'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData arrowBigRightDash = LucideIconData(name: 'arrow-big-right-dash',paths: ['M11 9a1 1 0 0 0 1-1V4.707a.707.707 0 0 1 1.207-.5l6.94 6.94a1.207 1.207 0 0 1 0 1.707l-6.94 6.94a.707.707 0 0 1-1.207-.5V16a1 1 0 0 0-1-1H9a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z', 'M4 9v6'],tags: ['next', 'forward', 'direction', 'east', 'turn', 'corner'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData arrowBigUp = LucideIconData(name: 'arrow-big-up',paths: ['M9 19a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-6a1 1 0 0 1 1-1h3.293a.707.707 0 0 0 .5-1.207l-7.086-7.086a1 1 0 0 0-1.414 0l-7.086 7.086a.707.707 0 0 0 .5 1.207H8a1 1 0 0 1 1 1z'],tags: ['shift', 'keyboard', 'button', 'mac', 'capitalize', 'capitalise', 'forward', 'direction', 'north'],categories: ['arrows', 'text', 'development', 'gaming'],);
+  static const LucideIconData arrowBigUpDash = LucideIconData(name: 'arrow-big-up-dash',paths: ['M14 16a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1h3.293a.707.707 0 0 0 .5-1.207l-6.939-6.939a1.207 1.207 0 0 0-1.708 0l-6.94 6.94a.707.707 0 0 0 .5 1.206H8a1 1 0 0 1 1 1v2a1 1 0 0 0 1 1z', 'M9 20h6'],tags: ['caps lock', 'capitals', 'keyboard', 'button', 'mac', 'forward', 'direction', 'north', 'faster', 'speed', 'boost'],categories: ['arrows', 'text', 'development', 'gaming'],);
+  static const LucideIconData arrowDown = LucideIconData(name: 'arrow-down',paths: ['M12 5v14', 'm19 12-7 7-7-7'],tags: ['backwards', 'reverse', 'direction', 'south'],categories: ['arrows'],);
+  static const LucideIconData arrowDown01 = LucideIconData(name: 'arrow-down-0-1',paths: ['m3 16 4 4 4-4', 'M7 20V4', 'M17 20v-6h-2', 'M15 20h4'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling', 'numerical'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowDown10 = LucideIconData(name: 'arrow-down-1-0',paths: ['m3 16 4 4 4-4', 'M7 20V4', 'M17 10V4h-2', 'M15 10h4'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling', 'numerical'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowDownAZ = LucideIconData(name: 'arrow-down-a-z',paths: ['m3 16 4 4 4-4', 'M7 20V4', 'M20 8h-5', 'M15 10V6.5a2.5 2.5 0 0 1 5 0V10', 'M15 14h5l-5 6h5'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling', 'alphabetical'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowDownFromLine = LucideIconData(name: 'arrow-down-from-line',paths: ['M19 3H5', 'M12 21V7', 'm6 15 6 6 6-6'],tags: ['backwards', 'reverse', 'direction', 'south', 'download', 'expand', 'fold', 'vertical'],categories: ['arrows', 'files'],);
+  static const LucideIconData arrowDownLeft = LucideIconData(name: 'arrow-down-left',paths: ['M17 7 7 17', 'M17 17H7V7'],tags: ['direction', 'south-west', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData arrowDownNarrowWide = LucideIconData(name: 'arrow-down-narrow-wide',paths: ['m3 16 4 4 4-4', 'M7 20V4', 'M11 4h4', 'M11 8h7', 'M11 12h10'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowDownRight = LucideIconData(name: 'arrow-down-right',paths: ['m7 7 10 10', 'M17 7v10H7'],tags: ['direction', 'south-east', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData arrowDownToDot = LucideIconData(name: 'arrow-down-to-dot',circles: [(12.0, 21.0, 1.0)],paths: ['M12 2v14', 'm19 9-7 7-7-7'],tags: ['direction', 'south', 'waypoint', 'location', 'step', 'into'],categories: ['arrows'],);
+  static const LucideIconData arrowDownToLine = LucideIconData(name: 'arrow-down-to-line',paths: ['M12 17V3', 'm6 11 6 6 6-6', 'M19 21H5'],tags: ['behind', 'direction', 'south', 'download', 'save', 'git', 'version control', 'pull', 'collapse', 'fold', 'vertical'],categories: ['arrows', 'files', 'development'],);
+  static const LucideIconData arrowDownUp = LucideIconData(name: 'arrow-down-up',paths: ['m3 16 4 4 4-4', 'M7 20V4', 'm21 8-4-4-4 4', 'M17 4v16'],tags: ['bidirectional', 'two-way', '2-way', 'swap', 'switch', 'network', 'traffic', 'flow', 'mobile data', 'internet', 'sort', 'reorder', 'move'],categories: ['arrows'],);
+  static const LucideIconData arrowDownWideNarrow = LucideIconData(name: 'arrow-down-wide-narrow',paths: ['m3 16 4 4 4-4', 'M7 20V4', 'M11 4h10', 'M11 8h7', 'M11 12h4'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowDownZA = LucideIconData(name: 'arrow-down-z-a',paths: ['m3 16 4 4 4-4', 'M7 4v16', 'M15 4h5l-5 6h5', 'M15 20v-3.5a2.5 2.5 0 0 1 5 0V20', 'M20 18h-5'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling', 'alphabetical', 'reverse'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowLeft = LucideIconData(name: 'arrow-left',paths: ['m12 19-7-7 7-7', 'M19 12H5'],tags: ['previous', 'back', 'direction', 'west', '<-'],categories: ['arrows'],);
+  static const LucideIconData arrowLeftFromLine = LucideIconData(name: 'arrow-left-from-line',paths: ['m9 6-6 6 6 6', 'M3 12h14', 'M21 19V5'],tags: ['previous', 'back', 'direction', 'west', 'expand', 'fold', 'horizontal', '<-|'],categories: ['arrows'],);
+  static const LucideIconData arrowLeftRight = LucideIconData(name: 'arrow-left-right',paths: ['M8 3 4 7l4 4', 'M4 7h16', 'm16 21 4-4-4-4', 'M20 17H4'],tags: ['bidirectional', 'two-way', '2-way', 'swap', 'switch', 'transaction', 'reorder', 'move', '<-', '->'],categories: ['arrows'],);
+  static const LucideIconData arrowLeftToLine = LucideIconData(name: 'arrow-left-to-line',paths: ['M3 19V5', 'm13 6-6 6 6 6', 'M7 12h14'],tags: ['previous', 'back', 'direction', 'west', 'collapse', 'fold', 'horizontal', '|<-'],categories: ['arrows'],);
+  static const LucideIconData arrowRight = LucideIconData(name: 'arrow-right',paths: ['M5 12h14', 'm12 5 7 7-7 7'],tags: ['forward', 'next', 'direction', 'east', '->'],categories: ['arrows'],);
+  static const LucideIconData arrowRightFromLine = LucideIconData(name: 'arrow-right-from-line',paths: ['M3 5v14', 'M21 12H7', 'm15 18 6-6-6-6'],tags: ['next', 'forward', 'direction', 'east', 'export', 'expand', 'fold', 'horizontal', '|->'],categories: ['arrows'],);
+  static const LucideIconData arrowRightLeft = LucideIconData(name: 'arrow-right-left',paths: ['m16 3 4 4-4 4', 'M20 7H4', 'm8 21-4-4 4-4', 'M4 17h16'],tags: ['bidirectional', 'two-way', '2-way', 'swap', 'switch', 'transaction', 'reorder', 'move', '<-', '->'],categories: ['arrows'],);
+  static const LucideIconData arrowRightToLine = LucideIconData(name: 'arrow-right-to-line',paths: ['M17 12H3', 'm11 18 6-6-6-6', 'M21 5v14'],tags: ['next', 'forward', 'direction', 'east', 'tab', 'keyboard', 'mac', 'indent', 'collapse', 'fold', 'horizontal', '->|'],categories: ['arrows', 'development'],);
+  static const LucideIconData arrowUp = LucideIconData(name: 'arrow-up',paths: ['m5 12 7-7 7 7', 'M12 19V5'],tags: ['forward', 'direction', 'north'],categories: ['arrows'],);
+  static const LucideIconData arrowUp01 = LucideIconData(name: 'arrow-up-0-1',paths: ['m3 8 4-4 4 4', 'M7 4v16', 'M17 20v-6h-2', 'M15 20h4'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling', 'numerical'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowUp10 = LucideIconData(name: 'arrow-up-1-0',paths: ['m3 8 4-4 4 4', 'M7 4v16', 'M17 10V4h-2', 'M15 10h4'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling', 'numerical'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowUpAZ = LucideIconData(name: 'arrow-up-a-z',paths: ['m3 8 4-4 4 4', 'M7 4v16', 'M20 8h-5', 'M15 10V6.5a2.5 2.5 0 0 1 5 0V10', 'M15 14h5l-5 6h5'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling', 'alphabetical'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowUpDown = LucideIconData(name: 'arrow-up-down',paths: ['m21 16-4 4-4-4', 'M17 20V4', 'm3 8 4-4 4 4', 'M7 4v16'],tags: ['bidirectional', 'two-way', '2-way', 'swap', 'switch', 'network', 'mobile data', 'internet', 'sort', 'reorder', 'move'],categories: ['arrows'],);
+  static const LucideIconData arrowUpFromDot = LucideIconData(name: 'arrow-up-from-dot',circles: [(12.0, 21.0, 1.0)],paths: ['m5 9 7-7 7 7', 'M12 16V2'],tags: ['direction', 'north', 'step', 'out'],categories: ['arrows'],);
+  static const LucideIconData arrowUpFromLine = LucideIconData(name: 'arrow-up-from-line',paths: ['m18 9-6-6-6 6', 'M12 3v14', 'M5 21h14'],tags: ['forward', 'direction', 'north', 'upload', 'git', 'version control', 'push', 'expand', 'fold', 'vertical'],categories: ['arrows', 'files', 'development'],);
+  static const LucideIconData arrowUpLeft = LucideIconData(name: 'arrow-up-left',paths: ['M7 17V7h10', 'M17 17 7 7'],tags: ['direction', 'north-west', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData arrowUpNarrowWide = LucideIconData(name: 'arrow-up-narrow-wide',paths: ['m3 8 4-4 4 4', 'M7 4v16', 'M11 12h4', 'M11 16h7', 'M11 20h10'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowUpRight = LucideIconData(name: 'arrow-up-right',paths: ['M7 7h10v10', 'M7 17 17 7'],tags: ['direction', 'north-east', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData arrowUpToLine = LucideIconData(name: 'arrow-up-to-line',paths: ['M5 3h14', 'm18 13-6-6-6 6', 'M12 7v14'],tags: ['forward', 'direction', 'north', 'upload', 'collapse', 'fold', 'vertical'],categories: ['arrows', 'files'],);
+  static const LucideIconData arrowUpWideNarrow = LucideIconData(name: 'arrow-up-wide-narrow',paths: ['m3 8 4-4 4 4', 'M7 4v16', 'M11 12h10', 'M11 16h7', 'M11 20h4'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowUpZA = LucideIconData(name: 'arrow-up-z-a',paths: ['m3 8 4-4 4 4', 'M7 4v16', 'M15 4h5l-5 6h5', 'M15 20v-3.5a2.5 2.5 0 0 1 5 0V20', 'M20 18h-5'],tags: ['filter', 'sort', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling', 'alphabetical', 'reverse'],categories: ['text', 'layout', 'arrows'],);
+  static const LucideIconData arrowsUpFromLine = LucideIconData(name: 'arrows-up-from-line',paths: ['m4 6 3-3 3 3', 'M7 17V3', 'm14 6 3-3 3 3', 'M17 17V3', 'M4 21h16'],tags: ['direction', 'orientation', 'this way up', 'vertical', 'package', 'box', 'fragile', 'postage', 'shipping'],categories: ['arrows', 'transportation', 'mail'],);
+  static const LucideIconData asterisk = LucideIconData(name: 'asterisk',paths: ['M12 6v12', 'M17.196 9 6.804 15', 'm6.804 9 10.392 6'],tags: ['reference', 'times', 'multiply', 'multiplication', 'operator', 'code', 'glob pattern', 'wildcard', '*'],categories: ['text', 'math', 'development'],);
+  static const LucideIconData atSign = LucideIconData(name: 'at-sign',circles: [(12.0, 12.0, 4.0)],paths: ['M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8'],tags: ['mention', 'at', 'email', 'message', '@'],categories: ['text', 'account'],);
+  static const LucideIconData atom = LucideIconData(name: 'atom',circles: [(12.0, 12.0, 1.0)],paths: ['M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z', 'M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z'],tags: ['atomic', 'nuclear', 'physics', 'particle', 'element', 'molecule', 'electricity', 'energy', 'chemistry'],categories: ['science'],);
+  static const LucideIconData audioLines = LucideIconData(name: 'audio-lines',paths: ['M2 10v3', 'M6 6v11', 'M10 3v18', 'M14 8v7', 'M18 5v13', 'M22 10v3'],tags: ['graphic equaliser', 'sound', 'noise', 'listen', 'hearing', 'hertz', 'frequency', 'wavelength', 'vibrate', 'sine', 'synthesizer', 'synthesiser', 'levels', 'track', 'music', 'playback', 'radio', 'broadcast', 'airwaves', 'voice', 'vocals', 'singer', 'song'],categories: ['multimedia', 'communication'],);
+  static const LucideIconData audioWaveform = LucideIconData(name: 'audio-waveform',paths: ['M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0V4a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0v-4a2 2 0 0 1 2-2'],tags: ['sound', 'noise', 'listen', 'hearing', 'hertz', 'frequency', 'wavelength', 'vibrate', 'sine', 'synthesizer', 'synthesiser', 'levels', 'track', 'music', 'playback', 'radio', 'broadcast', 'airwaves', 'voice', 'vocals', 'singer', 'song'],categories: ['multimedia', 'communication'],);
+  static const LucideIconData award = LucideIconData(name: 'award',circles: [(12.0, 8.0, 6.0)],paths: ['m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526'],tags: ['achievement', 'badge', 'rosette', 'prize', 'winner'],categories: ['account', 'sports', 'gaming'],);
+  static const LucideIconData axe = LucideIconData(name: 'axe',paths: ['m14 12-8.381 8.38a1 1 0 0 1-3.001-3L11 9', 'M15 15.5a.5.5 0 0 0 .5.5A6.5 6.5 0 0 0 22 9.5a.5.5 0 0 0-.5-.5h-1.672a2 2 0 0 1-1.414-.586l-5.062-5.062a1.205 1.205 0 0 0-1.704 0L9.352 5.648a1.205 1.205 0 0 0 0 1.704l5.062 5.062A2 2 0 0 1 15 13.828z'],tags: ['hatchet', 'weapon', 'chop', 'sharp', 'equipment', 'fireman', 'firefighter', 'brigade', 'lumberjack', 'woodcutter', 'logger', 'forestry'],categories: ['tools', 'gaming'],);
+  static const LucideIconData axis3d = LucideIconData(name: 'axis-3d',paths: ['M13.5 10.5 15 9', 'M4 4v15a1 1 0 0 0 1 1h15', 'M4.293 19.707 6 18', 'm9 15 1.5-1.5'],tags: ['gizmo', 'coordinates'],categories: ['design'],);
+  static const LucideIconData baby = LucideIconData(name: 'baby',paths: ['M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5', 'M15 12h.01', 'M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1', 'M9 12h.01'],tags: ['child', 'childproof', 'children'],categories: ['accessibility', 'people'],);
+  static const LucideIconData backpack = LucideIconData(name: 'backpack',paths: ['M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z', 'M8 10h8', 'M8 18h8', 'M8 22v-6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v6', 'M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2'],tags: ['bag', 'hiking', 'travel', 'camping', 'school', 'childhood'],categories: ['gaming', 'photography', 'travel'],);
+  static const LucideIconData badge = LucideIconData(name: 'badge',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z'],tags: ['check', 'verified', 'unverified'],categories: ['account', 'social', 'shapes'],);
+  static const LucideIconData badgeAlert = LucideIconData(name: 'badge-alert',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z'],tags: ['check', 'verified', 'unverified', 'security', 'safety', 'issue'],categories: ['account', 'social'],);
+  static const LucideIconData badgeCent = LucideIconData(name: 'badge-cent',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'M12 7v10', 'M15.4 10a4 4 0 1 0 0 4'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', 'cents', 'dollar', 'usd', '\$', '¢'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeCheck = LucideIconData(name: 'badge-check',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'm9 12 2 2 4-4'],tags: ['verified', 'check'],categories: ['social'],);
+  static const LucideIconData badgeDollarSign = LucideIconData(name: 'badge-dollar-sign',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8', 'M12 18V6'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', 'usd', '\$'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeEuro = LucideIconData(name: 'badge-euro',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'M7 12h5', 'M15 9.4a4 4 0 1 0 0 5.2'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', '€'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeIndianRupee = LucideIconData(name: 'badge-indian-rupee',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'M8 8h8', 'M8 12h8', 'm13 17-5-1h1a4 4 0 0 0 0-8'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', 'inr', '₹'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeInfo = LucideIconData(name: 'badge-info',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z'],tags: ['verified', 'unverified', 'help'],categories: ['account', 'accessibility', 'social'],);
+  static const LucideIconData badgeJapaneseYen = LucideIconData(name: 'badge-japanese-yen',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'm9 8 3 3v7', 'm12 11 3-3', 'M9 12h6', 'M9 16h6'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', 'jpy', '¥'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeMinus = LucideIconData(name: 'badge-minus',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z'],tags: ['verified', 'unverified', 'delete', 'remove', 'erase'],categories: ['social'],);
+  static const LucideIconData badgePercent = LucideIconData(name: 'badge-percent',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'm15 9-6 6', 'M9 9h.01', 'M15 15h.01'],tags: ['verified', 'unverified', 'sale', 'discount', 'offer', 'marketing', 'sticker', 'price tag'],categories: ['social', 'finance', 'shopping', 'math'],);
+  static const LucideIconData badgePlus = LucideIconData(name: 'badge-plus',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z'],tags: ['verified', 'unverified', 'add', 'create', 'new'],categories: ['social'],);
+  static const LucideIconData badgePoundSterling = LucideIconData(name: 'badge-pound-sterling',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'M8 12h4', 'M10 16V9.5a2.5 2.5 0 0 1 5 0', 'M8 16h7'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', 'british', 'gbp', '£'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeQuestionMark = LucideIconData(name: 'badge-question-mark',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'],tags: ['verified', 'unverified', 'help'],categories: ['accessibility', 'social', 'shapes'],);
+  static const LucideIconData badgeRussianRuble = LucideIconData(name: 'badge-russian-ruble',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'M9 16h5', 'M9 12h5a2 2 0 1 0 0-4h-3v9'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', 'rub', '₽'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeSwissFranc = LucideIconData(name: 'badge-swiss-franc',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z', 'M11 17V8h4', 'M11 12h3', 'M9 16h4'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', 'chf', '₣'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeTurkishLira = LucideIconData(name: 'badge-turkish-lira',paths: ['M11 7v10a5 5 0 0 0 5-5', 'm15 8-6 3', 'M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76'],tags: ['discount', 'offer', 'sale', 'voucher', 'tag', 'monetization', 'marketing', 'finance', 'financial', 'exchange', 'transaction', 'payment', 'try', '₺'],categories: ['shopping', 'finance'],);
+  static const LucideIconData badgeX = LucideIconData(name: 'badge-x',paths: ['M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z'],tags: ['verified', 'unverified', 'lost', 'delete', 'remove'],categories: ['social'],);
+  static const LucideIconData baggageClaim = LucideIconData(name: 'baggage-claim',circles: [(18.0, 20.0, 2.0), (9.0, 20.0, 2.0)],rects: [(8.0, 6.0, 13.0, 8.0, 1.0)],paths: ['M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2', 'M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10'],tags: ['baggage', 'luggage', 'travel', 'cart', 'trolley', 'suitcase'],categories: ['transportation', 'travel'],);
+  static const LucideIconData balloon = LucideIconData(name: 'balloon',paths: ['M12 16v1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v1', 'M12 6a2 2 0 0 1 2 2', 'M18 8c0 4-3.5 8-6 8s-6-4-6-8a6 6 0 0 1 12 0'],tags: ['party', 'festival', 'congratulations', 'celebration', 'decoration', 'colorful', 'floating', 'fun', 'birthday', 'event', 'entertainment'],categories: ['emoji'],);
+  static const LucideIconData ban = LucideIconData(name: 'ban',circles: [(12.0, 12.0, 10.0)],paths: ['M4.929 4.929 19.07 19.071'],tags: ['cancel', 'no', 'stop', 'forbidden', 'prohibited', 'error', 'incorrect', 'mistake', 'wrong', 'failure', 'circle', 'slash', 'null', 'void'],categories: ['account'],);
+  static const LucideIconData banana = LucideIconData(name: 'banana',paths: ['M4 13c3.5-2 8-2 10 2a5.5 5.5 0 0 1 8 5', 'M5.15 17.89c5.52-1.52 8.65-6.89 7-12C11.55 4 11.5 2 13 2c3.22 0 5 5.5 5 8 0 6.5-4.2 12-10.49 12C5.11 22 2 22 2 20c0-1.5 1.14-1.55 3.15-2.11Z'],tags: ['fruit', 'food'],categories: ['food-beverage'],);
+  static const LucideIconData bandage = LucideIconData(name: 'bandage',paths: ['M10 10.01h.01', 'M10 14.01h.01', 'M14 10.01h.01', 'M14 14.01h.01', 'M18 6v12', 'M6 6v12'],tags: ['plaster', 'band-aid', 'first aid', 'medical', 'health', 'wound', 'injury', 'care', 'treatment', 'healing', 'protection', 'emergency', 'aid', 'safety', 'patch'],categories: ['medical'],);
+  static const LucideIconData banknote = LucideIconData(name: 'banknote',circles: [(12.0, 12.0, 2.0)],rects: [(2.0, 6.0, 20.0, 12.0, 2.0)],paths: ['M6 12h.01M18 12h.01'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData banknoteArrowDown = LucideIconData(name: 'banknote-arrow-down',circles: [(12.0, 12.0, 2.0)],paths: ['M12 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5', 'm16 19 3 3 3-3', 'M18 12h.01', 'M19 16v6', 'M6 12h.01'],tags: ['bill', 'currency', 'money', 'payment', 'funds', 'transaction', 'cash', 'finance', 'withdraw', 'expense', 'out', 'payout', 'refund', 'debit', 'spending', 'decrease'],categories: ['finance'],);
+  static const LucideIconData banknoteArrowUp = LucideIconData(name: 'banknote-arrow-up',circles: [(12.0, 12.0, 2.0)],paths: ['M12 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5', 'M18 12h.01', 'M19 22v-6', 'm22 19-3-3-3 3', 'M6 12h.01'],tags: ['bill', 'currency', 'money', 'payment', 'funds', 'transaction', 'cash', 'finance', 'deposit', 'earnings', 'income', 'in', 'credit', 'prepaid', 'growth', 'increase'],categories: ['finance'],);
+  static const LucideIconData banknoteX = LucideIconData(name: 'banknote-x',circles: [(12.0, 12.0, 2.0)],paths: ['M13 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5', 'm17 17 5 5', 'M18 12h.01', 'm22 17-5 5', 'M6 12h.01'],tags: ['bill', 'currency', 'money', 'payment', 'funds', 'transaction', 'cash', 'finance', 'error', 'failed', 'rejected', 'canceled', 'declined', 'lost', 'delete', 'remove'],categories: ['finance'],);
+  static const LucideIconData barcode = LucideIconData(name: 'barcode',paths: ['M3 5v14', 'M8 5v14', 'M12 5v14', 'M17 5v14', 'M21 5v14'],tags: ['scan', 'checkout', 'till', 'cart', 'transaction', 'purchase', 'buy', 'product', 'packaging', 'retail', 'consumer'],categories: ['shopping'],);
+  static const LucideIconData barrel = LucideIconData(name: 'barrel',paths: ['M10 3a41 41 0 0 0 0 18', 'M14 3a41 41 0 0 1 0 18', 'M17 3a2 2 0 0 1 1.68.92 15.25 15.25 0 0 1 0 16.16A2 2 0 0 1 17 21H7a2 2 0 0 1-1.68-.92 15.25 15.25 0 0 1 0-16.16A2 2 0 0 1 7 3z', 'M3.84 17h16.32', 'M3.84 7h16.32'],tags: ['keg', 'drum', 'tank', 'wine', 'beer', 'oak', 'wood', 'firkin', 'hogshead', 'kilderkin', 'barrique', 'solera', 'aging', 'whiskey', 'brewery', 'distillery', 'winery', 'vineyard'],categories: ['food-beverage', 'navigation'],);
+  static const LucideIconData baseline = LucideIconData(name: 'baseline',paths: ['M4 20h16', 'm6 16 6-12 6 12', 'M8 12h8'],tags: ['text', 'format', 'color'],categories: ['text'],);
+  static const LucideIconData bath = LucideIconData(name: 'bath',paths: ['M10 4 8 6', 'M17 19v2', 'M2 12h20', 'M7 19v2', 'M9 5 7.621 3.621A2.121 2.121 0 0 0 4 5v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5'],tags: ['amenities', 'services', 'bathroom', 'shower'],categories: ['travel'],);
+  static const LucideIconData battery = LucideIconData(name: 'battery',paths: ['M 22 14 L 22 10'],tags: ['power', 'electricity', 'energy', 'accumulator', 'charge'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData batteryCharging = LucideIconData(name: 'battery-charging',paths: ['m11 7-3 5h4l-3 5', 'M14.856 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.935', 'M22 14v-4', 'M5.14 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2.936'],tags: ['power', 'electricity', 'energy', 'accumulator', 'charge'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData batteryFull = LucideIconData(name: 'battery-full',paths: ['M10 10v4', 'M14 10v4', 'M22 14v-4', 'M6 10v4'],tags: ['power', 'electricity', 'energy', 'accumulator', 'charge'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData batteryLow = LucideIconData(name: 'battery-low',paths: ['M22 14v-4', 'M6 14v-4'],tags: ['power', 'electricity', 'energy', 'accumulator', 'charge'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData batteryMedium = LucideIconData(name: 'battery-medium',paths: ['M10 14v-4', 'M22 14v-4', 'M6 14v-4'],tags: ['power', 'electricity', 'energy', 'accumulator', 'charge'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData batteryPlus = LucideIconData(name: 'battery-plus',paths: ['M10 9v6', 'M12.543 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.605', 'M22 14v-4', 'M7 12h6', 'M7.606 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.606'],tags: ['power', 'electricity', 'energy', 'accumulator', 'charge', 'plus', 'economy', 'health', 'add', 'new', 'maximum', 'upgrade', 'extra', '+'],categories: ['devices'],);
+  static const LucideIconData batteryWarning = LucideIconData(name: 'battery-warning',paths: ['M10 17h.01', 'M10 7v6', 'M14 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2', 'M22 14v-4', 'M6 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2'],tags: ['power', 'electricity', 'energy', 'accumulator', 'charge', 'exclamation mark'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData beaker = LucideIconData(name: 'beaker',paths: ['M4.5 3h15', 'M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3', 'M6 14h12'],tags: ['cup', 'lab', 'chemistry', 'experiment', 'test'],categories: ['science', 'gaming'],);
+  static const LucideIconData bean = LucideIconData(name: 'bean',paths: ['M10.165 6.598C9.954 7.478 9.64 8.36 9 9c-.64.64-1.521.954-2.402 1.165A6 6 0 0 0 8 22c7.732 0 14-6.268 14-14a6 6 0 0 0-11.835-1.402Z', 'M5.341 10.62a4 4 0 1 0 5.279-5.28'],tags: ['legume', 'soy', 'food', 'seed'],categories: ['food-beverage'],);
+  static const LucideIconData beanOff = LucideIconData(name: 'bean-off',paths: ['M9 9c-.64.64-1.521.954-2.402 1.165A6 6 0 0 0 8 22a13.96 13.96 0 0 0 9.9-4.1', 'M10.75 5.093A6 6 0 0 1 22 8c0 2.411-.61 4.68-1.683 6.66', 'M5.341 10.62a4 4 0 0 0 6.487 1.208M10.62 5.341a4.015 4.015 0 0 1 2.039 2.04'],tags: ['soy free', 'legume', 'soy', 'food', 'seed', 'allergy', 'intolerance', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData bed = LucideIconData(name: 'bed',paths: ['M2 4v16', 'M2 8h18a2 2 0 0 1 2 2v10', 'M2 17h20', 'M6 8v9'],tags: ['sleep', 'hotel', 'furniture'],categories: ['home'],);
+  static const LucideIconData bedDouble = LucideIconData(name: 'bed-double',paths: ['M2 20v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8', 'M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4', 'M12 4v6', 'M2 18h20'],tags: ['sleep', 'hotel', 'furniture'],categories: ['home'],);
+  static const LucideIconData bedSingle = LucideIconData(name: 'bed-single',paths: ['M3 20v-8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8', 'M5 10V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4', 'M3 18h18'],tags: ['sleep', 'hotel', 'furniture'],categories: ['home'],);
+  static const LucideIconData beef = LucideIconData(name: 'beef',circles: [(12.5, 8.5, 2.5)],paths: ['M16.4 13.7A6.5 6.5 0 1 0 6.28 6.6c-1.1 3.13-.78 3.9-3.18 6.08A3 3 0 0 0 5 18c4 0 8.4-1.8 11.4-4.3', 'm18.5 6 2.19 4.5a6.48 6.48 0 0 1-2.29 7.2C15.4 20.2 11 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5'],tags: ['food', 'dish', 'restaurant', 'course', 'meal', 'meat', 'bbq', 'steak'],categories: ['food-beverage'],);
+  static const LucideIconData beefOff = LucideIconData(name: 'beef-off',paths: ['M11.771 6.109a2.5 2.5 0 0 1 3.12 3.12', 'M17.852 12.185a6.5 6.5 0 0 0-9.035-9.04', 'M18.013 18.013C15.029 20.349 10.831 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5', 'm18.5 6 2.19 4.5a6.48 6.48 0 0 1-.139 4.393', 'm2 2 20 20', 'M6.355 6.37a7 7 0 0 0-.075.23c-1.1 3.13-.78 3.9-3.18 6.08A3 3 0 0 0 5 18c3.356 0 6.993-1.267 9.85-3.151'],tags: ['food', 'dish', 'restaurant', 'course', 'meal', 'meat', 'bbq', 'steak', 'vegetarian'],categories: ['food-beverage'],);
+  static const LucideIconData beer = LucideIconData(name: 'beer',paths: ['M17 11h1a3 3 0 0 1 0 6h-1', 'M9 12v6', 'M13 12v6', 'M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z', 'M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8'],tags: ['alcohol', 'bar', 'beverage', 'brewery', 'drink'],categories: ['food-beverage'],);
+  static const LucideIconData beerOff = LucideIconData(name: 'beer-off',paths: ['M13 13v5', 'M17 11.47V8', 'M17 11h1a3 3 0 0 1 2.745 4.211', 'm2 2 20 20', 'M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-3', 'M7.536 7.535C6.766 7.649 6.154 8 5.5 8a2.5 2.5 0 0 1-1.768-4.268', 'M8.727 3.204C9.306 2.767 9.885 2 11 2c1.56 0 2 1.5 3 1.5s1.72-.5 2.5-.5a1 1 0 1 1 0 5c-.78 0-1.5-.5-2.5-.5a3.149 3.149 0 0 0-.842.12', 'M9 14.6V18'],tags: ['alcohol', 'bar', 'beverage', 'brewery', 'drink'],categories: ['food-beverage'],);
+  static const LucideIconData bell = LucideIconData(name: 'bell',paths: ['M10.268 21a2 2 0 0 0 3.464 0', 'M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326'],tags: ['alarm', 'notification', 'sound', 'reminder'],categories: ['account', 'notifications'],);
+  static const LucideIconData bellDot = LucideIconData(name: 'bell-dot',circles: [(18.0, 5.0, 3.0)],paths: ['M10.268 21a2 2 0 0 0 3.464 0', 'M11.68 2.009A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673c-.824-.85-1.678-1.731-2.21-3.348'],tags: ['alarm', 'notification', 'sound', 'reminder', 'unread'],categories: ['account', 'notifications'],);
+  static const LucideIconData bellElectric = LucideIconData(name: 'bell-electric',circles: [(20.0, 16.0, 2.0), (9.0, 9.0, 7.0)],paths: ['M18.518 17.347A7 7 0 0 1 14 19', 'M18.8 4A11 11 0 0 1 20 9', 'M9 9h.01'],tags: ['fire alarm', 'flames', 'smoke', 'firefighter', 'fireman', 'department', 'brigade', 'station', 'emergency', 'alert', 'safety', 'school bell', 'period break', 'recess', 'doorbell', 'entrance', 'entry', 'ring', 'reception'],categories: ['devices', 'notifications', 'home'],);
+  static const LucideIconData bellMinus = LucideIconData(name: 'bell-minus',paths: ['M10.268 21a2 2 0 0 0 3.464 0', 'M15 8h6', 'M16.243 3.757A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673A9.4 9.4 0 0 1 18.667 12'],tags: ['alarm', 'notification', 'silent', 'reminder', 'delete', 'remove', 'erase'],categories: ['notifications'],);
+  static const LucideIconData bellOff = LucideIconData(name: 'bell-off',paths: ['M10.268 21a2 2 0 0 0 3.464 0', 'M17 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 .258-1.742', 'm2 2 20 20', 'M8.668 3.01A6 6 0 0 1 18 8c0 2.687.77 4.653 1.707 6.05'],tags: ['alarm', 'notification', 'silent', 'reminder'],categories: ['notifications'],);
+  static const LucideIconData bellPlus = LucideIconData(name: 'bell-plus',paths: ['M10.268 21a2 2 0 0 0 3.464 0', 'M15 8h6', 'M18 5v6', 'M20.002 14.464a9 9 0 0 0 .738.863A1 1 0 0 1 20 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 8.75-5.332'],tags: ['notification', 'silent', 'reminder', 'add', 'create', 'new'],categories: ['notifications'],);
+  static const LucideIconData bellRing = LucideIconData(name: 'bell-ring',paths: ['M10.268 21a2 2 0 0 0 3.464 0', 'M22 8c0-2.3-.8-4.3-2-6', 'M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326', 'M4 2C2.8 3.7 2 5.7 2 8'],tags: ['alarm', 'notification', 'sound', 'reminder'],categories: ['notifications'],);
+  static const LucideIconData betweenHorizontalEnd = LucideIconData(name: 'between-horizontal-end',rects: [(3.0, 3.0, 13.0, 7.0, 1.0), (3.0, 14.0, 13.0, 7.0, 1.0)],paths: ['m22 15-3-3 3-3'],tags: ['insert', 'add', 'left', 'slot', 'squeeze', 'space', 'vertical', 'grid', 'table', 'rows', 'cells', 'excel', 'spreadsheet', 'accountancy', 'data', 'enter', 'entry', 'entries', 'blocks', 'rectangles', 'chevron'],categories: ['layout', 'design', 'tools'],);
+  static const LucideIconData betweenHorizontalStart = LucideIconData(name: 'between-horizontal-start',rects: [(8.0, 3.0, 13.0, 7.0, 1.0), (8.0, 14.0, 13.0, 7.0, 1.0)],paths: ['m2 9 3 3-3 3'],tags: ['insert', 'add', 'right', 'slot', 'squeeze', 'space', 'vertical', 'grid', 'table', 'rows', 'cells', 'excel', 'spreadsheet', 'accountancy', 'data', 'enter', 'entry', 'entries', 'blocks', 'rectangles', 'chevron'],categories: ['layout', 'design', 'tools'],);
+  static const LucideIconData betweenVerticalEnd = LucideIconData(name: 'between-vertical-end',rects: [(3.0, 3.0, 7.0, 13.0, 1.0), (14.0, 3.0, 7.0, 13.0, 1.0)],paths: ['m9 22 3-3 3 3'],tags: ['insert', 'add', 'top', 'slot', 'squeeze', 'space', 'vertical', 'grid', 'table', 'columns', 'cells', 'data', 'enter', 'entry', 'entries', 'blocks', 'rectangles', 'chevron'],categories: ['layout', 'design', 'tools'],);
+  static const LucideIconData betweenVerticalStart = LucideIconData(name: 'between-vertical-start',rects: [(3.0, 8.0, 7.0, 13.0, 1.0), (14.0, 8.0, 7.0, 13.0, 1.0)],paths: ['m15 2-3 3-3-3'],tags: ['insert', 'add', 'bottom', 'slot', 'squeeze', 'space', 'vertical', 'grid', 'table', 'columns', 'cells', 'data', 'enter', 'entry', 'entries', 'blocks', 'rectangles', 'chevron'],categories: ['layout', 'design', 'tools'],);
+  static const LucideIconData bicepsFlexed = LucideIconData(name: 'biceps-flexed',paths: ['M12.409 13.017A5 5 0 0 1 22 15c0 3.866-4 7-9 7-4.077 0-8.153-.82-10.371-2.462-.426-.316-.631-.832-.62-1.362C2.118 12.723 2.627 2 10 2a3 3 0 0 1 3 3 2 2 0 0 1-2 2c-1.105 0-1.64-.444-2-1', 'M15 14a5 5 0 0 0-7.584 2', 'M9.964 6.825C8.019 7.977 9.5 13 8 15'],tags: ['arm', 'muscle', 'strong', 'working out', 'athletic', 'toned', 'muscular', 'forelimb', 'curled'],categories: ['emoji'],);
+  static const LucideIconData bike = LucideIconData(name: 'bike',circles: [(18.5, 17.5, 3.5), (5.5, 17.5, 3.5), (15.0, 5.0, 1.0)],paths: ['M12 17.5V14l-3-3 4-3 2 3h2'],tags: ['bicycle', 'transport', 'trip'],categories: ['transportation'],);
+  static const LucideIconData binary = LucideIconData(name: 'binary',paths: ['M6 20h4', 'M14 10h4', 'M6 14h2v6', 'M14 4h2v6'],tags: ['code', 'digits', 'computer', 'zero', 'one', 'boolean'],categories: ['text', 'development'],);
+  static const LucideIconData binoculars = LucideIconData(name: 'binoculars',paths: ['M10 10h4', 'M19 7V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3', 'M20 21a2 2 0 0 0 2-2v-3.851c0-1.39-2-2.962-2-4.829V8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2z', 'M 22 16 L 2 16', 'M4 21a2 2 0 0 1-2-2v-3.851c0-1.39 2-2.962 2-4.829V8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v11a2 2 0 0 1-2 2z', 'M9 7V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3'],tags: ['field glasses', 'lorgnette', 'pince-nez', 'observation', 'sightseeing', 'nature', 'wildlife', 'birdwatching', 'scouting', 'surveillance', 'search', 'discovery', 'monitoring', 'lookout', 'viewpoint', 'travel', 'tourism', 'research'],categories: ['navigation', 'nature', 'photography', 'science', 'travel', 'development'],);
+  static const LucideIconData biohazard = LucideIconData(name: 'biohazard',circles: [(12.0, 11.9, 2.0)],paths: ['M6.7 3.4c-.9 2.5 0 5.2 2.2 6.7C6.5 9 3.7 9.6 2 11.6', 'm8.9 10.1 1.4.8', 'M17.3 3.4c.9 2.5 0 5.2-2.2 6.7 2.4-1.2 5.2-.6 6.9 1.5', 'm15.1 10.1-1.4.8', 'M16.7 20.8c-2.6-.4-4.6-2.6-4.7-5.3-.2 2.6-2.1 4.8-4.7 5.2', 'M12 13.9v1.6', 'M13.5 5.4c-1-.2-2-.2-3 0', 'M17 16.4c.7-.7 1.2-1.6 1.5-2.5', 'M5.5 13.9c.3.9.8 1.8 1.5 2.5'],tags: ['fallout', 'waste', 'biology', 'chemistry', 'chemical', 'element'],categories: ['science'],);
+  static const LucideIconData bird = LucideIconData(name: 'bird',paths: ['M16 7h.01', 'M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20', 'm20 7 2 .5-2 .5', 'M10 18v3', 'M14 17.75V21', 'M7 18a6 6 0 0 0 3.84-10.61'],tags: ['peace', 'freedom', 'wing', 'avian', 'tweet'],categories: ['animals'],);
+  static const LucideIconData birdhouse = LucideIconData(name: 'birdhouse',circles: [(12.0, 10.0, 2.0)],paths: ['M12 18v4', 'm17 18 1.956-11.468', 'm3 8 7.82-5.615a2 2 0 0 1 2.36 0L21 8', 'M4 18h16', 'M7 18 5.044 6.532'],tags: ['birdhouse', 'bird', 'garden', 'home', 'house', 'woodwork'],categories: ['nature', 'animals', 'navigation', 'home'],);
+  static const LucideIconData bitcoin = LucideIconData(name: 'bitcoin',paths: ['M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727'],tags: ['cryptocurrency', 'digital', 'blockchain', 'finance', 'coin', 'market', 'decentralized', 'investment', 'crypto', 'currency', 'money', 'payment'],categories: ['development', 'finance'],);
+  static const LucideIconData blend = LucideIconData(name: 'blend',circles: [(9.0, 9.0, 7.0), (15.0, 15.0, 7.0)],tags: ['mode', 'overlay', 'multiply', 'screen', 'opacity', 'transparency', 'alpha', 'filters', 'lenses', 'mixed', 'shades', 'tints', 'hues', 'saturation', 'brightness', 'overlap', 'colors', 'colours'],categories: ['design', 'photography', 'tools', 'development'],);
+  static const LucideIconData blinds = LucideIconData(name: 'blinds',circles: [(4.0, 19.0, 2.0)],paths: ['M3 3h18', 'M20 7H8', 'M20 11H8', 'M10 19h10', 'M8 15h12', 'M4 3v14'],tags: ['shades', 'screen', 'curtain', 'shutter', 'roller blind', 'window', 'lighting', 'household', 'home'],categories: ['home'],);
+  static const LucideIconData blocks = LucideIconData(name: 'blocks',paths: ['M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2'],tags: ['addon', 'plugin', 'integration', 'extension', 'package', 'build', 'stack', 'toys', 'kids', 'children', 'learning', 'squares', 'corner'],categories: ['development', 'layout', 'shapes'],);
+  static const LucideIconData bluetooth = LucideIconData(name: 'bluetooth',paths: ['m7 7 10 10-5 5V2l5 5L7 17'],tags: ['wireless'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData bluetoothConnected = LucideIconData(name: 'bluetooth-connected',paths: ['m7 7 10 10-5 5V2l5 5L7 17'],tags: ['paired'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData bluetoothOff = LucideIconData(name: 'bluetooth-off',paths: ['m17 17-5 5V12l-5 5', 'm2 2 20 20', 'M14.5 9.5 17 7l-5-5v4.5'],tags: ['lost'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData bluetoothSearching = LucideIconData(name: 'bluetooth-searching',paths: ['m7 7 10 10-5 5V2l5 5L7 17', 'M20.83 14.83a4 4 0 0 0 0-5.66', 'M18 12h.01'],tags: ['pairing'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData bold = LucideIconData(name: 'bold',paths: ['M6 12h9a4 4 0 0 1 0 8H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h7a4 4 0 0 1 0 8'],tags: ['text', 'strong', 'format'],categories: ['text'],);
+  static const LucideIconData bolt = LucideIconData(name: 'bolt',circles: [(12.0, 12.0, 4.0)],paths: ['M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'],tags: ['nut', 'screw', 'settings', 'preferences', 'configuration', 'controls', 'edit', 'diy', 'fixed', 'build', 'construction', 'parts'],categories: ['tools', 'home'],);
+  static const LucideIconData bomb = LucideIconData(name: 'bomb',circles: [(11.0, 13.0, 9.0)],paths: ['M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.4 2.4 0 0 1 0 3.4l-1.95 1.95', 'm22 2-1.5 1.5'],tags: ['fatal', 'error', 'crash', 'blockbuster', 'mine', 'explosion', 'explode', 'explosive'],categories: ['security', 'tools'],);
+  static const LucideIconData bone = LucideIconData(name: 'bone',paths: ['M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z'],tags: ['health', 'skeleton', 'skull', 'death', 'pets', 'dog'],categories: ['animals', 'medical', 'gaming'],);
+  static const LucideIconData book = LucideIconData(name: 'book',paths: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'],tags: ['reading', 'paperback', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'tome', 'library', 'writing', 'written', 'writer', 'author', 'story', 'script', 'fiction', 'novel', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'homework', 'research', 'documentation'],categories: ['text', 'development', 'gaming'],);
+  static const LucideIconData bookA = LucideIconData(name: 'book-a',paths: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'm8 13 4-7 4 7', 'M9.1 11h5.7'],tags: ['dictionary', 'define', 'definition', 'thesaurus', 'encyclopedia', 'encyclopaedia', 'reading', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'tome', 'library', 'writing', 'written', 'writer', 'author', 'story', 'script', 'fiction', 'novel', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'homework', 'research', 'language', 'translate', 'alphabetical', 'a-z', 'ordered'],categories: ['text', 'gaming'],);
+  static const LucideIconData bookAlert = LucideIconData(name: 'book-alert',paths: ['M12 13h.01', 'M12 6v3', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'],tags: ['reading', 'paperback', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'tome', 'library', 'writing', 'written', 'writer', 'author', 'story', 'script', 'fiction', 'novel', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'homework', 'research', 'documentation', 'warning', 'alert', 'danger', 'exclamation mark'],categories: ['text', 'development', 'gaming'],);
+  static const LucideIconData bookAudio = LucideIconData(name: 'book-audio',paths: ['M12 6v7', 'M16 8v3', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'M8 8v3'],tags: ['audiobook', 'reading', 'listening', 'sound', 'story', 'fiction', 'novel', 'information', 'knowledge', 'education', 'student', 'study', 'learning', 'research'],categories: ['multimedia', 'text'],);
+  static const LucideIconData bookCheck = LucideIconData(name: 'book-check',paths: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'm9 9.5 2 2 4-4'],tags: ['read', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'library', 'written', 'authored', 'published', 'informed', 'knowledgeable', 'educated', 'schooled', 'homework', 'examined', 'tested', 'marked', 'passed', 'graduated', 'studied', 'learned', 'lesson', 'researched', 'documented', 'revealed', 'blank', 'plain language', 'true', 'truth', 'verified', 'corrected', 'task', 'todo', 'done', 'completed', 'finished', 'ticked'],categories: ['text', 'development', 'gaming'],);
+  static const LucideIconData bookCopy = LucideIconData(name: 'book-copy',paths: ['M5 7a2 2 0 0 0-2 2v11', 'M5.803 18H5a2 2 0 0 0 0 4h9.5a.5.5 0 0 0 .5-.5V21', 'M9 15V4a2 2 0 0 1 2-2h9.5a.5.5 0 0 1 .5.5v14a.5.5 0 0 1-.5.5H11a2 2 0 0 1 0-4h10'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'clone', 'fork', 'duplicate', 'multiple', 'books', 'library', 'copies', 'copied', 'plagiarism', 'plagiarised', 'plagiarized', 'reading list', 'information', 'informed', 'knowledge', 'knowledgeable', 'knowledgable', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'research', 'smart', 'intelligent', 'intellectual'],categories: ['development', 'text', 'gaming'],);
+  static const LucideIconData bookDashed = LucideIconData(name: 'book-dashed',paths: ['M12 17h1.5', 'M12 22h1.5', 'M12 2h1.5', 'M17.5 22H19a1 1 0 0 0 1-1', 'M17.5 2H19a1 1 0 0 1 1 1v1.5', 'M20 14v3h-2.5', 'M20 8.5V10', 'M4 10V8.5', 'M4 19.5V14', 'M4 4.5A2.5 2.5 0 0 1 6.5 2H8', 'M8 22H6.5a1 1 0 0 1 0-5H8'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'template', 'draft', 'script', 'screenplay', 'writing', 'writer', 'author', 'unwritten', 'unpublished', 'untold'],categories: ['development'],);
+  static const LucideIconData bookDown = LucideIconData(name: 'book-down',paths: ['M12 13V7', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'm9 10 3 3 3-3'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'pull'],categories: ['development'],);
+  static const LucideIconData bookHeadphones = LucideIconData(name: 'book-headphones',circles: [(15.0, 12.0, 1.0), (9.0, 12.0, 1.0)],paths: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'M8 12v-2a4 4 0 0 1 8 0v2'],tags: ['audiobook', 'reading', 'listening', 'sound', 'story', 'fiction', 'novel', 'information', 'knowledge', 'education', 'student', 'study', 'learning', 'research'],categories: ['multimedia', 'text'],);
+  static const LucideIconData bookHeart = LucideIconData(name: 'book-heart',paths: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'M8.62 9.8A2.25 2.25 0 1 1 12 6.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z'],tags: ['diary', 'romance', 'novel', 'journal', 'entry', 'entries', 'personal', 'private', 'secret', 'crush', 'like', 'love', 'emotion', 'feminine', 'girls', 'teens', 'teenager', 'therapy', 'theraputic', 'therapist', 'planner', 'organizer', 'organiser', 'notes', 'notepad', 'stationery', 'sketchbook', 'writing', 'written', 'reading', 'favorite', 'favourite', 'high school'],categories: ['social', 'text', 'gaming'],);
+  static const LucideIconData bookImage = LucideIconData(name: 'book-image',circles: [(10.0, 8.0, 2.0)],paths: ['m20 13.7-2.1-2.1a2 2 0 0 0-2.8 0L9.7 17', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'],tags: ['images', 'pictures', 'photos', 'album', 'collection', 'event', 'magazine', 'catalog', 'catalogue', 'brochure', 'browse', 'gallery'],categories: ['photography', 'text', 'multimedia', 'files', 'social', 'shopping', 'travel'],);
+  static const LucideIconData bookKey = LucideIconData(name: 'book-key',circles: [(17.0, 10.0, 2.0)],paths: ['M13 2H6.5A2.5 2.5 0 0 0 4 4.5v15', 'M17 2v6', 'M17 4h2', 'M20 15.2V21a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'private', 'public', 'secret', 'unlocked', 'hidden', 'revealed', 'knowledge', 'learning'],categories: ['development', 'security', 'gaming'],);
+  static const LucideIconData bookLock = LucideIconData(name: 'book-lock',paths: ['M18 6V4a2 2 0 1 0-4 0v2', 'M20 15v6a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H10'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'private', 'secret', 'hidden', 'knowledge'],categories: ['development', 'security', 'gaming'],);
+  static const LucideIconData bookMarked = LucideIconData(name: 'book-marked',paths: ['M10 2v8l3-3 3 3V2', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'],tags: ['dictionary', 'reading', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'tome', 'library', 'writing', 'written', 'writer', 'author', 'story', 'script', 'fiction', 'novel', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'homework', 'research', 'documentation', 'saved', 'later', 'future', 'reference', 'index', 'code', 'coding', 'version control', 'git', 'repository'],categories: ['text', 'development', 'gaming'],);
+  static const LucideIconData bookMinus = LucideIconData(name: 'book-minus',paths: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'M9 10h6'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'remove', 'delete', 'censor', 'cancel', 'forbid', 'prohibit', 'ban', 'uneducated', 're-educate', 'unlearn', 'downgrade'],categories: ['development', 'text', 'gaming'],);
+  static const LucideIconData bookOpen = LucideIconData(name: 'book-open',paths: ['M12 7v14', 'M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z'],tags: ['reading', 'pages', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'library', 'writing', 'written', 'writer', 'author', 'story', 'script', 'screenplay', 'fiction', 'novel', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'homework', 'research', 'documentation', 'revealed', 'blank', 'plain'],categories: ['text', 'development', 'gaming'],);
+  static const LucideIconData bookOpenCheck = LucideIconData(name: 'book-open-check',paths: ['M12 21V7', 'm16 12 2 2 4-4', 'M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3'],tags: ['read', 'pages', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'library', 'written', 'authored', 'published', 'informed', 'knowledgeable', 'educated', 'schooled', 'homework', 'examined', 'tested', 'marked', 'passed', 'graduated', 'studied', 'learned', 'lesson', 'researched', 'documented', 'revealed', 'blank', 'plain language', 'true', 'truth', 'verified', 'corrected', 'task', 'todo', 'done', 'completed', 'finished', 'ticked'],categories: ['text', 'development', 'gaming'],);
+  static const LucideIconData bookOpenText = LucideIconData(name: 'book-open-text',paths: ['M12 7v14', 'M16 12h2', 'M16 8h2', 'M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z', 'M6 12h2', 'M6 8h2'],tags: ['reading', 'pages', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'library', 'writing', 'written', 'writer', 'author', 'story', 'script', 'fiction', 'novel', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'homework', 'research', 'documentation', 'revealed'],categories: ['text', 'development'],);
+  static const LucideIconData bookPlus = LucideIconData(name: 'book-plus',paths: ['M12 7v6', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'M9 10h6'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'remove', 'delete', 'read', 'write', 'author', 'publish', 'inform', 'graduate', 're-educate', 'study', 'learn', 'research', 'knowledge', 'improve', 'upgrade', 'level up'],categories: ['development', 'text', 'gaming'],);
+  static const LucideIconData bookSearch = LucideIconData(name: 'book-search',circles: [(17.0, 18.0, 3.0)],paths: ['M11 22H5.5a1 1 0 0 1 0-5h4.501', 'm21 22-1.879-1.878', 'M3 19.5v-15A2.5 2.5 0 0 1 5.5 2H18a1 1 0 0 1 1 1v8'],tags: ['reading', 'library', 'study', 'education', 'research', 'knowledge', 'discover', 'browsing', 'lookup', 'finding', 'scanning'],categories: ['text', 'development', 'gaming'],);
+  static const LucideIconData bookText = LucideIconData(name: 'book-text',paths: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'M8 11h8', 'M8 7h6'],tags: ['reading', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'tome', 'library', 'writing', 'written', 'writer', 'author', 'story', 'script', 'fiction', 'novel', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'homework', 'research', 'documentation'],categories: ['text', 'gaming'],);
+  static const LucideIconData bookType = LucideIconData(name: 'book-type',paths: ['M10 13h4', 'M12 6v7', 'M16 8V6H8v2', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'],tags: ['thesaurus', 'synonym', 'reading', 'booklet', 'magazine', 'leaflet', 'pamphlet', 'tome', 'library', 'writing', 'written', 'writer', 'author', 'story', 'script', 'fiction', 'novel', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'student', 'study', 'learning', 'homework', 'research', 'language', 'translate', 'typography', 'fonts', 'collection'],categories: ['text', 'design', 'gaming'],);
+  static const LucideIconData bookUp = LucideIconData(name: 'book-up',paths: ['M12 13V7', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'm9 10 3-3 3 3'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'push'],categories: ['development'],);
+  static const LucideIconData bookUp2 = LucideIconData(name: 'book-up-2',paths: ['M12 13V7', 'M18 2h1a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2', 'm9 10 3-3 3 3', 'm9 5 3-3 3 3'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'push', 'force'],categories: ['development'],);
+  static const LucideIconData bookUser = LucideIconData(name: 'book-user',circles: [(12.0, 8.0, 2.0)],paths: ['M15 13a3 3 0 1 0-6 0', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'],tags: ['person', 'people', 'family', 'friends', 'acquaintances', 'contacts', 'details', 'addresses', 'phone numbers', 'directory', 'listing', 'networking'],categories: ['account', 'connectivity', 'communication', 'social'],);
+  static const LucideIconData bookX = LucideIconData(name: 'book-x',paths: ['m14.5 7-5 5', 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20', 'm9.5 7 5 5'],tags: ['code', 'coding', 'version control', 'git', 'repository', 'remove', 'delete', 'reading', 'misinformation', 'disinformation', 'misinformed', 'charlatan', 'sophistry', 'false', 'lies', 'untruth', 'propaganda', 'censored', 'cancelled', 'forbidden', 'prohibited', 'banned', 'uneducated', 're-education', 'unlearn'],categories: ['text', 'gaming'],);
+  static const LucideIconData bookmark = LucideIconData(name: 'bookmark',paths: ['M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z'],tags: ['save', 'favorite', 'mark', 'label', 'attachment', 'file', 'stick', 'pin', 'read', 'clip', 'marker', 'tag'],categories: ['account'],);
+  static const LucideIconData bookmarkCheck = LucideIconData(name: 'bookmark-check',paths: ['M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z', 'm9 10 2 2 4-4'],tags: ['read', 'finished', 'complete', 'clip', 'marker', 'tag', 'task', 'todo'],categories: ['account'],);
+  static const LucideIconData bookmarkMinus = LucideIconData(name: 'bookmark-minus',paths: ['M15 10H9', 'M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z'],tags: ['delete', 'remove'],categories: ['account'],);
+  static const LucideIconData bookmarkPlus = LucideIconData(name: 'bookmark-plus',paths: ['M12 7v6', 'M15 10H9', 'M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z'],tags: ['add'],categories: ['account'],);
+  static const LucideIconData bookmarkX = LucideIconData(name: 'bookmark-x',paths: ['m14.5 7.5-5 5', 'M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z', 'm9.5 7.5 5 5'],tags: ['read', 'clip', 'marker', 'tag', 'cancel', 'close', 'delete', 'remove', 'clear'],categories: ['account'],);
+  static const LucideIconData boomBox = LucideIconData(name: 'boom-box',circles: [(8.0, 15.0, 2.0), (16.0, 15.0, 2.0)],rects: [(2.0, 9.0, 20.0, 12.0, 2.0)],paths: ['M4 9V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4', 'M8 8v1', 'M12 8v1', 'M16 8v1'],tags: ['radio', 'speakers', 'audio', 'music', 'sound', 'broadcast', 'live', 'frequency'],categories: ['devices', 'multimedia', 'social'],);
+  static const LucideIconData bot = LucideIconData(name: 'bot',rects: [(4.0, 8.0, 16.0, 12.0, 2.0)],paths: ['M12 8V4H8', 'M2 14h2', 'M20 14h2', 'M15 13v2', 'M9 13v2'],tags: ['robot', 'ai', 'chat', 'assistant'],categories: ['development', 'social'],);
+  static const LucideIconData botMessageSquare = LucideIconData(name: 'bot-message-square',paths: ['M12 6V2H8', 'M15 11v2', 'M2 12h2', 'M20 12h2', 'M20 16a2 2 0 0 1-2 2H8.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 4 20.286V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z', 'M9 11v2'],tags: ['robot', 'ai', 'chat', 'assistant'],categories: ['development', 'social'],);
+  static const LucideIconData botOff = LucideIconData(name: 'bot-off',paths: ['M13.67 8H18a2 2 0 0 1 2 2v4.33', 'M2 14h2', 'M20 14h2', 'M22 22 2 2', 'M8 8H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 1.414-.586', 'M9 13v2', 'M9.67 4H12v2.33'],tags: ['robot', 'ai', 'chat', 'assistant'],categories: ['development', 'social'],);
+  static const LucideIconData bottleWine = LucideIconData(name: 'bottle-wine',paths: ['M10 3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a6 6 0 0 0 1.2 3.6l.6.8A6 6 0 0 1 17 13v8a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-8a6 6 0 0 1 1.2-3.6l.6-.8A6 6 0 0 0 10 5z', 'M17 13h-4a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h4'],tags: ['alcohol', 'drink', 'glass', 'goblet', 'chalice', 'vineyard', 'winery', 'red', 'white', 'rose', 'dry', 'sparkling', 'bar', 'party', 'nightclub', 'nightlife', 'sommelier', 'restaurant', 'dinner', 'meal'],categories: ['food-beverage'],);
+  static const LucideIconData bowArrow = LucideIconData(name: 'bow-arrow',paths: ['M17 3h4v4', 'M18.575 11.082a13 13 0 0 1 1.048 9.027 1.17 1.17 0 0 1-1.914.597L14 17', 'M7 10 3.29 6.29a1.17 1.17 0 0 1 .6-1.91 13 13 0 0 1 9.03 1.05', 'M7 14a1.7 1.7 0 0 0-1.207.5l-2.646 2.646A.5.5 0 0 0 3.5 18H5a1 1 0 0 1 1 1v1.5a.5.5 0 0 0 .854.354L9.5 18.207A1.7 1.7 0 0 0 10 17v-2a1 1 0 0 0-1-1z', 'M9.707 14.293 21 3'],tags: ['archer', 'archery', 'game', 'war', 'weapon'],categories: ['gaming', 'tools'],);
+  static const LucideIconData box = LucideIconData(name: 'box',paths: ['M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z', 'm3.3 7 8.7 5 8.7-5', 'M12 22V12'],tags: ['cube', 'package', 'container', 'storage', 'geometry', '3d', 'isometric'],categories: ['shapes', 'gaming', 'development', 'math'],);
+  static const LucideIconData boxes = LucideIconData(name: 'boxes',paths: ['M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z', 'm7 16.5-4.74-2.85', 'm7 16.5 5-3', 'M7 16.5v5.17', 'M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z', 'm17 16.5-5-3', 'm17 16.5 4.74-2.85', 'M17 16.5v5.17', 'M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z', 'M12 8 7.26 5.15', 'm12 8 4.74-2.85', 'M12 13.5V8'],tags: ['cubes', 'packages', 'parts', 'group', 'units', 'collection', 'cluster', 'geometry'],categories: ['shapes', 'gaming', 'development'],);
+  static const LucideIconData braces = LucideIconData(name: 'braces',paths: ['M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1', 'M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1'],tags: ['json', 'code', 'token', 'curly brackets', 'data', '{', '}'],categories: ['development', 'files'],);
+  static const LucideIconData brackets = LucideIconData(name: 'brackets',paths: ['M16 3h3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-3', 'M8 21H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h3'],tags: ['code', 'token', 'array', 'list', 'square', '[', ']'],categories: ['development', 'files'],);
+  static const LucideIconData brain = LucideIconData(name: 'brain',paths: ['M12 18V5', 'M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4', 'M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5', 'M17.997 5.125a4 4 0 0 1 2.526 5.77', 'M18 18a4 4 0 0 0 2-7.464', 'M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517', 'M6 18a4 4 0 0 1-2-7.464', 'M6.003 5.125a4 4 0 0 0-2.526 5.77'],tags: ['medical', 'mind', 'mental', 'intellect', 'cerebral', 'consciousness', 'genius', 'artificial intelligence', 'ai', 'think', 'thought', 'insight', 'intelligent', 'smart'],categories: ['medical', 'science'],);
+  static const LucideIconData brainCircuit = LucideIconData(name: 'brain-circuit',circles: [(16.0, 13.0, 0.5), (18.0, 3.0, 0.5), (20.0, 21.0, 0.5), (20.0, 8.0, 0.5)],paths: ['M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z', 'M9 13a4.5 4.5 0 0 0 3-4', 'M6.003 5.125A3 3 0 0 0 6.401 6.5', 'M3.477 10.896a4 4 0 0 1 .585-.396', 'M6 18a4 4 0 0 1-1.967-.516', 'M12 13h4', 'M12 18h6a2 2 0 0 1 2 2v1', 'M12 8h8', 'M16 8V5a2 2 0 0 1 2-2'],tags: ['mind', 'intellect', 'artificial intelligence', 'ai', 'deep learning', 'machine learning', 'computing'],categories: ['science', 'development'],);
+  static const LucideIconData brainCog = LucideIconData(name: 'brain-cog',circles: [(12.0, 12.0, 3.0)],paths: ['m10.852 14.772-.383.923', 'm10.852 9.228-.383-.923', 'm13.148 14.772.382.924', 'm13.531 8.305-.383.923', 'm14.772 10.852.923-.383', 'm14.772 13.148.923.383', 'M17.598 6.5A3 3 0 1 0 12 5a3 3 0 0 0-5.63-1.446 3 3 0 0 0-.368 1.571 4 4 0 0 0-2.525 5.771', 'M17.998 5.125a4 4 0 0 1 2.525 5.771', 'M19.505 10.294a4 4 0 0 1-1.5 7.706', 'M4.032 17.483A4 4 0 0 0 11.464 20c.18-.311.892-.311 1.072 0a4 4 0 0 0 7.432-2.516', 'M4.5 10.291A4 4 0 0 0 6 18', 'M6.002 5.125a3 3 0 0 0 .4 1.375', 'm9.228 10.852-.923-.383', 'm9.228 13.148-.923.383'],tags: ['mind', 'intellect', 'artificial intelligence', 'ai', 'deep learning', 'machine learning', 'computing'],categories: ['science', 'development'],);
+  static const LucideIconData brickWall = LucideIconData(name: 'brick-wall',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 9v6', 'M16 15v6', 'M16 3v6', 'M3 15h18', 'M3 9h18', 'M8 15v6', 'M8 3v6'],tags: ['bricks', 'mortar', 'cement', 'materials', 'construction', 'builder', 'labourer', 'quantity surveyor', 'blocks', 'stone'],categories: ['buildings', 'home'],);
+  static const LucideIconData brickWallFire = LucideIconData(name: 'brick-wall-fire',paths: ['M16 3v2.107', 'M17 9c1 3 2.5 3.5 3.5 4.5A5 5 0 0 1 22 17a5 5 0 0 1-10 0c0-.3 0-.6.1-.9a2 2 0 1 0 3.3-2C13 11.5 16 9 17 9', 'M21 8.274V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.938', 'M3 15h5.253', 'M3 9h8.228', 'M8 15v6', 'M8 3v6'],tags: ['firewall', 'security', 'bricks', 'mortar', 'cement', 'materials', 'construction', 'builder', 'labourer', 'quantity surveyor', 'blocks', 'stone', 'campfire', 'camping', 'wilderness', 'outdoors', 'lit', 'warmth', 'wood', 'twigs', 'sticks'],categories: ['security', 'home', 'connectivity'],);
+  static const LucideIconData brickWallShield = LucideIconData(name: 'brick-wall-shield',paths: ['M12 9v1.258', 'M16 3v5.46', 'M21 9.118V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5.75', 'M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z', 'M3 15h7', 'M3 9h12.142', 'M8 15v6', 'M8 3v6'],tags: ['firewall', 'security', 'bricks', 'mortar', 'cement', 'materials', 'construction', 'builder', 'labourer', 'quantity surveyor', 'blocks', 'stone', 'cybersecurity', 'secure', 'safety', 'protection', 'guardian', 'armored', 'armoured', 'defense', 'defence', 'defender', 'block', 'threat', 'prevention', 'antivirus', 'vigilance', 'vigilant', 'detection', 'scan', 'find', 'strength', 'strong', 'tough', 'invincible', 'invincibility', 'invulnerable', 'undamaged', 'audit', 'admin', 'verification', 'crest', 'bravery', 'knight', 'foot soldier', 'infantry', 'trooper', 'pawn', 'battle', 'war', 'military', 'army', 'cadet', 'scout'],categories: ['security', 'home', 'connectivity'],);
+  static const LucideIconData briefcase = LucideIconData(name: 'briefcase',rects: [(2.0, 6.0, 20.0, 14.0, 2.0)],paths: ['M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16'],tags: ['work', 'bag', 'baggage', 'folder'],categories: ['transportation'],);
+  static const LucideIconData briefcaseBusiness = LucideIconData(name: 'briefcase-business',rects: [(2.0, 6.0, 20.0, 14.0, 2.0)],paths: ['M12 12h.01', 'M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2', 'M22 13a18.15 18.15 0 0 1-20 0'],tags: ['work', 'bag', 'baggage', 'folder', 'portfolio'],categories: ['transportation'],);
+  static const LucideIconData briefcaseConveyorBelt = LucideIconData(name: 'briefcase-conveyor-belt',paths: ['M10 20v2', 'M14 20v2', 'M18 20v2', 'M21 20H3', 'M6 20v2', 'M8 16V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12'],tags: ['baggage', 'luggage', 'travel', 'suitcase', 'conveyor', 'carousel'],categories: ['travel', 'transportation'],);
+  static const LucideIconData briefcaseMedical = LucideIconData(name: 'briefcase-medical',rects: [(2.0, 6.0, 20.0, 14.0, 2.0)],paths: ['M12 11v4', 'M14 13h-4', 'M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2', 'M18 6v14', 'M6 6v14'],tags: ['doctor', 'medicine', 'first aid'],categories: ['medical', 'transportation'],);
+  static const LucideIconData bringToFront = LucideIconData(name: 'bring-to-front',paths: ['M4 10a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2', 'M14 20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2'],tags: ['bring', 'send', 'move', 'over', 'forward', 'front', 'overlap', 'layer', 'order'],categories: ['design', 'layout'],);
+  static const LucideIconData brush = LucideIconData(name: 'brush',paths: ['m11 10 3 3', 'M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z', 'M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031'],tags: ['clean', 'sweep', 'refactor', 'remove', 'draw', 'paint', 'color', 'artist'],categories: ['text', 'design', 'tools'],);
+  static const LucideIconData brushCleaning = LucideIconData(name: 'brush-cleaning',paths: ['m16 22-1-4', 'M19 14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-3a1 1 0 0 1-1-1V4a2 2 0 0 0-4 0v5a1 1 0 0 1-1 1H6a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1', 'M19 14H5l-1.973 6.767A1 1 0 0 0 4 22h16a1 1 0 0 0 .973-1.233z', 'm8 22 1-4'],tags: ['cleaning', 'utensil', 'housekeeping', 'tool', 'sweeping', 'scrubbing', 'hygiene', 'maintenance', 'household', 'cleaner', 'chores', 'equipment', 'sanitation', 'bristles', 'handle', 'home care', 'sanitize', 'purify', 'wash', 'disinfect', 'sterilize', 'scrub', 'polish', 'decontaminate', 'wipe', 'spotless', 'remove', 'empty', 'erase', 'purge', 'eliminate'],categories: ['home', 'tools', 'design'],);
+  static const LucideIconData bubbles = LucideIconData(name: 'bubbles',circles: [(18.5, 8.5, 3.5), (7.5, 16.5, 5.5), (7.5, 4.5, 2.5)],paths: ['M7.001 15.085A1.5 1.5 0 0 1 9 16.5'],tags: ['water', 'cleaning', 'soap', 'bath', 'hygiene', 'freshness', 'wash', 'foam', 'cleanliness', 'shampoo', 'purity', 'splash', 'lightness', 'airy', 'relaxation', 'spa', 'bubbly', 'fluid', 'floating', 'drop'],categories: ['weather'],);
+  static const LucideIconData bug = LucideIconData(name: 'bug',paths: ['M12 20v-9', 'M14 7a4 4 0 0 1 4 4v3a6 6 0 0 1-12 0v-3a4 4 0 0 1 4-4z', 'M14.12 3.88 16 2', 'M21 21a4 4 0 0 0-3.81-4', 'M21 5a4 4 0 0 1-3.55 3.97', 'M22 13h-4', 'M3 21a4 4 0 0 1 3.81-4', 'M3 5a4 4 0 0 0 3.55 3.97', 'M6 13H2', 'm8 2 1.88 1.88', 'M9 7.13V6a3 3 0 1 1 6 0v1.13'],tags: ['issue', 'error', 'defect', 'testing', 'troubleshoot', 'problem', 'report', 'debug', 'code', 'insect', 'beetle'],categories: ['development', 'animals'],);
+  static const LucideIconData bugOff = LucideIconData(name: 'bug-off',paths: ['M12 20v-8', 'M12.656 7H14a4 4 0 0 1 4 4v1.344', 'M14.12 3.88 16 2', 'M17.123 17.123A6 6 0 0 1 6 14v-3a4 4 0 0 1 1.72-3.287', 'm2 2 20 20', 'M21 5a4 4 0 0 1-3.55 3.97', 'M22 13h-3.344', 'M3 21a4 4 0 0 1 3.81-4', 'M3 5a4 4 0 0 0 3.55 3.97', 'M6 13H2', 'm8 2 1.88 1.88', 'M9.712 4.06A3 3 0 0 1 15 6v1.13'],tags: ['issue', 'fixed', 'resolved', 'testing', 'debug', 'code', 'insect', 'kill', 'exterminate', 'pest control'],categories: ['development', 'animals'],);
+  static const LucideIconData bugPlay = LucideIconData(name: 'bug-play',paths: ['M10 19.655A6 6 0 0 1 6 14v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 3.97', 'M14 15.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997a1 1 0 0 1-1.517-.86z', 'M14.12 3.88 16 2', 'M21 5a4 4 0 0 1-3.55 3.97', 'M3 21a4 4 0 0 1 3.81-4', 'M3 5a4 4 0 0 0 3.55 3.97', 'M6 13H2', 'm8 2 1.88 1.88', 'M9 7.13V6a3 3 0 1 1 6 0v1.13'],tags: ['issue', 'testing', 'debug', 'reproduce', 'code', 'insect'],categories: ['development', 'animals'],);
+  static const LucideIconData building = LucideIconData(name: 'building',paths: ['M12 10h.01', 'M12 14h.01', 'M12 6h.01', 'M16 10h.01', 'M16 14h.01', 'M16 6h.01', 'M8 10h.01', 'M8 14h.01', 'M8 6h.01', 'M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3'],tags: ['organisation', 'organization'],categories: ['account', 'buildings'],);
+  static const LucideIconData building2 = LucideIconData(name: 'building-2',paths: ['M10 12h4', 'M10 8h4', 'M14 21v-3a2 2 0 0 0-4 0v3', 'M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2', 'M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16'],tags: ['business', 'company', 'enterprise', 'skyscraper', 'organisation', 'organization', 'city'],categories: ['account', 'buildings'],);
+  static const LucideIconData bus = LucideIconData(name: 'bus',circles: [(7.0, 18.0, 2.0), (16.0, 18.0, 2.0)],paths: ['M8 6v6', 'M15 6v6', 'M2 12h19.6', 'M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3', 'M9 18h5'],tags: ['bus', 'vehicle', 'transport', 'trip'],categories: ['transportation'],);
+  static const LucideIconData busFront = LucideIconData(name: 'bus-front',rects: [(4.0, 3.0, 16.0, 16.0, 2.0)],paths: ['M4 6 2 7', 'M10 6h4', 'm22 7-2-1', 'M4 11h16', 'M8 15h.01', 'M16 15h.01', 'M6 19v2', 'M18 21v-2'],tags: ['coach', 'vehicle', 'trip', 'road'],categories: ['transportation'],);
+  static const LucideIconData cable = LucideIconData(name: 'cable',paths: ['M17 19a1 1 0 0 1-1-1v-2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a1 1 0 0 1-1 1z', 'M17 21v-2', 'M19 14V6.5a1 1 0 0 0-7 0v11a1 1 0 0 1-7 0V10', 'M21 21v-2', 'M3 5V3', 'M4 10a2 2 0 0 1-2-2V6a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2z', 'M7 5V3'],tags: ['cord', 'wire', 'connector', 'connection', 'link', 'signal', 'console', 'computer', 'equipment', 'electricity', 'energy', 'electronics', 'recharging', 'charger', 'power', 'supply', 'disconnected', 'unplugged', 'plugs', 'interface', 'input', 'output', 'audio video', 'av', 'rca', 'scart', 'tv', 'television', 'optical'],categories: ['connectivity', 'devices', 'multimedia'],);
+  static const LucideIconData cableCar = LucideIconData(name: 'cable-car',rects: [(4.0, 12.0, 16.0, 10.0, 3.0)],paths: ['M10 3h.01', 'M14 2h.01', 'm2 9 20-5', 'M12 12V6.5', 'M9 12v5', 'M15 12v5', 'M4 17h16'],tags: ['ski lift', 'winter holiday', 'alpine', 'resort', 'mountains'],categories: ['transportation', 'travel'],);
+  static const LucideIconData cake = LucideIconData(name: 'cake',paths: ['M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8', 'M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1', 'M2 21h20', 'M7 8v3', 'M12 8v3', 'M17 8v3', 'M7 4h.01', 'M12 4h.01', 'M17 4h.01'],tags: ['birthday', 'birthdate', 'celebration', 'party', 'surprise', 'gateaux', 'dessert', 'fondant', 'icing sugar', 'sweet', 'baking'],categories: ['food-beverage', 'social', 'account'],);
+  static const LucideIconData cakeSlice = LucideIconData(name: 'cake-slice',circles: [(9.0, 7.0, 2.0)],paths: ['M16 13H3', 'M16 17H3', 'm7.2 7.9-3.388 2.5A2 2 0 0 0 3 12.01V20a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-8.654c0-2-2.44-6.026-6.44-8.026a1 1 0 0 0-1.082.057L10.4 5.6'],tags: ['birthday', 'birthdate', 'celebration', 'party', 'surprise', 'gateaux', 'dessert', 'candles', 'wish', 'fondant', 'icing sugar', 'sweet', 'baking'],categories: ['food-beverage', 'social'],);
+  static const LucideIconData calculator = LucideIconData(name: 'calculator',rects: [(4.0, 2.0, 16.0, 20.0, 2.0)],paths: ['M16 10h.01', 'M12 10h.01', 'M8 10h.01', 'M12 14h.01', 'M8 14h.01', 'M12 18h.01', 'M8 18h.01'],tags: ['count', 'calculating machine'],categories: ['math', 'devices'],);
+  static const LucideIconData calendar = LucideIconData(name: 'calendar',rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],paths: ['M8 2v4', 'M16 2v4', 'M3 10h18'],tags: ['date', 'month', 'year', 'event', 'birthday', 'birthdate'],categories: ['time'],);
+  static const LucideIconData calendar1 = LucideIconData(name: 'calendar-1',paths: ['M11 14h1v4', 'M16 2v4', 'M3 10h18', 'M8 2v4'],tags: ['date', 'month', 'year', 'event', 'single', 'singular', 'once', '1', 'first'],categories: ['time'],);
+  static const LucideIconData calendarArrowDown = LucideIconData(name: 'calendar-arrow-down',paths: ['m14 18 4 4 4-4', 'M16 2v4', 'M18 14v8', 'M21 11.354V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.343', 'M3 10h18', 'M8 2v4'],tags: ['date', 'month', 'year', 'event', 'sort', 'order', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling'],categories: ['time'],);
+  static const LucideIconData calendarArrowUp = LucideIconData(name: 'calendar-arrow-up',paths: ['m14 18 4-4 4 4', 'M16 2v4', 'M18 22v-8', 'M21 11.343V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9', 'M3 10h18', 'M8 2v4'],tags: ['date', 'month', 'year', 'event', 'sort', 'order', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling'],categories: ['time'],);
+  static const LucideIconData calendarCheck = LucideIconData(name: 'calendar-check',rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'm9 16 2 2 4-4'],tags: ['date', 'day', 'month', 'year', 'event', 'confirm', 'subscribe', 'schedule', 'done', 'todo', 'tick', 'complete', 'task'],categories: ['time'],);
+  static const LucideIconData calendarCheck2 = LucideIconData(name: 'calendar-check-2',paths: ['M8 2v4', 'M16 2v4', 'M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8', 'M3 10h18', 'm16 20 2 2 4-4'],tags: ['date', 'day', 'month', 'year', 'event', 'confirm', 'subscribe', 'schedule', 'done', 'todo', 'tick', 'complete', 'task'],categories: ['time'],);
+  static const LucideIconData calendarClock = LucideIconData(name: 'calendar-clock',circles: [(16.0, 16.0, 6.0)],paths: ['M16 14v2.2l1.6 1', 'M16 2v4', 'M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5', 'M3 10h5', 'M8 2v4'],tags: ['date', 'day', 'month', 'year', 'event', 'clock', 'hour'],categories: ['time'],);
+  static const LucideIconData calendarCog = LucideIconData(name: 'calendar-cog',circles: [(18.0, 18.0, 3.0)],paths: ['m15.228 16.852-.923-.383', 'm15.228 19.148-.923.383', 'M16 2v4', 'm16.47 14.305.382.923', 'm16.852 20.772-.383.924', 'm19.148 15.228.383-.923', 'm19.53 21.696-.382-.924', 'm20.772 16.852.924-.383', 'm20.772 19.148.924.383', 'M21 10.592V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6', 'M3 10h18', 'M8 2v4'],tags: ['date', 'day', 'month', 'year', 'events', 'settings', 'gear', 'cog'],categories: ['time'],);
+  static const LucideIconData calendarDays = LucideIconData(name: 'calendar-days',rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'M8 14h.01', 'M12 14h.01', 'M16 14h.01', 'M8 18h.01', 'M12 18h.01', 'M16 18h.01'],tags: ['date', 'month', 'year', 'event'],categories: ['time'],);
+  static const LucideIconData calendarFold = LucideIconData(name: 'calendar-fold',paths: ['M3 20a2 2 0 0 0 2 2h10a2.4 2.4 0 0 0 1.706-.706l3.588-3.588A2.4 2.4 0 0 0 21 16V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z', 'M15 22v-5a1 1 0 0 1 1-1h5', 'M8 2v4', 'M16 2v4', 'M3 10h18'],tags: ['date', 'month', 'year', 'event', 'birthday', 'birthdate', 'ics'],categories: ['time', 'files'],);
+  static const LucideIconData calendarHeart = LucideIconData(name: 'calendar-heart',paths: ['M12.127 22H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.125', 'M14.62 18.8A2.25 2.25 0 1 1 18 15.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z', 'M16 2v4', 'M3 10h18', 'M8 2v4'],tags: ['date', 'month', 'year', 'event', 'heart', 'favourite', 'subscribe', 'valentines day'],categories: ['time'],);
+  static const LucideIconData calendarMinus = LucideIconData(name: 'calendar-minus',paths: ['M16 19h6', 'M16 2v4', 'M21 15V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5', 'M3 10h18', 'M8 2v4'],tags: ['date', 'day', 'month', 'year', 'event', 'delete', 'remove'],categories: ['time'],);
+  static const LucideIconData calendarMinus2 = LucideIconData(name: 'calendar-minus-2',rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'M10 16h4'],tags: ['date', 'day', 'month', 'year', 'event', 'delete', 'remove'],categories: ['time'],);
+  static const LucideIconData calendarOff = LucideIconData(name: 'calendar-off',paths: ['M4.2 4.2A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18', 'M21 15.5V6a2 2 0 0 0-2-2H9.5', 'M16 2v4', 'M3 10h7', 'M21 10h-5.5', 'm2 2 20 20'],tags: ['date', 'day', 'month', 'year', 'event', 'delete', 'remove'],categories: ['time'],);
+  static const LucideIconData calendarPlus = LucideIconData(name: 'calendar-plus',paths: ['M16 19h6', 'M16 2v4', 'M19 16v6', 'M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5', 'M3 10h18', 'M8 2v4'],tags: ['date', 'day', 'month', 'year', 'event', 'add', 'subscribe', 'create', 'new'],categories: ['time'],);
+  static const LucideIconData calendarPlus2 = LucideIconData(name: 'calendar-plus-2',rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'M10 16h4', 'M12 14v4'],tags: ['date', 'day', 'month', 'year', 'event', 'add', 'subscribe', 'create', 'new'],categories: ['time'],);
+  static const LucideIconData calendarRange = LucideIconData(name: 'calendar-range',rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],paths: ['M16 2v4', 'M3 10h18', 'M8 2v4', 'M17 14h-6', 'M13 18H7', 'M7 14h.01', 'M17 18h.01'],tags: ['date', 'day', 'month', 'year', 'event', 'range', 'period'],categories: ['time'],);
+  static const LucideIconData calendarSearch = LucideIconData(name: 'calendar-search',circles: [(18.0, 18.0, 3.0)],paths: ['M16 2v4', 'M21 11.75V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.25', 'm22 22-1.875-1.875', 'M3 10h18', 'M8 2v4'],tags: ['date', 'day', 'month', 'year', 'events', 'search', 'lens'],categories: ['time'],);
+  static const LucideIconData calendarSync = LucideIconData(name: 'calendar-sync',paths: ['M11 10v4h4', 'm11 14 1.535-1.605a5 5 0 0 1 8 1.5', 'M16 2v4', 'm21 18-1.535 1.605a5 5 0 0 1-8-1.5', 'M21 22v-4h-4', 'M21 8.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4.3', 'M3 10h4', 'M8 2v4'],tags: ['repeat', 'refresh', 'reconnect', 'transfer', 'backup', 'date', 'month', 'year', 'event', 'subscribe', 'recurring', 'schedule', 'reminder', 'automatic', 'auto'],categories: ['arrows', 'time'],);
+  static const LucideIconData calendarX = LucideIconData(name: 'calendar-x',rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'm14 14-4 4', 'm10 14 4 4'],tags: ['date', 'day', 'month', 'year', 'event', 'remove', 'busy'],categories: ['time'],);
+  static const LucideIconData calendarX2 = LucideIconData(name: 'calendar-x-2',paths: ['M8 2v4', 'M16 2v4', 'M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8', 'M3 10h18', 'm17 22 5-5', 'm17 17 5 5'],tags: ['date', 'day', 'month', 'year', 'event', 'remove'],categories: ['time'],);
+  static const LucideIconData calendars = LucideIconData(name: 'calendars',paths: ['M12 2v2', 'M15.726 21.01A2 2 0 0 1 14 22H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2', 'M18 2v2', 'M2 13h2', 'M8 8h14'],tags: ['date', 'month', 'year', 'event', 'dates', 'months', 'years', 'events'],categories: ['time'],);
+  static const LucideIconData camera = LucideIconData(name: 'camera',circles: [(12.0, 13.0, 3.0)],paths: ['M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z'],tags: ['photography', 'lens', 'focus', 'capture', 'shot', 'visual', 'image', 'device', 'equipment', 'photo', 'webcam', 'video'],categories: ['photography', 'devices', 'communication'],);
+  static const LucideIconData cameraOff = LucideIconData(name: 'camera-off',paths: ['M14.564 14.558a3 3 0 1 1-4.122-4.121', 'm2 2 20 20', 'M20 20H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 .819-.175', 'M9.695 4.024A2 2 0 0 1 10.004 4h3.993a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v7.344'],tags: ['photo', 'webcam', 'video'],categories: ['photography', 'devices', 'communication'],);
+  static const LucideIconData candy = LucideIconData(name: 'candy',paths: ['M10 7v10.9', 'M14 6.1V17', 'M16 7V3a1 1 0 0 1 1.707-.707 2.5 2.5 0 0 0 2.152.717 1 1 0 0 1 1.131 1.131 2.5 2.5 0 0 0 .717 2.152A1 1 0 0 1 21 8h-4', 'M16.536 7.465a5 5 0 0 0-7.072 0l-2 2a5 5 0 0 0 0 7.07 5 5 0 0 0 7.072 0l2-2a5 5 0 0 0 0-7.07', 'M8 17v4a1 1 0 0 1-1.707.707 2.5 2.5 0 0 0-2.152-.717 1 1 0 0 1-1.131-1.131 2.5 2.5 0 0 0-.717-2.152A1 1 0 0 1 3 16h4'],tags: ['sugar', 'food', 'sweet'],categories: ['food-beverage'],);
+  static const LucideIconData candyCane = LucideIconData(name: 'candy-cane',paths: ['M5.7 21a2 2 0 0 1-3.5-2l8.6-14a6 6 0 0 1 10.4 6 2 2 0 1 1-3.464-2 2 2 0 1 0-3.464-2Z', 'M17.75 7 15 2.1', 'M10.9 4.8 13 9', 'm7.9 9.7 2 4.4', 'M4.9 14.7 7 18.9'],tags: ['sugar', 'food', 'sweet', 'christmas', 'xmas'],categories: ['food-beverage'],);
+  static const LucideIconData candyOff = LucideIconData(name: 'candy-off',paths: ['M10 10v7.9', 'M11.802 6.145a5 5 0 0 1 6.053 6.053', 'M14 6.1v2.243', 'm15.5 15.571-.964.964a5 5 0 0 1-7.071 0 5 5 0 0 1 0-7.07l.964-.965', 'M16 7V3a1 1 0 0 1 1.707-.707 2.5 2.5 0 0 0 2.152.717 1 1 0 0 1 1.131 1.131 2.5 2.5 0 0 0 .717 2.152A1 1 0 0 1 21 8h-4', 'm2 2 20 20', 'M8 17v4a1 1 0 0 1-1.707.707 2.5 2.5 0 0 0-2.152-.717 1 1 0 0 1-1.131-1.131 2.5 2.5 0 0 0-.717-2.152A1 1 0 0 1 3 16h4'],tags: ['sugar free', 'food', 'sweet', 'allergy', 'intolerance', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData cannabis = LucideIconData(name: 'cannabis',paths: ['M12 22v-4', 'M7 12c-1.5 0-4.5 1.5-5 3 3.5 1.5 6 1 6 1-1.5 1.5-2 3.5-2 5 2.5 0 4.5-1.5 6-3 1.5 1.5 3.5 3 6 3 0-1.5-.5-3.5-2-5 0 0 2.5.5 6-1-.5-1.5-3.5-3-5-3 1.5-1 4-4 4-6-2.5 0-5.5 1.5-7 3 0-2.5-.5-5-2-7-1.5 2-2 4.5-2 7-1.5-1.5-4.5-3-7-3 0 2 2.5 5 4 6'],tags: ['cannabis', 'weed', 'leaf'],categories: ['nature'],);
+  static const LucideIconData cannabisOff = LucideIconData(name: 'cannabis-off',paths: ['M12 22v-4c1.5 1.5 3.5 3 6 3 0-1.5-.5-3.5-2-5', 'M13.988 8.327C13.902 6.054 13.365 3.82 12 2a9.3 9.3 0 0 0-1.445 2.9', 'M17.375 11.725C18.882 10.53 21 7.841 21 6c-2.324 0-5.08 1.296-6.662 2.684', 'm2 2 20 20', 'M21.024 15.378A15 15 0 0 0 22 15c-.426-1.279-2.67-2.557-4.25-2.907', 'M6.995 6.992C5.714 6.4 4.29 6 3 6c0 2 2.5 5 4 6-1.5 0-4.5 1.5-5 3 3.5 1.5 6 1 6 1-1.5 1.5-2 3.5-2 5 2.5 0 4.5-1.5 6-3'],tags: ['cannabis', 'weed', 'leaf'],categories: ['nature'],);
+  static const LucideIconData captions = LucideIconData(name: 'captions',rects: [(3.0, 5.0, 18.0, 14.0, 2.0)],paths: ['M7 15h4M15 15h2M7 11h2M13 11h4'],tags: ['closed captions', 'subtitles', 'subhead', 'transcription', 'transcribe', 'dialogue', 'accessibility'],categories: ['multimedia'],);
+  static const LucideIconData captionsOff = LucideIconData(name: 'captions-off',paths: ['M10.5 5H19a2 2 0 0 1 2 2v8.5', 'M17 11h-.5', 'M19 19H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2', 'm2 2 20 20', 'M7 11h4', 'M7 15h2.5'],tags: ['closed captions', 'subtitles', 'subhead', 'transcription', 'transcribe', 'dialogue', 'accessibility'],categories: ['multimedia'],);
+  static const LucideIconData car = LucideIconData(name: 'car',circles: [(7.0, 17.0, 2.0), (17.0, 17.0, 2.0)],paths: ['M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2', 'M9 17h6'],tags: ['vehicle', 'drive', 'trip', 'journey'],categories: ['transportation'],);
+  static const LucideIconData carFront = LucideIconData(name: 'car-front',rects: [(3.0, 10.0, 18.0, 8.0, 2.0)],paths: ['m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8', 'M7 14h.01', 'M17 14h.01', 'M5 18v2', 'M19 18v2'],tags: ['vehicle', 'drive', 'trip', 'journey'],categories: ['transportation'],);
+  static const LucideIconData carTaxiFront = LucideIconData(name: 'car-taxi-front',rects: [(3.0, 10.0, 18.0, 8.0, 2.0)],paths: ['M10 2h4', 'm21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8', 'M7 14h.01', 'M17 14h.01', 'M5 18v2', 'M19 18v2'],tags: ['cab', 'vehicle', 'drive', 'trip', 'journey'],categories: ['transportation'],);
+  static const LucideIconData caravan = LucideIconData(name: 'caravan',circles: [(8.0, 19.0, 2.0)],paths: ['M18 19V9a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v8a2 2 0 0 0 2 2h2', 'M2 9h3a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2', 'M22 17v1a1 1 0 0 1-1 1H10v-9a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v9'],tags: ['trailer', 'tow', 'camping', 'campsite', 'mobile home', 'holiday', 'nomadic', 'wilderness', 'outdoors'],categories: ['transportation', 'travel', 'nature'],);
+  static const LucideIconData cardSim = LucideIconData(name: 'card-sim',paths: ['M12 14v4', 'M14.172 2a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 20 7.828V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z', 'M8 14h8'],tags: ['cellphone', 'smartphone', 'mobile', 'network', 'cellular', 'service', 'provider', 'signal', 'coverage', 'disk', 'data', 'format', 'storage', 'flash', 'digital', 'contacts', 'phone book', 'contractual', 'circuit board', 'chip'],categories: ['connectivity', 'communication', 'multimedia', 'devices'],);
+  static const LucideIconData carrot = LucideIconData(name: 'carrot',paths: ['M2.27 21.7s9.87-3.5 12.73-6.36a4.5 4.5 0 0 0-6.36-6.37C5.77 11.84 2.27 21.7 2.27 21.7zM8.64 14l-2.05-2.04M15.34 15l-2.46-2.46', 'M22 9s-1.33-2-3.5-2C16.86 7 15 9 15 9s1.33 2 3.5 2S22 9 22 9z', 'M15 2s-2 1.33-2 3.5S15 9 15 9s2-1.84 2-3.5C17 3.33 15 2 15 2z'],tags: ['vegetable', 'food', 'eat'],categories: ['food-beverage'],);
+  static const LucideIconData caseLower = LucideIconData(name: 'case-lower',circles: [(17.5, 12.5, 3.5), (6.5, 12.5, 3.5)],paths: ['M10 9v7', 'M14 6v10'],tags: ['text', 'letters', 'characters', 'font', 'typography'],categories: ['text', 'development'],);
+  static const LucideIconData caseSensitive = LucideIconData(name: 'case-sensitive',circles: [(18.5, 12.5, 3.5)],paths: ['m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16', 'M22 9v7', 'M3.304 13h6.392'],tags: ['text', 'letters', 'characters', 'font', 'typography'],categories: ['text'],);
+  static const LucideIconData caseUpper = LucideIconData(name: 'case-upper',paths: ['M15 11h4.5a1 1 0 0 1 0 5h-4a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h3a1 1 0 0 1 0 5', 'm2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16', 'M3.304 13h6.392'],tags: ['text', 'letters', 'characters', 'font', 'typography'],categories: ['text', 'development'],);
+  static const LucideIconData cassetteTape = LucideIconData(name: 'cassette-tape',circles: [(8.0, 10.0, 2.0), (16.0, 10.0, 2.0)],rects: [(2.0, 4.0, 20.0, 16.0, 2.0)],paths: ['M8 12h8', 'm6 20 .7-2.9A1.4 1.4 0 0 1 8.1 16h7.8a1.4 1.4 0 0 1 1.4 1l.7 3'],tags: ['audio', 'music', 'recording', 'play'],categories: ['connectivity', 'devices', 'multimedia', 'communication', 'files'],);
+  static const LucideIconData cast = LucideIconData(name: 'cast',paths: ['M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6', 'M2 12a9 9 0 0 1 8 8', 'M2 16a5 5 0 0 1 4 4'],tags: ['chromecast', 'airplay', 'screen'],categories: ['devices', 'connectivity'],);
+  static const LucideIconData castle = LucideIconData(name: 'castle',paths: ['M10 5V3', 'M14 5V3', 'M15 21v-3a3 3 0 0 0-6 0v3', 'M18 3v8', 'M18 5H6', 'M22 11H2', 'M22 9v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9', 'M6 3v8'],tags: ['fortress', 'stronghold', 'palace', 'chateau', 'building'],categories: ['buildings', 'gaming', 'navigation'],);
+  static const LucideIconData cat = LucideIconData(name: 'cat',paths: ['M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26 1.4.58-.42 7-.42 7 .57 1.07 1 2.24 1 3.44C21 17.9 16.97 21 12 21s-9-3-9-7.56c0-1.25.5-2.4 1-3.44 0 0-1.89-6.42-.5-7 1.39-.58 4.72.23 6.5 2.23A9.04 9.04 0 0 1 12 5Z', 'M8 14v.5', 'M16 14v.5', 'M11.25 16.25h1.5L12 17l-.75-.75Z'],tags: ['animal', 'pet', 'kitten', 'feline'],categories: ['animals'],);
+  static const LucideIconData cctv = LucideIconData(name: 'cctv',paths: ['M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97', 'M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3z', 'M2 19h3.76a2 2 0 0 0 1.8-1.1L9 15', 'M2 21v-4', 'M7 9h.01'],tags: ['camera', 'surveillance', 'recording', 'film', 'videotape', 'crime', 'watching'],categories: ['security', 'devices', 'communication', 'connectivity', 'photography'],);
+  static const LucideIconData cctvOff = LucideIconData(name: 'cctv-off',paths: ['m12.309 6.652 4.797 2.401a1 1 0 0 1 .447 1.341l-.501 1.001.605.605h2.725a1 1 0 0 1 .894 1.447l-.724 1.448', 'm15.166 15.166-.719 1.439a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.9 2.9 0 0 1 .873-1.037', 'M2 19h3.76a2 2 0 0 0 1.8-1.1l1.441-2.902', 'm2 2 20 20', 'M2 21v-4', 'M7 9h.01'],tags: ['camera', 'surveillance', 'recording', 'film', 'videotape', 'crime', 'watching'],categories: ['security', 'devices', 'communication', 'connectivity', 'photography'],);
+  static const LucideIconData chartArea = LucideIconData(name: 'chart-area',paths: ['M3 3v16a2 2 0 0 0 2 2h16', 'M7 11.207a.5.5 0 0 1 .146-.353l2-2a.5.5 0 0 1 .708 0l3.292 3.292a.5.5 0 0 0 .708 0l4.292-4.292a.5.5 0 0 1 .854.353V16a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'area'],categories: ['charts'],);
+  static const LucideIconData chartBar = LucideIconData(name: 'chart-bar',paths: ['M3 3v16a2 2 0 0 0 2 2h16', 'M7 16h8', 'M7 11h12', 'M7 6h3'],tags: ['statistics', 'analytics', 'diagram', 'graph'],categories: ['charts'],);
+  static const LucideIconData chartBarBig = LucideIconData(name: 'chart-bar-big',paths: ['M3 3v16a2 2 0 0 0 2 2h16'],tags: ['statistics', 'analytics', 'diagram', 'graph'],categories: ['charts'],);
+  static const LucideIconData chartBarDecreasing = LucideIconData(name: 'chart-bar-decreasing',paths: ['M3 3v16a2 2 0 0 0 2 2h16', 'M7 11h8', 'M7 16h3', 'M7 6h12'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'trending down'],categories: ['charts'],);
+  static const LucideIconData chartBarIncreasing = LucideIconData(name: 'chart-bar-increasing',paths: ['M3 3v16a2 2 0 0 0 2 2h16', 'M7 11h8', 'M7 16h12', 'M7 6h3'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'trending up'],categories: ['charts'],);
+  static const LucideIconData chartBarStacked = LucideIconData(name: 'chart-bar-stacked',paths: ['M11 13v4', 'M15 5v4', 'M3 3v16a2 2 0 0 0 2 2h16'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'multivariate', 'categorical', 'comparison'],categories: ['charts'],);
+  static const LucideIconData chartCandlestick = LucideIconData(name: 'chart-candlestick',rects: [(7.0, 9.0, 4.0, 6.0, 1.0), (15.0, 5.0, 4.0, 8.0, 1.0)],paths: ['M9 5v4', 'M9 15v2', 'M17 3v2', 'M17 13v3', 'M3 3v16a2 2 0 0 0 2 2h16'],tags: ['trading', 'trader', 'financial', 'markets', 'portfolio', 'assets', 'prices', 'value', 'valuation', 'commodities', 'currencies', 'currency', 'stocks', 'exchange', 'hedge fund', 'statistics', 'analytics', 'diagram', 'graph'],categories: ['charts', 'finance'],);
+  static const LucideIconData chartColumn = LucideIconData(name: 'chart-column',paths: ['M3 3v16a2 2 0 0 0 2 2h16', 'M18 17V9', 'M13 17V5', 'M8 17v-3'],tags: ['statistics', 'analytics', 'diagram', 'graph'],categories: ['charts'],);
+  static const LucideIconData chartColumnBig = LucideIconData(name: 'chart-column-big',paths: ['M3 3v16a2 2 0 0 0 2 2h16'],tags: ['statistics', 'analytics', 'diagram', 'graph'],categories: ['charts'],);
+  static const LucideIconData chartColumnDecreasing = LucideIconData(name: 'chart-column-decreasing',paths: ['M13 17V9', 'M18 17v-3', 'M3 3v16a2 2 0 0 0 2 2h16', 'M8 17V5'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'trending down'],categories: ['charts'],);
+  static const LucideIconData chartColumnIncreasing = LucideIconData(name: 'chart-column-increasing',paths: ['M13 17V9', 'M18 17V5', 'M3 3v16a2 2 0 0 0 2 2h16', 'M8 17v-3'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'trending up'],categories: ['charts'],);
+  static const LucideIconData chartColumnStacked = LucideIconData(name: 'chart-column-stacked',paths: ['M11 13H7', 'M19 9h-4', 'M3 3v16a2 2 0 0 0 2 2h16'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'multivariate', 'categorical', 'comparison'],categories: ['charts'],);
+  static const LucideIconData chartGantt = LucideIconData(name: 'chart-gantt',paths: ['M10 6h8', 'M12 16h6', 'M3 3v16a2 2 0 0 0 2 2h16', 'M8 11h7'],tags: ['diagram', 'graph', 'timeline', 'planning'],categories: ['charts'],);
+  static const LucideIconData chartLine = LucideIconData(name: 'chart-line',paths: ['M3 3v16a2 2 0 0 0 2 2h16', 'm19 9-5 5-4-4-3 3'],tags: ['statistics', 'analytics', 'diagram', 'graph'],categories: ['charts'],);
+  static const LucideIconData chartNetwork = LucideIconData(name: 'chart-network',circles: [(12.0, 6.0, 2.0), (16.0, 12.0, 2.0), (9.0, 15.0, 2.0)],paths: ['m13.11 7.664 1.78 2.672', 'm14.162 12.788-3.324 1.424', 'm20 4-6.06 1.515', 'M3 3v16a2 2 0 0 0 2 2h16'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'topology', 'cluster', 'web', 'nodes', 'connections', 'edges'],categories: ['charts'],);
+  static const LucideIconData chartNoAxesColumn = LucideIconData(name: 'chart-no-axes-column',paths: ['M5 21v-6', 'M12 21V3', 'M19 21V9'],tags: ['statistics', 'analytics', 'diagram', 'graph'],categories: ['charts'],);
+  static const LucideIconData chartNoAxesColumnDecreasing = LucideIconData(name: 'chart-no-axes-column-decreasing',paths: ['M5 21V3', 'M12 21V9', 'M19 21v-6'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'trending down'],categories: ['charts'],);
+  static const LucideIconData chartNoAxesColumnIncreasing = LucideIconData(name: 'chart-no-axes-column-increasing',paths: ['M5 21v-6', 'M12 21V9', 'M19 21V3'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'trending up'],categories: ['charts'],);
+  static const LucideIconData chartNoAxesCombined = LucideIconData(name: 'chart-no-axes-combined',paths: ['M12 16v5', 'M16 14v7', 'M20 10v11', 'm22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15', 'M4 18v3', 'M8 14v7'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'trending up'],categories: ['charts'],);
+  static const LucideIconData chartNoAxesGantt = LucideIconData(name: 'chart-no-axes-gantt',paths: ['M6 5h12', 'M4 12h10', 'M12 19h8'],tags: ['projects', 'manage', 'overview', 'roadmap', 'plan', 'intentions', 'timeline', 'deadline', 'date', 'event', 'range', 'period', 'productivity', 'work', 'agile', 'code', 'coding'],categories: ['charts', 'time', 'development', 'design'],);
+  static const LucideIconData chartPie = LucideIconData(name: 'chart-pie',paths: ['M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z', 'M21.21 15.89A10 10 0 1 1 8 2.83'],tags: ['statistics', 'analytics', 'diagram', 'presentation'],categories: ['charts', 'files'],);
+  static const LucideIconData chartScatter = LucideIconData(name: 'chart-scatter',circles: [(7.5, 7.5, 0.5), (18.5, 5.5, 0.5), (11.5, 11.5, 0.5), (7.5, 16.5, 0.5), (17.5, 14.5, 0.5)],paths: ['M3 3v16a2 2 0 0 0 2 2h16'],tags: ['statistics', 'analytics', 'diagram', 'graph'],categories: ['charts'],);
+  static const LucideIconData chartSpline = LucideIconData(name: 'chart-spline',paths: ['M3 3v16a2 2 0 0 0 2 2h16', 'M7 16c.5-2 1.5-7 4-7 2 0 2 3 4 3 2.5 0 4.5-5 5-7'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'curve', 'continuous', 'smooth', 'polynomial', 'quadratic', 'function', 'interpolation'],categories: ['charts'],);
+  static const LucideIconData check = LucideIconData(name: 'check',paths: ['M20 6 9 17l-5-5'],tags: ['done', 'todo', 'tick', 'complete', 'task'],categories: ['notifications'],);
+  static const LucideIconData checkCheck = LucideIconData(name: 'check-check',paths: ['M18 6 7 17l-5-5', 'm22 10-7.5 7.5L13 16'],tags: ['done', 'received', 'double', 'todo', 'tick', 'complete', 'task'],categories: ['notifications'],);
+  static const LucideIconData checkLine = LucideIconData(name: 'check-line',paths: ['M20 4L9 15', 'M21 19L3 19', 'M9 15L4 10'],tags: ['done', 'todo', 'tick', 'complete', 'task'],categories: ['notifications'],);
+  static const LucideIconData chefHat = LucideIconData(name: 'chef-hat',paths: ['M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z', 'M6 17h12'],tags: ['cooking', 'food', 'kitchen', 'restaurant'],categories: ['food-beverage'],);
+  static const LucideIconData cherry = LucideIconData(name: 'cherry',paths: ['M2 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z', 'M12 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z', 'M7 14c3.22-2.91 4.29-8.75 5-12 1.66 2.38 4.94 9 5 12', 'M22 9c-4.29 0-7.14-2.33-10-7 5.71 0 10 4.67 10 7Z'],tags: ['fruit', 'food'],categories: ['food-beverage'],);
+  static const LucideIconData chessBishop = LucideIconData(name: 'chess-bishop',paths: ['M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z', 'M15 18c1.5-.615 3-2.461 3-4.923C18 8.769 14.5 4.462 12 2 9.5 4.462 6 8.77 6 13.077 6 15.539 7.5 17.385 9 18', 'm16 7-2.5 2.5', 'M9 2h6'],tags: ['mitre', 'miter', 'piece', 'board game', 'religion'],categories: ['gaming', 'emoji'],);
+  static const LucideIconData chessKing = LucideIconData(name: 'chess-king',paths: ['M4 20a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z', 'm6.7 18-1-1C4.35 15.682 3 14.09 3 12a5 5 0 0 1 4.95-5c1.584 0 2.7.455 4.05 1.818C13.35 7.455 14.466 7 16.05 7A5 5 0 0 1 21 12c0 2.082-1.359 3.673-2.7 5l-1 1', 'M10 4h4', 'M12 2v6.818'],tags: ['ruler', 'crown', 'piece', 'board game', 'stalemate'],categories: ['gaming', 'emoji'],);
+  static const LucideIconData chessKnight = LucideIconData(name: 'chess-knight',paths: ['M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z', 'M16.5 18c1-2 2.5-5 2.5-9a7 7 0 0 0-7-7H6.635a1 1 0 0 0-.768 1.64L7 5l-2.32 5.802a2 2 0 0 0 .95 2.526l2.87 1.456', 'm15 5 1.425-1.425', 'm17 8 1.53-1.53', 'M9.713 12.185 7 18'],tags: ['piece', 'horse', 'board game'],categories: ['gaming', 'emoji'],);
+  static const LucideIconData chessPawn = LucideIconData(name: 'chess-pawn',circles: [(12.0, 6.0, 4.0)],paths: ['M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z', 'm14.5 10 1.5 8', 'M7 10h10', 'm8 18 1.5-8'],tags: ['piece', 'board game'],categories: ['gaming', 'emoji'],);
+  static const LucideIconData chessQueen = LucideIconData(name: 'chess-queen',circles: [(12.0, 4.0, 2.0), (20.0, 7.0, 2.0), (4.0, 7.0, 2.0)],paths: ['M4 20a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z', 'm12.474 5.943 1.567 5.34a1 1 0 0 0 1.75.328l2.616-3.402', 'm20 9-3 9', 'm5.594 8.209 2.615 3.403a1 1 0 0 0 1.75-.329l1.567-5.34', 'M7 18 4 9'],tags: ['ruler', 'crown', 'piece', 'board game', 'stalemate'],categories: ['gaming', 'emoji'],);
+  static const LucideIconData chessRook = LucideIconData(name: 'chess-rook',paths: ['M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z', 'M10 2v2', 'M14 2v2', 'm17 18-1-9', 'M6 2v5a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2', 'M6 4h12', 'm7 18 1-9'],tags: ['castle', 'piece', 'board game'],categories: ['gaming', 'emoji'],);
+  static const LucideIconData chevronDown = LucideIconData(name: 'chevron-down',paths: ['m6 9 6 6 6-6'],tags: ['backwards', 'reverse', 'slow', 'dropdown'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData chevronFirst = LucideIconData(name: 'chevron-first',paths: ['m17 18-6-6 6-6', 'M7 6v12'],tags: ['previous', 'music'],categories: ['arrows', 'multimedia'],);
+  static const LucideIconData chevronLast = LucideIconData(name: 'chevron-last',paths: ['m7 18 6-6-6-6', 'M17 6v12'],tags: ['skip', 'next', 'music'],categories: ['arrows', 'multimedia'],);
+  static const LucideIconData chevronLeft = LucideIconData(name: 'chevron-left',paths: ['m15 18-6-6 6-6'],tags: ['back', 'previous', 'less than', 'fewer', 'menu', '<'],categories: ['arrows'],);
+  static const LucideIconData chevronRight = LucideIconData(name: 'chevron-right',paths: ['m9 18 6-6-6-6'],tags: ['forward', 'next', 'more than', 'greater', 'menu', 'code', 'coding', 'command line', 'terminal', 'prompt', 'shell', '>'],categories: ['arrows', 'math', 'development'],);
+  static const LucideIconData chevronUp = LucideIconData(name: 'chevron-up',paths: ['m18 15-6-6-6 6'],tags: ['caret', 'keyboard', 'mac', 'control', 'ctrl', 'superscript', 'exponential', 'power', 'ahead', 'fast', '^', 'dropdown'],categories: ['arrows', 'math', 'gaming'],);
+  static const LucideIconData chevronsDown = LucideIconData(name: 'chevrons-down',paths: ['m7 6 5 5 5-5', 'm7 13 5 5 5-5'],tags: ['backwards', 'reverse', 'slower'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData chevronsDownUp = LucideIconData(name: 'chevrons-down-up',paths: ['m7 20 5-5 5 5', 'm7 4 5 5 5-5'],tags: ['collapse', 'fold', 'vertical'],categories: ['arrows'],);
+  static const LucideIconData chevronsLeft = LucideIconData(name: 'chevrons-left',paths: ['m11 17-5-5 5-5', 'm18 17-5-5 5-5'],tags: ['turn', 'corner'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData chevronsLeftRight = LucideIconData(name: 'chevrons-left-right',paths: ['m9 7-5 5 5 5', 'm15 7 5 5-5 5'],tags: ['expand', 'horizontal', 'unfold'],categories: ['arrows'],);
+  static const LucideIconData chevronsLeftRightEllipsis = LucideIconData(name: 'chevrons-left-right-ellipsis',paths: ['M12 12h.01', 'M16 12h.01', 'm17 7 5 5-5 5', 'm7 7-5 5 5 5', 'M8 12h.01'],tags: ['internet', 'network', 'connection', 'cable', 'lan', 'port', 'router', 'switch', 'hub', 'modem', 'web', 'online', 'networking', 'communication', 'socket', 'plug', 'slot', 'controller', 'connector', 'interface', 'console', 'signal', 'data', 'input', 'output'],categories: ['communication', 'devices', 'multimedia', 'gaming'],);
+  static const LucideIconData chevronsRight = LucideIconData(name: 'chevrons-right',paths: ['m6 17 5-5-5-5', 'm13 17 5-5-5-5'],tags: ['turn', 'corner'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData chevronsRightLeft = LucideIconData(name: 'chevrons-right-left',paths: ['m20 17-5-5 5-5', 'm4 17 5-5-5-5'],tags: ['collapse', 'fold', 'horizontal'],categories: ['arrows'],);
+  static const LucideIconData chevronsUp = LucideIconData(name: 'chevrons-up',paths: ['m17 11-5-5-5 5', 'm17 18-5-5-5 5'],tags: ['forward', 'ahead', 'faster', 'speed', 'boost'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData chevronsUpDown = LucideIconData(name: 'chevrons-up-down',paths: ['m7 15 5 5 5-5', 'm7 9 5-5 5 5'],tags: ['expand', 'unfold', 'vertical'],categories: ['arrows'],);
+  static const LucideIconData church = LucideIconData(name: 'church',paths: ['M10 9h4', 'M12 7v5', 'M14 21v-3a2 2 0 0 0-4 0v3', 'm18 9 3.52 2.147a1 1 0 0 1 .48.854V19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6.999a1 1 0 0 1 .48-.854L6 9', 'M6 21V7a1 1 0 0 1 .376-.782l5-3.999a1 1 0 0 1 1.249.001l5 4A1 1 0 0 1 18 7v14'],tags: ['temple', 'building'],categories: ['buildings', 'navigation'],);
+  static const LucideIconData cigarette = LucideIconData(name: 'cigarette',paths: ['M17 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14', 'M18 8c0-2.5-2-2.5-2-5', 'M21 16a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1', 'M22 8c0-2.5-2-2.5-2-5', 'M7 12v4'],tags: ['smoking'],categories: ['travel', 'transportation', 'medical'],);
+  static const LucideIconData cigaretteOff = LucideIconData(name: 'cigarette-off',paths: ['M12 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h13', 'M18 8c0-2.5-2-2.5-2-5', 'm2 2 20 20', 'M21 12a1 1 0 0 1 1 1v2a1 1 0 0 1-.5.866', 'M22 8c0-2.5-2-2.5-2-5', 'M7 12v4'],tags: ['smoking', 'no-smoking'],categories: ['travel', 'transportation', 'medical'],);
+  static const LucideIconData circle = LucideIconData(name: 'circle',circles: [(12.0, 12.0, 10.0)],tags: ['off', 'zero', 'record', 'shape'],categories: ['shapes'],);
+  static const LucideIconData circleAlert = LucideIconData(name: 'circle-alert',circles: [(12.0, 12.0, 10.0)],tags: ['warning', 'alert', 'danger', 'exclamation mark'],categories: ['notifications'],);
+  static const LucideIconData circleArrowDown = LucideIconData(name: 'circle-arrow-down',circles: [(12.0, 12.0, 10.0)],paths: ['M12 8v8', 'm8 12 4 4 4-4'],tags: ['backwards', 'reverse', 'direction', 'south', 'sign', 'button'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData circleArrowLeft = LucideIconData(name: 'circle-arrow-left',circles: [(12.0, 12.0, 10.0)],paths: ['m12 8-4 4 4 4', 'M16 12H8'],tags: ['previous', 'back', 'direction', 'west', 'sign', 'turn', 'button', '<-'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData circleArrowOutDownLeft = LucideIconData(name: 'circle-arrow-out-down-left',paths: ['M2 12a10 10 0 1 1 10 10', 'm2 22 10-10', 'M8 22H2v-6'],tags: ['outwards', 'direction', 'south-west', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData circleArrowOutDownRight = LucideIconData(name: 'circle-arrow-out-down-right',paths: ['M12 22a10 10 0 1 1 10-10', 'M22 22 12 12', 'M22 16v6h-6'],tags: ['outwards', 'direction', 'south-east', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData circleArrowOutUpLeft = LucideIconData(name: 'circle-arrow-out-up-left',paths: ['M2 8V2h6', 'm2 2 10 10', 'M12 2A10 10 0 1 1 2 12'],tags: ['outwards', 'direction', 'north-west', 'diagonal', 'keyboard', 'button', 'escape'],categories: ['arrows', 'development'],);
+  static const LucideIconData circleArrowOutUpRight = LucideIconData(name: 'circle-arrow-out-up-right',paths: ['M22 12A10 10 0 1 1 12 2', 'M22 2 12 12', 'M16 2h6v6'],tags: ['outwards', 'direction', 'north-east', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData circleArrowRight = LucideIconData(name: 'circle-arrow-right',circles: [(12.0, 12.0, 10.0)],paths: ['m12 16 4-4-4-4', 'M8 12h8'],tags: ['next', 'forward', 'direction', 'east', 'sign', 'turn', 'button', '->'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData circleArrowUp = LucideIconData(name: 'circle-arrow-up',circles: [(12.0, 12.0, 10.0)],paths: ['m16 12-4-4-4 4', 'M12 16V8'],tags: ['forward', 'direction', 'north', 'sign', 'button'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData circleCheck = LucideIconData(name: 'circle-check',circles: [(12.0, 12.0, 10.0)],paths: ['m9 12 2 2 4-4'],tags: ['done', 'todo', 'tick', 'complete', 'task'],categories: ['notifications'],);
+  static const LucideIconData circleCheckBig = LucideIconData(name: 'circle-check-big',paths: ['M21.801 10A10 10 0 1 1 17 3.335', 'm9 11 3 3L22 4'],tags: ['done', 'todo', 'tick', 'complete', 'task'],categories: ['notifications'],);
+  static const LucideIconData circleChevronDown = LucideIconData(name: 'circle-chevron-down',circles: [(12.0, 12.0, 10.0)],paths: ['m16 10-4 4-4-4'],tags: ['back', 'menu'],categories: ['arrows'],);
+  static const LucideIconData circleChevronLeft = LucideIconData(name: 'circle-chevron-left',circles: [(12.0, 12.0, 10.0)],paths: ['m14 16-4-4 4-4'],tags: ['back', 'previous', 'less than', 'fewer', 'menu', '<'],categories: ['arrows'],);
+  static const LucideIconData circleChevronRight = LucideIconData(name: 'circle-chevron-right',circles: [(12.0, 12.0, 10.0)],paths: ['m10 8 4 4-4 4'],tags: ['back', 'more than', 'greater', 'menu', '>'],categories: ['arrows'],);
+  static const LucideIconData circleChevronUp = LucideIconData(name: 'circle-chevron-up',circles: [(12.0, 12.0, 10.0)],paths: ['m8 14 4-4 4 4'],tags: ['caret', 'ahead', 'menu', '^'],categories: ['arrows'],);
+  static const LucideIconData circleDashed = LucideIconData(name: 'circle-dashed',paths: ['M10.1 2.182a10 10 0 0 1 3.8 0', 'M13.9 21.818a10 10 0 0 1-3.8 0', 'M17.609 3.721a10 10 0 0 1 2.69 2.7', 'M2.182 13.9a10 10 0 0 1 0-3.8', 'M20.279 17.609a10 10 0 0 1-2.7 2.69', 'M21.818 10.1a10 10 0 0 1 0 3.8', 'M3.721 6.391a10 10 0 0 1 2.7-2.69', 'M6.391 20.279a10 10 0 0 1-2.69-2.7'],tags: ['pending', 'dot', 'progress', 'issue', 'draft', 'code', 'coding', 'version control'],categories: ['development', 'shapes'],);
+  static const LucideIconData circleDivide = LucideIconData(name: 'circle-divide',circles: [(12.0, 12.0, 10.0)],tags: ['calculate', 'math', '÷', '/'],categories: ['math'],);
+  static const LucideIconData circleDollarSign = LucideIconData(name: 'circle-dollar-sign',circles: [(12.0, 12.0, 10.0)],paths: ['M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8', 'M12 18V6'],tags: ['monetization', 'marketing', 'currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData circleDot = LucideIconData(name: 'circle-dot',circles: [(12.0, 12.0, 10.0), (12.0, 12.0, 1.0)],tags: ['pending', 'dot', 'progress', 'issue', 'code', 'coding', 'version control', 'choices', 'multiple choice', 'choose'],categories: ['development', 'shapes'],);
+  static const LucideIconData circleDotDashed = LucideIconData(name: 'circle-dot-dashed',circles: [(12.0, 12.0, 1.0)],paths: ['M10.1 2.18a9.93 9.93 0 0 1 3.8 0', 'M17.6 3.71a9.95 9.95 0 0 1 2.69 2.7', 'M21.82 10.1a9.93 9.93 0 0 1 0 3.8', 'M20.29 17.6a9.95 9.95 0 0 1-2.7 2.69', 'M13.9 21.82a9.94 9.94 0 0 1-3.8 0', 'M6.4 20.29a9.95 9.95 0 0 1-2.69-2.7', 'M2.18 13.9a9.93 9.93 0 0 1 0-3.8', 'M3.71 6.4a9.95 9.95 0 0 1 2.7-2.69'],tags: ['pending', 'dot', 'progress', 'issue', 'draft', 'code', 'coding', 'version control'],categories: ['development', 'shapes'],);
+  static const LucideIconData circleEllipsis = LucideIconData(name: 'circle-ellipsis',circles: [(12.0, 12.0, 10.0)],paths: ['M17 12h.01', 'M12 12h.01', 'M7 12h.01'],tags: ['ellipsis', 'et cetera', 'etc', 'loader', 'loading', 'progress', 'pending', 'throbber', 'menu', 'options', 'operator', 'code', 'spread', 'rest', 'more', 'further', 'extra', 'overflow', 'dots', '…', '...'],categories: ['layout', 'development'],);
+  static const LucideIconData circleEqual = LucideIconData(name: 'circle-equal',circles: [(12.0, 12.0, 10.0)],paths: ['M7 10h10', 'M7 14h10'],tags: ['calculate', 'shape', '='],categories: ['math'],);
+  static const LucideIconData circleFadingArrowUp = LucideIconData(name: 'circle-fading-arrow-up',paths: ['M12 2a10 10 0 0 1 7.38 16.75', 'm16 12-4-4-4 4', 'M12 16V8', 'M2.5 8.875a10 10 0 0 0-.5 3', 'M2.83 16a10 10 0 0 0 2.43 3.4', 'M4.636 5.235a10 10 0 0 1 .891-.857', 'M8.644 21.42a10 10 0 0 0 7.631-.38'],tags: ['north', 'up', 'upgrade', 'improve', 'circle', 'button'],categories: ['arrows', 'development'],);
+  static const LucideIconData circleFadingPlus = LucideIconData(name: 'circle-fading-plus',paths: ['M12 2a10 10 0 0 1 7.38 16.75', 'M12 8v8', 'M16 12H8', 'M2.5 8.875a10 10 0 0 0-.5 3', 'M2.83 16a10 10 0 0 0 2.43 3.4', 'M4.636 5.235a10 10 0 0 1 .891-.857', 'M8.644 21.42a10 10 0 0 0 7.631-.38'],tags: ['stories', 'social media', 'instagram', 'facebook', 'meta', 'snapchat', 'sharing', 'content'],categories: ['communication', 'social'],);
+  static const LucideIconData circleGauge = LucideIconData(name: 'circle-gauge',circles: [(12.0, 12.0, 2.0)],paths: ['M15.6 2.7a10 10 0 1 0 5.7 5.7', 'M13.4 10.6 19 5'],tags: ['dashboard', 'dial', 'meter', 'speed', 'pressure', 'measure', 'level'],categories: ['transportation', 'sports', 'science'],);
+  static const LucideIconData circleMinus = LucideIconData(name: 'circle-minus',circles: [(12.0, 12.0, 10.0)],paths: ['M8 12h8'],tags: ['subtract', 'remove', 'decrease', 'reduce', 'calculate', 'line', 'operator', 'code', 'coding', 'minimum', 'downgrade', '-'],categories: ['math'],);
+  static const LucideIconData circleOff = LucideIconData(name: 'circle-off',paths: ['m2 2 20 20', 'M8.35 2.69A10 10 0 0 1 21.3 15.65', 'M19.08 19.08A10 10 0 1 1 4.92 4.92'],tags: ['diameter', 'zero', 'Ø', 'nothing', 'null', 'void', 'cancel', 'ban', 'no', 'stop', 'forbidden', 'prohibited', 'error', 'incorrect', 'mistake', 'wrong', 'failure'],categories: ['shapes'],);
+  static const LucideIconData circleParking = LucideIconData(name: 'circle-parking',circles: [(12.0, 12.0, 10.0)],paths: ['M9 17V7h4a3 3 0 0 1 0 6H9'],tags: ['parking lot', 'car park'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData circleParkingOff = LucideIconData(name: 'circle-parking-off',paths: ['M12.656 7H13a3 3 0 0 1 2.984 3.307', 'M13 13H9', 'M19.071 19.071A1 1 0 0 1 4.93 4.93', 'm2 2 20 20', 'M8.357 2.687a10 10 0 0 1 12.956 12.956', 'M9 17V9'],tags: ['parking lot', 'car park', 'no parking'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData circlePause = LucideIconData(name: 'circle-pause',circles: [(12.0, 12.0, 10.0)],tags: ['music', 'audio', 'stop'],categories: ['multimedia'],);
+  static const LucideIconData circlePercent = LucideIconData(name: 'circle-percent',circles: [(12.0, 12.0, 10.0)],paths: ['m15 9-6 6', 'M9 9h.01', 'M15 15h.01'],tags: ['verified', 'unverified', 'sale', 'discount', 'offer', 'marketing', 'sticker', 'price tag'],categories: ['social', 'finance', 'shopping', 'math'],);
+  static const LucideIconData circlePile = LucideIconData(name: 'circle-pile',circles: [(12.0, 19.0, 2.0), (12.0, 5.0, 2.0), (16.0, 12.0, 2.0), (20.0, 19.0, 2.0), (4.0, 19.0, 2.0), (8.0, 12.0, 2.0)],tags: ['off', 'zero', 'record', 'shape', 'circle-pile', 'circle', 'pile', 'stack', 'layer', 'structure', 'form', 'group', 'collection', 'stock', 'inventory', 'materials', 'warehouse'],categories: ['shapes'],);
+  static const LucideIconData circlePlay = LucideIconData(name: 'circle-play',circles: [(12.0, 12.0, 10.0)],paths: ['M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z'],tags: ['music', 'start', 'run'],categories: ['multimedia'],);
+  static const LucideIconData circlePlus = LucideIconData(name: 'circle-plus',circles: [(12.0, 12.0, 10.0)],paths: ['M8 12h8', 'M12 8v8'],tags: ['add', 'new', 'increase', 'increment', 'positive', 'calculate', 'crosshair', 'aim', 'target', 'scope', 'sight', 'reticule', 'maximum', 'upgrade', 'extra', 'operator', 'join', 'concatenate', 'code', 'coding', '+'],categories: ['math', 'development', 'cursors', 'gaming'],);
+  static const LucideIconData circlePoundSterling = LucideIconData(name: 'circle-pound-sterling',circles: [(12.0, 12.0, 10.0)],paths: ['M10 16V9.5a1 1 0 0 1 5 0', 'M8 12h4', 'M8 16h7'],tags: ['monetization', 'coin', 'penny', 'marketing', 'currency', 'money', 'payment', 'british', 'gbp', '£'],categories: ['finance'],);
+  static const LucideIconData circlePower = LucideIconData(name: 'circle-power',circles: [(12.0, 12.0, 10.0)],paths: ['M12 7v4', 'M7.998 9.003a5 5 0 1 0 8-.005'],tags: ['on', 'off', 'device', 'switch', 'toggle', 'binary', 'boolean', 'reboot', 'restart', 'button', 'keyboard', 'troubleshoot'],categories: ['connectivity'],);
+  static const LucideIconData circleQuestionMark = LucideIconData(name: 'circle-question-mark',circles: [(12.0, 12.0, 10.0)],paths: ['M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3', 'M12 17h.01'],tags: ['question mark'],categories: ['accessibility', 'text', 'notifications'],);
+  static const LucideIconData circleSlash = LucideIconData(name: 'circle-slash',circles: [(12.0, 12.0, 10.0)],tags: ['diameter', 'zero', 'Ø', 'nothing', 'null', 'void', 'cancel', 'ban', 'no', 'stop', 'forbidden', 'prohibited', 'error', 'incorrect', 'mistake', 'wrong', 'failure', 'divide', 'division', 'or', '/'],categories: ['development', 'math'],);
+  static const LucideIconData circleSlash2 = LucideIconData(name: 'circle-slash-2',circles: [(12.0, 12.0, 10.0)],paths: ['M22 2 2 22'],tags: ['diameter', 'zero', 'ø', 'nothing', 'null', 'void', 'ban', 'math', 'divide', 'division', 'half', 'split', '/', 'average', 'avg', 'mean', 'median', 'normal'],categories: ['shapes', 'math', 'development'],);
+  static const LucideIconData circleSmall = LucideIconData(name: 'circle-small',circles: [(12.0, 12.0, 6.0)],tags: ['shape', 'bullet', 'gender', 'genderless'],categories: ['shapes', 'medical'],);
+  static const LucideIconData circleStar = LucideIconData(name: 'circle-star',circles: [(12.0, 12.0, 10.0)],paths: ['M11.051 7.616a1 1 0 0 1 1.909.024l.737 1.452a1 1 0 0 0 .737.535l1.634.256a1 1 0 0 1 .588 1.806l-1.172 1.168a1 1 0 0 0-.282.866l.259 1.613a1 1 0 0 1-1.541 1.134l-1.465-.75a1 1 0 0 0-.912 0l-1.465.75a1 1 0 0 1-1.539-1.133l.258-1.613a1 1 0 0 0-.282-.867l-1.156-1.152a1 1 0 0 1 .572-1.822l1.633-.256a1 1 0 0 0 .737-.535z'],tags: ['badge', 'medal', 'honour', 'decoration', 'order', 'pin', 'laurel', 'trophy', 'medallion', 'insignia', 'bronze', 'silver', 'gold'],categories: ['sports', 'gaming'],);
+  static const LucideIconData circleStop = LucideIconData(name: 'circle-stop',circles: [(12.0, 12.0, 10.0)],tags: ['media', 'music'],categories: ['multimedia'],);
+  static const LucideIconData circleUser = LucideIconData(name: 'circle-user',circles: [(12.0, 12.0, 10.0), (12.0, 10.0, 3.0)],paths: ['M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662'],tags: ['person', 'account', 'contact'],categories: ['account'],);
+  static const LucideIconData circleUserRound = LucideIconData(name: 'circle-user-round',circles: [(12.0, 11.0, 4.0), (12.0, 12.0, 10.0)],paths: ['M17.925 20.056a6 6 0 0 0-11.851.001'],tags: ['person', 'account', 'contact'],categories: ['account'],);
+  static const LucideIconData circleX = LucideIconData(name: 'circle-x',circles: [(12.0, 12.0, 10.0)],paths: ['m15 9-6 6', 'm9 9 6 6'],tags: ['cancel', 'close', 'delete', 'remove', 'times', 'clear', 'error', 'incorrect', 'wrong', 'mistake', 'failure', 'linter', 'multiply', 'multiplication'],categories: ['math', 'development'],);
+  static const LucideIconData circuitBoard = LucideIconData(name: 'circuit-board',circles: [(9.0, 9.0, 2.0), (15.0, 15.0, 2.0)],rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M11 9h4a2 2 0 0 0 2-2V3', 'M7 21v-4a2 2 0 0 1 2-2h4'],tags: ['computing', 'electricity', 'electronics'],categories: ['science', 'development'],);
+  static const LucideIconData citrus = LucideIconData(name: 'citrus',paths: ['M21.66 17.67a1.08 1.08 0 0 1-.04 1.6A12 12 0 0 1 4.73 2.38a1.1 1.1 0 0 1 1.61-.04z', 'M19.65 15.66A8 8 0 0 1 8.35 4.34', 'm14 10-5.5 5.5', 'M14 17.85V10H6.15'],tags: ['lemon', 'orange', 'grapefruit', 'fruit'],categories: ['food-beverage'],);
+  static const LucideIconData clapperboard = LucideIconData(name: 'clapperboard',paths: ['m12.296 3.464 3.02 3.956', 'M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3z', 'M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z', 'm6.18 5.276 3.1 3.899'],tags: ['movie', 'film', 'video', 'camera', 'cinema', 'cut', 'action', 'television', 'tv', 'show', 'entertainment'],categories: ['multimedia'],);
+  static const LucideIconData clipboard = LucideIconData(name: 'clipboard',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2'],tags: ['copy', 'paste'],categories: ['text'],);
+  static const LucideIconData clipboardCheck = LucideIconData(name: 'clipboard-check',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2', 'm9 14 2 2 4-4'],tags: ['copied', 'pasted', 'done', 'todo', 'tick', 'complete', 'task'],categories: ['text'],);
+  static const LucideIconData clipboardClock = LucideIconData(name: 'clipboard-clock',circles: [(16.0, 16.0, 6.0)],paths: ['M16 14v2.2l1.6 1', 'M16 4h2a2 2 0 0 1 2 2v.832', 'M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2'],tags: ['copy', 'paste', 'history', 'log', 'clock', 'time', 'watch', 'alarm', 'hour', 'minute', 'reminder', 'scheduled', 'deadline', 'pending', 'time tracking', 'timesheets', 'appointment', 'logbook'],categories: ['time', 'text'],);
+  static const LucideIconData clipboardCopy = LucideIconData(name: 'clipboard-copy',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2', 'M16 4h2a2 2 0 0 1 2 2v4', 'M21 14H11', 'm15 10-4 4 4 4'],tags: ['copy', 'paste'],categories: ['text', 'arrows'],);
+  static const LucideIconData clipboardList = LucideIconData(name: 'clipboard-list',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2', 'M12 11h4', 'M12 16h4', 'M8 11h.01', 'M8 16h.01'],tags: ['copy', 'paste', 'tasks'],categories: ['text'],);
+  static const LucideIconData clipboardMinus = LucideIconData(name: 'clipboard-minus',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2', 'M9 14h6'],tags: ['copy', 'delete', 'remove', 'erase', 'document', 'medical', 'report', 'doctor'],categories: ['text', 'medical'],);
+  static const LucideIconData clipboardPaste = LucideIconData(name: 'clipboard-paste',paths: ['M11 14h10', 'M16 4h2a2 2 0 0 1 2 2v1.344', 'm17 18 4-4-4-4', 'M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 1.793-1.113'],tags: ['copy', 'paste'],categories: ['text', 'arrows'],);
+  static const LucideIconData clipboardPen = LucideIconData(name: 'clipboard-pen',paths: ['M16 4h2a2 2 0 0 1 2 2v2', 'M21.34 15.664a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z', 'M8 22H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2'],tags: ['paste', 'signature'],categories: ['text'],);
+  static const LucideIconData clipboardPenLine = LucideIconData(name: 'clipboard-pen-line',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5', 'M16 4h2a2 2 0 0 1 1.73 1', 'M8 18h1', 'M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z'],tags: ['paste'],categories: ['text'],);
+  static const LucideIconData clipboardPlus = LucideIconData(name: 'clipboard-plus',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2', 'M9 14h6', 'M12 17v-6'],tags: ['copy', 'paste', 'add', 'create', 'new', 'document', 'medical', 'report', 'doctor'],categories: ['text', 'medical'],);
+  static const LucideIconData clipboardType = LucideIconData(name: 'clipboard-type',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2', 'M9 12v-1h6v1', 'M11 17h2', 'M12 11v6'],tags: ['paste', 'format', 'text'],categories: ['text'],);
+  static const LucideIconData clipboardX = LucideIconData(name: 'clipboard-x',rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],paths: ['M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2', 'm15 11-6 6', 'm9 11 6 6'],tags: ['copy', 'paste', 'discard', 'remove'],categories: ['text'],);
+  static const LucideIconData clock = LucideIconData(name: 'clock',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l4 2'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock1 = LucideIconData(name: 'clock-1',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l2-4'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock10 = LucideIconData(name: 'clock-10',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l-4-2'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock11 = LucideIconData(name: 'clock-11',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l-2-4'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock12 = LucideIconData(name: 'clock-12',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6'],tags: ['time', 'watch', 'alarm', 'noon', 'midnight'],categories: ['time'],);
+  static const LucideIconData clock2 = LucideIconData(name: 'clock-2',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l4-2'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock3 = LucideIconData(name: 'clock-3',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6h4'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock4 = LucideIconData(name: 'clock-4',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l4 2'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock5 = LucideIconData(name: 'clock-5',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l2 4'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock6 = LucideIconData(name: 'clock-6',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v10'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock7 = LucideIconData(name: 'clock-7',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l-2 4'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock8 = LucideIconData(name: 'clock-8',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6l-4 2'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clock9 = LucideIconData(name: 'clock-9',circles: [(12.0, 12.0, 10.0)],paths: ['M12 6v6H8'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clockAlert = LucideIconData(name: 'clock-alert',paths: ['M12 6v6l4 2', 'M20 12v5', 'M20 21h.01', 'M21.25 8.2A10 10 0 1 0 16 21.16'],tags: ['time', 'watch', 'alarm', 'warning', 'wrong'],categories: ['time'],);
+  static const LucideIconData clockArrowDown = LucideIconData(name: 'clock-arrow-down',paths: ['M12 6v6l2 1', 'M12.337 21.994a10 10 0 1 1 9.588-8.767', 'm14 18 4 4 4-4', 'M18 14v8'],tags: ['time', 'watch', 'alarm', 'sort', 'order', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling'],categories: ['time'],);
+  static const LucideIconData clockArrowUp = LucideIconData(name: 'clock-arrow-up',paths: ['M12 6v6l1.56.78', 'M13.227 21.925a10 10 0 1 1 8.767-9.588', 'm14 18 4-4 4 4', 'M18 22v-8'],tags: ['time', 'watch', 'alarm', 'sort', 'order', 'ascending', 'descending', 'increasing', 'decreasing', 'rising', 'falling'],categories: ['time'],);
+  static const LucideIconData clockCheck = LucideIconData(name: 'clock-check',paths: ['M12 6v6l4 2', 'M22 12a10 10 0 1 0-11 9.95', 'm22 16-5.5 5.5L14 19'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clockFading = LucideIconData(name: 'clock-fading',paths: ['M12 2a10 10 0 0 1 7.38 16.75', 'M12 6v6l4 2', 'M2.5 8.875a10 10 0 0 0-.5 3', 'M2.83 16a10 10 0 0 0 2.43 3.4', 'M4.636 5.235a10 10 0 0 1 .891-.857', 'M8.644 21.42a10 10 0 0 0 7.631-.38'],tags: ['time', 'watch', 'alarm'],categories: ['time'],);
+  static const LucideIconData clockPlus = LucideIconData(name: 'clock-plus',paths: ['M12 6v6l3.644 1.822', 'M16 19h6', 'M19 16v6', 'M21.92 13.267a10 10 0 1 0-8.653 8.653'],tags: ['time', 'watch', 'alarm', 'add', 'create', 'new'],categories: ['time'],);
+  static const LucideIconData closedCaption = LucideIconData(name: 'closed-caption',paths: ['M10 9.17a3 3 0 1 0 0 5.66', 'M17 9.17a3 3 0 1 0 0 5.66'],tags: ['tv', 'movie', 'video', 'closed captions', 'subtitles', 'subhead', 'transcription', 'transcribe', 'dialogue', 'accessibility'],categories: ['accessibility', 'multimedia'],);
+  static const LucideIconData cloud = LucideIconData(name: 'cloud',paths: ['M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z'],tags: ['weather'],categories: ['weather'],);
+  static const LucideIconData cloudAlert = LucideIconData(name: 'cloud-alert',paths: ['M12 12v4', 'M12 20h.01', 'M8.128 16.949A7 7 0 1 1 15.71 8h1.79a1 1 0 0 1 0 9h-1.642'],tags: ['weather', 'danger', 'warning', 'alert', 'error', 'sync', 'network', 'exclamation'],categories: ['development'],);
+  static const LucideIconData cloudBackup = LucideIconData(name: 'cloud-backup',paths: ['M21 15.251A4.5 4.5 0 0 0 17.5 8h-1.79A7 7 0 1 0 3 13.607', 'M7 11v4h4', 'M8 19a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5 4.82 4.82 0 0 0-3.41 1.41L7 15'],tags: ['storage', 'memory', 'bytes', 'servers', 'backup', 'timemachine', 'rotate', 'synchronize', 'synchronise', 'refresh', 'reconnect', 'transfer', 'data', 'security', 'upload', 'save', 'remote', 'safety'],categories: ['arrows', 'files'],);
+  static const LucideIconData cloudCheck = LucideIconData(name: 'cloud-check',paths: ['m17 15-5.5 5.5L9 18', 'M5.516 16.07A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 3.501 7.327'],tags: ['sync', 'network', 'success', 'done', 'completed', 'saved', 'persisted'],categories: ['development'],);
+  static const LucideIconData cloudCog = LucideIconData(name: 'cloud-cog',paths: ['m10.852 19.772-.383.924', 'm13.148 14.228.383-.923', 'M13.148 19.772a3 3 0 1 0-2.296-5.544l-.383-.923', 'm13.53 20.696-.382-.924a3 3 0 1 1-2.296-5.544', 'm14.772 15.852.923-.383', 'm14.772 18.148.923.383', 'M4.2 15.1a7 7 0 1 1 9.93-9.858A7 7 0 0 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.2', 'm9.228 15.852-.923-.383', 'm9.228 18.148-.923.383'],tags: ['computing', 'ai', 'cluster', 'network'],categories: ['development'],);
+  static const LucideIconData cloudDownload = LucideIconData(name: 'cloud-download',paths: ['M12 13v8l-4-4', 'm12 21 4-4', 'M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284'],tags: ['import'],categories: ['arrows', 'files'],);
+  static const LucideIconData cloudDrizzle = LucideIconData(name: 'cloud-drizzle',paths: ['M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242', 'M8 19v1', 'M8 14v1', 'M16 19v1', 'M16 14v1', 'M12 21v1', 'M12 16v1'],tags: ['weather', 'shower'],categories: ['weather'],);
+  static const LucideIconData cloudFog = LucideIconData(name: 'cloud-fog',paths: ['M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242', 'M16 17H7', 'M17 21H9'],tags: ['weather', 'mist'],categories: ['weather'],);
+  static const LucideIconData cloudHail = LucideIconData(name: 'cloud-hail',paths: ['M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242', 'M16 14v2', 'M8 14v2', 'M16 20h.01', 'M8 20h.01', 'M12 16v2', 'M12 22h.01'],tags: ['weather', 'rainfall'],categories: ['weather'],);
+  static const LucideIconData cloudLightning = LucideIconData(name: 'cloud-lightning',paths: ['M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973', 'm13 12-3 5h4l-3 5'],tags: ['weather', 'bolt'],categories: ['weather'],);
+  static const LucideIconData cloudMoon = LucideIconData(name: 'cloud-moon',paths: ['M13 16a3 3 0 0 1 0 6H7a5 5 0 1 1 4.9-6z', 'M18.376 14.512a6 6 0 0 0 3.461-4.127c.148-.625-.659-.97-1.248-.714a4 4 0 0 1-5.259-5.26c.255-.589-.09-1.395-.716-1.248a6 6 0 0 0-4.594 5.36'],tags: ['weather', 'night'],categories: ['weather'],);
+  static const LucideIconData cloudMoonRain = LucideIconData(name: 'cloud-moon-rain',paths: ['M11 20v2', 'M18.376 14.512a6 6 0 0 0 3.461-4.127c.148-.625-.659-.97-1.248-.714a4 4 0 0 1-5.259-5.26c.255-.589-.09-1.395-.716-1.248a6 6 0 0 0-4.594 5.36', 'M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24', 'M7 19v2'],tags: ['weather', 'partly', 'night', 'rainfall'],categories: ['weather'],);
+  static const LucideIconData cloudOff = LucideIconData(name: 'cloud-off',paths: ['M10.94 5.274A7 7 0 0 1 15.71 10h1.79a4.5 4.5 0 0 1 4.222 6.057', 'M18.796 18.81A4.5 4.5 0 0 1 17.5 19H9A7 7 0 0 1 5.79 5.78', 'm2 2 20 20'],tags: ['disconnect'],categories: ['connectivity', 'weather'],);
+  static const LucideIconData cloudRain = LucideIconData(name: 'cloud-rain',paths: ['M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242', 'M16 14v6', 'M8 14v6', 'M12 16v6'],tags: ['weather', 'rainfall'],categories: ['weather'],);
+  static const LucideIconData cloudRainWind = LucideIconData(name: 'cloud-rain-wind',paths: ['M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242', 'm9.2 22 3-7', 'm9 13-3 7', 'm17 13-3 7'],tags: ['weather', 'rainfall'],categories: ['weather'],);
+  static const LucideIconData cloudSnow = LucideIconData(name: 'cloud-snow',paths: ['M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242', 'M8 15h.01', 'M8 19h.01', 'M12 17h.01', 'M12 21h.01', 'M16 15h.01', 'M16 19h.01'],tags: ['weather', 'blizzard'],categories: ['weather'],);
+  static const LucideIconData cloudSun = LucideIconData(name: 'cloud-sun',paths: ['M12 2v2', 'm4.93 4.93 1.41 1.41', 'M20 12h2', 'm19.07 4.93-1.41 1.41', 'M15.947 12.65a4 4 0 0 0-5.925-4.128', 'M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z'],tags: ['weather', 'partly'],categories: ['weather'],);
+  static const LucideIconData cloudSunRain = LucideIconData(name: 'cloud-sun-rain',paths: ['M12 2v2', 'm4.93 4.93 1.41 1.41', 'M20 12h2', 'm19.07 4.93-1.41 1.41', 'M15.947 12.65a4 4 0 0 0-5.925-4.128', 'M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24', 'M11 20v2', 'M7 19v2'],tags: ['weather', 'partly', 'rainfall'],categories: ['weather'],);
+  static const LucideIconData cloudSync = LucideIconData(name: 'cloud-sync',paths: ['m17 18-1.535 1.605a5 5 0 0 1-8-1.5', 'M17 22v-4h-4', 'M20.996 15.251A4.5 4.5 0 0 0 17.495 8h-1.79a7 7 0 1 0-12.709 5.607', 'M7 10v4h4', 'm7 14 1.535-1.605a5 5 0 0 1 8 1.5'],tags: ['synchronize', 'synchronise', 'refresh', 'reconnect', 'transfer', 'backup', 'storage', 'upload', 'download', 'connection', 'network', 'data'],categories: ['arrows', 'files'],);
+  static const LucideIconData cloudUpload = LucideIconData(name: 'cloud-upload',paths: ['M12 13v8', 'M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242', 'm8 17 4-4 4 4'],tags: ['file'],categories: ['arrows', 'files'],);
+  static const LucideIconData cloudy = LucideIconData(name: 'cloudy',paths: ['M17.5 12a1 1 0 1 1 0 9H9.006a7 7 0 1 1 6.702-9z', 'M21.832 9A3 3 0 0 0 19 7h-2.207a5.5 5.5 0 0 0-10.72.61'],tags: ['weather', 'clouds'],categories: ['weather'],);
+  static const LucideIconData clover = LucideIconData(name: 'clover',paths: ['M16.17 7.83 2 22', 'M4.02 12a2.827 2.827 0 1 1 3.81-4.17A2.827 2.827 0 1 1 12 4.02a2.827 2.827 0 1 1 4.17 3.81A2.827 2.827 0 1 1 19.98 12a2.827 2.827 0 1 1-3.81 4.17A2.827 2.827 0 1 1 12 19.98a2.827 2.827 0 1 1-4.17-3.81A1 1 0 1 1 4 12', 'm7.83 7.83 8.34 8.34'],tags: ['leaf', 'luck', 'plant'],categories: ['gaming'],);
+  static const LucideIconData club = LucideIconData(name: 'club',paths: ['M17.28 9.05a5.5 5.5 0 1 0-10.56 0A5.5 5.5 0 1 0 12 17.66a5.5 5.5 0 1 0 5.28-8.6Z', 'M12 17.66L12 22'],tags: ['shape', 'suit', 'playing', 'cards'],categories: ['shapes', 'gaming'],);
+  static const LucideIconData code = LucideIconData(name: 'code',paths: ['m16 18 6-6-6-6', 'm8 6-6 6 6 6'],tags: ['source', 'programming', 'html', 'xml'],categories: ['text', 'development'],);
+  static const LucideIconData codeXml = LucideIconData(name: 'code-xml',paths: ['m18 16 4-4-4-4', 'm6 8-4 4 4 4', 'm14.5 4-5 16'],tags: ['source', 'programming', 'html', 'xml'],categories: ['text', 'development'],);
+  static const LucideIconData coffee = LucideIconData(name: 'coffee',paths: ['M10 2v2', 'M14 2v2', 'M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1', 'M6 2v2'],tags: ['drink', 'cup', 'mug', 'tea', 'cafe', 'hot', 'beverage'],categories: ['food-beverage'],);
+  static const LucideIconData cog = LucideIconData(name: 'cog',circles: [(12.0, 12.0, 2.0), (12.0, 12.0, 8.0)],paths: ['M11 10.27 7 3.34', 'm11 13.73-4 6.93', 'M12 22v-2', 'M12 2v2', 'M14 12h8', 'm17 20.66-1-1.73', 'm17 3.34-1 1.73', 'M2 12h2', 'm20.66 17-1.73-1', 'm20.66 7-1.73 1', 'm3.34 17 1.73-1', 'm3.34 7 1.73 1'],tags: ['computing', 'settings', 'cog', 'edit', 'gear', 'preferences', 'controls', 'configuration', 'fixed', 'build', 'construction', 'parts'],categories: ['account'],);
+  static const LucideIconData coins = LucideIconData(name: 'coins',circles: [(16.0, 8.0, 6.0)],paths: ['M13.744 17.736a6 6 0 1 1-7.48-7.48', 'M15 6h1v4', 'm6.134 14.768.866-.5 2 3.464'],tags: ['money', 'cash', 'finance', 'gamble'],categories: ['gaming'],);
+  static const LucideIconData columns2 = LucideIconData(name: 'columns-2',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 3v18'],tags: ['lines', 'list', 'queue', 'preview', 'panel', 'parallel', 'series', 'split', 'vertical', 'horizontal', 'half', 'center', 'middle', 'even', 'sidebar', 'drawer', 'gutter', 'fold', 'reflow', 'typography', 'pagination', 'pages'],categories: ['layout', 'design', 'text'],);
+  static const LucideIconData columns3 = LucideIconData(name: 'columns-3',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 3v18', 'M15 3v18'],tags: ['lines', 'list', 'queue', 'preview', 'parallel', 'series', 'split', 'vertical', 'horizontal', 'thirds', 'triple', 'center', 'middle', 'alignment', 'even', 'sidebars', 'drawers', 'gutters', 'fold', 'reflow', 'typography', 'pagination', 'pages'],categories: ['layout', 'design', 'text'],);
+  static const LucideIconData columns3Cog = LucideIconData(name: 'columns-3-cog',circles: [(18.0, 18.0, 3.0)],paths: ['M10.5 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.5', 'm14.3 19.6 1-.4', 'M15 3v7.5', 'm15.2 16.9-.9-.3', 'm16.6 21.7.3-.9', 'm16.8 15.3-.4-1', 'm19.1 15.2.3-.9', 'm19.6 21.7-.4-1', 'm20.7 16.8 1-.4', 'm21.7 19.4-.9-.3', 'M9 3v18'],tags: ['columns', 'settings', 'customize', 'table', 'grid', 'adjust', 'configuration', 'panel', 'layout'],categories: ['layout', 'design'],);
+  static const LucideIconData columns4 = LucideIconData(name: 'columns-4',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M7.5 3v18', 'M12 3v18', 'M16.5 3v18'],tags: ['lines', 'list', 'queue', 'preview', 'parallel', 'series', 'split', 'vertical', 'horizontal', 'thirds', 'triple', 'center', 'middle', 'alignment', 'even', 'sidebars', 'drawers', 'gutters', 'fold', 'reflow', 'typography', 'pagination', 'pages', 'prison', 'jail', 'bars', 'sentence', 'police', 'cops', 'cell', 'crime', 'criminal', 'justice', 'law', 'enforcement', 'grill'],categories: ['layout', 'design', 'text', 'security'],);
+  static const LucideIconData combine = LucideIconData(name: 'combine',paths: ['M14 3a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1', 'M19 3a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1', 'm7 15 3 3', 'm7 21 3-3H5a2 2 0 0 1-2-2v-2'],tags: ['cubes', 'packages', 'parts', 'units', 'collection', 'cluster', 'combine', 'gather', 'merge'],categories: ['development', 'files'],);
+  static const LucideIconData command = LucideIconData(name: 'command',paths: ['M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3'],tags: ['keyboard', 'key', 'mac', 'cmd', 'button'],categories: ['development'],);
+  static const LucideIconData compass = LucideIconData(name: 'compass',circles: [(12.0, 12.0, 10.0)],paths: ['m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z'],tags: ['direction', 'north', 'east', 'south', 'west', 'safari', 'browser'],categories: ['navigation', 'travel'],);
+  static const LucideIconData component = LucideIconData(name: 'component',paths: ['M15.536 11.293a1 1 0 0 0 0 1.414l2.376 2.377a1 1 0 0 0 1.414 0l2.377-2.377a1 1 0 0 0 0-1.414l-2.377-2.377a1 1 0 0 0-1.414 0z', 'M2.297 11.293a1 1 0 0 0 0 1.414l2.377 2.377a1 1 0 0 0 1.414 0l2.377-2.377a1 1 0 0 0 0-1.414L6.088 8.916a1 1 0 0 0-1.414 0z', 'M8.916 17.912a1 1 0 0 0 0 1.415l2.377 2.376a1 1 0 0 0 1.414 0l2.377-2.376a1 1 0 0 0 0-1.415l-2.377-2.376a1 1 0 0 0-1.414 0z', 'M8.916 4.674a1 1 0 0 0 0 1.414l2.377 2.376a1 1 0 0 0 1.414 0l2.377-2.376a1 1 0 0 0 0-1.414l-2.377-2.377a1 1 0 0 0-1.414 0z'],tags: ['design', 'element', 'group', 'module', 'part', 'symbol'],categories: ['design', 'development'],);
+  static const LucideIconData computer = LucideIconData(name: 'computer',rects: [(5.0, 2.0, 14.0, 8.0, 2.0), (2.0, 14.0, 20.0, 8.0, 2.0)],paths: ['M6 18h2', 'M12 18h6'],tags: ['pc', 'chassis', 'codespaces', 'github'],categories: ['devices', 'development', 'gaming'],);
+  static const LucideIconData conciergeBell = LucideIconData(name: 'concierge-bell',paths: ['M3 20a1 1 0 0 1-1-1v-1a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1Z', 'M20 16a8 8 0 1 0-16 0', 'M12 4v4', 'M10 4h4'],tags: ['reception', 'bell', 'porter'],categories: ['travel'],);
+  static const LucideIconData cone = LucideIconData(name: 'cone',paths: ['m20.9 18.55-8-15.98a1 1 0 0 0-1.8 0l-8 15.98'],tags: ['conical', 'triangle', 'triangular', 'geometry', 'filter', 'funnel', 'hopper', 'spotlight', 'searchlight'],categories: ['shapes', 'math'],);
+  static const LucideIconData construction = LucideIconData(name: 'construction',paths: ['M17 14v7', 'M7 14v7', 'M17 3v3', 'M7 3v3', 'M10 14 2.3 6.3', 'm14 6 7.7 7.7', 'm8 6 8 8'],tags: ['roadwork', 'maintenance', 'blockade', 'barricade'],categories: ['development'],);
+  static const LucideIconData contact = LucideIconData(name: 'contact',circles: [(12.0, 11.0, 3.0)],paths: ['M16 2v2', 'M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2', 'M8 2v2'],tags: ['user', 'person', 'family', 'friend', 'acquaintance', 'listing', 'networking'],categories: ['account', 'connectivity', 'communication', 'social'],);
+  static const LucideIconData contactRound = LucideIconData(name: 'contact-round',circles: [(12.0, 12.0, 4.0)],paths: ['M16 2v2', 'M17.915 22a6 6 0 0 0-12 0', 'M8 2v2'],tags: ['user', 'person', 'family', 'friend', 'acquaintance', 'listing', 'networking'],categories: ['account', 'connectivity', 'communication', 'social'],);
+  static const LucideIconData container = LucideIconData(name: 'container',paths: ['M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z', 'M10 21.9V14L2.1 9.1', 'm10 14 11.9-6.9', 'M14 19.8v-8.1', 'M18 17.5V9.4'],tags: ['storage', 'shipping', 'freight', 'supply chain', 'docker', 'environment', 'devops', 'code', 'coding'],categories: ['development', 'transportation', 'mail'],);
+  static const LucideIconData contrast = LucideIconData(name: 'contrast',circles: [(12.0, 12.0, 10.0)],paths: ['M12 18a6 6 0 0 0 0-12v12z'],tags: ['display', 'accessibility'],categories: ['photography', 'accessibility', 'design'],);
+  static const LucideIconData cookie = LucideIconData(name: 'cookie',paths: ['M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5', 'M8.5 8.5v.01', 'M16 15.5v.01', 'M12 12v.01', 'M11 17v.01', 'M7 14v.01'],tags: ['biscuit', 'privacy', 'legal', 'food'],categories: ['account', 'food-beverage'],);
+  static const LucideIconData cookingPot = LucideIconData(name: 'cooking-pot',paths: ['M2 12h20', 'M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8', 'm4 8 16-4', 'm8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8'],tags: ['pod', 'cooking', 'recipe', 'food', 'kitchen', 'chef', 'restaurant', 'dinner', 'lunch', 'breakfast', 'meal', 'eat'],categories: ['food-beverage', 'home'],);
+  static const LucideIconData copy = LucideIconData(name: 'copy',rects: [(8.0, 8.0, 14.0, 14.0, 2.0)],paths: ['M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2'],tags: ['clone', 'duplicate', 'multiple'],categories: ['text'],);
+  static const LucideIconData copyCheck = LucideIconData(name: 'copy-check',rects: [(8.0, 8.0, 14.0, 14.0, 2.0)],paths: ['m12 15 2 2 4-4', 'M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2'],tags: ['clone', 'duplicate', 'done', 'multiple'],categories: ['text', 'notifications'],);
+  static const LucideIconData copyMinus = LucideIconData(name: 'copy-minus',rects: [(8.0, 8.0, 14.0, 14.0, 2.0)],paths: ['M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2'],tags: ['clone', 'duplicate', 'remove', 'delete', 'collapse', 'subtract', 'multiple', '-'],categories: ['text', 'math'],);
+  static const LucideIconData copyPlus = LucideIconData(name: 'copy-plus',rects: [(8.0, 8.0, 14.0, 14.0, 2.0)],paths: ['M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2'],tags: ['clone', 'duplicate', 'add', 'multiple', 'expand', '+'],categories: ['text', 'math'],);
+  static const LucideIconData copySlash = LucideIconData(name: 'copy-slash',rects: [(8.0, 8.0, 14.0, 14.0, 2.0)],paths: ['M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2'],tags: ['clone', 'duplicate', 'cancel', 'ban', 'no', 'stop', 'forbidden', 'prohibited', 'error', 'multiple', 'divide', 'division', 'split', 'or', '/'],categories: ['text', 'development', 'math'],);
+  static const LucideIconData copyX = LucideIconData(name: 'copy-x',rects: [(8.0, 8.0, 14.0, 14.0, 2.0)],paths: ['M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2'],tags: ['cancel', 'close', 'delete', 'remove', 'clear', 'multiple', 'multiply', 'multiplication', 'times'],categories: ['notifications', 'math'],);
+  static const LucideIconData copyleft = LucideIconData(name: 'copyleft',circles: [(12.0, 12.0, 10.0)],paths: ['M9.17 14.83a4 4 0 1 0 0-5.66'],tags: ['licence'],categories: ['text'],);
+  static const LucideIconData copyright = LucideIconData(name: 'copyright',circles: [(12.0, 12.0, 10.0)],paths: ['M14.83 14.83a4 4 0 1 1 0-5.66'],tags: ['licence', 'license'],categories: ['text'],);
+  static const LucideIconData cornerDownLeft = LucideIconData(name: 'corner-down-left',paths: ['M20 4v7a4 4 0 0 1-4 4H4', 'm9 10-5 5 5 5'],tags: ['arrow', 'return'],categories: ['arrows'],);
+  static const LucideIconData cornerDownRight = LucideIconData(name: 'corner-down-right',paths: ['m15 10 5 5-5 5', 'M4 4v7a4 4 0 0 0 4 4h12'],tags: ['arrow', 'indent', 'tab'],categories: ['arrows', 'text', 'development'],);
+  static const LucideIconData cornerLeftDown = LucideIconData(name: 'corner-left-down',paths: ['m14 15-5 5-5-5', 'M20 4h-7a4 4 0 0 0-4 4v12'],tags: ['arrow'],categories: ['arrows'],);
+  static const LucideIconData cornerLeftUp = LucideIconData(name: 'corner-left-up',paths: ['M14 9 9 4 4 9', 'M20 20h-7a4 4 0 0 1-4-4V4'],tags: ['arrow'],categories: ['arrows'],);
+  static const LucideIconData cornerRightDown = LucideIconData(name: 'corner-right-down',paths: ['m10 15 5 5 5-5', 'M4 4h7a4 4 0 0 1 4 4v12'],tags: ['arrow'],categories: ['arrows'],);
+  static const LucideIconData cornerRightUp = LucideIconData(name: 'corner-right-up',paths: ['m10 9 5-5 5 5', 'M4 20h7a4 4 0 0 0 4-4V4'],tags: ['arrow'],categories: ['arrows'],);
+  static const LucideIconData cornerUpLeft = LucideIconData(name: 'corner-up-left',paths: ['M20 20v-7a4 4 0 0 0-4-4H4', 'M9 14 4 9l5-5'],tags: ['arrow'],categories: ['arrows'],);
+  static const LucideIconData cornerUpRight = LucideIconData(name: 'corner-up-right',paths: ['m15 14 5-5-5-5', 'M4 20v-7a4 4 0 0 1 4-4h12'],tags: ['arrow'],categories: ['arrows'],);
+  static const LucideIconData cpu = LucideIconData(name: 'cpu',paths: ['M12 20v2', 'M12 2v2', 'M17 20v2', 'M17 2v2', 'M2 12h2', 'M2 17h2', 'M2 7h2', 'M20 12h2', 'M20 17h2', 'M20 7h2', 'M7 20v2', 'M7 2v2'],tags: ['processor', 'cores', 'technology', 'computer', 'chip', 'circuit', 'memory', 'ram', 'specs', 'gigahertz', 'ghz'],categories: ['devices'],);
+  static const LucideIconData creativeCommons = LucideIconData(name: 'creative-commons',circles: [(12.0, 12.0, 10.0)],paths: ['M10 9.3a2.8 2.8 0 0 0-3.5 1 3.1 3.1 0 0 0 0 3.4 2.7 2.7 0 0 0 3.5 1', 'M17 9.3a2.8 2.8 0 0 0-3.5 1 3.1 3.1 0 0 0 0 3.4 2.7 2.7 0 0 0 3.5 1'],tags: ['licence', 'license'],categories: ['text'],);
+  static const LucideIconData creditCard = LucideIconData(name: 'credit-card',rects: [(2.0, 5.0, 20.0, 14.0, 2.0)],tags: ['bank', 'purchase', 'payment', 'cc'],categories: ['account', 'finance'],);
+  static const LucideIconData croissant = LucideIconData(name: 'croissant',paths: ['M10.2 18H4.774a1.5 1.5 0 0 1-1.352-.97 11 11 0 0 1 .132-6.487', 'M18 10.2V4.774a1.5 1.5 0 0 0-.97-1.352 11 11 0 0 0-6.486.132', 'M18 5a4 3 0 0 1 4 3 2 2 0 0 1-2 2 10 10 0 0 0-5.139 1.42', 'M5 18a3 4 0 0 0 3 4 2 2 0 0 0 2-2 10 10 0 0 1 1.42-5.14', 'M8.709 2.554a10 10 0 0 0-6.155 6.155 1.5 1.5 0 0 0 .676 1.626l9.807 5.42a2 2 0 0 0 2.718-2.718l-5.42-9.807a1.5 1.5 0 0 0-1.626-.676'],tags: ['bakery', 'cooking', 'food', 'pastry'],categories: ['food-beverage'],);
+  static const LucideIconData crop = LucideIconData(name: 'crop',paths: ['M6 2v14a2 2 0 0 0 2 2h14', 'M18 22V8a2 2 0 0 0-2-2H2'],tags: ['photo', 'image'],categories: ['photography', 'design'],);
+  static const LucideIconData cross = LucideIconData(name: 'cross',paths: ['M4 9a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h4a1 1 0 0 1 1 1v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4a1 1 0 0 1 1-1h4a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-4a1 1 0 0 1-1-1V4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4a1 1 0 0 1-1 1z'],tags: ['healthcare', 'first aid'],categories: ['shapes'],);
+  static const LucideIconData crosshair = LucideIconData(name: 'crosshair',circles: [(12.0, 12.0, 10.0)],tags: ['aim', 'target'],categories: ['photography'],);
+  static const LucideIconData crown = LucideIconData(name: 'crown',paths: ['M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z', 'M5 21h14'],tags: ['diadem', 'tiara', 'circlet', 'corona', 'king', 'ruler', 'winner', 'favourite'],categories: ['gaming'],);
+  static const LucideIconData cuboid = LucideIconData(name: 'cuboid',paths: ['M10 22v-8', 'M2.336 8.89 10 14l11.715-7.029', 'M22 14a2 2 0 0 1-.971 1.715l-10 6a2 2 0 0 1-2.138-.05l-6-4A2 2 0 0 1 2 16v-6a2 2 0 0 1 .971-1.715l10-6a2 2 0 0 1 2.138.05l6 4A2 2 0 0 1 22 8z'],tags: ['brick', 'block', 'box', '3d', 'solid', 'volume', 'container', 'storage', 'shipping', 'carton', 'geometry', 'rectangular', 'hexahedron', 'butter', 'tofu', 'soap', 'cheese', 'package', 'parcel', 'crate'],categories: ['shapes', 'math', 'food-beverage'],);
+  static const LucideIconData cupSoda = LucideIconData(name: 'cup-soda',paths: ['m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8', 'M5 8h14', 'M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0', 'm12 8 1-6h2'],tags: ['beverage', 'cup', 'drink', 'soda', 'straw', 'water'],categories: ['food-beverage'],);
+  static const LucideIconData currency = LucideIconData(name: 'currency',circles: [(12.0, 12.0, 8.0)],tags: ['finance', 'money'],categories: ['finance'],);
+  static const LucideIconData cylinder = LucideIconData(name: 'cylinder',paths: ['M3 5v14a9 3 0 0 0 18 0V5'],tags: ['shape', 'elliptical', 'geometry', 'container', 'storage', 'tin', 'pot'],categories: ['shapes', 'design', 'math'],);
+  static const LucideIconData dam = LucideIconData(name: 'dam',paths: ['M11 11.31c1.17.56 1.54 1.69 3.5 1.69 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1', 'M11.75 18c.35.5 1.45 1 2.75 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1', 'M2 10h4', 'M2 14h4', 'M2 18h4', 'M2 6h4', 'M7 3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1L10 4a1 1 0 0 0-1-1z'],tags: ['electricity', 'energy', 'water'],categories: ['buildings', 'sustainability', 'navigation'],);
+  static const LucideIconData database = LucideIconData(name: 'database',paths: ['M3 5V19A9 3 0 0 0 21 19V5', 'M3 12A9 3 0 0 0 21 12'],tags: ['storage', 'memory', 'container', 'tin', 'pot', 'bytes', 'servers'],categories: ['devices', 'development'],);
+  static const LucideIconData databaseBackup = LucideIconData(name: 'database-backup',paths: ['M3 12a9 3 0 0 0 5 2.69', 'M21 9.3V5', 'M3 5v14a9 3 0 0 0 6.47 2.88', 'M12 12v4h4', 'M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16'],tags: ['storage', 'memory', 'bytes', 'servers', 'backup', 'timemachine', 'rotate', 'arrow', 'left'],categories: ['devices', 'arrows', 'design', 'development', 'photography'],);
+  static const LucideIconData databaseSearch = LucideIconData(name: 'database-search',circles: [(18.0, 18.0, 3.0)],paths: ['M21 11.693V5', 'm22 22-1.875-1.875', 'M3 12a9 3 0 0 0 8.697 2.998', 'M3 5v14a9 3 0 0 0 9.28 2.999'],tags: ['storage', 'memory', 'container', 'tin', 'pot', 'bytes', 'servers'],categories: ['devices', 'development'],);
+  static const LucideIconData databaseZap = LucideIconData(name: 'database-zap',paths: ['M3 5V19A9 3 0 0 0 15 21.84', 'M21 5V8', 'M21 12L18 17H22L19 22', 'M3 12A9 3 0 0 0 14.59 14.87'],tags: ['cache busting', 'storage', 'memory', 'bytes', 'servers', 'power', 'crash'],categories: ['devices', 'development'],);
+  static const LucideIconData decimalsArrowLeft = LucideIconData(name: 'decimals-arrow-left',paths: ['m13 21-3-3 3-3', 'M20 18H10', 'M3 11h.01'],tags: ['numerical', 'decimal', 'decrease', 'less', 'fewer', 'precision', 'rounding', 'digits', 'fraction', 'float', 'number'],categories: ['design', 'text', 'arrows', 'math'],);
+  static const LucideIconData decimalsArrowRight = LucideIconData(name: 'decimals-arrow-right',paths: ['M10 18h10', 'm17 21 3-3-3-3', 'M3 11h.01'],tags: ['numerical', 'decimal', 'increase', 'more', 'precision', 'rounding', 'digits', 'fraction', 'float', 'number'],categories: ['design', 'text', 'arrows', 'math'],);
+  static const LucideIconData delete = LucideIconData(name: 'delete',paths: ['M10 5a2 2 0 0 0-1.344.519l-6.328 5.74a1 1 0 0 0 0 1.481l6.328 5.741A2 2 0 0 0 10 19h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z', 'm12 9 6 6', 'm18 9-6 6'],tags: ['backspace', 'remove'],categories: ['text', 'arrows'],);
+  static const LucideIconData dessert = LucideIconData(name: 'dessert',circles: [(12.0, 4.0, 2.0)],paths: ['M10.162 3.167A10 10 0 0 0 2 13a2 2 0 0 0 4 0v-1a2 2 0 0 1 4 0v4a2 2 0 0 0 4 0v-4a2 2 0 0 1 4 0v1a2 2 0 0 0 4-.006 10 10 0 0 0-8.161-9.826', 'M20.804 14.869a9 9 0 0 1-17.608 0'],tags: ['pudding', 'christmas', 'xmas', 'custard', 'iced bun', 'icing', 'fondant', 'cake', 'ice cream', 'gelato', 'sundae', 'scoop', 'dollop', 'sugar', 'food', 'sweet'],categories: ['food-beverage'],);
+  static const LucideIconData diameter = LucideIconData(name: 'diameter',circles: [(19.0, 19.0, 2.0), (5.0, 5.0, 2.0)],paths: ['M6.48 3.66a10 10 0 0 1 13.86 13.86', 'm6.41 6.41 11.18 11.18', 'M3.66 6.48a10 10 0 0 0 13.86 13.86'],tags: ['shape', 'circle', 'geometry', 'trigonometry', 'width', 'height', 'size', 'calculate', 'measure'],categories: ['shapes', 'math', 'design', 'tools'],);
+  static const LucideIconData diamond = LucideIconData(name: 'diamond',paths: ['M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z'],tags: ['square', 'rectangle', 'oblique', 'rhombus', 'shape', 'suit', 'playing', 'cards'],categories: ['shapes', 'gaming'],);
+  static const LucideIconData diamondMinus = LucideIconData(name: 'diamond-minus',paths: ['M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41L13.7 2.71a2.41 2.41 0 0 0-3.41 0z', 'M8 12h8'],tags: ['keyframe', 'subtract', 'remove', 'decrease', 'reduce', 'calculator', 'button', 'keyboard', 'line', 'divider', 'separator', 'horizontal rule', 'hr', 'html', 'markup', 'markdown', '---', 'toolbar', 'operator', 'code', 'coding', 'minimum', 'downgrade'],categories: ['multimedia', 'photography', 'tools', 'devices'],);
+  static const LucideIconData diamondPercent = LucideIconData(name: 'diamond-percent',paths: ['M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41L13.7 2.71a2.41 2.41 0 0 0-3.41 0Z', 'M9.2 9.2h.01', 'm14.5 9.5-5 5', 'M14.7 14.8h.01'],tags: ['verified', 'unverified', 'sale', 'discount', 'offer', 'marketing', 'sticker', 'price tag'],categories: ['social', 'finance', 'shopping', 'math'],);
+  static const LucideIconData diamondPlus = LucideIconData(name: 'diamond-plus',paths: ['M12 8v8', 'M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41L13.7 2.71a2.41 2.41 0 0 0-3.41 0z', 'M8 12h8'],tags: ['keyframe', 'add', 'new', 'increase', 'increment', 'positive', 'calculate', 'toolbar', 'crosshair', 'aim', 'target', 'scope', 'sight', 'reticule', 'maximum', 'upgrade', 'extra', '+'],categories: ['multimedia', 'photography', 'tools', 'devices'],);
+  static const LucideIconData dice1 = LucideIconData(name: 'dice-1',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 12h.01'],tags: ['dice', 'random', 'tabletop', '1', 'board', 'game'],categories: ['gaming'],);
+  static const LucideIconData dice2 = LucideIconData(name: 'dice-2',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M15 9h.01', 'M9 15h.01'],tags: ['dice', 'random', 'tabletop', '2', 'board', 'game'],categories: ['gaming'],);
+  static const LucideIconData dice3 = LucideIconData(name: 'dice-3',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M16 8h.01', 'M12 12h.01', 'M8 16h.01'],tags: ['dice', 'random', 'tabletop', '3', 'board', 'game'],categories: ['gaming'],);
+  static const LucideIconData dice4 = LucideIconData(name: 'dice-4',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M16 8h.01', 'M8 8h.01', 'M8 16h.01', 'M16 16h.01'],tags: ['dice', 'random', 'tabletop', '4', 'board', 'game'],categories: ['gaming'],);
+  static const LucideIconData dice5 = LucideIconData(name: 'dice-5',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M16 8h.01', 'M8 8h.01', 'M8 16h.01', 'M16 16h.01', 'M12 12h.01'],tags: ['dice', 'random', 'tabletop', '5', 'board', 'game'],categories: ['gaming'],);
+  static const LucideIconData dice6 = LucideIconData(name: 'dice-6',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M16 8h.01', 'M16 12h.01', 'M16 16h.01', 'M8 8h.01', 'M8 12h.01', 'M8 16h.01'],tags: ['dice', 'random', 'tabletop', '6', 'board', 'game'],categories: ['gaming'],);
+  static const LucideIconData dices = LucideIconData(name: 'dices',rects: [(2.0, 10.0, 12.0, 12.0, 2.0)],paths: ['m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6', 'M6 18h.01', 'M10 14h.01', 'M15 6h.01', 'M18 9h.01'],tags: ['dice', 'random', 'tabletop', 'board', 'game'],categories: ['gaming'],);
+  static const LucideIconData diff = LucideIconData(name: 'diff',paths: ['M12 3v14', 'M5 10h14', 'M5 21h14'],tags: ['patch', 'difference', 'compare', 'plus', 'minus', 'plus-minus', 'math'],categories: ['development', 'files'],);
+  static const LucideIconData disc = LucideIconData(name: 'disc',circles: [(12.0, 12.0, 10.0), (12.0, 12.0, 2.0)],tags: ['album', 'music', 'songs', 'format', 'cd', 'dvd', 'vinyl', 'sleeve', 'cover', 'platinum', 'compilation', 'ep', 'recording', 'playback', 'spin', 'rotate', 'rpm', 'dj'],categories: ['devices', 'multimedia'],);
+  static const LucideIconData disc2 = LucideIconData(name: 'disc-2',circles: [(12.0, 12.0, 10.0), (12.0, 12.0, 4.0)],paths: ['M12 12h.01'],tags: ['album', 'music', 'vinyl', 'record', 'cd', 'dvd', 'format', 'dj', 'spin', 'rotate', 'rpm'],categories: ['devices', 'multimedia'],);
+  static const LucideIconData disc3 = LucideIconData(name: 'disc-3',circles: [(12.0, 12.0, 10.0), (12.0, 12.0, 2.0)],paths: ['M6 12c0-1.7.7-3.2 1.8-4.2', 'M18 12c0 1.7-.7 3.2-1.8 4.2'],tags: ['album', 'music', 'vinyl', 'record', 'cd', 'dvd', 'format', 'dj', 'spin', 'rotate', 'rpm'],categories: ['devices', 'multimedia'],);
+  static const LucideIconData discAlbum = LucideIconData(name: 'disc-album',circles: [(12.0, 12.0, 5.0)],rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 12h.01'],tags: ['album', 'music', 'songs', 'format', 'cd', 'dvd', 'vinyl', 'sleeve', 'cover', 'platinum', 'compilation', 'ep', 'recording', 'playback', 'spin', 'rotate', 'rpm', 'dj'],categories: ['devices', 'multimedia'],);
+  static const LucideIconData divide = LucideIconData(name: 'divide',circles: [(12.0, 6.0, 1.0), (12.0, 18.0, 1.0)],tags: ['calculate', 'math', 'division', 'operator', 'code', '÷', '/'],categories: ['math', 'development'],);
+  static const LucideIconData dna = LucideIconData(name: 'dna',paths: ['m10 16 1.5 1.5', 'm14 8-1.5-1.5', 'M15 2c-1.798 1.998-2.518 3.995-2.807 5.993', 'm16.5 10.5 1 1', 'm17 6-2.891-2.891', 'M2 15c6.667-6 13.333 0 20-6', 'm20 9 .891.891', 'M3.109 14.109 4 15', 'm6.5 12.5 1 1', 'm7 18 2.891 2.891', 'M9 22c1.798-1.998 2.518-3.995 2.807-5.993'],tags: ['gene', 'gmo', 'helix', 'heredity', 'chromosome', 'nucleic acid'],categories: ['medical'],);
+  static const LucideIconData dnaOff = LucideIconData(name: 'dna-off',paths: ['M15 2c-1.35 1.5-2.092 3-2.5 4.5L14 8', 'm17 6-2.891-2.891', 'M2 15c3.333-3 6.667-3 10-3', 'm2 2 20 20', 'm20 9 .891.891', 'M22 9c-1.5 1.35-3 2.092-4.5 2.5l-1-1', 'M3.109 14.109 4 15', 'm6.5 12.5 1 1', 'm7 18 2.891 2.891', 'M9 22c1.35-1.5 2.092-3 2.5-4.5L10 16'],tags: ['gene', 'gmo free', 'helix', 'heredity', 'chromosome', 'nucleic acid'],categories: ['medical', 'food-beverage'],);
+  static const LucideIconData dock = LucideIconData(name: 'dock',rects: [(2.0, 4.0, 20.0, 16.0, 2.0)],paths: ['M2 8h20', 'M6 16h12'],tags: ['desktop', 'applications', 'launch', 'home', 'menu bar', 'bottom', 'line', 'macos', 'osx'],categories: ['layout', 'design', 'development', 'files'],);
+  static const LucideIconData dog = LucideIconData(name: 'dog',paths: ['M11.25 16.25h1.5L12 17z', 'M16 14v.5', 'M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309', 'M8 14v.5', 'M8.5 8.5c-.384 1.05-1.083 2.028-2.344 2.5-1.931.722-3.576-.297-3.656-1-.113-.994 1.177-6.53 4-7 1.923-.321 3.651.845 3.651 2.235A7.497 7.497 0 0 1 14 5.277c0-1.39 1.844-2.598 3.767-2.277 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5'],tags: ['animal', 'pet', 'puppy', 'hound', 'canine'],categories: ['animals'],);
+  static const LucideIconData dollarSign = LucideIconData(name: 'dollar-sign',paths: ['M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData donut = LucideIconData(name: 'donut',circles: [(12.0, 12.0, 3.0)],paths: ['M20.5 10a2.5 2.5 0 0 1-2.4-3H18a2.95 2.95 0 0 1-2.6-4.4 10 10 0 1 0 6.3 7.1c-.3.2-.8.3-1.2.3'],tags: ['doughnut', 'sprinkles', 'topping', 'fast food', 'junk food', 'snack', 'treat', 'sweet', 'sugar', 'dessert', 'hollow', 'ring'],categories: ['food-beverage'],);
+  static const LucideIconData doorClosed = LucideIconData(name: 'door-closed',paths: ['M10 12h.01', 'M18 20V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14', 'M2 20h20'],tags: ['entrance', 'entry', 'exit', 'ingress', 'egress', 'gate', 'gateway', 'emergency exit'],categories: ['home', 'travel', 'security'],);
+  static const LucideIconData doorClosedLocked = LucideIconData(name: 'door-closed-locked',paths: ['M10 12h.01', 'M18 9V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14', 'M2 20h8', 'M20 17v-2a2 2 0 1 0-4 0v2'],tags: ['entrance', 'entry', 'exit', 'ingress', 'egress', 'gate', 'gateway', 'emergency exit', 'lock'],categories: ['home', 'travel', 'security'],);
+  static const LucideIconData doorOpen = LucideIconData(name: 'door-open',paths: ['M11 20H2', 'M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z', 'M11 4H8a2 2 0 0 0-2 2v14', 'M14 12h.01', 'M22 20h-3'],tags: ['entrance', 'entry', 'exit', 'ingress', 'egress', 'gate', 'gateway', 'emergency exit'],categories: ['home', 'travel', 'security'],);
+  static const LucideIconData dot = LucideIconData(name: 'dot',circles: [(12.1, 12.1, 1.0)],tags: ['interpunct', 'interpoint', 'middot', 'step', 'punctuation', 'period', 'full stop', 'end', 'finish', 'final', 'characters', 'font', 'typography', 'type', 'center', '.'],categories: ['shapes', 'text'],);
+  static const LucideIconData download = LucideIconData(name: 'download',paths: ['M12 15V3', 'M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4', 'm7 10 5 5 5-5'],tags: ['import', 'export', 'save'],categories: ['arrows', 'files'],);
+  static const LucideIconData draftingCompass = LucideIconData(name: 'drafting-compass',circles: [(12.0, 5.0, 2.0)],paths: ['m12.99 6.74 1.93 3.44', 'M19.136 12a10 10 0 0 1-14.271 0', 'm21 21-2.16-3.84', 'm3 21 8.02-14.26'],tags: ['geometry', 'trigonometry', 'radius', 'diameter', 'circumference', 'calculate', 'measure', 'arc', 'curve', 'draw', 'sketch'],categories: ['math', 'design', 'tools'],);
+  static const LucideIconData drama = LucideIconData(name: 'drama',paths: ['M10 11h.01', 'M14 6h.01', 'M18 6h.01', 'M6.5 13.1h.01', 'M22 5c0 9-4 12-6 12s-6-3-6-12c0-2 2-3 6-3s6 1 6 3', 'M17.4 9.9c-.8.8-2 .8-2.8 0', 'M10.1 7.1C9 7.2 7.7 7.7 6 8.6c-3.5 2-4.7 3.9-3.7 5.6 4.5 7.8 9.5 8.4 11.2 7.4.9-.5 1.9-2.1 1.9-4.7', 'M9.1 16.5c.3-1.1 1.4-1.7 2.4-1.4'],tags: ['drama', 'masks', 'theater', 'theatre', 'entertainment', 'show'],categories: ['multimedia'],);
+  static const LucideIconData drill = LucideIconData(name: 'drill',paths: ['M10 18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a3 3 0 0 1-3-3 1 1 0 0 1 1-1z', 'M13 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1l-.81 3.242a1 1 0 0 1-.97.758H8', 'M14 4h3a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-3', 'M18 6h4', 'm5 10-2 8', 'm7 18 2-8'],tags: ['power', 'bit', 'head', 'hole', 'diy', 'toolbox', 'build', 'construction'],categories: ['tools', 'home', 'devices'],);
+  static const LucideIconData drone = LucideIconData(name: 'drone',paths: ['M10 10 7 7', 'm10 14-3 3', 'm14 10 3-3', 'm14 14 3 3', 'M14.205 4.139a4 4 0 1 1 5.439 5.863', 'M19.637 14a4 4 0 1 1-5.432 5.868', 'M4.367 10a4 4 0 1 1 5.438-5.862', 'M9.795 19.862a4 4 0 1 1-5.429-5.873'],tags: ['quadcopter', 'uav', 'aerial', 'flight', 'flying', 'technology', 'airborne', 'robotics'],categories: ['transportation', 'devices'],);
+  static const LucideIconData droplet = LucideIconData(name: 'droplet',paths: ['M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z'],tags: ['water', 'weather', 'liquid', 'fluid', 'wet', 'moisture', 'damp', 'bead', 'globule'],categories: ['weather', 'gaming'],);
+  static const LucideIconData dropletOff = LucideIconData(name: 'droplet-off',paths: ['M18.715 13.186C18.29 11.858 17.384 10.607 16 9.5c-2-1.6-3.5-4-4-6.5a10.7 10.7 0 0 1-.884 2.586', 'm2 2 20 20', 'M8.795 8.797A11 11 0 0 1 8 9.5C6 11.1 5 13 5 15a7 7 0 0 0 13.222 3.208'],tags: ['water', 'weather', 'liquid', 'fluid', 'wet', 'moisture', 'damp', 'bead', 'globule'],categories: ['weather', 'gaming'],);
+  static const LucideIconData droplets = LucideIconData(name: 'droplets',paths: ['M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z', 'M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97'],tags: ['water', 'weather', 'liquid', 'fluid', 'wet', 'moisture', 'damp', 'bead', 'globule'],categories: ['weather'],);
+  static const LucideIconData drum = LucideIconData(name: 'drum',paths: ['m2 2 8 8', 'm22 2-8 8', 'M7 13.4v7.9', 'M12 14v8', 'M17 13.4v7.9', 'M2 9v8a10 5 0 0 0 20 0V9'],tags: ['drummer', 'kit', 'sticks', 'instrument', 'beat', 'bang', 'bass', 'backing track', 'band', 'play', 'performance', 'concert', 'march', 'music', 'audio', 'sound', 'noise', 'loud'],categories: ['multimedia', 'devices'],);
+  static const LucideIconData drumstick = LucideIconData(name: 'drumstick',paths: ['M15.4 15.63a7.875 6 135 1 1 6.23-6.23 4.5 3.43 135 0 0-6.23 6.23', 'm8.29 12.71-2.6 2.6a2.5 2.5 0 1 0-1.65 4.65A2.5 2.5 0 1 0 8.7 18.3l2.59-2.59'],tags: ['food', 'chicken', 'meat'],categories: ['food-beverage'],);
+  static const LucideIconData dumbbell = LucideIconData(name: 'dumbbell',paths: ['M17.596 12.768a2 2 0 1 0 2.829-2.829l-1.768-1.767a2 2 0 0 0 2.828-2.829l-2.828-2.828a2 2 0 0 0-2.829 2.828l-1.767-1.768a2 2 0 1 0-2.829 2.829z', 'm2.5 21.5 1.4-1.4', 'm20.1 3.9 1.4-1.4', 'M5.343 21.485a2 2 0 1 0 2.829-2.828l1.767 1.768a2 2 0 1 0 2.829-2.829l-6.364-6.364a2 2 0 1 0-2.829 2.829l1.768 1.767a2 2 0 0 0-2.828 2.829z', 'm9.6 14.4 4.8-4.8'],tags: ['barbell', 'weight', 'workout', 'gym'],categories: ['navigation', 'sports'],);
+  static const LucideIconData ear = LucideIconData(name: 'ear',paths: ['M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0', 'M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4'],tags: ['hearing', 'noise', 'audio', 'accessibility'],categories: ['medical', 'accessibility'],);
+  static const LucideIconData earOff = LucideIconData(name: 'ear-off',paths: ['M6 18.5a3.5 3.5 0 1 0 7 0c0-1.57.92-2.52 2.04-3.46', 'M6 8.5c0-.75.13-1.47.36-2.14', 'M8.8 3.15A6.5 6.5 0 0 1 19 8.5c0 1.63-.44 2.81-1.09 3.76', 'M12.5 6A2.5 2.5 0 0 1 15 8.5M10 13a2 2 0 0 0 1.82-1.18'],tags: ['hearing', 'hard of hearing', 'hearing loss', 'deafness', 'noise', 'silence', 'audio', 'accessibility'],categories: ['medical', 'accessibility'],);
+  static const LucideIconData earth = LucideIconData(name: 'earth',circles: [(12.0, 12.0, 10.0)],paths: ['M21.54 15H17a2 2 0 0 0-2 2v4.54', 'M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17', 'M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05'],tags: ['world', 'browser', 'language', 'translate', 'globe'],categories: ['navigation'],);
+  static const LucideIconData earthLock = LucideIconData(name: 'earth-lock',rects: [(14.0, 6.0, 8.0, 5.0, 1.0)],paths: ['M7 3.34V5a3 3 0 0 0 3 3', 'M11 21.95V18a2 2 0 0 0-2-2 2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05', 'M21.54 15H17a2 2 0 0 0-2 2v4.54', 'M12 2a10 10 0 1 0 9.54 13', 'M20 6V4a2 2 0 1 0-4 0v2'],tags: ['vpn', 'private', 'privacy', 'network', 'world', 'browser', 'security', 'encryption', 'protection', 'connection'],categories: ['security', 'development', 'devices'],);
+  static const LucideIconData eclipse = LucideIconData(name: 'eclipse',circles: [(12.0, 12.0, 10.0)],paths: ['M12 2a7 7 0 1 0 10 10'],tags: ['lunar', 'solar', 'crescent moon', 'sun', 'earth', 'day', 'night', 'planet', 'space', 'mode', 'dark', 'light', 'toggle', 'switch', 'color', 'css', 'styles', 'display', 'accessibility', 'contrast', 'brightness', 'blend', 'shade'],categories: ['science', 'design', 'development', 'accessibility', 'photography'],);
+  static const LucideIconData egg = LucideIconData(name: 'egg',paths: ['M12 2C8 2 4 8 4 14a8 8 0 0 0 16 0c0-6-4-12-8-12'],tags: ['bird', 'chicken', 'nest', 'hatch', 'shell', 'incubate', 'soft boiled', 'hard', 'breakfast', 'brunch', 'morning', 'easter'],categories: ['food-beverage', 'animals'],);
+  static const LucideIconData eggFried = LucideIconData(name: 'egg-fried',circles: [(11.5, 12.5, 3.5)],paths: ['M3 8c0-3.5 2.5-6 6.5-6 5 0 4.83 3 7.5 5s5 2 5 6c0 4.5-2.5 6.5-7 6.5-2.5 0-2.5 2.5-6 2.5s-7-2-7-5.5c0-3 1.5-3 1.5-5C3.5 10 3 9 3 8Z'],tags: ['food', 'breakfast'],categories: ['food-beverage'],);
+  static const LucideIconData eggOff = LucideIconData(name: 'egg-off',paths: ['m2 2 20 20', 'M20 14.347V14c0-6-4-12-8-12-1.078 0-2.157.436-3.157 1.19', 'M6.206 6.21C4.871 8.4 4 11.2 4 14a8 8 0 0 0 14.568 4.568'],tags: ['egg free', 'vegan', 'hatched', 'bad egg'],categories: ['food-beverage'],);
+  static const LucideIconData ellipse = LucideIconData(name: 'ellipse',tags: ['shape', 'geometry', 'rounded', 'smooth', 'outline', 'form', 'boundary', 'curve', 'shapes', 'ellipse', 'oval'],categories: ['shapes'],);
+  static const LucideIconData ellipsis = LucideIconData(name: 'ellipsis',circles: [(12.0, 12.0, 1.0), (19.0, 12.0, 1.0), (5.0, 12.0, 1.0)],tags: ['et cetera', 'etc', 'loader', 'loading', 'progress', 'pending', 'throbber', 'menu', 'options', 'operator', 'code', 'coding', 'spread', 'rest', 'more', 'further', 'extra', 'overflow', 'dots', '…', '...'],categories: ['layout', 'development'],);
+  static const LucideIconData ellipsisVertical = LucideIconData(name: 'ellipsis-vertical',circles: [(12.0, 12.0, 1.0), (12.0, 5.0, 1.0), (12.0, 19.0, 1.0)],tags: ['menu', 'options', 'spread', 'more', 'further', 'extra', 'overflow', 'dots', '…', '...'],categories: ['layout'],);
+  static const LucideIconData equal = LucideIconData(name: 'equal',tags: ['calculate', 'math', 'operator', 'assignment', 'code', '='],categories: ['math', 'development'],);
+  static const LucideIconData equalApproximately = LucideIconData(name: 'equal-approximately',paths: ['M5 15a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0', 'M5 9a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0'],tags: ['about', 'calculate', 'math', 'operater'],categories: ['math'],);
+  static const LucideIconData equalNot = LucideIconData(name: 'equal-not',tags: ['calculate', 'off', 'math', 'operator', 'code', '≠'],categories: ['math', 'development'],);
+  static const LucideIconData eraser = LucideIconData(name: 'eraser',paths: ['M21 21H8a2 2 0 0 1-1.42-.587l-3.994-3.999a2 2 0 0 1 0-2.828l10-10a2 2 0 0 1 2.829 0l5.999 6a2 2 0 0 1 0 2.828L12.834 21', 'm5.082 11.09 8.828 8.828'],tags: ['pencil', 'drawing', 'undo', 'delete', 'clear', 'trash', 'remove'],categories: ['text'],);
+  static const LucideIconData ethernetPort = LucideIconData(name: 'ethernet-port',paths: ['m15 20 3-3h2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2l3 3z', 'M6 8v1', 'M10 8v1', 'M14 8v1', 'M18 8v1'],tags: ['internet', 'network', 'connection', 'cable', 'lan', 'port', 'router', 'switch', 'hub', 'modem', 'web', 'online', 'networking', 'communication', 'socket', 'plug', 'slot', 'controller', 'connector', 'interface', 'console', 'signal', 'data', 'input', 'output'],categories: ['communication', 'devices', 'multimedia', 'gaming'],);
+  static const LucideIconData euro = LucideIconData(name: 'euro',paths: ['M4 10h12', 'M4 14h9', 'M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData evCharger = LucideIconData(name: 'ev-charger',paths: ['M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 4 0v-6.998a2 2 0 0 0-.59-1.42L18 5', 'M14 21V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16', 'M2 21h13', 'M3 7h11', 'm9 11-2 3h3l-2 3'],tags: ['electric', 'charger', 'station', 'vehicle', 'fast', 'plug', 'ev', 'power', 'electricity', 'energy', 'accumulator', 'charge'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData expand = LucideIconData(name: 'expand',paths: ['m15 15 6 6', 'm15 9 6-6', 'M21 16v5h-5', 'M21 8V3h-5', 'M3 16v5h5', 'm3 21 6-6', 'M3 8V3h5', 'M9 9 3 3'],tags: ['scale', 'fullscreen', 'maximize', 'minimize', 'contract'],categories: ['text', 'arrows'],);
+  static const LucideIconData externalLink = LucideIconData(name: 'external-link',paths: ['M15 3h6v6', 'M10 14 21 3', 'M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'],tags: ['outbound', 'open', 'share'],categories: ['arrows', 'text', 'social'],);
+  static const LucideIconData eye = LucideIconData(name: 'eye',circles: [(12.0, 12.0, 3.0)],paths: ['M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0'],tags: ['view', 'watch', 'see', 'show', 'expose', 'reveal', 'display', 'visible', 'visibility', 'vision', 'preview', 'read'],categories: ['accessibility', 'photography', 'design', 'security'],);
+  static const LucideIconData eyeClosed = LucideIconData(name: 'eye-closed',paths: ['m15 18-.722-3.25', 'M2 8a10.645 10.645 0 0 0 20 0', 'm20 15-1.726-2.05', 'm4 15 1.726-2.05', 'm9 18 .722-3.25'],tags: ['view', 'watch', 'see', 'hide', 'conceal', 'mask', 'hidden', 'visibility', 'vision'],categories: ['accessibility', 'photography', 'design', 'security'],);
+  static const LucideIconData eyeOff = LucideIconData(name: 'eye-off',paths: ['M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49', 'M14.084 14.158a3 3 0 0 1-4.242-4.242', 'M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143', 'm2 2 20 20'],tags: ['view', 'watch', 'see', 'hide', 'conceal', 'mask', 'hidden', 'visibility', 'vision'],categories: ['accessibility', 'photography', 'design', 'security'],);
+  static const LucideIconData factory$ = LucideIconData(name: 'factory',paths: ['M12 16h.01', 'M16 16h.01', 'M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z', 'M8 16h.01'],tags: ['building', 'business', 'energy', 'industry', 'manufacture', 'sector'],categories: ['buildings', 'navigation'],);
+  static const LucideIconData fan = LucideIconData(name: 'fan',paths: ['M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z', 'M12 12v.01'],tags: ['air', 'cooler', 'ventilation', 'ventilator', 'blower'],categories: ['home'],);
+  static const LucideIconData fastForward = LucideIconData(name: 'fast-forward',paths: ['M12 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 12 18z', 'M2 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 2 18z'],tags: ['music'],categories: ['multimedia', 'arrows'],);
+  static const LucideIconData feather = LucideIconData(name: 'feather',paths: ['M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z', 'M16 8 2 22', 'M17.5 15H9'],tags: ['logo'],categories: ['gaming'],);
+  static const LucideIconData fence = LucideIconData(name: 'fence',paths: ['M4 3 2 5v15c0 .6.4 1 1 1h2c.6 0 1-.4 1-1V5Z', 'M6 8h4', 'M6 18h4', 'm12 3-2 2v15c0 .6.4 1 1 1h2c.6 0 1-.4 1-1V5Z', 'M14 8h4', 'M14 18h4', 'm20 3-2 2v15c0 .6.4 1 1 1h2c.6 0 1-.4 1-1V5Z'],tags: ['picket', 'panels', 'woodwork', 'diy', 'materials', 'suburban', 'garden', 'property', 'territory'],categories: ['home', 'buildings'],);
+  static const LucideIconData ferrisWheel = LucideIconData(name: 'ferris-wheel',circles: [(12.0, 12.0, 2.0)],paths: ['M12 2v4', 'm6.8 15-3.5 2', 'm20.7 7-3.5 2', 'M6.8 9 3.3 7', 'm20.7 17-3.5-2', 'm9 22 3-8 3 8', 'M8 22h8', 'M18 18.7a9 9 0 1 0-12 0'],tags: ['big wheel', 'daisy wheel', 'observation', 'attraction', 'entertainment', 'amusement park', 'theme park', 'funfair'],categories: ['navigation'],);
+  static const LucideIconData file = LucideIconData(name: 'file',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5'],tags: ['document'],categories: ['files'],);
+  static const LucideIconData fileArchive = LucideIconData(name: 'file-archive',circles: [(8.0, 20.0, 2.0)],paths: ['M13.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v11.5', 'M14 2v5a1 1 0 0 0 1 1h5', 'M8 12v-1', 'M8 18v-2', 'M8 7V6'],tags: ['zip', 'package', 'archive'],categories: ['files'],);
+  static const LucideIconData fileAxis3d = LucideIconData(name: 'file-axis-3d',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'm8 18 4-4', 'M8 10v8h8'],tags: ['model', '3d', 'axis', 'coordinates'],categories: ['design', 'files'],);
+  static const LucideIconData fileBadge = LucideIconData(name: 'file-badge',circles: [(6.0, 14.0, 3.0)],paths: ['M13 22h5a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.3', 'M14 2v5a1 1 0 0 0 1 1h5', 'm7.69 16.479 1.29 4.88a.5.5 0 0 1-.698.591l-1.843-.849a1 1 0 0 0-.879.001l-1.846.85a.5.5 0 0 1-.692-.593l1.29-4.88'],tags: ['award', 'achievement', 'badge', 'rosette', 'prize', 'winner'],categories: ['files'],);
+  static const LucideIconData fileBox = LucideIconData(name: 'file-box',paths: ['M14.5 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.8', 'M14 2v5a1 1 0 0 0 1 1h5', 'M11.7 14.2 7 17l-4.7-2.8', 'M3 13.1a2 2 0 0 0-.999 1.76v3.24a2 2 0 0 0 .969 1.78L6 21.7a2 2 0 0 0 2.03.01L11 19.9a2 2 0 0 0 1-1.76V14.9a2 2 0 0 0-.97-1.78L8 11.3a2 2 0 0 0-2.03-.01z', 'M7 17v5'],tags: ['box', 'package', 'model'],categories: ['files'],);
+  static const LucideIconData fileBraces = LucideIconData(name: 'file-braces',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1', 'M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1'],tags: ['code', 'json', 'curly braces', 'curly brackets'],categories: ['files', 'development'],);
+  static const LucideIconData fileBracesCorner = LucideIconData(name: 'file-braces-corner',paths: ['M14 22h4a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6', 'M14 2v5a1 1 0 0 0 1 1h5', 'M5 14a1 1 0 0 0-1 1v2a1 1 0 0 1-1 1 1 1 0 0 1 1 1v2a1 1 0 0 0 1 1', 'M9 22a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1'],tags: ['code', 'json', 'curly braces', 'curly brackets'],categories: ['files', 'development'],);
+  static const LucideIconData fileChartColumn = LucideIconData(name: 'file-chart-column',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M8 18v-1', 'M12 18v-6', 'M16 18v-3'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'presentation'],categories: ['files'],);
+  static const LucideIconData fileChartColumnIncreasing = LucideIconData(name: 'file-chart-column-increasing',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M8 18v-2', 'M12 18v-4', 'M16 18v-6'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'presentation', 'trending up'],categories: ['files'],);
+  static const LucideIconData fileChartLine = LucideIconData(name: 'file-chart-line',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'm16 13-3.5 3.5-2-2L8 17'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'presentation'],categories: ['files'],);
+  static const LucideIconData fileChartPie = LucideIconData(name: 'file-chart-pie',paths: ['M15.941 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.704l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.512', 'M14 2v5a1 1 0 0 0 1 1h5', 'M4.017 11.512a6 6 0 1 0 8.466 8.475', 'M9 16a1 1 0 0 1-1-1v-4c0-.552.45-1.008.995-.917a6 6 0 0 1 4.922 4.922c.091.544-.365.995-.917.995z'],tags: ['statistics', 'analytics', 'diagram', 'graph', 'presentation'],categories: ['files'],);
+  static const LucideIconData fileCheck = LucideIconData(name: 'file-check',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'm9 15 2 2 4-4'],tags: ['done', 'document', 'todo', 'tick', 'complete', 'task'],categories: ['files'],);
+  static const LucideIconData fileCheckCorner = LucideIconData(name: 'file-check-corner',paths: ['M10.5 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v6', 'M14 2v5a1 1 0 0 0 1 1h5', 'm14 20 2 2 4-4'],tags: ['done', 'document', 'todo', 'tick', 'complete', 'task'],categories: ['files'],);
+  static const LucideIconData fileClock = LucideIconData(name: 'file-clock',circles: [(8.0, 16.0, 6.0)],paths: ['M16 22h2a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v2.85', 'M14 2v5a1 1 0 0 0 1 1h5', 'M8 14v2.2l1.6 1'],tags: ['history', 'log', 'clock'],categories: ['files', 'time'],);
+  static const LucideIconData fileCode = LucideIconData(name: 'file-code',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M10 12.5 8 15l2 2.5', 'm14 12.5 2 2.5-2 2.5'],tags: ['script', 'document', 'gist', 'html', 'xml', 'property list', 'plist'],categories: ['files', 'development'],);
+  static const LucideIconData fileCodeCorner = LucideIconData(name: 'file-code-corner',paths: ['M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35', 'M14 2v5a1 1 0 0 0 1 1h5', 'm5 16-3 3 3 3', 'm9 22 3-3-3-3'],tags: ['script', 'document', 'html', 'xml', 'property list', 'plist'],categories: ['files', 'development'],);
+  static const LucideIconData fileCog = LucideIconData(name: 'file-cog',circles: [(7.0, 18.0, 3.0)],paths: ['M15 8a1 1 0 0 1-1-1V2a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8z', 'M20 8v12a2 2 0 0 1-2 2h-4.182', 'm3.305 19.53.923-.382', 'M4 10.592V4a2 2 0 0 1 2-2h8', 'm4.228 16.852-.924-.383', 'm5.852 15.228-.383-.923', 'm5.852 20.772-.383.924', 'm8.148 15.228.383-.923', 'm8.53 21.696-.382-.924', 'm9.773 16.852.922-.383', 'm9.773 19.148.922.383'],tags: ['executable', 'settings', 'cog', 'edit', 'gear'],categories: ['files'],);
+  static const LucideIconData fileDiff = LucideIconData(name: 'file-diff',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M9 10h6', 'M12 13V7', 'M9 17h6'],tags: ['diff', 'patch'],categories: ['files', 'development'],);
+  static const LucideIconData fileDigit = LucideIconData(name: 'file-digit',paths: ['M4 12V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2', 'M14 2v5a1 1 0 0 0 1 1h5', 'M10 16h2v6', 'M10 22h4'],tags: ['number', 'document'],categories: ['files', 'development'],);
+  static const LucideIconData fileDown = LucideIconData(name: 'file-down',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M12 18v-6', 'm9 15 3 3 3-3'],tags: ['download', 'import', 'export'],categories: ['files', 'arrows'],);
+  static const LucideIconData fileExclamationPoint = LucideIconData(name: 'file-exclamation-point',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M12 9v4', 'M12 17h.01'],tags: ['hidden', 'warning', 'alert', 'danger', 'protected', 'exclamation mark'],categories: ['files', 'notifications'],);
+  static const LucideIconData fileHeadphone = LucideIconData(name: 'file-headphone',paths: ['M4 6.835V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-.343', 'M14 2v5a1 1 0 0 0 1 1h5', 'M2 19a2 2 0 0 1 4 0v1a2 2 0 0 1-4 0v-4a6 6 0 0 1 12 0v4a2 2 0 0 1-4 0v-1a2 2 0 0 1 4 0'],tags: ['music', 'audio', 'sound', 'headphones'],categories: ['files'],);
+  static const LucideIconData fileHeart = LucideIconData(name: 'file-heart',paths: ['M13 22h5a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v7', 'M14 2v5a1 1 0 0 0 1 1h5', 'M3.62 18.8A2.25 2.25 0 1 1 7 15.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a1 1 0 0 1-1.507 0z'],tags: ['heart', 'favourite', 'bookmark', 'quick link'],categories: ['files'],);
+  static const LucideIconData fileImage = LucideIconData(name: 'file-image',circles: [(10.0, 12.0, 2.0)],paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'm20 17-1.296-1.296a2.41 2.41 0 0 0-3.408 0L9 22'],tags: ['image', 'graphics', 'photo', 'picture'],categories: ['files'],);
+  static const LucideIconData fileInput = LucideIconData(name: 'file-input',paths: ['M4 11V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1', 'M14 2v5a1 1 0 0 0 1 1h5', 'M2 15h10', 'm9 18 3-3-3-3'],tags: ['document'],categories: ['files', 'arrows'],);
+  static const LucideIconData fileKey = LucideIconData(name: 'file-key',circles: [(4.0, 20.0, 2.0)],paths: ['M14 2v5a1 1 0 0 0 1 1h5', 'M4 12v6', 'M4 14h2', 'M9.65 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v4'],tags: ['key', 'private', 'public', 'security'],categories: ['files', 'security'],);
+  static const LucideIconData fileLock = LucideIconData(name: 'file-lock',rects: [(3.0, 17.0, 8.0, 5.0, 1.0)],paths: ['M4 9.8V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3', 'M14 2v5a1 1 0 0 0 1 1h5', 'M9 17v-2a2 2 0 0 0-4 0v2'],tags: ['lock', 'password', 'security'],categories: ['files', 'security'],);
+  static const LucideIconData fileMinus = LucideIconData(name: 'file-minus',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M9 15h6'],tags: ['delete', 'remove', 'erase', 'document'],categories: ['files'],);
+  static const LucideIconData fileMinusCorner = LucideIconData(name: 'file-minus-corner',paths: ['M20 14V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12', 'M14 2v5a1 1 0 0 0 1 1h5', 'M14 18h6'],tags: ['document'],categories: ['files'],);
+  static const LucideIconData fileMusic = LucideIconData(name: 'file-music',circles: [(6.0, 20.0, 2.0)],paths: ['M11.65 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v10.35', 'M14 2v5a1 1 0 0 0 1 1h5', 'M8 20v-7l3 1.474'],tags: ['audio', 'sound', 'noise', 'track', 'digital', 'recording', 'playback', 'piano', 'keyboard', 'keys', 'notes', 'chord', 'midi', 'octave'],categories: ['files', 'multimedia'],);
+  static const LucideIconData fileOutput = LucideIconData(name: 'file-output',paths: ['M4.226 20.925A2 2 0 0 0 6 22h12a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.127', 'M14 2v5a1 1 0 0 0 1 1h5', 'm5 11-3 3', 'm5 17-3-3h10'],tags: ['document'],categories: ['files', 'arrows'],);
+  static const LucideIconData filePen = LucideIconData(name: 'file-pen',paths: ['M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34', 'M14 2v5a1 1 0 0 0 1 1h5', 'M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z'],tags: ['signature'],categories: ['files'],);
+  static const LucideIconData filePenLine = LucideIconData(name: 'file-pen-line',paths: ['M14.364 13.634a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506l4.013-4.009a1 1 0 0 0-3.004-3.004z', 'M14.487 7.858A1 1 0 0 1 14 7V2', 'M20 19.645V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l2.516 2.516', 'M8 18h1'],tags: ['edit'],categories: ['files'],);
+  static const LucideIconData filePlay = LucideIconData(name: 'file-play',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M15.033 13.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56v-4.704a.645.645 0 0 1 .967-.56z'],tags: ['movie', 'video', 'film'],categories: ['files'],);
+  static const LucideIconData filePlus = LucideIconData(name: 'file-plus',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M9 15h6', 'M12 18v-6'],tags: ['add', 'create', 'new', 'document'],categories: ['files'],);
+  static const LucideIconData filePlusCorner = LucideIconData(name: 'file-plus-corner',paths: ['M11.35 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5.35', 'M14 2v5a1 1 0 0 0 1 1h5', 'M14 19h6', 'M17 16v6'],tags: ['add', 'create', 'new', 'document'],categories: ['files'],);
+  static const LucideIconData fileQuestionMark = LucideIconData(name: 'file-question-mark',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M12 17h.01', 'M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3'],tags: ['readme', 'help', 'question'],categories: ['files'],);
+  static const LucideIconData fileScan = LucideIconData(name: 'file-scan',paths: ['M20 10V8a2.4 2.4 0 0 0-.706-1.704l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.35', 'M14 2v5a1 1 0 0 0 1 1h5', 'M16 14a2 2 0 0 0-2 2', 'M16 22a2 2 0 0 1-2-2', 'M20 14a2 2 0 0 1 2 2', 'M20 22a2 2 0 0 0 2-2'],tags: ['scan', 'code', 'qr-code'],categories: ['files'],);
+  static const LucideIconData fileSearch = LucideIconData(name: 'file-search',circles: [(11.5, 14.5, 2.5)],paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M13.3 16.3 15 18'],tags: ['lost', 'document', 'find', 'browser', 'lens'],categories: ['files'],);
+  static const LucideIconData fileSearchCorner = LucideIconData(name: 'file-search-corner',circles: [(16.0, 17.0, 3.0)],paths: ['M11.1 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.589 3.588A2.4 2.4 0 0 1 20 8v3.25', 'M14 2v5a1 1 0 0 0 1 1h5', 'm21 22-2.88-2.88'],tags: ['lost', 'document', 'find', 'browser', 'lens'],categories: ['files'],);
+  static const LucideIconData fileSignal = LucideIconData(name: 'file-signal',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M8 15h.01', 'M11.5 13.5a2.5 2.5 0 0 1 0 3', 'M15 12a5 5 0 0 1 0 6'],tags: ['audio', 'music', 'volume'],categories: ['files'],);
+  static const LucideIconData fileSliders = LucideIconData(name: 'file-sliders',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M8 12h8', 'M10 11v2', 'M8 17h8', 'M14 16v2'],tags: ['cogged', 'gear', 'mechanical', 'machinery', 'configuration', 'controls', 'preferences', 'settings', 'system', 'admin', 'edit', 'executable'],categories: ['files', 'development'],);
+  static const LucideIconData fileSpreadsheet = LucideIconData(name: 'file-spreadsheet',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M8 13h2', 'M14 13h2', 'M8 17h2', 'M14 17h2'],tags: ['spreadsheet', 'sheet', 'table'],categories: ['files'],);
+  static const LucideIconData fileStack = LucideIconData(name: 'file-stack',paths: ['M11 21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1', 'M16 16a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1', 'M21 6a2 2 0 0 0-.586-1.414l-2-2A2 2 0 0 0 17 2h-3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1z'],tags: ['versions', 'multiple', 'copy', 'documents', 'revisions', 'version control', 'history'],categories: ['files', 'development'],);
+  static const LucideIconData fileSymlink = LucideIconData(name: 'file-symlink',paths: ['M4 11V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h7', 'M14 2v5a1 1 0 0 0 1 1h5', 'm10 18 3-3-3-3'],tags: ['symlink', 'symbolic', 'link'],categories: ['files'],);
+  static const LucideIconData fileTerminal = LucideIconData(name: 'file-terminal',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'm8 16 2-2-2-2', 'M12 18h4'],tags: ['terminal', 'bash', 'script', 'executable'],categories: ['files', 'development'],);
+  static const LucideIconData fileText = LucideIconData(name: 'file-text',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M10 9H8', 'M16 13H8', 'M16 17H8'],tags: ['data', 'txt', 'pdf', 'document'],categories: ['files', 'text'],);
+  static const LucideIconData fileType = LucideIconData(name: 'file-type',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M11 18h2', 'M12 12v6', 'M9 13v-.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v.5'],tags: ['font', 'text', 'typography', 'type'],categories: ['files', 'text'],);
+  static const LucideIconData fileTypeCorner = LucideIconData(name: 'file-type-corner',paths: ['M12 22h6a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6', 'M14 2v5a1 1 0 0 0 1 1h5', 'M3 16v-1.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5V16', 'M6 22h2', 'M7 14v8'],tags: ['font', 'text', 'typography', 'type'],categories: ['files', 'text'],);
+  static const LucideIconData fileUp = LucideIconData(name: 'file-up',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M12 12v6', 'm15 15-3-3-3 3'],tags: ['upload', 'import', 'export'],categories: ['files', 'arrows'],);
+  static const LucideIconData fileUser = LucideIconData(name: 'file-user',circles: [(12.0, 15.0, 3.0)],paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'M16 22a4 4 0 0 0-8 0'],tags: ['person', 'personal information', 'people', 'listing', 'networking', 'document', 'contact', 'cover letter', 'resume', 'cv', 'curriculum vitae', 'application form'],categories: ['account', 'files'],);
+  static const LucideIconData fileVideoCamera = LucideIconData(name: 'file-video-camera',rects: [(3.0, 16.0, 7.0, 6.0, 1.0)],paths: ['M4 12V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2', 'M14 2v5a1 1 0 0 0 1 1h5', 'm10 17.843 3.033-1.755a.64.64 0 0 1 .967.56v4.704a.65.65 0 0 1-.967.56L10 20.157'],tags: ['movie', 'video', 'film'],categories: ['files'],);
+  static const LucideIconData fileVolume = LucideIconData(name: 'file-volume',paths: ['M4 11.55V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-1.95', 'M14 2v5a1 1 0 0 0 1 1h5', 'M12 15a5 5 0 0 1 0 6', 'M8 14.502a.5.5 0 0 0-.826-.381l-1.893 1.631a1 1 0 0 1-.651.243H3.5a.5.5 0 0 0-.5.501v3.006a.5.5 0 0 0 .5.501h1.129a1 1 0 0 1 .652.243l1.893 1.633a.5.5 0 0 0 .826-.38z'],tags: ['audio', 'music', 'volume'],categories: ['files'],);
+  static const LucideIconData fileX = LucideIconData(name: 'file-x',paths: ['M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z', 'M14 2v5a1 1 0 0 0 1 1h5', 'm14.5 12.5-5 5', 'm9.5 12.5 5 5'],tags: ['lost', 'delete', 'remove', 'document'],categories: ['files'],);
+  static const LucideIconData fileXCorner = LucideIconData(name: 'file-x-corner',paths: ['M11 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5', 'M14 2v5a1 1 0 0 0 1 1h5', 'm15 17 5 5', 'm20 17-5 5'],tags: ['lost', 'delete', 'remove', 'document'],categories: ['files'],);
+  static const LucideIconData files = LucideIconData(name: 'files',paths: ['M15 2h-4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8', 'M16.706 2.706A2.4 2.4 0 0 0 15 2v5a1 1 0 0 0 1 1h5a2.4 2.4 0 0 0-.706-1.706z', 'M5 7a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 1.732-1'],tags: ['multiple', 'copy', 'documents'],categories: ['files'],);
+  static const LucideIconData film = LucideIconData(name: 'film',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M7 3v18', 'M3 7.5h4', 'M3 12h18', 'M3 16.5h4', 'M17 3v18', 'M17 7.5h4', 'M17 16.5h4'],tags: ['movie', 'video', 'reel', 'camera', 'cinema', 'entertainment'],categories: ['photography', 'multimedia'],);
+  static const LucideIconData fingerprintPattern = LucideIconData(name: 'fingerprint-pattern',paths: ['M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4', 'M14 13.12c0 2.38 0 6.38-1 8.88', 'M17.29 21.02c.12-.6.43-2.3.5-3.02', 'M2 12a10 10 0 0 1 18-6', 'M2 16h.01', 'M21.8 16c.2-2 .131-5.354 0-6', 'M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2', 'M8.65 22c.21-.66.45-1.32.57-2', 'M9 6.8a6 6 0 0 1 9 5.2v2'],tags: ['2fa', 'authentication', 'biometric', 'identity', 'security'],categories: ['account', 'security', 'medical', 'devices'],);
+  static const LucideIconData fireExtinguisher = LucideIconData(name: 'fire-extinguisher',paths: ['M15 6.5V3a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3.5', 'M9 18h8', 'M18 3h-3', 'M11 3a6 6 0 0 0-6 6v11', 'M5 13h4', 'M17 10a4 4 0 0 0-8 0v10a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2Z'],tags: ['flames', 'smoke', 'foam', 'water', 'spray', 'hose', 'firefighter', 'fireman', 'department', 'brigade', 'station', 'emergency', 'suppress', 'compressed', 'tank', 'cylinder', 'safety', 'equipment', 'amenities'],categories: ['home', 'tools', 'travel'],);
+  static const LucideIconData fish = LucideIconData(name: 'fish',paths: ['M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6s-7.56-2.53-8.5-6Z', 'M18 12v.5', 'M16 17.93a9.77 9.77 0 0 1 0-11.86', 'M7 10.67C7 8 5.58 5.97 2.73 5.5c-1 1.5-1 5 .23 6.5-1.24 1.5-1.24 5-.23 6.5C5.58 18.03 7 16 7 13.33', 'M10.46 7.26C10.2 5.88 9.17 4.24 8 3h5.8a2 2 0 0 1 1.98 1.67l.23 1.4', 'm16.01 17.93-.23 1.4A2 2 0 0 1 13.8 21H9.5a5.96 5.96 0 0 0 1.49-3.98'],tags: ['dish', 'restaurant', 'course', 'meal', 'seafood', 'pet', 'sea', 'marine'],categories: ['food-beverage', 'animals'],);
+  static const LucideIconData fishOff = LucideIconData(name: 'fish-off',paths: ['M18 12.47v.03m0-.5v.47m-.475 5.056A6.744 6.744 0 0 1 15 18c-3.56 0-7.56-2.53-8.5-6 .348-1.28 1.114-2.433 2.121-3.38m3.444-2.088A8.802 8.802 0 0 1 15 6c3.56 0 6.06 2.54 7 6-.309 1.14-.786 2.177-1.413 3.058', 'M7 10.67C7 8 5.58 5.97 2.73 5.5c-1 1.5-1 5 .23 6.5-1.24 1.5-1.24 5-.23 6.5C5.58 18.03 7 16 7 13.33m7.48-4.372A9.77 9.77 0 0 1 16 6.07m0 11.86a9.77 9.77 0 0 1-1.728-3.618', 'm16.01 17.93-.23 1.4A2 2 0 0 1 13.8 21H9.5a5.96 5.96 0 0 0 1.49-3.98M8.53 3h5.27a2 2 0 0 1 1.98 1.67l.23 1.4M2 2l20 20'],tags: ['food', 'dish', 'restaurant', 'course', 'meal', 'seafood', 'animal', 'pet', 'sea', 'marine', 'allergy', 'intolerance', 'diet'],categories: ['food-beverage', 'animals'],);
+  static const LucideIconData fishSymbol = LucideIconData(name: 'fish-symbol',paths: ['M2 16s9-15 20-4C11 23 2 8 2 8'],tags: ['dish', 'restaurant', 'course', 'meal', 'seafood', 'pet', 'sea', 'marine'],categories: ['food-beverage', 'animals'],);
+  static const LucideIconData fishingHook = LucideIconData(name: 'fishing-hook',circles: [(19.0, 10.0, 2.0)],paths: ['m17.586 11.414-5.93 5.93a1 1 0 0 1-8-8l3.137-3.137a.707.707 0 0 1 1.207.5V10', 'M20.414 8.586 22 7'],tags: ['sea', 'boating', 'angler', 'bait', 'reel', 'tackle', 'marine', 'outdoors', 'fish', 'fishing', 'hook', 'sports', 'travel'],categories: ['sports', 'travel'],);
+  static const LucideIconData fishingRod = LucideIconData(name: 'fishing-rod',circles: [(18.0, 18.0, 2.0)],paths: ['M4 11h1', 'M8 15a2 2 0 0 1-4 0V3a1 1 0 0 1 1-1h.5C14 2 20 9 20 18v4'],tags: ['fishing', 'rod', 'hobby', 'equipment', 'reel'],categories: ['sports', 'travel'],);
+  static const LucideIconData flag = LucideIconData(name: 'flag',paths: ['M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528'],tags: ['report', 'marker', 'notification', 'warning', 'milestone', 'goal', 'notice', 'signal', 'attention', 'banner'],categories: ['account', 'social'],);
+  static const LucideIconData flagOff = LucideIconData(name: 'flag-off',paths: ['M16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528', 'm2 2 20 20', 'M4 22V4', 'M7.656 2H8c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10.347'],tags: ['unflag', 'unmark', 'report', 'marker', 'notification', 'warning', 'milestone', 'goal', 'notice', 'signal', 'attention', 'banner'],categories: ['account', 'social'],);
+  static const LucideIconData flagTriangleLeft = LucideIconData(name: 'flag-triangle-left',paths: ['M18 22V2.8a.8.8 0 0 0-1.17-.71L5.45 7.78a.8.8 0 0 0 0 1.44L18 15.5'],tags: ['report', 'timeline', 'marker', 'pin'],categories: ['development', 'navigation'],);
+  static const LucideIconData flagTriangleRight = LucideIconData(name: 'flag-triangle-right',paths: ['M6 22V2.8a.8.8 0 0 1 1.17-.71l11.38 5.69a.8.8 0 0 1 0 1.44L6 15.5'],tags: ['report', 'timeline', 'marker', 'pin'],categories: ['development', 'navigation'],);
+  static const LucideIconData flame = LucideIconData(name: 'flame',paths: ['M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4'],tags: ['heat', 'burn', 'light', 'glow', 'ignite', 'passion', 'ember', 'fire', 'lit', 'burning', 'spark', 'embers', 'smoke', 'firefighter', 'fireman', 'department', 'brigade', 'station', 'emergency'],categories: ['weather', 'social', 'gaming'],);
+  static const LucideIconData flameKindling = LucideIconData(name: 'flame-kindling',paths: ['M12 2c1 3 2.5 3.5 3.5 4.5A5 5 0 0 1 17 10a5 5 0 1 1-10 0c0-.3 0-.6.1-.9a2 2 0 1 0 3.3-2C8 4.5 11 2 12 2Z', 'm5 22 14-4', 'm5 18 14 4'],tags: ['campfire', 'camping', 'wilderness', 'outdoors', 'lit', 'warmth', 'wood', 'twigs', 'sticks'],categories: ['nature', 'social', 'gaming'],);
+  static const LucideIconData flashlight = LucideIconData(name: 'flashlight',paths: ['M12 13v1', 'M17 2a1 1 0 0 1 1 1v4a3 3 0 0 1-.6 1.8l-.6.8A4 4 0 0 0 16 12v8a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-8a4 4 0 0 0-.8-2.4l-.6-.8A3 3 0 0 1 6 7V3a1 1 0 0 1 1-1z', 'M6 6h12'],tags: ['torch', 'light', 'beam', 'emergency', 'safety', 'tool', 'bright'],categories: ['photography', 'devices'],);
+  static const LucideIconData flashlightOff = LucideIconData(name: 'flashlight-off',paths: ['M11.652 6H18', 'M12 13v1', 'M16 16v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-8a4 4 0 0 0-.8-2.4l-.6-.8A3 3 0 0 1 6 7V6', 'm2 2 20 20', 'M7.649 2H17a1 1 0 0 1 1 1v4a3 3 0 0 1-.6 1.8l-.6.8a4 4 0 0 0-.55 1.007'],tags: ['torch', 'light', 'beam', 'emergency', 'safety', 'tool', 'bright'],categories: ['photography', 'devices'],);
+  static const LucideIconData flaskConical = LucideIconData(name: 'flask-conical',paths: ['M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2', 'M6.453 15h11.094', 'M8.5 2h7'],tags: ['beaker', 'erlenmeyer', 'lab', 'chemistry', 'experiment', 'test'],categories: ['science', 'gaming'],);
+  static const LucideIconData flaskConicalOff = LucideIconData(name: 'flask-conical-off',paths: ['M10 2v2.343', 'M14 2v6.343', 'm2 2 20 20', 'M20 20a2 2 0 0 1-2 2H6a2 2 0 0 1-1.755-2.96l5.227-9.563', 'M6.453 15H15', 'M8.5 2h7'],tags: ['beaker', 'erlenmeyer', 'non toxic', 'lab', 'chemistry', 'experiment', 'test'],categories: ['science', 'gaming'],);
+  static const LucideIconData flaskRound = LucideIconData(name: 'flask-round',paths: ['M10 2v6.292a7 7 0 1 0 4 0V2', 'M5 15h14', 'M8.5 2h7'],tags: ['beaker', 'lab', 'chemistry', 'experiment', 'test'],categories: ['science', 'gaming'],);
+  static const LucideIconData flipHorizontal2 = LucideIconData(name: 'flip-horizontal-2',paths: ['m3 7 5 5-5 5V7', 'm21 7-5 5 5 5V7', 'M12 20v2', 'M12 14v2', 'M12 8v2', 'M12 2v2'],tags: ['reflect', 'mirror', 'alignment', 'dashed'],categories: ['design', 'photography'],);
+  static const LucideIconData flipVertical2 = LucideIconData(name: 'flip-vertical-2',paths: ['m17 3-5 5-5-5h10', 'm17 21-5-5-5 5h10', 'M4 12H2', 'M10 12H8', 'M16 12h-2', 'M22 12h-2'],tags: ['reflect', 'mirror', 'alignment', 'dashed'],categories: ['design', 'photography'],);
+  static const LucideIconData flower = LucideIconData(name: 'flower',circles: [(12.0, 12.0, 3.0)],paths: ['M12 16.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 1 1 4.5 4.5 4.5 4.5 0 1 1-4.5 4.5', 'M12 7.5V9', 'M7.5 12H9', 'M16.5 12H15', 'M12 16.5V15', 'm8 8 1.88 1.88', 'M14.12 9.88 16 8', 'm8 16 1.88-1.88', 'M14.12 14.12 16 16'],tags: ['sustainability', 'nature', 'plant', 'spring'],categories: ['nature', 'gaming', 'sustainability'],);
+  static const LucideIconData flower2 = LucideIconData(name: 'flower-2',circles: [(12.0, 8.0, 2.0)],paths: ['M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1', 'M12 10v12', 'M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z', 'M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z'],tags: ['sustainability', 'nature', 'plant'],categories: ['nature', 'sustainability', 'seasons'],);
+  static const LucideIconData focus = LucideIconData(name: 'focus',circles: [(12.0, 12.0, 3.0)],paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2'],tags: ['camera', 'lens', 'photo', 'dashed'],categories: ['photography'],);
+  static const LucideIconData foldHorizontal = LucideIconData(name: 'fold-horizontal',paths: ['M2 12h6', 'M22 12h-6', 'M12 2v2', 'M12 8v2', 'M12 14v2', 'M12 20v2', 'm19 9-3 3 3 3', 'm5 15 3-3-3-3'],tags: ['arrow', 'collapse', 'fold', 'vertical', 'dashed'],categories: ['arrows', 'layout'],);
+  static const LucideIconData foldVertical = LucideIconData(name: 'fold-vertical',paths: ['M12 22v-6', 'M12 8V2', 'M4 12H2', 'M10 12H8', 'M16 12h-2', 'M22 12h-2', 'm15 19-3-3-3 3', 'm15 5-3 3-3-3'],tags: ['arrow', 'collapse', 'fold', 'vertical', 'dashed'],categories: ['arrows', 'layout'],);
+  static const LucideIconData folder = LucideIconData(name: 'folder',paths: ['M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z'],tags: ['directory'],categories: ['files'],);
+  static const LucideIconData folderArchive = LucideIconData(name: 'folder-archive',circles: [(15.0, 19.0, 2.0)],paths: ['M20.9 19.8A2 2 0 0 0 22 18V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h5.1', 'M15 11v-1', 'M15 17v-2'],tags: ['archive', 'zip', 'package'],categories: ['files'],);
+  static const LucideIconData folderCheck = LucideIconData(name: 'folder-check',paths: ['M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z', 'm9 13 2 2 4-4'],tags: ['done', 'directory', 'todo', 'tick', 'complete', 'task'],categories: ['files'],);
+  static const LucideIconData folderClock = LucideIconData(name: 'folder-clock',circles: [(16.0, 16.0, 6.0)],paths: ['M16 14v2.2l1.6 1', 'M7 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2'],tags: ['history', 'directory', 'clock'],categories: ['files', 'time'],);
+  static const LucideIconData folderClosed = LucideIconData(name: 'folder-closed',paths: ['M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z', 'M2 10h20'],tags: ['directory', 'closed'],categories: ['files'],);
+  static const LucideIconData folderCode = LucideIconData(name: 'folder-code',paths: ['M10 10.5 8 13l2 2.5', 'm14 10.5 2 2.5-2 2.5', 'M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z'],tags: ['directory', 'coding', 'develop', 'software'],categories: ['files', 'development'],);
+  static const LucideIconData folderCog = LucideIconData(name: 'folder-cog',circles: [(18.0, 18.0, 3.0)],paths: ['M10.3 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.98a2 2 0 0 1 1.69.9l.66 1.2A2 2 0 0 0 12 6h8a2 2 0 0 1 2 2v3.3', 'm14.305 19.53.923-.382', 'm15.228 16.852-.923-.383', 'm16.852 15.228-.383-.923', 'm16.852 20.772-.383.924', 'm19.148 15.228.383-.923', 'm19.53 21.696-.382-.924', 'm20.772 16.852.924-.383', 'm20.772 19.148.924.383'],tags: ['directory', 'settings', 'control', 'preferences', 'cog', 'edit', 'gear'],categories: ['files'],);
+  static const LucideIconData folderDot = LucideIconData(name: 'folder-dot',circles: [(12.0, 13.0, 1.0)],paths: ['M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z'],tags: ['directory', 'root', 'project', 'pinned', 'active', 'current', 'cogged', 'gear', 'mechanical', 'machinery', 'configuration', 'controls', 'preferences', 'settings', 'system', 'admin', 'edit'],categories: ['files', 'development'],);
+  static const LucideIconData folderDown = LucideIconData(name: 'folder-down',paths: ['M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z', 'M12 10v6', 'm15 13-3 3-3-3'],tags: ['directory', 'download', 'import', 'export'],categories: ['files', 'arrows'],);
+  static const LucideIconData folderGit = LucideIconData(name: 'folder-git',circles: [(12.0, 13.0, 2.0)],paths: ['M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z', 'M14 13h3', 'M7 13h3'],tags: ['directory', 'root', 'project', 'git', 'repo'],categories: ['files'],);
+  static const LucideIconData folderGit2 = LucideIconData(name: 'folder-git-2',circles: [(13.0, 12.0, 2.0), (20.0, 19.0, 2.0)],paths: ['M18 19a5 5 0 0 1-5-5v8', 'M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5'],tags: ['directory', 'root', 'project', 'git', 'repo'],categories: ['files'],);
+  static const LucideIconData folderHeart = LucideIconData(name: 'folder-heart',paths: ['M10.638 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v3.417', 'M14.62 18.8A2.25 2.25 0 1 1 18 15.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z'],tags: ['directory', 'heart', 'favourite', 'bookmark', 'quick link'],categories: ['files'],);
+  static const LucideIconData folderInput = LucideIconData(name: 'folder-input',paths: ['M2 9V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-1', 'M2 13h10', 'm9 16 3-3-3-3'],tags: ['directory', 'import', 'export'],categories: ['files', 'arrows'],);
+  static const LucideIconData folderKanban = LucideIconData(name: 'folder-kanban',paths: ['M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z', 'M8 10v4', 'M12 10v2', 'M16 10v6'],tags: ['projects', 'manage', 'overview', 'board', 'tickets', 'issues', 'roadmap', 'plan', 'intentions', 'productivity', 'work', 'agile', 'code', 'coding', 'directory', 'project', 'root'],categories: ['charts', 'development', 'design', 'files'],);
+  static const LucideIconData folderKey = LucideIconData(name: 'folder-key',circles: [(19.0, 20.0, 2.0)],paths: ['M13 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v1.36', 'M19 12v6', 'M19 14h2'],tags: ['directory', 'key', 'private', 'security', 'protected'],categories: ['files', 'security'],);
+  static const LucideIconData folderLock = LucideIconData(name: 'folder-lock',rects: [(14.0, 17.0, 8.0, 5.0, 1.0)],paths: ['M10 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v2.5', 'M20 17v-2a2 2 0 1 0-4 0v2'],tags: ['directory', 'lock', 'private', 'security', 'protected'],categories: ['files', 'security'],);
+  static const LucideIconData folderMinus = LucideIconData(name: 'folder-minus',paths: ['M9 13h6', 'M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z'],tags: ['directory', 'remove', 'delete'],categories: ['files'],);
+  static const LucideIconData folderOpen = LucideIconData(name: 'folder-open',paths: ['m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2'],tags: ['directory'],categories: ['files'],);
+  static const LucideIconData folderOpenDot = LucideIconData(name: 'folder-open-dot',circles: [(14.0, 15.0, 1.0)],paths: ['m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2'],tags: ['directory', 'root', 'project', 'active', 'current', 'pinned'],categories: ['files', 'development'],);
+  static const LucideIconData folderOutput = LucideIconData(name: 'folder-output',paths: ['M2 7.5V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-1.5', 'M2 13h10', 'm5 10-3 3 3 3'],tags: ['directory', 'import', 'export'],categories: ['files', 'arrows'],);
+  static const LucideIconData folderPen = LucideIconData(name: 'folder-pen',paths: ['M2 11.5V5a2 2 0 0 1 2-2h3.9c.7 0 1.3.3 1.7.9l.8 1.2c.4.6 1 .9 1.7.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-9.5', 'M11.378 13.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z'],tags: ['directory', 'rename'],categories: ['files'],);
+  static const LucideIconData folderPlus = LucideIconData(name: 'folder-plus',paths: ['M12 10v6', 'M9 13h6', 'M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z'],tags: ['directory', 'add', 'create', 'new'],categories: ['files'],);
+  static const LucideIconData folderRoot = LucideIconData(name: 'folder-root',circles: [(12.0, 13.0, 2.0)],paths: ['M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z', 'M12 15v5'],tags: ['directory', 'root', 'project', 'git', 'repo'],categories: ['files', 'development'],);
+  static const LucideIconData folderSearch = LucideIconData(name: 'folder-search',circles: [(17.0, 17.0, 3.0)],paths: ['M10.7 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v4.1', 'm21 21-1.9-1.9'],tags: ['directory', 'search', 'find', 'lost', 'browser', 'lens'],categories: ['files'],);
+  static const LucideIconData folderSearch2 = LucideIconData(name: 'folder-search-2',circles: [(11.5, 12.5, 2.5)],paths: ['M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z', 'M13.3 14.3 15 16'],tags: ['directory', 'search', 'find', 'lost', 'browser', 'lens'],categories: ['files'],);
+  static const LucideIconData folderSymlink = LucideIconData(name: 'folder-symlink',paths: ['M2 9.35V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h7', 'm8 16 3-3-3-3'],tags: ['directory', 'symlink', 'symbolic', 'link'],categories: ['files'],);
+  static const LucideIconData folderSync = LucideIconData(name: 'folder-sync',paths: ['M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v.5', 'M12 10v4h4', 'm12 14 1.535-1.605a5 5 0 0 1 8 1.5', 'M22 22v-4h-4', 'm22 18-1.535 1.605a5 5 0 0 1-8-1.5'],tags: ['directory', 'synchronize', 'synchronise', 'refresh', 'reconnect', 'transfer', 'backup'],categories: ['files', 'arrows'],);
+  static const LucideIconData folderTree = LucideIconData(name: 'folder-tree',paths: ['M20 10a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.5a1 1 0 0 1-.8-.4l-.9-1.2A1 1 0 0 0 15 3h-2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z', 'M20 21a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-2.9a1 1 0 0 1-.88-.55l-.42-.85a1 1 0 0 0-.92-.6H13a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z', 'M3 5a2 2 0 0 0 2 2h3', 'M3 3v13a2 2 0 0 0 2 2h3'],tags: ['directory', 'tree', 'browser'],categories: ['files'],);
+  static const LucideIconData folderUp = LucideIconData(name: 'folder-up',paths: ['M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z', 'M12 10v6', 'm9 13 3-3 3 3'],tags: ['directory', 'upload', 'import', 'export'],categories: ['files', 'arrows'],);
+  static const LucideIconData folderX = LucideIconData(name: 'folder-x',paths: ['M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z', 'm9.5 10.5 5 5', 'm14.5 10.5-5 5'],tags: ['directory', 'remove', 'delete'],categories: ['files'],);
+  static const LucideIconData folders = LucideIconData(name: 'folders',paths: ['M20 5a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2.5a1.5 1.5 0 0 1 1.2.6l.6.8a1.5 1.5 0 0 0 1.2.6z', 'M3 8.268a2 2 0 0 0-1 1.738V19a2 2 0 0 0 2 2h11a2 2 0 0 0 1.732-1'],tags: ['multiple', 'copy', 'directories'],categories: ['files'],);
+  static const LucideIconData footprints = LucideIconData(name: 'footprints',paths: ['M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z', 'M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z', 'M16 17h4', 'M4 13h4'],tags: ['steps', 'walking', 'foot', 'feet', 'trail', 'shoe'],categories: ['navigation'],);
+  static const LucideIconData forklift = LucideIconData(name: 'forklift',circles: [(13.0, 19.0, 2.0), (5.0, 19.0, 2.0)],paths: ['M12 12H5a2 2 0 0 0-2 2v5', 'M15 19h7', 'M16 19V2', 'M6 12V7a2 2 0 0 1 2-2h2.172a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 16 10.828', 'M7 19h4'],tags: ['machinery', 'industrial', 'warehouse', 'lifting', 'storage', 'equipment', 'heavy-duty', 'moving', 'vehicle', 'transport', 'logistics'],categories: ['transportation'],);
+  static const LucideIconData form = LucideIconData(name: 'form',paths: ['M4 14h6', 'M4 2h10'],tags: ['document', 'page', 'file', 'layout', 'paper', 'stub', 'formality', 'structure', 'template', 'inputs', 'design', 'components'],categories: ['development'],);
+  static const LucideIconData forward = LucideIconData(name: 'forward',paths: ['m15 17 5-5-5-5', 'M4 18v-2a4 4 0 0 1 4-4h12'],tags: ['send', 'share', 'email'],categories: ['mail'],);
+  static const LucideIconData frame = LucideIconData(name: 'frame',tags: ['logo', 'design', 'tool'],categories: ['design', 'photography'],);
+  static const LucideIconData frown = LucideIconData(name: 'frown',circles: [(12.0, 12.0, 10.0)],paths: ['M16 16s-1.5-2-4-2-4 2-4 2'],tags: ['emoji', 'face', 'bad', 'sad', 'emotion'],categories: ['emoji', 'account'],);
+  static const LucideIconData fuel = LucideIconData(name: 'fuel',paths: ['M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 4 0v-6.998a2 2 0 0 0-.59-1.42L18 5', 'M14 21V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16', 'M2 21h13', 'M3 9h11'],tags: ['filling-station', 'gas', 'petrol', 'tank'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData fullscreen = LucideIconData(name: 'fullscreen',rects: [(7.0, 8.0, 10.0, 8.0, 1.0)],paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2'],tags: ['expand', 'zoom', 'preview', 'focus', 'camera', 'lens', 'image'],categories: ['layout', 'multimedia', 'design', 'photography'],);
+  static const LucideIconData funnel = LucideIconData(name: 'funnel',paths: ['M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z'],tags: ['filter', 'hopper'],categories: ['layout'],);
+  static const LucideIconData funnelPlus = LucideIconData(name: 'funnel-plus',paths: ['M13.354 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l1.218-1.348', 'M16 6h6', 'M19 3v6'],tags: ['filter', 'hopper', 'add', 'create', 'new'],categories: ['layout'],);
+  static const LucideIconData funnelX = LucideIconData(name: 'funnel-x',paths: ['M12.531 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l.427-.473', 'm16.5 3.5 5 5', 'm21.5 3.5-5 5'],tags: ['filter', 'hopper', 'remove', 'delete'],categories: ['layout'],);
+  static const LucideIconData galleryHorizontal = LucideIconData(name: 'gallery-horizontal',rects: [(6.0, 3.0, 12.0, 18.0, 2.0)],paths: ['M2 3v18', 'M22 3v18'],tags: ['carousel', 'pictures', 'images', 'scroll', 'swipe', 'album', 'portfolio'],categories: ['layout', 'design', 'development', 'photography', 'multimedia'],);
+  static const LucideIconData galleryHorizontalEnd = LucideIconData(name: 'gallery-horizontal-end',rects: [(10.0, 3.0, 12.0, 18.0, 2.0)],paths: ['M2 7v10', 'M6 5v14'],tags: ['carousel', 'pictures', 'images', 'scroll', 'swipe', 'album', 'portfolio', 'history', 'versions', 'backup', 'time machine'],categories: ['layout', 'design', 'development', 'photography', 'multimedia', 'files'],);
+  static const LucideIconData galleryThumbnails = LucideIconData(name: 'gallery-thumbnails',rects: [(3.0, 3.0, 18.0, 14.0, 2.0)],paths: ['M4 21h1', 'M9 21h1', 'M14 21h1', 'M19 21h1'],tags: ['carousel', 'pictures', 'images', 'album', 'portfolio', 'preview'],categories: ['layout', 'design', 'development', 'photography', 'multimedia'],);
+  static const LucideIconData galleryVertical = LucideIconData(name: 'gallery-vertical',rects: [(3.0, 6.0, 18.0, 12.0, 2.0)],paths: ['M3 2h18', 'M3 22h18'],tags: ['carousel', 'pictures', 'images', 'scroll', 'swipe', 'album', 'portfolio'],categories: ['layout', 'design', 'development', 'photography', 'multimedia'],);
+  static const LucideIconData galleryVerticalEnd = LucideIconData(name: 'gallery-vertical-end',rects: [(3.0, 10.0, 18.0, 12.0, 2.0)],paths: ['M7 2h10', 'M5 6h14'],tags: ['carousel', 'pictures', 'images', 'scroll', 'swipe', 'album', 'portfolio', 'history', 'versions', 'backup', 'time machine'],categories: ['layout', 'design', 'development', 'photography', 'multimedia', 'files'],);
+  static const LucideIconData gamepad = LucideIconData(name: 'gamepad',rects: [(2.0, 6.0, 20.0, 12.0, 2.0)],tags: ['console'],categories: ['gaming', 'devices'],);
+  static const LucideIconData gamepad2 = LucideIconData(name: 'gamepad-2',paths: ['M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z'],tags: ['console'],categories: ['gaming', 'devices'],);
+  static const LucideIconData gamepadDirectional = LucideIconData(name: 'gamepad-directional',paths: ['M11.146 15.854a1.207 1.207 0 0 1 1.708 0l1.56 1.56A2 2 0 0 1 15 18.828V21a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2.172a2 2 0 0 1 .586-1.414z', 'M18.828 15a2 2 0 0 1-1.414-.586l-1.56-1.56a1.207 1.207 0 0 1 0-1.708l1.56-1.56A2 2 0 0 1 18.828 9H21a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1z', 'M6.586 14.414A2 2 0 0 1 5.172 15H3a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2.172a2 2 0 0 1 1.414.586l1.56 1.56a1.207 1.207 0 0 1 0 1.708z', 'M9 3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2.172a2 2 0 0 1-.586 1.414l-1.56 1.56a1.207 1.207 0 0 1-1.708 0l-1.56-1.56A2 2 0 0 1 9 5.172z'],tags: ['direction', 'arrow', 'controller', 'navigation', 'button', 'move', 'pointer', 'arrowhead', 'console', 'game', 'gaming'],categories: ['gaming', 'devices'],);
+  static const LucideIconData gauge = LucideIconData(name: 'gauge',paths: ['m12 14 4-4', 'M3.34 19a10 10 0 1 1 17.32 0'],tags: ['dashboard', 'dial', 'meter', 'speed', 'pressure', 'measure', 'level'],categories: ['transportation', 'sports', 'science'],);
+  static const LucideIconData gavel = LucideIconData(name: 'gavel',paths: ['m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381', 'm16 16 6-6', 'm21.5 10.5-8-8', 'm8 8 6-6', 'm8.5 7.5 8 8'],tags: ['justice', 'law', 'court', 'judgment', 'legal', 'hands', 'penalty', 'decision', 'authority', 'hammer', 'mallet'],categories: ['navigation', 'tools'],);
+  static const LucideIconData gem = LucideIconData(name: 'gem',paths: ['M10.5 3 8 9l4 13 4-13-2.5-6', 'M17 3a2 2 0 0 1 1.6.8l3 4a2 2 0 0 1 .013 2.382l-7.99 10.986a2 2 0 0 1-3.247 0l-7.99-10.986A2 2 0 0 1 2.4 7.8l2.998-3.997A2 2 0 0 1 7 3z', 'M2 9h20'],tags: ['diamond', 'crystal', 'ruby', 'jewellery', 'price', 'special', 'present', 'gift', 'ring', 'wedding', 'proposal', 'marriage', 'rubygems'],categories: ['gaming', 'development', 'finance'],);
+  static const LucideIconData georgianLari = LucideIconData(name: 'georgian-lari',paths: ['M11.5 21a7.5 7.5 0 1 1 7.35-9', 'M13 12V3', 'M4 21h16', 'M9 12V3'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData ghost = LucideIconData(name: 'ghost',paths: ['M9 10h.01', 'M15 10h.01', 'M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z'],tags: ['pac-man', 'spooky'],categories: ['gaming'],);
+  static const LucideIconData gift = LucideIconData(name: 'gift',paths: ['M12 7v14', 'M20 11v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8', 'M7.5 7a1 1 0 0 1 0-5A4.8 8 0 0 1 12 7a4.8 8 0 0 1 4.5-5 1 1 0 0 1 0 5'],tags: ['present', 'box', 'birthday', 'party'],categories: ['gaming', 'account'],);
+  static const LucideIconData gitBranch = LucideIconData(name: 'git-branch',circles: [(18.0, 6.0, 3.0), (6.0, 18.0, 3.0)],paths: ['M15 6a9 9 0 0 0-9 9V3'],tags: ['code', 'version control', 'vcs', 'repository'],categories: ['development'],);
+  static const LucideIconData gitBranchMinus = LucideIconData(name: 'git-branch-minus',circles: [(18.0, 6.0, 3.0), (6.0, 18.0, 3.0)],paths: ['M15 6a9 9 0 0 0-9 9V3', 'M21 18h-6'],tags: ['code', 'version control', 'vcs', 'repository', 'delete', 'remove', '-'],categories: ['development'],);
+  static const LucideIconData gitBranchPlus = LucideIconData(name: 'git-branch-plus',paths: ['M6 3v12', 'M18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z', 'M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6z', 'M15 6a9 9 0 0 0-9 9', 'M18 15v6', 'M21 18h-6'],tags: ['code', 'version control', 'vcs', 'repository', 'add', 'create', '+'],categories: ['development'],);
+  static const LucideIconData gitCommitHorizontal = LucideIconData(name: 'git-commit-horizontal',circles: [(12.0, 12.0, 3.0)],tags: ['code', 'version control', 'waypoint', 'stop', 'station'],categories: ['development', 'navigation'],);
+  static const LucideIconData gitCommitVertical = LucideIconData(name: 'git-commit-vertical',circles: [(12.0, 12.0, 3.0)],paths: ['M12 3v6', 'M12 15v6'],tags: ['code', 'version control', 'waypoint', 'stop', 'station'],categories: ['development', 'navigation'],);
+  static const LucideIconData gitCompare = LucideIconData(name: 'git-compare',circles: [(18.0, 18.0, 3.0), (6.0, 6.0, 3.0)],paths: ['M13 6h3a2 2 0 0 1 2 2v7', 'M11 18H8a2 2 0 0 1-2-2V9'],tags: ['code', 'version control', 'diff'],categories: ['development'],);
+  static const LucideIconData gitCompareArrows = LucideIconData(name: 'git-compare-arrows',circles: [(5.0, 6.0, 3.0), (19.0, 18.0, 3.0)],paths: ['M12 6h5a2 2 0 0 1 2 2v7', 'm15 9-3-3 3-3', 'M12 18H7a2 2 0 0 1-2-2V9', 'm9 15 3 3-3 3'],tags: ['code', 'version control', 'diff'],categories: ['development', 'arrows'],);
+  static const LucideIconData gitFork = LucideIconData(name: 'git-fork',circles: [(12.0, 18.0, 3.0), (6.0, 6.0, 3.0), (18.0, 6.0, 3.0)],paths: ['M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9', 'M12 12v3'],tags: ['code', 'version control'],categories: ['development'],);
+  static const LucideIconData gitGraph = LucideIconData(name: 'git-graph',circles: [(5.0, 6.0, 3.0), (5.0, 18.0, 3.0), (19.0, 6.0, 3.0)],paths: ['M5 9v6', 'M12 3v18', 'M16 15.7A9 9 0 0 0 19 9'],tags: ['code', 'version control', 'commit graph', 'commits', 'gitlens'],categories: ['development'],);
+  static const LucideIconData gitMerge = LucideIconData(name: 'git-merge',circles: [(18.0, 18.0, 3.0), (6.0, 6.0, 3.0)],paths: ['M6 21V9a9 9 0 0 0 9 9'],tags: ['code', 'version control'],categories: ['development'],);
+  static const LucideIconData gitMergeConflict = LucideIconData(name: 'git-merge-conflict',circles: [(18.0, 18.0, 3.0)],paths: ['M12 6h4a2 2 0 0 1 2 2v7', 'M6 12v9', 'M9 3 3 9', 'M9 9 3 3'],tags: ['code', 'version control', 'commits', 'diff', 'error', 'conflict'],categories: ['development'],);
+  static const LucideIconData gitPullRequest = LucideIconData(name: 'git-pull-request',circles: [(18.0, 18.0, 3.0), (6.0, 6.0, 3.0)],paths: ['M13 6h3a2 2 0 0 1 2 2v7'],tags: ['code', 'version control', 'open'],categories: ['development'],);
+  static const LucideIconData gitPullRequestArrow = LucideIconData(name: 'git-pull-request-arrow',circles: [(5.0, 6.0, 3.0), (19.0, 18.0, 3.0)],paths: ['M5 9v12', 'm15 9-3-3 3-3', 'M12 6h5a2 2 0 0 1 2 2v7'],tags: ['code', 'version control', 'open'],categories: ['development', 'arrows'],);
+  static const LucideIconData gitPullRequestClosed = LucideIconData(name: 'git-pull-request-closed',circles: [(6.0, 6.0, 3.0), (18.0, 18.0, 3.0)],paths: ['M6 9v12', 'm21 3-6 6', 'm21 9-6-6', 'M18 11.5V15'],tags: ['code', 'version control', 'rejected', 'closed', 'cancelled', 'x'],categories: ['development'],);
+  static const LucideIconData gitPullRequestCreate = LucideIconData(name: 'git-pull-request-create',circles: [(6.0, 6.0, 3.0)],paths: ['M6 9v12', 'M13 6h3a2 2 0 0 1 2 2v3', 'M18 15v6', 'M21 18h-6'],tags: ['code', 'version control', 'open', 'plus', 'add', '+'],categories: ['development'],);
+  static const LucideIconData gitPullRequestCreateArrow = LucideIconData(name: 'git-pull-request-create-arrow',circles: [(5.0, 6.0, 3.0)],paths: ['M5 9v12', 'm15 9-3-3 3-3', 'M12 6h5a2 2 0 0 1 2 2v3', 'M19 15v6', 'M22 18h-6'],tags: ['code', 'version control', 'open', 'plus', 'add', '+'],categories: ['development', 'arrows'],);
+  static const LucideIconData gitPullRequestDraft = LucideIconData(name: 'git-pull-request-draft',circles: [(18.0, 18.0, 3.0), (6.0, 6.0, 3.0)],paths: ['M18 6V5', 'M18 11v-1'],tags: ['code', 'version control', 'open', 'draft', 'dashed'],categories: ['development'],);
+  static const LucideIconData glassWater = LucideIconData(name: 'glass-water',paths: ['M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z', 'M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0'],tags: ['beverage', 'drink', 'glass', 'water'],categories: ['food-beverage'],);
+  static const LucideIconData glasses = LucideIconData(name: 'glasses',circles: [(6.0, 15.0, 4.0), (18.0, 15.0, 4.0)],paths: ['M14 15a2 2 0 0 0-2-2 2 2 0 0 0-2 2', 'M2.5 13 5 7c.7-1.3 1.4-2 3-2', 'M21.5 13 19 7c-.7-1.3-1.5-2-3-2'],tags: ['glasses', 'spectacles'],categories: ['accessibility'],);
+  static const LucideIconData globe = LucideIconData(name: 'globe',circles: [(12.0, 12.0, 10.0)],paths: ['M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20', 'M2 12h20'],tags: ['world', 'browser', 'language', 'translate'],categories: ['navigation'],);
+  static const LucideIconData globeLock = LucideIconData(name: 'globe-lock',rects: [(14.0, 6.0, 8.0, 5.0, 1.0)],paths: ['M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20 10 10 0 1 0 9.542 13', 'M2 12h8.5', 'M20 6V4a2 2 0 1 0-4 0v2'],tags: ['vpn', 'private', 'privacy', 'network', 'world', 'browser', 'security', 'encryption', 'protection', 'connection'],categories: ['security', 'development', 'devices'],);
+  static const LucideIconData globeOff = LucideIconData(name: 'globe-off',paths: ['M10.114 4.462A14.5 14.5 0 0 1 12 2a10 10 0 0 1 9.313 13.643', 'M15.557 15.556A14.5 14.5 0 0 1 12 22 10 10 0 0 1 4.929 4.929', 'M15.892 10.234A14.5 14.5 0 0 0 12 2a10 10 0 0 0-3.643.687', 'M17.656 12H22', 'M19.071 19.071A10 10 0 0 1 12 22 14.5 14.5 0 0 1 8.44 8.45', 'M2 12h10', 'm2 2 20 20'],tags: ['globe', 'earth', 'planet', 'disable', 'mute', 'off', 'hide', 'avoid', 'world', 'browser', 'language', 'translate', 'internet', 'offline', 'disconnected', 'network', 'connection', 'no connection', 'network failure', 'signal off'],categories: ['navigation', 'connectivity', 'devices'],);
+  static const LucideIconData globeX = LucideIconData(name: 'globe-x',paths: ['m16 3 5 5', 'M2 12h20A10 10 0 1 1 12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 4-10', 'm21 3-5 5'],tags: ['globe', 'internet', 'offline', 'disconnected', 'network', 'connection', 'world', 'no connection', 'network failure', 'signal off'],categories: ['connectivity', 'devices', 'navigation'],);
+  static const LucideIconData goal = LucideIconData(name: 'goal',paths: ['M12 13V2l8 4-8 4', 'M20.561 10.222a9 9 0 1 1-12.55-5.29', 'M8.002 9.997a5 5 0 1 0 8.9 2.02'],tags: ['flag', 'bullseye'],categories: ['gaming'],);
+  static const LucideIconData gpu = LucideIconData(name: 'gpu',circles: [(16.0, 11.0, 2.0), (8.0, 11.0, 2.0)],paths: ['M2 17h18a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H2', 'M2 21V3', 'M7 17v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3'],tags: ['processor', 'cores', 'technology', 'computer', 'chip', 'circuit', 'specs', 'graphics processing unit', 'video card', 'display adapter', 'gddr', 'rendering', 'digital image processing', 'crypto mining'],categories: ['devices', 'gaming'],);
+  static const LucideIconData graduationCap = LucideIconData(name: 'graduation-cap',paths: ['M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z', 'M22 10v6', 'M6 12.5V16a6 3 0 0 0 12 0v-3.5'],tags: ['school', 'university', 'learn', 'study', 'mortarboard', 'education', 'ceremony', 'academic', 'hat', 'diploma', 'bachlor\'s', 'master\'s', 'doctorate'],categories: ['buildings'],);
+  static const LucideIconData grape = LucideIconData(name: 'grape',circles: [(16.6, 15.89, 3.0), (8.11, 7.4, 3.0), (12.35, 11.65, 3.0), (13.91, 5.85, 3.0), (18.15, 10.09, 3.0), (6.56, 13.2, 3.0), (10.8, 17.44, 3.0), (5.0, 19.0, 3.0)],paths: ['M22 5V2l-5.89 5.89'],tags: ['fruit', 'wine', 'food'],categories: ['food-beverage'],);
+  static const LucideIconData grid2x2 = LucideIconData(name: 'grid-2x2',paths: ['M12 3v18', 'M3 12h18'],tags: ['table', 'rows', 'columns', 'blocks', 'plot', 'land', 'geometry', 'measure', 'size', 'width', 'height', 'distance', 'surface area', 'square meter', 'acre', 'window', 'skylight'],categories: ['text', 'layout', 'design', 'math'],);
+  static const LucideIconData grid2x2Check = LucideIconData(name: 'grid-2x2-check',paths: ['M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3', 'm16 19 2 2 4-4'],tags: ['table', 'rows', 'columns', 'blocks', 'plot', 'land', 'geometry', 'measure', 'data', 'size', 'width', 'height', 'distance', 'surface area', 'square meter', 'acre'],categories: ['text', 'layout', 'math'],);
+  static const LucideIconData grid2x2Plus = LucideIconData(name: 'grid-2x2-plus',paths: ['M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3', 'M16 19h6', 'M19 22v-6'],tags: ['table', 'rows', 'columns', 'blocks', 'plot', 'land', 'geometry', 'measure', 'data', 'size', 'width', 'height', 'distance', 'surface area', 'square meter', 'acre'],categories: ['text', 'layout', 'math'],);
+  static const LucideIconData grid2x2X = LucideIconData(name: 'grid-2x2-x',paths: ['M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3', 'm16 16 5 5', 'm16 21 5-5'],tags: ['table', 'rows', 'columns', 'data', 'blocks', 'plot', 'land', 'geometry', 'measure', 'size', 'width', 'height', 'distance', 'surface area', 'square meter', 'acre'],categories: ['text', 'layout', 'math'],);
+  static const LucideIconData grid3x2 = LucideIconData(name: 'grid-3x2',paths: ['M15 3v18', 'M3 12h18', 'M9 3v18'],tags: ['table', 'rows', 'columns', 'blocks', 'plot', 'land', 'geometry', 'measure', 'size', 'width', 'height', 'distance', 'surface area', 'square meter', 'acre', 'window'],categories: ['text', 'math', 'layout', 'design'],);
+  static const LucideIconData grid3x3 = LucideIconData(name: 'grid-3x3',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 9h18', 'M3 15h18', 'M9 3v18', 'M15 3v18'],tags: ['table', 'rows', 'columns'],categories: ['text', 'layout', 'design'],);
+  static const LucideIconData grip = LucideIconData(name: 'grip',circles: [(12.0, 5.0, 1.0), (19.0, 5.0, 1.0), (5.0, 5.0, 1.0), (12.0, 12.0, 1.0), (19.0, 12.0, 1.0), (5.0, 12.0, 1.0), (12.0, 19.0, 1.0), (19.0, 19.0, 1.0), (5.0, 19.0, 1.0)],tags: ['grab', 'dots', 'handle', 'move', 'drag'],categories: ['layout'],);
+  static const LucideIconData gripHorizontal = LucideIconData(name: 'grip-horizontal',circles: [(12.0, 9.0, 1.0), (19.0, 9.0, 1.0), (5.0, 9.0, 1.0), (12.0, 15.0, 1.0), (19.0, 15.0, 1.0), (5.0, 15.0, 1.0)],tags: ['grab', 'dots', 'handle', 'move', 'drag'],categories: ['layout'],);
+  static const LucideIconData gripVertical = LucideIconData(name: 'grip-vertical',circles: [(9.0, 12.0, 1.0), (9.0, 5.0, 1.0), (9.0, 19.0, 1.0), (15.0, 12.0, 1.0), (15.0, 5.0, 1.0), (15.0, 19.0, 1.0)],tags: ['grab', 'dots', 'handle', 'move', 'drag'],categories: ['layout'],);
+  static const LucideIconData group = LucideIconData(name: 'group',rects: [(7.0, 7.0, 7.0, 5.0, 1.0), (10.0, 12.0, 7.0, 5.0, 1.0)],paths: ['M3 7V5c0-1.1.9-2 2-2h2', 'M17 3h2c1.1 0 2 .9 2 2v2', 'M21 17v2c0 1.1-.9 2-2 2h-2', 'M7 21H5c-1.1 0-2-.9-2-2v-2'],tags: ['cubes', 'packages', 'parts', 'units', 'collection', 'cluster', 'gather', 'dashed'],categories: ['files'],);
+  static const LucideIconData guitar = LucideIconData(name: 'guitar',paths: ['m11.9 12.1 4.514-4.514', 'M20.1 2.3a1 1 0 0 0-1.4 0l-1.114 1.114A2 2 0 0 0 17 4.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 17.828 7h1.344a2 2 0 0 0 1.414-.586L21.7 5.3a1 1 0 0 0 0-1.4z', 'm6 16 2 2', 'M8.23 9.85A3 3 0 0 1 11 8a5 5 0 0 1 5 5 3 3 0 0 1-1.85 2.77l-.92.38A2 2 0 0 0 12 18a4 4 0 0 1-4 4 6 6 0 0 1-6-6 4 4 0 0 1 4-4 2 2 0 0 0 1.85-1.23z'],tags: ['acoustic', 'instrument', 'strings', 'riff', 'rock', 'band', 'country', 'concert', 'performance', 'play', 'lead', 'loud', 'music', 'audio', 'sound', 'noise'],categories: ['multimedia'],);
+  static const LucideIconData ham = LucideIconData(name: 'ham',paths: ['M13.144 21.144A7.274 10.445 45 1 0 2.856 10.856', 'M13.144 21.144A7.274 4.365 45 0 0 2.856 10.856a7.274 4.365 45 0 0 10.288 10.288', 'M16.565 10.435 18.6 8.4a2.501 2.501 0 1 0 1.65-4.65 2.5 2.5 0 1 0-4.66 1.66l-2.024 2.025', 'm8.5 16.5-1-1'],tags: ['food', 'pork', 'pig', 'meat', 'bone', 'hock', 'knuckle', 'gammon', 'cured'],categories: ['food-beverage'],);
+  static const LucideIconData hamburger = LucideIconData(name: 'hamburger',paths: ['M12 16H4a2 2 0 1 1 0-4h16a2 2 0 1 1 0 4h-4.25', 'M5 12a2 2 0 0 1-2-2 9 7 0 0 1 18 0 2 2 0 0 1-2 2', 'M5 16a2 2 0 0 0-2 2 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 2 2 0 0 0-2-2q0 0 0 0', 'm6.67 12 6.13 4.6a2 2 0 0 0 2.8-.4l3.15-4.2'],tags: ['burger', 'cheeseburger', 'meat', 'beef', 'patty', 'bun', 'fast food', 'junk food', 'takeaway', 'takeout', 'snack', 'dish', 'restaurant', 'lunch', 'meal', 'savory', 'savoury', 'cookery', 'cooking', 'grilled', 'barbecue', 'barbeque', 'bbq', 'lettuce', 'tomato', 'relish', 'pickles', 'onions', 'ketchup', 'mustard', 'mayonnaise'],categories: ['food-beverage'],);
+  static const LucideIconData hammer = LucideIconData(name: 'hammer',paths: ['m15 12-9.373 9.373a1 1 0 0 1-3.001-3L12 9', 'm18 15 4-4', 'm21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5'],tags: ['mallet', 'nails', 'diy', 'toolbox', 'build', 'construction'],categories: ['tools', 'home'],);
+  static const LucideIconData hand = LucideIconData(name: 'hand',paths: ['M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2', 'M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2', 'M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8', 'M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15'],tags: ['wave', 'move', 'mouse', 'grab'],categories: ['cursors', 'accessibility'],);
+  static const LucideIconData handCoins = LucideIconData(name: 'hand-coins',circles: [(16.0, 9.0, 2.9), (6.0, 5.0, 3.0)],paths: ['M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17', 'm7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9', 'm2 16 6 6'],tags: ['savings', 'banking', 'money', 'finance', 'offers', 'mortgage', 'payment', 'received', 'wage', 'payroll', 'allowance', 'pocket money', 'handout', 'pennies'],categories: ['finance', 'account'],);
+  static const LucideIconData handFist = LucideIconData(name: 'hand-fist',paths: ['M12.035 17.012a3 3 0 0 0-3-3l-.311-.002a.72.72 0 0 1-.505-1.229l1.195-1.195A2 2 0 0 1 10.828 11H12a2 2 0 0 0 0-4H9.243a3 3 0 0 0-2.122.879l-2.707 2.707A4.83 4.83 0 0 0 3 14a8 8 0 0 0 8 8h2a8 8 0 0 0 8-8V7a2 2 0 1 0-4 0v2a2 2 0 1 0 4 0', 'M13.888 9.662A2 2 0 0 0 17 8V5A2 2 0 1 0 13 5', 'M9 5A2 2 0 1 0 5 5V10', 'M9 7V4A2 2 0 1 1 13 4V7.268'],tags: ['clench', 'strength', 'power', 'unity', 'solidarity', 'rebellion', 'victory', 'triumph', 'support', 'fight', 'combat', 'brawl'],categories: ['social', 'emoji', 'communication', 'sports'],);
+  static const LucideIconData handGrab = LucideIconData(name: 'hand-grab',paths: ['M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4', 'M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2', 'M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5', 'M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2', 'M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0'],tags: ['hand'],categories: ['cursors', 'design', 'layout'],);
+  static const LucideIconData handHeart = LucideIconData(name: 'hand-heart',paths: ['M11 14h2a2 2 0 0 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16', 'm14.45 13.39 5.05-4.694C20.196 8 21 6.85 21 5.75a2.75 2.75 0 0 0-4.797-1.837.276.276 0 0 1-.406 0A2.75 2.75 0 0 0 11 5.75c0 1.2.802 2.248 1.5 2.946L16 11.95', 'm2 15 6 6', 'm7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a1 1 0 0 0-2.75-2.91'],tags: ['love', 'like', 'emotion'],categories: ['social'],);
+  static const LucideIconData handHelping = LucideIconData(name: 'hand-helping',paths: ['M11 12h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 14', 'm7 18 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9', 'm2 13 6 6'],tags: ['agreement', 'help', 'proposal', 'charity', 'begging', 'terms'],categories: ['emoji'],);
+  static const LucideIconData handMetal = LucideIconData(name: 'hand-metal',paths: ['M18 12.5V10a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4', 'M14 11V9a2 2 0 1 0-4 0v2', 'M10 10.5V5a2 2 0 1 0-4 0v9', 'm7 15-1.76-1.76a2 2 0 0 0-2.83 2.82l3.6 3.6C7.5 21.14 9.2 22 12 22h2a8 8 0 0 0 8-8V7a2 2 0 1 0-4 0v5'],tags: ['rock'],categories: ['emoji', 'multimedia'],);
+  static const LucideIconData handPlatter = LucideIconData(name: 'hand-platter',paths: ['M12 3V2', 'm15.4 17.4 3.2-2.8a2 2 0 1 1 2.8 2.9l-3.6 3.3c-.7.8-1.7 1.2-2.8 1.2h-4c-1.1 0-2.1-.4-2.8-1.2l-1.302-1.464A1 1 0 0 0 6.151 19H5', 'M2 14h12a2 2 0 0 1 0 4h-2', 'M4 10h16', 'M5 10a7 7 0 0 1 14 0', 'M5 14v6a1 1 0 0 1-1 1H2'],tags: ['waiter', 'waitress', 'restaurant', 'table service', 'served', 'dinner', 'dining', 'meal', 'course', 'luxury'],categories: ['food-beverage', 'people'],);
+  static const LucideIconData handbag = LucideIconData(name: 'handbag',paths: ['M2.048 18.566A2 2 0 0 0 4 21h16a2 2 0 0 0 1.952-2.434l-2-9A2 2 0 0 0 18 8H6a2 2 0 0 0-1.952 1.566z', 'M8 11V6a4 4 0 0 1 8 0v5'],tags: ['bag', 'baggage', 'carry', 'clutch', 'fashion', 'luggage', 'purse', 'tote', 'travel'],categories: ['shopping', 'transportation'],);
+  static const LucideIconData handshake = LucideIconData(name: 'handshake',paths: ['m11 17 2 2a1 1 0 1 0 3-3', 'm14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4', 'm21 3 1 11h-2', 'M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3', 'M3 4h8'],tags: ['agreement', 'partnership', 'deal', 'business', 'assistance', 'cooperation', 'friendship', 'union', 'terms'],categories: ['account', 'social', 'communication', 'finance', 'security'],);
+  static const LucideIconData hardDrive = LucideIconData(name: 'hard-drive',paths: ['M10 16h.01', 'M2.212 11.577a2 2 0 0 0-.212.896V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5.527a2 2 0 0 0-.212-.896L18.55 5.11A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z', 'M21.946 12.013H2.054', 'M6 16h.01'],tags: ['computer', 'server', 'memory', 'data', 'ssd', 'disk', 'hard disk', 'storage', 'hardware', 'backup', 'media'],categories: ['development', 'devices'],);
+  static const LucideIconData hardDriveDownload = LucideIconData(name: 'hard-drive-download',rects: [(2.0, 14.0, 20.0, 8.0, 2.0)],paths: ['M12 2v8', 'm16 6-4 4-4-4', 'M6 18h.01', 'M10 18h.01'],tags: ['computer', 'server', 'memory', 'data', 'ssd', 'disk', 'hard disk', 'save'],categories: ['development', 'devices', 'arrows', 'files'],);
+  static const LucideIconData hardDriveUpload = LucideIconData(name: 'hard-drive-upload',rects: [(2.0, 14.0, 20.0, 8.0, 2.0)],paths: ['m16 6-4-4-4 4', 'M12 2v8', 'M6 18h.01', 'M10 18h.01'],tags: ['computer', 'server', 'memory', 'data', 'ssd', 'disk', 'hard disk', 'save'],categories: ['development', 'devices', 'arrows', 'files'],);
+  static const LucideIconData hardHat = LucideIconData(name: 'hard-hat',paths: ['M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5', 'M14 6a6 6 0 0 1 6 6v3', 'M4 15v-3a6 6 0 0 1 6-6'],tags: ['helmet', 'construction', 'safety', 'savety'],categories: ['tools'],);
+  static const LucideIconData hash = LucideIconData(name: 'hash',tags: ['hashtag', 'number', 'pound'],categories: ['text', 'social'],);
+  static const LucideIconData hatGlasses = LucideIconData(name: 'hat-glasses',circles: [(17.0, 18.0, 3.0), (7.0, 18.0, 3.0)],paths: ['M14 18a2 2 0 0 0-4 0', 'm19 11-2.11-6.657a2 2 0 0 0-2.752-1.148l-1.276.61A2 2 0 0 1 12 4H8.5a2 2 0 0 0-1.925 1.456L5 11', 'M2 11h20'],tags: ['incognito', 'disguise', 'costume', 'masked', 'anonymous', 'anonymity', 'privacy', 'private browsing', 'stealth', 'hidden', 'undercover', 'cloak', 'invisible', 'ghost', 'spy', 'agent', 'detective', 'identity', 'cap', 'fedora', 'spectacles', 'shades', 'sunglasses', 'eyewear'],categories: ['social', 'account', 'security'],);
+  static const LucideIconData haze = LucideIconData(name: 'haze',paths: ['m5.2 6.2 1.4 1.4', 'M2 13h2', 'M20 13h2', 'm17.4 7.6 1.4-1.4', 'M22 17H2', 'M22 21H2', 'M16 13a4 4 0 0 0-8 0', 'M12 5V2.5'],tags: ['mist', 'fog'],categories: ['weather'],);
+  static const LucideIconData hd = LucideIconData(name: 'hd',paths: ['M10 12H6', 'M10 15V9', 'M14 14.5a.5.5 0 0 0 .5.5h1a2.5 2.5 0 0 0 2.5-2.5v-1A2.5 2.5 0 0 0 15.5 9h-1a.5.5 0 0 0-.5.5z', 'M6 15V9'],tags: ['tv', 'resolution', 'video', 'high definition', '720p', '1080p'],categories: ['devices', 'multimedia'],);
+  static const LucideIconData hdmiPort = LucideIconData(name: 'hdmi-port',paths: ['M22 9a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1l2 2h12l2-2h1a1 1 0 0 0 1-1Z', 'M7.5 12h9'],tags: ['socket', 'plug', 'slot', 'controller', 'connector', 'interface', 'console', 'signal', 'audio', 'video', 'visual', 'av', 'data', 'input', 'output'],categories: ['devices', 'multimedia', 'gaming'],);
+  static const LucideIconData heading = LucideIconData(name: 'heading',paths: ['M6 12h12', 'M6 20V4', 'M18 20V4'],tags: ['h1', 'html', 'markup', 'markdown'],categories: ['text'],);
+  static const LucideIconData heading1 = LucideIconData(name: 'heading-1',paths: ['M4 12h8', 'M4 18V6', 'M12 18V6', 'm17 12 3-2v8'],tags: ['h1', 'html', 'markup', 'markdown'],categories: ['text'],);
+  static const LucideIconData heading2 = LucideIconData(name: 'heading-2',paths: ['M4 12h8', 'M4 18V6', 'M12 18V6', 'M21 18h-4c0-4 4-3 4-6 0-1.5-2-2.5-4-1'],tags: ['h2', 'html', 'markup', 'markdown'],categories: ['text'],);
+  static const LucideIconData heading3 = LucideIconData(name: 'heading-3',paths: ['M4 12h8', 'M4 18V6', 'M12 18V6', 'M17.5 10.5c1.7-1 3.5 0 3.5 1.5a2 2 0 0 1-2 2', 'M17 17.5c2 1.5 4 .3 4-1.5a2 2 0 0 0-2-2'],tags: ['h3', 'html', 'markup', 'markdown'],categories: ['text'],);
+  static const LucideIconData heading4 = LucideIconData(name: 'heading-4',paths: ['M12 18V6', 'M17 10v3a1 1 0 0 0 1 1h3', 'M21 10v8', 'M4 12h8', 'M4 18V6'],tags: ['h4', 'html', 'markup', 'markdown'],categories: ['text'],);
+  static const LucideIconData heading5 = LucideIconData(name: 'heading-5',paths: ['M4 12h8', 'M4 18V6', 'M12 18V6', 'M17 13v-3h4', 'M17 17.7c.4.2.8.3 1.3.3 1.5 0 2.7-1.1 2.7-2.5S19.8 13 18.3 13H17'],tags: ['h5', 'html', 'markup', 'markdown'],categories: ['text'],);
+  static const LucideIconData heading6 = LucideIconData(name: 'heading-6',circles: [(19.0, 16.0, 2.0)],paths: ['M4 12h8', 'M4 18V6', 'M12 18V6', 'M20 10c-2 2-3 3.5-3 6'],tags: ['h6', 'html', 'markup', 'markdown'],categories: ['text'],);
+  static const LucideIconData headphoneOff = LucideIconData(name: 'headphone-off',paths: ['M21 14h-1.343', 'M9.128 3.47A9 9 0 0 1 21 12v3.343', 'm2 2 20 20', 'M20.414 20.414A2 2 0 0 1 19 21h-1a2 2 0 0 1-2-2v-3', 'M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 2.636-6.364'],tags: ['music', 'audio', 'sound', 'mute', 'off'],categories: ['multimedia', 'connectivity', 'communication', 'devices', 'gaming'],);
+  static const LucideIconData headphones = LucideIconData(name: 'headphones',paths: ['M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3'],tags: ['music', 'audio', 'sound'],categories: ['multimedia', 'connectivity', 'devices', 'files', 'gaming'],);
+  static const LucideIconData headset = LucideIconData(name: 'headset',paths: ['M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z', 'M21 16v2a4 4 0 0 1-4 4h-5'],tags: ['music', 'audio', 'sound', 'gaming', 'headphones', 'headset', 'call', 'center', 'phone', 'telephone', 'voip', 'video'],categories: ['multimedia', 'connectivity', 'devices', 'files', 'gaming'],);
+  static const LucideIconData heart = LucideIconData(name: 'heart',paths: ['M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5'],tags: ['like', 'love', 'emotion', 'suit', 'playing', 'cards'],categories: ['medical', 'social', 'multimedia', 'emoji', 'gaming', 'shapes'],);
+  static const LucideIconData heartCrack = LucideIconData(name: 'heart-crack',paths: ['M12.409 5.824c-.702.792-1.15 1.496-1.415 2.166l2.153 2.156a.5.5 0 0 1 0 .707l-2.293 2.293a.5.5 0 0 0 0 .707L12 15', 'M13.508 20.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.677.6.6 0 0 0 .818.001A5.5 5.5 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5z'],tags: ['heartbreak', 'sadness', 'emotion'],categories: ['emoji'],);
+  static const LucideIconData heartHandshake = LucideIconData(name: 'heart-handshake',paths: ['M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762'],tags: ['agreement', 'charity', 'help', 'deal', 'terms', 'emotion', 'together', 'handshake'],categories: ['emoji', 'account', 'security'],);
+  static const LucideIconData heartMinus = LucideIconData(name: 'heart-minus',paths: ['m14.876 18.99-1.368 1.323a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5a5.2 5.2 0 0 1-.244 1.572', 'M15 15h6'],tags: ['unlike', 'unfavorite', 'remove', 'damage', 'ui & ux'],categories: ['medical', 'account', 'multimedia', 'gaming', 'social'],);
+  static const LucideIconData heartOff = LucideIconData(name: 'heart-off',paths: ['M10.5 4.893a5.5 5.5 0 0 1 1.091.931.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 1.872-1.002 3.356-2.187 4.655', 'm16.967 16.967-3.459 3.346a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 2.747-4.761', 'm2 2 20 20'],tags: ['unlike', 'dislike', 'hate', 'emotion'],categories: ['social', 'multimedia'],);
+  static const LucideIconData heartPlus = LucideIconData(name: 'heart-plus',paths: ['m14.479 19.374-.971.939a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5a5.2 5.2 0 0 1-.219 1.49', 'M15 15h6', 'M18 12v6'],tags: ['plus', 'like', 'favorite', 'add', 'health', 'support'],categories: ['medical', 'account', 'multimedia', 'gaming', 'social'],);
+  static const LucideIconData heartPulse = LucideIconData(name: 'heart-pulse',paths: ['M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5', 'M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27'],tags: ['heartbeat', 'pulse', 'health', 'medical', 'blood pressure', 'cardiac', 'systole', 'diastole'],categories: ['medical'],);
+  static const LucideIconData heater = LucideIconData(name: 'heater',paths: ['M11 8c2-3-2-3 0-6', 'M15.5 8c2-3-2-3 0-6', 'M6 10h.01', 'M6 14h.01', 'M10 16v-4', 'M14 16v-4', 'M18 16v-4', 'M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3', 'M5 20v2', 'M19 20v2'],tags: ['heating', 'warmth', 'comfort', 'fire', 'stove', 'electric', 'electronics', 'amenities'],categories: ['home', 'devices', 'travel'],);
+  static const LucideIconData helicopter = LucideIconData(name: 'helicopter',paths: ['M11 17v4', 'M14 3v8a2 2 0 0 0 2 2h5.865', 'M17 17v4', 'M18 17a4 4 0 0 0 4-4 8 6 0 0 0-8-6 6 5 0 0 0-6 5v3a2 2 0 0 0 2 2z', 'M2 10v5', 'M6 3h16', 'M7 21h14', 'M8 13H2'],tags: ['transport', 'flying', 'rotor', 'aviation', 'helipad', 'gear', 'flyer', 'technology', 'helicopter', 'aircraft', 'vehicle'],categories: ['transportation', 'travel'],);
+  static const LucideIconData hexagon = LucideIconData(name: 'hexagon',paths: ['M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'],tags: ['shape', 'node.js', 'logo'],categories: ['shapes', 'development'],);
+  static const LucideIconData highlighter = LucideIconData(name: 'highlighter',paths: ['m9 11-6 6v3h9l3-3', 'm22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4'],tags: ['mark', 'text'],categories: ['text', 'design'],);
+  static const LucideIconData history = LucideIconData(name: 'history',paths: ['M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8', 'M3 3v5h5', 'M12 7v5l4 2'],tags: ['time', 'redo', 'undo', 'rewind', 'timeline', 'version', 'time machine', 'backup', 'rotate', 'ccw'],categories: ['arrows', 'time'],);
+  static const LucideIconData hop = LucideIconData(name: 'hop',paths: ['M10.82 16.12c1.69.6 3.91.79 5.18.85.55.03 1-.42.97-.97-.06-1.27-.26-3.5-.85-5.18', 'M11.5 6.5c1.64 0 5-.38 6.71-1.07.52-.2.55-.82.12-1.17A10 10 0 0 0 4.26 18.33c.35.43.96.4 1.17-.12.69-1.71 1.07-5.07 1.07-6.71 1.34.45 3.1.9 4.88.62a.88.88 0 0 0 .73-.74c.3-2.14-.15-3.5-.61-4.88', 'M15.62 16.95c.2.85.62 2.76.5 4.28a.77.77 0 0 1-.9.7 16.64 16.64 0 0 1-4.08-1.36', 'M16.13 21.05c1.65.63 3.68.84 4.87.91a.9.9 0 0 0 .96-.96 17.68 17.68 0 0 0-.9-4.87', 'M16.94 15.62c.86.2 2.77.62 4.29.5a.77.77 0 0 0 .7-.9 16.64 16.64 0 0 0-1.36-4.08', 'M17.99 5.52a20.82 20.82 0 0 1 3.15 4.5.8.8 0 0 1-.68 1.13c-2.33.2-5.3-.32-8.27-1.57', 'M4.93 4.93 3 3a.7.7 0 0 1 0-1', 'M9.58 12.18c1.24 2.98 1.77 5.95 1.57 8.28a.8.8 0 0 1-1.13.68 20.82 20.82 0 0 1-4.5-3.15'],tags: ['beer', 'brewery', 'drink'],categories: ['food-beverage'],);
+  static const LucideIconData hopOff = LucideIconData(name: 'hop-off',paths: ['M10.82 16.12c1.69.6 3.91.79 5.18.85.28.01.53-.09.7-.27', 'M11.14 20.57c.52.24 2.44 1.12 4.08 1.37.46.06.86-.25.9-.71.12-1.52-.3-3.43-.5-4.28', 'M16.13 21.05c1.65.63 3.68.84 4.87.91a.9.9 0 0 0 .7-.26', 'M17.99 5.52a20.83 20.83 0 0 1 3.15 4.5.8.8 0 0 1-.68 1.13c-1.17.1-2.5.02-3.9-.25', 'M20.57 11.14c.24.52 1.12 2.44 1.37 4.08.04.3-.08.59-.31.75', 'M4.93 4.93a10 10 0 0 0-.67 13.4c.35.43.96.4 1.17-.12.69-1.71 1.07-5.07 1.07-6.71 1.34.45 3.1.9 4.88.62a.85.85 0 0 0 .48-.24', 'M5.52 17.99c1.05.95 2.91 2.42 4.5 3.15a.8.8 0 0 0 1.13-.68c.2-2.34-.33-5.3-1.57-8.28', 'M8.35 2.68a10 10 0 0 1 9.98 1.58c.43.35.4.96-.12 1.17-1.5.6-4.3.98-6.07 1.05', 'm2 2 20 20'],tags: ['beer', 'brewery', 'drink', 'hop free', 'allergy', 'intolerance', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData hospital = LucideIconData(name: 'hospital',paths: ['M12 7v4', 'M14 21v-3a2 2 0 0 0-4 0v3', 'M14 9h-4', 'M18 11h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2', 'M18 21V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16'],tags: ['infirmary', 'sanatorium', 'healthcare', 'doctor', 'hospice', 'clinic', 'emergency room', 'ward', 'building', 'medical', 'vet'],categories: ['medical', 'buildings', 'navigation', 'travel'],);
+  static const LucideIconData hotel = LucideIconData(name: 'hotel',paths: ['M10 22v-6.57', 'M12 11h.01', 'M12 7h.01', 'M14 15.43V22', 'M15 16a5 5 0 0 0-6 0', 'M16 11h.01', 'M16 7h.01', 'M8 11h.01', 'M8 7h.01'],tags: ['building', 'hostel', 'motel', 'inn'],categories: ['buildings', 'navigation', 'travel'],);
+  static const LucideIconData hourglass = LucideIconData(name: 'hourglass',paths: ['M5 22h14', 'M5 2h14', 'M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22', 'M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2'],tags: ['timer', 'time', 'sandglass'],categories: ['time', 'gaming'],);
+  static const LucideIconData house = LucideIconData(name: 'house',paths: ['M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8', 'M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'],tags: ['home', 'living', 'building', 'residence', 'architecture'],categories: ['buildings', 'home', 'navigation'],);
+  static const LucideIconData houseHeart = LucideIconData(name: 'house-heart',paths: ['M8.62 13.8A2.25 2.25 0 1 1 12 10.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z', 'M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'],tags: ['home sweet home', 'abode', 'building', 'residence', 'healthy living', 'lifestyle'],categories: ['home', 'buildings', 'medical'],);
+  static const LucideIconData housePlug = LucideIconData(name: 'house-plug',paths: ['M10 12V8.964', 'M14 12V8.964', 'M15 12a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2a1 1 0 0 1 1-1z', 'M8.5 21H5a2 2 0 0 1-2-2v-9a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2v-2'],tags: ['home', 'living', 'building', 'residence', 'architecture', 'autarky', 'energy'],categories: ['buildings', 'home', 'sustainability'],);
+  static const LucideIconData housePlus = LucideIconData(name: 'house-plus',paths: ['M12.35 21H5a2 2 0 0 1-2-2v-9a2 2 0 0 1 .71-1.53l7-6a2 2 0 0 1 2.58 0l7 6A2 2 0 0 1 21 10v2.35', 'M14.8 12.4A1 1 0 0 0 14 12h-4a1 1 0 0 0-1 1v8', 'M15 18h6', 'M18 15v6'],tags: ['home', 'living', 'medical', 'new', 'addition', 'building', 'residence', 'architecture'],categories: ['buildings', 'medical'],);
+  static const LucideIconData houseWifi = LucideIconData(name: 'house-wifi',paths: ['M9.5 13.866a4 4 0 0 1 5 .01', 'M12 17h.01', 'M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z', 'M7 10.754a8 8 0 0 1 10 0'],tags: ['home', 'living', 'building', 'wifi', 'connectivity'],categories: ['home', 'buildings', 'connectivity'],);
+  static const LucideIconData iceCreamBowl = LucideIconData(name: 'ice-cream-bowl',paths: ['M12 17c5 0 8-2.69 8-6H4c0 3.31 3 6 8 6m-4 4h8m-4-3v3M5.14 11a3.5 3.5 0 1 1 6.71 0', 'M12.14 11a3.5 3.5 0 1 1 6.71 0', 'M15.5 6.5a3.5 3.5 0 1 0-7 0'],tags: ['gelato', 'food', 'dessert', 'dish', 'restaurant', 'course', 'meal'],categories: ['food-beverage'],);
+  static const LucideIconData iceCreamCone = LucideIconData(name: 'ice-cream-cone',paths: ['m7 11 4.08 10.35a1 1 0 0 0 1.84 0L17 11', 'M17 7A5 5 0 0 0 7 7', 'M17 7a2 2 0 0 1 0 4H7a2 2 0 0 1 0-4'],tags: ['gelato', 'food'],categories: ['food-beverage'],);
+  static const LucideIconData idCard = LucideIconData(name: 'id-card',circles: [(9.0, 11.0, 2.0)],paths: ['M16 10h2', 'M16 14h2', 'M6.17 15a3 3 0 0 1 5.66 0'],tags: ['card', 'badge', 'identity', 'authentication', 'secure'],categories: ['security', 'account'],);
+  static const LucideIconData idCardLanyard = LucideIconData(name: 'id-card-lanyard',circles: [(12.0, 15.0, 3.0)],paths: ['M13.5 8h-3', 'm15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3', 'M16.899 22A5 5 0 0 0 7.1 22', 'm9 2 3 6'],tags: ['id-card', 'id-card-lanyard', 'identity', 'employee', 'gate-pass', 'badge'],categories: ['security', 'account'],);
+  static const LucideIconData image = LucideIconData(name: 'image',circles: [(9.0, 9.0, 2.0)],rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21'],tags: ['picture', 'photo'],categories: ['photography', 'text', 'multimedia', 'files'],);
+  static const LucideIconData imageDown = LucideIconData(name: 'image-down',circles: [(9.0, 9.0, 2.0)],paths: ['M10.3 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10l-3.1-3.1a2 2 0 0 0-2.814.014L6 21', 'm14 19 3 3v-5.5', 'm17 22 3-3'],tags: ['picture', 'photo', 'download', 'save', 'export'],categories: ['photography', 'text', 'multimedia', 'files'],);
+  static const LucideIconData imageMinus = LucideIconData(name: 'image-minus',circles: [(9.0, 9.0, 2.0)],paths: ['M21 9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7', 'm21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21'],tags: ['remove', 'delete'],categories: ['photography', 'multimedia', 'files'],);
+  static const LucideIconData imageOff = LucideIconData(name: 'image-off',paths: ['M10.41 10.41a2 2 0 1 1-2.83-2.83', 'M3.59 3.59A1.99 1.99 0 0 0 3 5v14a2 2 0 0 0 2 2h14c.55 0 1.052-.22 1.41-.59', 'M21 15V5a2 2 0 0 0-2-2H9'],tags: ['picture', 'photo'],categories: ['photography', 'multimedia', 'files'],);
+  static const LucideIconData imagePlay = LucideIconData(name: 'image-play',circles: [(9.0, 9.0, 2.0)],paths: ['M15 15.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997a1 1 0 0 1-1.517-.86z', 'M21 12.17V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6', 'm6 21 5-5'],tags: ['picture', 'gif', 'photo'],categories: ['photography', 'text', 'multimedia', 'files'],);
+  static const LucideIconData imagePlus = LucideIconData(name: 'image-plus',circles: [(9.0, 9.0, 2.0)],paths: ['M16 5h6', 'M19 2v6', 'M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5', 'm21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21'],tags: ['add', 'create', 'picture'],categories: ['photography', 'multimedia', 'files'],);
+  static const LucideIconData imageUp = LucideIconData(name: 'image-up',circles: [(9.0, 9.0, 2.0)],paths: ['M10.3 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10l-3.1-3.1a2 2 0 0 0-2.814.014L6 21', 'm14 19.5 3-3 3 3', 'M17 22v-5.5'],tags: ['picture', 'photo', 'upload', 'import'],categories: ['photography', 'text', 'multimedia', 'files'],);
+  static const LucideIconData imageUpscale = LucideIconData(name: 'image-upscale',paths: ['M16 3h5v5', 'M17 21h2a2 2 0 0 0 2-2', 'M21 12v3', 'm21 3-5 5', 'M3 7V5a2 2 0 0 1 2-2', 'm5 21 4.144-4.144a1.21 1.21 0 0 1 1.712 0L13 19', 'M9 3h3'],tags: ['resize', 'picture', 'sharpen', 'increase'],categories: ['photography', 'multimedia'],);
+  static const LucideIconData images = LucideIconData(name: 'images',circles: [(13.0, 7.0, 1.0)],paths: ['m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16', 'M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2'],tags: ['picture', 'photo', 'multiple', 'copy', 'gallery', 'album', 'collection', 'slideshow', 'showcase'],categories: ['photography', 'text', 'multimedia', 'files'],);
+  static const LucideIconData import$ = LucideIconData(name: 'import',paths: ['M12 3v12', 'm8 11 4 4 4-4', 'M8 5H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-4'],tags: ['save'],categories: ['arrows', 'files'],);
+  static const LucideIconData inbox = LucideIconData(name: 'inbox',polylines: [[(22.0, 12.0), (16.0, 12.0), (14.0, 15.0), (10.0, 15.0), (8.0, 12.0), (2.0, 12.0)]],paths: ['M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z'],tags: ['email'],categories: ['account', 'mail'],);
+  static const LucideIconData indianRupee = LucideIconData(name: 'indian-rupee',paths: ['M6 3h12', 'M6 8h12', 'm6 13 8.5 8', 'M6 13h3', 'M9 13c6.667 0 6.667-10 0-10'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData infinity = LucideIconData(name: 'infinity',paths: ['M6 16c5 0 7-8 12-8a4 4 0 0 1 0 8c-5 0-7-8-12-8a4 4 0 1 0 0 8'],tags: ['unlimited', 'forever', 'loop', 'math'],categories: ['multimedia'],);
+  static const LucideIconData info = LucideIconData(name: 'info',circles: [(12.0, 12.0, 10.0)],paths: ['M12 16v-4', 'M12 8h.01'],tags: ['about', 'advice', 'clue', 'details', 'help', 'hint', 'indicator', 'information', 'knowledge', 'notice', 'status', 'support', 'tooltip'],categories: ['accessibility', 'notifications'],);
+  static const LucideIconData inspectionPanel = LucideIconData(name: 'inspection-panel',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M7 7h.01', 'M17 7h.01', 'M7 17h.01', 'M17 17h.01'],tags: ['access', 'cover', 'tile', 'metal', 'materials', 'screws'],categories: ['tools'],);
+  static const LucideIconData italic = LucideIconData(name: 'italic',tags: ['oblique', 'text', 'format'],categories: ['text'],);
+  static const LucideIconData iterationCcw = LucideIconData(name: 'iteration-ccw',paths: ['m16 14 4 4-4 4', 'M20 10a8 8 0 1 0-8 8h8'],tags: ['arrow', 'right'],categories: ['arrows', 'design'],);
+  static const LucideIconData iterationCw = LucideIconData(name: 'iteration-cw',paths: ['M4 10a8 8 0 1 1 8 8H4', 'm8 22-4-4 4-4'],tags: ['arrow', 'left'],categories: ['arrows', 'design'],);
+  static const LucideIconData japaneseYen = LucideIconData(name: 'japanese-yen',paths: ['M12 9.5V21m0-11.5L6 3m6 6.5L18 3', 'M6 15h12', 'M6 11h12'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData joystick = LucideIconData(name: 'joystick',circles: [(12.0, 6.0, 3.0)],paths: ['M21 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2Z', 'M6 15v-2', 'M12 15V9'],tags: ['game', 'console', 'control stick'],categories: ['gaming', 'devices'],);
+  static const LucideIconData kanban = LucideIconData(name: 'kanban',paths: ['M5 3v14', 'M12 3v8', 'M19 3v18'],tags: ['projects', 'manage', 'overview', 'board', 'tickets', 'issues', 'roadmap', 'plan', 'intentions', 'productivity', 'work', 'agile', 'code', 'coding'],categories: ['charts', 'development', 'design'],);
+  static const LucideIconData kayak = LucideIconData(name: 'kayak',paths: ['M18 17a1 1 0 0 0-1 1v1a2 2 0 1 0 2-2z', 'M20.97 3.61a.45.45 0 0 0-.58-.58C10.2 6.6 6.6 10.2 3.03 20.39a.45.45 0 0 0 .58.58C13.8 17.4 17.4 13.8 20.97 3.61', 'm6.707 6.707 10.586 10.586', 'M7 5a2 2 0 1 0-2 2h1a1 1 0 0 0 1-1z'],tags: ['kayak', 'boat', 'paddle', 'water', 'sport', 'recreation', 'adventure', 'outdoors', 'equipment', 'lake', 'ocean'],categories: ['transportation'],);
+  static const LucideIconData key = LucideIconData(name: 'key',circles: [(7.5, 15.5, 5.5)],paths: ['m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4', 'm21 2-9.6 9.6'],tags: ['password', 'login', 'authentication', 'secure', 'unlock', 'keychain', 'key ring', 'fob'],categories: ['security', 'account'],);
+  static const LucideIconData keyRound = LucideIconData(name: 'key-round',circles: [(16.5, 7.5, 0.5)],paths: ['M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z'],tags: ['password', 'login', 'authentication', 'secure', 'unlock'],categories: ['security', 'account'],);
+  static const LucideIconData keySquare = LucideIconData(name: 'key-square',paths: ['M12.4 2.7a2.5 2.5 0 0 1 3.4 0l5.5 5.5a2.5 2.5 0 0 1 0 3.4l-3.7 3.7a2.5 2.5 0 0 1-3.4 0L8.7 9.8a2.5 2.5 0 0 1 0-3.4z', 'm14 7 3 3', 'm9.4 10.6-6.814 6.814A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814'],tags: ['password', 'login', 'authentication', 'secure', 'unlock', 'car key'],categories: ['security', 'account'],);
+  static const LucideIconData keyboard = LucideIconData(name: 'keyboard',rects: [(2.0, 4.0, 20.0, 16.0, 2.0)],paths: ['M10 8h.01', 'M12 12h.01', 'M14 8h.01', 'M16 12h.01', 'M18 8h.01', 'M6 8h.01', 'M7 16h10', 'M8 12h.01'],tags: ['layout', 'spell', 'settings', 'mouse'],categories: ['text', 'devices', 'development'],);
+  static const LucideIconData keyboardMusic = LucideIconData(name: 'keyboard-music',rects: [(2.0, 4.0, 20.0, 16.0, 2.0)],paths: ['M6 8h4', 'M14 8h.01', 'M18 8h.01', 'M2 12h20', 'M6 12v4', 'M10 12v4', 'M14 12v4', 'M18 12v4'],tags: ['music', 'audio', 'sound', 'noise', 'notes', 'keys', 'chord', 'octave', 'midi', 'controller', 'instrument', 'electric', 'signal', 'digital', 'studio', 'production', 'producer', 'pianist', 'piano', 'play', 'performance', 'concert'],categories: ['multimedia', 'devices'],);
+  static const LucideIconData keyboardOff = LucideIconData(name: 'keyboard-off',paths: ['M 20 4 A2 2 0 0 1 22 6', 'M 22 6 L 22 16.41', 'M 7 16 L 16 16', 'M 9.69 4 L 20 4', 'M14 8h.01', 'M18 8h.01', 'm2 2 20 20', 'M20 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2', 'M6 8h.01', 'M8 12h.01'],tags: ['unkeys', 'layout', 'spell', 'settings', 'mouse'],categories: ['devices', 'text', 'development'],);
+  static const LucideIconData lamp = LucideIconData(name: 'lamp',paths: ['M12 12v6', 'M4.077 10.615A1 1 0 0 0 5 12h14a1 1 0 0 0 .923-1.385l-3.077-7.384A2 2 0 0 0 15 2H9a2 2 0 0 0-1.846 1.23Z', 'M8 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1z'],tags: ['lighting', 'household', 'home', 'furniture'],categories: ['home'],);
+  static const LucideIconData lampCeiling = LucideIconData(name: 'lamp-ceiling',paths: ['M12 2v5', 'M14.829 15.998a3 3 0 1 1-5.658 0', 'M20.92 14.606A1 1 0 0 1 20 16H4a1 1 0 0 1-.92-1.394l3-7A1 1 0 0 1 7 7h10a1 1 0 0 1 .92.606z'],tags: ['lighting', 'household', 'home', 'furniture'],categories: ['home'],);
+  static const LucideIconData lampDesk = LucideIconData(name: 'lamp-desk',paths: ['M10.293 2.293a1 1 0 0 1 1.414 0l2.5 2.5 5.994 1.227a1 1 0 0 1 .506 1.687l-7 7a1 1 0 0 1-1.687-.506l-1.227-5.994-2.5-2.5a1 1 0 0 1 0-1.414z', 'm14.207 4.793-3.414 3.414', 'M3 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z', 'm9.086 6.5-4.793 4.793a1 1 0 0 0-.18 1.17L7 18'],tags: ['lighting', 'household', 'office', 'desk', 'home', 'furniture'],categories: ['home'],);
+  static const LucideIconData lampFloor = LucideIconData(name: 'lamp-floor',paths: ['M12 10v12', 'M17.929 7.629A1 1 0 0 1 17 9H7a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 9 2h6a1 1 0 0 1 .928.629z', 'M9 22h6'],tags: ['lighting', 'household', 'floor', 'home', 'furniture'],categories: ['home'],);
+  static const LucideIconData lampWallDown = LucideIconData(name: 'lamp-wall-down',paths: ['M19.929 18.629A1 1 0 0 1 19 20H9a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 11 13h6a1 1 0 0 1 .928.629z', 'M6 3a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z', 'M8 6h4a2 2 0 0 1 2 2v5'],tags: ['lighting', 'household', 'wall', 'home', 'furniture'],categories: ['home'],);
+  static const LucideIconData lampWallUp = LucideIconData(name: 'lamp-wall-up',paths: ['M19.929 9.629A1 1 0 0 1 19 11H9a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 11 4h6a1 1 0 0 1 .928.629z', 'M6 15a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z', 'M8 18h4a2 2 0 0 0 2-2v-5'],tags: ['lighting', 'household', 'wall', 'home', 'furniture'],categories: ['home'],);
+  static const LucideIconData landPlot = LucideIconData(name: 'land-plot',paths: ['m12 8 6-3-6-3v10', 'm8 11.99-5.5 3.14a1 1 0 0 0 0 1.74l8.5 4.86a2 2 0 0 0 2 0l8.5-4.86a1 1 0 0 0 0-1.74L16 12', 'm6.49 12.85 11.02 6.3', 'M17.51 12.85 6.5 19.15'],tags: ['area', 'surface', 'square metres', 'allotment', 'parcel', 'property', 'plane', 'acres', 'measure', 'distance', 'isometric', 'flag', 'golf course', 'hole'],categories: ['design', 'tools', 'math', 'sports', 'gaming'],);
+  static const LucideIconData landmark = LucideIconData(name: 'landmark',paths: ['M10 18v-7', 'M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z', 'M14 18v-7', 'M18 18v-7', 'M3 22h18', 'M6 18v-7'],tags: ['bank', 'building', 'capitol', 'finance', 'money', 'museum', 'art gallery', 'hall', 'institute', 'pediment', 'portico', 'columns', 'pillars', 'classical', 'architecture', 'government', 'institution'],categories: ['finance', 'navigation', 'buildings'],);
+  static const LucideIconData languages = LucideIconData(name: 'languages',paths: ['m5 8 6 6', 'm4 14 6-6 2-3', 'M2 5h12', 'M7 2h1', 'm22 22-5-10-5 10', 'M14 18h6'],tags: ['translate'],categories: ['text'],);
+  static const LucideIconData laptop = LucideIconData(name: 'laptop',paths: ['M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z', 'M20.054 15.987H3.946'],tags: ['computer', 'screen', 'remote'],categories: ['devices'],);
+  static const LucideIconData laptopMinimal = LucideIconData(name: 'laptop-minimal',rects: [(3.0, 4.0, 18.0, 12.0, 2.0)],tags: ['computer', 'screen', 'remote'],categories: ['devices'],);
+  static const LucideIconData laptopMinimalCheck = LucideIconData(name: 'laptop-minimal-check',paths: ['M2 20h20', 'm9 10 2 2 4-4'],tags: ['computer', 'screen', 'remote', 'success', 'done', 'todo', 'tick', 'complete', 'task'],categories: ['devices', 'notifications'],);
+  static const LucideIconData lasso = LucideIconData(name: 'lasso',circles: [(5.0, 16.0, 2.0)],paths: ['M3.704 14.467a10 8 0 1 1 3.115 2.375', 'M7 22a5 5 0 0 1-2-3.994'],tags: ['select', 'cursor'],categories: ['design', 'cursors'],);
+  static const LucideIconData lassoSelect = LucideIconData(name: 'lasso-select',paths: ['M7 22a5 5 0 0 1-2-4', 'M7 16.93c.96.43 1.96.74 2.99.91', 'M3.34 14A6.8 6.8 0 0 1 2 10c0-4.42 4.48-8 10-8s10 3.58 10 8a7.19 7.19 0 0 1-.33 2', 'M5 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z', 'M14.33 22h-.09a.35.35 0 0 1-.24-.32v-10a.34.34 0 0 1 .33-.34c.08 0 .15.03.21.08l7.34 6a.33.33 0 0 1-.21.59h-4.49l-2.57 3.85a.35.35 0 0 1-.28.14z'],tags: ['select', 'cursor'],categories: ['arrows', 'design', 'cursors'],);
+  static const LucideIconData laugh = LucideIconData(name: 'laugh',circles: [(12.0, 12.0, 10.0)],paths: ['M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z'],tags: ['emoji', 'face', 'happy', 'good', 'emotion'],categories: ['emoji'],);
+  static const LucideIconData layers = LucideIconData(name: 'layers',paths: ['M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z', 'M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12', 'M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17'],tags: ['stack', 'pile', 'pages', 'sheets', 'paperwork', 'copies', 'copy'],categories: ['design', 'layout'],);
+  static const LucideIconData layers2 = LucideIconData(name: 'layers-2',paths: ['M13 13.74a2 2 0 0 1-2 0L2.5 8.87a1 1 0 0 1 0-1.74L11 2.26a2 2 0 0 1 2 0l8.5 4.87a1 1 0 0 1 0 1.74z', 'm20 14.285 1.5.845a1 1 0 0 1 0 1.74L13 21.74a2 2 0 0 1-2 0l-8.5-4.87a1 1 0 0 1 0-1.74l1.5-.845'],tags: ['stack', 'pile', 'pages', 'sheets', 'paperwork', 'copies', 'copy', 'duplicate', 'double', 'shortcuts'],categories: ['design', 'layout'],);
+  static const LucideIconData layersPlus = LucideIconData(name: 'layers-plus',paths: ['M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 .83.18 2 2 0 0 0 .83-.18l8.58-3.9a1 1 0 0 0 0-1.831z', 'M16 17h6', 'M19 14v6', 'M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 .825.178', 'M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l2.116-.962'],tags: ['stack', 'layers', 'add', 'new', 'increase', 'create', 'positive', 'copy', 'upgrade'],categories: ['design', 'layout'],);
+  static const LucideIconData layoutDashboard = LucideIconData(name: 'layout-dashboard',rects: [(3.0, 3.0, 7.0, 9.0, 1.0), (14.0, 3.0, 7.0, 5.0, 1.0), (14.0, 12.0, 7.0, 9.0, 1.0), (3.0, 16.0, 7.0, 5.0, 1.0)],tags: ['masonry', 'brick'],categories: ['design', 'layout'],);
+  static const LucideIconData layoutGrid = LucideIconData(name: 'layout-grid',rects: [(3.0, 3.0, 7.0, 7.0, 1.0), (14.0, 3.0, 7.0, 7.0, 1.0), (14.0, 14.0, 7.0, 7.0, 1.0), (3.0, 14.0, 7.0, 7.0, 1.0)],tags: ['app', 'home', 'start'],categories: ['design', 'layout'],);
+  static const LucideIconData layoutList = LucideIconData(name: 'layout-list',rects: [(3.0, 3.0, 7.0, 7.0, 1.0), (3.0, 14.0, 7.0, 7.0, 1.0)],paths: ['M14 4h7', 'M14 9h7', 'M14 15h7', 'M14 20h7'],tags: ['todo', 'tasks', 'items', 'pending', 'image', 'photo'],categories: ['design', 'layout', 'photography', 'text'],);
+  static const LucideIconData layoutPanelLeft = LucideIconData(name: 'layout-panel-left',rects: [(3.0, 3.0, 7.0, 18.0, 1.0), (14.0, 3.0, 7.0, 7.0, 1.0), (14.0, 14.0, 7.0, 7.0, 1.0)],tags: ['app', 'home', 'start', 'grid'],categories: ['design', 'layout'],);
+  static const LucideIconData layoutPanelTop = LucideIconData(name: 'layout-panel-top',rects: [(3.0, 3.0, 18.0, 7.0, 1.0), (3.0, 14.0, 7.0, 7.0, 1.0), (14.0, 14.0, 7.0, 7.0, 1.0)],tags: ['window', 'webpage', 'block', 'section', 'grid', 'template', 'structure'],categories: ['layout'],);
+  static const LucideIconData layoutTemplate = LucideIconData(name: 'layout-template',rects: [(3.0, 3.0, 18.0, 7.0, 1.0), (3.0, 14.0, 9.0, 7.0, 1.0), (16.0, 14.0, 5.0, 7.0, 1.0)],tags: ['window', 'webpage', 'block', 'section'],categories: ['layout'],);
+  static const LucideIconData leaf = LucideIconData(name: 'leaf',paths: ['M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z', 'M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12'],tags: ['sustainability', 'nature', 'energy', 'plant', 'autumn'],categories: ['nature', 'sustainability', 'seasons'],);
+  static const LucideIconData leafyGreen = LucideIconData(name: 'leafy-green',paths: ['M2 22c1.25-.987 2.27-1.975 3.9-2.2a5.56 5.56 0 0 1 3.8 1.5 4 4 0 0 0 6.187-2.353 3.5 3.5 0 0 0 3.69-5.116A3.5 3.5 0 0 0 20.95 8 3.5 3.5 0 1 0 16 3.05a3.5 3.5 0 0 0-5.831 1.373 3.5 3.5 0 0 0-5.116 3.69 4 4 0 0 0-2.348 6.155C3.499 15.42 4.409 16.712 4.2 18.1 3.926 19.743 3.014 20.732 2 22', 'M2 22 17 7'],tags: ['salad', 'lettuce', 'vegetable', 'chard', 'cabbage', 'bok choy'],categories: ['food-beverage', 'emoji', 'sustainability'],);
+  static const LucideIconData lectern = LucideIconData(name: 'lectern',rects: [(8.0, 10.0, 8.0, 12.0, 1.0)],paths: ['M16 12h3a2 2 0 0 0 1.902-1.38l1.056-3.333A1 1 0 0 0 21 6H3a1 1 0 0 0-.958 1.287l1.056 3.334A2 2 0 0 0 5 12h3', 'M18 6V3a1 1 0 0 0-1-1h-3'],tags: ['pulpit', 'podium', 'stand'],categories: ['communication', 'multimedia'],);
+  static const LucideIconData lensConcave = LucideIconData(name: 'lens-concave',paths: ['M7 2a1 1 0 0 0-.8 1.6 14 14 0 0 1 0 16.8A1 1 0 0 0 7 22h10a1 1 0 0 0 .8-1.6 14 14 0 0 1 0-16.8A1 1 0 0 0 17 2z'],tags: ['concave', 'lens', 'optics', 'light', 'magnification', 'curved', 'focus', 'refraction', 'science', 'physics', 'eyeglass', 'telescope', 'microscope'],categories: ['science', 'tools', 'shapes'],);
+  static const LucideIconData lensConvex = LucideIconData(name: 'lens-convex',paths: ['M13.433 2a1 1 0 0 1 .824.448 18 18 0 0 1 0 19.104 1 1 0 0 1-.824.448h-2.866a1 1 0 0 1-.824-.448 18 18 0 0 1 0-19.104A1 1 0 0 1 10.567 2z'],tags: ['convex', 'lens', 'optics', 'magnification', 'focus', 'light', 'refraction', 'physics', 'eyeglass', 'telescope', 'microscope', 'curved', 'science'],categories: ['science', 'tools', 'shapes'],);
+  static const LucideIconData library$ = LucideIconData(name: 'library',paths: ['m16 6 4 14', 'M12 6v14', 'M8 8v12', 'M4 4v16'],tags: ['books', 'reading', 'written', 'authors', 'stories', 'fiction', 'novels', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'learning', 'study', 'research', 'collection', 'vinyl', 'records', 'albums', 'music', 'package'],categories: ['text', 'photography', 'multimedia', 'navigation', 'development'],);
+  static const LucideIconData libraryBig = LucideIconData(name: 'library-big',rects: [(3.0, 3.0, 8.0, 18.0, 1.0)],paths: ['M7 3v18', 'M20.4 18.9c.2.5-.1 1.1-.6 1.3l-1.9.7c-.5.2-1.1-.1-1.3-.6L11.1 5.1c-.2-.5.1-1.1.6-1.3l1.9-.7c.5-.2 1.1.1 1.3.6Z'],tags: ['books', 'reading', 'written', 'authors', 'stories', 'fiction', 'novels', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'learning', 'study', 'research', 'collection', 'vinyl', 'records', 'albums', 'music', 'package'],categories: ['text', 'photography', 'multimedia', 'navigation', 'development'],);
+  static const LucideIconData lifeBuoy = LucideIconData(name: 'life-buoy',circles: [(12.0, 12.0, 10.0), (12.0, 12.0, 4.0)],paths: ['m4.93 4.93 4.24 4.24', 'm14.83 9.17 4.24-4.24', 'm14.83 14.83 4.24 4.24', 'm9.17 14.83-4.24 4.24'],tags: ['preserver', 'life belt', 'lifesaver', 'help', 'rescue', 'ship', 'ring', 'raft', 'inflatable', 'wheel', 'donut'],categories: ['accessibility', 'medical'],);
+  static const LucideIconData ligature = LucideIconData(name: 'ligature',paths: ['M14 12h2v8', 'M14 20h4', 'M6 12h4', 'M6 20h4', 'M8 20V8a4 4 0 0 1 7.464-2'],tags: ['text', 'font', 'typography', 'alternates', 'alternatives'],categories: ['text'],);
+  static const LucideIconData lightbulb = LucideIconData(name: 'lightbulb',paths: ['M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5', 'M9 18h6', 'M10 22h4'],tags: ['idea', 'bright', 'lights'],categories: ['photography'],);
+  static const LucideIconData lightbulbOff = LucideIconData(name: 'lightbulb-off',paths: ['M16.8 11.2c.8-.9 1.2-2 1.2-3.2a6 6 0 0 0-9.3-5', 'm2 2 20 20', 'M6.3 6.3a4.67 4.67 0 0 0 1.2 5.2c.7.7 1.3 1.5 1.5 2.5', 'M9 18h6', 'M10 22h4'],tags: ['lights'],categories: ['photography'],);
+  static const LucideIconData lineDotRightHorizontal = LucideIconData(name: 'line-dot-right-horizontal',circles: [(18.0, 12.0, 3.0)],paths: ['M 3 12 L 15 12'],tags: ['code', 'version control', 'waypoint', 'stop', 'station', 'last', 'end'],categories: ['development', 'navigation'],);
+  static const LucideIconData lineSquiggle = LucideIconData(name: 'line-squiggle',paths: ['M7 3.5c5-2 7 2.5 3 4C1.5 10 2 15 5 16c5 2 9-10 14-7s.5 13.5-4 12c-5-2.5.5-11 6-2'],tags: ['line', 'snakes', 'annotate', 'curve', 'doodle', 'stroke', 'pen', 'tool', 'gesture', 'draw', 'wave', 'art', 'road'],categories: ['shapes', 'math', 'design'],);
+  static const LucideIconData lineStyle = LucideIconData(name: 'line-style',paths: ['M11 5h2', 'M15 12h6', 'M19 5h2', 'M3 12h6', 'M3 19h18', 'M3 5h2'],tags: ['line', 'stroke', 'style', 'dashed', 'border'],categories: ['design', 'tools'],);
+  static const LucideIconData link = LucideIconData(name: 'link',paths: ['M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71', 'M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'],tags: ['chain', 'url'],categories: ['text', 'account'],);
+  static const LucideIconData link2 = LucideIconData(name: 'link-2',paths: ['M9 17H7A5 5 0 0 1 7 7h2', 'M15 7h2a5 5 0 1 1 0 10h-2'],tags: ['chain', 'url'],categories: ['text', 'account'],);
+  static const LucideIconData link2Off = LucideIconData(name: 'link-2-off',paths: ['M9 17H7A5 5 0 0 1 7 7', 'M15 7h2a5 5 0 0 1 4 8'],tags: ['unchain', 'chain'],categories: ['text'],);
+  static const LucideIconData list = LucideIconData(name: 'list',paths: ['M3 5h.01', 'M3 12h.01', 'M3 19h.01', 'M8 5h13', 'M8 12h13', 'M8 19h13'],tags: ['options'],categories: ['text'],);
+  static const LucideIconData listCheck = LucideIconData(name: 'list-check',paths: ['M16 5H3', 'M16 12H3', 'M11 19H3', 'm15 18 2 2 4-4'],tags: ['done', 'check', 'tick', 'complete', 'list', 'to-do', 'bom'],categories: ['text'],);
+  static const LucideIconData listChecks = LucideIconData(name: 'list-checks',paths: ['M13 5h8', 'M13 12h8', 'M13 19h8', 'm3 17 2 2 4-4', 'm3 7 2 2 4-4'],tags: ['todo', 'done', 'check', 'tick', 'complete', 'tasks', 'items', 'pending'],categories: ['text'],);
+  static const LucideIconData listChevronsDownUp = LucideIconData(name: 'list-chevrons-down-up',paths: ['M3 5h8', 'M3 12h8', 'M3 19h8', 'm15 5 3 3 3-3', 'm15 19 3-3 3 3'],tags: ['options', 'items', 'collapse', 'expand', 'details', 'disclosure', 'show', 'hide', 'toggle', 'accordion', 'more', 'less', 'fold', 'unfold', 'vertical'],categories: ['text', 'arrows'],);
+  static const LucideIconData listChevronsUpDown = LucideIconData(name: 'list-chevrons-up-down',paths: ['M3 5h8', 'M3 12h8', 'M3 19h8', 'm15 8 3-3 3 3', 'm15 16 3 3 3-3'],tags: ['options', 'items', 'collapse', 'expand', 'details', 'disclosure', 'show', 'hide', 'toggle', 'accordion', 'more', 'less', 'fold', 'unfold', 'vertical'],categories: ['text', 'arrows'],);
+  static const LucideIconData listCollapse = LucideIconData(name: 'list-collapse',paths: ['M10 5h11', 'M10 12h11', 'M10 19h11', 'm3 10 3-3-3-3', 'm3 20 3-3-3-3'],tags: ['items', 'collapse', 'expand', 'details', 'disclosure', 'show', 'hide', 'toggle', 'accordion', 'more', 'less', 'fold', 'unfold'],categories: ['text'],);
+  static const LucideIconData listEnd = LucideIconData(name: 'list-end',paths: ['M16 5H3', 'M16 12H3', 'M9 19H3', 'm16 16-3 3 3 3', 'M21 5v12a2 2 0 0 1-2 2h-6'],tags: ['queue', 'bottom', 'end', 'playlist'],categories: ['multimedia', 'text'],);
+  static const LucideIconData listFilter = LucideIconData(name: 'list-filter',paths: ['M2 5h20', 'M6 12h12', 'M9 19h6'],tags: ['options'],categories: ['text'],);
+  static const LucideIconData listFilterPlus = LucideIconData(name: 'list-filter-plus',paths: ['M12 5H2', 'M6 12h12', 'M9 19h6', 'M16 5h6', 'M19 8V2'],tags: ['filter', 'plus', 'options', 'add'],categories: ['text', 'layout'],);
+  static const LucideIconData listIndentDecrease = LucideIconData(name: 'list-indent-decrease',paths: ['M21 5H11', 'M21 12H11', 'M21 19H11', 'm7 8-4 4 4 4'],tags: ['text', 'tab'],categories: ['text', 'development'],);
+  static const LucideIconData listIndentIncrease = LucideIconData(name: 'list-indent-increase',paths: ['M21 5H11', 'M21 12H11', 'M21 19H11', 'm3 8 4 4-4 4'],tags: ['text', 'tab'],categories: ['text', 'development'],);
+  static const LucideIconData listMinus = LucideIconData(name: 'list-minus',paths: ['M16 5H3', 'M11 12H3', 'M16 19H3', 'M21 12h-6'],tags: ['playlist', 'remove', 'song', 'subtract', 'delete', 'unqueue'],categories: ['multimedia', 'text'],);
+  static const LucideIconData listMusic = LucideIconData(name: 'list-music',circles: [(18.0, 16.0, 3.0)],paths: ['M16 5H3', 'M11 12H3', 'M11 19H3', 'M21 16V5'],tags: ['playlist', 'queue', 'music', 'audio', 'playback'],categories: ['multimedia'],);
+  static const LucideIconData listOrdered = LucideIconData(name: 'list-ordered',paths: ['M11 5h10', 'M11 12h10', 'M11 19h10', 'M4 4h1v5', 'M4 9h2', 'M6.5 20H3.4c0-1 2.6-1.925 2.6-3.5a1.5 1.5 0 0 0-2.6-1.02'],tags: ['number', 'order', 'queue'],categories: ['text'],);
+  static const LucideIconData listPlus = LucideIconData(name: 'list-plus',paths: ['M16 5H3', 'M11 12H3', 'M16 19H3', 'M18 9v6', 'M21 12h-6'],tags: ['playlist', 'add', 'song', 'track', 'new'],categories: ['multimedia', 'text'],);
+  static const LucideIconData listRestart = LucideIconData(name: 'list-restart',paths: ['M21 5H3', 'M7 12H3', 'M7 19H3', 'M12 18a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L11 14', 'M11 10v4h4'],tags: ['reset', 'refresh', 'reload', 'playlist', 'replay'],categories: ['multimedia', 'text'],);
+  static const LucideIconData listStart = LucideIconData(name: 'list-start',paths: ['M3 5h6', 'M3 12h13', 'M3 19h13', 'm16 8-3-3 3-3', 'M21 19V7a2 2 0 0 0-2-2h-6'],tags: ['queue', 'top', 'start', 'next', 'playlist'],categories: ['multimedia', 'text'],);
+  static const LucideIconData listTodo = LucideIconData(name: 'list-todo',paths: ['M13 5h8', 'M13 12h8', 'M13 19h8', 'm3 17 2 2 4-4'],tags: ['todo', 'done', 'check', 'tick', 'complete', 'tasks', 'items', 'pending'],categories: ['text'],);
+  static const LucideIconData listTree = LucideIconData(name: 'list-tree',paths: ['M8 5h13', 'M13 12h8', 'M13 19h8', 'M3 10a2 2 0 0 0 2 2h3', 'M3 5v12a2 2 0 0 0 2 2h3'],tags: ['tree', 'browser'],categories: ['files', 'text', 'layout'],);
+  static const LucideIconData listVideo = LucideIconData(name: 'list-video',paths: ['M21 5H3', 'M10 12H3', 'M10 19H3', 'M15 12.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997a1 1 0 0 1-1.517-.86z'],tags: ['playlist', 'video', 'playback'],categories: ['multimedia'],);
+  static const LucideIconData listX = LucideIconData(name: 'list-x',paths: ['M16 5H3', 'M11 12H3', 'M16 19H3', 'm15.5 9.5 5 5', 'm20.5 9.5-5 5'],tags: ['playlist', 'subtract', 'remove', 'delete', 'unqueue'],categories: ['multimedia', 'text'],);
+  static const LucideIconData loader = LucideIconData(name: 'loader',paths: ['M12 2v4', 'm16.2 7.8 2.9-2.9', 'M18 12h4', 'm16.2 16.2 2.9 2.9', 'M12 18v4', 'm4.9 19.1 2.9-2.9', 'M2 12h4', 'm4.9 4.9 2.9 2.9'],tags: ['loading', 'wait', 'busy', 'progress', 'spinner', 'spinning', 'throbber'],categories: ['cursors', 'multimedia', 'layout', 'design'],);
+  static const LucideIconData loaderCircle = LucideIconData(name: 'loader-circle',paths: ['M21 12a9 9 0 1 1-6.219-8.56'],tags: ['loading', 'wait', 'busy', 'progress', 'spinner', 'spinning', 'throbber', 'circle'],categories: ['cursors', 'multimedia', 'layout'],);
+  static const LucideIconData loaderPinwheel = LucideIconData(name: 'loader-pinwheel',circles: [(12.0, 12.0, 10.0)],paths: ['M22 12a1 1 0 0 1-10 0 1 1 0 0 0-10 0', 'M7 20.7a1 1 0 1 1 5-8.7 1 1 0 1 0 5-8.6', 'M7 3.3a1 1 0 1 1 5 8.6 1 1 0 1 0 5 8.6'],tags: ['loading', 'wait', 'busy', 'progress', 'throbber', 'spinner', 'spinning', 'beach ball', 'frozen', 'freeze'],categories: ['cursors', 'design'],);
+  static const LucideIconData locate = LucideIconData(name: 'locate',circles: [(12.0, 12.0, 7.0)],tags: ['map', 'gps', 'location', 'cross'],categories: ['navigation'],);
+  static const LucideIconData locateFixed = LucideIconData(name: 'locate-fixed',circles: [(12.0, 12.0, 7.0), (12.0, 12.0, 3.0)],tags: ['map', 'gps', 'location', 'cross'],categories: ['navigation'],);
+  static const LucideIconData locateOff = LucideIconData(name: 'locate-off',paths: ['M12 19v3', 'M12 2v3', 'M18.89 13.24a7 7 0 0 0-8.13-8.13', 'M19 12h3', 'M2 12h3', 'm2 2 20 20', 'M7.05 7.05a7 7 0 0 0 9.9 9.9'],tags: ['map', 'gps', 'location', 'cross'],categories: ['navigation'],);
+  static const LucideIconData lock = LucideIconData(name: 'lock',rects: [(3.0, 11.0, 18.0, 11.0, 2.0)],paths: ['M7 11V7a5 5 0 0 1 10 0v4'],tags: ['security', 'password', 'secure', 'admin'],categories: ['security'],);
+  static const LucideIconData lockKeyhole = LucideIconData(name: 'lock-keyhole',circles: [(12.0, 16.0, 1.0)],paths: ['M7 10V7a5 5 0 0 1 10 0v3'],tags: ['security', 'password', 'secure', 'admin'],categories: ['security'],);
+  static const LucideIconData lockKeyholeOpen = LucideIconData(name: 'lock-keyhole-open',circles: [(12.0, 16.0, 1.0)],rects: [(3.0, 10.0, 18.0, 12.0, 2.0)],paths: ['M7 10V7a5 5 0 0 1 9.33-2.5'],tags: ['security'],categories: ['security'],);
+  static const LucideIconData lockOpen = LucideIconData(name: 'lock-open',rects: [(3.0, 11.0, 18.0, 11.0, 2.0)],paths: ['M7 11V7a5 5 0 0 1 9.9-1'],tags: ['security'],categories: ['security'],);
+  static const LucideIconData logIn = LucideIconData(name: 'log-in',paths: ['m10 17 5-5-5-5', 'M15 12H3', 'M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4'],tags: ['sign in', 'arrow', 'enter', 'auth'],categories: ['arrows', 'account'],);
+  static const LucideIconData logOut = LucideIconData(name: 'log-out',paths: ['m16 17 5-5-5-5', 'M21 12H9', 'M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4'],tags: ['sign out', 'arrow', 'exit', 'auth'],categories: ['arrows', 'account'],);
+  static const LucideIconData logs = LucideIconData(name: 'logs',paths: ['M3 5h1', 'M3 12h1', 'M3 19h1', 'M8 5h1', 'M8 12h1', 'M8 19h1', 'M13 5h8', 'M13 12h8', 'M13 19h8'],tags: ['options', 'list', 'menu', 'order', 'queue', 'tasks', 'logs'],categories: ['text'],);
+  static const LucideIconData lollipop = LucideIconData(name: 'lollipop',circles: [(11.0, 11.0, 8.0)],paths: ['m21 21-4.3-4.3', 'M11 11a2 2 0 0 0 4 0 4 4 0 0 0-8 0 6 6 0 0 0 12 0'],tags: ['lolly', 'candy', 'sugar', 'food', 'sweet', 'dessert', 'spiral'],categories: ['food-beverage'],);
+  static const LucideIconData luggage = LucideIconData(name: 'luggage',circles: [(16.0, 20.0, 2.0), (8.0, 20.0, 2.0)],paths: ['M6 20a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2', 'M8 18V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v14', 'M10 20h4'],tags: ['baggage', 'luggage', 'travel', 'suitcase'],categories: ['travel', 'transportation'],);
+  static const LucideIconData magnet = LucideIconData(name: 'magnet',paths: ['m12 15 4 4', 'M2.352 10.648a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l6.029-6.029a1 1 0 1 1 3 3l-6.029 6.029a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l6.365-6.367A1 1 0 0 0 8.716 4.282z', 'm5 8 4 4'],tags: ['horseshoe', 'lock', 'science', 'snap'],categories: ['design'],);
+  static const LucideIconData mail = LucideIconData(name: 'mail',paths: ['m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7'],tags: ['email', 'message', 'letter', 'unread'],categories: ['text', 'account', 'mail'],);
+  static const LucideIconData mailCheck = LucideIconData(name: 'mail-check',paths: ['M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8', 'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7', 'm16 19 2 2 4-4'],tags: ['email', 'message', 'letter', 'subscribe', 'delivered', 'success', 'read', 'done', 'todo', 'tick', 'complete', 'task'],categories: ['mail'],);
+  static const LucideIconData mailMinus = LucideIconData(name: 'mail-minus',paths: ['M22 15V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8', 'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7', 'M16 19h6'],tags: ['email', 'message', 'letter', 'remove', 'delete'],categories: ['mail'],);
+  static const LucideIconData mailOpen = LucideIconData(name: 'mail-open',paths: ['M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z', 'm22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10'],tags: ['email', 'message', 'letter', 'read'],categories: ['mail'],);
+  static const LucideIconData mailPlus = LucideIconData(name: 'mail-plus',paths: ['M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8', 'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7', 'M19 16v6', 'M16 19h6'],tags: ['email', 'message', 'letter', 'add', 'create', 'new', 'compose'],categories: ['mail'],);
+  static const LucideIconData mailQuestionMark = LucideIconData(name: 'mail-question-mark',paths: ['M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5', 'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7', 'M18 15.28c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2', 'M20 22v.01'],tags: ['email', 'message', 'letter', 'delivery', 'undelivered'],categories: ['mail'],);
+  static const LucideIconData mailSearch = LucideIconData(name: 'mail-search',circles: [(18.0, 18.0, 3.0)],paths: ['M22 12.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h7.5', 'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7', 'M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z', 'm22 22-1.5-1.5'],tags: ['email', 'message', 'letter', 'search', 'lens'],categories: ['mail'],);
+  static const LucideIconData mailWarning = LucideIconData(name: 'mail-warning',paths: ['M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5', 'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7', 'M20 14v4', 'M20 22v.01'],tags: ['email', 'message', 'letter', 'delivery error', 'exclamation mark'],categories: ['mail'],);
+  static const LucideIconData mailX = LucideIconData(name: 'mail-x',paths: ['M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h9', 'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7', 'm17 17 4 4', 'm21 17-4 4'],tags: ['email', 'message', 'letter', 'remove', 'delete'],categories: ['mail'],);
+  static const LucideIconData mailbox = LucideIconData(name: 'mailbox',polylines: [[(15.0, 9.0), (18.0, 9.0), (18.0, 11.0)]],paths: ['M22 17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.5C2 7 4 5 6.5 5H18c2.2 0 4 1.8 4 4v8Z', 'M6.5 5C9 5 11 7 11 9.5V17a2 2 0 0 1-2 2'],tags: ['emails', 'messages', 'letters', 'mailing list', 'newsletter'],categories: ['mail'],);
+  static const LucideIconData mails = LucideIconData(name: 'mails',paths: ['M17 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 1-1.732', 'm22 5.5-6.419 4.179a2 2 0 0 1-2.162 0L7 5.5'],tags: ['emails', 'messages', 'letters', 'multiple', 'mailing list', 'newsletter', 'copy'],categories: ['mail'],);
+  static const LucideIconData map = LucideIconData(name: 'map',paths: ['M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z', 'M15 5.764v15', 'M9 3.236v15'],tags: ['location', 'navigation', 'travel'],categories: ['text', 'navigation'],);
+  static const LucideIconData mapMinus = LucideIconData(name: 'map-minus',paths: ['m11 19-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V14', 'M15 5.764V14', 'M21 18h-6', 'M9 3.236v15'],tags: ['location', 'navigation', 'travel', 'drop', 'delete', 'remove', 'erase'],categories: ['navigation', 'travel'],);
+  static const LucideIconData mapPin = LucideIconData(name: 'map-pin',circles: [(12.0, 10.0, 3.0)],paths: ['M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0'],tags: ['location', 'waypoint', 'marker', 'drop'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinCheck = LucideIconData(name: 'map-pin-check',circles: [(12.0, 10.0, 3.0)],paths: ['M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728', 'm16 18 2 2 4-4'],tags: ['location', 'waypoint', 'marker', 'drop', 'done', 'tick', 'complete', 'task', 'added'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinCheckInside = LucideIconData(name: 'map-pin-check-inside',paths: ['M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0', 'm9 10 2 2 4-4'],tags: ['location', 'waypoint', 'marker', 'drop', 'done', 'tick', 'complete', 'task', 'added'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinHouse = LucideIconData(name: 'map-pin-house',circles: [(10.0, 10.0, 3.0)],paths: ['M15 22a1 1 0 0 1-1-1v-4a1 1 0 0 1 .445-.832l3-2a1 1 0 0 1 1.11 0l3 2A1 1 0 0 1 22 17v4a1 1 0 0 1-1 1z', 'M18 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 .601.2', 'M18 22v-3'],tags: ['location', 'waypoint', 'marker', 'drop', 'home', 'living', 'building', 'residence', 'architecture', 'address', 'poi', 'real estate', 'property', 'navigation', 'destination', 'geolocation', 'place', 'landmark'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinMinus = LucideIconData(name: 'map-pin-minus',circles: [(12.0, 10.0, 3.0)],paths: ['M18.977 14C19.6 12.701 20 11.343 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32 32 0 0 0 .824-.738', 'M16 18h6'],tags: ['location', 'waypoint', 'marker', 'drop', 'delete', 'remove', 'erase'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinMinusInside = LucideIconData(name: 'map-pin-minus-inside',paths: ['M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0', 'M9 10h6'],tags: ['location', 'waypoint', 'marker', 'drop', 'delete', 'remove', 'erase'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinOff = LucideIconData(name: 'map-pin-off',paths: ['M12.75 7.09a3 3 0 0 1 2.16 2.16', 'M17.072 17.072c-1.634 2.17-3.527 3.912-4.471 4.727a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 1.432-4.568', 'm2 2 20 20', 'M8.475 2.818A8 8 0 0 1 20 10c0 1.183-.31 2.377-.81 3.533', 'M9.13 9.13a3 3 0 0 0 3.74 3.74'],tags: ['location', 'waypoint', 'marker', 'remove'],categories: ['navigation', 'travel'],);
+  static const LucideIconData mapPinPen = LucideIconData(name: 'map-pin-pen',circles: [(10.0, 10.0, 3.0)],paths: ['M17.97 9.304A8 8 0 0 0 2 10c0 4.69 4.887 9.562 7.022 11.468', 'M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z'],tags: ['location', 'waypoint', 'marker', 'drop', 'edit'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinPlus = LucideIconData(name: 'map-pin-plus',circles: [(12.0, 10.0, 3.0)],paths: ['M19.914 11.105A7.298 7.298 0 0 0 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32 32 0 0 0 .824-.738', 'M16 18h6', 'M19 15v6'],tags: ['location', 'waypoint', 'marker', 'drop', 'add', 'create', 'new'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinPlusInside = LucideIconData(name: 'map-pin-plus-inside',paths: ['M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0', 'M12 7v6', 'M9 10h6'],tags: ['location', 'waypoint', 'marker', 'drop', 'add', 'create', 'new'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinSearch = LucideIconData(name: 'map-pin-search',circles: [(12.0, 10.0, 3.0), (18.0, 18.0, 3.0)],paths: ['M 12.248 21.969 a 1 1 0 0 1 -0.849 -0.17 C 9.539 20.193 4 14.993 4 10 a 8 8 0 0 1 16 0 C 20 10.42 19.961 10.841 19.888 11.262', 'm22 22-1.88-1.88'],tags: ['location', 'navigation', 'travel', 'waypoint', 'marker', 'drop'],categories: ['text', 'navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinX = LucideIconData(name: 'map-pin-x',circles: [(12.0, 10.0, 3.0)],paths: ['M19.752 11.901A7.78 7.78 0 0 0 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 19 19 0 0 0 .09-.077', 'm21.5 15.5-5 5', 'm21.5 20.5-5-5'],tags: ['location', 'waypoint', 'marker', 'drop', 'delete', 'remove', 'erase'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinXInside = LucideIconData(name: 'map-pin-x-inside',paths: ['M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0', 'm14.5 7.5-5 5', 'm9.5 7.5 5 5'],tags: ['location', 'waypoint', 'marker', 'drop', 'delete', 'remove', 'erase'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPinned = LucideIconData(name: 'map-pinned',circles: [(12.0, 8.0, 2.0)],paths: ['M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0', 'M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712'],tags: ['location', 'waypoint', 'marker', 'drop'],categories: ['navigation', 'travel', 'account'],);
+  static const LucideIconData mapPlus = LucideIconData(name: 'map-plus',paths: ['m11 19-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V12', 'M15 5.764V12', 'M18 15v6', 'M21 18h-6', 'M9 3.236v15'],tags: ['location', 'navigation', 'travel', 'new', 'add', 'create'],categories: ['navigation'],);
+  static const LucideIconData mars = LucideIconData(name: 'mars',circles: [(10.0, 14.0, 6.0)],paths: ['M16 3h5v5', 'm21 3-6.75 6.75'],tags: ['gender', 'sex', 'male', 'masculine', 'man', 'boy'],categories: ['medical'],);
+  static const LucideIconData marsStroke = LucideIconData(name: 'mars-stroke',circles: [(9.0, 15.0, 6.0)],paths: ['m14 6 4 4', 'M17 3h4v4', 'm21 3-7.75 7.75'],tags: ['gender', 'androgyne', 'transgender'],categories: ['medical'],);
+  static const LucideIconData martini = LucideIconData(name: 'martini',paths: ['M8 22h8', 'M12 11v11', 'm19 3-7 8-7-8Z'],tags: ['cocktail', 'alcohol', 'beverage', 'bar', 'drink', 'glass'],categories: ['food-beverage'],);
+  static const LucideIconData maximize = LucideIconData(name: 'maximize',paths: ['M8 3H5a2 2 0 0 0-2 2v3', 'M21 8V5a2 2 0 0 0-2-2h-3', 'M3 16v3a2 2 0 0 0 2 2h3', 'M16 21h3a2 2 0 0 0 2-2v-3'],tags: ['fullscreen', 'expand', 'dashed'],categories: ['layout', 'design'],);
+  static const LucideIconData maximize2 = LucideIconData(name: 'maximize-2',paths: ['M15 3h6v6', 'm21 3-7 7', 'm3 21 7-7', 'M9 21H3v-6'],tags: ['fullscreen', 'arrows', 'expand'],categories: ['arrows', 'layout', 'design'],);
+  static const LucideIconData medal = LucideIconData(name: 'medal',circles: [(12.0, 17.0, 5.0)],paths: ['M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15', 'M11 12 5.12 2.2', 'm13 12 5.88-9.8', 'M8 7h8', 'M12 18v-2h-.5'],tags: ['prize', 'sports', 'winner', 'trophy', 'award', 'achievement'],categories: ['sports', 'gaming'],);
+  static const LucideIconData megaphone = LucideIconData(name: 'megaphone',paths: ['M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z', 'M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14', 'M8 6v8'],tags: ['advertisement', 'announcement', 'attention', 'alert', 'loudspeaker', 'megaphone', 'notification'],categories: ['multimedia', 'notifications'],);
+  static const LucideIconData megaphoneOff = LucideIconData(name: 'megaphone-off',paths: ['M11.636 6A13 13 0 0 0 19.4 3.2 1 1 0 0 1 21 4v11.344', 'M14.378 14.357A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h1', 'm2 2 20 20', 'M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14', 'M8 8v6'],tags: ['advertisement', 'announcement', 'attention', 'alert', 'loudspeaker', 'megaphone', 'notification', 'disable', 'silent'],categories: ['multimedia', 'notifications'],);
+  static const LucideIconData meh = LucideIconData(name: 'meh',circles: [(12.0, 12.0, 10.0)],tags: ['emoji', 'face', 'neutral', 'emotion'],categories: ['emoji'],);
+  static const LucideIconData memoryStick = LucideIconData(name: 'memory-stick',paths: ['M12 12v-2', 'M12 18v-2', 'M16 12v-2', 'M16 18v-2', 'M2 11h1.5', 'M20 18v-2', 'M20.5 11H22', 'M4 18v-2', 'M8 12v-2', 'M8 18v-2'],tags: ['ram', 'random access', 'technology', 'computer', 'chip', 'circuit', 'specs', 'capacity', 'gigabytes', 'gb'],categories: ['devices', 'gaming'],);
+  static const LucideIconData menu = LucideIconData(name: 'menu',paths: ['M4 5h16', 'M4 12h16', 'M4 19h16'],tags: ['bars', 'navigation', 'hamburger', 'options'],categories: ['layout', 'account'],);
+  static const LucideIconData merge = LucideIconData(name: 'merge',paths: ['m8 6 4-4 4 4', 'M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22', 'm20 22-5-5'],tags: ['combine', 'join', 'unite'],categories: ['development', 'arrows'],);
+  static const LucideIconData messageCircle = LucideIconData(name: 'message-circle',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble'],categories: ['social'],);
+  static const LucideIconData messageCircleCheck = LucideIconData(name: 'message-circle-check',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719', 'm9 12 2 2 4-4'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'moderate', 'check', 'done', 'todo', 'complete'],categories: ['social', 'account'],);
+  static const LucideIconData messageCircleCode = LucideIconData(name: 'message-circle-code',paths: ['m10 9-3 3 3 3', 'm14 15 3-3-3-3', 'M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'code review', 'coding'],categories: ['development', 'social'],);
+  static const LucideIconData messageCircleDashed = LucideIconData(name: 'message-circle-dashed',paths: ['M10.1 2.182a10 10 0 0 1 3.8 0', 'M13.9 21.818a10 10 0 0 1-3.8 0', 'M17.609 3.72a10 10 0 0 1 2.69 2.7', 'M2.182 13.9a10 10 0 0 1 0-3.8', 'M20.28 17.61a10 10 0 0 1-2.7 2.69', 'M21.818 10.1a10 10 0 0 1 0 3.8', 'M3.721 6.391a10 10 0 0 1 2.7-2.69', 'm6.163 21.117-2.906.85a1 1 0 0 1-1.236-1.169l.965-2.98'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'draft'],categories: ['social'],);
+  static const LucideIconData messageCircleHeart = LucideIconData(name: 'message-circle-heart',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719', 'M7.828 13.07A3 3 0 0 1 12 8.764a3 3 0 0 1 5.004 2.224 3 3 0 0 1-.832 2.083l-3.447 3.62a1 1 0 0 1-1.45-.001z'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'positive', 'like', 'love', 'interest', 'valentine', 'dating', 'date', 'speech bubble'],categories: ['social'],);
+  static const LucideIconData messageCircleMore = LucideIconData(name: 'message-circle-more',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719', 'M8 12h.01', 'M12 12h.01', 'M16 12h.01'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'typing', 'writing', 'responding', 'ellipsis', 'etc', 'et cetera', '...', '…'],categories: ['social'],);
+  static const LucideIconData messageCircleOff = LucideIconData(name: 'message-circle-off',paths: ['m2 2 20 20', 'M4.93 4.929a10 10 0 0 0-1.938 11.412 2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 0 0 11.302-1.989', 'M8.35 2.69A10 10 0 0 1 21.3 15.65'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'clear', 'close', 'delete', 'remove', 'cancel', 'silence', 'mute', 'moderate'],categories: ['social'],);
+  static const LucideIconData messageCirclePlus = LucideIconData(name: 'message-circle-plus',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719', 'M8 12h8', 'M12 8v8'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'add'],categories: ['social'],);
+  static const LucideIconData messageCircleQuestionMark = LucideIconData(name: 'message-circle-question-mark',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719', 'M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3', 'M12 17h.01'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'help'],categories: ['social'],);
+  static const LucideIconData messageCircleReply = LucideIconData(name: 'message-circle-reply',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719', 'm10 15-3-3 3-3', 'M7 12h8a2 2 0 0 1 2 2v1'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'reply', 'response'],categories: ['social'],);
+  static const LucideIconData messageCircleWarning = LucideIconData(name: 'message-circle-warning',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719', 'M12 8v4', 'M12 16h.01'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'report', 'abuse', 'offense', 'alert', 'danger', 'caution', 'protected', 'exclamation mark'],categories: ['social', 'notifications'],);
+  static const LucideIconData messageCircleX = LucideIconData(name: 'message-circle-x',paths: ['M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719', 'm15 9-6 6', 'm9 9 6 6'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'clear', 'close', 'delete', 'remove', 'cancel', 'silence', 'mute', 'moderate'],categories: ['account', 'social'],);
+  static const LucideIconData messageSquare = LucideIconData(name: 'message-square',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble'],categories: ['social'],);
+  static const LucideIconData messageSquareCheck = LucideIconData(name: 'message-square-check',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.7.7 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'm9 11 2 2 4-4'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'moderate', 'check', 'done', 'todo', 'complete'],categories: ['social', 'account'],);
+  static const LucideIconData messageSquareCode = LucideIconData(name: 'message-square-code',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'm10 8-3 3 3 3', 'm14 14 3-3-3-3'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'code review', 'coding'],categories: ['development', 'social'],);
+  static const LucideIconData messageSquareDashed = LucideIconData(name: 'message-square-dashed',paths: ['M14 3h2', 'M16 19h-2', 'M2 12v-2', 'M2 16v5.286a.71.71 0 0 0 1.212.502l1.149-1.149', 'M20 19a2 2 0 0 0 2-2v-1', 'M22 10v2', 'M22 6V5a2 2 0 0 0-2-2', 'M4 3a2 2 0 0 0-2 2v1', 'M8 19h2', 'M8 3h2'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'draft'],categories: ['social'],);
+  static const LucideIconData messageSquareDiff = LucideIconData(name: 'message-square-diff',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'M10 15h4', 'M10 9h4', 'M12 7v4'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'add', 'patch', 'difference', 'plus', 'minus', 'plus-minus', 'math', 'code review', 'coding', 'version control', 'git'],categories: ['development', 'files', 'social'],);
+  static const LucideIconData messageSquareDot = LucideIconData(name: 'message-square-dot',circles: [(19.0, 6.0, 3.0)],paths: ['M12.7 3H4a2 2 0 0 0-2 2v16.286a.71.71 0 0 0 1.212.502l2.202-2.202A2 2 0 0 1 6.828 19H20a2 2 0 0 0 2-2v-4.7'],tags: ['unread', 'unresolved', 'comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble'],categories: ['social', 'notifications'],);
+  static const LucideIconData messageSquareHeart = LucideIconData(name: 'message-square-heart',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'M7.5 9.5c0 .687.265 1.383.697 1.844l3.009 3.264a1.14 1.14 0 0 0 .407.314 1 1 0 0 0 .783-.004 1.14 1.14 0 0 0 .398-.31l3.008-3.264A2.77 2.77 0 0 0 16.5 9.5 2.5 2.5 0 0 0 12 8a2.5 2.5 0 0 0-4.5 1.5'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'positive', 'like', 'love', 'interest', 'valentine', 'dating', 'date', 'speech bubble'],categories: ['social'],);
+  static const LucideIconData messageSquareLock = LucideIconData(name: 'message-square-lock',paths: ['M22 8.5V5a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v16.286a.71.71 0 0 0 1.212.502l2.202-2.202A2 2 0 0 1 6.828 19H10', 'M20 15v-2a2 2 0 0 0-4 0v2'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'secure', 'encrypted'],categories: ['social'],);
+  static const LucideIconData messageSquareMore = LucideIconData(name: 'message-square-more',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'M12 11h.01', 'M16 11h.01', 'M8 11h.01'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'typing', 'writing', 'responding', 'ellipsis', 'etc', 'et cetera', '...', '…'],categories: ['social'],);
+  static const LucideIconData messageSquareOff = LucideIconData(name: 'message-square-off',paths: ['M19 19H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.7.7 0 0 1 2 21.286V5a2 2 0 0 1 1.184-1.826', 'm2 2 20 20', 'M8.656 3H20a2 2 0 0 1 2 2v11.344'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'clear', 'close', 'delete', 'remove', 'cancel', 'silence', 'mute', 'moderate'],categories: ['social'],);
+  static const LucideIconData messageSquarePlus = LucideIconData(name: 'message-square-plus',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'M12 8v6', 'M9 11h6'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'add'],categories: ['social'],);
+  static const LucideIconData messageSquareQuote = LucideIconData(name: 'message-square-quote',paths: ['M14 14a2 2 0 0 0 2-2V8h-2', 'M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'M8 14a2 2 0 0 0 2-2V8H8'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'blockquote', 'quotation', 'indent', 'reply', 'response'],categories: ['social', 'text'],);
+  static const LucideIconData messageSquareReply = LucideIconData(name: 'message-square-reply',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'm10 8-3 3 3 3', 'M17 14v-1a2 2 0 0 0-2-2H7'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'reply', 'response'],categories: ['social'],);
+  static const LucideIconData messageSquareShare = LucideIconData(name: 'message-square-share',paths: ['M12 3H4a2 2 0 0 0-2 2v16.286a.71.71 0 0 0 1.212.502l2.202-2.202A2 2 0 0 1 6.828 19H20a2 2 0 0 0 2-2v-4', 'M16 3h6v6', 'm16 9 6-6'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'network', 'forward'],categories: ['social'],);
+  static const LucideIconData messageSquareText = LucideIconData(name: 'message-square-text',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'M7 11h10', 'M7 15h6', 'M7 7h8'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble'],categories: ['social'],);
+  static const LucideIconData messageSquareWarning = LucideIconData(name: 'message-square-warning',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'M12 15h.01', 'M12 7v4'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'report', 'abuse', 'offense', 'alert', 'danger', 'caution', 'protected', 'exclamation mark'],categories: ['social', 'notifications'],);
+  static const LucideIconData messageSquareX = LucideIconData(name: 'message-square-x',paths: ['M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z', 'm14.5 8.5-5 5', 'm9.5 8.5 5 5'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubble', 'clear', 'close', 'delete', 'remove', 'cancel', 'silence', 'mute', 'moderate'],categories: ['social'],);
+  static const LucideIconData messagesSquare = LucideIconData(name: 'messages-square',paths: ['M16 10a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 14.286V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z', 'M20 9a2 2 0 0 1 2 2v10.286a.71.71 0 0 1-1.212.502l-2.202-2.202A2 2 0 0 0 17.172 19H10a2 2 0 0 1-2-2v-1'],tags: ['comment', 'chat', 'conversation', 'dialog', 'feedback', 'speech bubbles', 'copy', 'multiple', 'discussion', 'interview', 'debate'],categories: ['social'],);
+  static const LucideIconData metronome = LucideIconData(name: 'metronome',circles: [(20.0, 9.0, 2.0)],paths: ['M12 11.4V9.1', 'm12 17 6.59-6.59', 'm15.05 5.7-.218-.691a3 3 0 0 0-5.663 0L4.418 19.695A1 1 0 0 0 5.37 21h13.253a1 1 0 0 0 .951-1.31L18.45 16.2'],tags: ['metronome', 'tempo', 'rhythm', 'beat', 'bpm', 'music', 'audio', 'sound', 'practice', 'timing', 'timer', 'time', 'pulse', 'sync', 'cadence', 'control', 'playback', 'studio', 'tool'],categories: ['multimedia', 'time'],);
+  static const LucideIconData mic = LucideIconData(name: 'mic',paths: ['M12 19v3', 'M19 10v2a7 7 0 0 1-14 0v-2'],tags: ['record', 'sound', 'listen', 'radio', 'podcast', 'microphone'],categories: ['devices', 'communication', 'connectivity', 'multimedia'],);
+  static const LucideIconData micOff = LucideIconData(name: 'mic-off',paths: ['M12 19v3', 'M15 9.34V5a3 3 0 0 0-5.68-1.33', 'M16.95 16.95A7 7 0 0 1 5 12v-2', 'M18.89 13.23A7 7 0 0 0 19 12v-2', 'm2 2 20 20', 'M9 9v3a3 3 0 0 0 5.12 2.12'],tags: ['record', 'sound', 'mute', 'microphone'],categories: ['devices', 'communication', 'connectivity', 'multimedia'],);
+  static const LucideIconData micVocal = LucideIconData(name: 'mic-vocal',circles: [(16.0, 7.0, 5.0)],paths: ['m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12', 'M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2-2.072-.356-2.775-3.369-1.5-4.5'],tags: ['lyrics', 'voice', 'listen', 'sound', 'music', 'radio', 'podcast', 'karaoke', 'singing', 'microphone'],categories: ['devices', 'multimedia'],);
+  static const LucideIconData microchip = LucideIconData(name: 'microchip',paths: ['M10 12h4', 'M10 17h4', 'M10 7h4', 'M18 12h2', 'M18 18h2', 'M18 6h2', 'M4 12h2', 'M4 18h2', 'M4 6h2'],tags: ['processor', 'cores', 'technology', 'computer', 'chip', 'integrated circuit', 'memory', 'ram', 'specs', 'gpu', 'gigahertz', 'ghz'],categories: ['devices'],);
+  static const LucideIconData microscope = LucideIconData(name: 'microscope',paths: ['M6 18h8', 'M3 22h18', 'M14 22a7 7 0 1 0 0-14h-1', 'M9 14h2', 'M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z', 'M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3'],tags: ['medical', 'education', 'science', 'imaging', 'research'],categories: ['science', 'medical'],);
+  static const LucideIconData microwave = LucideIconData(name: 'microwave',rects: [(2.0, 4.0, 20.0, 15.0, 2.0), (6.0, 8.0, 8.0, 7.0, 1.0)],paths: ['M18 8v7', 'M6 19v2', 'M18 19v2'],tags: ['oven', 'cooker', 'toaster oven', 'bake'],categories: ['food-beverage', 'home'],);
+  static const LucideIconData milestone = LucideIconData(name: 'milestone',paths: ['M12 13v8', 'M12 3v3', 'M18.172 6a2 2 0 0 1 1.414.586l2.06 2.06a1.207 1.207 0 0 1 0 1.708l-2.06 2.06a2 2 0 0 1-1.414.586H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z'],tags: ['signpost', 'direction', 'right', 'east', 'forward', 'version control', 'waypoint'],categories: ['arrows', 'navigation', 'development', 'gaming'],);
+  static const LucideIconData milk = LucideIconData(name: 'milk',paths: ['M8 2h8', 'M9 2v2.789a4 4 0 0 1-.672 2.219l-.656.984A4 4 0 0 0 7 10.212V20a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-9.789a4 4 0 0 0-.672-2.219l-.656-.984A4 4 0 0 1 15 4.788V2', 'M7 15a6.472 6.472 0 0 1 5 0 6.47 6.47 0 0 0 5 0'],tags: ['lactose', 'bottle', 'beverage', 'drink', 'water', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData milkOff = LucideIconData(name: 'milk-off',paths: ['M8 2h8', 'M9 2v1.343M15 2v2.789a4 4 0 0 0 .672 2.219l.656.984a4 4 0 0 1 .672 2.22v1.131M7.8 7.8l-.128.192A4 4 0 0 0 7 10.212V20a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-3', 'M7 15a6.47 6.47 0 0 1 5 0 6.472 6.472 0 0 0 3.435.435'],tags: ['lactose free', 'bottle', 'beverage', 'drink', 'water', 'allergy', 'intolerance', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData minimize = LucideIconData(name: 'minimize',paths: ['M8 3v3a2 2 0 0 1-2 2H3', 'M21 8h-3a2 2 0 0 1-2-2V3', 'M3 16h3a2 2 0 0 1 2 2v3', 'M16 21v-3a2 2 0 0 1 2-2h3'],tags: ['exit fullscreen', 'close', 'shrink'],categories: ['layout', 'design'],);
+  static const LucideIconData minimize2 = LucideIconData(name: 'minimize-2',paths: ['m14 10 7-7', 'M20 10h-6V4', 'm3 21 7-7', 'M4 14h6v6'],tags: ['exit fullscreen', 'arrows', 'close', 'shrink'],categories: ['arrows', 'layout', 'design'],);
+  static const LucideIconData minus = LucideIconData(name: 'minus',paths: ['M5 12h14'],tags: ['subtract', 'remove', 'decrease', 'decrement', 'reduce', 'negative', 'calculate', 'line', 'divider', 'separator', 'horizontal rule', 'hr', 'html', 'markup', 'markdown', '---', 'toolbar', 'operator', 'code', 'coding', 'minimum', 'downgrade'],categories: ['math', 'development', 'text', 'tools'],);
+  static const LucideIconData mirrorRectangular = LucideIconData(name: 'mirror-rectangular',paths: ['M11 6 8 9', 'm16 7-8 8'],tags: ['reflection', 'optics', 'glass', 'surface', 'image', 'physics', 'science', 'bathroom', 'decor', 'cosmetic', 'shiny', 'periscope', 'vanity'],categories: ['science', 'home', 'tools'],);
+  static const LucideIconData mirrorRound = LucideIconData(name: 'mirror-round',circles: [(12.0, 10.0, 8.0)],paths: ['M10 6.6 8.6 8', 'M12 18v4', 'M15 7.5 9.5 13', 'M7 22h10'],tags: ['reflection', 'optics', 'glass', 'surface', 'image', 'physics', 'science', 'bathroom', 'vanity', 'makeup', 'decor', 'cosmetic', 'shiny', 'periscope'],categories: ['science', 'home', 'tools'],);
+  static const LucideIconData monitor = LucideIconData(name: 'monitor',rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],tags: ['tv', 'screen', 'display', 'virtual machine', 'vm'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorCheck = LucideIconData(name: 'monitor-check',rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],paths: ['m9 10 2 2 4-4', 'M12 17v4', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'desktop', 'running', 'active', 'virtual machine', 'vm'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorCloud = LucideIconData(name: 'monitor-cloud',paths: ['M11 13a3 3 0 1 1 2.83-4H14a2 2 0 0 1 0 4z', 'M12 17v4', 'M8 21h8'],tags: ['virtual machine', 'virtual desktop', 'vm', 'vdi', 'computing', 'remote work', 'monitoring', 'infrastructure', 'software as a service', 'saas', 'workstation', 'environment', 'tv', 'screen', 'display'],categories: ['connectivity', 'devices', 'development'],);
+  static const LucideIconData monitorCog = LucideIconData(name: 'monitor-cog',circles: [(18.0, 6.0, 3.0)],paths: ['M12 17v4', 'm14.305 7.53.923-.382', 'm15.228 4.852-.923-.383', 'm16.852 3.228-.383-.924', 'm16.852 8.772-.383.923', 'm19.148 3.228.383-.924', 'm19.53 9.696-.382-.924', 'm20.772 4.852.924-.383', 'm20.772 7.148.924.383', 'M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'virtual machine', 'vm', 'executable', 'settings', 'cog', 'edit', 'gear', 'configuration', 'preferences', 'system', 'control panel', 'network', 'computing'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorDot = LucideIconData(name: 'monitor-dot',circles: [(19.0, 6.0, 3.0)],paths: ['M12 17v4', 'M22 12.307V15a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8.693', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'desktop', 'running', 'active', 'virtual machine', 'vm'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorDown = LucideIconData(name: 'monitor-down',rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],paths: ['M12 13V7', 'm15 10-3 3-3-3', 'M12 17v4', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'desktop', 'download'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorOff = LucideIconData(name: 'monitor-off',paths: ['M12 17v4', 'M17 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 1.184-1.826', 'm2 2 20 20', 'M8 21h8', 'M8.656 3H20a2 2 0 0 1 2 2v10a2 2 0 0 1-.293 1.042'],tags: ['share'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorPause = LucideIconData(name: 'monitor-pause',rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],paths: ['M10 13V7', 'M14 13V7', 'M12 17v4', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'desktop', 'video', 'movie', 'film', 'suspend', 'hibernate', 'boot', 'virtual machine', 'vm'],categories: ['connectivity', 'devices', 'multimedia'],);
+  static const LucideIconData monitorPlay = LucideIconData(name: 'monitor-play',paths: ['M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z', 'M12 17v4', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'desktop', 'video', 'movie', 'film', 'running', 'start', 'boot', 'virtual machine', 'vm'],categories: ['connectivity', 'devices', 'multimedia'],);
+  static const LucideIconData monitorSmartphone = LucideIconData(name: 'monitor-smartphone',rects: [(16.0, 12.0, 6.0, 10.0, 2.0)],paths: ['M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8', 'M10 19v-3.96 3.15', 'M7 19h5'],tags: ['smartphone', 'phone', 'cellphone', 'device', 'mobile', 'desktop', 'monitor', 'responsive', 'screens'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorSpeaker = LucideIconData(name: 'monitor-speaker',circles: [(17.0, 15.0, 1.0)],rects: [(12.0, 4.0, 10.0, 16.0, 2.0)],paths: ['M5.5 20H8', 'M17 9h.01', 'M8 6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h4'],tags: ['devices', 'connect', 'cast'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorStop = LucideIconData(name: 'monitor-stop',paths: ['M12 17v4', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'desktop', 'video', 'movie', 'film', 'stop', 'shutdown', 'virtual machine', 'vm'],categories: ['connectivity', 'devices', 'multimedia'],);
+  static const LucideIconData monitorUp = LucideIconData(name: 'monitor-up',rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],paths: ['m9 10 3-3 3 3', 'M12 13V7', 'M12 17v4', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'upload', 'connect', 'remote', 'screen share'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData monitorX = LucideIconData(name: 'monitor-x',rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],paths: ['m14.5 12.5-5-5', 'm9.5 12.5 5-5', 'M12 17v4', 'M8 21h8'],tags: ['tv', 'screen', 'display', 'desktop', 'virtual machine', 'vm', 'close', 'stop', 'suspend', 'remove', 'delete'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData moon = LucideIconData(name: 'moon',paths: ['M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401'],tags: ['dark', 'night'],categories: ['accessibility'],);
+  static const LucideIconData moonStar = LucideIconData(name: 'moon-star',paths: ['M18 5h4', 'M20 3v4', 'M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401'],tags: ['dark', 'night', 'star'],categories: ['accessibility', 'weather'],);
+  static const LucideIconData motorbike = LucideIconData(name: 'motorbike',circles: [(19.0, 17.0, 3.0), (5.0, 17.0, 3.0)],paths: ['m18 14-1-3', 'm3 9 6 2a2 2 0 0 1 2-2h2a2 2 0 0 1 1.99 1.81', 'M8 17h3a1 1 0 0 0 1-1 6 6 0 0 1 6-6 1 1 0 0 0 1-1v-.75A5 5 0 0 0 17 5'],tags: ['moto', 'motorcycle', 'transport', 'vehicle', 'drive', 'ride', 'trip', 'race', 'racing', 'journey', 'delivery'],categories: ['transportation'],);
+  static const LucideIconData mountain = LucideIconData(name: 'mountain',paths: ['m8 3 4 8 5-5 5 15H2L8 3z'],tags: ['climb', 'hike', 'rock'],categories: ['nature', 'gaming'],);
+  static const LucideIconData mountainSnow = LucideIconData(name: 'mountain-snow',paths: ['m8 3 4 8 5-5 5 15H2L8 3z', 'M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19'],tags: ['alpine', 'climb', 'snow'],categories: ['nature'],);
+  static const LucideIconData mouse = LucideIconData(name: 'mouse',paths: ['M12 6v4'],tags: ['device', 'scroll', 'click'],categories: ['devices'],);
+  static const LucideIconData mouseLeft = LucideIconData(name: 'mouse-left',circles: [(7.0, 4.0, 2.0)],paths: ['M12 7.318V10', 'M5 10v5a7 7 0 0 0 14 0V9c0-3.527-2.608-6.515-6-7'],tags: ['device', 'scroll', 'click'],categories: ['devices'],);
+  static const LucideIconData mouseOff = LucideIconData(name: 'mouse-off',paths: ['M12 6v.343', 'M18.218 18.218A7 7 0 0 1 5 15V9a7 7 0 0 1 .782-3.218', 'M19 13.343V9A7 7 0 0 0 8.56 2.902', 'M22 22 2 2'],tags: ['device', 'scroll', 'click', 'disabled'],categories: ['devices'],);
+  static const LucideIconData mousePointer = LucideIconData(name: 'mouse-pointer',paths: ['M12.586 12.586 19 19', 'M3.688 3.037a.497.497 0 0 0-.651.651l6.5 15.999a.501.501 0 0 0 .947-.062l1.569-6.083a2 2 0 0 1 1.448-1.479l6.124-1.579a.5.5 0 0 0 .063-.947z'],tags: ['click', 'select'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData mousePointer2 = LucideIconData(name: 'mouse-pointer-2',paths: ['M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z'],tags: ['click', 'select'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData mousePointer2Off = LucideIconData(name: 'mouse-pointer-2-off',paths: ['m15.55 8.45 5.138 2.087a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063L8.45 15.551', 'M22 2 2 22', 'm6.816 11.528-2.779-6.84a.495.495 0 0 1 .651-.651l6.84 2.779'],tags: ['pointer', 'mouse', 'cursor', 'off', 'disable', 'arrow', 'navigation', 'selection', 'select', 'click', 'no-click', 'interaction'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData mousePointerBan = LucideIconData(name: 'mouse-pointer-ban',circles: [(16.0, 16.0, 6.0)],paths: ['M2.034 2.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.944L8.204 7.545a1 1 0 0 0-.66.66l-1.066 3.443a.5.5 0 0 1-.944.033z', 'm11.8 11.8 8.4 8.4'],tags: ['wait', 'busy', 'loading', 'blocked', 'frozen', 'freeze'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData mousePointerClick = LucideIconData(name: 'mouse-pointer-click',paths: ['M14 4.1 12 6', 'm5.1 8-2.9-.8', 'm6 12-1.9 2', 'M7.2 2.2 8 5.1', 'M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z'],tags: ['click', 'select'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData mouseRight = LucideIconData(name: 'mouse-right',circles: [(17.0, 4.0, 2.0)],paths: ['M12 7.318V10', 'M19 10v5a7 7 0 0 1-14 0V9c0-3.527 2.608-6.515 6-7'],tags: ['device', 'scroll', 'click'],categories: ['devices'],);
+  static const LucideIconData move = LucideIconData(name: 'move',paths: ['M12 2v20', 'm15 19-3 3-3-3', 'm19 9 3 3-3 3', 'M2 12h20', 'm5 9-3 3 3 3', 'm9 5 3-3 3 3'],tags: ['arrows'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData move3d = LucideIconData(name: 'move-3d',paths: ['M5 3v16h16', 'm5 19 6-6', 'm2 6 3-3 3 3', 'm18 16 3 3-3 3'],tags: ['arrows', 'axis', 'gizmo', 'coordinates', 'transform', 'translate'],categories: ['design'],);
+  static const LucideIconData moveDiagonal = LucideIconData(name: 'move-diagonal',paths: ['M11 19H5v-6', 'M13 5h6v6', 'M19 5 5 19'],tags: ['double', 'arrow'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData moveDiagonal2 = LucideIconData(name: 'move-diagonal-2',paths: ['M19 13v6h-6', 'M5 11V5h6', 'm5 5 14 14'],tags: ['double', 'arrow'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData moveDown = LucideIconData(name: 'move-down',paths: ['M8 18L12 22L16 18', 'M12 2V22'],tags: ['arrow', 'direction', 'downwards', 'south'],categories: ['arrows'],);
+  static const LucideIconData moveDownLeft = LucideIconData(name: 'move-down-left',paths: ['M11 19H5V13', 'M19 5L5 19'],tags: ['arrow', 'direction'],categories: ['arrows'],);
+  static const LucideIconData moveDownRight = LucideIconData(name: 'move-down-right',paths: ['M19 13V19H13', 'M5 5L19 19'],tags: ['arrow', 'direction'],categories: ['arrows'],);
+  static const LucideIconData moveHorizontal = LucideIconData(name: 'move-horizontal',paths: ['m18 8 4 4-4 4', 'M2 12h20', 'm6 8-4 4 4 4'],tags: ['double', 'arrow'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData moveLeft = LucideIconData(name: 'move-left',paths: ['M6 8L2 12L6 16', 'M2 12H22'],tags: ['arrow', 'direction', 'back', 'west'],categories: ['arrows'],);
+  static const LucideIconData moveRight = LucideIconData(name: 'move-right',paths: ['M18 8L22 12L18 16', 'M2 12H22'],tags: ['arrow', 'direction', 'trend flat', 'east'],categories: ['arrows'],);
+  static const LucideIconData moveUp = LucideIconData(name: 'move-up',paths: ['M8 6L12 2L16 6', 'M12 2V22'],tags: ['arrow', 'direction', 'upwards', 'north'],categories: ['arrows'],);
+  static const LucideIconData moveUpLeft = LucideIconData(name: 'move-up-left',paths: ['M5 11V5H11', 'M5 5L19 19'],tags: ['arrow', 'direction'],categories: ['arrows'],);
+  static const LucideIconData moveUpRight = LucideIconData(name: 'move-up-right',paths: ['M13 5H19V11', 'M19 5L5 19'],tags: ['arrow', 'direction'],categories: ['arrows'],);
+  static const LucideIconData moveVertical = LucideIconData(name: 'move-vertical',paths: ['M12 2v20', 'm8 18 4 4 4-4', 'm8 6 4-4 4 4'],tags: ['double', 'arrow'],categories: ['arrows', 'cursors'],);
+  static const LucideIconData music = LucideIconData(name: 'music',circles: [(6.0, 18.0, 3.0), (18.0, 16.0, 3.0)],paths: ['M9 18V5l12-2v13'],tags: ['note', 'quaver', 'eighth note'],categories: ['multimedia', 'files'],);
+  static const LucideIconData music2 = LucideIconData(name: 'music-2',circles: [(8.0, 18.0, 4.0)],paths: ['M12 18V2l7 4'],tags: ['quaver', 'eighth note', 'note'],categories: ['multimedia', 'files'],);
+  static const LucideIconData music3 = LucideIconData(name: 'music-3',circles: [(12.0, 18.0, 4.0)],paths: ['M16 18V2'],tags: ['crotchet', 'minim', 'quarter note', 'half note', 'note'],categories: ['multimedia', 'files'],);
+  static const LucideIconData music4 = LucideIconData(name: 'music-4',circles: [(6.0, 18.0, 3.0), (18.0, 16.0, 3.0)],paths: ['M9 18V5l12-2v13', 'm9 9 12-2'],tags: ['semiquaver', 'sixteenth note', 'note'],categories: ['multimedia', 'files'],);
+  static const LucideIconData navigation = LucideIconData(name: 'navigation',polygons: [[(3.0, 11.0), (22.0, 2.0), (13.0, 21.0), (11.0, 13.0), (3.0, 11.0)]],tags: ['location', 'travel'],categories: ['navigation'],);
+  static const LucideIconData navigation2 = LucideIconData(name: 'navigation-2',polygons: [[(12.0, 2.0), (19.0, 21.0), (12.0, 17.0), (5.0, 21.0), (12.0, 2.0)]],tags: ['location', 'travel'],categories: ['navigation'],);
+  static const LucideIconData navigation2Off = LucideIconData(name: 'navigation-2-off',paths: ['M9.31 9.31 5 21l7-4 7 4-1.17-3.17', 'M14.53 8.88 12 2l-1.17 3.17'],tags: ['location', 'travel'],categories: ['navigation'],);
+  static const LucideIconData navigationOff = LucideIconData(name: 'navigation-off',paths: ['M8.43 8.43 3 11l8 2 2 8 2.57-5.43', 'M17.39 11.73 22 2l-9.73 4.61'],tags: ['location', 'travel'],categories: ['navigation'],);
+  static const LucideIconData network = LucideIconData(name: 'network',paths: ['M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3', 'M12 12V8'],tags: ['tree'],categories: ['development'],);
+  static const LucideIconData newspaper = LucideIconData(name: 'newspaper',rects: [(10.0, 6.0, 8.0, 4.0, 1.0)],paths: ['M15 18h-5', 'M18 14h-8', 'M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2'],tags: ['news', 'feed', 'home', 'magazine', 'article', 'headline'],categories: ['multimedia', 'communication'],);
+  static const LucideIconData nfc = LucideIconData(name: 'nfc',paths: ['M6 8.32a7.43 7.43 0 0 1 0 7.36', 'M9.46 6.21a11.76 11.76 0 0 1 0 11.58', 'M12.91 4.1a15.91 15.91 0 0 1 .01 15.8', 'M16.37 2a20.16 20.16 0 0 1 0 20'],tags: ['contactless', 'payment', 'near-field communication'],categories: ['communication', 'finance', 'devices'],);
+  static const LucideIconData nonBinary = LucideIconData(name: 'non-binary',circles: [(12.0, 17.0, 5.0)],paths: ['M12 2v10', 'm8.5 4 7 4', 'm8.5 8 7-4'],tags: ['gender', 'nonbinary', 'enby'],categories: ['medical'],);
+  static const LucideIconData notebook = LucideIconData(name: 'notebook',rects: [(4.0, 2.0, 16.0, 20.0, 2.0)],paths: ['M2 6h4', 'M2 10h4', 'M2 14h4', 'M2 18h4', 'M16 2v20'],tags: ['notepad', 'notes', 'stationery', 'sketchbook', 'moleskine', 'closure', 'strap', 'band', 'elastic', 'organizer', 'organiser', 'planner', 'diary', 'journal', 'writing', 'written', 'writer', 'reading', 'high school', 'university', 'college', 'academy', 'student', 'study', 'homework', 'research'],categories: ['text', 'communication', 'social', 'design'],);
+  static const LucideIconData notebookPen = LucideIconData(name: 'notebook-pen',paths: ['M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4', 'M2 6h4', 'M2 10h4', 'M2 14h4', 'M2 18h4', 'M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z'],tags: ['pencil', 'notepad', 'notes', 'noted', 'stationery', 'sketchbook', 'organizer', 'organiser', 'planner', 'diary', 'journal', 'writing', 'write', 'written', 'reading', 'high school', 'university', 'college', 'academy', 'student', 'study', 'research', 'homework', 'eraser', 'rubber'],categories: ['text', 'social'],);
+  static const LucideIconData notebookTabs = LucideIconData(name: 'notebook-tabs',rects: [(4.0, 2.0, 16.0, 20.0, 2.0)],paths: ['M2 6h4', 'M2 10h4', 'M2 14h4', 'M2 18h4', 'M15 2v20', 'M15 7h5', 'M15 12h5', 'M15 17h5'],tags: ['notepad', 'notes', 'people', 'family', 'friends', 'acquaintances', 'contacts', 'details', 'addresses', 'phone numbers', 'directory', 'listing', 'networking', 'alphabetical', 'a-z', 'organizer', 'organiser', 'planner', 'diary', 'stationery'],categories: ['account', 'communication', 'social'],);
+  static const LucideIconData notebookText = LucideIconData(name: 'notebook-text',rects: [(4.0, 2.0, 16.0, 20.0, 2.0)],paths: ['M2 6h4', 'M2 10h4', 'M2 14h4', 'M2 18h4', 'M9.5 8h5', 'M9.5 12H16', 'M9.5 16H14'],tags: ['notepad', 'notes', 'pages', 'paper', 'stationery', 'sketchbook', 'organizer', 'organiser', 'planner', 'diary', 'journal', 'writing', 'write', 'written', 'reading', 'high school', 'university', 'college', 'academy', 'student', 'study', 'research', 'homework', 'lines', 'opened'],categories: ['text', 'social'],);
+  static const LucideIconData notepadText = LucideIconData(name: 'notepad-text',rects: [(4.0, 4.0, 16.0, 18.0, 2.0)],paths: ['M8 2v4', 'M12 2v4', 'M16 2v4', 'M8 10h6', 'M8 14h8', 'M8 18h5'],tags: ['notebook', 'notes', 'pages', 'paper', 'stationery', 'sketchbook', 'organizer', 'organiser', 'planner', 'diary', 'journal', 'writing', 'write', 'written', 'reading', 'high school', 'university', 'college', 'academy', 'student', 'study', 'homework', 'research', 'lines', 'opened'],categories: ['text', 'social'],);
+  static const LucideIconData notepadTextDashed = LucideIconData(name: 'notepad-text-dashed',paths: ['M8 2v4', 'M12 2v4', 'M16 2v4', 'M16 4h2a2 2 0 0 1 2 2v2', 'M20 12v2', 'M20 18v2a2 2 0 0 1-2 2h-1', 'M13 22h-2', 'M7 22H6a2 2 0 0 1-2-2v-2', 'M4 14v-2', 'M4 8V6a2 2 0 0 1 2-2h2', 'M8 10h6', 'M8 14h8', 'M8 18h5'],tags: ['notebook', 'notes', 'pages', 'paper', 'stationery', 'diary', 'journal', 'writing', 'write', 'written', 'draft', 'template', 'lines'],categories: ['text', 'social'],);
+  static const LucideIconData nut = LucideIconData(name: 'nut',paths: ['M12 4V2', 'M5 10v4a7.004 7.004 0 0 0 5.277 6.787c.412.104.802.292 1.102.592L12 22l.621-.621c.3-.3.69-.488 1.102-.592A7.003 7.003 0 0 0 19 14v-4', 'M12 4C8 4 4.5 6 4 8c-.243.97-.919 1.952-2 3 1.31-.082 1.972-.29 3-1 .54.92.982 1.356 2 2 1.452-.647 1.954-1.098 2.5-2 .595.995 1.151 1.427 2.5 2 1.31-.621 1.862-1.058 2.5-2 .629.977 1.162 1.423 2.5 2 1.209-.548 1.68-.967 2-2 1.032.916 1.683 1.157 3 1-1.297-1.036-1.758-2.03-2-3-.5-2-4-4-8-4Z'],tags: ['hazelnut', 'acorn', 'food', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData nutOff = LucideIconData(name: 'nut-off',paths: ['M12 4V2', 'M5 10v4a7.004 7.004 0 0 0 5.277 6.787c.412.104.802.292 1.102.592L12 22l.621-.621c.3-.3.69-.488 1.102-.592a7.01 7.01 0 0 0 4.125-2.939', 'M19 10v3.343', 'M12 12c-1.349-.573-1.905-1.005-2.5-2-.546.902-1.048 1.353-2.5 2-1.018-.644-1.46-1.08-2-2-1.028.71-1.69.918-3 1 1.081-1.048 1.757-2.03 2-3 .194-.776.84-1.551 1.79-2.21m11.654 5.997c.887-.457 1.28-.891 1.556-1.787 1.032.916 1.683 1.157 3 1-1.297-1.036-1.758-2.03-2-3-.5-2-4-4-8-4-.74 0-1.461.068-2.15.192'],tags: ['hazelnut', 'acorn', 'food', 'allergy', 'intolerance', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData octagon = LucideIconData(name: 'octagon',paths: ['M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z'],tags: ['stop', 'shape'],categories: ['shapes'],);
+  static const LucideIconData octagonAlert = LucideIconData(name: 'octagon-alert',paths: ['M12 16h.01', 'M12 8v4', 'M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z'],tags: ['warning', 'alert', 'danger', 'exclamation mark'],categories: ['notifications', 'shapes'],);
+  static const LucideIconData octagonMinus = LucideIconData(name: 'octagon-minus',paths: ['M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z', 'M8 12h8'],tags: ['stop', 'forbidden', 'subtract', 'remove', 'decrease', 'reduce', '-', 'traffic', 'halt', 'restricted'],categories: ['transportation'],);
+  static const LucideIconData octagonPause = LucideIconData(name: 'octagon-pause',paths: ['M10 15V9', 'M14 15V9', 'M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z'],tags: ['music', 'audio', 'stop'],categories: ['multimedia', 'shapes'],);
+  static const LucideIconData octagonX = LucideIconData(name: 'octagon-x',paths: ['m15 9-6 6', 'M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z', 'm9 9 6 6'],tags: ['delete', 'stop', 'alert', 'warning', 'times', 'clear', 'math'],categories: ['math', 'notifications'],);
+  static const LucideIconData omega = LucideIconData(name: 'omega',paths: ['M3 20h4.5a.5.5 0 0 0 .5-.5v-.282a.52.52 0 0 0-.247-.437 8 8 0 1 1 8.494-.001.52.52 0 0 0-.247.438v.282a.5.5 0 0 0 .5.5H21'],tags: ['greek', 'symbol', 'mathematics', 'education', 'physics', 'engineering', 'ohms', 'electrical resistance', 'angular frequency', 'dynamical systems', 'astronomy', 'constellations', 'philosophy'],categories: ['math', 'development', 'text', 'science'],);
+  static const LucideIconData option = LucideIconData(name: 'option',paths: ['M3 3h6l6 18h6', 'M14 3h7'],tags: ['keyboard', 'key', 'mac', 'alt', 'button'],categories: ['development'],);
+  static const LucideIconData orbit = LucideIconData(name: 'orbit',circles: [(12.0, 12.0, 3.0), (19.0, 5.0, 2.0), (5.0, 19.0, 2.0)],paths: ['M20.341 6.484A10 10 0 0 1 10.266 21.85', 'M3.659 17.516A10 10 0 0 1 13.74 2.152'],tags: ['planet', 'space', 'physics', 'satellites', 'moons'],categories: ['science'],);
+  static const LucideIconData origami = LucideIconData(name: 'origami',paths: ['M12 12V4a1 1 0 0 1 1-1h6.297a1 1 0 0 1 .651 1.759l-4.696 4.025', 'm12 21-7.414-7.414A2 2 0 0 1 4 12.172V6.415a1.002 1.002 0 0 1 1.707-.707L20 20.009', 'm12.214 3.381 8.414 14.966a1 1 0 0 1-.167 1.199l-1.168 1.163a1 1 0 0 1-.706.291H6.351a1 1 0 0 1-.625-.219L3.25 18.8a1 1 0 0 1 .631-1.781l4.165.027'],tags: ['paper', 'bird'],categories: ['animals', 'design'],);
+  static const LucideIconData package = LucideIconData(name: 'package',polylines: [[(3.29, 7.0), (12.0, 12.0), (20.71, 7.0)]],paths: ['M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z', 'M12 22V12', 'm7.5 4.27 9 5.15'],tags: ['box', 'container', 'storage', 'sealed', 'delivery', 'undelivered', 'unopened', 'packed', 'archive', 'zip', 'module'],categories: ['files', 'development'],);
+  static const LucideIconData package2 = LucideIconData(name: 'package-2',paths: ['M12 3v6', 'M16.76 3a2 2 0 0 1 1.8 1.1l2.23 4.479a2 2 0 0 1 .21.891V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9.472a2 2 0 0 1 .211-.894L5.45 4.1A2 2 0 0 1 7.24 3z', 'M3.054 9.013h17.893'],tags: ['box', 'container', 'storage', 'sealed', 'packed', 'unopened', 'undelivered', 'archive', 'zip'],categories: ['files', 'development'],);
+  static const LucideIconData packageCheck = LucideIconData(name: 'package-check',paths: ['M12 22V12', 'm16 17 2 2 4-4', 'M21 11.127V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.32-.753', 'M3.29 7 12 12l8.71-5', 'm7.5 4.27 8.997 5.148'],tags: ['confirm', 'verified', 'done', 'todo', 'tick', 'complete', 'task', 'delivered'],categories: ['development'],);
+  static const LucideIconData packageMinus = LucideIconData(name: 'package-minus',paths: ['M12 22V12', 'M16 17h6', 'M21 13V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.675-.955', 'M3.29 7 12 12l8.71-5', 'm7.5 4.27 8.997 5.148'],tags: ['delete', 'remove'],categories: ['development'],);
+  static const LucideIconData packageOpen = LucideIconData(name: 'package-open',paths: ['M12 22v-9', 'M15.17 2.21a1.67 1.67 0 0 1 1.63 0L21 4.57a1.93 1.93 0 0 1 0 3.36L8.82 14.79a1.655 1.655 0 0 1-1.64 0L3 12.43a1.93 1.93 0 0 1 0-3.36z', 'M20 13v3.87a2.06 2.06 0 0 1-1.11 1.83l-6 3.08a1.93 1.93 0 0 1-1.78 0l-6-3.08A2.06 2.06 0 0 1 4 16.87V13', 'M21 12.43a1.93 1.93 0 0 0 0-3.36L8.83 2.2a1.64 1.64 0 0 0-1.63 0L3 4.57a1.93 1.93 0 0 0 0 3.36l12.18 6.86a1.636 1.636 0 0 0 1.63 0z'],tags: ['box', 'container', 'storage', 'unpack', 'unarchive', 'unzip', 'opened', 'delivered'],categories: ['files', 'development'],);
+  static const LucideIconData packagePlus = LucideIconData(name: 'package-plus',paths: ['M12 22V12', 'M16 17h6', 'M19 14v6', 'M21 10.535V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.675-.955', 'M3.29 7 12 12l8.71-5', 'm7.5 4.27 8.997 5.148'],tags: ['new', 'add', 'create'],categories: ['development'],);
+  static const LucideIconData packageSearch = LucideIconData(name: 'package-search',circles: [(18.5, 16.5, 2.5)],paths: ['M12 22V12', 'M20.27 18.27 22 20', 'M21 10.498V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l.98-.559', 'M3.29 7 12 12l8.71-5', 'm7.5 4.27 8.997 5.148'],tags: ['find', 'product process', 'lens'],categories: ['files', 'development'],);
+  static const LucideIconData packageX = LucideIconData(name: 'package-x',paths: ['M12 22V12', 'm16.5 14.5 5 5', 'm16.5 19.5 5-5', 'M21 10.5V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l.13-.074', 'M3.29 7 12 12l8.71-5', 'm7.5 4.27 8.997 5.148'],tags: ['delete', 'remove'],categories: ['development'],);
+  static const LucideIconData paintBucket = LucideIconData(name: 'paint-bucket',paths: ['M11 7 6 2', 'M18.992 12H2.041', 'M21.145 18.38A3.34 3.34 0 0 1 20 16.5a3.3 3.3 0 0 1-1.145 1.88c-.575.46-.855 1.02-.855 1.595A2 2 0 0 0 20 22a2 2 0 0 0 2-2.025c0-.58-.285-1.13-.855-1.595', 'm8.5 4.5 2.148-2.148a1.205 1.205 0 0 1 1.704 0l7.296 7.296a1.205 1.205 0 0 1 0 1.704l-7.592 7.592a3.615 3.615 0 0 1-5.112 0l-3.888-3.888a3.615 3.615 0 0 1 0-5.112L5.67 7.33'],tags: ['fill', 'paint', 'bucket', 'color', 'colour'],categories: ['design', 'tools'],);
+  static const LucideIconData paintRoller = LucideIconData(name: 'paint-roller',rects: [(2.0, 2.0, 16.0, 6.0, 2.0), (8.0, 16.0, 4.0, 6.0, 1.0)],paths: ['M10 16v-2a2 2 0 0 1 2-2h8a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2'],tags: ['brush', 'color', 'colour', 'decoration', 'diy'],categories: ['text', 'design', 'home', 'tools'],);
+  static const LucideIconData paintbrush = LucideIconData(name: 'paintbrush',paths: ['m14.622 17.897-10.68-2.913', 'M18.376 2.622a1 1 0 1 1 3.002 3.002L17.36 9.643a.5.5 0 0 0 0 .707l.944.944a2.41 2.41 0 0 1 0 3.408l-.944.944a.5.5 0 0 1-.707 0L8.354 7.348a.5.5 0 0 1 0-.707l.944-.944a2.41 2.41 0 0 1 3.408 0l.944.944a.5.5 0 0 0 .707 0z', 'M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15'],tags: ['brush', 'paintbrush', 'design', 'color', 'colour', 'decoration', 'diy'],categories: ['text', 'design', 'photography', 'home', 'tools'],);
+  static const LucideIconData paintbrushVertical = LucideIconData(name: 'paintbrush-vertical',paths: ['M10 2v2', 'M14 2v4', 'M17 2a1 1 0 0 1 1 1v9H6V3a1 1 0 0 1 1-1z', 'M6 12a1 1 0 0 0-1 1v1a2 2 0 0 0 2 2h2a1 1 0 0 1 1 1v2.9a2 2 0 1 0 4 0V17a1 1 0 0 1 1-1h2a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1'],tags: ['brush', 'paintbrush', 'design', 'color', 'colour', 'decoration', 'diy'],categories: ['text', 'design', 'photography', 'home', 'tools'],);
+  static const LucideIconData palette = LucideIconData(name: 'palette',circles: [(13.5, 6.5, 0.5), (17.5, 10.5, 0.5), (6.5, 12.5, 0.5), (8.5, 7.5, 0.5)],paths: ['M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z'],tags: ['colors', 'colours', 'theme', 'scheme', 'paint', 'watercolor', 'watercolour', 'artist'],categories: ['text', 'design', 'photography'],);
+  static const LucideIconData panda = LucideIconData(name: 'panda',paths: ['M11.25 17.25h1.5L12 18z', 'm15 12 2 2', 'M18 6.5a.5.5 0 0 0-.5-.5', 'M20.69 9.67a4.5 4.5 0 1 0-7.04-5.5 8.35 8.35 0 0 0-3.3 0 4.5 4.5 0 1 0-7.04 5.5C2.49 11.2 2 12.88 2 14.5 2 19.47 6.48 22 12 22s10-2.53 10-7.5c0-1.62-.48-3.3-1.3-4.83', 'M6 6.5a.495.495 0 0 1 .5-.5', 'm9 12-2 2'],tags: ['animal', 'wildlife', 'bear', 'zoo', 'bamboo'],categories: ['animals'],);
+  static const LucideIconData panelBottom = LucideIconData(name: 'panel-bottom',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 15h18'],tags: ['drawer', 'dock'],categories: ['layout'],);
+  static const LucideIconData panelBottomClose = LucideIconData(name: 'panel-bottom-close',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 15h18', 'm15 8-3 3-3-3'],tags: ['drawer', 'dock', 'hide', 'chevron', 'down'],categories: ['layout', 'arrows'],);
+  static const LucideIconData panelBottomDashed = LucideIconData(name: 'panel-bottom-dashed',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M14 15h1', 'M19 15h2', 'M3 15h2', 'M9 15h1'],tags: ['drawer', 'dock', 'show', 'reveal', 'padding', 'margin', 'guide', 'layout', 'bleed'],categories: ['layout'],);
+  static const LucideIconData panelBottomOpen = LucideIconData(name: 'panel-bottom-open',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 15h18', 'm9 10 3-3 3 3'],tags: ['drawer', 'dock', 'show', 'reveal', 'chevron', 'up'],categories: ['layout', 'arrows'],);
+  static const LucideIconData panelLeft = LucideIconData(name: 'panel-left',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 3v18'],tags: ['primary', 'drawer'],categories: ['layout'],);
+  static const LucideIconData panelLeftClose = LucideIconData(name: 'panel-left-close',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 3v18', 'm16 15-3-3 3-3'],tags: ['primary', 'drawer', 'hide', 'chevron', '<'],categories: ['layout', 'arrows'],);
+  static const LucideIconData panelLeftDashed = LucideIconData(name: 'panel-left-dashed',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 14v1', 'M9 19v2', 'M9 3v2', 'M9 9v1'],tags: ['sidebar', 'primary', 'drawer', 'show', 'reveal', 'padding', 'margin', 'guide', 'layout', 'bleed'],categories: ['layout'],);
+  static const LucideIconData panelLeftOpen = LucideIconData(name: 'panel-left-open',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 3v18', 'm14 9 3 3-3 3'],tags: ['primary', 'drawer', 'show', 'reveal', 'chevron', 'right', '>'],categories: ['layout', 'arrows'],);
+  static const LucideIconData panelLeftRightDashed = LucideIconData(name: 'panel-left-right-dashed',paths: ['M15 10V9', 'M15 15v-1', 'M15 21v-2', 'M15 5V3', 'M9 10V9', 'M9 15v-1', 'M9 21v-2', 'M9 5V3'],tags: ['sidebar', 'primary', 'drawer', 'show', 'reveal', 'padding', 'margin', 'guide', 'layout', 'vertical', 'bleed'],categories: ['layout'],);
+  static const LucideIconData panelRight = LucideIconData(name: 'panel-right',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M15 3v18'],tags: ['sidebar', 'secondary', 'drawer'],categories: ['layout'],);
+  static const LucideIconData panelRightClose = LucideIconData(name: 'panel-right-close',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M15 3v18', 'm8 9 3 3-3 3'],tags: ['sidebar', 'secondary', 'drawer', 'hide', 'chevron', '>'],categories: ['layout', 'arrows'],);
+  static const LucideIconData panelRightDashed = LucideIconData(name: 'panel-right-dashed',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M15 14v1', 'M15 19v2', 'M15 3v2', 'M15 9v1'],tags: ['sidebar', 'secondary', 'drawer', 'show', 'reveal', 'padding', 'margin', 'guide', 'layout', 'bleed'],categories: ['layout'],);
+  static const LucideIconData panelRightOpen = LucideIconData(name: 'panel-right-open',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M15 3v18', 'm10 15-3-3 3-3'],tags: ['sidebar', 'secondary', 'drawer', 'show', 'reveal', 'chevron', 'left', '<'],categories: ['layout', 'arrows'],);
+  static const LucideIconData panelTop = LucideIconData(name: 'panel-top',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 9h18'],tags: ['drawer', 'browser', 'webpage'],categories: ['layout', 'design', 'development'],);
+  static const LucideIconData panelTopBottomDashed = LucideIconData(name: 'panel-top-bottom-dashed',paths: ['M14 15h1', 'M14 9h1', 'M19 15h2', 'M19 9h2', 'M3 15h2', 'M3 9h2', 'M9 15h1', 'M9 9h1'],tags: ['sidebar', 'primary', 'drawer', 'show', 'reveal', 'padding', 'margin', 'guide', 'layout', 'horizontal', 'bleed'],categories: ['layout'],);
+  static const LucideIconData panelTopClose = LucideIconData(name: 'panel-top-close',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 9h18', 'm9 16 3-3 3 3'],tags: ['menu bar', 'drawer', 'hide', 'chevron', 'up'],categories: ['layout', 'arrows'],);
+  static const LucideIconData panelTopDashed = LucideIconData(name: 'panel-top-dashed',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M14 9h1', 'M19 9h2', 'M3 9h2', 'M9 9h1'],tags: ['menu bar', 'drawer', 'show', 'reveal', 'padding', 'margin', 'guide', 'layout', 'bleed'],categories: ['layout'],);
+  static const LucideIconData panelTopOpen = LucideIconData(name: 'panel-top-open',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 9h18', 'm15 14-3 3-3-3'],tags: ['menu bar', 'drawer', 'show', 'reveal', 'chevron', 'down'],categories: ['layout', 'arrows'],);
+  static const LucideIconData panelsLeftBottom = LucideIconData(name: 'panels-left-bottom',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 3v18', 'M9 15h12'],tags: ['drawers', 'sidebar', 'primary'],categories: ['layout'],);
+  static const LucideIconData panelsRightBottom = LucideIconData(name: 'panels-right-bottom',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 15h12', 'M15 3v18'],tags: ['drawers', 'sidebar', 'secondary'],categories: ['layout'],);
+  static const LucideIconData panelsTopLeft = LucideIconData(name: 'panels-top-left',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 9h18', 'M9 21V9'],tags: ['menu bar', 'sidebar', 'primary', 'drawers', 'window', 'webpage', 'projects', 'overview'],categories: ['layout', 'design', 'development'],);
+  static const LucideIconData paperclip = LucideIconData(name: 'paperclip',paths: ['m16 6-8.414 8.586a2 2 0 0 0 2.829 2.829l8.414-8.586a4 4 0 1 0-5.657-5.657l-8.379 8.551a6 6 0 1 0 8.485 8.485l8.379-8.551'],tags: ['attachment', 'file'],categories: ['text', 'design', 'files', 'mail'],);
+  static const LucideIconData parentheses = LucideIconData(name: 'parentheses',paths: ['M8 21s-4-3-4-9 4-9 4-9', 'M16 3s4 3 4 9-4 9-4 9'],tags: ['code', 'token', 'parenthesis', 'parens', 'brackets', 'parameters', 'arguments', 'args', 'input', 'call', 'math', 'formula', 'function', '(', ')'],categories: ['development', 'files', 'math'],);
+  static const LucideIconData parkingMeter = LucideIconData(name: 'parking-meter',paths: ['M11 15h2', 'M12 12v3', 'M12 19v3', 'M15.282 19a1 1 0 0 0 .948-.68l2.37-6.988a7 7 0 1 0-13.2 0l2.37 6.988a1 1 0 0 0 .948.68z', 'M9 9a3 3 0 1 1 6 0'],tags: ['driving', 'car park', 'pay', 'sidewalk', 'pavement'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData partyPopper = LucideIconData(name: 'party-popper',paths: ['M5.8 11.3 2 22l10.7-3.79', 'M4 3h.01', 'M22 8h.01', 'M15 2h.01', 'M22 20h.01', 'm22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10', 'm22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11c-.11.7-.72 1.22-1.43 1.22H17', 'm11 2 .33.82c.34.86-.2 1.82-1.11 1.98C9.52 4.9 9 5.52 9 6.23V7', 'M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z'],tags: ['emoji', 'congratulations', 'celebration', 'party', 'tada', '🎉', '🎊', 'excitement', 'exciting', 'excites', 'confetti'],categories: ['emoji'],);
+  static const LucideIconData pause = LucideIconData(name: 'pause',tags: ['music', 'stop'],categories: ['multimedia'],);
+  static const LucideIconData pawPrint = LucideIconData(name: 'paw-print',circles: [(11.0, 4.0, 2.0), (18.0, 8.0, 2.0), (20.0, 16.0, 2.0)],paths: ['M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z'],tags: ['pets', 'vets', 'veterinarian', 'domesticated', 'cat', 'dog', 'bear'],categories: ['animals'],);
+  static const LucideIconData pcCase = LucideIconData(name: 'pc-case',rects: [(5.0, 2.0, 14.0, 20.0, 2.0)],paths: ['M15 14h.01', 'M9 6h6', 'M9 10h6'],tags: ['computer', 'chassis'],categories: ['devices', 'gaming'],);
+  static const LucideIconData pen = LucideIconData(name: 'pen',paths: ['M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z'],tags: ['pencil', 'change', 'create', 'draw', 'writer', 'writing', 'biro', 'ink', 'marker', 'felt tip', 'stationery', 'artist'],categories: ['text', 'design', 'tools'],);
+  static const LucideIconData penLine = LucideIconData(name: 'pen-line',paths: ['M13 21h8', 'M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z'],tags: ['pencil', 'change', 'create', 'draw', 'writer', 'writing', 'biro', 'ink', 'marker', 'felt tip', 'stationery', 'artist'],categories: ['text', 'design', 'tools'],);
+  static const LucideIconData penOff = LucideIconData(name: 'pen-off',paths: ['m10 10-6.157 6.162a2 2 0 0 0-.5.833l-1.322 4.36a.5.5 0 0 0 .622.624l4.358-1.323a2 2 0 0 0 .83-.5L14 13.982', 'm12.829 7.172 4.359-4.346a1 1 0 1 1 3.986 3.986l-4.353 4.353', 'm2 2 20 20'],tags: ['disabled', 'inactive', 'non-editable', 'locked', 'read-only', 'unmodifiable', 'frozen', 'restricted', 'pencil', 'change', 'create', 'draw', 'writer', 'writing', 'biro', 'ink', 'marker', 'felt tip', 'stationery', 'artist'],categories: ['text', 'design', 'tools'],);
+  static const LucideIconData penTool = LucideIconData(name: 'pen-tool',circles: [(11.0, 11.0, 2.0)],paths: ['M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z', 'm18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18', 'm2.3 2.3 7.286 7.286'],tags: ['vector', 'drawing', 'path'],categories: ['text', 'design', 'cursors'],);
+  static const LucideIconData pencil = LucideIconData(name: 'pencil',paths: ['M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z', 'm15 5 4 4'],tags: ['rubber', 'edit', 'create', 'draw', 'sketch', 'draft', 'writer', 'writing', 'stationery', 'artist'],categories: ['design', 'cursors', 'tools', 'text'],);
+  static const LucideIconData pencilLine = LucideIconData(name: 'pencil-line',paths: ['M13 21h8', 'm15 5 4 4', 'M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z'],tags: ['pencil', 'change', 'create', 'draw', 'sketch', 'draft', 'writer', 'writing', 'biro', 'ink', 'marker', 'felt tip', 'stationery', 'artist'],categories: ['text', 'design', 'tools'],);
+  static const LucideIconData pencilOff = LucideIconData(name: 'pencil-off',paths: ['m10 10-6.157 6.162a2 2 0 0 0-.5.833l-1.322 4.36a.5.5 0 0 0 .622.624l4.358-1.323a2 2 0 0 0 .83-.5L14 13.982', 'm12.829 7.172 4.359-4.346a1 1 0 1 1 3.986 3.986l-4.353 4.353', 'm15 5 4 4', 'm2 2 20 20'],tags: ['disabled', 'inactive', 'non-editable', 'locked', 'read-only', 'unmodifiable', 'frozen', 'restricted', 'rubber', 'edit', 'create', 'draw', 'sketch', 'draft', 'writer', 'writing', 'stationery', 'artist'],categories: ['design', 'cursors', 'tools', 'text'],);
+  static const LucideIconData pencilRuler = LucideIconData(name: 'pencil-ruler',paths: ['M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13', 'm8 6 2-2', 'm18 16 2-2', 'm17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17', 'M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z', 'm15 5 4 4'],tags: ['edit', 'create', 'draw', 'sketch', 'draft', 'writer', 'writing', 'stationery', 'artist', 'measurements', 'centimeters', 'cm', 'millimeters', 'mm', 'metre', 'foot', 'feet', 'inches', 'units', 'size', 'length', 'width', 'height', 'dimensions', 'depth', 'breadth', 'extent'],categories: ['tools', 'design', 'layout', 'text'],);
+  static const LucideIconData pentagon = LucideIconData(name: 'pentagon',paths: ['M10.83 2.38a2 2 0 0 1 2.34 0l8 5.74a2 2 0 0 1 .73 2.25l-3.04 9.26a2 2 0 0 1-1.9 1.37H7.04a2 2 0 0 1-1.9-1.37L2.1 10.37a2 2 0 0 1 .73-2.25z'],tags: ['shape'],categories: ['shapes'],);
+  static const LucideIconData percent = LucideIconData(name: 'percent',circles: [(6.5, 6.5, 2.5), (17.5, 17.5, 2.5)],tags: ['percentage', 'modulo', 'modulus', 'remainder', '%', 'sale', 'discount', 'offer', 'marketing'],categories: ['math', 'development', 'finance', 'shopping'],);
+  static const LucideIconData personStanding = LucideIconData(name: 'person-standing',circles: [(12.0, 5.0, 1.0)],paths: ['m9 20 3-6 3 6', 'm6 8 6 2 6-2', 'M12 10v4'],tags: ['people', 'human', 'accessibility', 'stick figure'],categories: ['accessibility', 'people'],);
+  static const LucideIconData philippinePeso = LucideIconData(name: 'philippine-peso',paths: ['M20 11H4', 'M20 7H4', 'M7 21V4a1 1 0 0 1 1-1h4a1 1 0 0 1 0 12H7'],tags: ['currency', 'peso', 'money', 'php'],categories: ['finance'],);
+  static const LucideIconData phone = LucideIconData(name: 'phone',paths: ['M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'],tags: ['call'],categories: ['text', 'connectivity', 'devices', 'communication'],);
+  static const LucideIconData phoneCall = LucideIconData(name: 'phone-call',paths: ['M13 2a9 9 0 0 1 9 9', 'M13 6a5 5 0 0 1 5 5', 'M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'],tags: ['ring'],categories: ['connectivity', 'devices', 'communication'],);
+  static const LucideIconData phoneForwarded = LucideIconData(name: 'phone-forwarded',paths: ['M14 6h8', 'm18 2 4 4-4 4', 'M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'],tags: ['call'],categories: ['arrows', 'connectivity', 'devices', 'communication'],);
+  static const LucideIconData phoneIncoming = LucideIconData(name: 'phone-incoming',paths: ['M16 2v6h6', 'm22 2-6 6', 'M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'],tags: ['call'],categories: ['arrows', 'connectivity', 'devices', 'communication'],);
+  static const LucideIconData phoneMissed = LucideIconData(name: 'phone-missed',paths: ['m16 2 6 6', 'm22 2-6 6', 'M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'],tags: ['call'],categories: ['connectivity', 'devices', 'communication'],);
+  static const LucideIconData phoneOff = LucideIconData(name: 'phone-off',paths: ['M10.1 13.9a14 14 0 0 0 3.732 2.668 1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2 18 18 0 0 1-12.728-5.272', 'M22 2 2 22', 'M4.76 13.582A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 .244.473'],tags: ['call', 'mute'],categories: ['connectivity', 'devices', 'communication'],);
+  static const LucideIconData phoneOutgoing = LucideIconData(name: 'phone-outgoing',paths: ['m16 8 6-6', 'M22 8V2h-6', 'M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384'],tags: ['call'],categories: ['arrows', 'connectivity', 'devices', 'communication'],);
+  static const LucideIconData pi = LucideIconData(name: 'pi',paths: ['M4 7c0-1.7 1.3-3 3-3h13', 'M18 20c-1.7 0-3-1.3-3-3V4'],tags: ['constant', 'code', 'coding', 'programming', 'symbol', 'trigonometry', 'geometry', 'formula'],categories: ['development', 'math'],);
+  static const LucideIconData piano = LucideIconData(name: 'piano',paths: ['M18.5 8c-1.4 0-2.6-.8-3.2-2A6.87 6.87 0 0 0 2 9v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-8.5C22 9.6 20.4 8 18.5 8', 'M2 14h20', 'M6 14v4', 'M10 14v4', 'M14 14v4', 'M18 14v4'],tags: ['music', 'audio', 'sound', 'noise', 'notes', 'chord', 'keys', 'octave', 'acoustic', 'instrument', 'play', 'pianist', 'performance', 'concert'],categories: ['multimedia', 'devices'],);
+  static const LucideIconData pickaxe = LucideIconData(name: 'pickaxe',paths: ['m14 13-8.381 8.38a1 1 0 0 1-3.001-3L11 9.999', 'M15.973 4.027A13 13 0 0 0 5.902 2.373c-1.398.342-1.092 2.158.277 2.601a19.9 19.9 0 0 1 5.822 3.024', 'M16.001 11.999a19.9 19.9 0 0 1 3.024 5.824c.444 1.369 2.26 1.676 2.603.278A13 13 0 0 0 20 8.069', 'M18.352 3.352a1.205 1.205 0 0 0-1.704 0l-5.296 5.296a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l5.296-5.296a1.205 1.205 0 0 0 0-1.704z'],tags: ['mining', 'mine', 'land worker', 'extraction', 'labor', 'construction', 'progress', 'advancement', 'crafting', 'building', 'creation'],categories: ['tools', 'gaming'],);
+  static const LucideIconData pictureInPicture = LucideIconData(name: 'picture-in-picture',paths: ['M2 10h6V4', 'm2 4 6 6', 'M21 10V7a2 2 0 0 0-2-2h-7', 'M3 14v2a2 2 0 0 0 2 2h3'],tags: ['display', 'play', 'video', 'pop out', 'always on top', 'window', 'inset', 'multitask'],categories: ['multimedia'],);
+  static const LucideIconData pictureInPicture2 = LucideIconData(name: 'picture-in-picture-2',rects: [(12.0, 13.0, 10.0, 7.0, 2.0)],paths: ['M21 9V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h4'],tags: ['display', 'play', 'video', 'pop out', 'always on top', 'window', 'inset', 'multitask'],categories: ['multimedia'],);
+  static const LucideIconData piggyBank = LucideIconData(name: 'piggy-bank',paths: ['M11 17h3v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3a3.16 3.16 0 0 0 2-2h1a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-1a5 5 0 0 0-2-4V3a4 4 0 0 0-3.2 1.6l-.3.4H11a6 6 0 0 0-6 6v1a5 5 0 0 0 2 4v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1z', 'M16 10h.01', 'M2 8v1a2 2 0 0 0 2 2h1'],tags: ['money', 'savings'],categories: ['finance'],);
+  static const LucideIconData pilcrow = LucideIconData(name: 'pilcrow',paths: ['M13 4v16', 'M17 4v16', 'M19 4H9.5a4.5 4.5 0 0 0 0 9H13'],tags: ['paragraph', 'mark', 'paraph', 'blind', 'typography', 'type', 'text', 'prose', 'symbol'],categories: ['text'],);
+  static const LucideIconData pilcrowLeft = LucideIconData(name: 'pilcrow-left',paths: ['M14 3v11', 'M14 9h-3a3 3 0 0 1 0-6h9', 'M18 3v11', 'M22 18H2l4-4', 'm6 22-4-4'],tags: ['direction', 'paragraph', 'mark', 'paraph', 'blind', 'typography', 'type', 'text', 'prose', 'symbol'],categories: ['text'],);
+  static const LucideIconData pilcrowRight = LucideIconData(name: 'pilcrow-right',paths: ['M10 3v11', 'M10 9H7a1 1 0 0 1 0-6h8', 'M14 3v11', 'm18 14 4 4H2', 'm22 18-4 4'],tags: ['direction', 'paragraph', 'mark', 'paraph', 'blind', 'typography', 'type', 'text', 'prose', 'symbol'],categories: ['text'],);
+  static const LucideIconData pill = LucideIconData(name: 'pill',paths: ['m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z', 'm8.5 8.5 7 7'],tags: ['medicine', 'medication', 'drug', 'prescription', 'tablet', 'pharmacy'],categories: ['medical'],);
+  static const LucideIconData pillBottle = LucideIconData(name: 'pill-bottle',rects: [(4.0, 2.0, 16.0, 5.0, 1.0)],paths: ['M18 11h-4a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h4', 'M6 7v13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7'],tags: ['medicine', 'medication', 'prescription', 'drug', 'supplement', 'vitamin', 'capsule', 'jar', 'container', 'healthcare', 'pharmaceutical', 'tablet'],categories: ['medical'],);
+  static const LucideIconData pin = LucideIconData(name: 'pin',paths: ['M12 17v5', 'M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z'],tags: ['save', 'map', 'lock', 'fix'],categories: ['navigation', 'account'],);
+  static const LucideIconData pinOff = LucideIconData(name: 'pin-off',paths: ['M12 17v5', 'M15 9.34V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H7.89', 'm2 2 20 20', 'M9 9v1.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h11'],tags: ['unpin', 'map', 'unlock', 'unfix', 'unsave', 'remove'],categories: ['navigation'],);
+  static const LucideIconData pipette = LucideIconData(name: 'pipette',paths: ['m12 9-8.414 8.414A2 2 0 0 0 3 18.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 3.828 21h1.344a2 2 0 0 0 1.414-.586L15 12', 'm18 9 .4.4a1 1 0 1 1-3 3l-3.8-3.8a1 1 0 1 1 3-3l.4.4 3.4-3.4a1 1 0 1 1 3 3z', 'm2 22 .414-.414'],tags: ['eye dropper', 'color picker', 'lab', 'chemistry'],categories: ['text', 'design', 'science'],);
+  static const LucideIconData pizza = LucideIconData(name: 'pizza',paths: ['m12 14-1 1', 'm13.75 18.25-1.25 1.42', 'M17.775 5.654a15.68 15.68 0 0 0-12.121 12.12', 'M18.8 9.3a1 1 0 0 0 2.1 7.7', 'M21.964 20.732a1 1 0 0 1-1.232 1.232l-18-5a1 1 0 0 1-.695-1.232A19.68 19.68 0 0 1 15.732 2.037a1 1 0 0 1 1.232.695z'],tags: ['pie', 'quiche', 'food'],categories: ['food-beverage'],);
+  static const LucideIconData plane = LucideIconData(name: 'plane',paths: ['M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z'],tags: ['plane', 'trip', 'airplane'],categories: ['transportation', 'travel', 'navigation'],);
+  static const LucideIconData planeLanding = LucideIconData(name: 'plane-landing',paths: ['M2 22h20', 'M3.77 10.77 2 9l2-4.5 1.1.55c.55.28.9.84.9 1.45s.35 1.17.9 1.45L8 8.5l3-6 1.05.53a2 2 0 0 1 1.09 1.52l.72 5.4a2 2 0 0 0 1.09 1.52l4.4 2.2c.42.22.78.55 1.01.96l.6 1.03c.49.88-.06 1.98-1.06 2.1l-1.18.15c-.47.06-.95-.02-1.37-.24L4.29 11.15a2 2 0 0 1-.52-.38Z'],tags: ['arrival', 'plane', 'trip', 'airplane', 'landing'],categories: ['transportation', 'travel'],);
+  static const LucideIconData planeTakeoff = LucideIconData(name: 'plane-takeoff',paths: ['M2 22h20', 'M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.41 2.41 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z'],tags: ['departure', 'plane', 'trip', 'airplane', 'takeoff'],categories: ['transportation', 'travel'],);
+  static const LucideIconData play = LucideIconData(name: 'play',paths: ['M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z'],tags: ['music', 'audio', 'video', 'start', 'run'],categories: ['arrows', 'multimedia'],);
+  static const LucideIconData plug = LucideIconData(name: 'plug',paths: ['M12 22v-5', 'M15 8V2', 'M17 8a1 1 0 0 1 1 1v4a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1z', 'M9 8V2'],tags: ['electricity', 'energy', 'electronics', 'socket', 'outlet', 'power', 'voltage', 'current', 'charger'],categories: ['devices', 'development'],);
+  static const LucideIconData plug2 = LucideIconData(name: 'plug-2',paths: ['M9 2v6', 'M15 2v6', 'M12 17v5', 'M5 8h14', 'M6 11V8h12v3a6 6 0 1 1-12 0Z'],tags: ['electricity', 'energy', 'socket', 'outlet'],categories: ['devices', 'development'],);
+  static const LucideIconData plugZap = LucideIconData(name: 'plug-zap',paths: ['M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z', 'm2 22 3-3', 'M7.5 13.5 10 11', 'M10.5 16.5 13 14', 'm18 3-4 4h6l-4 4'],tags: ['electricity', 'energy', 'electronics', 'charge', 'charging', 'battery', 'connect'],categories: ['devices'],);
+  static const LucideIconData plus = LucideIconData(name: 'plus',paths: ['M5 12h14', 'M12 5v14'],tags: ['add', 'new', 'increase', 'increment', 'positive', 'calculate', 'toolbar', 'crosshair', 'aim', 'target', 'scope', 'sight', 'reticule', 'maximum', 'upgrade', 'extra', '+'],categories: ['math', 'tools', 'development', 'text', 'cursors', 'gaming'],);
+  static const LucideIconData pocketKnife = LucideIconData(name: 'pocket-knife',paths: ['M3 2v1c0 1 2 1 2 2S3 6 3 7s2 1 2 2-2 1-2 2 2 1 2 2', 'M18 6h.01', 'M6 18h.01', 'M20.83 8.83a4 4 0 0 0-5.66-5.66l-12 12a4 4 0 1 0 5.66 5.66Z', 'M18 11.66V22a4 4 0 0 0 4-4V6'],tags: ['swiss army knife', 'penknife', 'multi-tool', 'multitask', 'blade', 'cutter', 'gadget', 'corkscrew'],categories: ['tools'],);
+  static const LucideIconData podcast = LucideIconData(name: 'podcast',circles: [(12.0, 11.0, 1.0)],paths: ['M13 17a1 1 0 1 0-2 0l.5 4.5a0.5 0.5 0 0 0 1 0z', 'M16.85 18.58a9 9 0 1 0-9.7 0', 'M8 14a5 5 0 1 1 8 0'],tags: ['audio', 'music', 'mic', 'talk', 'voice', 'subscribe', 'subscription', 'stream'],categories: ['multimedia', 'social'],);
+  static const LucideIconData pointer = LucideIconData(name: 'pointer',paths: ['M22 14a8 8 0 0 1-8 8', 'M18 11v-1a2 2 0 0 0-2-2a2 2 0 0 0-2 2', 'M14 10V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1', 'M10 9.5V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v10', 'M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15'],tags: ['mouse'],categories: ['cursors'],);
+  static const LucideIconData pointerOff = LucideIconData(name: 'pointer-off',paths: ['M10 4.5V4a2 2 0 0 0-2.41-1.957', 'M13.9 8.4a2 2 0 0 0-1.26-1.295', 'M21.7 16.2A8 8 0 0 0 22 14v-3a2 2 0 1 0-4 0v-1a2 2 0 0 0-3.63-1.158', 'm7 15-1.8-1.8a2 2 0 0 0-2.79 2.86L6 19.7a7.74 7.74 0 0 0 6 2.3h2a8 8 0 0 0 5.657-2.343', 'M6 6v8', 'm2 2 20 20'],tags: ['mouse'],categories: ['cursors'],);
+  static const LucideIconData popcorn = LucideIconData(name: 'popcorn',paths: ['M18 8a2 2 0 0 0 0-4 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0 0 4', 'M10 22 9 8', 'm14 22 1-14', 'M20 8c.5 0 .9.4.8 1l-2.6 12c-.1.5-.7 1-1.2 1H7c-.6 0-1.1-.4-1.2-1L3.2 9c-.1-.6.3-1 .8-1Z'],tags: ['cinema', 'movies', 'films', 'salted', 'sweet', 'sugar', 'candy', 'snack'],categories: ['food-beverage', 'multimedia'],);
+  static const LucideIconData popsicle = LucideIconData(name: 'popsicle',paths: ['M18.6 14.4c.8-.8.8-2 0-2.8l-8.1-8.1a4.95 4.95 0 1 0-7.1 7.1l8.1 8.1c.9.7 2.1.7 2.9-.1Z', 'm22 22-5.5-5.5'],tags: ['ice lolly', 'ice cream', 'sweet', 'food'],categories: ['food-beverage'],);
+  static const LucideIconData poundSterling = LucideIconData(name: 'pound-sterling',paths: ['M18 7c0-5.333-8-5.333-8 0', 'M10 7v14', 'M6 21h12', 'M6 13h10'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData power = LucideIconData(name: 'power',paths: ['M12 2v10', 'M18.4 6.6a9 9 0 1 1-12.77.04'],tags: ['on', 'off', 'device', 'switch', 'toggle', 'binary', 'boolean', 'reboot', 'restart', 'button', 'keyboard', 'troubleshoot'],categories: ['connectivity'],);
+  static const LucideIconData powerOff = LucideIconData(name: 'power-off',paths: ['M18.36 6.64A9 9 0 0 1 20.77 15', 'M6.16 6.16a9 9 0 1 0 12.68 12.68', 'M12 2v4', 'm2 2 20 20'],tags: ['on', 'off', 'device', 'switch'],categories: ['connectivity'],);
+  static const LucideIconData presentation = LucideIconData(name: 'presentation',paths: ['M2 3h20', 'M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3', 'm7 21 5-5 5 5'],tags: ['screen', 'whiteboard', 'marker pens', 'markers', 'blackboard', 'chalk', 'easel', 'school', 'learning', 'lesson', 'office', 'meeting', 'project', 'planning'],categories: ['multimedia', 'photography', 'devices', 'communication', 'design'],);
+  static const LucideIconData printer = LucideIconData(name: 'printer',paths: ['M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2', 'M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6'],tags: ['fax', 'office', 'device'],categories: ['devices'],);
+  static const LucideIconData printerCheck = LucideIconData(name: 'printer-check',paths: ['M13.5 22H7a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v.5', 'm16 19 2 2 4-4', 'M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2', 'M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6'],tags: ['fax', 'office', 'device', 'success', 'printed'],categories: ['devices'],);
+  static const LucideIconData printerX = LucideIconData(name: 'printer-x',paths: ['M12.531 22H7a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h6.377', 'm16.5 16.5 5 5', 'm16.5 21.5 5-5', 'M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1.5', 'M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6'],tags: ['fax', 'office', 'device', 'cross', 'cancel', 'remove', 'error'],categories: ['devices'],);
+  static const LucideIconData projector = LucideIconData(name: 'projector',circles: [(9.0, 13.0, 3.0)],paths: ['M5 7 3 5', 'M9 6V3', 'm13 7 2-2', 'M11.83 12H20a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h2.17', 'M16 16h2'],tags: ['cinema', 'film', 'movie', 'home video', 'presentation', 'slideshow', 'office', 'meeting', 'project', 'planning'],categories: ['multimedia', 'photography', 'devices', 'communication'],);
+  static const LucideIconData proportions = LucideIconData(name: 'proportions',rects: [(2.0, 4.0, 20.0, 16.0, 2.0)],paths: ['M12 9v11', 'M2 9h13a2 2 0 0 1 2 2v9'],tags: ['screens', 'sizes', 'rotate', 'rotation', 'adjust', 'aspect ratio', '16:9', 'widescreen', '4:3', 'resolution', 'responsive', 'mobile', 'desktop', 'dimensions', 'monitor', 'orientation', 'portrait', 'landscape'],categories: ['layout', 'design', 'photography', 'devices'],);
+  static const LucideIconData puzzle = LucideIconData(name: 'puzzle',paths: ['M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z'],tags: ['component', 'module', 'part', 'piece'],categories: ['development', 'gaming'],);
+  static const LucideIconData pyramid = LucideIconData(name: 'pyramid',paths: ['M2.5 16.88a1 1 0 0 1-.32-1.43l9-13.02a1 1 0 0 1 1.64 0l9 13.01a1 1 0 0 1-.32 1.44l-8.51 4.86a2 2 0 0 1-1.98 0Z', 'M12 2v20'],tags: ['prism', 'triangle', 'triangular', 'hierarchy', 'structure', 'geometry', 'ancient', 'egyptian', 'landmark', 'tourism'],categories: ['shapes', 'math', 'travel'],);
+  static const LucideIconData qrCode = LucideIconData(name: 'qr-code',rects: [(3.0, 3.0, 5.0, 5.0, 1.0), (16.0, 3.0, 5.0, 5.0, 1.0), (3.0, 16.0, 5.0, 5.0, 1.0)],paths: ['M21 16h-3a2 2 0 0 0-2 2v3', 'M21 21v.01', 'M12 7v3a2 2 0 0 1-2 2H7', 'M3 12h.01', 'M12 3h.01', 'M12 16v.01', 'M16 12h1', 'M21 12v.01', 'M12 21v-1'],tags: ['barcode', 'scan', 'link', 'url', 'information', 'digital'],categories: ['development', 'social'],);
+  static const LucideIconData quote = LucideIconData(name: 'quote',paths: ['M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z', 'M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z'],tags: ['quotation'],categories: ['text'],);
+  static const LucideIconData rabbit = LucideIconData(name: 'rabbit',paths: ['M13 16a3 3 0 0 1 2.24 5', 'M18 12h.01', 'M18 21h-8a4 4 0 0 1-4-4 7 7 0 0 1 7-7h.2L9.6 6.4a1 1 0 1 1 2.8-2.8L15.8 7h.2c3.3 0 6 2.7 6 6v1a2 2 0 0 1-2 2h-1a3 3 0 0 0-3 3', 'M20 8.54V4a2 2 0 1 0-4 0v3', 'M7.612 12.524a3 3 0 1 0-1.6 4.3'],tags: ['animal', 'rodent', 'pet', 'pest', 'bunny', 'hare', 'fast', 'speed', 'hop'],categories: ['animals'],);
+  static const LucideIconData radar = LucideIconData(name: 'radar',circles: [(12.0, 12.0, 2.0)],paths: ['M19.07 4.93A10 10 0 0 0 6.99 3.34', 'M4 6h.01', 'M2.29 9.62A10 10 0 1 0 21.31 8.35', 'M16.24 7.76A6 6 0 1 0 8.23 16.67', 'M12 18h.01', 'M17.99 11.66A6 6 0 0 1 15.77 16.67', 'm13.41 10.59 5.66-5.66'],tags: ['scan', 'sonar', 'detect', 'find', 'locate'],categories: ['navigation', 'security', 'communication'],);
+  static const LucideIconData radiation = LucideIconData(name: 'radiation',paths: ['M12 12h.01', 'M14 15.4641a4 4 0 0 1-4 0L7.52786 19.74597 A 1 1 0 0 0 7.99303 21.16211 10 10 0 0 0 16.00697 21.16211 1 1 0 0 0 16.47214 19.74597z', 'M16 12a4 4 0 0 0-2-3.464l2.472-4.282a1 1 0 0 1 1.46-.305 10 10 0 0 1 4.006 6.94A1 1 0 0 1 21 12z', 'M8 12a4 4 0 0 1 2-3.464L7.528 4.254a1 1 0 0 0-1.46-.305 10 10 0 0 0-4.006 6.94A1 1 0 0 0 3 12z'],tags: ['radioactive', 'nuclear', 'fallout', 'waste', 'atomic', 'physics', 'particle', 'element', 'molecule'],categories: ['science'],);
+  static const LucideIconData radical = LucideIconData(name: 'radical',paths: ['M3 12h3.28a1 1 0 0 1 .948.684l2.298 7.934a.5.5 0 0 0 .96-.044L13.82 4.771A1 1 0 0 1 14.792 4H21'],tags: ['calculate', 'formula', 'math', 'operator', 'root', 'square', 'symbol'],categories: ['development', 'math'],);
+  static const LucideIconData radio = LucideIconData(name: 'radio',circles: [(12.0, 12.0, 2.0)],paths: ['M16.247 7.761a6 6 0 0 1 0 8.478', 'M19.075 4.933a10 10 0 0 1 0 14.134', 'M4.925 19.067a10 10 0 0 1 0-14.134', 'M7.753 16.239a6 6 0 0 1 0-8.478'],tags: ['signal', 'broadcast', 'connectivity', 'live', 'frequency'],categories: ['devices', 'multimedia', 'social'],);
+  static const LucideIconData radioOff = LucideIconData(name: 'radio-off',paths: ['M10.4103 10.7852C10.1529 11.1218 10 11.5425 10 11.999C10 13.1036 10.8954 13.999 12 13.999C12.5077 13.999 12.9713 13.8098 13.324 13.498', 'M16.1992 7.80078C17.4739 9.07549 18.0422 10.8109 17.9039 12.5134', 'M19.0996 4.89844C22.0892 7.88804 22.7871 12.2879 21.1932 15.936', 'M2 2L22 22', 'M4.89961 19.0984C0.999609 15.1984 0.999609 8.79844 4.89961 4.89844', 'M7.79922 16.1992C5.66828 14.0683 5.51165 10.6498 7.32931 8.25'],tags: ['signal', 'broadcast', 'connectivity', 'live', 'frequency'],categories: ['devices', 'multimedia', 'social'],);
+  static const LucideIconData radioReceiver = LucideIconData(name: 'radio-receiver',rects: [(2.0, 8.0, 20.0, 8.0, 2.0)],paths: ['M5 16v2', 'M19 16v2', 'M18 12h.01'],tags: ['device', 'music', 'connect'],categories: ['devices'],);
+  static const LucideIconData radioTower = LucideIconData(name: 'radio-tower',circles: [(12.0, 9.0, 2.0)],paths: ['M4.9 16.1C1 12.2 1 5.8 4.9 1.9', 'M7.8 4.7a6.14 6.14 0 0 0-.8 7.5', 'M16.2 4.8c2 2 2.26 5.11.8 7.47', 'M19.1 1.9a9.96 9.96 0 0 1 0 14.1', 'M9.5 18h5', 'm8 22 4-11 4 11'],tags: ['signal', 'broadcast', 'connectivity', 'live', 'frequency'],categories: ['devices', 'multimedia', 'social'],);
+  static const LucideIconData radius = LucideIconData(name: 'radius',circles: [(19.0, 19.0, 2.0), (12.0, 12.0, 2.0)],paths: ['M20.34 17.52a10 10 0 1 0-2.82 2.82', 'm13.41 13.41 4.18 4.18'],tags: ['shape', 'circle', 'geometry', 'trigonometry', 'radii', 'calculate', 'measure', 'size'],categories: ['shapes', 'math', 'design', 'tools'],);
+  static const LucideIconData rainbow = LucideIconData(name: 'rainbow',paths: ['M22 17a10 10 0 0 0-20 0', 'M6 17a6 6 0 0 1 12 0', 'M10 17a2 2 0 0 1 4 0'],tags: ['colors', 'colours', 'spectrum', 'light', 'prism', 'arc', 'clear', 'sunshine'],categories: ['weather'],);
+  static const LucideIconData rat = LucideIconData(name: 'rat',paths: ['M13 22H4a2 2 0 0 1 0-4h12', 'M13.236 18a3 3 0 0 0-2.2-5', 'M16 9h.01', 'M16.82 3.94a3 3 0 1 1 3.237 4.868l1.815 2.587a1.5 1.5 0 0 1-1.5 2.1l-2.872-.453a3 3 0 0 0-3.5 3', 'M17 4.988a3 3 0 1 0-5.2 2.052A7 7 0 0 0 4 14.015 4 4 0 0 0 8 18'],tags: ['mouse', 'mice', 'gerbil', 'rodent', 'pet', 'pest', 'plague', 'disease'],categories: ['animals'],);
+  static const LucideIconData ratio = LucideIconData(name: 'ratio',rects: [(6.0, 2.0, 12.0, 20.0, 2.0), (2.0, 6.0, 20.0, 12.0, 2.0)],tags: ['screens', 'sizes', 'rotate', 'rotation', 'adjust', 'aspect ratio', 'proportions', '16:9', 'widescreen', '4:3', 'resolution', 'responsive', 'mobile', 'desktop', 'dimensions', 'monitor', 'orientation', 'portrait', 'landscape'],categories: ['layout', 'design', 'photography'],);
+  static const LucideIconData receipt = LucideIconData(name: 'receipt',paths: ['M12 17V7', 'M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8', 'M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'currency', 'dollar', 'usd', '\$'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptCent = LucideIconData(name: 'receipt-cent',paths: ['M12 7v10', 'M14.828 14.829a4 4 0 0 1-5.656 0 4 4 0 0 1 0-5.657 4 4 0 0 1 5.656 0', 'M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'currency', 'cents', 'dollar', 'usd', '\$', '¢'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptEuro = LucideIconData(name: 'receipt-euro',paths: ['M15.828 14.829a4 4 0 0 1-5.656 0 4 4 0 0 1 0-5.657 4 4 0 0 1 5.656 0', 'M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z', 'M8 12h5'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'currency', '€'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptIndianRupee = LucideIconData(name: 'receipt-indian-rupee',paths: ['M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z', 'M8 11h8', 'M8 7h8', 'M9 7a4 4 0 0 1 0 8H8l3 2'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'currency', 'inr', '₹'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptJapaneseYen = LucideIconData(name: 'receipt-japanese-yen',paths: ['m12 10 3-3', 'M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z', 'M9 11h6', 'M9 15h6', 'm9 7 3 3v7'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'currency', 'jpy', '¥'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptPoundSterling = LucideIconData(name: 'receipt-pound-sterling',paths: ['M10 17V9.5a1 1 0 0 1 5 0', 'M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z', 'M8 13h5', 'M8 17h7'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'british', 'currency', 'gbp', '£'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptRussianRuble = LucideIconData(name: 'receipt-russian-ruble',paths: ['M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z', 'M8 11h5a2 2 0 0 0 0-4h-3v10', 'M8 15h5'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'currency', 'rub', '₽'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptSwissFranc = LucideIconData(name: 'receipt-swiss-franc',paths: ['M10 11h4', 'M10 17V7h5', 'M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z', 'M8 15h5'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'currency', 'chf', '₣'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptText = LucideIconData(name: 'receipt-text',paths: ['M13 16H8', 'M14 8H8', 'M16 12H8', 'M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'details', 'small print', 'terms', 'conditions', 'contract'],categories: ['finance', 'travel'],);
+  static const LucideIconData receiptTurkishLira = LucideIconData(name: 'receipt-turkish-lira',paths: ['M10 7v10a5 5 0 0 0 5-5', 'm14 8-6 3', 'M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z'],tags: ['bill', 'voucher', 'slip', 'check', 'counterfoil', 'currency', 'try', '₺'],categories: ['finance', 'travel'],);
+  static const LucideIconData rectangleCircle = LucideIconData(name: 'rectangle-circle',circles: [(14.0, 12.0, 8.0)],paths: ['M14 4v16H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z'],tags: ['compose', 'keyboard', 'key', 'button'],categories: ['development', 'text'],);
+  static const LucideIconData rectangleEllipsis = LucideIconData(name: 'rectangle-ellipsis',rects: [(2.0, 6.0, 20.0, 12.0, 2.0)],paths: ['M12 12h.01', 'M17 12h.01', 'M7 12h.01'],tags: ['login', 'password', 'authenticate', '2fa', 'field', 'fill', 'ellipsis', 'et cetera', 'etc', 'loader', 'loading', 'progress', 'pending', 'throbber', 'menu', 'options', 'operator', 'code', 'spread', 'rest', 'more', 'further', 'extra', 'overflow', 'dots', '…', '...'],categories: ['text', 'development'],);
+  static const LucideIconData rectangleGoggles = LucideIconData(name: 'rectangle-goggles',paths: ['M20 6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-4a2 2 0 0 1-1.6-.8l-1.6-2.13a1 1 0 0 0-1.6 0L9.6 17.2A2 2 0 0 1 8 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z'],tags: ['vr', 'virtual', 'augmented', 'reality', 'headset', 'goggles'],categories: ['devices', 'gaming', 'multimedia', 'connectivity'],);
+  static const LucideIconData rectangleHorizontal = LucideIconData(name: 'rectangle-horizontal',rects: [(2.0, 6.0, 20.0, 12.0, 2.0)],tags: ['rectangle', 'aspect ratio', '16:9', 'horizontal', 'shape'],categories: ['shapes', 'design'],);
+  static const LucideIconData rectangleVertical = LucideIconData(name: 'rectangle-vertical',rects: [(6.0, 2.0, 12.0, 20.0, 2.0)],tags: ['rectangle', 'aspect ratio', '9:16', 'vertical', 'shape'],categories: ['shapes', 'design'],);
+  static const LucideIconData recycle = LucideIconData(name: 'recycle',paths: ['M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5', 'M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12', 'm14 16-3 3 3 3', 'M8.293 13.596 7.196 9.5 3.1 10.598', 'm9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843', 'm13.378 9.633 4.096 1.098 1.097-4.096'],tags: ['sustainability', 'salvage', 'arrows'],categories: ['sustainability'],);
+  static const LucideIconData redo = LucideIconData(name: 'redo',paths: ['M21 7v6h-6', 'M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7'],tags: ['undo', 'rerun', 'history'],categories: ['text', 'arrows'],);
+  static const LucideIconData redo2 = LucideIconData(name: 'redo-2',paths: ['m15 14 5-5-5-5', 'M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13'],tags: ['undo', 'rerun', 'history'],categories: ['text', 'arrows'],);
+  static const LucideIconData redoDot = LucideIconData(name: 'redo-dot',circles: [(12.0, 17.0, 1.0)],paths: ['M21 7v6h-6', 'M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7'],tags: ['redo', 'history', 'step', 'over', 'forward'],categories: ['text', 'arrows'],);
+  static const LucideIconData refreshCcw = LucideIconData(name: 'refresh-ccw',paths: ['M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8', 'M3 3v5h5', 'M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16', 'M16 16h5v5'],tags: ['arrows', 'rotate', 'reload', 'rerun', 'synchronise', 'synchronize', 'circular', 'cycle'],categories: ['arrows'],);
+  static const LucideIconData refreshCcwDot = LucideIconData(name: 'refresh-ccw-dot',circles: [(12.0, 12.0, 1.0)],paths: ['M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8', 'M3 3v5h5', 'M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16', 'M16 16h5v5'],tags: ['arrows', 'rotate', 'reload', 'synchronise', 'synchronize', 'circular', 'cycle', 'issue', 'code', 'coding', 'version control'],categories: ['arrows', 'development'],);
+  static const LucideIconData refreshCw = LucideIconData(name: 'refresh-cw',paths: ['M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8', 'M21 3v5h-5', 'M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16', 'M8 16H3v5'],tags: ['rotate', 'reload', 'rerun', 'synchronise', 'synchronize', 'arrows', 'circular', 'cycle'],categories: ['arrows'],);
+  static const LucideIconData refreshCwOff = LucideIconData(name: 'refresh-cw-off',paths: ['M21 8L18.74 5.74A9.75 9.75 0 0 0 12 3C11 3 10.03 3.16 9.13 3.47', 'M8 16H3v5', 'M3 12C3 9.51 4 7.26 5.64 5.64', 'm3 16 2.26 2.26A9.75 9.75 0 0 0 12 21c2.49 0 4.74-1 6.36-2.64', 'M21 12c0 1-.16 1.97-.47 2.87', 'M21 3v5h-5', 'M22 22 2 2'],tags: ['rotate', 'reload', 'rerun', 'synchronise', 'synchronize', 'arrows', 'circular', 'cycle', 'cancel', 'no', 'stop', 'error', 'disconnect', 'ignore'],categories: ['arrows'],);
+  static const LucideIconData refrigerator = LucideIconData(name: 'refrigerator',paths: ['M5 6a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6Z', 'M5 10h14', 'M15 7v6'],tags: ['frigerator', 'fridge', 'freezer', 'cooler', 'icebox', 'chiller', 'cold storage'],categories: ['food-beverage', 'home'],);
+  static const LucideIconData regex = LucideIconData(name: 'regex',paths: ['M17 3v10', 'm12.67 5.5 8.66 5', 'm12.67 10.5 8.66-5', 'M9 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2z'],tags: ['search', 'text', 'code'],categories: ['text', 'development'],);
+  static const LucideIconData removeFormatting = LucideIconData(name: 'remove-formatting',paths: ['M4 7V4h16v3', 'M5 20h6', 'M13 4 8 20', 'm15 15 5 5', 'm20 15-5 5'],tags: ['text', 'font', 'typography', 'format', 'x', 'remove', 'delete', 'times', 'clear'],categories: ['text'],);
+  static const LucideIconData repeat = LucideIconData(name: 'repeat',paths: ['m17 2 4 4-4 4', 'M3 11v-1a4 4 0 0 1 4-4h14', 'm7 22-4-4 4-4', 'M21 13v1a4 4 0 0 1-4 4H3'],tags: ['loop', 'arrows'],categories: ['arrows', 'multimedia'],);
+  static const LucideIconData repeat1 = LucideIconData(name: 'repeat-1',paths: ['m17 2 4 4-4 4', 'M3 11v-1a4 4 0 0 1 4-4h14', 'm7 22-4-4 4-4', 'M21 13v1a4 4 0 0 1-4 4H3', 'M11 10h1v4'],tags: ['replay'],categories: ['multimedia'],);
+  static const LucideIconData repeat2 = LucideIconData(name: 'repeat-2',paths: ['m2 9 3-3 3 3', 'M13 18H7a2 2 0 0 1-2-2V6', 'm22 15-3 3-3-3', 'M11 6h6a2 2 0 0 1 2 2v10'],tags: ['arrows', 'retweet', 'repost', 'share', 'repeat', 'loop'],categories: ['arrows', 'social', 'multimedia'],);
+  static const LucideIconData replace = LucideIconData(name: 'replace',paths: ['M14 4a1 1 0 0 1 1-1', 'M15 10a1 1 0 0 1-1-1', 'M21 4a1 1 0 0 0-1-1', 'M21 9a1 1 0 0 1-1 1', 'm3 7 3 3 3-3', 'M6 10V5a2 2 0 0 1 2-2h2'],tags: ['search', 'substitute', 'swap', 'change'],categories: ['text'],);
+  static const LucideIconData replaceAll = LucideIconData(name: 'replace-all',paths: ['M14 14a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1', 'M14 4a1 1 0 0 1 1-1', 'M15 10a1 1 0 0 1-1-1', 'M19 14a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1', 'M21 4a1 1 0 0 0-1-1', 'M21 9a1 1 0 0 1-1 1', 'm3 7 3 3 3-3', 'M6 10V5a2 2 0 0 1 2-2h2'],tags: ['search', 'substitute', 'swap', 'change'],categories: ['text'],);
+  static const LucideIconData reply = LucideIconData(name: 'reply',paths: ['M20 18v-2a4 4 0 0 0-4-4H4', 'm9 17-5-5 5-5'],tags: ['email'],categories: ['mail'],);
+  static const LucideIconData replyAll = LucideIconData(name: 'reply-all',paths: ['m12 17-5-5 5-5', 'M22 18v-2a4 4 0 0 0-4-4H7', 'm7 17-5-5 5-5'],tags: ['email'],categories: ['mail'],);
+  static const LucideIconData rewind = LucideIconData(name: 'rewind',paths: ['M12 6a2 2 0 0 0-3.414-1.414l-6 6a2 2 0 0 0 0 2.828l6 6A2 2 0 0 0 12 18z', 'M22 6a2 2 0 0 0-3.414-1.414l-6 6a2 2 0 0 0 0 2.828l6 6A2 2 0 0 0 22 18z'],tags: ['music'],categories: ['arrows', 'multimedia'],);
+  static const LucideIconData ribbon = LucideIconData(name: 'ribbon',paths: ['M12 11.22C11 9.997 10 9 10 8a2 2 0 0 1 4 0c0 1-.998 2.002-2.01 3.22', 'm12 18 2.57-3.5', 'M6.243 9.016a7 7 0 0 1 11.507-.009', 'M9.35 14.53 12 11.22', 'M9.35 14.53C7.728 12.246 6 10.221 6 7a6 5 0 0 1 12 0c-.005 3.22-1.778 5.235-3.43 7.5l3.557 4.527a1 1 0 0 1-.203 1.43l-1.894 1.36a1 1 0 0 1-1.384-.215L12 18l-2.679 3.593a1 1 0 0 1-1.39.213l-1.865-1.353a1 1 0 0 1-.203-1.422z'],tags: ['awareness', 'strip', 'band', 'tape', 'strap', 'cordon'],categories: ['social', 'medical', 'emoji'],);
+  static const LucideIconData road = LucideIconData(name: 'road',paths: ['M12 17v4', 'M12 5V3', 'M12 9v3', 'M2.077 18.449A2 2 0 0 0 4 21h16a2 2 0 0 0 1.924-2.55l-4-14A2 2 0 0 0 16 3H8a2 2 0 0 0-1.924 1.45z'],tags: ['road', 'street', 'highway', 'route', 'path', 'transport', 'traffic', 'drive', 'map'],categories: ['transportation'],);
+  static const LucideIconData rocket = LucideIconData(name: 'rocket',paths: ['M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5', 'M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09', 'M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z', 'M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05'],tags: ['release', 'boost', 'launch', 'space', 'version'],categories: ['gaming', 'development'],);
+  static const LucideIconData rockingChair = LucideIconData(name: 'rocking-chair',paths: ['m15 13 3.708 7.416', 'M3 19a15 15 0 0 0 18 0', 'm3 2 3.21 9.633A2 2 0 0 0 8.109 13H18', 'm9 13-3.708 7.416'],tags: ['chair', 'furniture', 'seat', 'comfort', 'relax'],categories: ['home'],);
+  static const LucideIconData rollerCoaster = LucideIconData(name: 'roller-coaster',paths: ['M6 19V5', 'M10 19V6.8', 'M14 19v-7.8', 'M18 5v4', 'M18 19v-6', 'M22 19V9', 'M2 19V9a4 4 0 0 1 4-4c2 0 4 1.33 6 4s4 4 6 4a4 4 0 1 0-3-6.65'],tags: ['attraction', 'entertainment', 'amusement park', 'theme park', 'funfair'],categories: ['navigation'],);
+  static const LucideIconData rose = LucideIconData(name: 'rose',circles: [(17.0, 8.0, 2.0)],paths: ['M17 10h-1a4 4 0 1 1 4-4v.534', 'M17 6h1a4 4 0 0 1 1.42 7.74l-2.29.87a6 6 0 0 1-5.339-10.68l2.069-1.31', 'M4.5 17c2.8-.5 4.4 0 5.5.8s1.8 2.2 2.3 3.7c-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2', 'M9.77 12C4 15 2 22 2 22'],tags: ['roses', 'thorns', 'petals', 'plant', 'stem', 'leaves', 'spring', 'bloom', 'blossom', 'gardening', 'botanical', 'flora', 'florist', 'bouquet', 'bunch', 'gift', 'date', 'romance', 'romantic', 'valentines day', 'special occasion'],categories: ['nature', 'seasons', 'sustainability', 'home', 'social'],);
+  static const LucideIconData rotate3d = LucideIconData(name: 'rotate-3d',paths: ['M16.466 7.5C15.643 4.237 13.952 2 12 2 9.239 2 7 6.477 7 12s2.239 10 5 10c.342 0 .677-.069 1-.2', 'm15.194 13.707 3.814 1.86-1.86 3.814', 'M19 15.57c-1.804.885-4.274 1.43-7 1.43-5.523 0-10-2.239-10-5s4.477-5 10-5c4.838 0 8.873 1.718 9.8 4'],tags: ['gizmo', 'transform', 'orientation', 'orbit', 'axis'],categories: ['design'],);
+  static const LucideIconData rotateCcw = LucideIconData(name: 'rotate-ccw',paths: ['M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8', 'M3 3v5h5'],tags: ['arrow', 'left', 'counter-clockwise', 'restart', 'reload', 'rerun', 'refresh', 'backup', 'undo', 'replay', 'redo', 'retry', 'rewind', 'reverse'],categories: ['arrows', 'design', 'photography'],);
+  static const LucideIconData rotateCcwKey = LucideIconData(name: 'rotate-ccw-key',circles: [(12.0, 15.0, 2.0)],paths: ['M12 7v6', 'M12 9h2', 'M3 12a9 9 0 1 0 9-9 9.74 9.74 0 0 0-6.74 2.74L3 8', 'M3 3v5h5'],tags: ['password', 'key', 'refresh', 'change'],categories: ['security', 'account'],);
+  static const LucideIconData rotateCcwSquare = LucideIconData(name: 'rotate-ccw-square',paths: ['M20 9V7a2 2 0 0 0-2-2h-6', 'm15 2-3 3 3 3', 'M20 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2'],tags: ['left', 'counter-clockwise', 'rotate', 'image', '90', '45', 'degrees', '°'],categories: ['layout', 'design', 'photography', 'tools', 'arrows'],);
+  static const LucideIconData rotateCw = LucideIconData(name: 'rotate-cw',paths: ['M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8', 'M21 3v5h-5'],tags: ['arrow', 'right', 'clockwise', 'refresh', 'reload', 'rerun', 'redo'],categories: ['arrows', 'design', 'photography'],);
+  static const LucideIconData rotateCwSquare = LucideIconData(name: 'rotate-cw-square',paths: ['M12 5H6a2 2 0 0 0-2 2v3', 'm9 8 3-3-3-3', 'M4 14v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2'],tags: ['right', 'clockwise', 'rotate', 'image', '90', '45', 'degrees', '°'],categories: ['layout', 'design', 'photography', 'tools', 'arrows'],);
+  static const LucideIconData route = LucideIconData(name: 'route',circles: [(6.0, 19.0, 3.0), (18.0, 5.0, 3.0)],paths: ['M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15'],tags: ['path', 'journey', 'planner', 'points', 'stops', 'stations'],categories: ['navigation'],);
+  static const LucideIconData routeOff = LucideIconData(name: 'route-off',circles: [(6.0, 19.0, 3.0), (18.0, 5.0, 3.0)],paths: ['M9 19h8.5c.4 0 .9-.1 1.3-.2', 'M5.2 5.2A3.5 3.53 0 0 0 6.5 12H12', 'm2 2 20 20', 'M21 15.3a3.5 3.5 0 0 0-3.3-3.3', 'M15 5h-4.3'],tags: ['path', 'journey', 'planner', 'points', 'stops', 'stations', 'reset', 'clear', 'cancelled', 'closed', 'blocked'],categories: ['navigation'],);
+  static const LucideIconData router = LucideIconData(name: 'router',rects: [(2.0, 14.0, 20.0, 8.0, 2.0)],paths: ['M6.01 18H6', 'M10.01 18H10', 'M15 10v4', 'M17.84 7.17a4 4 0 0 0-5.66 0', 'M20.66 4.34a8 8 0 0 0-11.31 0'],tags: ['computer', 'server', 'cloud'],categories: ['development', 'devices', 'connectivity', 'home'],);
+  static const LucideIconData rows2 = LucideIconData(name: 'rows-2',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 12h18'],tags: ['lines', 'list', 'queue', 'preview', 'panel', 'paragraphs', 'parallel', 'series', 'split', 'vertical', 'horizontal', 'half', 'center', 'middle', 'even', 'drawer'],categories: ['layout', 'design', 'text'],);
+  static const LucideIconData rows3 = LucideIconData(name: 'rows-3',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M21 9H3', 'M21 15H3'],tags: ['lines', 'list', 'queue', 'preview', 'paragraphs', 'parallel', 'series', 'split', 'vertical', 'horizontal', 'half', 'center', 'middle', 'even', 'drawers'],categories: ['layout', 'design', 'text'],);
+  static const LucideIconData rows4 = LucideIconData(name: 'rows-4',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M21 7.5H3', 'M21 12H3', 'M21 16.5H3'],tags: ['lines', 'list', 'queue', 'preview', 'paragraphs', 'parallel', 'series', 'split', 'vertical', 'horizontal', 'half', 'center', 'middle', 'even', 'drawers', 'grill'],categories: ['layout', 'design', 'text'],);
+  static const LucideIconData rss = LucideIconData(name: 'rss',circles: [(5.0, 19.0, 1.0)],paths: ['M4 11a9 9 0 0 1 9 9', 'M4 4a16 16 0 0 1 16 16'],tags: ['feed', 'subscribe', 'news', 'updates', 'notifications', 'content', 'blog', 'articles', 'broadcast', 'syndication', 'reader', 'channels', 'posts', 'publishing', 'digest', 'alert', 'following', 'inbox', 'newsletter', 'weblog', 'podcast'],categories: ['development', 'social'],);
+  static const LucideIconData ruler = LucideIconData(name: 'ruler',paths: ['M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z', 'm14.5 12.5 2-2', 'm11.5 9.5 2-2', 'm8.5 6.5 2-2', 'm17.5 15.5 2-2'],tags: ['measurements', 'centimeters', 'cm', 'millimeters', 'mm', 'metre', 'foot', 'feet', 'inches', 'units', 'size', 'length', 'width', 'height', 'dimensions', 'depth', 'breadth', 'extent', 'stationery'],categories: ['tools', 'design', 'layout'],);
+  static const LucideIconData rulerDimensionLine = LucideIconData(name: 'ruler-dimension-line',paths: ['M10 15v-3', 'M14 15v-3', 'M18 15v-3', 'M2 8V4', 'M22 6H2', 'M22 8V4', 'M6 15v-3'],tags: ['measurements', 'centimeters', 'cm', 'millimeters', 'mm', 'metre', 'foot', 'feet', 'inches', 'units', 'size', 'length', 'width', 'height', 'dimensions', 'depth', 'breadth', 'extent', 'stationery'],categories: ['tools', 'design', 'layout'],);
+  static const LucideIconData russianRuble = LucideIconData(name: 'russian-ruble',paths: ['M6 11h8a4 4 0 0 0 0-8H9v18', 'M6 15h8'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData sailboat = LucideIconData(name: 'sailboat',paths: ['M10 2v15', 'M7 22a4 4 0 0 1-4-4 1 1 0 0 1 1-1h16a1 1 0 0 1 1 1 4 4 0 0 1-4 4z', 'M9.159 2.46a1 1 0 0 1 1.521-.193l9.977 8.98A1 1 0 0 1 20 13H4a1 1 0 0 1-.824-1.567z'],tags: ['ship', 'boat', 'harbor', 'harbour', 'dock'],categories: ['transportation', 'travel'],);
+  static const LucideIconData salad = LucideIconData(name: 'salad',paths: ['M7 21h10', 'M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z', 'M11.38 12a2.4 2.4 0 0 1-.4-4.77 2.4 2.4 0 0 1 3.2-2.77 2.4 2.4 0 0 1 3.47-.63 2.4 2.4 0 0 1 3.37 3.37 2.4 2.4 0 0 1-1.1 3.7 2.51 2.51 0 0 1 .03 1.1', 'm13 12 4-4', 'M10.9 7.25A3.99 3.99 0 0 0 4 10c0 .73.2 1.41.54 2'],tags: ['food', 'vegetarian', 'dish', 'restaurant', 'course', 'meal', 'side', 'vegetables', 'health'],categories: ['food-beverage', 'emoji'],);
+  static const LucideIconData sandwich = LucideIconData(name: 'sandwich',rects: [(2.0, 11.0, 20.0, 4.0, 1.0)],paths: ['m2.37 11.223 8.372-6.777a2 2 0 0 1 2.516 0l8.371 6.777', 'M21 15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.25', 'M3 15a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h9', 'm6.67 15 6.13 4.6a2 2 0 0 0 2.8-.4l3.15-4.2'],tags: ['food', 'snack', 'dish', 'restaurant', 'lunch', 'meal'],categories: ['food-beverage'],);
+  static const LucideIconData satellite = LucideIconData(name: 'satellite',paths: ['m13.5 6.5-3.148-3.148a1.205 1.205 0 0 0-1.704 0L6.352 5.648a1.205 1.205 0 0 0 0 1.704L9.5 10.5', 'M16.5 7.5 19 5', 'm17.5 10.5 3.148 3.148a1.205 1.205 0 0 1 0 1.704l-2.296 2.296a1.205 1.205 0 0 1-1.704 0L13.5 14.5', 'M9 21a6 6 0 0 0-6-6', 'M9.352 10.648a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l4.296-4.296a1.205 1.205 0 0 0 0-1.704l-2.296-2.296a1.205 1.205 0 0 0-1.704 0z'],tags: ['space station', 'orbit', 'transmitter'],categories: ['connectivity', 'science'],);
+  static const LucideIconData satelliteDish = LucideIconData(name: 'satellite-dish',paths: ['M4 10a7.31 7.31 0 0 0 10 10Z', 'm9 15 3-3', 'M17 13a6 6 0 0 0-6-6', 'M21 13A10 10 0 0 0 11 3'],tags: ['antenna', 'receiver', 'dish aerial', 'saucer'],categories: ['connectivity', 'devices', 'multimedia'],);
+  static const LucideIconData saudiRiyal = LucideIconData(name: 'saudi-riyal',paths: ['m20 19.5-5.5 1.2', 'M14.5 4v11.22a1 1 0 0 0 1.242.97L20 15.2', 'm2.978 19.351 5.549-1.363A2 2 0 0 0 10 16V2', 'M20 10 4 13.5'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData save = LucideIconData(name: 'save',paths: ['M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z', 'M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7', 'M7 3v4a1 1 0 0 0 1 1h7'],tags: ['floppy disk'],categories: ['text', 'files'],);
+  static const LucideIconData saveAll = LucideIconData(name: 'save-all',paths: ['M10 2v3a1 1 0 0 0 1 1h5', 'M18 18v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6', 'M18 22H4a2 2 0 0 1-2-2V6', 'M8 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9.172a2 2 0 0 1 1.414.586l2.828 2.828A2 2 0 0 1 22 6.828V16a2 2 0 0 1-2.01 2z'],tags: ['floppy disks', 'copy'],categories: ['text', 'files'],);
+  static const LucideIconData saveOff = LucideIconData(name: 'save-off',paths: ['M13 13H8a1 1 0 0 0-1 1v7', 'M14 8h1', 'M17 21v-4', 'm2 2 20 20', 'M20.41 20.41A2 2 0 0 1 19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 .59-1.41', 'M29.5 11.5s5 5 4 5', 'M9 3h6.2a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V15'],tags: ['floppy disk', 'unsalvageable'],categories: ['text', 'files'],);
+  static const LucideIconData scale = LucideIconData(name: 'scale',paths: ['M12 3v18', 'm19 8 3 8a5 5 0 0 1-6 0zV7', 'M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1', 'm5 8 3 8a5 5 0 0 1-6 0zV7', 'M7 21h10'],tags: ['balance', 'legal', 'license', 'right', 'rule', 'law', 'justice', 'weight', 'measure', 'compare', 'judge', 'fair', 'ethics', 'decision'],categories: ['navigation', 'science', 'finance'],);
+  static const LucideIconData scale3d = LucideIconData(name: 'scale-3d',circles: [(19.0, 19.0, 2.0), (5.0, 5.0, 2.0)],paths: ['M5 7v11a1 1 0 0 0 1 1h11', 'M5.293 18.707 11 13'],tags: ['gizmo', 'transform', 'size', 'axis'],categories: ['design'],);
+  static const LucideIconData scaling = LucideIconData(name: 'scaling',paths: ['M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7', 'M14 15H9v-5', 'M16 3h5v5', 'M21 3 9 15'],tags: ['scale', 'resize', 'design'],categories: ['design'],);
+  static const LucideIconData scan = LucideIconData(name: 'scan',paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2'],tags: ['qr-code', 'barcode', 'checkout', 'augmented reality', 'ar', 'target', 'surveillance', 'camera', 'lens', 'focus', 'frame', 'select', 'box', 'boundary', 'bounds', 'area', 'square', 'dashed'],categories: ['devices', 'shopping', 'security', 'social', 'gaming'],);
+  static const LucideIconData scanBarcode = LucideIconData(name: 'scan-barcode',paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2', 'M8 7v10', 'M12 7v10', 'M17 7v10'],tags: ['checkout', 'till', 'cart', 'transaction', 'purchase', 'buy', 'product', 'packaging', 'retail', 'consumer'],categories: ['shopping', 'devices'],);
+  static const LucideIconData scanEye = LucideIconData(name: 'scan-eye',circles: [(12.0, 12.0, 1.0)],paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2', 'M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0'],tags: ['preview', 'zoom', 'expand', 'fullscreen', 'gallery', 'image', 'camera', 'watch', 'surveillance', 'retina', 'focus', 'lens', 'biometric', 'identification', 'authentication', 'access', 'login'],categories: ['photography', 'multimedia', 'accessibility', 'security', 'devices', 'account'],);
+  static const LucideIconData scanFace = LucideIconData(name: 'scan-face',paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2', 'M8 14s1.5 2 4 2 4-2 4-2', 'M9 9h.01', 'M15 9h.01'],tags: ['face', 'biometric', 'identification', 'authentication', '2fa', 'access', 'login', 'dashed'],categories: ['account', 'security', 'devices', 'social'],);
+  static const LucideIconData scanHeart = LucideIconData(name: 'scan-heart',paths: ['M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M3 7V5a2 2 0 0 1 2-2h2', 'M7 21H5a2 2 0 0 1-2-2v-2', 'M7.828 13.07A3 3 0 0 1 12 8.764a3 3 0 0 1 4.172 4.306l-3.447 3.62a1 1 0 0 1-1.449 0z'],tags: ['health', 'heart rate', 'pulse', 'monitoring', 'healthiness', 'screening', 'dashed'],categories: ['medical'],);
+  static const LucideIconData scanLine = LucideIconData(name: 'scan-line',paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2', 'M7 12h10'],tags: ['checkout', 'till', 'cart', 'transaction', 'purchase', 'buy', 'product', 'packaging', 'retail', 'consumer', 'qr-code', 'dashed'],categories: ['devices', 'shopping'],);
+  static const LucideIconData scanQrCode = LucideIconData(name: 'scan-qr-code',paths: ['M17 12v4a1 1 0 0 1-1 1h-4', 'M17 3h2a2 2 0 0 1 2 2v2', 'M17 8V7', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M3 7V5a2 2 0 0 1 2-2h2', 'M7 17h.01', 'M7 21H5a2 2 0 0 1-2-2v-2'],tags: ['barcode', 'scan', 'qrcode', 'url', 'information', 'digital', 'scanner'],categories: ['account', 'shopping', 'devices', 'security'],);
+  static const LucideIconData scanSearch = LucideIconData(name: 'scan-search',circles: [(12.0, 12.0, 3.0)],paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2', 'm16 16-1.9-1.9'],tags: ['preview', 'zoom', 'expand', 'fullscreen', 'gallery', 'image', 'focus', 'lens'],categories: ['photography', 'multimedia', 'accessibility'],);
+  static const LucideIconData scanText = LucideIconData(name: 'scan-text',paths: ['M3 7V5a2 2 0 0 1 2-2h2', 'M17 3h2a2 2 0 0 1 2 2v2', 'M21 17v2a2 2 0 0 1-2 2h-2', 'M7 21H5a2 2 0 0 1-2-2v-2', 'M7 8h8', 'M7 12h10', 'M7 16h6'],tags: ['recognition', 'read', 'translate', 'copy', 'lines'],categories: ['text', 'devices'],);
+  static const LucideIconData school = LucideIconData(name: 'school',circles: [(12.0, 9.0, 2.0)],paths: ['M14 21v-3a2 2 0 0 0-4 0v3', 'M18 4.933V21', 'm4 6 7.106-3.79a2 2 0 0 1 1.788 0L20 6', 'm6 11-3.52 2.147a1 1 0 0 0-.48.854V19a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a1 1 0 0 0-.48-.853L18 11', 'M6 4.933V21'],tags: ['building', 'education', 'childhood', 'university', 'learning', 'campus', 'scholar', 'student', 'lecture', 'degree', 'course', 'academia', 'study', 'knowledge', 'classroom', 'research', 'diploma', 'graduation', 'professor', 'tutorial', 'homework', 'assignment', 'exam'],categories: ['buildings', 'navigation'],);
+  static const LucideIconData scissors = LucideIconData(name: 'scissors',circles: [(6.0, 6.0, 3.0), (6.0, 18.0, 3.0)],paths: ['M8.12 8.12 12 12', 'M20 4 8.12 15.88', 'M14.8 14.8 20 20'],tags: ['cut', 'snip', 'chop', 'stationery', 'crafts'],categories: ['text', 'design', 'tools'],);
+  static const LucideIconData scissorsLineDashed = LucideIconData(name: 'scissors-line-dashed',circles: [(4.0, 8.0, 2.0), (4.0, 16.0, 2.0)],paths: ['M5.42 9.42 8 12', 'm14 6-8.58 8.58', 'M10.8 14.8 14 18', 'M16 12h-2', 'M22 12h-2'],tags: ['cut here', 'along', 'snip', 'chop', 'stationery', 'crafts', 'instructions', 'diagram'],categories: ['design', 'tools'],);
+  static const LucideIconData scooter = LucideIconData(name: 'scooter',circles: [(19.5, 17.5, 2.5), (4.5, 17.5, 2.5)],paths: ['M21 4h-3.5l2 11.05', 'M6.95 17h5.142c.523 0 .95-.406 1.063-.916a6.5 6.5 0 0 1 5.345-5.009'],tags: ['vehicle', 'drive', 'trip', 'journey', 'transport', 'electric', 'ride', 'urban', 'commute', 'speed'],categories: ['transportation'],);
+  static const LucideIconData screenShare = LucideIconData(name: 'screen-share',paths: ['M13 3H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-3', 'M8 21h8', 'M12 17v4', 'm17 8 5-5', 'M17 3h5v5'],tags: ['host', 'desktop', 'monitor'],categories: ['connectivity', 'devices', 'communication'],);
+  static const LucideIconData screenShareOff = LucideIconData(name: 'screen-share-off',paths: ['M13 3H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-3', 'M8 21h8', 'M12 17v4', 'm22 3-5 5', 'm17 3 5 5'],tags: ['desktop', 'disconnect', 'monitor'],categories: ['connectivity', 'devices', 'communication'],);
+  static const LucideIconData scroll = LucideIconData(name: 'scroll',paths: ['M19 17V5a2 2 0 0 0-2-2H4', 'M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3'],tags: ['paper', 'log', 'scripture', 'document', 'notes', 'parchment', 'list', 'long', 'script', 'story', 'code', 'coding'],categories: ['gaming', 'development', 'text'],);
+  static const LucideIconData scrollText = LucideIconData(name: 'scroll-text',paths: ['M15 12h-5', 'M15 8h-5', 'M19 17V5a2 2 0 0 0-2-2H4', 'M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3'],tags: ['paper', 'log', 'scripture', 'document', 'notes', 'parchment', 'list', 'long', 'script', 'story', 'code', 'coding'],categories: ['gaming', 'development', 'text'],);
+  static const LucideIconData search = LucideIconData(name: 'search',circles: [(11.0, 11.0, 8.0)],paths: ['m21 21-4.34-4.34'],tags: ['find', 'scan', 'magnifier', 'magnifying glass', 'lens'],categories: ['text', 'social'],);
+  static const LucideIconData searchAlert = LucideIconData(name: 'search-alert',circles: [(11.0, 11.0, 8.0)],paths: ['m21 21-4.3-4.3', 'M11 7v4', 'M11 15h.01'],tags: ['find', 'scan', 'magnifier', 'magnifying glass', 'stop', 'warning', 'alert', 'error', 'anomaly', 'lens'],categories: ['text', 'social'],);
+  static const LucideIconData searchCheck = LucideIconData(name: 'search-check',circles: [(11.0, 11.0, 8.0)],paths: ['m8 11 2 2 4-4', 'm21 21-4.3-4.3'],tags: ['find', 'scan', 'magnifier', 'magnifying glass', 'found', 'correct', 'complete', 'tick', 'lens'],categories: ['text', 'social'],);
+  static const LucideIconData searchCode = LucideIconData(name: 'search-code',circles: [(11.0, 11.0, 8.0)],paths: ['m13 13.5 2-2.5-2-2.5', 'm21 21-4.3-4.3', 'M9 8.5 7 11l2 2.5'],tags: ['find', 'scan', 'magnifier', 'magnifying glass', 'grep', 'chevrons', '<>', 'lens'],categories: ['text', 'social', 'development'],);
+  static const LucideIconData searchSlash = LucideIconData(name: 'search-slash',circles: [(11.0, 11.0, 8.0)],paths: ['m13.5 8.5-5 5', 'm21 21-4.3-4.3'],tags: ['find', 'scan', 'magnifier', 'magnifying glass', 'stop', 'clear', 'cancel', 'abort', '/', 'lens'],categories: ['text', 'social'],);
+  static const LucideIconData searchX = LucideIconData(name: 'search-x',circles: [(11.0, 11.0, 8.0)],paths: ['m13.5 8.5-5 5', 'm8.5 8.5 5 5', 'm21 21-4.3-4.3'],tags: ['find', 'scan', 'magnifier', 'magnifying glass', 'stop', 'clear', 'cancel', 'abort', 'lens'],categories: ['text', 'social'],);
+  static const LucideIconData section = LucideIconData(name: 'section',paths: ['M16 5a4 3 0 0 0-8 0c0 4 8 3 8 7a4 3 0 0 1-8 0', 'M8 19a4 3 0 0 0 8 0c0-4-8-3-8-7a4 3 0 0 1 8 0'],tags: ['mark', 'typography', 'punctuation', 'legal', 'type', 'text', 'prose', 'symbol'],categories: ['text'],);
+  static const LucideIconData send = LucideIconData(name: 'send',paths: ['M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z', 'm21.854 2.147-10.94 10.939'],tags: ['email', 'message', 'mail', 'paper airplane', 'paper aeroplane', 'submit'],categories: ['mail', 'communication', 'connectivity'],);
+  static const LucideIconData sendHorizontal = LucideIconData(name: 'send-horizontal',paths: ['M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z', 'M6 12h16'],tags: ['email', 'message', 'mail', 'paper airplane', 'paper aeroplane', 'submit'],categories: ['mail', 'communication', 'connectivity'],);
+  static const LucideIconData sendToBack = LucideIconData(name: 'send-to-back',paths: ['M7 14v1a2 2 0 0 0 2 2h1', 'M14 7h1a2 2 0 0 1 2 2v1'],tags: ['bring', 'send', 'move', 'under', 'back', 'backwards', 'overlap', 'layer', 'order'],categories: ['design', 'layout'],);
+  static const LucideIconData separatorHorizontal = LucideIconData(name: 'separator-horizontal',paths: ['m16 16-4 4-4-4', 'M3 12h18', 'm8 8 4-4 4 4'],tags: ['move', 'split'],categories: ['text', 'arrows', 'layout'],);
+  static const LucideIconData separatorVertical = LucideIconData(name: 'separator-vertical',paths: ['M12 3v18', 'm16 16 4-4-4-4', 'm8 8-4 4 4 4'],tags: ['move', 'split'],categories: ['text', 'arrows', 'layout'],);
+  static const LucideIconData server = LucideIconData(name: 'server',rects: [(2.0, 2.0, 20.0, 8.0, 2.0), (2.0, 14.0, 20.0, 8.0, 2.0)],tags: ['cloud', 'storage'],categories: ['development', 'devices'],);
+  static const LucideIconData serverCog = LucideIconData(name: 'server-cog',paths: ['m10.852 14.772-.383.923', 'M13.148 14.772a3 3 0 1 0-2.296-5.544l-.383-.923', 'm13.148 9.228.383-.923', 'm13.53 15.696-.382-.924a3 3 0 1 1-2.296-5.544', 'm14.772 10.852.923-.383', 'm14.772 13.148.923.383', 'M4.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-.5', 'M4.5 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-.5', 'M6 18h.01', 'M6 6h.01', 'm9.228 10.852-.923-.383', 'm9.228 13.148-.923.383'],tags: ['cloud', 'storage', 'computing', 'cog', 'gear'],categories: ['development', 'devices'],);
+  static const LucideIconData serverCrash = LucideIconData(name: 'server-crash',paths: ['M6 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2', 'M6 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2', 'M6 6h.01', 'M6 18h.01', 'm13 6-4 6h6l-4 6'],tags: ['cloud', 'storage', 'problem', 'error'],categories: ['development', 'devices'],);
+  static const LucideIconData serverOff = LucideIconData(name: 'server-off',paths: ['M7 2h13a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-5', 'M10 10 2.5 2.5C2 2 2 2.5 2 5v3a2 2 0 0 0 2 2h6z', 'M22 17v-1a2 2 0 0 0-2-2h-1', 'M4 14a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16.5l1-.5.5.5-8-8H4z', 'M6 18h.01', 'm2 2 20 20'],tags: ['cloud', 'storage'],categories: ['development', 'devices'],);
+  static const LucideIconData settings = LucideIconData(name: 'settings',circles: [(12.0, 12.0, 3.0)],paths: ['M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915'],tags: ['cog', 'edit', 'gear', 'preferences'],categories: ['account'],);
+  static const LucideIconData settings2 = LucideIconData(name: 'settings-2',circles: [(17.0, 17.0, 3.0), (7.0, 7.0, 3.0)],paths: ['M14 17H5', 'M19 7h-9'],tags: ['cog', 'edit', 'gear', 'preferences', 'slider'],categories: ['account'],);
+  static const LucideIconData shapes = LucideIconData(name: 'shapes',circles: [(17.5, 17.5, 3.5)],paths: ['M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z'],tags: ['triangle', 'equilateral', 'square', 'circle', 'classification', 'different', 'collection', 'toy', 'blocks', 'learning'],categories: ['shapes', 'gaming'],);
+  static const LucideIconData share = LucideIconData(name: 'share',paths: ['M12 2v13', 'm16 6-4-4-4 4', 'M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8'],tags: ['network', 'connections'],categories: ['account', 'social'],);
+  static const LucideIconData share2 = LucideIconData(name: 'share-2',circles: [(18.0, 5.0, 3.0), (6.0, 12.0, 3.0), (18.0, 19.0, 3.0)],tags: ['network', 'connections'],categories: ['account', 'social'],);
+  static const LucideIconData sheet = LucideIconData(name: 'sheet',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],tags: ['spreadsheets', 'table', 'excel'],categories: ['text', 'files'],);
+  static const LucideIconData shell = LucideIconData(name: 'shell',paths: ['M14 11a2 2 0 1 1-4 0 4 4 0 0 1 8 0 6 6 0 0 1-12 0 8 8 0 0 1 16 0 10 10 0 1 1-20 0 11.93 11.93 0 0 1 2.42-7.22 2 2 0 1 1 3.16 2.44'],tags: ['beach', 'sand', 'holiday', 'sealife', 'fossil', 'ammonite', 'biology', 'ocean', 'terminal', 'command line', 'session', 'bash', 'zsh', 'roll', 'wrap', 'chewing gum', 'bubble gum', 'sweet', 'sugar', 'hosepipe', 'carpet', 'string', 'spiral', 'spinner', 'hypnotise', 'hypnosis'],categories: ['animals', 'development', 'nature', 'science', 'travel', 'food-beverage', 'home'],);
+  static const LucideIconData shelvingUnit = LucideIconData(name: 'shelving-unit',paths: ['M12 12V9a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3', 'M16 20v-3a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3', 'M20 22V2', 'M4 12h16', 'M4 20h16', 'M4 2v20', 'M4 4h16'],tags: ['ledge', 'rack', 'storage', 'inventory', 'furniture', 'sill', 'shelves', 'shelf', 'organize', 'display', 'store', 'arrange', 'unit', 'cabinet', 'fixture', 'retail', 'warehouse'],categories: ['home'],);
+  static const LucideIconData shield = LucideIconData(name: 'shield',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z'],tags: ['cybersecurity', 'secure', 'safety', 'protection', 'guardian', 'armored', 'armoured', 'defense', 'defence', 'defender', 'block', 'threat', 'prevention', 'antivirus', 'vigilance', 'vigilant', 'detection', 'scan', 'find', 'strength', 'strong', 'tough', 'invincible', 'invincibility', 'invulnerable', 'undamaged', 'audit', 'admin', 'verification', 'crest', 'bravery', 'knight', 'foot soldier', 'infantry', 'trooper', 'pawn', 'battle', 'war', 'military', 'army', 'cadet', 'scout'],categories: ['account', 'security', 'development', 'gaming', 'shapes'],);
+  static const LucideIconData shieldAlert = LucideIconData(name: 'shield-alert',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'M12 8v4', 'M12 16h.01'],tags: ['unshielded', 'cybersecurity', 'insecure', 'unsecured', 'safety', 'unsafe', 'protection', 'unprotected', 'guardian', 'unguarded', 'unarmored', 'unarmoured', 'defenseless', 'defenceless', 'undefended', 'defender', 'blocked', 'stopped', 'intercepted', 'interception', 'saved', 'thwarted', 'threat', 'prevention', 'unprevented', 'antivirus', 'vigilance', 'vigilant', 'detection', 'detected', 'scanned', 'found', 'exploit', 'vulnerability', 'vulnerable', 'weakness', 'infection', 'infected', 'comprimised', 'data leak', 'audited', 'admin', 'verification', 'unverified', 'uncertified', 'warning', 'emergency', 'attention', 'urgent', 'alarm', 'crest', 'bravery', 'strength', 'tough', 'attacked', 'damaged', 'injured', 'hit', 'expired', 'disabled', 'inactive', 'error', 'exclamation mark', '!'],categories: ['account', 'security', 'development', 'notifications', 'gaming'],);
+  static const LucideIconData shieldBan = LucideIconData(name: 'shield-ban',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'm4.243 5.21 14.39 12.472'],tags: ['unshielded', 'cybersecurity', 'insecure', 'unsecured', 'safety', 'unsafe', 'protection', 'unprotected', 'guardian', 'unguarded', 'unarmored', 'unarmoured', 'defenseless', 'defenceless', 'undefended', 'defender', 'blocked', 'stopped', 'intercepted', 'interception', 'saved', 'thwarted', 'threat', 'prevention', 'unprevented', 'antivirus', 'vigilance', 'vigilant', 'detection', 'detected', 'scanned', 'found', 'exploit', 'vulnerability', 'vulnerable', 'weakness', 'infection', 'infected', 'comprimised', 'data leak', 'audited', 'admin', 'verification', 'unverified', 'uncertified', 'cancel', 'error', 'crest', 'bravery', 'attacked', 'damaged', 'injured', 'hit', 'expired', 'eliminated', 'disabled', 'inactive', '/'],categories: ['account', 'security', 'development', 'gaming'],);
+  static const LucideIconData shieldCheck = LucideIconData(name: 'shield-check',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'm9 12 2 2 4-4'],tags: ['cybersecurity', 'secured', 'safety', 'protection', 'protected', 'guardian', 'guarded', 'armored', 'armoured', 'defense', 'defence', 'defended', 'blocked', 'threat', 'prevention', 'prevented', 'antivirus', 'vigilance', 'vigilant', 'active', 'activated', 'enabled', 'detection', 'scanned', 'found', 'strength', 'strong', 'tough', 'invincible', 'invincibility', 'invulnerable', 'undamaged', 'audited', 'admin', 'verification', 'verified', 'certification', 'certified', 'tested', 'passed', 'qualified', 'cleared', 'cleaned', 'disinfected', 'uninfected', 'task', 'completed', 'todo', 'done', 'ticked', 'checked', 'crest', 'bravery'],categories: ['account', 'security', 'development', 'gaming'],);
+  static const LucideIconData shieldCog = LucideIconData(name: 'shield-cog',circles: [(12.077, 11.695, 3.0)],paths: ['m10.929 14.467-.383.924', 'M10.929 8.923 10.546 8', 'M13.225 8.923 13.608 8', 'm13.607 15.391-.382-.924', 'm14.849 10.547.923-.383', 'm14.849 12.843.923.383', 'M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'm9.305 10.547-.923-.383', 'm9.305 12.843-.923.383'],tags: ['cybersecurity', 'secure', 'safety', 'protection', 'guardian', 'armored', 'armoured', 'defense', 'defence', 'defender', 'block', 'threat', 'prevention', 'antivirus', 'vigilance', 'vigilant', 'detection', 'scan', 'find', 'strength', 'strong', 'tough', 'invincible', 'invincibility', 'invulnerable', 'undamaged', 'audit', 'admin', 'verification', 'crest', 'bravery', 'knight', 'foot soldier', 'infantry', 'trooper', 'pawn', 'battle', 'war', 'military', 'army', 'cadet', 'scout'],categories: ['account', 'security', 'development', 'gaming', 'shapes'],);
+  static const LucideIconData shieldCogCorner = LucideIconData(name: 'shield-cog-corner',circles: [(17.695, 17.695, 3.0)],paths: ['M11 22c-3.806-1.45-7-3.966-7-9V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v4', 'M14.923 16.547 14 16.164', 'm14.923 18.843-.923.383', 'M16.547 14.923 16.164 14', 'm16.547 20.467-.383.924', 'm18.843 14.923.383-.923', 'm19.225 21.391-.382-.924', 'm20.467 16.547.923-.383', 'm20.467 18.843.923.383'],tags: ['cybersecurity', 'secure', 'safety', 'protection', 'guardian', 'armored', 'armoured', 'defense', 'defence', 'defender', 'block', 'threat', 'prevention', 'antivirus', 'vigilance', 'vigilant', 'detection', 'scan', 'find', 'strength', 'strong', 'tough', 'invincible', 'invincibility', 'invulnerable', 'undamaged', 'audit', 'admin', 'verification', 'crest', 'shieldcog', 'bravery', 'knight', 'foot soldier', 'infantry', 'trooper', 'pawn', 'battle', 'war', 'military', 'army', 'cadet', 'scout'],categories: ['account', 'security', 'development', 'gaming', 'shapes'],);
+  static const LucideIconData shieldEllipsis = LucideIconData(name: 'shield-ellipsis',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'M8 12h.01', 'M12 12h.01', 'M16 12h.01'],tags: ['cybersecurity', 'securing', 'protecting', 'guarding', 'armoring', 'armouring', 'defending', 'blocking', 'preventing', 'antivirus', 'detecting', 'scanning', 'finding', 'auditing', 'admin', 'verifying', 'crest', 'upgrading', 'loader', 'loading', 'throbber', 'progress', 'dots', 'more', 'etc', '...', '…'],categories: ['account', 'security', 'development', 'gaming'],);
+  static const LucideIconData shieldHalf = LucideIconData(name: 'shield-half',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'M12 22V2'],tags: ['cybersecurity', 'secure', 'safety', 'protection', 'guardian', 'armored', 'armoured', 'defense', 'defence', 'defender', 'block', 'threat', 'prevention', 'antivirus', 'vigilance', 'vigilant', 'detection', 'scan', 'strength', 'strong', 'tough', 'invincible', 'invincibility', 'invulnerable', 'undamaged', 'audit', 'admin', 'verification', 'crest', 'logo', 'sigil', 'flag', 'team', 'faction', 'fraternity', 'university', 'college', 'academy', 'school', 'education', 'uniform', 'bravery', 'knight', 'foot soldier', 'infantry', 'trooper', 'pawn', 'battle', 'war', 'military', 'ranking', 'army', 'cadet', 'scout'],categories: ['account', 'security', 'development', 'gaming'],);
+  static const LucideIconData shieldMinus = LucideIconData(name: 'shield-minus',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'M9 12h6'],tags: ['unshield', 'cybersecurity', 'unsecure', 'unguard', 'unblock', 'antivirus', 'clean', 'clear', 'disinfect', 'patch', 'fix', 'stop', 'cancel', 'remove', 'relax', 'admin', 'crest', 'bravery', 'weakened', 'damaged', 'hit', 'unarm', 'disable', 'deactivate', 'decommission', 'downgraded', 'minimum', '-'],categories: ['account', 'security', 'development', 'gaming'],);
+  static const LucideIconData shieldOff = LucideIconData(name: 'shield-off',paths: ['m2 2 20 20', 'M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71', 'M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264'],tags: ['unshielded', 'cybersecurity', 'insecure', 'unsecured', 'safety', 'unsafe', 'protection', 'unprotected', 'guardian', 'unguarded', 'unarmored', 'unarmoured', 'defenseless', 'defenceless', 'undefended', 'defender', 'interception', 'threat', 'prevention', 'unprevented', 'antivirus', 'detection', 'undetected', 'exploit', 'vulnerability', 'vulnerable', 'weakness', 'infected', 'infection', 'comprimised', 'data leak', 'unaudited', 'admin', 'verification', 'unverified', 'inactive', 'cancelled', 'error', 'crest', 'bravery', 'damaged', 'injured', 'hit', 'expired', 'eliminated'],categories: ['account', 'security', 'development', 'gaming'],);
+  static const LucideIconData shieldPlus = LucideIconData(name: 'shield-plus',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'M9 12h6', 'M12 9v6'],tags: ['cybersecurity', 'secure', 'safety', 'protection', 'guardian', 'armored', 'armoured', 'defense', 'defence', 'defender', 'block', 'threat', 'prevention', 'antivirus', 'vigilance', 'vigilant', 'detection', 'scan', 'strength', 'strong', 'tough', 'invincible', 'invincibility', 'invulnerable', 'undamaged', 'extra', 'added', 'professional', 'enterprise', 'full', 'maximum', 'upgraded', 'ultra', 'activate', 'enable', 'audit', 'admin', 'verification', 'crest', 'medic', '+'],categories: ['account', 'security', 'development', 'gaming', 'medical'],);
+  static const LucideIconData shieldQuestionMark = LucideIconData(name: 'shield-question-mark',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3', 'M12 17h.01'],tags: ['unshielded', 'cybersecurity', 'insecure', 'unsecured', 'safety', 'unsafe', 'protection', 'unprotected', 'guardian', 'unguarded', 'unarmored', 'unarmoured', 'defenseless', 'defenceless', 'undefended', 'defender', 'threat', 'prevention', 'unprevented', 'antivirus', 'vigilance', 'vigilant', 'detection', 'undetected', 'scan', 'find', 'exploit', 'vulnerability', 'vulnerable', 'weakness', 'infection', 'comprimised', 'data leak', 'audit', 'admin', 'verification', 'unverified', 'uncertified', 'uncertain', 'unknown', 'inactive', 'crest', 'question mark', '?'],categories: ['account', 'security', 'development', 'gaming'],);
+  static const LucideIconData shieldUser = LucideIconData(name: 'shield-user',circles: [(12.0, 11.0, 4.0)],paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'M6.376 18.91a6 6 0 0 1 11.249.003'],tags: ['shield', 'user', 'admin', 'protection', 'protected', 'safety', 'guard'],categories: ['account', 'security', 'development'],);
+  static const LucideIconData shieldX = LucideIconData(name: 'shield-x',paths: ['M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z', 'm14.5 9.5-5 5', 'm9.5 9.5 5 5'],tags: ['unshielded', 'cybersecurity', 'insecure', 'unsecured', 'safety', 'unsafe', 'protection', 'unprotected', 'guardian', 'unguarded', 'unarmored', 'unarmoured', 'defenseless', 'defenceless', 'undefended', 'defender', 'blocked', 'stopped', 'intercepted', 'interception', 'saved', 'thwarted', 'threat', 'prevention', 'prevented', 'antivirus', 'vigilance', 'vigilant', 'detection', 'detected', 'scanned', 'found', 'exploit', 'vulnerability', 'vulnerable', 'weakness', 'infection', 'infected', 'comprimised', 'data leak', 'audited', 'admin', 'verification', 'unverified', 'inactive', 'cancel', 'error', 'wrong', 'false', 'crest', 'bravery', 'attacked', 'damaged', 'injured', 'hit', 'dead', 'deceased', 'expired', 'eliminated', 'exterminated'],categories: ['account', 'security', 'development', 'gaming'],);
+  static const LucideIconData ship = LucideIconData(name: 'ship',paths: ['M12 10.189V14', 'M12 2v3', 'M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6', 'M19.38 20A11.6 11.6 0 0 0 21 14l-8.188-3.639a2 2 0 0 0-1.624 0L3 14a11.6 11.6 0 0 0 2.81 7.76', 'M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1'],tags: ['boat', 'knots', 'nautical mile', 'maritime', 'sailing', 'yacht', 'cruise', 'ocean liner', 'tanker', 'vessel', 'navy', 'trip', 'releases'],categories: ['transportation', 'navigation', 'travel'],);
+  static const LucideIconData shipWheel = LucideIconData(name: 'ship-wheel',circles: [(12.0, 12.0, 8.0), (12.0, 12.0, 2.5)],paths: ['M12 2v7.5', 'm19 5-5.23 5.23', 'M22 12h-7.5', 'm19 19-5.23-5.23', 'M12 14.5V22', 'M10.23 13.77 5 19', 'M9.5 12H2', 'M10.23 10.23 5 5'],tags: ['steering', 'rudder', 'boat', 'knots', 'nautical mile', 'maritime', 'sailing', 'yacht', 'cruise', 'ocean liner', 'tanker', 'vessel', 'navy', 'trip'],categories: ['transportation', 'navigation', 'travel'],);
+  static const LucideIconData shirt = LucideIconData(name: 'shirt',paths: ['M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z'],tags: ['t-shirt', 'shopping', 'store', 'clothing', 'clothes'],categories: ['shopping'],);
+  static const LucideIconData shoppingBag = LucideIconData(name: 'shopping-bag',paths: ['M16 10a4 4 0 0 1-8 0', 'M3.103 6.034h17.794', 'M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z'],tags: ['ecommerce', 'cart', 'purchase', 'store'],categories: ['shopping'],);
+  static const LucideIconData shoppingBasket = LucideIconData(name: 'shopping-basket',paths: ['m15 11-1 9', 'm19 11-4-7', 'M2 11h20', 'm3.5 11 1.6 7.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6l1.7-7.4', 'M4.5 15.5h15', 'm5 11 4-7', 'm9 11 1 9'],tags: ['cart', 'e-commerce', 'store', 'purchase', 'products', 'items', 'ingredients'],categories: ['shopping'],);
+  static const LucideIconData shoppingCart = LucideIconData(name: 'shopping-cart',circles: [(8.0, 21.0, 1.0), (19.0, 21.0, 1.0)],paths: ['M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12'],tags: ['trolley', 'cart', 'basket', 'e-commerce', 'store', 'purchase', 'products', 'items', 'ingredients'],categories: ['shopping'],);
+  static const LucideIconData shovel = LucideIconData(name: 'shovel',paths: ['M21.56 4.56a1.5 1.5 0 0 1 0 2.122l-.47.47a3 3 0 0 1-4.212-.03 3 3 0 0 1 0-4.243l.44-.44a1.5 1.5 0 0 1 2.121 0z', 'M3 22a1 1 0 0 1-1-1v-3.586a1 1 0 0 1 .293-.707l3.355-3.355a1.205 1.205 0 0 1 1.704 0l3.296 3.296a1.205 1.205 0 0 1 0 1.704l-3.355 3.355a1 1 0 0 1-.707.293z', 'm9 15 7.879-7.878'],tags: ['dig', 'spade', 'treasure'],categories: ['nature', 'tools', 'gaming'],);
+  static const LucideIconData showerHead = LucideIconData(name: 'shower-head',paths: ['m4 4 2.5 2.5', 'M13.5 6.5a4.95 4.95 0 0 0-7 7', 'M15 5 5 15', 'M14 17v.01', 'M10 16v.01', 'M13 13v.01', 'M16 10v.01', 'M11 20v.01', 'M17 14v.01', 'M20 11v.01'],tags: ['shower', 'bath', 'bathroom', 'amenities', 'services'],categories: ['home', 'travel'],);
+  static const LucideIconData shredder = LucideIconData(name: 'shredder',paths: ['M4 13V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5', 'M14 2v5a1 1 0 0 0 1 1h5', 'M10 22v-5', 'M14 19v-2', 'M18 20v-3', 'M2 13h20', 'M6 20v-3'],tags: ['file', 'paper', 'tear', 'cut', 'delete', 'destroy', 'remove', 'erase', 'document', 'destruction', 'secure', 'security', 'confidential', 'data', 'trash', 'dispose', 'disposal', 'information', 'waste', 'permanent'],categories: ['mail', 'files'],);
+  static const LucideIconData shrimp = LucideIconData(name: 'shrimp',paths: ['M11 12h.01', 'M13 22c.5-.5 1.12-1 2.5-1-1.38 0-2-.5-2.5-1', 'M14 2a3.28 3.28 0 0 1-3.227 1.798l-6.17-.561A2.387 2.387 0 1 0 4.387 8H15.5a1 1 0 0 1 0 13 1 1 0 0 0 0-5H12a7 7 0 0 1-7-7V8', 'M14 8a8.5 8.5 0 0 1 0 8', 'M16 16c2 0 4.5-4 4-6'],tags: ['seafood', 'shellfish', 'crustacean', 'prawn', 'scallop', 'whelk', 'arthropod', 'littleneck', 'quahog', 'cherrystone'],categories: ['animals'],);
+  static const LucideIconData shrink = LucideIconData(name: 'shrink',paths: ['m15 15 6 6m-6-6v4.8m0-4.8h4.8', 'M9 19.8V15m0 0H4.2M9 15l-6 6', 'M15 4.2V9m0 0h4.8M15 9l6-6', 'M9 4.2V9m0 0H4.2M9 9 3 3'],tags: ['scale', 'fullscreen'],categories: ['layout', 'arrows'],);
+  static const LucideIconData shrub = LucideIconData(name: 'shrub',paths: ['M12 22v-5.172a2 2 0 0 0-.586-1.414L9.5 13.5', 'M14.5 14.5 12 17', 'M17 8.8A6 6 0 0 1 13.8 20H10A6.5 6.5 0 0 1 7 8a5 5 0 0 1 10 0z'],tags: ['forest', 'undergrowth', 'park', 'nature'],categories: ['nature'],);
+  static const LucideIconData shuffle = LucideIconData(name: 'shuffle',paths: ['m18 14 4 4-4 4', 'm18 2 4 4-4 4', 'M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22', 'M2 6h1.972a4 4 0 0 1 3.6 2.2', 'M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45'],tags: ['music', 'random', 'reorder'],categories: ['multimedia', 'arrows'],);
+  static const LucideIconData sigma = LucideIconData(name: 'sigma',paths: ['M18 7V5a1 1 0 0 0-1-1H6.5a.5.5 0 0 0-.4.8l4.5 6a2 2 0 0 1 0 2.4l-4.5 6a.5.5 0 0 0 .4.8H17a1 1 0 0 0 1-1v-2'],tags: ['sum', 'calculate', 'formula', 'math', 'enumeration', 'enumerate'],categories: ['text', 'math', 'science'],);
+  static const LucideIconData signal = LucideIconData(name: 'signal',paths: ['M2 20h.01', 'M7 20v-4', 'M12 20v-8', 'M17 20V8', 'M22 4v16'],tags: ['connection', 'wireless', 'gsm', 'phone', '2g', '3g', '4g', '5g'],categories: ['connectivity'],);
+  static const LucideIconData signalHigh = LucideIconData(name: 'signal-high',paths: ['M2 20h.01', 'M7 20v-4', 'M12 20v-8', 'M17 20V8'],tags: ['connection', 'wireless', 'gsm', 'phone', '2g', '3g', '4g', '5g'],categories: ['connectivity'],);
+  static const LucideIconData signalLow = LucideIconData(name: 'signal-low',paths: ['M2 20h.01', 'M7 20v-4'],tags: ['connection', 'wireless', 'gsm', 'phone', '2g', '3g', '4g', '5g'],categories: ['connectivity'],);
+  static const LucideIconData signalMedium = LucideIconData(name: 'signal-medium',paths: ['M2 20h.01', 'M7 20v-4', 'M12 20v-8'],tags: ['connection', 'wireless', 'gsm', 'phone', '2g', '3g', '4g', '5g'],categories: ['connectivity'],);
+  static const LucideIconData signalZero = LucideIconData(name: 'signal-zero',paths: ['M2 20h.01'],tags: ['connection', 'wireless', 'gsm', 'phone', '2g', '3g', '4g', '5g', 'lost'],categories: ['connectivity'],);
+  static const LucideIconData signature = LucideIconData(name: 'signature',paths: ['m21 17-2.156-1.868A.5.5 0 0 0 18 15.5v.5a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1c0-2.545-3.991-3.97-8.5-4a1 1 0 0 0 0 5c4.153 0 4.745-11.295 5.708-13.5a2.5 2.5 0 1 1 3.31 3.284', 'M3 21h18'],tags: ['text', 'format', 'input', 'contract', 'autograph', 'handwriting', 'sign', 'cursive', 'ink', 'scribble', 'authorize', 'personal', 'agreement', 'legal', 'document', 'identity', 'authentic', 'approval', 'verification', 'unique'],categories: ['text'],);
+  static const LucideIconData signpost = LucideIconData(name: 'signpost',paths: ['M12 13v8', 'M12 3v3', 'M2.354 10.354a1.207 1.207 0 0 1 0-1.708l2.06-2.06A2 2 0 0 1 5.828 6h12.344a2 2 0 0 1 1.414.586l2.06 2.06a1.207 1.207 0 0 1 0 1.708l-2.06 2.06a2 2 0 0 1-1.414.586H5.828a2 2 0 0 1-1.414-.586z'],tags: ['navigation', 'direction', 'arrow', 'wayfinding', 'guide', 'location', 'pointer', 'route', 'indicator', 'marker', 'bidirectional', 'left', 'right', 'east', 'west'],categories: ['arrows', 'navigation', 'development', 'gaming'],);
+  static const LucideIconData signpostBig = LucideIconData(name: 'signpost-big',paths: ['M10 9H4L2 7l2-2h6', 'M14 5h6l2 2-2 2h-6', 'M10 22V4a2 2 0 1 1 4 0v18', 'M8 22h8'],tags: ['bidirectional', 'left', 'right', 'east', 'west'],categories: ['arrows', 'navigation', 'development', 'gaming'],);
+  static const LucideIconData siren = LucideIconData(name: 'siren',paths: ['M7 18v-6a5 5 0 1 1 10 0v6', 'M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z', 'M21 12h1', 'M18.5 4.5 18 5', 'M2 12h1', 'M12 2v1', 'm4.929 4.929.707.707', 'M12 12v6'],tags: ['police', 'ambulance', 'emergency', 'security', 'alert', 'alarm', 'light'],categories: ['medical'],);
+  static const LucideIconData skipBack = LucideIconData(name: 'skip-back',paths: ['M17.971 4.285A2 2 0 0 1 21 6v12a2 2 0 0 1-3.029 1.715l-9.997-5.998a2 2 0 0 1-.003-3.432z', 'M3 20V4'],tags: ['arrow', 'previous', 'music'],categories: ['multimedia', 'arrows'],);
+  static const LucideIconData skipForward = LucideIconData(name: 'skip-forward',paths: ['M21 4v16', 'M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z'],tags: ['arrow', 'skip', 'next', 'music'],categories: ['multimedia', 'arrows'],);
+  static const LucideIconData skull = LucideIconData(name: 'skull',circles: [(15.0, 12.0, 1.0), (9.0, 12.0, 1.0)],paths: ['m12.5 17-.5-1-.5 1h1z', 'M15 22a1 1 0 0 0 1-1v-1a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20v1a1 1 0 0 0 1 1z'],tags: ['death', 'danger', 'bone'],categories: ['gaming'],);
+  static const LucideIconData slash = LucideIconData(name: 'slash',paths: ['M22 2 2 22'],tags: ['divide', 'division', 'or', '/'],categories: ['development', 'math'],);
+  static const LucideIconData slice = LucideIconData(name: 'slice',paths: ['M11 16.586V19a1 1 0 0 1-1 1H2L18.37 3.63a1 1 0 1 1 3 3l-9.663 9.663a1 1 0 0 1-1.414 0L8 14'],tags: ['cutter', 'scalpel', 'knife'],categories: ['design'],);
+  static const LucideIconData slidersHorizontal = LucideIconData(name: 'sliders-horizontal',paths: ['M10 5H3', 'M12 19H3', 'M14 3v4', 'M16 17v4', 'M21 12h-9', 'M21 19h-5', 'M21 5h-7', 'M8 10v4', 'M8 12H3'],tags: ['settings', 'filters', 'controls'],categories: ['account'],);
+  static const LucideIconData slidersVertical = LucideIconData(name: 'sliders-vertical',paths: ['M10 8h4', 'M12 21v-9', 'M12 8V3', 'M17 16h4', 'M19 12V3', 'M19 21v-5', 'M3 14h4', 'M5 10V3', 'M5 21v-7'],tags: ['settings', 'controls'],categories: ['account'],);
+  static const LucideIconData smartphone = LucideIconData(name: 'smartphone',rects: [(5.0, 2.0, 14.0, 20.0, 2.0)],paths: ['M12 18h.01'],tags: ['phone', 'cellphone', 'device', 'screen'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData smartphoneCharging = LucideIconData(name: 'smartphone-charging',rects: [(5.0, 2.0, 14.0, 20.0, 2.0)],paths: ['M12.667 8 10 12h4l-2.667 4'],tags: ['phone', 'cellphone', 'device', 'power', 'screen'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData smartphoneNfc = LucideIconData(name: 'smartphone-nfc',rects: [(2.0, 6.0, 7.0, 12.0, 1.0)],paths: ['M13 8.32a7.43 7.43 0 0 1 0 7.36', 'M16.46 6.21a11.76 11.76 0 0 1 0 11.58', 'M19.91 4.1a15.91 15.91 0 0 1 .01 15.8'],tags: ['contactless', 'payment', 'near-field communication', 'screen'],categories: ['communication', 'finance', 'devices'],);
+  static const LucideIconData smile = LucideIconData(name: 'smile',circles: [(12.0, 12.0, 10.0)],paths: ['M8 14s1.5 2 4 2 4-2 4-2'],tags: ['emoji', 'face', 'happy', 'good', 'emotion'],categories: ['emoji', 'account'],);
+  static const LucideIconData smilePlus = LucideIconData(name: 'smile-plus',paths: ['M22 11v1a10 10 0 1 1-9-10', 'M8 14s1.5 2 4 2 4-2 4-2', 'M16 5h6', 'M19 2v6'],tags: ['emoji', 'face', 'happy', 'good', 'emotion', 'react', 'reaction', 'add'],categories: ['emoji', 'social', 'notifications', 'communication'],);
+  static const LucideIconData snail = LucideIconData(name: 'snail',circles: [(10.0, 13.0, 8.0)],paths: ['M2 13a6 6 0 1 0 12 0 4 4 0 1 0-8 0 2 2 0 0 0 4 0', 'M2 21h12c4.4 0 8-3.6 8-8V7a2 2 0 1 0-4 0v6', 'M18 3 19.1 5.2', 'M22 3 20.9 5.2'],tags: ['animal', 'insect', 'slow', 'speed', 'delicacy', 'spiral'],categories: ['animals', 'food-beverage'],);
+  static const LucideIconData snowflake = LucideIconData(name: 'snowflake',paths: ['m10 20-1.25-2.5L6 18', 'M10 4 8.75 6.5 6 6', 'm14 20 1.25-2.5L18 18', 'm14 4 1.25 2.5L18 6', 'm17 21-3-6h-4', 'm17 3-3 6 1.5 3', 'M2 12h6.5L10 9', 'm20 10-1.5 2 1.5 2', 'M22 12h-6.5L14 15', 'm4 10 1.5 2L4 14', 'm7 21 3-6-1.5-3', 'm7 3 3 6h4'],tags: ['cold', 'weather', 'freeze', 'snow', 'winter'],categories: ['weather', 'seasons'],);
+  static const LucideIconData soapDispenserDroplet = LucideIconData(name: 'soap-dispenser-droplet',paths: ['M10.5 2v4', 'M14 2H7a2 2 0 0 0-2 2', 'M19.29 14.76A6.67 6.67 0 0 1 17 11a6.6 6.6 0 0 1-2.29 3.76c-1.15.92-1.71 2.04-1.71 3.19 0 2.22 1.8 4.05 4 4.05s4-1.83 4-4.05c0-1.16-.57-2.26-1.71-3.19', 'M9.607 21H6a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h7V7a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3'],tags: ['wash', 'bath', 'water', 'liquid', 'fluid', 'wet', 'moisture', 'damp', 'bead', 'globule'],categories: ['home', 'travel'],);
+  static const LucideIconData sofa = LucideIconData(name: 'sofa',paths: ['M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3', 'M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z', 'M4 18v2', 'M20 18v2', 'M12 4v9'],tags: ['armchair', 'furniture', 'leisure', 'lounge', 'loveseat', 'couch'],categories: ['home'],);
+  static const LucideIconData solarPanel = LucideIconData(name: 'solar-panel',paths: ['M11 2h2', 'm14.28 14-4.56 8', 'm21 22-1.558-4H4.558', 'M3 10v2', 'M6.245 15.04A2 2 0 0 1 8 14h12a1 1 0 0 1 .864 1.505l-3.11 5.457A2 2 0 0 1 16 22H4a1 1 0 0 1-.863-1.506z', 'M7 2a4 4 0 0 1-4 4', 'm8.66 7.66 1.41 1.41'],tags: ['solar panel', 'solar', 'panel', 'sun', 'energy', 'electricity', 'light'],categories: ['home', 'science', 'sustainability', 'weather'],);
+  static const LucideIconData soup = LucideIconData(name: 'soup',paths: ['M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z', 'M7 21h10', 'M19.5 12 22 6', 'M16.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.73 1.62', 'M11.25 3c.27.1.8.53.74 1.36-.05.83-.93 1.2-.98 2.02-.06.78.33 1.24.72 1.62', 'M6.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.74 1.62'],tags: ['food', 'dish', 'restaurant', 'course', 'meal', 'bowl', 'starter'],categories: ['food-beverage'],);
+  static const LucideIconData space = LucideIconData(name: 'space',paths: ['M22 17v1c0 .5-.5 1-1 1H3c-.5 0-1-.5-1-1v-1'],tags: ['text', 'selection', 'letters', 'characters', 'font', 'typography'],categories: ['text'],);
+  static const LucideIconData spade = LucideIconData(name: 'spade',paths: ['M12 18v4', 'M2 14.499a5.5 5.5 0 0 0 9.591 3.675.6.6 0 0 1 .818.001A5.5 5.5 0 0 0 22 14.5c0-2.29-1.5-4-3-5.5l-5.492-5.312a2 2 0 0 0-3-.02L5 8.999c-1.5 1.5-3 3.2-3 5.5'],tags: ['shape', 'suit', 'playing', 'cards'],categories: ['shapes', 'gaming'],);
+  static const LucideIconData sparkle = LucideIconData(name: 'sparkle',paths: ['M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z'],tags: ['star', 'effect', 'filter', 'night', 'magic', 'shiny', 'glitter', 'twinkle', 'celebration'],categories: ['shapes'],);
+  static const LucideIconData sparkles = LucideIconData(name: 'sparkles',circles: [(4.0, 20.0, 2.0)],paths: ['M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z', 'M20 2v4', 'M22 4h-4'],tags: ['stars', 'effect', 'filter', 'night', 'magic'],categories: ['cursors', 'multimedia', 'gaming', 'weather'],);
+  static const LucideIconData speaker = LucideIconData(name: 'speaker',circles: [(12.0, 14.0, 4.0)],rects: [(4.0, 2.0, 16.0, 20.0, 2.0)],paths: ['M12 6h.01', 'M12 14h.01'],tags: ['sound', 'audio', 'music', 'tweeter', 'subwoofer', 'bass', 'production', 'producer', 'dj'],categories: ['multimedia', 'devices'],);
+  static const LucideIconData speech = LucideIconData(name: 'speech',paths: ['M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20', 'M19.8 17.8a7.5 7.5 0 0 0 .003-10.603', 'M17 15a3.5 3.5 0 0 0-.025-4.975'],tags: ['disability', 'disabled', 'dda', 'human', 'accessibility', 'people', 'sound'],categories: ['accessibility', 'communication'],);
+  static const LucideIconData spellCheck = LucideIconData(name: 'spell-check',paths: ['m6 16 6-12 6 12', 'M8 12h8', 'm16 20 2 2 4-4'],tags: ['spelling', 'error', 'mistake', 'oversight', 'typo', 'correction', 'code', 'linter', 'a'],categories: ['text', 'development'],);
+  static const LucideIconData spellCheck2 = LucideIconData(name: 'spell-check-2',paths: ['m6 16 6-12 6 12', 'M8 12h8', 'M4 21c1.1 0 1.1-1 2.3-1s1.1 1 2.3 1c1.1 0 1.1-1 2.3-1 1.1 0 1.1 1 2.3 1 1.1 0 1.1-1 2.3-1 1.1 0 1.1 1 2.3 1 1.1 0 1.1-1 2.3-1'],tags: ['spelling', 'error', 'mistake', 'oversight', 'typo', 'correction', 'code', 'linter', 'a'],categories: ['text', 'development'],);
+  static const LucideIconData spline = LucideIconData(name: 'spline',circles: [(19.0, 5.0, 2.0), (5.0, 19.0, 2.0)],paths: ['M5 17A12 12 0 0 1 17 5'],tags: ['path', 'pen', 'tool', 'shape', 'curve', 'draw'],categories: ['design'],);
+  static const LucideIconData splinePointer = LucideIconData(name: 'spline-pointer',circles: [(19.0, 5.0, 2.0), (5.0, 19.0, 2.0)],paths: ['M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z', 'M5 17A12 12 0 0 1 17 5'],tags: ['path', 'tool', 'curve', 'node', 'click', 'pointer', 'target', 'vector'],categories: ['arrows', 'cursors', 'design', 'tools'],);
+  static const LucideIconData split = LucideIconData(name: 'split',paths: ['M16 3h5v5', 'M8 3H3v5', 'M12 22v-8.3a4 4 0 0 0-1.172-2.872L3 3', 'm15 9 6-6'],tags: ['break', 'disband', 'divide', 'separate', 'branch', 'disunite'],categories: ['development', 'arrows'],);
+  static const LucideIconData spool = LucideIconData(name: 'spool',paths: ['M17 13.44 4.442 17.082A2 2 0 0 0 4.982 21H19a2 2 0 0 0 .558-3.921l-1.115-.32A2 2 0 0 1 17 14.837V7.66', 'm7 10.56 12.558-3.642A2 2 0 0 0 19.018 3H5a2 2 0 0 0-.558 3.921l1.115.32A2 2 0 0 1 7 9.163v7.178'],tags: ['bobbin', 'spindle', 'yarn', 'thread', 'string', 'sewing', 'needlework'],categories: ['communication', 'tools', 'social'],);
+  static const LucideIconData sportShoe = LucideIconData(name: 'sport-shoe',paths: ['m15 10.42 4.8-5.07', 'M19 18h3', 'M9.5 22 21.414 9.415A2 2 0 0 0 21.2 6.4l-5.61-4.208A1 1 0 0 0 14 3v2a2 2 0 0 1-1.394 1.906L8.677 8.053A1 1 0 0 0 8 9c-.155 6.393-2.082 9-4 9a2 2 0 0 0 0 4h14'],tags: ['footwear', 'sports', 'running', 'athletic', 'shoe', 'sneaker', 'training', 'exercise', 'fitness'],categories: ['sports'],);
+  static const LucideIconData spotlight = LucideIconData(name: 'spotlight',paths: ['M15.295 19.562 16 22', 'm17 16 3.758 2.098', 'm19 12.5 3.026-.598', 'M7.61 6.3a3 3 0 0 0-3.92 1.3l-1.38 2.79a3 3 0 0 0 1.3 3.91l6.89 3.597a1 1 0 0 0 1.342-.447l3.106-6.211a1 1 0 0 0-.447-1.341z', 'M8 9V2'],tags: ['winner', 'soapbox', 'stage', 'entertainment', 'drama', 'podium', 'actor', 'actress', 'singer', 'light', 'beam', 'play', 'theatre', 'show', 'focus', 'concert', 'performance', 'lens', 'leaderboard', 'followspot', 'best', 'highlight'],categories: ['devices', 'photography', 'multimedia', 'communication'],);
+  static const LucideIconData sprayCan = LucideIconData(name: 'spray-can',rects: [(15.0, 5.0, 4.0, 4.0, 0.0)],paths: ['M3 3h.01', 'M7 5h.01', 'M11 7h.01', 'M3 7h.01', 'M7 9h.01', 'M3 11h.01', 'm19 9 2 2v10c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V11l2-2', 'm13 14 8-2', 'm13 19 8-2'],tags: ['paint', 'color', 'graffiti', 'decoration', 'aerosol', 'deodorant', 'shaving foam', 'air freshener'],categories: ['design', 'tools'],);
+  static const LucideIconData sprout = LucideIconData(name: 'sprout',paths: ['M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3', 'M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4', 'M5 21h14'],tags: ['eco', 'green', 'growth', 'leaf', 'nature', 'plant', 'seed', 'spring', 'sustainability'],categories: ['nature', 'gaming', 'sustainability'],);
+  static const LucideIconData square = LucideIconData(name: 'square',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],tags: ['stop', 'playback', 'music', 'audio', 'video', 'rectangle', 'aspect ratio', '1:1', 'shape'],categories: ['shapes', 'multimedia'],);
+  static const LucideIconData squareActivity = LucideIconData(name: 'square-activity',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M17 12h-2l-2 5-2-10-2 5H7'],tags: ['pulse', 'action', 'motion', 'movement', 'exercise', 'fitness', 'healthcare', 'heart rate monitor', 'vital signs', 'vitals', 'emergency room', 'er', 'intensive care', 'hospital', 'defibrillator', 'earthquake', 'siesmic', 'magnitude', 'richter scale', 'aftershock', 'tremor', 'shockwave', 'audio', 'waveform', 'synthesizer', 'synthesiser', 'music'],categories: ['medical', 'social', 'science', 'multimedia'],);
+  static const LucideIconData squareArrowDown = LucideIconData(name: 'square-arrow-down',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 8v8', 'm8 12 4 4 4-4'],tags: ['backwards', 'reverse', 'direction', 'south', 'sign', 'keyboard', 'button'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData squareArrowDownLeft = LucideIconData(name: 'square-arrow-down-left',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m16 8-8 8', 'M16 16H8V8'],tags: ['direction', 'south-west', 'diagonal', 'sign', 'turn', 'keyboard', 'button'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData squareArrowDownRight = LucideIconData(name: 'square-arrow-down-right',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m8 8 8 8', 'M16 8v8H8'],tags: ['direction', 'south-east', 'diagonal', 'sign', 'turn', 'keyboard', 'button'],categories: ['arrows', 'gaming'],);
+  static const LucideIconData squareArrowLeft = LucideIconData(name: 'square-arrow-left',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m12 8-4 4 4 4', 'M16 12H8'],tags: ['previous', 'back', 'direction', 'west', 'sign', 'keyboard', 'button', '<-'],categories: ['arrows'],);
+  static const LucideIconData squareArrowOutDownLeft = LucideIconData(name: 'square-arrow-out-down-left',paths: ['M13 21h6a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6', 'm3 21 9-9', 'M9 21H3v-6'],tags: ['outwards', 'direction', 'south-west', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData squareArrowOutDownRight = LucideIconData(name: 'square-arrow-out-down-right',paths: ['M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6', 'm21 21-9-9', 'M21 15v6h-6'],tags: ['outwards', 'direction', 'south-east', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData squareArrowOutUpLeft = LucideIconData(name: 'square-arrow-out-up-left',paths: ['M13 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6', 'm3 3 9 9', 'M3 9V3h6'],tags: ['outwards', 'direction', 'north-west', 'diagonal'],categories: ['arrows'],);
+  static const LucideIconData squareArrowOutUpRight = LucideIconData(name: 'square-arrow-out-up-right',paths: ['M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6', 'm21 3-9 9', 'M15 3h6v6'],tags: ['outwards', 'direction', 'north-east', 'diagonal', 'share', 'open', 'external', 'link'],categories: ['arrows', 'social'],);
+  static const LucideIconData squareArrowRight = LucideIconData(name: 'square-arrow-right',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M8 12h8', 'm12 16 4-4-4-4'],tags: ['next', 'forward', 'direction', 'west', 'sign', 'keyboard', 'button', '->'],categories: ['arrows'],);
+  static const LucideIconData squareArrowRightEnter = LucideIconData(name: 'square-arrow-right-enter',paths: ['m10 16 4-4-4-4', 'M3 12h11', 'M3 8V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3'],tags: ['left', 'in', 'inside', 'input', 'insert', 'source', 'import', 'place', '->'],categories: ['arrows', 'shapes', 'layout', 'multimedia'],);
+  static const LucideIconData squareArrowRightExit = LucideIconData(name: 'square-arrow-right-exit',paths: ['M10 12h11', 'm17 16 4-4-4-4', 'M21 6.344V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-1.344'],tags: ['out', 'outside', 'output', 'export', '->'],categories: ['arrows', 'shapes', 'layout', 'multimedia'],);
+  static const LucideIconData squareArrowUp = LucideIconData(name: 'square-arrow-up',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m16 12-4-4-4 4', 'M12 16V8'],tags: ['forward', 'direction', 'north', 'sign', 'keyboard', 'button'],categories: ['arrows'],);
+  static const LucideIconData squareArrowUpLeft = LucideIconData(name: 'square-arrow-up-left',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M8 16V8h8', 'M16 16 8 8'],tags: ['direction', 'north-west', 'diagonal', 'sign', 'keyboard', 'button'],categories: ['arrows'],);
+  static const LucideIconData squareArrowUpRight = LucideIconData(name: 'square-arrow-up-right',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M8 8h8v8', 'm8 16 8-8'],tags: ['direction', 'north-east', 'diagonal', 'sign', 'keyboard', 'button', 'share'],categories: ['arrows', 'social'],);
+  static const LucideIconData squareAsterisk = LucideIconData(name: 'square-asterisk',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 8v8', 'm8.5 14 7-4', 'm8.5 10 7 4'],tags: ['password', 'secret', 'access', 'key', 'multiply', 'multiplication', 'glob pattern', 'wildcard', '*'],categories: ['text', 'security', 'math', 'development'],);
+  static const LucideIconData squareBottomDashedScissors = LucideIconData(name: 'square-bottom-dashed-scissors',circles: [(8.5, 8.5, 1.5), (8.5, 15.5, 1.5)],lines: [(5.0, 3.0, 19.0, 3.0), (3.0, 5.0, 3.0, 19.0), (21.0, 5.0, 21.0, 19.0), (9.0, 21.0, 10.0, 21.0), (14.0, 21.0, 15.0, 21.0), (9.56066, 9.56066, 12.0, 12.0), (17.0, 17.0, 14.82, 14.82), (9.56066, 14.43934, 17.0, 7.0)],paths: ['M 3 5 A2 2 0 0 1 5 3', 'M 19 3 A2 2 0 0 1 21 5', 'M 5 21 A2 2 0 0 1 3 19', 'M 21 19 A2 2 0 0 1 19 21'],tags: ['cut', 'snippet', 'chop', 'stationery', 'crafts'],categories: ['text', 'design', 'tools', 'files', 'development'],);
+  static const LucideIconData squareCenterlineDashedHorizontal = LucideIconData(name: 'square-centerline-dashed-horizontal',paths: ['M8 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h3', 'M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3', 'M12 20v2', 'M12 14v2', 'M12 8v2', 'M12 2v2'],tags: ['reflect', 'mirror', 'alignment', 'dashed'],categories: ['design', 'photography'],);
+  static const LucideIconData squareCenterlineDashedVertical = LucideIconData(name: 'square-centerline-dashed-vertical',paths: ['M21 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3', 'M21 16v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3', 'M4 12H2', 'M10 12H8', 'M16 12h-2', 'M22 12h-2'],tags: ['reflect', 'mirror', 'alignment', 'dashed'],categories: ['design', 'photography'],);
+  static const LucideIconData squareChartGantt = LucideIconData(name: 'square-chart-gantt',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 8h7', 'M8 12h6', 'M11 16h5'],tags: ['projects', 'manage', 'overview', 'roadmap', 'plan', 'intentions', 'timeline', 'deadline', 'date', 'event', 'range', 'period', 'productivity', 'work', 'agile', 'code', 'coding', 'toolbar', 'button'],categories: ['charts', 'time', 'development', 'design'],);
+  static const LucideIconData squareCheck = LucideIconData(name: 'square-check',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m9 12 2 2 4-4'],tags: ['done', 'todo', 'tick', 'complete', 'task'],categories: ['notifications'],);
+  static const LucideIconData squareCheckBig = LucideIconData(name: 'square-check-big',paths: ['M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344', 'm9 11 3 3L22 4'],tags: ['done', 'todo', 'tick', 'complete', 'task'],categories: ['notifications'],);
+  static const LucideIconData squareChevronDown = LucideIconData(name: 'square-chevron-down',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m16 10-4 4-4-4'],tags: ['back', 'menu', 'panel'],categories: ['arrows', 'navigation'],);
+  static const LucideIconData squareChevronLeft = LucideIconData(name: 'square-chevron-left',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m14 16-4-4 4-4'],tags: ['back', 'previous', 'less than', 'fewer', 'menu', 'panel', 'button', 'keyboard', '<'],categories: ['arrows', 'navigation'],);
+  static const LucideIconData squareChevronRight = LucideIconData(name: 'square-chevron-right',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m10 8 4 4-4 4'],tags: ['forward', 'next', 'more than', 'greater', 'menu', 'panel', 'code', 'coding', 'command line', 'terminal', 'prompt', 'shell', 'console', '>'],categories: ['arrows', 'navigation', 'development'],);
+  static const LucideIconData squareChevronUp = LucideIconData(name: 'square-chevron-up',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m8 14 4-4 4 4'],tags: ['caret', 'keyboard', 'button', 'mac', 'control', 'ctrl', 'superscript', 'exponential', 'power', 'ahead', 'menu', 'panel', '^'],categories: ['arrows', 'navigation', 'math'],);
+  static const LucideIconData squareCode = LucideIconData(name: 'square-code',paths: ['m10 9-3 3 3 3', 'm14 15 3-3-3-3'],tags: ['gist', 'source', 'programming', 'html', 'xml', 'coding'],categories: ['text', 'development'],);
+  static const LucideIconData squareDashed = LucideIconData(name: 'square-dashed',paths: ['M5 3a2 2 0 0 0-2 2', 'M19 3a2 2 0 0 1 2 2', 'M21 19a2 2 0 0 1-2 2', 'M5 21a2 2 0 0 1-2-2', 'M9 3h1', 'M9 21h1', 'M14 3h1', 'M14 21h1', 'M3 9v1', 'M21 9v1', 'M3 14v1', 'M21 14v1'],tags: ['selection', 'square', 'rectangular', 'marquee', 'tool', 'dashed', 'box'],categories: ['text', 'design'],);
+  static const LucideIconData squareDashedBottom = LucideIconData(name: 'square-dashed-bottom',paths: ['M5 21a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2', 'M9 21h1', 'M14 21h1'],tags: ['rectangle', 'aspect ratio', '1:1', 'shape', 'snippet', 'code', 'coding'],categories: ['development', 'files'],);
+  static const LucideIconData squareDashedBottomCode = LucideIconData(name: 'square-dashed-bottom-code',paths: ['M10 9.5 8 12l2 2.5', 'M14 21h1', 'm14 9.5 2 2.5-2 2.5', 'M5 21a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2', 'M9 21h1'],tags: ['rectangle', 'aspect ratio', '1:1', 'shape', 'snippet', 'code', 'coding'],categories: ['development', 'files'],);
+  static const LucideIconData squareDashedKanban = LucideIconData(name: 'square-dashed-kanban',paths: ['M8 7v7', 'M12 7v4', 'M16 7v9', 'M5 3a2 2 0 0 0-2 2', 'M9 3h1', 'M14 3h1', 'M19 3a2 2 0 0 1 2 2', 'M21 9v1', 'M21 14v1', 'M21 19a2 2 0 0 1-2 2', 'M14 21h1', 'M9 21h1', 'M5 21a2 2 0 0 1-2-2', 'M3 14v1', 'M3 9v1'],tags: ['projects', 'manage', 'overview', 'board', 'tickets', 'issues', 'roadmap', 'plan', 'intentions', 'productivity', 'work', 'agile', 'draft', 'template', 'boilerplate', 'code', 'coding'],categories: ['charts', 'development', 'design'],);
+  static const LucideIconData squareDashedMousePointer = LucideIconData(name: 'square-dashed-mouse-pointer',paths: ['M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z', 'M5 3a2 2 0 0 0-2 2', 'M19 3a2 2 0 0 1 2 2', 'M5 21a2 2 0 0 1-2-2', 'M9 3h1', 'M9 21h2', 'M14 3h1', 'M3 9v1', 'M21 9v2', 'M3 14v1'],tags: ['inspector', 'element', 'mouse', 'click', 'pointer', 'box', 'browser', 'selector', 'target', 'dom', 'node'],categories: ['arrows', 'cursors', 'development', 'tools'],);
+  static const LucideIconData squareDashedTopSolid = LucideIconData(name: 'square-dashed-top-solid',paths: ['M14 21h1', 'M21 14v1', 'M21 19a2 2 0 0 1-2 2', 'M21 9v1', 'M3 14v1', 'M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2', 'M3 9v1', 'M5 21a2 2 0 0 1-2-2', 'M9 21h1'],tags: ['square', 'border', 'width', 'layout', 'style', 'design', 'rectangular', 'marquee', 'dashed', 'box', 'rectangle', 'aspect ratio', '1:1'],categories: ['design', 'development', 'layout'],);
+  static const LucideIconData squareDivide = LucideIconData(name: 'square-divide',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],tags: ['calculate', 'math', '÷', '/'],categories: ['math'],);
+  static const LucideIconData squareDot = LucideIconData(name: 'square-dot',circles: [(12.0, 12.0, 1.0)],rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],tags: ['git', 'diff', 'modified', '.'],categories: ['development'],);
+  static const LucideIconData squareEqual = LucideIconData(name: 'square-equal',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M7 10h10', 'M7 14h10'],tags: ['calculate', '='],categories: ['math'],);
+  static const LucideIconData squareFunction = LucideIconData(name: 'square-function',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 17c2 0 2.8-1 2.8-2.8V10c0-2 1-3.3 3.2-3', 'M9 11.2h5.7'],tags: ['programming', 'code', 'automation', 'math'],categories: ['development', 'math'],);
+  static const LucideIconData squareKanban = LucideIconData(name: 'square-kanban',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M8 7v7', 'M12 7v4', 'M16 7v9'],tags: ['projects', 'manage', 'overview', 'board', 'tickets', 'issues', 'roadmap', 'plan', 'intentions', 'productivity', 'work', 'agile', 'code', 'coding', 'toolbar', 'button'],categories: ['charts', 'development', 'design'],);
+  static const LucideIconData squareLibrary = LucideIconData(name: 'square-library',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M7 7v10', 'M11 7v10', 'm15 7 2 10'],tags: ['books', 'reading', 'written', 'authors', 'stories', 'fiction', 'novels', 'information', 'knowledge', 'education', 'high school', 'university', 'college', 'academy', 'learning', 'study', 'research', 'collection', 'vinyl', 'records', 'albums', 'music', 'package'],categories: ['text', 'photography', 'multimedia', 'navigation', 'development'],);
+  static const LucideIconData squareM = LucideIconData(name: 'square-m',paths: ['M8 16V8.5a.5.5 0 0 1 .9-.3l2.7 3.599a.5.5 0 0 0 .8 0l2.7-3.6a.5.5 0 0 1 .9.3V16'],tags: ['metro', 'subway', 'underground', 'track', 'line'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData squareMenu = LucideIconData(name: 'square-menu',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M7 8h10', 'M7 12h10', 'M7 16h10'],tags: ['bars', 'navigation', 'hamburger', 'options', 'menu bar', 'panel'],categories: ['layout'],);
+  static const LucideIconData squareMinus = LucideIconData(name: 'square-minus',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M8 12h8'],tags: ['subtract', 'remove', 'decrease', 'reduce', 'calculator', 'button', 'keyboard', 'line', 'divider', 'separator', 'horizontal rule', 'hr', 'html', 'markup', 'markdown', '---', 'toolbar', 'operator', 'code', 'coding', 'minimum', 'downgrade'],categories: ['math', 'development', 'text', 'tools', 'devices'],);
+  static const LucideIconData squareMousePointer = LucideIconData(name: 'square-mouse-pointer',paths: ['M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z', 'M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6'],tags: ['inspector', 'element', 'mouse', 'click', 'pointer', 'box', 'browser', 'selector', 'target', 'dom', 'node'],categories: ['arrows', 'cursors', 'development', 'tools'],);
+  static const LucideIconData squareParking = LucideIconData(name: 'square-parking',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M9 17V7h4a3 3 0 0 1 0 6H9'],tags: ['parking lot', 'car park'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData squareParkingOff = LucideIconData(name: 'square-parking-off',paths: ['M3.6 3.6A2 2 0 0 1 5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-.59 1.41', 'M3 8.7V19a2 2 0 0 0 2 2h10.3', 'm2 2 20 20', 'M13 13a3 3 0 1 0 0-6H9v2', 'M9 17v-2.3'],tags: ['parking lot', 'car park', 'no parking'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData squarePause = LucideIconData(name: 'square-pause',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],tags: ['music', 'audio', 'stop'],categories: ['multimedia'],);
+  static const LucideIconData squarePen = LucideIconData(name: 'square-pen',paths: ['M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7', 'M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z'],tags: ['pencil', 'edit', 'change', 'create', 'draw', 'sketch', 'draft', 'writer', 'writing', 'biro', 'ink', 'marker', 'felt tip', 'stationery', 'artist'],categories: ['text'],);
+  static const LucideIconData squarePercent = LucideIconData(name: 'square-percent',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m15 9-6 6', 'M9 9h.01', 'M15 15h.01'],tags: ['verified', 'unverified', 'sale', 'discount', 'offer', 'marketing', 'sticker', 'price tag'],categories: ['social', 'finance', 'shopping', 'math'],);
+  static const LucideIconData squarePi = LucideIconData(name: 'square-pi',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M7 7h10', 'M10 7v10', 'M16 17a2 2 0 0 1-2-2V7'],tags: ['constant', 'code', 'coding', 'programming', 'symbol', 'trigonometry', 'geometry', 'formula'],categories: ['development', 'math'],);
+  static const LucideIconData squarePilcrow = LucideIconData(name: 'square-pilcrow',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 12H9.5a2.5 2.5 0 0 1 0-5H17', 'M12 7v10', 'M16 7v10'],tags: ['paragraph', 'mark', 'paraph', 'blind', 'typography', 'type', 'text', 'prose', 'symbol'],categories: ['text'],);
+  static const LucideIconData squarePlay = LucideIconData(name: 'square-play',paths: ['M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z'],tags: ['music', 'audio', 'video', 'start', 'run'],categories: ['arrows', 'multimedia'],);
+  static const LucideIconData squarePlus = LucideIconData(name: 'square-plus',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M8 12h8', 'M12 8v8'],tags: ['add', 'new', 'increase', 'increment', 'positive', 'calculate', 'calculator', 'button', 'keyboard', 'toolbar', 'maximum', 'upgrade', 'extra', 'operator', 'join', 'concatenate', 'code', 'coding', '+'],categories: ['math', 'tools', 'development', 'text'],);
+  static const LucideIconData squarePower = LucideIconData(name: 'square-power',paths: ['M12 7v4', 'M7.998 9.003a5 5 0 1 0 8-.005'],tags: ['on', 'off', 'device', 'switch', 'toggle', 'binary', 'boolean', 'reboot', 'restart', 'button', 'keyboard', 'troubleshoot'],categories: ['connectivity'],);
+  static const LucideIconData squareRadical = LucideIconData(name: 'square-radical',paths: ['M7 12h2l2 5 2-10h4'],tags: ['calculate', 'formula', 'math', 'operator', 'root', 'square', 'symbol'],categories: ['development', 'math'],);
+  static const LucideIconData squareRoundCorner = LucideIconData(name: 'square-round-corner',paths: ['M21 11a8 8 0 0 0-8-8', 'M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4'],tags: ['border', 'radius', 'style', 'design', 'corner', 'layout', 'round', 'rounded'],categories: ['design', 'development', 'layout'],);
+  static const LucideIconData squareScissors = LucideIconData(name: 'square-scissors',circles: [(8.5, 8.5, 1.5), (8.5, 15.5, 1.5)],lines: [(9.56066, 9.56066, 12.0, 12.0), (17.0, 17.0, 14.82, 14.82), (9.56066, 14.43934, 17.0, 7.0)],rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],tags: ['cut', 'snippet', 'chop', 'stationery', 'crafts', 'toolbar', 'button'],categories: ['text', 'design', 'tools', 'files', 'development'],);
+  static const LucideIconData squareSigma = LucideIconData(name: 'square-sigma',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M16 8.9V7H8l4 5-4 5h8v-1.9'],tags: ['sum', 'calculate', 'formula', 'math', 'enumeration', 'enumerate'],categories: ['text', 'math'],);
+  static const LucideIconData squareSlash = LucideIconData(name: 'square-slash',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],tags: ['git', 'diff', 'ignored', 'divide', 'division', 'shortcut', 'or', '/'],categories: ['development', 'math'],);
+  static const LucideIconData squareSplitHorizontal = LucideIconData(name: 'square-split-horizontal',paths: ['M8 19H5c-1 0-2-1-2-2V7c0-1 1-2 2-2h3', 'M16 5h3c1 0 2 1 2 2v10c0 1-1 2-2 2h-3'],tags: ['split', 'divide'],categories: ['layout'],);
+  static const LucideIconData squareSplitVertical = LucideIconData(name: 'square-split-vertical',paths: ['M5 8V5c0-1 1-2 2-2h10c1 0 2 1 2 2v3', 'M19 16v3c0 1-1 2-2 2H7c-1 0-2-1-2-2v-3'],tags: ['split', 'divide'],categories: ['layout'],);
+  static const LucideIconData squareSquare = LucideIconData(name: 'square-square',tags: ['float', 'center', 'rectangle'],categories: ['layout'],);
+  static const LucideIconData squareStack = LucideIconData(name: 'square-stack',rects: [(14.0, 14.0, 8.0, 8.0, 2.0)],paths: ['M4 10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2', 'M10 16c-1.1 0-2-.9-2-2v-4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2'],tags: ['versions', 'clone', 'copy', 'duplicate', 'multiple', 'revisions', 'version control', 'backup', 'history'],categories: ['text', 'files', 'development'],);
+  static const LucideIconData squareStar = LucideIconData(name: 'square-star',paths: ['M11.035 7.69a1 1 0 0 1 1.909.024l.737 1.452a1 1 0 0 0 .737.535l1.634.256a1 1 0 0 1 .588 1.806l-1.172 1.168a1 1 0 0 0-.282.866l.259 1.613a1 1 0 0 1-1.541 1.134l-1.465-.75a1 1 0 0 0-.912 0l-1.465.75a1 1 0 0 1-1.539-1.133l.258-1.613a1 1 0 0 0-.282-.866l-1.156-1.153a1 1 0 0 1 .572-1.822l1.633-.256a1 1 0 0 0 .737-.535z'],tags: ['badge', 'medal', 'honour', 'decoration', 'order', 'pin', 'laurel', 'trophy', 'medallion', 'insignia', 'bronze', 'silver', 'gold'],categories: ['sports', 'gaming'],);
+  static const LucideIconData squareStop = LucideIconData(name: 'square-stop',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],tags: ['media', 'music'],categories: ['multimedia'],);
+  static const LucideIconData squareTerminal = LucideIconData(name: 'square-terminal',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m7 11 2-2-2-2', 'M11 13h4'],tags: ['code', 'command line', 'prompt', 'shell'],categories: ['development'],);
+  static const LucideIconData squareUser = LucideIconData(name: 'square-user',circles: [(12.0, 10.0, 3.0)],rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M7 21v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2'],tags: ['person', 'account', 'contact'],categories: ['account'],);
+  static const LucideIconData squareUserRound = LucideIconData(name: 'square-user-round',circles: [(12.0, 11.0, 4.0)],rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M18 21a6 6 0 0 0-12 0'],tags: ['person', 'account', 'contact'],categories: ['account'],);
+  static const LucideIconData squareX = LucideIconData(name: 'square-x',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m15 9-6 6', 'm9 9 6 6'],tags: ['cancel', 'close', 'delete', 'remove', 'times', 'clear', 'math', 'multiply', 'multiplication'],categories: ['math', 'notifications'],);
+  static const LucideIconData squaresExclude = LucideIconData(name: 'squares-exclude',paths: ['M16 12v2a2 2 0 0 1-2 2H9a1 1 0 0 0-1 1v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h0', 'M4 16a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3a1 1 0 0 1-1 1h-5a2 2 0 0 0-2 2v2'],tags: ['square', 'pathfinder', 'path', 'exclude', 'invert', 'xor', 'shape', 'vector'],categories: ['design'],);
+  static const LucideIconData squaresIntersect = LucideIconData(name: 'squares-intersect',paths: ['M10 22a2 2 0 0 1-2-2', 'M14 2a2 2 0 0 1 2 2', 'M16 22h-2', 'M2 10V8', 'M2 4a2 2 0 0 1 2-2', 'M20 8a2 2 0 0 1 2 2', 'M22 14v2', 'M22 20a2 2 0 0 1-2 2', 'M4 16a2 2 0 0 1-2-2', 'M8 10a2 2 0 0 1 2-2h5a1 1 0 0 1 1 1v5a2 2 0 0 1-2 2H9a1 1 0 0 1-1-1z', 'M8 2h2'],tags: ['square', 'pathfinder', 'path', 'intersect', 'shape', 'include', 'vector'],categories: ['design'],);
+  static const LucideIconData squaresSubtract = LucideIconData(name: 'squares-subtract',paths: ['M10 22a2 2 0 0 1-2-2', 'M16 22h-2', 'M16 4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-5a2 2 0 0 1 2-2h5a1 1 0 0 0 1-1z', 'M20 8a2 2 0 0 1 2 2', 'M22 14v2', 'M22 20a2 2 0 0 1-2 2'],tags: ['square', 'pathfinder', 'path', 'minus', 'subtract', 'subtraction', 'shape', 'front', 'vector'],categories: ['design'],);
+  static const LucideIconData squaresUnite = LucideIconData(name: 'squares-unite',paths: ['M4 16a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3a1 1 0 0 0 1 1h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-3a1 1 0 0 0-1-1z'],tags: ['square', 'pathfinder', 'path', 'unite', 'union', 'shape', 'merge', 'vector'],categories: ['design'],);
+  static const LucideIconData squircle = LucideIconData(name: 'squircle',paths: ['M12 3c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9'],tags: ['shape'],categories: ['shapes'],);
+  static const LucideIconData squircleDashed = LucideIconData(name: 'squircle-dashed',paths: ['M13.77 3.043a34 34 0 0 0-3.54 0', 'M13.771 20.956a33 33 0 0 1-3.541.001', 'M20.18 17.74c-.51 1.15-1.29 1.93-2.439 2.44', 'M20.18 6.259c-.51-1.148-1.291-1.929-2.44-2.438', 'M20.957 10.23a33 33 0 0 1 0 3.54', 'M3.043 10.23a34 34 0 0 0 .001 3.541', 'M6.26 20.179c-1.15-.508-1.93-1.29-2.44-2.438', 'M6.26 3.82c-1.149.51-1.93 1.291-2.44 2.44'],tags: ['shape', 'pending', 'progress', 'issue', 'draft', 'code', 'coding', 'version control'],categories: ['development', 'shapes', 'design'],);
+  static const LucideIconData squirrel = LucideIconData(name: 'squirrel',paths: ['M15.236 22a3 3 0 0 0-2.2-5', 'M16 20a3 3 0 0 1 3-3h1a2 2 0 0 0 2-2v-2a4 4 0 0 0-4-4V4', 'M18 13h.01', 'M18 6a4 4 0 0 0-4 4 7 7 0 0 0-7 7c0-5 4-5 4-10.5a4.5 4.5 0 1 0-9 0 2.5 2.5 0 0 0 5 0C7 10 3 11 3 17c0 2.8 2.2 5 5 5h10'],tags: ['animal', 'rodent', 'pet', 'pest', 'nuts', 'retrieve', 'updates', 'storage', 'stash'],categories: ['animals'],);
+  static const LucideIconData stamp = LucideIconData(name: 'stamp',paths: ['M14 13V8.5C14 7 15 7 15 5a3 3 0 0 0-6 0c0 2 1 2 1 3.5V13', 'M20 15.5a2.5 2.5 0 0 0-2.5-2.5h-11A2.5 2.5 0 0 0 4 15.5V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1z', 'M5 22h14'],tags: ['mark', 'print', 'clone', 'loyalty', 'library'],categories: ['design', 'cursors', 'tools'],);
+  static const LucideIconData star = LucideIconData(name: 'star',paths: ['M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z'],tags: ['bookmark', 'favorite', 'like', 'review', 'rating'],categories: ['account', 'social', 'shapes', 'multimedia', 'weather', 'emoji', 'gaming'],);
+  static const LucideIconData starHalf = LucideIconData(name: 'star-half',paths: ['M12 18.338a2.1 2.1 0 0 0-.987.244L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16l2.309-4.679A.53.53 0 0 1 12 2'],tags: ['bookmark', 'favorite', 'like', 'review', 'rating'],categories: ['social', 'multimedia'],);
+  static const LucideIconData starOff = LucideIconData(name: 'star-off',paths: ['m10.344 4.688 1.181-2.393a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.237 3.152', 'm17.945 17.945.43 2.505a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a8 8 0 0 0 .4-.099', 'm2 2 20 20'],tags: ['dislike', 'unlike', 'remove', 'unrate'],categories: ['multimedia', 'social'],);
+  static const LucideIconData stepBack = LucideIconData(name: 'step-back',paths: ['M13.971 4.285A2 2 0 0 1 17 6v12a2 2 0 0 1-3.029 1.715l-9.997-5.998a2 2 0 0 1-.003-3.432z', 'M21 20V4'],tags: ['arrow', 'previous', 'music', 'left', 'reverse'],categories: ['multimedia', 'arrows'],);
+  static const LucideIconData stepForward = LucideIconData(name: 'step-forward',paths: ['M10.029 4.285A2 2 0 0 0 7 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z', 'M3 4v16'],tags: ['arrow', 'next', 'music', 'right', 'continue'],categories: ['multimedia', 'arrows'],);
+  static const LucideIconData stethoscope = LucideIconData(name: 'stethoscope',circles: [(20.0, 10.0, 2.0)],paths: ['M11 2v2', 'M5 2v2', 'M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1', 'M8 15a6 6 0 0 0 12 0v-3'],tags: ['phonendoscope', 'medical', 'heart', 'lungs', 'sound'],categories: ['science', 'medical'],);
+  static const LucideIconData sticker = LucideIconData(name: 'sticker',paths: ['M21 9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z', 'M15 3v5a1 1 0 0 0 1 1h5', 'M8 13h.01', 'M16 13h.01', 'M10 16s.8 1 2 1c1.3 0 2-1 2-1'],tags: ['reaction', 'emotion', 'smile', 'happy', 'feedback'],categories: ['social'],);
+  static const LucideIconData stickyNote = LucideIconData(name: 'sticky-note',paths: ['M21 9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z', 'M15 3v5a1 1 0 0 0 1 1h5'],tags: ['post-it', 'comment', 'annotation', 'reaction', 'memo', 'reminder', 'todo', 'task', 'idea', 'brainstorm', 'document', 'page', 'paper', 'sheet', 'stationary', 'office'],categories: ['text', 'social'],);
+  static const LucideIconData stone = LucideIconData(name: 'stone',paths: ['M11.264 2.205A4 4 0 0 0 6.42 4.211l-4 8a4 4 0 0 0 1.359 5.117l6 4a4 4 0 0 0 4.438 0l6-4a4 4 0 0 0 1.576-4.592l-2-6a4 4 0 0 0-2.53-2.53z', 'M11.99 22 14 12l7.822 3.184', 'M14 12 8.47 2.302'],tags: ['mineral', 'geology', 'nature', 'solid', 'pebble', 'crystal', 'ore', 'hard', 'coal', 'stone', 'rock', 'boulder'],categories: ['nature'],);
+  static const LucideIconData store = LucideIconData(name: 'store',paths: ['M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5', 'M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244', 'M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05'],tags: ['shop', 'supermarket', 'stand', 'boutique', 'building'],categories: ['buildings', 'navigation', 'shopping'],);
+  static const LucideIconData stretchHorizontal = LucideIconData(name: 'stretch-horizontal',rects: [(2.0, 4.0, 20.0, 6.0, 2.0), (2.0, 14.0, 20.0, 6.0, 2.0)],tags: ['items', 'flex', 'justify', 'distribute'],categories: ['layout'],);
+  static const LucideIconData stretchVertical = LucideIconData(name: 'stretch-vertical',rects: [(4.0, 2.0, 6.0, 20.0, 2.0), (14.0, 2.0, 6.0, 20.0, 2.0)],tags: ['items', 'flex', 'justify', 'distribute'],categories: ['layout'],);
+  static const LucideIconData strikethrough = LucideIconData(name: 'strikethrough',paths: ['M16 4H9a3 3 0 0 0-2.83 4', 'M14 12a4 4 0 0 1 0 8H6'],tags: ['cross out', 'delete', 'remove', 'format'],categories: ['text'],);
+  static const LucideIconData subscript = LucideIconData(name: 'subscript',paths: ['m4 5 8 8', 'm12 5-8 8', 'M20 19h-4c0-1.5.44-2 1.5-2.5S20 15.33 20 14c0-.47-.17-.93-.48-1.29a2.11 2.11 0 0 0-2.62-.44c-.42.24-.74.62-.9 1.07'],tags: ['text'],categories: ['text'],);
+  static const LucideIconData sun = LucideIconData(name: 'sun',circles: [(12.0, 12.0, 4.0)],paths: ['M12 2v2', 'M12 20v2', 'm4.93 4.93 1.41 1.41', 'm17.66 17.66 1.41 1.41', 'M2 12h2', 'M20 12h2', 'm6.34 17.66-1.41 1.41', 'm19.07 4.93-1.41 1.41'],tags: ['brightness', 'weather', 'light', 'summer'],categories: ['accessibility', 'weather', 'seasons', 'sustainability'],);
+  static const LucideIconData sunDim = LucideIconData(name: 'sun-dim',circles: [(12.0, 12.0, 4.0)],paths: ['M12 4h.01', 'M20 12h.01', 'M12 20h.01', 'M4 12h.01', 'M17.657 6.343h.01', 'M17.657 17.657h.01', 'M6.343 17.657h.01', 'M6.343 6.343h.01'],tags: ['brightness', 'dim', 'low', 'brightness low'],categories: ['accessibility', 'weather'],);
+  static const LucideIconData sunMedium = LucideIconData(name: 'sun-medium',circles: [(12.0, 12.0, 4.0)],paths: ['M12 3v1', 'M12 20v1', 'M3 12h1', 'M20 12h1', 'm18.364 5.636-.707.707', 'm6.343 17.657-.707.707', 'm5.636 5.636.707.707', 'm17.657 17.657.707.707'],tags: ['brightness', 'medium'],categories: ['accessibility', 'weather'],);
+  static const LucideIconData sunMoon = LucideIconData(name: 'sun-moon',paths: ['M12 2v2', 'M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715', 'M16 12a4 4 0 0 0-4-4', 'm19 5-1.256 1.256', 'M20 12h2'],tags: ['dark', 'light', 'moon', 'sun', 'brightness', 'theme', 'auto theme', 'system theme', 'appearance'],categories: ['accessibility'],);
+  static const LucideIconData sunSnow = LucideIconData(name: 'sun-snow',paths: ['M10 21v-1', 'M10 4V3', 'M10 9a3 3 0 0 0 0 6', 'm14 20 1.25-2.5L18 18', 'm14 4 1.25 2.5L18 6', 'm17 21-3-6 1.5-3H22', 'm17 3-3 6 1.5 3', 'M2 12h1', 'm20 10-1.5 2 1.5 2', 'm3.64 18.36.7-.7', 'm4.34 6.34-.7-.7'],tags: ['weather', 'air conditioning', 'temperature', 'hot', 'cold', 'seasons'],categories: ['weather'],);
+  static const LucideIconData sunrise = LucideIconData(name: 'sunrise',paths: ['M12 2v8', 'm4.93 10.93 1.41 1.41', 'M2 18h2', 'M20 18h2', 'm19.07 10.93-1.41 1.41', 'M22 22H2', 'm8 6 4-4 4 4', 'M16 18a4 4 0 0 0-8 0'],tags: ['weather', 'time', 'morning', 'day'],categories: ['arrows', 'weather', 'time'],);
+  static const LucideIconData sunset = LucideIconData(name: 'sunset',paths: ['M12 10V2', 'm4.93 10.93 1.41 1.41', 'M2 18h2', 'M20 18h2', 'm19.07 10.93-1.41 1.41', 'M22 22H2', 'm16 6-4 4-4-4', 'M16 18a4 4 0 0 0-8 0'],tags: ['weather', 'time', 'evening', 'night'],categories: ['arrows', 'weather'],);
+  static const LucideIconData superscript = LucideIconData(name: 'superscript',paths: ['m4 19 8-8', 'm12 19-8-8', 'M20 12h-4c0-1.5.442-2 1.5-2.5S20 8.334 20 7.002c0-.472-.17-.93-.484-1.29a2.105 2.105 0 0 0-2.617-.436c-.42.239-.738.614-.899 1.06'],tags: ['text', 'exponent'],categories: ['text'],);
+  static const LucideIconData swatchBook = LucideIconData(name: 'swatch-book',paths: ['M11 17a4 4 0 0 1-8 0V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2Z', 'M16.7 13H19a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H7', 'M 7 17h.01', 'm11 8 2.3-2.3a2.4 2.4 0 0 1 3.404.004L18.6 7.6a2.4 2.4 0 0 1 .026 3.434L9.9 19.8'],tags: ['colors', 'colours', 'swatches', 'pantone', 'shades', 'tint', 'hue', 'saturation', 'brightness', 'theme', 'scheme', 'palette', 'samples', 'textile', 'carpet'],categories: ['design', 'home', 'photography'],);
+  static const LucideIconData swissFranc = LucideIconData(name: 'swiss-franc',paths: ['M10 21V3h8', 'M6 16h9', 'M10 9.5h7'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData switchCamera = LucideIconData(name: 'switch-camera',circles: [(12.0, 12.0, 3.0)],paths: ['M11 19H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h5', 'M13 5h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-5', 'm18 22-3-3 3-3', 'm6 2 3 3-3 3'],tags: ['photo', 'selfie', 'front', 'back'],categories: ['communication', 'devices'],);
+  static const LucideIconData sword = LucideIconData(name: 'sword',paths: ['m11 19-6-6', 'm5 21-2-2', 'm8 16-4 4', 'M9.5 17.5 21 6V3h-3L6.5 14.5'],tags: ['battle', 'challenge', 'game', 'war', 'weapon'],categories: ['gaming', 'tools'],);
+  static const LucideIconData swords = LucideIconData(name: 'swords',polylines: [[(14.5, 17.5), (3.0, 6.0), (3.0, 3.0), (6.0, 3.0), (17.5, 14.5)], [(14.5, 6.5), (18.0, 3.0), (21.0, 3.0), (21.0, 6.0), (17.5, 9.5)]],tags: ['battle', 'challenge', 'game', 'war', 'weapon'],categories: ['gaming', 'tools'],);
+  static const LucideIconData syringe = LucideIconData(name: 'syringe',paths: ['m18 2 4 4', 'm17 7 3-3', 'M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5', 'm9 11 4 4', 'm5 19-3 3', 'm14 4 6 6'],tags: ['medicine', 'medical', 'needle', 'pump', 'plunger', 'nozzle', 'blood'],categories: ['science', 'medical'],);
+  static const LucideIconData table = LucideIconData(name: 'table',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 3v18', 'M3 9h18', 'M3 15h18'],tags: ['spreadsheet', 'grid'],categories: ['text', 'files'],);
+  static const LucideIconData table2 = LucideIconData(name: 'table-2',paths: ['M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18'],tags: ['spreadsheet', 'grid'],categories: ['text', 'files'],);
+  static const LucideIconData tableCellsMerge = LucideIconData(name: 'table-cells-merge',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 21v-6', 'M12 9V3', 'M3 15h18', 'M3 9h18'],tags: ['spreadsheet', 'grid', 'row'],categories: ['text', 'files'],);
+  static const LucideIconData tableCellsSplit = LucideIconData(name: 'table-cells-split',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M12 15V9', 'M3 15h18', 'M3 9h18'],tags: ['spreadsheet', 'grid', 'row'],categories: ['text', 'files'],);
+  static const LucideIconData tableColumnsSplit = LucideIconData(name: 'table-columns-split',paths: ['M14 14v2', 'M14 20v2', 'M14 2v2', 'M14 8v2', 'M2 15h8', 'M2 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2', 'M2 9h8', 'M22 15h-4', 'M22 3h-2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2', 'M22 9h-4', 'M5 3v18'],tags: ['spreadsheet', 'grid', 'cut', 'break', 'divide', 'separate', 'segment'],categories: ['text', 'files'],);
+  static const LucideIconData tableOfContents = LucideIconData(name: 'table-of-contents',paths: ['M16 5H3', 'M16 12H3', 'M16 19H3', 'M21 5h.01', 'M21 12h.01', 'M21 19h.01'],tags: ['toc', 'outline', 'navigation', 'document structure', 'index', 'overview', 'sections', 'chapters', 'content', 'documentation', 'manual', 'knowledge base', 'faq'],categories: ['text'],);
+  static const LucideIconData tableProperties = LucideIconData(name: 'table-properties',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M15 3v18', 'M21 9H3', 'M21 15H3'],tags: ['property list', 'plist', 'spreadsheet', 'grid', 'dictionary', 'object', 'hash'],categories: ['text', 'development', 'files'],);
+  static const LucideIconData tableRowsSplit = LucideIconData(name: 'table-rows-split',paths: ['M14 10h2', 'M15 22v-8', 'M15 2v4', 'M2 10h2', 'M20 10h2', 'M3 19h18', 'M3 22v-6a2 2 135 0 1 2-2h14a2 2 45 0 1 2 2v6', 'M3 2v2a2 2 45 0 0 2 2h14a2 2 135 0 0 2-2V2', 'M8 10h2', 'M9 22v-8', 'M9 2v4'],tags: ['spreadsheet', 'grid', 'cut', 'break', 'divide', 'separate', 'segment'],categories: ['text', 'files'],);
+  static const LucideIconData tablet = LucideIconData(name: 'tablet',rects: [(4.0, 2.0, 16.0, 20.0, 2.0)],tags: ['device'],categories: ['devices'],);
+  static const LucideIconData tabletSmartphone = LucideIconData(name: 'tablet-smartphone',rects: [(3.0, 8.0, 10.0, 14.0, 2.0)],paths: ['M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4', 'M8 18h.01'],tags: ['responsive', 'screens', 'browser', 'testing', 'mobile'],categories: ['devices', 'design', 'development', 'tools'],);
+  static const LucideIconData tablets = LucideIconData(name: 'tablets',circles: [(7.0, 7.0, 5.0), (17.0, 17.0, 5.0)],paths: ['M12 17h10', 'm3.46 10.54 7.08-7.08'],tags: ['medicine', 'medication', 'drug', 'prescription', 'pills', 'pharmacy'],categories: ['medical'],);
+  static const LucideIconData tag = LucideIconData(name: 'tag',circles: [(7.5, 7.5, 0.5)],paths: ['M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z'],tags: ['label', 'badge', 'ticket', 'mark'],categories: ['account'],);
+  static const LucideIconData tags = LucideIconData(name: 'tags',circles: [(10.5, 6.5, 0.5)],paths: ['M13.172 2a2 2 0 0 1 1.414.586l6.71 6.71a2.4 2.4 0 0 1 0 3.408l-4.592 4.592a2.4 2.4 0 0 1-3.408 0l-6.71-6.71A2 2 0 0 1 6 9.172V3a1 1 0 0 1 1-1z', 'M2 7v6.172a2 2 0 0 0 .586 1.414l6.71 6.71a2.4 2.4 0 0 0 3.191.193'],tags: ['labels', 'badges', 'tickets', 'marks', 'copy', 'multiple'],categories: ['account'],);
+  static const LucideIconData tally1 = LucideIconData(name: 'tally-1',paths: ['M4 4v16'],tags: ['count', 'score', 'enumerate', 'days', 'one', '1', 'first', 'bar', 'prison', 'cell', 'sentence'],categories: ['math', 'gaming'],);
+  static const LucideIconData tally2 = LucideIconData(name: 'tally-2',paths: ['M4 4v16', 'M9 4v16'],tags: ['count', 'score', 'enumerate', 'days', 'two', '2', 'second', 'double', 'bars', 'prison', 'cell', 'sentence'],categories: ['math', 'gaming'],);
+  static const LucideIconData tally3 = LucideIconData(name: 'tally-3',paths: ['M4 4v16', 'M9 4v16', 'M14 4v16'],tags: ['count', 'score', 'enumerate', 'days', 'three', '3', 'third', 'triple', 'bars', 'prison', 'cell', 'sentence'],categories: ['math', 'gaming'],);
+  static const LucideIconData tally4 = LucideIconData(name: 'tally-4',paths: ['M4 4v16', 'M9 4v16', 'M14 4v16', 'M19 4v16'],tags: ['count', 'score', 'enumerate', 'days', '4', 'fourth', 'quadruple', 'bars', 'prison', 'cell', 'sentence'],categories: ['math', 'gaming'],);
+  static const LucideIconData tally5 = LucideIconData(name: 'tally-5',paths: ['M4 4v16', 'M9 4v16', 'M14 4v16', 'M19 4v16', 'M22 6 2 18'],tags: ['count', 'score', 'enumerate', 'days', 'five', '5', 'fifth', 'bars', 'prison', 'cell', 'sentence', 'slash', '/'],categories: ['math', 'gaming'],);
+  static const LucideIconData tangent = LucideIconData(name: 'tangent',circles: [(17.0, 4.0, 2.0), (4.0, 17.0, 2.0)],paths: ['M15.59 5.41 5.41 15.59', 'M12 22s-4-9-1.5-11.5S22 12 22 12'],tags: ['tangential', 'shape', 'circle', 'geometry', 'trigonometry', 'bezier curve'],categories: ['shapes', 'math', 'design', 'tools'],);
+  static const LucideIconData target = LucideIconData(name: 'target',circles: [(12.0, 12.0, 10.0), (12.0, 12.0, 6.0), (12.0, 12.0, 2.0)],tags: ['logo', 'bullseye', 'deadline', 'projects', 'overview', 'work', 'productivity'],categories: ['gaming'],);
+  static const LucideIconData telescope = LucideIconData(name: 'telescope',circles: [(12.0, 13.0, 2.0)],paths: ['m10.065 12.493-6.18 1.318a.934.934 0 0 1-1.108-.702l-.537-2.15a1.07 1.07 0 0 1 .691-1.265l13.504-4.44', 'm13.56 11.747 4.332-.924', 'm16 21-3.105-6.21', 'M16.485 5.94a2 2 0 0 1 1.455-2.425l1.09-.272a1 1 0 0 1 1.212.727l1.515 6.06a1 1 0 0 1-.727 1.213l-1.09.272a2 2 0 0 1-2.425-1.455z', 'm6.158 8.633 1.114 4.456', 'm8 21 3.105-6.21'],tags: ['astronomy', 'space', 'discovery', 'exploration', 'explore', 'vision', 'perspective', 'focus', 'stargazing', 'observe', 'view'],categories: ['science', 'development', 'tools'],);
+  static const LucideIconData tent = LucideIconData(name: 'tent',paths: ['M3.5 21 14 3', 'M20.5 21 10 3', 'M15.5 21 12 15l-3.5 6', 'M2 21h20'],tags: ['tipi', 'teepee', 'wigwam', 'lodge', 'camping', 'campsite', 'holiday', 'retreat', 'nomadic', 'native american', 'indian', 'wilderness', 'outdoors'],categories: ['travel', 'nature', 'sustainability'],);
+  static const LucideIconData tentTree = LucideIconData(name: 'tent-tree',circles: [(4.0, 4.0, 2.0)],paths: ['m14 5 3-3 3 3', 'm14 10 3-3 3 3', 'M17 14V2', 'M17 14H7l-5 8h20Z', 'M8 14v8', 'm9 14 5 8'],tags: ['camping', 'campsite', 'holiday', 'retreat', 'nomadic', 'wilderness', 'outdoors'],categories: ['travel', 'nature'],);
+  static const LucideIconData terminal = LucideIconData(name: 'terminal',paths: ['M12 19h8', 'm4 17 6-6-6-6'],tags: ['code', 'command line', 'prompt', 'shell'],categories: ['development'],);
+  static const LucideIconData testTube = LucideIconData(name: 'test-tube',paths: ['M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2', 'M8.5 2h7', 'M14.5 16h-5'],tags: ['tube', 'vial', 'phial', 'flask', 'ampoule', 'ampule', 'lab', 'chemistry', 'experiment', 'test'],categories: ['science'],);
+  static const LucideIconData testTubeDiagonal = LucideIconData(name: 'test-tube-diagonal',paths: ['M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01a2.83 2.83 0 0 1 0-4L17 3', 'm16 2 6 6', 'M12 16H4'],tags: ['tube', 'vial', 'phial', 'flask', 'ampoule', 'ampule', 'lab', 'chemistry', 'experiment', 'test'],categories: ['science'],);
+  static const LucideIconData testTubes = LucideIconData(name: 'test-tubes',paths: ['M9 2v17.5A2.5 2.5 0 0 1 6.5 22A2.5 2.5 0 0 1 4 19.5V2', 'M20 2v17.5a2.5 2.5 0 0 1-2.5 2.5a2.5 2.5 0 0 1-2.5-2.5V2', 'M3 2h7', 'M14 2h7', 'M9 16H4', 'M20 16h-5'],tags: ['tubes', 'vials', 'phials', 'flasks', 'ampoules', 'ampules', 'lab', 'chemistry', 'experiment', 'test'],categories: ['science'],);
+  static const LucideIconData textAlignCenter = LucideIconData(name: 'text-align-center',paths: ['M21 5H3', 'M17 12H7', 'M19 19H5'],tags: ['text', 'alignment', 'center'],categories: ['text'],);
+  static const LucideIconData textAlignEnd = LucideIconData(name: 'text-align-end',paths: ['M21 5H3', 'M21 12H9', 'M21 19H7'],tags: ['text', 'alignment', 'right'],categories: ['text'],);
+  static const LucideIconData textAlignJustify = LucideIconData(name: 'text-align-justify',paths: ['M3 5h18', 'M3 12h18', 'M3 19h18'],tags: ['text', 'alignment', 'justified', 'menu', 'list'],categories: ['text'],);
+  static const LucideIconData textAlignStart = LucideIconData(name: 'text-align-start',paths: ['M21 5H3', 'M15 12H3', 'M17 19H3'],tags: ['text', 'alignment', 'left', 'list'],categories: ['text'],);
+  static const LucideIconData textCursor = LucideIconData(name: 'text-cursor',paths: ['M17 22h-1a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h1', 'M7 22h1a4 4 0 0 0 4-4v-1', 'M7 2h1a4 4 0 0 1 4 4v1'],tags: ['select'],categories: ['text', 'cursors'],);
+  static const LucideIconData textCursorInput = LucideIconData(name: 'text-cursor-input',paths: ['M12 20h-1a2 2 0 0 1-2-2 2 2 0 0 1-2 2H6', 'M13 8h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-7', 'M5 16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1', 'M6 4h1a2 2 0 0 1 2 2 2 2 0 0 1 2-2h1', 'M9 6v12'],tags: ['select'],categories: ['text', 'layout'],);
+  static const LucideIconData textInitial = LucideIconData(name: 'text-initial',paths: ['M15 5h6', 'M15 12h6', 'M3 19h18', 'm3 12 3.553-7.724a.5.5 0 0 1 .894 0L11 12', 'M3.92 10h6.16'],tags: ['drop cap', 'text', 'format', 'typography', 'letter', 'font size'],categories: ['text'],);
+  static const LucideIconData textQuote = LucideIconData(name: 'text-quote',paths: ['M17 5H3', 'M21 12H8', 'M21 19H8', 'M3 12v7'],tags: ['blockquote', 'quotation', 'indent', 'reply', 'response'],categories: ['text'],);
+  static const LucideIconData textSearch = LucideIconData(name: 'text-search',circles: [(17.0, 15.0, 3.0)],paths: ['M21 5H3', 'M10 12H3', 'M10 19H3', 'm21 19-1.9-1.9'],tags: ['find', 'data', 'copy', 'txt', 'pdf', 'document', 'scan', 'magnifier', 'magnifying glass', 'lens'],categories: ['text'],);
+  static const LucideIconData textSelect = LucideIconData(name: 'text-select',paths: ['M14 21h1', 'M14 3h1', 'M19 3a2 2 0 0 1 2 2', 'M21 14v1', 'M21 19a2 2 0 0 1-2 2', 'M21 9v1', 'M3 14v1', 'M3 9v1', 'M5 21a2 2 0 0 1-2-2', 'M5 3a2 2 0 0 0-2 2', 'M7 12h10', 'M7 16h6', 'M7 8h8', 'M9 21h1', 'M9 3h1'],tags: ['find', 'search', 'selection', 'dashed'],categories: ['text', 'cursors'],);
+  static const LucideIconData textWrap = LucideIconData(name: 'text-wrap',paths: ['m16 16-3 3 3 3', 'M3 12h14.5a1 1 0 0 1 0 7H13', 'M3 19h6', 'M3 5h18'],tags: ['words', 'lines', 'break', 'paragraph'],categories: ['text', 'arrows'],);
+  static const LucideIconData theater = LucideIconData(name: 'theater',paths: ['M2 10s3-3 3-8', 'M22 10s-3-3-3-8', 'M10 2c0 4.4-3.6 8-8 8', 'M14 2c0 4.4 3.6 8 8 8', 'M2 10s2 2 2 5', 'M22 10s-2 2-2 5', 'M8 15h8', 'M2 22v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1', 'M14 22v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1'],tags: ['theater', 'theatre', 'entertainment', 'podium', 'stage', 'musical'],categories: ['buildings', 'social'],);
+  static const LucideIconData thermometer = LucideIconData(name: 'thermometer',paths: ['M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z'],tags: ['temperature', 'celsius', 'fahrenheit', 'weather'],categories: ['weather'],);
+  static const LucideIconData thermometerSnowflake = LucideIconData(name: 'thermometer-snowflake',paths: ['m10 20-1.25-2.5L6 18', 'M10 4 8.75 6.5 6 6', 'M10.585 15H10', 'M2 12h6.5L10 9', 'M20 14.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z', 'm4 10 1.5 2L4 14', 'm7 21 3-6-1.5-3', 'm7 3 3 6h2'],tags: ['temperature', 'celsius', 'fahrenheit', 'weather', 'cold', 'freeze', 'freezing'],categories: ['weather'],);
+  static const LucideIconData thermometerSun = LucideIconData(name: 'thermometer-sun',paths: ['M12 2v2', 'M12 8a4 4 0 0 0-1.645 7.647', 'M2 12h2', 'M20 14.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z', 'm4.93 4.93 1.41 1.41', 'm6.34 17.66-1.41 1.41'],tags: ['temperature', 'celsius', 'fahrenheit', 'weather', 'warm', 'hot'],categories: ['weather'],);
+  static const LucideIconData thumbsDown = LucideIconData(name: 'thumbs-down',paths: ['M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z', 'M17 14V2'],tags: ['dislike', 'bad', 'emotion'],categories: ['account', 'social', 'emoji'],);
+  static const LucideIconData thumbsUp = LucideIconData(name: 'thumbs-up',paths: ['M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z', 'M7 10v12'],tags: ['like', 'good', 'emotion'],categories: ['account', 'social', 'emoji'],);
+  static const LucideIconData ticket = LucideIconData(name: 'ticket',paths: ['M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z', 'M13 5v2', 'M13 17v2', 'M13 11v2'],tags: ['entry', 'pass', 'voucher', 'event', 'concert', 'show', 'perforated', 'dashed'],categories: ['account', 'transportation'],);
+  static const LucideIconData ticketCheck = LucideIconData(name: 'ticket-check',paths: ['M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z', 'm9 12 2 2 4-4'],tags: ['entry', 'pass', 'voucher', 'event', 'concert', 'show', 'booked', 'purchased', 'receipt', 'redeemed', 'validated', 'verified', 'certified', 'checked', 'used'],categories: ['transportation'],);
+  static const LucideIconData ticketMinus = LucideIconData(name: 'ticket-minus',paths: ['M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z', 'M9 12h6'],tags: ['entry', 'pass', 'voucher', 'event', 'concert', 'show', 'remove', 'cancel', 'unbook', 'subtract', 'decrease', '-'],categories: ['transportation'],);
+  static const LucideIconData ticketPercent = LucideIconData(name: 'ticket-percent',paths: ['M2 9a3 3 0 1 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 1 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z', 'M9 9h.01', 'm15 9-6 6', 'M15 15h.01'],tags: ['discount', 'reduced', 'offer', 'voucher', 'entry', 'pass', 'event', 'concert', 'show', 'book', 'purchase', '%'],categories: ['transportation', 'shopping'],);
+  static const LucideIconData ticketPlus = LucideIconData(name: 'ticket-plus',paths: ['M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z', 'M9 12h6', 'M12 9v6'],tags: ['entry', 'pass', 'voucher', 'event', 'concert', 'show', 'book', 'purchase', 'add', '+'],categories: ['transportation'],);
+  static const LucideIconData ticketSlash = LucideIconData(name: 'ticket-slash',paths: ['M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z', 'm9.5 14.5 5-5'],tags: ['entry', 'pass', 'voucher', 'event', 'concert', 'show', 'redeemed', 'used', 'marked', 'checked', 'verified', 'spoiled', 'invalidated', 'void', 'denied', 'refused', 'banned', 'barred', 'forbidden', 'prohibited', 'cancelled', 'cancellation', 'refunded', 'delete', 'remove', 'clear', 'error'],categories: ['transportation'],);
+  static const LucideIconData ticketX = LucideIconData(name: 'ticket-x',paths: ['M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z', 'm9.5 14.5 5-5', 'm9.5 9.5 5 5'],tags: ['entry', 'pass', 'voucher', 'event', 'concert', 'show', 'cancelled', 'cancellation', 'refunded', 'used', 'void', 'invalidated', 'spoiled', 'denied', 'refused', 'banned', 'barred', 'forbidden', 'prohibited', 'delete', 'remove', 'clear', 'error', 'x'],categories: ['transportation'],);
+  static const LucideIconData tickets = LucideIconData(name: 'tickets',paths: ['m3.173 8.18 11-5a2 2 0 0 1 2.647.993L18.56 8', 'M6 10V8', 'M6 14v1', 'M6 19v2'],tags: ['trip', 'travel', 'pass', 'entry', 'voucher', 'event', 'concert', 'show', 'perforated', 'dashed'],categories: ['travel', 'account', 'transportation'],);
+  static const LucideIconData ticketsPlane = LucideIconData(name: 'tickets-plane',paths: ['M10.5 17h1.227a2 2 0 0 0 1.345-.52L18 12', 'm12 13.5 3.794.506', 'm3.173 8.18 11-5a2 2 0 0 1 2.647.993L18.56 8', 'M6 10V8', 'M6 14v1', 'M6 19v2'],tags: ['plane', 'trip', 'airplane', 'flight', 'travel', 'fly', 'takeoff', 'vacation', 'passenger', 'pass', 'check-in', 'airport'],categories: ['transportation', 'travel'],);
+  static const LucideIconData timer = LucideIconData(name: 'timer',circles: [(12.0, 14.0, 8.0)],tags: ['time', 'timer', 'stopwatch'],categories: ['time'],);
+  static const LucideIconData timerOff = LucideIconData(name: 'timer-off',paths: ['M10 2h4', 'M4.6 11a8 8 0 0 0 1.7 8.7 8 8 0 0 0 8.7 1.7', 'M7.4 7.4a8 8 0 0 1 10.3 1 8 8 0 0 1 .9 10.2', 'm2 2 20 20', 'M12 12v-2'],tags: ['time', 'timer', 'stopwatch'],categories: ['time'],);
+  static const LucideIconData timerReset = LucideIconData(name: 'timer-reset',paths: ['M10 2h4', 'M12 14v-4', 'M4 13a8 8 0 0 1 8-7 8 8 0 1 1-5.3 14L4 17.6', 'M9 17H4v5'],tags: ['time', 'timer', 'stopwatch'],categories: ['time'],);
+  static const LucideIconData toggleLeft = LucideIconData(name: 'toggle-left',circles: [(9.0, 12.0, 3.0)],rects: [(2.0, 5.0, 20.0, 14.0, 7.0)],tags: ['on', 'off', 'switch', 'boolean'],categories: ['layout', 'account', 'development'],);
+  static const LucideIconData toggleRight = LucideIconData(name: 'toggle-right',circles: [(15.0, 12.0, 3.0)],rects: [(2.0, 5.0, 20.0, 14.0, 7.0)],tags: ['on', 'off', 'switch', 'boolean'],categories: ['layout', 'account', 'development'],);
+  static const LucideIconData toilet = LucideIconData(name: 'toilet',paths: ['M7 12h13a1 1 0 0 1 1 1 5 5 0 0 1-5 5h-.598a.5.5 0 0 0-.424.765l1.544 2.47a.5.5 0 0 1-.424.765H5.402a.5.5 0 0 1-.424-.765L7 18', 'M8 18a5 5 0 0 1-5-5V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8'],tags: ['toilet', 'potty', 'bathroom', 'washroom'],categories: ['devices', 'home'],);
+  static const LucideIconData toolCase = LucideIconData(name: 'tool-case',paths: ['M10 15h4', 'm14.817 10.995-.971-1.45 1.034-1.232a2 2 0 0 0-2.025-3.238l-1.82.364L9.91 3.885a2 2 0 0 0-3.625.748L6.141 6.55l-1.725.426a2 2 0 0 0-.19 3.756l.657.27', 'm18.822 10.995 2.26-5.38a1 1 0 0 0-.557-1.318L16.954 2.9a1 1 0 0 0-1.281.533l-.924 2.122', 'M4 12.006A1 1 0 0 1 4.994 11H19a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z'],tags: ['tools', 'maintenance', 'repair'],categories: ['tools', 'development', 'home'],);
+  static const LucideIconData toolbox = LucideIconData(name: 'toolbox',paths: ['M16 12v4', 'M16 6a2 2 0 0 1 1.414.586l4 4A2 2 0 0 1 22 12v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 .586-1.414l4-4A2 2 0 0 1 8 6z', 'M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2', 'M2 14h20', 'M8 12v4'],tags: ['toolkit', 'tools', 'trunk', 'chest', 'box', 'storage', 'utility', 'utilities', 'container', 'kit', 'set', 'repair', 'fix', 'service', 'maintenance', 'mechanic', 'workshop', 'construction', 'hardware', 'equipment', 'gear', 'handyman', 'engineering', 'craft', 'diy'],categories: ['tools', 'home'],);
+  static const LucideIconData tornado = LucideIconData(name: 'tornado',paths: ['M21 4H3', 'M18 8H6', 'M19 12H9', 'M16 16h-6', 'M11 20H9'],tags: ['weather', 'wind', 'storm', 'hurricane'],categories: ['weather'],);
+  static const LucideIconData torus = LucideIconData(name: 'torus',tags: ['donut', 'doughnut', 'ring', 'hollow', '3d', 'fast food', 'junk food', 'snack', 'treat', 'sweet', 'sugar', 'dessert'],categories: ['shapes', 'design', 'tools', 'food-beverage'],);
+  static const LucideIconData touchpad = LucideIconData(name: 'touchpad',rects: [(2.0, 4.0, 20.0, 16.0, 2.0)],paths: ['M2 14h20', 'M12 20v-6'],tags: ['trackpad', 'cursor'],categories: ['devices'],);
+  static const LucideIconData touchpadOff = LucideIconData(name: 'touchpad-off',paths: ['M12 20v-6', 'M19.656 14H22', 'M2 14h12', 'm2 2 20 20', 'M20 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2', 'M9.656 4H20a2 2 0 0 1 2 2v10.344'],tags: ['trackpad', 'cursor'],categories: ['devices'],);
+  static const LucideIconData towelRack = LucideIconData(name: 'towel-rack',paths: ['M22 7h-2', 'M6.5 3h11A2.5 2.5 0 0 1 20 5.5V20a1 1 0 0 1-1 1h-9a1 1 0 0 1-1-1V5.5a1 1 0 0 0-5 0V17a1 1 0 0 0 1 1h4', 'M9 7H2'],tags: ['flannel', 'bathroom', 'toiletries', 'sanitation', 'clean', 'fresh', 'dry', 'laundry', 'laundrette', 'hospitality', 'housekeeping', 'room service', 'spa break', 'health club', 'amenities', 'hanging'],categories: ['home', 'travel'],);
+  static const LucideIconData towerControl = LucideIconData(name: 'tower-control',paths: ['M18.2 12.27 20 6H4l1.8 6.27a1 1 0 0 0 .95.73h10.5a1 1 0 0 0 .96-.73Z', 'M8 13v9', 'M16 22v-9', 'm9 6 1 7', 'm15 6-1 7', 'M12 6V2', 'M13 2h-2'],tags: ['airport', 'travel', 'tower', 'transportation', 'lighthouse'],categories: ['travel', 'transportation'],);
+  static const LucideIconData toyBrick = LucideIconData(name: 'toy-brick',rects: [(3.0, 8.0, 18.0, 12.0, 1.0)],paths: ['M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3', 'M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3'],tags: ['lego', 'block', 'addon', 'plugin', 'integration'],categories: ['gaming', 'development'],);
+  static const LucideIconData tractor = LucideIconData(name: 'tractor',circles: [(18.0, 18.0, 2.0), (7.0, 15.0, 5.0)],paths: ['m10 11 11 .9a1 1 0 0 1 .8 1.1l-.665 4.158a1 1 0 0 1-.988.842H20', 'M16 18h-5', 'M18 5a1 1 0 0 0-1 1v5.573', 'M3 4h8.129a1 1 0 0 1 .99.863L13 11.246', 'M4 11V4', 'M7 15h.01', 'M8 10.1V4'],tags: ['farming', 'farmer', 'ranch', 'harvest', 'equipment', 'vehicle'],categories: ['transportation', 'sustainability', 'food-beverage'],);
+  static const LucideIconData trafficCone = LucideIconData(name: 'traffic-cone',paths: ['M16.05 10.966a5 2.5 0 0 1-8.1 0', 'm16.923 14.049 4.48 2.04a1 1 0 0 1 .001 1.831l-8.574 3.9a2 2 0 0 1-1.66 0l-8.574-3.91a1 1 0 0 1 0-1.83l4.484-2.04', 'M16.949 14.14a5 2.5 0 1 1-9.9 0L10.063 3.5a2 2 0 0 1 3.874 0z', 'M9.194 6.57a5 2.5 0 0 0 5.61 0'],tags: ['roadworks', 'tarmac', 'safety', 'block'],categories: ['transportation'],);
+  static const LucideIconData trainFront = LucideIconData(name: 'train-front',paths: ['M8 3.1V7a4 4 0 0 0 8 0V3.1', 'm9 15-1-1', 'm15 15 1-1', 'M9 19c-2.8 0-5-2.2-5-5v-4a8 8 0 0 1 16 0v4c0 2.8-2.2 5-5 5Z', 'm8 19-2 3', 'm16 19 2 3'],tags: ['railway', 'metro', 'subway', 'underground', 'high-speed', 'bullet', 'fast', 'track', 'line'],categories: ['transportation'],);
+  static const LucideIconData trainFrontTunnel = LucideIconData(name: 'train-front-tunnel',paths: ['M2 22V12a10 10 0 1 1 20 0v10', 'M15 6.8v1.4a3 2.8 0 1 1-6 0V6.8', 'M10 15h.01', 'M14 15h.01', 'M10 19a4 4 0 0 1-4-4v-3a6 6 0 1 1 12 0v3a4 4 0 0 1-4 4Z', 'm9 19-2 3', 'm15 19 2 3'],tags: ['railway', 'metro', 'subway', 'underground', 'speed', 'bullet', 'fast', 'track', 'line'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData trainTrack = LucideIconData(name: 'train-track',paths: ['M2 17 17 2', 'm2 14 8 8', 'm5 11 8 8', 'm8 8 8 8', 'm11 5 8 8', 'm14 2 8 8', 'M7 22 22 7'],tags: ['railway', 'line'],categories: ['transportation', 'navigation'],);
+  static const LucideIconData tramFront = LucideIconData(name: 'tram-front',rects: [(4.0, 3.0, 16.0, 16.0, 2.0)],paths: ['M4 11h16', 'M12 3v8', 'm8 19-2 3', 'm18 22-2-3', 'M8 15h.01', 'M16 15h.01'],tags: ['railway', 'metro', 'subway', 'underground', 'track', 'line', 'tourism'],categories: ['transportation'],);
+  static const LucideIconData transgender = LucideIconData(name: 'transgender',circles: [(12.0, 12.0, 4.0)],paths: ['M12 16v6', 'M14 20h-4', 'M18 2h4v4', 'm2 2 7.17 7.17', 'M2 5.355V2h3.357', 'm22 2-7.17 7.17', 'M8 5 5 8'],tags: ['gender', 'inclusive'],categories: ['medical', 'accessibility'],);
+  static const LucideIconData trash = LucideIconData(name: 'trash',paths: ['M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6', 'M3 6h18', 'M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2'],tags: ['empty', 'deletion', 'cleanup', 'junk', 'clear', 'garbage', 'delete', 'remove', 'bin', 'waste', 'recycle', 'discard', 'binoculars', 'rubbish'],categories: ['files', 'mail'],);
+  static const LucideIconData trash2 = LucideIconData(name: 'trash-2',paths: ['M10 11v6', 'M14 11v6', 'M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6', 'M3 6h18', 'M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2'],tags: ['garbage', 'delete', 'remove', 'bin'],categories: ['files', 'mail'],);
+  static const LucideIconData treeDeciduous = LucideIconData(name: 'tree-deciduous',paths: ['M8 19a4 4 0 0 1-2.24-7.32A3.5 3.5 0 0 1 9 6.03V6a3 3 0 1 1 6 0v.04a3.5 3.5 0 0 1 3.24 5.65A4 4 0 0 1 16 19Z', 'M12 19v3'],tags: ['tree', 'forest', 'park', 'nature'],categories: ['nature', 'sustainability'],);
+  static const LucideIconData treePalm = LucideIconData(name: 'tree-palm',paths: ['M13 8c0-2.76-2.46-5-5.5-5S2 5.24 2 8h2l1-1 1 1h4', 'M13 7.14A5.82 5.82 0 0 1 16.5 6c3.04 0 5.5 2.24 5.5 5h-3l-1-1-1 1h-3', 'M5.89 9.71c-2.15 2.15-2.3 5.47-.35 7.43l4.24-4.25.7-.7.71-.71 2.12-2.12c-1.95-1.96-5.27-1.8-7.42.35', 'M11 15.5c.5 2.5-.17 4.5-1 6.5h4c2-5.5-.5-12-1-14'],tags: ['vacation', 'leisure', 'island'],categories: ['nature', 'sustainability'],);
+  static const LucideIconData treePine = LucideIconData(name: 'tree-pine',paths: ['m17 14 3 3.3a1 1 0 0 1-.7 1.7H4.7a1 1 0 0 1-.7-1.7L7 14h-.3a1 1 0 0 1-.7-1.7L9 9h-.2A1 1 0 0 1 8 7.3L12 3l4 4.3a1 1 0 0 1-.8 1.7H15l3 3.3a1 1 0 0 1-.7 1.7H17Z', 'M12 22v-3'],tags: ['tree', 'pine', 'forest', 'park', 'nature'],categories: ['nature', 'sustainability'],);
+  static const LucideIconData trees = LucideIconData(name: 'trees',paths: ['M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z', 'M7 16v6', 'M13 19v3', 'M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5'],tags: ['tree', 'forest', 'park', 'nature'],categories: ['nature', 'sustainability'],);
+  static const LucideIconData trendingDown = LucideIconData(name: 'trending-down',paths: ['M16 17h6v-6', 'm22 17-8.5-8.5-5 5L2 7'],tags: ['statistics'],categories: ['charts', 'arrows'],);
+  static const LucideIconData trendingUp = LucideIconData(name: 'trending-up',paths: ['M16 7h6v6', 'm22 7-8.5 8.5-5-5L2 17'],tags: ['statistics'],categories: ['charts', 'arrows'],);
+  static const LucideIconData trendingUpDown = LucideIconData(name: 'trending-up-down',paths: ['M14.828 14.828 21 21', 'M21 16v5h-5', 'm21 3-9 9-4-4-6 6', 'M21 8V3h-5'],tags: ['arrows', 'estimated', 'indeterminate', 'data fluctuation', 'uncertain', 'forecast', 'variable', 'prediction', 'dynamic', 'volatile'],categories: ['charts', 'arrows'],);
+  static const LucideIconData triangle = LucideIconData(name: 'triangle',paths: ['M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z'],tags: ['equilateral', 'delta', 'shape', 'pyramid', 'hierarchy'],categories: ['shapes'],);
+  static const LucideIconData triangleAlert = LucideIconData(name: 'triangle-alert',paths: ['m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3', 'M12 9v4', 'M12 17h.01'],tags: ['warning', 'alert', 'danger', 'exclamation mark', 'linter'],categories: ['notifications', 'shapes', 'development'],);
+  static const LucideIconData triangleDashed = LucideIconData(name: 'triangle-dashed',paths: ['M10.17 4.193a2 2 0 0 1 3.666.013', 'M14 21h2', 'm15.874 7.743 1 1.732', 'm18.849 12.952 1 1.732', 'M21.824 18.18a2 2 0 0 1-1.835 2.824', 'M4.024 21a2 2 0 0 1-1.839-2.839', 'm5.136 12.952-1 1.732', 'M8 21h2', 'm8.102 7.743-1 1.732'],tags: ['equilateral', 'delta', 'shape', 'pyramid', 'hierarchy', 'dashed'],categories: ['shapes'],);
+  static const LucideIconData triangleRight = LucideIconData(name: 'triangle-right',paths: ['M22 18a2 2 0 0 1-2 2H3c-1.1 0-1.3-.6-.4-1.3L20.4 4.3c.9-.7 1.6-.4 1.6.7Z'],tags: ['volume', 'controls', 'controller', 'tv remote', 'geometry', 'delta', 'ramp', 'slope', 'incline', 'increase'],categories: ['shapes', 'math'],);
+  static const LucideIconData trophy = LucideIconData(name: 'trophy',paths: ['M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978', 'M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978', 'M18 9h1.5a1 1 0 0 0 0-5H18', 'M4 22h16', 'M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z', 'M6 9H4.5a1 1 0 0 1 0-5H6'],tags: ['prize', 'sports', 'winner', 'achievement', 'award', 'champion', 'celebration', 'victory'],categories: ['sports', 'gaming'],);
+  static const LucideIconData truck = LucideIconData(name: 'truck',circles: [(17.0, 18.0, 2.0), (7.0, 18.0, 2.0)],paths: ['M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2', 'M15 18H9', 'M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14'],tags: ['delivery', 'van', 'shipping', 'haulage', 'lorry'],categories: ['transportation'],);
+  static const LucideIconData truckElectric = LucideIconData(name: 'truck-electric',circles: [(17.0, 19.0, 2.0), (7.0, 19.0, 2.0)],paths: ['M14 19V7a2 2 0 0 0-2-2H9', 'M15 19H9', 'M19 19h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62L18.3 9.38a1 1 0 0 0-.78-.38H14', 'M2 13v5a1 1 0 0 0 1 1h2', 'M4 3 2.15 5.15a.495.495 0 0 0 .35.86h2.15a.47.47 0 0 1 .35.86L3 9.02'],tags: ['delivery', 'van', 'shipping', 'haulage', 'lorry', 'electric'],categories: ['transportation'],);
+  static const LucideIconData turkishLira = LucideIconData(name: 'turkish-lira',paths: ['M15 4 5 9', 'm15 8.5-10 5', 'M18 12a9 9 0 0 1-9 9V3'],tags: ['currency', 'money', 'payment'],categories: ['finance'],);
+  static const LucideIconData turntable = LucideIconData(name: 'turntable',circles: [(10.0, 12.0, 4.0)],paths: ['M10 12.01h.01', 'M18 8v4a8 8 0 0 1-1.07 4'],tags: ['record player', 'gramophone', 'stereo', 'phonograph', 'vinyl', 'lp', 'disc', 'platter', 'cut', 'music', 'analog', 'retro', 'dj deck', 'disc jockey', 'scratch', 'spinning'],categories: ['multimedia', 'home'],);
+  static const LucideIconData turtle = LucideIconData(name: 'turtle',paths: ['m12 10 2 4v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3a8 8 0 1 0-16 0v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3l2-4h4Z', 'M4.82 7.9 8 10', 'M15.18 7.9 12 10', 'M16.93 10H20a2 2 0 0 1 0 4H2'],tags: ['animal', 'pet', 'tortoise', 'slow', 'speed'],categories: ['animals'],);
+  static const LucideIconData tv = LucideIconData(name: 'tv',rects: [(2.0, 7.0, 20.0, 15.0, 2.0)],paths: ['m17 2-5 5-5-5'],tags: ['television', 'stream', 'display', 'widescreen', 'high-definition', 'hd', '1080p', '4k', '8k', 'smart', 'digital', 'video', 'entertainment', 'showtime', 'channels', 'terrestrial', 'satellite', 'cable', 'broadcast', 'live', 'frequency', 'tune', 'scan', 'aerial', 'receiver', 'transmission', 'signal', 'connection', 'connectivity'],categories: ['devices', 'multimedia', 'communication'],);
+  static const LucideIconData tvMinimal = LucideIconData(name: 'tv-minimal',rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],paths: ['M7 21h10'],tags: ['flatscreen', 'television', 'stream', 'display', 'widescreen', 'high-definition', 'hd', '1080p', '4k', '8k', 'smart', 'digital', 'video', 'home cinema', 'entertainment', 'showtime', 'channels', 'catchup'],categories: ['devices', 'multimedia'],);
+  static const LucideIconData tvMinimalPlay = LucideIconData(name: 'tv-minimal-play',rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],paths: ['M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z', 'M7 21h10'],tags: ['flatscreen', 'television', 'stream', 'display', 'widescreen', 'high-definition', 'hd', '1080p', '4k', '8k', 'smart', 'digital', 'video', 'movie', 'live', 'ott', 'running', 'start', 'film', 'home cinema', 'entertainment', 'showtime', 'channels', 'catchup'],categories: ['devices', 'multimedia'],);
+  static const LucideIconData type = LucideIconData(name: 'type',paths: ['M12 4v16', 'M4 7V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2', 'M9 20h6'],tags: ['text', 'font', 'typography'],categories: ['text'],);
+  static const LucideIconData typeOutline = LucideIconData(name: 'type-outline',paths: ['M14 16.5a.5.5 0 0 0 .5.5h.5a2 2 0 0 1 0 4H9a2 2 0 0 1 0-4h.5a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V8a2 2 0 0 1-4 0V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v3a2 2 0 0 1-4 0v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5Z'],tags: ['text', 'font', 'typography', 'silhouette', 'profile', 'contour', 'stroke', 'line'],categories: ['text'],);
+  static const LucideIconData umbrella = LucideIconData(name: 'umbrella',paths: ['M12 13v7a2 2 0 0 0 4 0', 'M12 2v2', 'M20.992 13a1 1 0 0 0 .97-1.274 10.284 10.284 0 0 0-19.923 0A1 1 0 0 0 3 13z'],tags: ['rain', 'weather'],categories: ['weather'],);
+  static const LucideIconData umbrellaOff = LucideIconData(name: 'umbrella-off',paths: ['M12 13v7a2 2 0 0 0 4 0', 'M12 2v2', 'M18.656 13h2.336a1 1 0 0 0 .97-1.274 10.284 10.284 0 0 0-12.07-7.51', 'm2 2 20 20', 'M5.961 5.957a10.28 10.28 0 0 0-3.922 5.769A1 1 0 0 0 3 13h10'],tags: ['rain', 'weather', 'uncovered', 'uninsured', 'antivirus', 'unprotected', 'risky'],categories: ['weather'],);
+  static const LucideIconData underline = LucideIconData(name: 'underline',paths: ['M6 4v6a6 6 0 0 0 12 0V4'],tags: ['text', 'format'],categories: ['text'],);
+  static const LucideIconData undo = LucideIconData(name: 'undo',paths: ['M3 7v6h6', 'M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13'],tags: ['redo', 'rerun', 'history'],categories: ['text', 'arrows'],);
+  static const LucideIconData undo2 = LucideIconData(name: 'undo-2',paths: ['M9 14 4 9l5-5', 'M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11'],tags: ['redo', 'rerun', 'history', 'back', 'return', 'reverse', 'revert', 'direction', 'u-turn'],categories: ['text', 'arrows'],);
+  static const LucideIconData undoDot = LucideIconData(name: 'undo-dot',circles: [(12.0, 17.0, 1.0)],paths: ['M21 17a9 9 0 0 0-15-6.7L3 13', 'M3 7v6h6'],tags: ['redo', 'history', 'step', 'back'],categories: ['text', 'arrows'],);
+  static const LucideIconData unfoldHorizontal = LucideIconData(name: 'unfold-horizontal',paths: ['M16 12h6', 'M8 12H2', 'M12 2v2', 'M12 8v2', 'M12 14v2', 'M12 20v2', 'm19 15 3-3-3-3', 'm5 9-3 3 3 3'],tags: ['arrow', 'collapse', 'fold', 'vertical', 'dashed'],categories: ['arrows', 'layout'],);
+  static const LucideIconData unfoldVertical = LucideIconData(name: 'unfold-vertical',paths: ['M12 22v-6', 'M12 8V2', 'M4 12H2', 'M10 12H8', 'M16 12h-2', 'M22 12h-2', 'm15 19-3 3-3-3', 'm15 5-3-3-3 3'],tags: ['arrow', 'expand', 'vertical', 'dashed'],categories: ['arrows', 'layout'],);
+  static const LucideIconData ungroup = LucideIconData(name: 'ungroup',rects: [(5.0, 4.0, 8.0, 6.0, 1.0), (11.0, 14.0, 8.0, 6.0, 1.0)],tags: ['cubes', 'packages', 'parts', 'units', 'collection', 'cluster', 'separate'],categories: ['shapes', 'files'],);
+  static const LucideIconData university = LucideIconData(name: 'university',circles: [(12.0, 10.0, 2.0)],paths: ['M14 21v-3a2 2 0 0 0-4 0v3', 'M18 12h.01', 'M18 16h.01', 'M22 7a1 1 0 0 0-1-1h-2a2 2 0 0 1-1.143-.359L13.143 2.36a2 2 0 0 0-2.286-.001L6.143 5.64A2 2 0 0 1 5 6H3a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2z', 'M6 12h.01', 'M6 16h.01'],tags: ['building', 'education', 'childhood', 'school', 'college', 'academy', 'institute'],categories: ['buildings', 'navigation'],);
+  static const LucideIconData unlink = LucideIconData(name: 'unlink',paths: ['m18.84 12.25 1.72-1.71h-.02a5.004 5.004 0 0 0-.12-7.07 5.006 5.006 0 0 0-6.95 0l-1.72 1.71', 'm5.17 11.75-1.71 1.71a5.004 5.004 0 0 0 .12 7.07 5.006 5.006 0 0 0 6.95 0l1.71-1.71'],tags: ['url', 'unchain'],categories: ['text'],);
+  static const LucideIconData unlink2 = LucideIconData(name: 'unlink-2',paths: ['M15 7h2a5 5 0 0 1 0 10h-2m-6 0H7A5 5 0 0 1 7 7h2'],tags: ['url', 'unchain'],categories: ['text'],);
+  static const LucideIconData unplug = LucideIconData(name: 'unplug',paths: ['m19 5 3-3', 'm2 22 3-3', 'M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z', 'M7.5 13.5 10 11', 'M10.5 16.5 13 14', 'm12 6 6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z'],tags: ['electricity', 'energy', 'electronics', 'socket', 'outlet', 'disconnect'],categories: ['devices', 'development'],);
+  static const LucideIconData upload = LucideIconData(name: 'upload',paths: ['M12 3v12', 'm17 8-5-5-5 5', 'M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'],tags: ['file'],categories: ['arrows', 'files'],);
+  static const LucideIconData usb = LucideIconData(name: 'usb',circles: [(10.0, 7.0, 1.0), (4.0, 20.0, 1.0)],paths: ['M4.7 19.3 19 5', 'm21 3-3 1 2 2Z', 'M9.26 7.68 5 12l2 5', 'm10 14 5 2 3.5-3.5', 'm18 12 1-1 1 1-1 1Z'],tags: ['universal', 'serial', 'bus', 'controller', 'connector', 'interface'],categories: ['devices', 'multimedia', 'home'],);
+  static const LucideIconData user = LucideIconData(name: 'user',circles: [(12.0, 7.0, 4.0)],paths: ['M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'],tags: ['person', 'account', 'contact'],categories: ['account'],);
+  static const LucideIconData userCheck = LucideIconData(name: 'user-check',circles: [(9.0, 7.0, 4.0)],paths: ['m16 11 2 2 4-4', 'M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'],tags: ['followed', 'subscribed', 'done', 'todo', 'tick', 'complete', 'task'],categories: ['account'],);
+  static const LucideIconData userCog = LucideIconData(name: 'user-cog',circles: [(18.0, 15.0, 3.0), (9.0, 7.0, 4.0)],paths: ['M10 15H6a4 4 0 0 0-4 4v2', 'm14.305 16.53.923-.382', 'm15.228 13.852-.923-.383', 'm16.852 12.228-.383-.923', 'm16.852 17.772-.383.924', 'm19.148 12.228.383-.923', 'm19.53 18.696-.382-.924', 'm20.772 13.852.924-.383', 'm20.772 16.148.924.383'],tags: ['settings', 'edit', 'cog', 'gear'],categories: ['account'],);
+  static const LucideIconData userKey = LucideIconData(name: 'user-key',circles: [(10.0, 7.0, 4.0), (20.0, 19.0, 2.0)],paths: ['M20 11v6', 'M20 13h2', 'M3 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 2.072.578'],tags: ['passkey', 'password', 'login', 'authentication', 'authorization', 'roles', 'permissions', 'private', 'public', 'security', 'person', 'account', 'contact'],categories: ['account'],);
+  static const LucideIconData userLock = LucideIconData(name: 'user-lock',circles: [(10.0, 7.0, 4.0)],paths: ['M19 16v-2a2 2 0 0 0-4 0v2', 'M9.5 15H7a4 4 0 0 0-4 4v2'],tags: ['person', 'lock', 'locked', 'account', 'secure'],categories: ['account', 'security'],);
+  static const LucideIconData userMinus = LucideIconData(name: 'user-minus',circles: [(9.0, 7.0, 4.0)],paths: ['M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'],tags: ['delete', 'remove', 'unfollow', 'unsubscribe'],categories: ['account'],);
+  static const LucideIconData userPen = LucideIconData(name: 'user-pen',circles: [(10.0, 7.0, 4.0)],paths: ['M11.5 15H7a4 4 0 0 0-4 4v2', 'M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z'],tags: ['person', 'account', 'contact', 'profile', 'edit', 'change'],categories: ['account'],);
+  static const LucideIconData userPlus = LucideIconData(name: 'user-plus',circles: [(9.0, 7.0, 4.0)],paths: ['M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'],tags: ['new', 'add', 'create', 'follow', 'subscribe'],categories: ['account'],);
+  static const LucideIconData userRound = LucideIconData(name: 'user-round',circles: [(12.0, 8.0, 5.0)],paths: ['M20 21a8 8 0 0 0-16 0'],tags: ['person', 'account', 'contact'],categories: ['account'],);
+  static const LucideIconData userRoundCheck = LucideIconData(name: 'user-round-check',circles: [(10.0, 8.0, 5.0)],paths: ['M2 21a8 8 0 0 1 13.292-6', 'm16 19 2 2 4-4'],tags: ['followed', 'subscribed', 'done', 'todo', 'tick', 'complete', 'task'],categories: ['account'],);
+  static const LucideIconData userRoundCog = LucideIconData(name: 'user-round-cog',circles: [(10.0, 8.0, 5.0), (18.0, 18.0, 3.0)],paths: ['m14.305 19.53.923-.382', 'm15.228 16.852-.923-.383', 'm16.852 15.228-.383-.923', 'm16.852 20.772-.383.924', 'm19.148 15.228.383-.923', 'm19.53 21.696-.382-.924', 'M2 21a8 8 0 0 1 10.434-7.62', 'm20.772 16.852.924-.383', 'm20.772 19.148.924.383'],tags: ['settings', 'edit', 'cog', 'gear'],categories: ['account'],);
+  static const LucideIconData userRoundKey = LucideIconData(name: 'user-round-key',circles: [(10.0, 8.0, 5.0), (19.0, 19.0, 2.0)],paths: ['M19 11v6', 'M19 13h2', 'M2 21a8 8 0 0 1 12.868-6.349'],tags: ['passkey', 'password', 'login', 'authentication', 'authorization', 'roles', 'permissions', 'private', 'public', 'security', 'person', 'account', 'contact'],categories: ['account'],);
+  static const LucideIconData userRoundMinus = LucideIconData(name: 'user-round-minus',circles: [(10.0, 8.0, 5.0)],paths: ['M2 21a8 8 0 0 1 13.292-6', 'M22 19h-6'],tags: ['delete', 'remove', 'unfollow', 'unsubscribe'],categories: ['account'],);
+  static const LucideIconData userRoundPen = LucideIconData(name: 'user-round-pen',circles: [(10.0, 8.0, 5.0)],paths: ['M2 21a8 8 0 0 1 10.821-7.487', 'M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z'],tags: ['person', 'account', 'contact', 'profile', 'edit', 'change'],categories: ['account'],);
+  static const LucideIconData userRoundPlus = LucideIconData(name: 'user-round-plus',circles: [(10.0, 8.0, 5.0)],paths: ['M2 21a8 8 0 0 1 13.292-6', 'M19 16v6', 'M22 19h-6'],tags: ['new', 'add', 'create', 'follow', 'subscribe'],categories: ['account'],);
+  static const LucideIconData userRoundSearch = LucideIconData(name: 'user-round-search',circles: [(10.0, 8.0, 5.0), (18.0, 18.0, 3.0)],paths: ['M2 21a8 8 0 0 1 10.434-7.62', 'm22 22-1.9-1.9'],tags: ['person', 'account', 'contact', 'find', 'scan', 'magnifier', 'magnifying glass', 'lens'],categories: ['account', 'social'],);
+  static const LucideIconData userRoundX = LucideIconData(name: 'user-round-x',circles: [(10.0, 8.0, 5.0)],paths: ['M2 21a8 8 0 0 1 11.873-7', 'm17 17 5 5', 'm22 17-5 5'],tags: ['delete', 'remove', 'unfollow', 'unsubscribe', 'unavailable'],categories: ['account'],);
+  static const LucideIconData userSearch = LucideIconData(name: 'user-search',circles: [(10.0, 7.0, 4.0), (17.0, 17.0, 3.0)],paths: ['M10.3 15H7a4 4 0 0 0-4 4v2', 'm21 21-1.9-1.9'],tags: ['person', 'account', 'contact', 'find', 'scan', 'magnifier', 'magnifying glass', 'lens'],categories: ['account', 'social'],);
+  static const LucideIconData userStar = LucideIconData(name: 'user-star',circles: [(10.0, 7.0, 4.0)],paths: ['M16.051 12.616a1 1 0 0 1 1.909.024l.737 1.452a1 1 0 0 0 .737.535l1.634.256a1 1 0 0 1 .588 1.806l-1.172 1.168a1 1 0 0 0-.282.866l.259 1.613a1 1 0 0 1-1.541 1.134l-1.465-.75a1 1 0 0 0-.912 0l-1.465.75a1 1 0 0 1-1.539-1.133l.258-1.613a1 1 0 0 0-.282-.866l-1.156-1.153a1 1 0 0 1 .572-1.822l1.633-.256a1 1 0 0 0 .737-.535z', 'M8 15H7a4 4 0 0 0-4 4v2'],tags: ['person', 'account', 'favorite', 'contact', 'like', 'review', 'rating', 'admin'],categories: ['account'],);
+  static const LucideIconData userX = LucideIconData(name: 'user-x',circles: [(9.0, 7.0, 4.0)],paths: ['M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'],tags: ['delete', 'remove', 'unfollow', 'unsubscribe', 'unavailable'],categories: ['account'],);
+  static const LucideIconData users = LucideIconData(name: 'users',circles: [(9.0, 7.0, 4.0)],paths: ['M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2', 'M16 3.128a4 4 0 0 1 0 7.744', 'M22 21v-2a4 4 0 0 0-3-3.87'],tags: ['group', 'people'],categories: ['account'],);
+  static const LucideIconData usersRound = LucideIconData(name: 'users-round',circles: [(10.0, 8.0, 5.0)],paths: ['M18 21a8 8 0 0 0-16 0', 'M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3'],tags: ['group', 'people'],categories: ['account'],);
+  static const LucideIconData utensils = LucideIconData(name: 'utensils',paths: ['M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2', 'M7 2v20', 'M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7'],tags: ['fork', 'knife', 'cutlery', 'flatware', 'tableware', 'silverware', 'food', 'restaurant', 'meal', 'breakfast', 'dinner', 'supper'],categories: ['food-beverage', 'travel', 'navigation'],);
+  static const LucideIconData utensilsCrossed = LucideIconData(name: 'utensils-crossed',paths: ['m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8', 'M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7', 'm2.1 21.8 6.4-6.3', 'm19 5-7 7'],tags: ['fork', 'knife', 'cutlery', 'flatware', 'tableware', 'silverware', 'food', 'restaurant', 'meal', 'breakfast', 'dinner', 'supper'],categories: ['food-beverage', 'travel', 'navigation'],);
+  static const LucideIconData utilityPole = LucideIconData(name: 'utility-pole',paths: ['M12 2v20', 'M2 5h20', 'M3 3v2', 'M7 3v2', 'M17 3v2', 'M21 3v2', 'm19 5-7 7-7-7'],tags: ['electricity', 'energy', 'transmission line', 'telegraph pole', 'power lines', 'phone'],categories: ['buildings', 'home', 'sustainability'],);
+  static const LucideIconData van = LucideIconData(name: 'van',circles: [(16.0, 18.0, 2.0), (7.0, 18.0, 2.0)],paths: ['M13 6v5a1 1 0 0 0 1 1h6.102a1 1 0 0 1 .712.298l.898.91a1 1 0 0 1 .288.702V17a1 1 0 0 1-1 1h-3', 'M5 18H3a1 1 0 0 1-1-1V8a2 2 0 0 1 2-2h12c1.1 0 2.1.8 2.4 1.8l1.176 4.2', 'M9 18h5'],tags: ['minivan', 'cart', 'wagon', 'truck', 'lorry', 'trailer', 'camper', 'vehicle', 'drive', 'trip', 'journey', 'van', 'transport', 'carriage', 'delivery', 'travel'],categories: ['transportation'],);
+  static const LucideIconData variable = LucideIconData(name: 'variable',paths: ['M8 21s-4-3-4-9 4-9 4-9', 'M16 3s4 3 4 9-4 9-4 9'],tags: ['code', 'coding', 'programming', 'symbol', 'calculate', 'algebra', 'x', 'parentheses', 'parenthesis', 'brackets', 'parameter', '(', ')'],categories: ['development', 'math'],);
+  static const LucideIconData vault = LucideIconData(name: 'vault',circles: [(7.5, 7.5, 0.5), (16.5, 7.5, 0.5), (7.5, 16.5, 0.5), (16.5, 16.5, 0.5), (12.0, 12.0, 2.0)],rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['m7.9 7.9 2.7 2.7', 'm13.4 10.6 2.7-2.7', 'm7.9 16.1 2.7-2.7', 'm13.4 13.4 2.7 2.7'],tags: ['safe', 'lockbox', 'deposit', 'locker', 'coffer', 'strongbox', 'safety', 'secure', 'storage', 'valuables', 'bank'],categories: ['security', 'travel', 'home'],);
+  static const LucideIconData vectorSquare = LucideIconData(name: 'vector-square',paths: ['M19.5 7a24 24 0 0 1 0 10', 'M4.5 7a24 24 0 0 0 0 10', 'M7 19.5a24 24 0 0 0 10 0', 'M7 4.5a24 24 0 0 1 10 0'],tags: ['shape', 'geometry', 'art', 'width', 'height', 'size', 'calculate', 'measure', 'select', 'graphics', 'box'],categories: ['shapes', 'math', 'design', 'tools'],);
+  static const LucideIconData vegan = LucideIconData(name: 'vegan',paths: ['M16 8q6 0 6-6-6 0-6 6', 'M17.41 3.59a10 10 0 1 0 3 3', 'M2 2a26.6 26.6 0 0 1 10 20c.9-6.82 1.5-9.5 4-14'],tags: ['vegetarian', 'fruitarian', 'herbivorous', 'animal rights', 'diet'],categories: ['food-beverage', 'sustainability'],);
+  static const LucideIconData venetianMask = LucideIconData(name: 'venetian-mask',paths: ['M18 11c-1.5 0-2.5.5-3 2', 'M4 6a2 2 0 0 0-2 2v4a5 5 0 0 0 5 5 8 8 0 0 1 5 2 8 8 0 0 1 5-2 5 5 0 0 0 5-5V8a2 2 0 0 0-2-2h-3a8 8 0 0 0-5 2 8 8 0 0 0-5-2z', 'M6 11c1.5 0 2.5.5 3 2'],tags: ['mask', 'masquerade', 'impersonate', 'secret', 'incognito'],categories: ['account', 'gaming'],);
+  static const LucideIconData venus = LucideIconData(name: 'venus',circles: [(12.0, 9.0, 6.0)],paths: ['M12 15v7', 'M9 19h6'],tags: ['gender', 'sex', 'female', 'feminine', 'woman', 'girl'],categories: ['medical'],);
+  static const LucideIconData venusAndMars = LucideIconData(name: 'venus-and-mars',circles: [(12.0, 11.0, 5.0)],paths: ['M10 20h4', 'M12 16v6', 'M17 2h4v4', 'm21 2-5.46 5.46'],tags: ['gender', 'sex', 'intersex', 'androgynous', 'hermaphrodite'],categories: ['medical'],);
+  static const LucideIconData vibrate = LucideIconData(name: 'vibrate',rects: [(8.0, 5.0, 8.0, 14.0, 1.0)],paths: ['m2 8 2 2-2 2 2 2-2 2', 'm22 8-2 2 2 2-2 2 2 2'],tags: ['smartphone', 'notification', 'rumble', 'haptic feedback', 'screen'],categories: ['devices', 'connectivity', 'account', 'notifications'],);
+  static const LucideIconData vibrateOff = LucideIconData(name: 'vibrate-off',paths: ['m2 8 2 2-2 2 2 2-2 2', 'm22 8-2 2 2 2-2 2 2 2', 'M8 8v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2', 'M16 10.34V6c0-.55-.45-1-1-1h-4.34'],tags: ['smartphone', 'notification', 'rumble', 'haptic feedback', 'notifications', 'screen'],categories: ['devices', 'connectivity', 'account'],);
+  static const LucideIconData video = LucideIconData(name: 'video',paths: ['m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5'],tags: ['camera', 'movie', 'film', 'recording', 'motion picture', 'camcorder', 'reel'],categories: ['devices', 'communication', 'connectivity', 'photography'],);
+  static const LucideIconData videoOff = LucideIconData(name: 'video-off',paths: ['M10.66 6H14a2 2 0 0 1 2 2v2.5l5.248-3.062A.5.5 0 0 1 22 7.87v8.196', 'M16 16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2', 'm2 2 20 20'],tags: ['camera', 'movie', 'film'],categories: ['devices', 'communication', 'connectivity', 'photography'],);
+  static const LucideIconData videotape = LucideIconData(name: 'videotape',circles: [(8.0, 14.0, 2.0), (16.0, 14.0, 2.0)],rects: [(2.0, 4.0, 20.0, 16.0, 2.0)],paths: ['M2 8h20', 'M8 12h8'],tags: ['vhs', 'movie', 'film', 'recording', 'motion picture', 'showreel', 'cassette'],categories: ['devices', 'communication', 'connectivity', 'photography', 'files'],);
+  static const LucideIconData view = LucideIconData(name: 'view',circles: [(12.0, 12.0, 1.0)],paths: ['M21 17v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2', 'M21 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2', 'M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0'],tags: ['eye', 'look'],categories: ['design', 'photography'],);
+  static const LucideIconData voicemail = LucideIconData(name: 'voicemail',circles: [(6.0, 12.0, 4.0), (18.0, 12.0, 4.0)],tags: ['phone', 'cassette', 'tape', 'reel', 'recording', 'audio'],categories: ['connectivity', 'devices', 'social'],);
+  static const LucideIconData volleyball = LucideIconData(name: 'volleyball',circles: [(12.0, 12.0, 10.0)],paths: ['M11.1 7.1a16.55 16.55 0 0 1 10.9 4', 'M12 12a12.6 12.6 0 0 1-8.7 5', 'M16.8 13.6a16.55 16.55 0 0 1-9 7.5', 'M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10', 'M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5'],tags: ['beach', 'sand', 'net', 'holiday', 'vacation', 'summer', 'soccer', 'football', 'futbol', 'kick', 'pitch', 'goal', 'score', 'bounce', 'leather', 'wool', 'yarn', 'knitting', 'sewing', 'thread', 'embroidery', 'textile'],categories: ['sports', 'gaming', 'travel'],);
+  static const LucideIconData volume = LucideIconData(name: 'volume',paths: ['M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z'],tags: ['music', 'sound', 'mute', 'speaker'],categories: ['connectivity', 'communication', 'multimedia'],);
+  static const LucideIconData volume1 = LucideIconData(name: 'volume-1',paths: ['M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z', 'M16 9a5 5 0 0 1 0 6'],tags: ['music', 'sound', 'speaker'],categories: ['connectivity', 'communication', 'multimedia'],);
+  static const LucideIconData volume2 = LucideIconData(name: 'volume-2',paths: ['M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z', 'M16 9a5 5 0 0 1 0 6', 'M19.364 18.364a9 9 0 0 0 0-12.728'],tags: ['music', 'sound', 'speaker'],categories: ['connectivity', 'communication', 'multimedia'],);
+  static const LucideIconData volumeOff = LucideIconData(name: 'volume-off',paths: ['M16 9a5 5 0 0 1 .95 2.293', 'M19.364 5.636a9 9 0 0 1 1.889 9.96', 'm2 2 20 20', 'm7 7-.587.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298V11', 'M9.828 4.172A.686.686 0 0 1 11 4.657v.686'],tags: ['music', 'sound', 'mute', 'speaker'],categories: ['connectivity', 'communication', 'multimedia'],);
+  static const LucideIconData volumeX = LucideIconData(name: 'volume-x',paths: ['M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z'],tags: ['music', 'sound', 'mute', 'speaker'],categories: ['connectivity', 'communication', 'multimedia'],);
+  static const LucideIconData vote = LucideIconData(name: 'vote',paths: ['m9 12 2 2 4-4', 'M5 7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v12H5V7Z', 'M22 19H2'],tags: ['vote', 'poll', 'ballot', 'political', 'social', 'check', 'tick'],categories: ['social'],);
+  static const LucideIconData wallet = LucideIconData(name: 'wallet',paths: ['M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1', 'M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4'],tags: ['money', 'finance', 'pocket'],categories: ['account', 'finance'],);
+  static const LucideIconData walletCards = LucideIconData(name: 'wallet-cards',rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],paths: ['M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2', 'M3 11h3c.8 0 1.6.3 2.1.9l1.1.9c1.6 1.6 4.1 1.6 5.7 0l1.1-.9c.5-.5 1.3-.9 2.1-.9H21'],tags: ['money', 'finance', 'pocket', 'credit', 'purchase', 'payment', 'shopping', 'retail', 'consumer', 'cc'],categories: ['account', 'finance'],);
+  static const LucideIconData walletMinimal = LucideIconData(name: 'wallet-minimal',paths: ['M17 14h.01', 'M7 7h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14'],tags: ['finance', 'pocket'],categories: ['account', 'finance'],);
+  static const LucideIconData wallpaper = LucideIconData(name: 'wallpaper',circles: [(8.0, 9.0, 2.0)],paths: ['M12 17v4', 'M8 21h8', 'm9 17 6.1-6.1a2 2 0 0 1 2.81.01L22 15'],tags: ['background', 'texture', 'image', 'art', 'design', 'visual', 'decor', 'pattern', 'screen', 'cover', 'lock screen'],categories: ['account', 'devices'],);
+  static const LucideIconData wand = LucideIconData(name: 'wand',paths: ['M15 4V2', 'M15 16v-2', 'M8 9h2', 'M20 9h2', 'M17.8 11.8 19 13', 'M15 9h.01', 'M17.8 6.2 19 5', 'm3 21 9-9', 'M12.2 6.2 11 5'],tags: ['magic', 'selection'],categories: ['design', 'gaming', 'cursors', 'photography'],);
+  static const LucideIconData wandSparkles = LucideIconData(name: 'wand-sparkles',paths: ['m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72', 'm14 7 3 3', 'M5 6v4', 'M19 14v4', 'M10 2v2', 'M7 8H3', 'M21 16h-4', 'M11 3H9'],tags: ['magic', 'wizard', 'magician'],categories: ['design', 'gaming', 'cursors', 'photography'],);
+  static const LucideIconData warehouse = LucideIconData(name: 'warehouse',paths: ['M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11', 'M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z', 'M6 13h12', 'M6 17h12'],tags: ['storage', 'storehouse', 'depot', 'depository', 'repository', 'stockroom', 'logistics', 'building'],categories: ['buildings', 'navigation'],);
+  static const LucideIconData washingMachine = LucideIconData(name: 'washing-machine',circles: [(12.0, 13.0, 5.0)],rects: [(3.0, 2.0, 18.0, 20.0, 2.0)],paths: ['M3 6h3', 'M17 6h.01', 'M12 18a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5'],tags: ['tumble dryer', 'amenities', 'electronics', 'cycle', 'clothes', 'rinse', 'spin', 'drum'],categories: ['home', 'devices', 'travel'],);
+  static const LucideIconData watch = LucideIconData(name: 'watch',circles: [(12.0, 12.0, 6.0)],paths: ['M12 10v2.2l1.6 1', 'm16.13 7.66-.81-4.05a2 2 0 0 0-2-1.61h-2.68a2 2 0 0 0-2 1.61l-.78 4.05', 'm7.88 16.36.8 4a2 2 0 0 0 2 1.61h2.72a2 2 0 0 0 2-1.61l.81-4.05'],tags: ['clock', 'time'],categories: ['time'],);
+  static const LucideIconData waves = LucideIconData(name: 'waves',paths: ['M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1', 'M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1', 'M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1'],tags: ['water', 'sea', 'sound', 'hertz', 'wavelength', 'vibrate'],categories: ['weather', 'navigation', 'multimedia', 'sustainability'],);
+  static const LucideIconData wavesArrowDown = LucideIconData(name: 'waves-arrow-down',paths: ['M12 10L12 2', 'M16 6L12 10L8 6', 'M2 15C2.6 15.5 3.2 16 4.5 16C7 16 7 14 9.5 14C12.1 14 11.9 16 14.5 16C17 16 17 14 19.5 14C20.8 14 21.4 14.5 22 15', 'M2 21C2.6 21.5 3.2 22 4.5 22C7 22 7 20 9.5 20C12.1 20 11.9 22 14.5 22C17 22 17 20 19.5 20C20.8 20 21.4 20.5 22 21'],tags: ['water', 'sea', 'level', 'sound', 'hertz', 'wavelength', 'vibrate', 'low', 'tide', 'ocean', 'rising', 'down', 'falling'],categories: ['weather', 'sustainability'],);
+  static const LucideIconData wavesArrowUp = LucideIconData(name: 'waves-arrow-up',paths: ['M12 2v8', 'M2 15c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1', 'M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1', 'm8 6 4-4 4 4'],tags: ['water', 'sea', 'level', 'sound', 'hertz', 'wavelength', 'vibrate', 'high', 'tide', 'ocean', 'rising'],categories: ['weather', 'sustainability'],);
+  static const LucideIconData wavesLadder = LucideIconData(name: 'waves-ladder',paths: ['M19 5a2 2 0 0 0-2 2v11', 'M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1', 'M7 13h10', 'M7 9h10', 'M9 5a2 2 0 0 0-2 2v11'],tags: ['swimming', 'water', 'pool', 'lifeguard', 'ocean', '🌊', '🏊‍♂️', '🏊‍♀️', '🏊', '🥽'],categories: ['sports', 'home'],);
+  static const LucideIconData waypoints = LucideIconData(name: 'waypoints',circles: [(12.0, 20.0, 2.0), (12.0, 4.0, 2.0), (20.0, 12.0, 2.0), (4.0, 12.0, 2.0)],paths: ['m10.586 5.414-5.172 5.172', 'm18.586 13.414-5.172 5.172', 'M6 12h12'],tags: ['indirection', 'vpn', 'virtual private network', 'proxy', 'connections', 'bounce', 'reroute', 'path', 'journey', 'planner', 'stops', 'stations', 'shared', 'spread', 'viral'],categories: ['security', 'account', 'navigation', 'development', 'social'],);
+  static const LucideIconData webcam = LucideIconData(name: 'webcam',circles: [(12.0, 10.0, 8.0), (12.0, 10.0, 3.0)],paths: ['M7 22h10', 'M12 22v-4'],tags: ['camera', 'security'],categories: ['connectivity', 'devices', 'communication'],);
+  static const LucideIconData webhook = LucideIconData(name: 'webhook',paths: ['M18 16.98h-5.99c-1.1 0-1.95.94-2.48 1.9A4 4 0 0 1 2 17c.01-.7.2-1.4.57-2', 'm6 17 3.13-5.78c.53-.97.1-2.18-.5-3.1a4 4 0 1 1 6.89-4.06', 'm12 6 3.13 5.73C15.66 12.7 16.9 13 18 13a4 4 0 0 1 0 8'],tags: ['push api', 'interface', 'callback'],categories: ['development', 'social', 'account'],);
+  static const LucideIconData webhookOff = LucideIconData(name: 'webhook-off',paths: ['M17 17h-5c-1.09-.02-1.94.92-2.5 1.9A3 3 0 1 1 2.57 15', 'M9 3.4a4 4 0 0 1 6.52.66', 'm6 17 3.1-5.8a2.5 2.5 0 0 0 .057-2.05', 'M20.3 20.3a4 4 0 0 1-2.3.7', 'M18.6 13a4 4 0 0 1 3.357 3.414', 'm12 6 .6 1', 'm2 2 20 20'],tags: ['push api', 'interface', 'callback'],categories: ['development', 'social', 'account'],);
+  static const LucideIconData weight = LucideIconData(name: 'weight',circles: [(12.0, 5.0, 3.0)],paths: ['M6.5 8a2 2 0 0 0-1.905 1.46L2.1 18.5A2 2 0 0 0 4 21h16a2 2 0 0 0 1.925-2.54L19.4 9.5A2 2 0 0 0 17.48 8Z'],tags: ['mass', 'heavy', 'lead', 'metal', 'measure', 'geometry', 'scales', 'balance'],categories: ['math'],);
+  static const LucideIconData weightTilde = LucideIconData(name: 'weight-tilde',circles: [(12.0, 5.0, 3.0)],paths: ['M6.5 8a2 2 0 0 0-1.906 1.46L2.1 18.5A2 2 0 0 0 4 21h16a2 2 0 0 0 1.925-2.54L19.4 9.5A2 2 0 0 0 17.48 8z', 'M7.999 15a2.5 2.5 0 0 1 4 0 2.5 2.5 0 0 0 4 0'],tags: ['measure', 'scale', 'estimate', 'load', 'balance', 'size', 'measurement', 'quantity', 'mass'],categories: ['math'],);
+  static const LucideIconData wheat = LucideIconData(name: 'wheat',paths: ['M2 22 16 8', 'M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z', 'M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z', 'M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z', 'M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z', 'M11.47 17.47 13 19l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L5 19l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z', 'M15.47 13.47 17 15l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L9 15l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z', 'M19.47 9.47 21 11l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L13 11l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z'],tags: ['corn', 'cereal', 'grain', 'gluten'],categories: ['food-beverage'],);
+  static const LucideIconData wheatOff = LucideIconData(name: 'wheat-off',paths: ['m2 22 10-10', 'm16 8-1.17 1.17', 'M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z', 'm8 8-.53.53a3.5 3.5 0 0 0 0 4.94L9 15l1.53-1.53c.55-.55.88-1.25.98-1.97', 'M10.91 5.26c.15-.26.34-.51.56-.73L13 3l1.53 1.53a3.5 3.5 0 0 1 .28 4.62', 'M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z', 'M11.47 17.47 13 19l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L5 19l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z', 'm16 16-.53.53a3.5 3.5 0 0 1-4.94 0L9 15l1.53-1.53a3.49 3.49 0 0 1 1.97-.98', 'M18.74 13.09c.26-.15.51-.34.73-.56L21 11l-1.53-1.53a3.5 3.5 0 0 0-4.62-.28'],tags: ['corn', 'cereal', 'grain', 'gluten free', 'allergy', 'intolerance', 'diet'],categories: ['food-beverage'],);
+  static const LucideIconData wholeWord = LucideIconData(name: 'whole-word',circles: [(7.0, 12.0, 3.0), (17.0, 12.0, 3.0)],paths: ['M10 9v6', 'M14 7v8', 'M22 17v1c0 .5-.5 1-1 1H3c-.5 0-1-.5-1-1v-1'],tags: ['text', 'selection', 'letters', 'characters', 'font', 'typography'],categories: ['text'],);
+  static const LucideIconData wifi = LucideIconData(name: 'wifi',paths: ['M12 20h.01', 'M2 8.82a15 15 0 0 1 20 0', 'M5 12.859a10 10 0 0 1 14 0', 'M8.5 16.429a5 5 0 0 1 7 0'],tags: ['connection', 'signal', 'wireless'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData wifiCog = LucideIconData(name: 'wifi-cog',circles: [(18.0, 18.0, 3.0)],paths: ['m14.305 19.53.923-.382', 'm15.228 16.852-.923-.383', 'm16.852 15.228-.383-.923', 'm16.852 20.772-.383.924', 'm19.148 15.228.383-.923', 'm19.53 21.696-.382-.924', 'M2 7.82a15 15 0 0 1 20 0', 'm20.772 16.852.924-.383', 'm20.772 19.148.924.383', 'M5 11.858a10 10 0 0 1 11.5-1.785', 'M8.5 15.429a5 5 0 0 1 2.413-1.31'],tags: ['connection', 'signal', 'wireless', 'directory', 'settings', 'control', 'preferences', 'cog', 'edit', 'gear'],categories: ['connectivity', 'devices', 'files'],);
+  static const LucideIconData wifiHigh = LucideIconData(name: 'wifi-high',paths: ['M12 20h.01', 'M5 12.859a10 10 0 0 1 14 0', 'M8.5 16.429a5 5 0 0 1 7 0'],tags: ['connection', 'signal', 'wireless'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData wifiLow = LucideIconData(name: 'wifi-low',paths: ['M12 20h.01', 'M8.5 16.429a5 5 0 0 1 7 0'],tags: ['connection', 'signal', 'wireless'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData wifiOff = LucideIconData(name: 'wifi-off',paths: ['M12 20h.01', 'M8.5 16.429a5 5 0 0 1 7 0', 'M5 12.859a10 10 0 0 1 5.17-2.69', 'M19 12.859a10 10 0 0 0-2.007-1.523', 'M2 8.82a15 15 0 0 1 4.177-2.643', 'M22 8.82a15 15 0 0 0-11.288-3.764', 'm2 2 20 20'],tags: ['disabled'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData wifiPen = LucideIconData(name: 'wifi-pen',paths: ['M2 8.82a15 15 0 0 1 20 0', 'M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z', 'M5 12.859a10 10 0 0 1 10.5-2.222', 'M8.5 16.429a5 5 0 0 1 3-1.406'],tags: ['edit', 'wifi', 'pen', 'change', 'network'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData wifiSync = LucideIconData(name: 'wifi-sync',paths: ['M11.965 10.105v4L13.5 12.5a5 5 0 0 1 8 1.5', 'M11.965 14.105h4', 'M17.965 18.105h4L20.43 19.71a5 5 0 0 1-8-1.5', 'M2 8.82a15 15 0 0 1 20 0', 'M21.965 22.105v-4', 'M5 12.86a10 10 0 0 1 3-2.032', 'M8.5 16.429h.01'],tags: ['connection', 'signal', 'wireless', 'synchronize', 'reconnect', 'reset', 'restart'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData wifiZero = LucideIconData(name: 'wifi-zero',paths: ['M12 20h.01'],tags: ['connection', 'signal', 'wireless'],categories: ['connectivity', 'devices'],);
+  static const LucideIconData wind = LucideIconData(name: 'wind',paths: ['M12.8 19.6A2 2 0 1 0 14 16H2', 'M17.5 8a2.5 2.5 0 1 1 2 4H2', 'M9.8 4.4A2 2 0 1 1 11 8H2'],tags: ['weather', 'air', 'blow'],categories: ['weather', 'sustainability'],);
+  static const LucideIconData windArrowDown = LucideIconData(name: 'wind-arrow-down',paths: ['M10 2v8', 'M12.8 21.6A2 2 0 1 0 14 18H2', 'M17.5 10a2.5 2.5 0 1 1 2 4H2', 'm6 6 4 4 4-4'],tags: ['weather', 'air', 'pressure', 'blow'],categories: ['weather', 'sustainability'],);
+  static const LucideIconData wine = LucideIconData(name: 'wine',paths: ['M8 22h8', 'M7 10h10', 'M12 15v7', 'M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z'],tags: ['alcohol', 'beverage', 'bar', 'drink', 'glass', 'sommelier', 'vineyard', 'winery'],categories: ['food-beverage'],);
+  static const LucideIconData wineOff = LucideIconData(name: 'wine-off',paths: ['M8 22h8', 'M7 10h3m7 0h-1.343', 'M12 15v7', 'M7.307 7.307A12.33 12.33 0 0 0 7 10a5 5 0 0 0 7.391 4.391M8.638 2.981C8.75 2.668 8.872 2.34 9 2h6c1.5 4 2 6 2 8 0 .407-.05.809-.145 1.198'],tags: ['alcohol', 'beverage', 'drink', 'glass', 'alcohol free', 'abstinence', 'abstaining', 'teetotalism', 'allergy', 'intolerance'],categories: ['food-beverage'],);
+  static const LucideIconData workflow = LucideIconData(name: 'workflow',rects: [(3.0, 3.0, 8.0, 8.0, 2.0), (13.0, 13.0, 8.0, 8.0, 2.0)],paths: ['M7 11v4a2 2 0 0 0 2 2h4'],tags: ['action', 'continuous integration', 'ci', 'automation', 'devops', 'network', 'node', 'connection'],categories: ['development'],);
+  static const LucideIconData worm = LucideIconData(name: 'worm',paths: ['m19 12-1.5 3', 'M19.63 18.81 22 20', 'M6.47 8.23a1.68 1.68 0 0 1 2.44 1.93l-.64 2.08a6.76 6.76 0 0 0 10.16 7.67l.42-.27a1 1 0 1 0-2.73-4.21l-.42.27a1.76 1.76 0 0 1-2.63-1.99l.64-2.08A6.66 6.66 0 0 0 3.94 3.9l-.7.4a1 1 0 1 0 2.55 4.34z'],tags: ['invertebrate', 'grub', 'larva', 'snake', 'crawl', 'wiggle', 'slither', 'pest control', 'computer virus', 'malware'],categories: ['animals', 'security'],);
+  static const LucideIconData wrench = LucideIconData(name: 'wrench',paths: ['M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z'],tags: ['account', 'settings', 'spanner', 'diy', 'toolbox', 'build', 'construction'],categories: ['account', 'development', 'tools'],);
+  static const LucideIconData x = LucideIconData(name: 'x',paths: ['M18 6 6 18', 'm6 6 12 12'],tags: ['cancel', 'close', 'cross', 'delete', 'ex', 'remove', 'times', 'clear', 'math', 'multiply', 'multiplication'],categories: ['notifications', 'math'],);
+  static const LucideIconData xLineTop = LucideIconData(name: 'x-line-top',paths: ['M18 4H6', 'M18 8 6 20', 'm6 8 12 12'],tags: ['line', 'top', 'arrow', 'navigation', 'up', 'pointer', 'direction', 'vector', 'symbol', 'cancel', 'close', 'delete', 'remove', 'times', 'clear', 'math', 'multiply', 'multiplication', 'mean', 'median', 'average', 'x̄'],categories: ['notifications', 'math'],);
+  static const LucideIconData zap = LucideIconData(name: 'zap',paths: ['M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z'],tags: ['flash', 'camera', 'lightning', 'electricity', 'energy'],categories: ['connectivity', 'devices', 'photography', 'weather'],);
+  static const LucideIconData zapOff = LucideIconData(name: 'zap-off',paths: ['M10.513 4.856 13.12 2.17a.5.5 0 0 1 .86.46l-1.377 4.317', 'M15.656 10H20a1 1 0 0 1 .78 1.63l-1.72 1.773', 'M16.273 16.273 10.88 21.83a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14H4a1 1 0 0 1-.78-1.63l4.507-4.643', 'm2 2 20 20'],tags: ['flash', 'camera', 'lightning', 'electricity', 'energy'],categories: ['connectivity', 'devices', 'photography', 'weather'],);
+  static const LucideIconData zodiacAquarius = LucideIconData(name: 'zodiac-aquarius',paths: ['m2 10 2.456-3.684a.7.7 0 0 1 1.106-.013l2.39 3.413a.7.7 0 0 0 1.096-.001l2.402-3.432a.7.7 0 0 1 1.098 0l2.402 3.432a.7.7 0 0 0 1.098 0l2.389-3.413a.7.7 0 0 1 1.106.013L22 10', 'm2 18.002 2.456-3.684a.7.7 0 0 1 1.106-.013l2.39 3.413a.7.7 0 0 0 1.097 0l2.402-3.432a.7.7 0 0 1 1.098 0l2.402 3.432a.7.7 0 0 0 1.098 0l2.389-3.413a.7.7 0 0 1 1.106.013L22 18.002'],tags: ['water bearer', 'waves', 'innovation', 'air', 'future', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacAries = LucideIconData(name: 'zodiac-aries',paths: ['M12 7.5a4.5 4.5 0 1 1 5 4.5', 'M7 12a4.5 4.5 0 1 1 5-4.5V21'],tags: ['ram', 'horns', 'fire', 'energy', 'initiative', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacCancer = LucideIconData(name: 'zodiac-cancer',circles: [(17.5, 14.5, 3.5), (6.5, 9.5, 3.5)],paths: ['M21 14.5A9 6.5 0 0 1 5.5 19', 'M3 9.5A9 6.5 0 0 1 18.5 5'],tags: ['crab', 'shell', 'protection', 'water', 'intuition', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacCapricorn = LucideIconData(name: 'zodiac-capricorn',circles: [(17.0, 17.0, 3.0)],paths: ['M11 21a3 3 0 0 0 3-3V6.5a1 1 0 0 0-7 0', 'M7 19V6a3 3 0 0 0-3-3h0'],tags: ['goat', 'mountain', 'ambition', 'earth', 'discipline', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacGemini = LucideIconData(name: 'zodiac-gemini',paths: ['M16 4.525v14.948', 'M20 3A17 17 0 0 1 4 3', 'M4 21a17 17 0 0 1 16 0', 'M8 4.525v14.948'],tags: ['twins', 'duality', 'communication', 'air', 'adaptability', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacLeo = LucideIconData(name: 'zodiac-leo',circles: [(7.0, 16.0, 3.0)],paths: ['M10 16c0-4-3-4.5-3-8a5 5 0 0 1 10 0c0 3.466-3 6.196-3 10a3 3 0 0 0 6 0'],tags: ['lion', 'crown', 'leadership', 'fire', 'confidence', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacLibra = LucideIconData(name: 'zodiac-libra',paths: ['M3 16h6.857c.162-.012.19-.323.038-.38a6 6 0 1 1 4.212 0c-.153.057-.125.368.038.38H21', 'M3 20h18'],tags: ['scales', 'balance', 'justice', 'air', 'harmony', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacOphiuchus = LucideIconData(name: 'zodiac-ophiuchus',paths: ['M3 10A6.06 6.06 0 0 1 12 10 A6.06 6.06 0 0 0 21 10', 'M6 3v12a6 6 0 0 0 12 0V3'],tags: ['serpent', 'snake holder', 'healing', 'knowledge', 'astronomy', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacPisces = LucideIconData(name: 'zodiac-pisces',paths: ['M19 21a15 15 0 0 1 0-18', 'M20 12H4', 'M5 3a15 15 0 0 1 0 18'],tags: ['fish', 'duality', 'water', 'dreams', 'empathy', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacSagittarius = LucideIconData(name: 'zodiac-sagittarius',paths: ['M15 3h6v6', 'M21 3 3 21', 'm9 9 6 6'],tags: ['archer', 'arrow', 'exploration', 'fire', 'philosophy', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacScorpio = LucideIconData(name: 'zodiac-scorpio',paths: ['M10 19V5.5a1 1 0 0 1 5 0V17a2 2 0 0 0 2 2h5l-3-3', 'm22 19-3 3', 'M5 19V5.5a1 1 0 0 1 5 0', 'M5 5.5A2.5 2.5 0 0 0 2.5 3'],tags: ['scorpion', 'stinger', 'intensity', 'water', 'transformation', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacTaurus = LucideIconData(name: 'zodiac-taurus',circles: [(12.0, 15.0, 6.0)],paths: ['M18 3A6 6 0 0 1 6 3'],tags: ['bull', 'strength', 'stability', 'earth', 'endurance', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zodiacVirgo = LucideIconData(name: 'zodiac-virgo',paths: ['M11 5.5a1 1 0 0 1 5 0V16a5 5 0 0 0 5 5', 'M16 11.5a1 1 0 0 1 5 0V16a5 5 0 0 1-5 5', 'M6 19V6a3 3 0 0 0-3-3h0', 'M6 5.5a1 1 0 0 1 5 0V19'],tags: ['virgin', 'maiden', 'harvest', 'precision', 'earth', 'analysis', 'astrology', 'star sign', 'horoscope', 'constellation', 'celestial'],categories: ['social', 'emoji'],);
+  static const LucideIconData zoomIn = LucideIconData(name: 'zoom-in',circles: [(11.0, 11.0, 8.0)],tags: ['magnifying glass', 'plus'],categories: ['accessibility', 'layout', 'design', 'text', 'photography'],);
+  static const LucideIconData zoomOut = LucideIconData(name: 'zoom-out',circles: [(11.0, 11.0, 8.0)],tags: ['magnifying glass', 'plus'],categories: ['accessibility', 'layout', 'design', 'text', 'photography'],);
+
+  /// List of all icons for iteration
+  static const List<LucideIconData> all = [
+    aArrowDown,
+    aArrowUp,
+    aLargeSmall,
+    accessibility,
+    activity,
+    airVent,
+    airplay,
+    alarmClock,
+    alarmClockCheck,
+    alarmClockMinus,
+    alarmClockOff,
+    alarmClockPlus,
+    alarmSmoke,
+    album,
+    alignCenterHorizontal,
+    alignCenterVertical,
+    alignEndHorizontal,
+    alignEndVertical,
+    alignHorizontalDistributeCenter,
+    alignHorizontalDistributeEnd,
+    alignHorizontalDistributeStart,
+    alignHorizontalJustifyCenter,
+    alignHorizontalJustifyEnd,
+    alignHorizontalJustifyStart,
+    alignHorizontalSpaceAround,
+    alignHorizontalSpaceBetween,
+    alignStartHorizontal,
+    alignStartVertical,
+    alignVerticalDistributeCenter,
+    alignVerticalDistributeEnd,
+    alignVerticalDistributeStart,
+    alignVerticalJustifyCenter,
+    alignVerticalJustifyEnd,
+    alignVerticalJustifyStart,
+    alignVerticalSpaceAround,
+    alignVerticalSpaceBetween,
+    ambulance,
+    ampersand,
+    ampersands,
+    amphora,
+    anchor,
+    angry,
+    annoyed,
+    antenna,
+    anvil,
+    aperture,
+    appWindow,
+    appWindowMac,
+    apple,
+    archive,
+    archiveRestore,
+    archiveX,
+    armchair,
+    arrowBigDown,
+    arrowBigDownDash,
+    arrowBigLeft,
+    arrowBigLeftDash,
+    arrowBigRight,
+    arrowBigRightDash,
+    arrowBigUp,
+    arrowBigUpDash,
+    arrowDown,
+    arrowDown01,
+    arrowDown10,
+    arrowDownAZ,
+    arrowDownFromLine,
+    arrowDownLeft,
+    arrowDownNarrowWide,
+    arrowDownRight,
+    arrowDownToDot,
+    arrowDownToLine,
+    arrowDownUp,
+    arrowDownWideNarrow,
+    arrowDownZA,
+    arrowLeft,
+    arrowLeftFromLine,
+    arrowLeftRight,
+    arrowLeftToLine,
+    arrowRight,
+    arrowRightFromLine,
+    arrowRightLeft,
+    arrowRightToLine,
+    arrowUp,
+    arrowUp01,
+    arrowUp10,
+    arrowUpAZ,
+    arrowUpDown,
+    arrowUpFromDot,
+    arrowUpFromLine,
+    arrowUpLeft,
+    arrowUpNarrowWide,
+    arrowUpRight,
+    arrowUpToLine,
+    arrowUpWideNarrow,
+    arrowUpZA,
+    arrowsUpFromLine,
+    asterisk,
+    atSign,
+    atom,
+    audioLines,
+    audioWaveform,
+    award,
+    axe,
+    axis3d,
+    baby,
+    backpack,
+    badge,
+    badgeAlert,
+    badgeCent,
+    badgeCheck,
+    badgeDollarSign,
+    badgeEuro,
+    badgeIndianRupee,
+    badgeInfo,
+    badgeJapaneseYen,
+    badgeMinus,
+    badgePercent,
+    badgePlus,
+    badgePoundSterling,
+    badgeQuestionMark,
+    badgeRussianRuble,
+    badgeSwissFranc,
+    badgeTurkishLira,
+    badgeX,
+    baggageClaim,
+    balloon,
+    ban,
+    banana,
+    bandage,
+    banknote,
+    banknoteArrowDown,
+    banknoteArrowUp,
+    banknoteX,
+    barcode,
+    barrel,
+    baseline,
+    bath,
+    battery,
+    batteryCharging,
+    batteryFull,
+    batteryLow,
+    batteryMedium,
+    batteryPlus,
+    batteryWarning,
+    beaker,
+    bean,
+    beanOff,
+    bed,
+    bedDouble,
+    bedSingle,
+    beef,
+    beefOff,
+    beer,
+    beerOff,
+    bell,
+    bellDot,
+    bellElectric,
+    bellMinus,
+    bellOff,
+    bellPlus,
+    bellRing,
+    betweenHorizontalEnd,
+    betweenHorizontalStart,
+    betweenVerticalEnd,
+    betweenVerticalStart,
+    bicepsFlexed,
+    bike,
+    binary,
+    binoculars,
+    biohazard,
+    bird,
+    birdhouse,
+    bitcoin,
+    blend,
+    blinds,
+    blocks,
+    bluetooth,
+    bluetoothConnected,
+    bluetoothOff,
+    bluetoothSearching,
+    bold,
+    bolt,
+    bomb,
+    bone,
+    book,
+    bookA,
+    bookAlert,
+    bookAudio,
+    bookCheck,
+    bookCopy,
+    bookDashed,
+    bookDown,
+    bookHeadphones,
+    bookHeart,
+    bookImage,
+    bookKey,
+    bookLock,
+    bookMarked,
+    bookMinus,
+    bookOpen,
+    bookOpenCheck,
+    bookOpenText,
+    bookPlus,
+    bookSearch,
+    bookText,
+    bookType,
+    bookUp,
+    bookUp2,
+    bookUser,
+    bookX,
+    bookmark,
+    bookmarkCheck,
+    bookmarkMinus,
+    bookmarkPlus,
+    bookmarkX,
+    boomBox,
+    bot,
+    botMessageSquare,
+    botOff,
+    bottleWine,
+    bowArrow,
+    box,
+    boxes,
+    braces,
+    brackets,
+    brain,
+    brainCircuit,
+    brainCog,
+    brickWall,
+    brickWallFire,
+    brickWallShield,
+    briefcase,
+    briefcaseBusiness,
+    briefcaseConveyorBelt,
+    briefcaseMedical,
+    bringToFront,
+    brush,
+    brushCleaning,
+    bubbles,
+    bug,
+    bugOff,
+    bugPlay,
+    building,
+    building2,
+    bus,
+    busFront,
+    cable,
+    cableCar,
+    cake,
+    cakeSlice,
+    calculator,
+    calendar,
+    calendar1,
+    calendarArrowDown,
+    calendarArrowUp,
+    calendarCheck,
+    calendarCheck2,
+    calendarClock,
+    calendarCog,
+    calendarDays,
+    calendarFold,
+    calendarHeart,
+    calendarMinus,
+    calendarMinus2,
+    calendarOff,
+    calendarPlus,
+    calendarPlus2,
+    calendarRange,
+    calendarSearch,
+    calendarSync,
+    calendarX,
+    calendarX2,
+    calendars,
+    camera,
+    cameraOff,
+    candy,
+    candyCane,
+    candyOff,
+    cannabis,
+    cannabisOff,
+    captions,
+    captionsOff,
+    car,
+    carFront,
+    carTaxiFront,
+    caravan,
+    cardSim,
+    carrot,
+    caseLower,
+    caseSensitive,
+    caseUpper,
+    cassetteTape,
+    cast,
+    castle,
+    cat,
+    cctv,
+    cctvOff,
+    chartArea,
+    chartBar,
+    chartBarBig,
+    chartBarDecreasing,
+    chartBarIncreasing,
+    chartBarStacked,
+    chartCandlestick,
+    chartColumn,
+    chartColumnBig,
+    chartColumnDecreasing,
+    chartColumnIncreasing,
+    chartColumnStacked,
+    chartGantt,
+    chartLine,
+    chartNetwork,
+    chartNoAxesColumn,
+    chartNoAxesColumnDecreasing,
+    chartNoAxesColumnIncreasing,
+    chartNoAxesCombined,
+    chartNoAxesGantt,
+    chartPie,
+    chartScatter,
+    chartSpline,
+    check,
+    checkCheck,
+    checkLine,
+    chefHat,
+    cherry,
+    chessBishop,
+    chessKing,
+    chessKnight,
+    chessPawn,
+    chessQueen,
+    chessRook,
+    chevronDown,
+    chevronFirst,
+    chevronLast,
+    chevronLeft,
+    chevronRight,
+    chevronUp,
+    chevronsDown,
+    chevronsDownUp,
+    chevronsLeft,
+    chevronsLeftRight,
+    chevronsLeftRightEllipsis,
+    chevronsRight,
+    chevronsRightLeft,
+    chevronsUp,
+    chevronsUpDown,
+    church,
+    cigarette,
+    cigaretteOff,
+    circle,
+    circleAlert,
+    circleArrowDown,
+    circleArrowLeft,
+    circleArrowOutDownLeft,
+    circleArrowOutDownRight,
+    circleArrowOutUpLeft,
+    circleArrowOutUpRight,
+    circleArrowRight,
+    circleArrowUp,
+    circleCheck,
+    circleCheckBig,
+    circleChevronDown,
+    circleChevronLeft,
+    circleChevronRight,
+    circleChevronUp,
+    circleDashed,
+    circleDivide,
+    circleDollarSign,
+    circleDot,
+    circleDotDashed,
+    circleEllipsis,
+    circleEqual,
+    circleFadingArrowUp,
+    circleFadingPlus,
+    circleGauge,
+    circleMinus,
+    circleOff,
+    circleParking,
+    circleParkingOff,
+    circlePause,
+    circlePercent,
+    circlePile,
+    circlePlay,
+    circlePlus,
+    circlePoundSterling,
+    circlePower,
+    circleQuestionMark,
+    circleSlash,
+    circleSlash2,
+    circleSmall,
+    circleStar,
+    circleStop,
+    circleUser,
+    circleUserRound,
+    circleX,
+    circuitBoard,
+    citrus,
+    clapperboard,
+    clipboard,
+    clipboardCheck,
+    clipboardClock,
+    clipboardCopy,
+    clipboardList,
+    clipboardMinus,
+    clipboardPaste,
+    clipboardPen,
+    clipboardPenLine,
+    clipboardPlus,
+    clipboardType,
+    clipboardX,
+    clock,
+    clock1,
+    clock10,
+    clock11,
+    clock12,
+    clock2,
+    clock3,
+    clock4,
+    clock5,
+    clock6,
+    clock7,
+    clock8,
+    clock9,
+    clockAlert,
+    clockArrowDown,
+    clockArrowUp,
+    clockCheck,
+    clockFading,
+    clockPlus,
+    closedCaption,
+    cloud,
+    cloudAlert,
+    cloudBackup,
+    cloudCheck,
+    cloudCog,
+    cloudDownload,
+    cloudDrizzle,
+    cloudFog,
+    cloudHail,
+    cloudLightning,
+    cloudMoon,
+    cloudMoonRain,
+    cloudOff,
+    cloudRain,
+    cloudRainWind,
+    cloudSnow,
+    cloudSun,
+    cloudSunRain,
+    cloudSync,
+    cloudUpload,
+    cloudy,
+    clover,
+    club,
+    code,
+    codeXml,
+    coffee,
+    cog,
+    coins,
+    columns2,
+    columns3,
+    columns3Cog,
+    columns4,
+    combine,
+    command,
+    compass,
+    component,
+    computer,
+    conciergeBell,
+    cone,
+    construction,
+    contact,
+    contactRound,
+    container,
+    contrast,
+    cookie,
+    cookingPot,
+    copy,
+    copyCheck,
+    copyMinus,
+    copyPlus,
+    copySlash,
+    copyX,
+    copyleft,
+    copyright,
+    cornerDownLeft,
+    cornerDownRight,
+    cornerLeftDown,
+    cornerLeftUp,
+    cornerRightDown,
+    cornerRightUp,
+    cornerUpLeft,
+    cornerUpRight,
+    cpu,
+    creativeCommons,
+    creditCard,
+    croissant,
+    crop,
+    cross,
+    crosshair,
+    crown,
+    cuboid,
+    cupSoda,
+    currency,
+    cylinder,
+    dam,
+    database,
+    databaseBackup,
+    databaseSearch,
+    databaseZap,
+    decimalsArrowLeft,
+    decimalsArrowRight,
+    delete,
+    dessert,
+    diameter,
+    diamond,
+    diamondMinus,
+    diamondPercent,
+    diamondPlus,
+    dice1,
+    dice2,
+    dice3,
+    dice4,
+    dice5,
+    dice6,
+    dices,
+    diff,
+    disc,
+    disc2,
+    disc3,
+    discAlbum,
+    divide,
+    dna,
+    dnaOff,
+    dock,
+    dog,
+    dollarSign,
+    donut,
+    doorClosed,
+    doorClosedLocked,
+    doorOpen,
+    dot,
+    download,
+    draftingCompass,
+    drama,
+    drill,
+    drone,
+    droplet,
+    dropletOff,
+    droplets,
+    drum,
+    drumstick,
+    dumbbell,
+    ear,
+    earOff,
+    earth,
+    earthLock,
+    eclipse,
+    egg,
+    eggFried,
+    eggOff,
+    ellipse,
+    ellipsis,
+    ellipsisVertical,
+    equal,
+    equalApproximately,
+    equalNot,
+    eraser,
+    ethernetPort,
+    euro,
+    evCharger,
+    expand,
+    externalLink,
+    eye,
+    eyeClosed,
+    eyeOff,
+    factory$,
+    fan,
+    fastForward,
+    feather,
+    fence,
+    ferrisWheel,
+    file,
+    fileArchive,
+    fileAxis3d,
+    fileBadge,
+    fileBox,
+    fileBraces,
+    fileBracesCorner,
+    fileChartColumn,
+    fileChartColumnIncreasing,
+    fileChartLine,
+    fileChartPie,
+    fileCheck,
+    fileCheckCorner,
+    fileClock,
+    fileCode,
+    fileCodeCorner,
+    fileCog,
+    fileDiff,
+    fileDigit,
+    fileDown,
+    fileExclamationPoint,
+    fileHeadphone,
+    fileHeart,
+    fileImage,
+    fileInput,
+    fileKey,
+    fileLock,
+    fileMinus,
+    fileMinusCorner,
+    fileMusic,
+    fileOutput,
+    filePen,
+    filePenLine,
+    filePlay,
+    filePlus,
+    filePlusCorner,
+    fileQuestionMark,
+    fileScan,
+    fileSearch,
+    fileSearchCorner,
+    fileSignal,
+    fileSliders,
+    fileSpreadsheet,
+    fileStack,
+    fileSymlink,
+    fileTerminal,
+    fileText,
+    fileType,
+    fileTypeCorner,
+    fileUp,
+    fileUser,
+    fileVideoCamera,
+    fileVolume,
+    fileX,
+    fileXCorner,
+    files,
+    film,
+    fingerprintPattern,
+    fireExtinguisher,
+    fish,
+    fishOff,
+    fishSymbol,
+    fishingHook,
+    fishingRod,
+    flag,
+    flagOff,
+    flagTriangleLeft,
+    flagTriangleRight,
+    flame,
+    flameKindling,
+    flashlight,
+    flashlightOff,
+    flaskConical,
+    flaskConicalOff,
+    flaskRound,
+    flipHorizontal2,
+    flipVertical2,
+    flower,
+    flower2,
+    focus,
+    foldHorizontal,
+    foldVertical,
+    folder,
+    folderArchive,
+    folderCheck,
+    folderClock,
+    folderClosed,
+    folderCode,
+    folderCog,
+    folderDot,
+    folderDown,
+    folderGit,
+    folderGit2,
+    folderHeart,
+    folderInput,
+    folderKanban,
+    folderKey,
+    folderLock,
+    folderMinus,
+    folderOpen,
+    folderOpenDot,
+    folderOutput,
+    folderPen,
+    folderPlus,
+    folderRoot,
+    folderSearch,
+    folderSearch2,
+    folderSymlink,
+    folderSync,
+    folderTree,
+    folderUp,
+    folderX,
+    folders,
+    footprints,
+    forklift,
+    form,
+    forward,
+    frame,
+    frown,
+    fuel,
+    fullscreen,
+    funnel,
+    funnelPlus,
+    funnelX,
+    galleryHorizontal,
+    galleryHorizontalEnd,
+    galleryThumbnails,
+    galleryVertical,
+    galleryVerticalEnd,
+    gamepad,
+    gamepad2,
+    gamepadDirectional,
+    gauge,
+    gavel,
+    gem,
+    georgianLari,
+    ghost,
+    gift,
+    gitBranch,
+    gitBranchMinus,
+    gitBranchPlus,
+    gitCommitHorizontal,
+    gitCommitVertical,
+    gitCompare,
+    gitCompareArrows,
+    gitFork,
+    gitGraph,
+    gitMerge,
+    gitMergeConflict,
+    gitPullRequest,
+    gitPullRequestArrow,
+    gitPullRequestClosed,
+    gitPullRequestCreate,
+    gitPullRequestCreateArrow,
+    gitPullRequestDraft,
+    glassWater,
+    glasses,
+    globe,
+    globeLock,
+    globeOff,
+    globeX,
+    goal,
+    gpu,
+    graduationCap,
+    grape,
+    grid2x2,
+    grid2x2Check,
+    grid2x2Plus,
+    grid2x2X,
+    grid3x2,
+    grid3x3,
+    grip,
+    gripHorizontal,
+    gripVertical,
+    group,
+    guitar,
+    ham,
+    hamburger,
+    hammer,
+    hand,
+    handCoins,
+    handFist,
+    handGrab,
+    handHeart,
+    handHelping,
+    handMetal,
+    handPlatter,
+    handbag,
+    handshake,
+    hardDrive,
+    hardDriveDownload,
+    hardDriveUpload,
+    hardHat,
+    hash,
+    hatGlasses,
+    haze,
+    hd,
+    hdmiPort,
+    heading,
+    heading1,
+    heading2,
+    heading3,
+    heading4,
+    heading5,
+    heading6,
+    headphoneOff,
+    headphones,
+    headset,
+    heart,
+    heartCrack,
+    heartHandshake,
+    heartMinus,
+    heartOff,
+    heartPlus,
+    heartPulse,
+    heater,
+    helicopter,
+    hexagon,
+    highlighter,
+    history,
+    hop,
+    hopOff,
+    hospital,
+    hotel,
+    hourglass,
+    house,
+    houseHeart,
+    housePlug,
+    housePlus,
+    houseWifi,
+    iceCreamBowl,
+    iceCreamCone,
+    idCard,
+    idCardLanyard,
+    image,
+    imageDown,
+    imageMinus,
+    imageOff,
+    imagePlay,
+    imagePlus,
+    imageUp,
+    imageUpscale,
+    images,
+    import$,
+    inbox,
+    indianRupee,
+    infinity,
+    info,
+    inspectionPanel,
+    italic,
+    iterationCcw,
+    iterationCw,
+    japaneseYen,
+    joystick,
+    kanban,
+    kayak,
+    key,
+    keyRound,
+    keySquare,
+    keyboard,
+    keyboardMusic,
+    keyboardOff,
+    lamp,
+    lampCeiling,
+    lampDesk,
+    lampFloor,
+    lampWallDown,
+    lampWallUp,
+    landPlot,
+    landmark,
+    languages,
+    laptop,
+    laptopMinimal,
+    laptopMinimalCheck,
+    lasso,
+    lassoSelect,
+    laugh,
+    layers,
+    layers2,
+    layersPlus,
+    layoutDashboard,
+    layoutGrid,
+    layoutList,
+    layoutPanelLeft,
+    layoutPanelTop,
+    layoutTemplate,
+    leaf,
+    leafyGreen,
+    lectern,
+    lensConcave,
+    lensConvex,
+    library$,
+    libraryBig,
+    lifeBuoy,
+    ligature,
+    lightbulb,
+    lightbulbOff,
+    lineDotRightHorizontal,
+    lineSquiggle,
+    lineStyle,
+    link,
+    link2,
+    link2Off,
+    list,
+    listCheck,
+    listChecks,
+    listChevronsDownUp,
+    listChevronsUpDown,
+    listCollapse,
+    listEnd,
+    listFilter,
+    listFilterPlus,
+    listIndentDecrease,
+    listIndentIncrease,
+    listMinus,
+    listMusic,
+    listOrdered,
+    listPlus,
+    listRestart,
+    listStart,
+    listTodo,
+    listTree,
+    listVideo,
+    listX,
+    loader,
+    loaderCircle,
+    loaderPinwheel,
+    locate,
+    locateFixed,
+    locateOff,
+    lock,
+    lockKeyhole,
+    lockKeyholeOpen,
+    lockOpen,
+    logIn,
+    logOut,
+    logs,
+    lollipop,
+    luggage,
+    magnet,
+    mail,
+    mailCheck,
+    mailMinus,
+    mailOpen,
+    mailPlus,
+    mailQuestionMark,
+    mailSearch,
+    mailWarning,
+    mailX,
+    mailbox,
+    mails,
+    map,
+    mapMinus,
+    mapPin,
+    mapPinCheck,
+    mapPinCheckInside,
+    mapPinHouse,
+    mapPinMinus,
+    mapPinMinusInside,
+    mapPinOff,
+    mapPinPen,
+    mapPinPlus,
+    mapPinPlusInside,
+    mapPinSearch,
+    mapPinX,
+    mapPinXInside,
+    mapPinned,
+    mapPlus,
+    mars,
+    marsStroke,
+    martini,
+    maximize,
+    maximize2,
+    medal,
+    megaphone,
+    megaphoneOff,
+    meh,
+    memoryStick,
+    menu,
+    merge,
+    messageCircle,
+    messageCircleCheck,
+    messageCircleCode,
+    messageCircleDashed,
+    messageCircleHeart,
+    messageCircleMore,
+    messageCircleOff,
+    messageCirclePlus,
+    messageCircleQuestionMark,
+    messageCircleReply,
+    messageCircleWarning,
+    messageCircleX,
+    messageSquare,
+    messageSquareCheck,
+    messageSquareCode,
+    messageSquareDashed,
+    messageSquareDiff,
+    messageSquareDot,
+    messageSquareHeart,
+    messageSquareLock,
+    messageSquareMore,
+    messageSquareOff,
+    messageSquarePlus,
+    messageSquareQuote,
+    messageSquareReply,
+    messageSquareShare,
+    messageSquareText,
+    messageSquareWarning,
+    messageSquareX,
+    messagesSquare,
+    metronome,
+    mic,
+    micOff,
+    micVocal,
+    microchip,
+    microscope,
+    microwave,
+    milestone,
+    milk,
+    milkOff,
+    minimize,
+    minimize2,
+    minus,
+    mirrorRectangular,
+    mirrorRound,
+    monitor,
+    monitorCheck,
+    monitorCloud,
+    monitorCog,
+    monitorDot,
+    monitorDown,
+    monitorOff,
+    monitorPause,
+    monitorPlay,
+    monitorSmartphone,
+    monitorSpeaker,
+    monitorStop,
+    monitorUp,
+    monitorX,
+    moon,
+    moonStar,
+    motorbike,
+    mountain,
+    mountainSnow,
+    mouse,
+    mouseLeft,
+    mouseOff,
+    mousePointer,
+    mousePointer2,
+    mousePointer2Off,
+    mousePointerBan,
+    mousePointerClick,
+    mouseRight,
+    move,
+    move3d,
+    moveDiagonal,
+    moveDiagonal2,
+    moveDown,
+    moveDownLeft,
+    moveDownRight,
+    moveHorizontal,
+    moveLeft,
+    moveRight,
+    moveUp,
+    moveUpLeft,
+    moveUpRight,
+    moveVertical,
+    music,
+    music2,
+    music3,
+    music4,
+    navigation,
+    navigation2,
+    navigation2Off,
+    navigationOff,
+    network,
+    newspaper,
+    nfc,
+    nonBinary,
+    notebook,
+    notebookPen,
+    notebookTabs,
+    notebookText,
+    notepadText,
+    notepadTextDashed,
+    nut,
+    nutOff,
+    octagon,
+    octagonAlert,
+    octagonMinus,
+    octagonPause,
+    octagonX,
+    omega,
+    option,
+    orbit,
+    origami,
+    package,
+    package2,
+    packageCheck,
+    packageMinus,
+    packageOpen,
+    packagePlus,
+    packageSearch,
+    packageX,
+    paintBucket,
+    paintRoller,
+    paintbrush,
+    paintbrushVertical,
+    palette,
+    panda,
+    panelBottom,
+    panelBottomClose,
+    panelBottomDashed,
+    panelBottomOpen,
+    panelLeft,
+    panelLeftClose,
+    panelLeftDashed,
+    panelLeftOpen,
+    panelLeftRightDashed,
+    panelRight,
+    panelRightClose,
+    panelRightDashed,
+    panelRightOpen,
+    panelTop,
+    panelTopBottomDashed,
+    panelTopClose,
+    panelTopDashed,
+    panelTopOpen,
+    panelsLeftBottom,
+    panelsRightBottom,
+    panelsTopLeft,
+    paperclip,
+    parentheses,
+    parkingMeter,
+    partyPopper,
+    pause,
+    pawPrint,
+    pcCase,
+    pen,
+    penLine,
+    penOff,
+    penTool,
+    pencil,
+    pencilLine,
+    pencilOff,
+    pencilRuler,
+    pentagon,
+    percent,
+    personStanding,
+    philippinePeso,
+    phone,
+    phoneCall,
+    phoneForwarded,
+    phoneIncoming,
+    phoneMissed,
+    phoneOff,
+    phoneOutgoing,
+    pi,
+    piano,
+    pickaxe,
+    pictureInPicture,
+    pictureInPicture2,
+    piggyBank,
+    pilcrow,
+    pilcrowLeft,
+    pilcrowRight,
+    pill,
+    pillBottle,
+    pin,
+    pinOff,
+    pipette,
+    pizza,
+    plane,
+    planeLanding,
+    planeTakeoff,
+    play,
+    plug,
+    plug2,
+    plugZap,
+    plus,
+    pocketKnife,
+    podcast,
+    pointer,
+    pointerOff,
+    popcorn,
+    popsicle,
+    poundSterling,
+    power,
+    powerOff,
+    presentation,
+    printer,
+    printerCheck,
+    printerX,
+    projector,
+    proportions,
+    puzzle,
+    pyramid,
+    qrCode,
+    quote,
+    rabbit,
+    radar,
+    radiation,
+    radical,
+    radio,
+    radioOff,
+    radioReceiver,
+    radioTower,
+    radius,
+    rainbow,
+    rat,
+    ratio,
+    receipt,
+    receiptCent,
+    receiptEuro,
+    receiptIndianRupee,
+    receiptJapaneseYen,
+    receiptPoundSterling,
+    receiptRussianRuble,
+    receiptSwissFranc,
+    receiptText,
+    receiptTurkishLira,
+    rectangleCircle,
+    rectangleEllipsis,
+    rectangleGoggles,
+    rectangleHorizontal,
+    rectangleVertical,
+    recycle,
+    redo,
+    redo2,
+    redoDot,
+    refreshCcw,
+    refreshCcwDot,
+    refreshCw,
+    refreshCwOff,
+    refrigerator,
+    regex,
+    removeFormatting,
+    repeat,
+    repeat1,
+    repeat2,
+    replace,
+    replaceAll,
+    reply,
+    replyAll,
+    rewind,
+    ribbon,
+    road,
+    rocket,
+    rockingChair,
+    rollerCoaster,
+    rose,
+    rotate3d,
+    rotateCcw,
+    rotateCcwKey,
+    rotateCcwSquare,
+    rotateCw,
+    rotateCwSquare,
+    route,
+    routeOff,
+    router,
+    rows2,
+    rows3,
+    rows4,
+    rss,
+    ruler,
+    rulerDimensionLine,
+    russianRuble,
+    sailboat,
+    salad,
+    sandwich,
+    satellite,
+    satelliteDish,
+    saudiRiyal,
+    save,
+    saveAll,
+    saveOff,
+    scale,
+    scale3d,
+    scaling,
+    scan,
+    scanBarcode,
+    scanEye,
+    scanFace,
+    scanHeart,
+    scanLine,
+    scanQrCode,
+    scanSearch,
+    scanText,
+    school,
+    scissors,
+    scissorsLineDashed,
+    scooter,
+    screenShare,
+    screenShareOff,
+    scroll,
+    scrollText,
+    search,
+    searchAlert,
+    searchCheck,
+    searchCode,
+    searchSlash,
+    searchX,
+    section,
+    send,
+    sendHorizontal,
+    sendToBack,
+    separatorHorizontal,
+    separatorVertical,
+    server,
+    serverCog,
+    serverCrash,
+    serverOff,
+    settings,
+    settings2,
+    shapes,
+    share,
+    share2,
+    sheet,
+    shell,
+    shelvingUnit,
+    shield,
+    shieldAlert,
+    shieldBan,
+    shieldCheck,
+    shieldCog,
+    shieldCogCorner,
+    shieldEllipsis,
+    shieldHalf,
+    shieldMinus,
+    shieldOff,
+    shieldPlus,
+    shieldQuestionMark,
+    shieldUser,
+    shieldX,
+    ship,
+    shipWheel,
+    shirt,
+    shoppingBag,
+    shoppingBasket,
+    shoppingCart,
+    shovel,
+    showerHead,
+    shredder,
+    shrimp,
+    shrink,
+    shrub,
+    shuffle,
+    sigma,
+    signal,
+    signalHigh,
+    signalLow,
+    signalMedium,
+    signalZero,
+    signature,
+    signpost,
+    signpostBig,
+    siren,
+    skipBack,
+    skipForward,
+    skull,
+    slash,
+    slice,
+    slidersHorizontal,
+    slidersVertical,
+    smartphone,
+    smartphoneCharging,
+    smartphoneNfc,
+    smile,
+    smilePlus,
+    snail,
+    snowflake,
+    soapDispenserDroplet,
+    sofa,
+    solarPanel,
+    soup,
+    space,
+    spade,
+    sparkle,
+    sparkles,
+    speaker,
+    speech,
+    spellCheck,
+    spellCheck2,
+    spline,
+    splinePointer,
+    split,
+    spool,
+    sportShoe,
+    spotlight,
+    sprayCan,
+    sprout,
+    square,
+    squareActivity,
+    squareArrowDown,
+    squareArrowDownLeft,
+    squareArrowDownRight,
+    squareArrowLeft,
+    squareArrowOutDownLeft,
+    squareArrowOutDownRight,
+    squareArrowOutUpLeft,
+    squareArrowOutUpRight,
+    squareArrowRight,
+    squareArrowRightEnter,
+    squareArrowRightExit,
+    squareArrowUp,
+    squareArrowUpLeft,
+    squareArrowUpRight,
+    squareAsterisk,
+    squareBottomDashedScissors,
+    squareCenterlineDashedHorizontal,
+    squareCenterlineDashedVertical,
+    squareChartGantt,
+    squareCheck,
+    squareCheckBig,
+    squareChevronDown,
+    squareChevronLeft,
+    squareChevronRight,
+    squareChevronUp,
+    squareCode,
+    squareDashed,
+    squareDashedBottom,
+    squareDashedBottomCode,
+    squareDashedKanban,
+    squareDashedMousePointer,
+    squareDashedTopSolid,
+    squareDivide,
+    squareDot,
+    squareEqual,
+    squareFunction,
+    squareKanban,
+    squareLibrary,
+    squareM,
+    squareMenu,
+    squareMinus,
+    squareMousePointer,
+    squareParking,
+    squareParkingOff,
+    squarePause,
+    squarePen,
+    squarePercent,
+    squarePi,
+    squarePilcrow,
+    squarePlay,
+    squarePlus,
+    squarePower,
+    squareRadical,
+    squareRoundCorner,
+    squareScissors,
+    squareSigma,
+    squareSlash,
+    squareSplitHorizontal,
+    squareSplitVertical,
+    squareSquare,
+    squareStack,
+    squareStar,
+    squareStop,
+    squareTerminal,
+    squareUser,
+    squareUserRound,
+    squareX,
+    squaresExclude,
+    squaresIntersect,
+    squaresSubtract,
+    squaresUnite,
+    squircle,
+    squircleDashed,
+    squirrel,
+    stamp,
+    star,
+    starHalf,
+    starOff,
+    stepBack,
+    stepForward,
+    stethoscope,
+    sticker,
+    stickyNote,
+    stone,
+    store,
+    stretchHorizontal,
+    stretchVertical,
+    strikethrough,
+    subscript,
+    sun,
+    sunDim,
+    sunMedium,
+    sunMoon,
+    sunSnow,
+    sunrise,
+    sunset,
+    superscript,
+    swatchBook,
+    swissFranc,
+    switchCamera,
+    sword,
+    swords,
+    syringe,
+    table,
+    table2,
+    tableCellsMerge,
+    tableCellsSplit,
+    tableColumnsSplit,
+    tableOfContents,
+    tableProperties,
+    tableRowsSplit,
+    tablet,
+    tabletSmartphone,
+    tablets,
+    tag,
+    tags,
+    tally1,
+    tally2,
+    tally3,
+    tally4,
+    tally5,
+    tangent,
+    target,
+    telescope,
+    tent,
+    tentTree,
+    terminal,
+    testTube,
+    testTubeDiagonal,
+    testTubes,
+    textAlignCenter,
+    textAlignEnd,
+    textAlignJustify,
+    textAlignStart,
+    textCursor,
+    textCursorInput,
+    textInitial,
+    textQuote,
+    textSearch,
+    textSelect,
+    textWrap,
+    theater,
+    thermometer,
+    thermometerSnowflake,
+    thermometerSun,
+    thumbsDown,
+    thumbsUp,
+    ticket,
+    ticketCheck,
+    ticketMinus,
+    ticketPercent,
+    ticketPlus,
+    ticketSlash,
+    ticketX,
+    tickets,
+    ticketsPlane,
+    timer,
+    timerOff,
+    timerReset,
+    toggleLeft,
+    toggleRight,
+    toilet,
+    toolCase,
+    toolbox,
+    tornado,
+    torus,
+    touchpad,
+    touchpadOff,
+    towelRack,
+    towerControl,
+    toyBrick,
+    tractor,
+    trafficCone,
+    trainFront,
+    trainFrontTunnel,
+    trainTrack,
+    tramFront,
+    transgender,
+    trash,
+    trash2,
+    treeDeciduous,
+    treePalm,
+    treePine,
+    trees,
+    trendingDown,
+    trendingUp,
+    trendingUpDown,
+    triangle,
+    triangleAlert,
+    triangleDashed,
+    triangleRight,
+    trophy,
+    truck,
+    truckElectric,
+    turkishLira,
+    turntable,
+    turtle,
+    tv,
+    tvMinimal,
+    tvMinimalPlay,
+    type,
+    typeOutline,
+    umbrella,
+    umbrellaOff,
+    underline,
+    undo,
+    undo2,
+    undoDot,
+    unfoldHorizontal,
+    unfoldVertical,
+    ungroup,
+    university,
+    unlink,
+    unlink2,
+    unplug,
+    upload,
+    usb,
+    user,
+    userCheck,
+    userCog,
+    userKey,
+    userLock,
+    userMinus,
+    userPen,
+    userPlus,
+    userRound,
+    userRoundCheck,
+    userRoundCog,
+    userRoundKey,
+    userRoundMinus,
+    userRoundPen,
+    userRoundPlus,
+    userRoundSearch,
+    userRoundX,
+    userSearch,
+    userStar,
+    userX,
+    users,
+    usersRound,
+    utensils,
+    utensilsCrossed,
+    utilityPole,
+    van,
+    variable,
+    vault,
+    vectorSquare,
+    vegan,
+    venetianMask,
+    venus,
+    venusAndMars,
+    vibrate,
+    vibrateOff,
+    video,
+    videoOff,
+    videotape,
+    view,
+    voicemail,
+    volleyball,
+    volume,
+    volume1,
+    volume2,
+    volumeOff,
+    volumeX,
+    vote,
+    wallet,
+    walletCards,
+    walletMinimal,
+    wallpaper,
+    wand,
+    wandSparkles,
+    warehouse,
+    washingMachine,
+    watch,
+    waves,
+    wavesArrowDown,
+    wavesArrowUp,
+    wavesLadder,
+    waypoints,
+    webcam,
+    webhook,
+    webhookOff,
+    weight,
+    weightTilde,
+    wheat,
+    wheatOff,
+    wholeWord,
+    wifi,
+    wifiCog,
+    wifiHigh,
+    wifiLow,
+    wifiOff,
+    wifiPen,
+    wifiSync,
+    wifiZero,
+    wind,
+    windArrowDown,
+    wine,
+    wineOff,
+    workflow,
+    worm,
+    wrench,
+    x,
+    xLineTop,
+    zap,
+    zapOff,
+    zodiacAquarius,
+    zodiacAries,
+    zodiacCancer,
+    zodiacCapricorn,
+    zodiacGemini,
+    zodiacLeo,
+    zodiacLibra,
+    zodiacOphiuchus,
+    zodiacPisces,
+    zodiacSagittarius,
+    zodiacScorpio,
+    zodiacTaurus,
+    zodiacVirgo,
+    zoomIn,
+    zoomOut,
+  ];
+}
+
+/// Global convenience access to all icons.
+const List<LucideIconData> kLucideIcons = LucideIcons.all;
+
+/// Registry of all icon categories.
+const List<LucideCategory> kLucideCategories = [
+  LucideCategory(id: 'accessibility', title: 'Accessibility', representativeIcon: LucideIcons.accessibility),
+  LucideCategory(id: 'account', title: 'Accounts & access', representativeIcon: LucideIcons.user),
+  LucideCategory(id: 'animals', title: 'Animals', representativeIcon: LucideIcons.dog),
+  LucideCategory(id: 'arrows', title: 'Arrows', representativeIcon: LucideIcons.arrowLeftRight),
+  LucideCategory(id: 'buildings', title: 'Buildings', representativeIcon: LucideIcons.building),
+  LucideCategory(id: 'charts', title: 'Charts', representativeIcon: LucideIcons.chartPie),
+  LucideCategory(id: 'development', title: 'Coding & development', representativeIcon: LucideIcons.codeXml),
+  LucideCategory(id: 'communication', title: 'Communication', representativeIcon: LucideIcons.messageCircle),
+  LucideCategory(id: 'connectivity', title: 'Connectivity', representativeIcon: LucideIcons.wifi),
+  LucideCategory(id: 'cursors', title: 'Cursors', representativeIcon: LucideIcons.mousePointer2),
+  LucideCategory(id: 'design', title: 'Design', representativeIcon: LucideIcons.palette),
+  LucideCategory(id: 'devices', title: 'Devices', representativeIcon: LucideIcons.smartphone),
+  LucideCategory(id: 'emoji', title: 'Emoji', representativeIcon: LucideIcons.smile),
+  LucideCategory(id: 'files', title: 'File icons', representativeIcon: LucideIcons.panelsTopLeft),
+  LucideCategory(id: 'finance', title: 'Finance', representativeIcon: LucideIcons.piggyBank),
+  LucideCategory(id: 'food-beverage', title: 'Food & beverage', representativeIcon: LucideIcons.coffee),
+  LucideCategory(id: 'gaming', title: 'Gaming', representativeIcon: LucideIcons.gamepad2),
+  LucideCategory(id: 'home', title: 'Home', representativeIcon: LucideIcons.house),
+  LucideCategory(id: 'layout', title: 'Layout', representativeIcon: LucideIcons.panelsTopLeft),
+  LucideCategory(id: 'mail', title: 'Mail', representativeIcon: LucideIcons.mail),
+  LucideCategory(id: 'math', title: 'Mathematics', representativeIcon: LucideIcons.divide),
+  LucideCategory(id: 'medical', title: 'Medical', representativeIcon: LucideIcons.heart),
+  LucideCategory(id: 'multimedia', title: 'Multimedia', representativeIcon: LucideIcons.circlePlay),
+  LucideCategory(id: 'nature', title: 'Nature', representativeIcon: LucideIcons.sprout),
+  LucideCategory(id: 'navigation', title: 'Navigation, Maps, and POIs', representativeIcon: LucideIcons.compass),
+  LucideCategory(id: 'notifications', title: 'Notification', representativeIcon: LucideIcons.triangleAlert),
+  LucideCategory(id: 'people', title: 'People', representativeIcon: LucideIcons.personStanding),
+  LucideCategory(id: 'photography', title: 'Photography', representativeIcon: LucideIcons.camera),
+  LucideCategory(id: 'science', title: 'Science', representativeIcon: LucideIcons.flaskConical),
+  LucideCategory(id: 'seasons', title: 'Seasons', representativeIcon: LucideIcons.leaf),
+  LucideCategory(id: 'security', title: 'Security', representativeIcon: LucideIcons.shield),
+  LucideCategory(id: 'shapes', title: 'Shapes', representativeIcon: LucideIcons.triangle),
+  LucideCategory(id: 'shopping', title: 'Shopping', representativeIcon: LucideIcons.shoppingBag),
+  LucideCategory(id: 'social', title: 'Social', representativeIcon: LucideIcons.thumbsUp),
+  LucideCategory(id: 'sports', title: 'Sports', representativeIcon: LucideIcons.type),
+  LucideCategory(id: 'sustainability', title: 'Sustainability', representativeIcon: LucideIcons.recycle),
+  LucideCategory(id: 'text', title: 'Text formatting', representativeIcon: LucideIcons.type),
+  LucideCategory(id: 'time', title: 'Time & calendar', representativeIcon: LucideIcons.calendar),
+  LucideCategory(id: 'tools', title: 'Tools', representativeIcon: LucideIcons.hammer),
+  LucideCategory(id: 'transportation', title: 'Transportation', representativeIcon: LucideIcons.trainFront),
+  LucideCategory(id: 'travel', title: 'Travel', representativeIcon: LucideIcons.backpack),
+  LucideCategory(id: 'weather', title: 'Weather', representativeIcon: LucideIcons.cloudSun),
+];

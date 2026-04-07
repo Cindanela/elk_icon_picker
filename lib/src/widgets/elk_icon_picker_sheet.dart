@@ -2,23 +2,38 @@ import 'package:flutter/material.dart';
 import '../models/icon_source.dart';
 import '../models/lucide_category.dart';
 import 'elk_icon_picker.dart';
+import 'elk_icon_picker_theme.dart';
 
 /// Shows a Lucide icon picker in a modal bottom sheet.
 ///
 /// Returns the selected [IconSelection] or null if the sheet was dismissed.
+///
+/// Visual appearance is resolved in this priority order:
+///   1. Explicit parameter (highest)
+///   2. [ElkIconPickerThemeData] from the ambient [ThemeData.extensions]
+///   3. Material 3 [ColorScheme] fallback (lowest)
 Future<IconSelection?> showElkIconPicker(
   BuildContext context, {
   IconSelection? currentSelection,
   Color? backgroundColor,
   Color? iconColor,
   Color? selectedColor,
-  double borderRadius = 12.0,
+  double? borderRadius,
   int crossAxisCount = 5,
   void Function(IconSelection)? onSelected,
   bool showSearch = true,
   bool showCategories = true,
   CategoryStyle categoryStyle = CategoryStyle.both,
+  List<String>? allowedCategoryIds,
+  bool allowUserToggleCategories = false,
 }) {
+  final ext = Theme.of(context).extension<ElkIconPickerThemeData>();
+
+  final resolvedBg = backgroundColor ??
+      ext?.backgroundColor ??
+      Theme.of(context).scaffoldBackgroundColor;
+  final resolvedBorderRadius = borderRadius ?? ext?.borderRadius ?? 12.0;
+
   return showModalBottomSheet<IconSelection>(
     context: context,
     isScrollControlled: true,
@@ -29,11 +44,13 @@ Future<IconSelection?> showElkIconPicker(
       maxChildSize: 0.95,
       expand: false,
       builder: (context, scrollController) {
+        final sheetExt = Theme.of(context).extension<ElkIconPickerThemeData>();
+
         return Container(
           decoration: BoxDecoration(
-            color: backgroundColor ?? Theme.of(context).scaffoldBackgroundColor,
+            color: resolvedBg,
             borderRadius: BorderRadius.vertical(
-              top: Radius.circular(borderRadius),
+              top: Radius.circular(resolvedBorderRadius),
             ),
           ),
           child: Column(
@@ -52,14 +69,18 @@ Future<IconSelection?> showElkIconPicker(
               ),
 
               // Title
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  vertical: 8.0,
+                  horizontal: 16.0,
+                ),
                 child: Text(
                   'Select Icon',
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: sheetExt?.titleStyle ??
+                      const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
                 ),
               ),
 
@@ -81,6 +102,8 @@ Future<IconSelection?> showElkIconPicker(
                   showSearch: showSearch,
                   showCategories: showCategories,
                   categoryStyle: categoryStyle,
+                  allowedCategoryIds: allowedCategoryIds,
+                  allowUserToggleCategories: allowUserToggleCategories,
                 ),
               ),
             ],

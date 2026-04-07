@@ -8,4 +8,5 @@ export 'src/widgets/lucide_icon.dart';
 export 'src/widgets/icon_selection_preview.dart';
 export 'src/widgets/elk_icon_picker.dart';
 export 'src/widgets/elk_icon_picker_sheet.dart';
+export 'src/widgets/elk_icon_picker_theme.dart';
 export 'src/gen/lucide_icons.g.dart';

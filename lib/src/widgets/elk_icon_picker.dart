@@ -19,8 +19,12 @@ class ElkIconPicker extends StatefulWidget {
   /// The currently selected icon data to highlight.
   final IconSelection? currentSelection;
 
-  /// The number of icons across in the grid. Defaults to 5.
-  final int crossAxisCount;
+  /// The number of icons across in the grid.
+  ///
+  /// When null, the count is calculated adaptively from the screen width,
+  /// targeting ~64 dp per cell and clamped between 4 and 10.
+  /// Overrides [ElkIconPickerThemeData] adaptive behaviour when set.
+  final int? crossAxisCount;
 
   /// The background color of the picker. Overrides [ElkIconPickerThemeData.backgroundColor].
   final Color? backgroundColor;
@@ -30,6 +34,10 @@ class ElkIconPicker extends StatefulWidget {
 
   /// The color for the selected icon indicator. Overrides [ElkIconPickerThemeData.selectedColor].
   final Color? selectedColor;
+
+  /// The color of the icon stroke itself when selected.
+  /// Overrides [ElkIconPickerThemeData.selectedIconColor].
+  final Color? selectedIconColor;
 
   /// The radius of the rounded corners for selection indicators.
   /// Overrides [ElkIconPickerThemeData.borderRadius].
@@ -42,17 +50,32 @@ class ElkIconPicker extends StatefulWidget {
   /// Overrides [ElkIconPickerThemeData.iconRounded].
   final bool? iconRounded;
 
+  /// Rendered size of each icon in the grid.
+  /// Overrides [ElkIconPickerThemeData.iconSize]. Defaults to `24.0`.
+  final double? iconSize;
+
+  /// Fill color of the search input field.
+  /// Overrides [ElkIconPickerThemeData.searchBarFillColor].
+  final Color? searchBarFillColor;
+
+  /// Color of the selected tab underline/indicator.
+  /// Overrides [ElkIconPickerThemeData.tabIndicatorColor].
+  final Color? tabIndicatorColor;
+
   /// Controller for the icon grid scroll.
   final ScrollController? scrollController;
 
-  /// Whether to show the search bar. Defaults to true.
-  final bool showSearch;
+  /// Whether to show the search bar.
+  /// Overrides [ElkIconPickerThemeData.showSearch]. Defaults to `true`.
+  final bool? showSearch;
 
-  /// Whether to show category tabs. Defaults to true.
-  final bool showCategories;
+  /// Whether to show category tabs.
+  /// Overrides [ElkIconPickerThemeData.showCategories]. Defaults to `true`.
+  final bool? showCategories;
 
-  /// How to display the category tabs. Defaults to [CategoryStyle.both].
-  final CategoryStyle categoryStyle;
+  /// How to display the category tabs.
+  /// Overrides [ElkIconPickerThemeData.categoryStyle]. Defaults to [CategoryStyle.both].
+  final CategoryStyle? categoryStyle;
 
   /// Limits which categories appear in the tab bar.
   ///
@@ -64,26 +87,30 @@ class ElkIconPicker extends StatefulWidget {
   /// When true, a toggle button is shown in the search bar row that lets the
   /// end user show or hide the category tabs at runtime.
   ///
-  /// Defaults to false. Requires [showCategories] to be true to have any effect.
-  final bool allowUserToggleCategories;
+  /// Overrides [ElkIconPickerThemeData.allowUserToggleCategories]. Defaults to `false`.
+  final bool? allowUserToggleCategories;
 
   const ElkIconPicker({
     super.key,
     required this.onSelected,
     this.currentSelection,
-    this.crossAxisCount = 5,
+    this.crossAxisCount,
     this.backgroundColor,
     this.iconColor,
     this.selectedColor,
+    this.selectedIconColor,
     this.borderRadius,
     this.iconStrokeWidth,
     this.iconRounded,
+    this.iconSize,
+    this.searchBarFillColor,
+    this.tabIndicatorColor,
     this.scrollController,
-    this.showSearch = true,
-    this.showCategories = true,
-    this.categoryStyle = CategoryStyle.both,
+    this.showSearch,
+    this.showCategories,
+    this.categoryStyle,
     this.allowedCategoryIds,
-    this.allowUserToggleCategories = false,
+    this.allowUserToggleCategories,
   });
 
   @override
@@ -115,10 +142,31 @@ class _ElkIconPickerState extends State<ElkIconPicker>
   @override
   void initState() {
     super.initState();
-    _categoriesVisible = widget.showCategories;
-    if (widget.showCategories) {
+    // showCategories may be null when driven by theme; default to true here.
+    // didChangeDependencies will correct this once Theme context is available.
+    _categoriesVisible = widget.showCategories ?? true;
+    if (_categoriesVisible) {
       _tabController = TabController(length: _categories.length, vsync: this);
       _tabController?.addListener(() => setState(() {}));
+    }
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    // Resolve the initial visibility from the theme when widget param is null.
+    // Only runs on first dependency resolution to avoid overriding user toggles.
+    if (widget.showCategories == null) {
+      final ext = Theme.of(context).extension<ElkIconPickerThemeData>();
+      final themeShow = ext?.showCategories ?? true;
+      if (_categoriesVisible != themeShow) {
+        _categoriesVisible = themeShow;
+        _tabController?.dispose();
+        _tabController = themeShow
+            ? (TabController(length: _categories.length, vsync: this)
+              ..addListener(() => setState(() {})))
+            : null;
+      }
     }
   }
 
@@ -129,8 +177,9 @@ class _ElkIconPickerState extends State<ElkIconPicker>
         widget.showCategories != oldWidget.showCategories ||
         widget.allowedCategoryIds != oldWidget.allowedCategoryIds;
     if (categoriesChanged) {
+      _categoriesVisible = widget.showCategories ?? _categoriesVisible;
       _tabController?.dispose();
-      if (widget.showCategories) {
+      if (_categoriesVisible) {
         _tabController = TabController(length: _categories.length, vsync: this);
         _tabController?.addListener(() => setState(() {}));
       } else {
@@ -157,9 +206,28 @@ class _ElkIconPickerState extends State<ElkIconPicker>
         widget.iconColor ?? ext?.iconColor ?? theme.iconTheme.color ?? Colors.black54;
     final resolvedSelectedColor =
         widget.selectedColor ?? ext?.selectedColor ?? theme.colorScheme.primary;
+    final resolvedSelectedIconColor =
+        widget.selectedIconColor ?? ext?.selectedIconColor ?? resolvedSelectedColor;
     final resolvedBorderRadius = widget.borderRadius ?? ext?.borderRadius ?? 8.0;
     final resolvedStrokeWidth = widget.iconStrokeWidth ?? ext?.iconStrokeWidth ?? 2.0;
     final resolvedRounded = widget.iconRounded ?? ext?.iconRounded ?? true;
+    final resolvedIconSize = widget.iconSize ?? ext?.iconSize ?? 24.0;
+    final resolvedSearchBarFillColor =
+        widget.searchBarFillColor ?? ext?.searchBarFillColor;
+    final resolvedTabIndicatorColor =
+        widget.tabIndicatorColor ?? ext?.tabIndicatorColor;
+    final resolvedShowSearch = widget.showSearch ?? ext?.showSearch ?? true;
+    final resolvedShowCategories =
+        widget.showCategories ?? ext?.showCategories ?? true;
+    final resolvedCategoryStyle =
+        widget.categoryStyle ?? ext?.categoryStyle ?? CategoryStyle.both;
+    final resolvedAllowUserToggle =
+        widget.allowUserToggleCategories ?? ext?.allowUserToggleCategories ?? false;
+
+    // Adaptive column count: target ~64 dp per cell, clamp 4–10.
+    final screenWidth = MediaQuery.of(context).size.width;
+    final resolvedCrossAxisCount =
+        widget.crossAxisCount ?? (screenWidth / 64).floor().clamp(4, 10);
 
     final currentCategory = (_tabController != null && _categoriesVisible)
         ? _categories[_tabController!.index]
@@ -175,7 +243,7 @@ class _ElkIconPickerState extends State<ElkIconPicker>
       child: Column(
         children: [
           // Search bar
-          if (widget.showSearch)
+          if (resolvedShowSearch)
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Row(
@@ -187,6 +255,8 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                       decoration: InputDecoration(
                         hintText: 'Search icons...',
                         hintStyle: ext?.searchHintStyle,
+                        filled: resolvedSearchBarFillColor != null,
+                        fillColor: resolvedSearchBarFillColor,
                         prefixIcon: const Icon(Icons.search),
                         suffixIcon: _searchQuery.isNotEmpty
                             ? IconButton(
@@ -207,7 +277,7 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                       onChanged: (value) => setState(() => _searchQuery = value),
                     ),
                   ),
-                  if (widget.allowUserToggleCategories && widget.showCategories) ...[
+                  if (resolvedAllowUserToggle && resolvedShowCategories) ...[
                     const SizedBox(width: 8),
                     IconButton(
                       tooltip: _categoriesVisible
@@ -233,11 +303,14 @@ class _ElkIconPickerState extends State<ElkIconPicker>
               isScrollable: true,
               tabAlignment: TabAlignment.start,
               labelStyle: ext?.tabLabelStyle,
+              indicatorColor: resolvedTabIndicatorColor,
               tabs: _categories.map((cat) {
-                final showIcon = widget.categoryStyle == CategoryStyle.both ||
-                    widget.categoryStyle == CategoryStyle.iconsOnly;
-                final showText = widget.categoryStyle == CategoryStyle.both ||
-                    widget.categoryStyle == CategoryStyle.textOnly;
+                final showIcon =
+                    resolvedCategoryStyle == CategoryStyle.both ||
+                    resolvedCategoryStyle == CategoryStyle.iconsOnly;
+                final showText =
+                    resolvedCategoryStyle == CategoryStyle.both ||
+                    resolvedCategoryStyle == CategoryStyle.textOnly;
 
                 return Tab(
                   child: Row(
@@ -284,7 +357,7 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                     controller: widget.scrollController,
                     padding: const EdgeInsets.all(16.0),
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: widget.crossAxisCount,
+                      crossAxisCount: resolvedCrossAxisCount,
                       mainAxisSpacing: 8.0,
                       crossAxisSpacing: 8.0,
                     ),
@@ -314,9 +387,9 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                           child: Center(
                             child: LucideIcon(
                               iconData,
-                              size: 28,
+                              size: resolvedIconSize,
                               color: isSelected
-                                  ? resolvedSelectedColor
+                                  ? resolvedSelectedIconColor
                                   : resolvedIconColor,
                               strokeWidth: resolvedStrokeWidth,
                               rounded: resolvedRounded,

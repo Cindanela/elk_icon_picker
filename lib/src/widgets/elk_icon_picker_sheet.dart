@@ -19,13 +19,13 @@ Future<IconSelection?> showElkIconPicker(
   Color? iconColor,
   Color? selectedColor,
   double? borderRadius,
-  int crossAxisCount = 5,
+  int? crossAxisCount,
   void Function(IconSelection)? onSelected,
-  bool showSearch = true,
-  bool showCategories = true,
-  CategoryStyle categoryStyle = CategoryStyle.both,
+  bool? showSearch,
+  bool? showCategories,
+  CategoryStyle? categoryStyle,
   List<String>? allowedCategoryIds,
-  bool allowUserToggleCategories = false,
+  bool? allowUserToggleCategories,
 }) {
   final ext = Theme.of(context).extension<ElkIconPickerThemeData>();
 
@@ -46,6 +46,9 @@ Future<IconSelection?> showElkIconPicker(
       builder: (context, scrollController) {
         final sheetExt = Theme.of(context).extension<ElkIconPickerThemeData>();
 
+        final resolvedHandleColor = sheetExt?.sheetHandleColor ??
+            Colors.grey.withValues(alpha: 0.3);
+
         return Container(
           decoration: BoxDecoration(
             color: resolvedBg,
@@ -55,32 +58,40 @@ Future<IconSelection?> showElkIconPicker(
           ),
           child: Column(
             children: [
-              // Pull handle
-              Center(
-                child: Container(
-                  width: 32,
-                  height: 4,
-                  margin: const EdgeInsets.symmetric(vertical: 8),
-                  decoration: BoxDecoration(
-                    color: Colors.grey.withValues(alpha: 0.3),
-                    borderRadius: BorderRadius.circular(2),
-                  ),
-                ),
-              ),
-
-              // Title
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  vertical: 8.0,
-                  horizontal: 16.0,
-                ),
-                child: Text(
-                  'Select Icon',
-                  style: sheetExt?.titleStyle ??
-                      const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
+              // Title bar area (handle + title) with optional background tint
+              Container(
+                color: sheetExt?.sheetTitleBarColor,
+                child: Column(
+                  children: [
+                    // Pull handle
+                    Center(
+                      child: Container(
+                        width: 32,
+                        height: 4,
+                        margin: const EdgeInsets.symmetric(vertical: 8),
+                        decoration: BoxDecoration(
+                          color: resolvedHandleColor,
+                          borderRadius: BorderRadius.circular(2),
+                        ),
                       ),
+                    ),
+
+                    // Title
+                    Padding(
+                      padding: const EdgeInsets.symmetric(
+                        vertical: 8.0,
+                        horizontal: 16.0,
+                      ),
+                      child: Text(
+                        'Select Icon',
+                        style: sheetExt?.titleStyle ??
+                            const TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
 

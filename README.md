@@ -84,6 +84,14 @@ LucideIcon(
 )
 ```
 
+| Property | Description | Default |
+|----------|-------------|---------|
+| `data` | **Required**. The icon data to render (e.g., `LucideIcons.home`) | - |
+| `size` | The size of the icon | `24` |
+| `color` | The color of the icon's stroke | `IconTheme.of(context).color` |
+| `strokeWidth` | The width of the icon's stroke | `2.0` |
+| `rounded` | Whether to use rounded stroke caps and joins | `true` |
+
 ## Theming
 
 You can style all pickers in one place by adding `ElkIconPickerThemeData` to your app's `ThemeData.extensions`. This integrates naturally with Material 3 light/dark themes — just provide a different extension in your dark theme.
@@ -141,6 +149,8 @@ showElkIconPicker(context, selectedColor: Colors.orange);
 | `backgroundColor` | Background color of the picker and bottom sheet container |
 | `iconColor` | Color for unselected icons |
 | `selectedColor` | Color for the selected icon highlight |
+| `selectedIconColor` | Color of the icon stroke itself when selected |
+| `iconSize` | Rendered size of each icon in the grid (default `24.0`) |
 | `borderRadius` | Corner radius for selection indicators and the sheet |
 | `searchStyle` | Text style for the search field input |
 | `searchHintStyle` | Text style for the search field hint text |
@@ -149,6 +159,14 @@ showElkIconPicker(context, selectedColor: Colors.orange);
 | `emptyStateStyle` | Text style for the "no results" message |
 | `iconStrokeWidth` | Stroke width for icon rendering (e.g. `1.5` for thin, `2.5` for bold) |
 | `iconRounded` | Whether icons use rounded stroke caps and joins |
+| `showSearch` | Whether the search bar is shown by default |
+| `showCategories` | Whether category tabs are shown by default |
+| `categoryStyle` | Default category tab layout style (`both`, `iconsOnly`, `textOnly`) |
+| `allowUserToggleCategories` | Whether to show the toggle button for categories |
+| `searchBarFillColor` | Fill color of the search input field |
+| `sheetHandleColor` | Color of the drag handle in the bottom sheet |
+| `sheetTitleBarColor` | Background color of the title bar area in the sheet |
+| `tabIndicatorColor` | Color of the selected tab underline/indicator |
 
 ## Customization
 
@@ -156,18 +174,25 @@ Per-widget constructor params work exactly as before. These take priority over a
 
 | Property | Description | Default |
 |----------|-------------|---------|
-| `crossAxisCount` | Number of columns in the grid | `5` |
-| `iconColor` | Color for unselected icons | from theme, then `iconTheme.color` |
-| `selectedColor` | Color for the selected icon/indicator | from theme, then `colorScheme.primary` |
-| `backgroundColor` | Background color of the picker | from theme, then `transparent` |
-| `borderRadius` | Curvature of selection boxes | from theme, then `8.0` (`12.0` for sheet) |
-| `iconStrokeWidth` | Stroke width for icon rendering | from theme, then `2.0` |
-| `iconRounded` | Rounded stroke caps/joins on icons | from theme, then `true` |
+| `onSelected` | **Required**. Callback when an icon is selected | - |
+| `currentSelection` | The currently selected icon to highlight | `null` |
+| `crossAxisCount` | Number of columns in the grid | `null` (adaptive) |
+| `iconColor` | Color for unselected icons | from theme |
+| `selectedColor` | Color for the selected icon/indicator highlight | from theme |
+| `selectedIconColor` | Color of the icon stroke itself when selected | from theme |
+| `backgroundColor` | Background color of the picker | from theme |
+| `borderRadius` | Curvature of selection boxes | from theme |
+| `iconStrokeWidth` | Stroke width for icon rendering | from theme |
+| `iconRounded` | Rounded stroke caps/joins on icons | from theme |
+| `iconSize` | Size of icons in the grid | from theme |
+| `searchBarFillColor` | Background color for the search bar | from theme |
+| `tabIndicatorColor` | Color of the category tab indicator | from theme |
 | `showSearch` | Whether to show the search bar | `true` |
 | `showCategories` | Whether to show the category tabs | `true` |
 | `categoryStyle` | Tab layout: `both`, `iconsOnly`, or `textOnly` | `both` |
-| `allowedCategoryIds` | Limit which categories appear (e.g. `['arrows', 'shapes']`). `null` shows all | `null` |
-| `allowUserToggleCategories` | Show a toggle button so the end user can hide/show the category tabs | `false` |
+| `allowedCategoryIds` | Limit which categories appear | `null` (all) |
+| `allowUserToggleCategories` | Show a user toggle for categories | `false` |
+| `scrollController` | Controller for the icon grid scroll | `null` |
 
 ## License
 

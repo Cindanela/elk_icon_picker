@@ -148,7 +148,7 @@ showElkIconPicker(context, selectedColor: Colors.orange);
 |----------|-------------|
 | `backgroundColor` | Background color of the picker and bottom sheet container |
 | `iconColor` | Color for unselected icons |
-| `selectedColor` | Color for the selected icon highlight |
+| `selectedColor`| Color for the selected icon highlight |
 | `selectedIconColor` | Color of the icon stroke itself when selected |
 | `iconSize` | Rendered size of each icon in the grid (default `24.0`) |
 | `borderRadius` | Corner radius for selection indicators and the sheet |
@@ -163,6 +163,11 @@ showElkIconPicker(context, selectedColor: Colors.orange);
 | `showCategories` | Whether category tabs are shown by default |
 | `categoryStyle` | Default category tab layout style (`both`, `iconsOnly`, `textOnly`) |
 | `allowUserToggleCategories` | Whether to show the toggle button for categories |
+| `crossAxisCount` | Global override for the number of columns (default: adaptive) |
+| `allowedCategoryIds` | Global filter for which categories to show |
+| `categoryIconSize` | Rendered size of icons in the category tab bar (default `18.0`) |
+| `categoryTextSpacing` | Spacing between icon and text in tabs (default `8.0`) |
+| `gridPadding` | Padding around the main icon grid (default `EdgeInsets.all(16.0)`) |
 | `searchBarFillColor` | Fill color of the search input field |
 | `sheetHandleColor` | Color of the drag handle in the bottom sheet |
 | `sheetTitleBarColor` | Background color of the title bar area in the sheet |
@@ -176,7 +181,7 @@ Per-widget constructor params work exactly as before. These take priority over a
 |----------|-------------|---------|
 | `onSelected` | **Required**. Callback when an icon is selected | - |
 | `currentSelection` | The currently selected icon to highlight | `null` |
-| `crossAxisCount` | Number of columns in the grid | `null` (adaptive) |
+| `crossAxisCount` | Number of columns in the grid | from theme / adaptive |
 | `iconColor` | Color for unselected icons | from theme |
 | `selectedColor` | Color for the selected icon/indicator highlight | from theme |
 | `selectedIconColor` | Color of the icon stroke itself when selected | from theme |
@@ -187,11 +192,14 @@ Per-widget constructor params work exactly as before. These take priority over a
 | `iconSize` | Size of icons in the grid | from theme |
 | `searchBarFillColor` | Background color for the search bar | from theme |
 | `tabIndicatorColor` | Color of the category tab indicator | from theme |
-| `showSearch` | Whether to show the search bar | `true` |
-| `showCategories` | Whether to show the category tabs | `true` |
-| `categoryStyle` | Tab layout: `both`, `iconsOnly`, or `textOnly` | `both` |
-| `allowedCategoryIds` | Limit which categories appear | `null` (all) |
-| `allowUserToggleCategories` | Show a user toggle for categories | `false` |
+| `showSearch` | Whether to show the search bar | from theme |
+| `showCategories` | Whether to show the category tabs | from theme |
+| `categoryStyle` | Tab layout: `both`, `iconsOnly`, or `textOnly` | from theme |
+| `allowedCategoryIds` | Limit which categories appear | from theme |
+| `allowUserToggleCategories` | Show a user toggle for categories | from theme |
+| `categoryIconSize` | Size of icons in the category tabs | from theme |
+| `categoryTextSpacing` | Gap between icon and text in tabs | from theme |
+| `gridPadding` | Padding around the icon grid | from theme |
 | `scrollController` | Controller for the icon grid scroll | `null` |
 
 ## License

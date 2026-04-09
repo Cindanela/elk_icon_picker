@@ -75,6 +75,22 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
   /// Defaults to `false`.
   final bool? allowUserToggleCategories;
 
+  /// The number of icons across in the grid.
+  /// Overrides adaptive calculation when set.
+  final int? crossAxisCount;
+
+  /// Limits which categories appear in the tab bar globally.
+  final List<String>? allowedCategoryIds;
+
+  /// Rendered size of icons in the category tab bar. Defaults to `18.0`.
+  final double? categoryIconSize;
+
+  /// Spacing between the icon and text in a category tab. Defaults to `8.0`.
+  final double? categoryTextSpacing;
+
+  /// Padding around the main icon grid. Defaults to `EdgeInsets.all(16.0)`.
+  final EdgeInsetsGeometry? gridPadding;
+
   /// Fill color of the search input field.
   /// Falls back to the ambient [InputDecorationTheme] when null.
   final Color? searchBarFillColor;
@@ -109,6 +125,11 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
     this.showCategories,
     this.categoryStyle,
     this.allowUserToggleCategories,
+    this.crossAxisCount,
+    this.allowedCategoryIds,
+    this.categoryIconSize,
+    this.categoryTextSpacing,
+    this.gridPadding,
     this.searchBarFillColor,
     this.sheetHandleColor,
     this.sheetTitleBarColor,
@@ -134,6 +155,11 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
     bool? showCategories,
     CategoryStyle? categoryStyle,
     bool? allowUserToggleCategories,
+    int? crossAxisCount,
+    List<String>? allowedCategoryIds,
+    double? categoryIconSize,
+    double? categoryTextSpacing,
+    EdgeInsetsGeometry? gridPadding,
     Color? searchBarFillColor,
     Color? sheetHandleColor,
     Color? sheetTitleBarColor,
@@ -158,6 +184,11 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
       categoryStyle: categoryStyle ?? this.categoryStyle,
       allowUserToggleCategories:
           allowUserToggleCategories ?? this.allowUserToggleCategories,
+      crossAxisCount: crossAxisCount ?? this.crossAxisCount,
+      allowedCategoryIds: allowedCategoryIds ?? this.allowedCategoryIds,
+      categoryIconSize: categoryIconSize ?? this.categoryIconSize,
+      categoryTextSpacing: categoryTextSpacing ?? this.categoryTextSpacing,
+      gridPadding: gridPadding ?? this.gridPadding,
       searchBarFillColor: searchBarFillColor ?? this.searchBarFillColor,
       sheetHandleColor: sheetHandleColor ?? this.sheetHandleColor,
       sheetTitleBarColor: sheetTitleBarColor ?? this.sheetTitleBarColor,
@@ -172,16 +203,25 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
       backgroundColor: Color.lerp(backgroundColor, other.backgroundColor, t),
       iconColor: Color.lerp(iconColor, other.iconColor, t),
       selectedColor: Color.lerp(selectedColor, other.selectedColor, t),
-      selectedIconColor:
-          Color.lerp(selectedIconColor, other.selectedIconColor, t),
+      selectedIconColor: Color.lerp(
+        selectedIconColor,
+        other.selectedIconColor,
+        t,
+      ),
       borderRadius: lerpDouble(borderRadius, other.borderRadius, t),
       searchStyle: TextStyle.lerp(searchStyle, other.searchStyle, t),
-      searchHintStyle:
-          TextStyle.lerp(searchHintStyle, other.searchHintStyle, t),
+      searchHintStyle: TextStyle.lerp(
+        searchHintStyle,
+        other.searchHintStyle,
+        t,
+      ),
       tabLabelStyle: TextStyle.lerp(tabLabelStyle, other.tabLabelStyle, t),
       titleStyle: TextStyle.lerp(titleStyle, other.titleStyle, t),
-      emptyStateStyle:
-          TextStyle.lerp(emptyStateStyle, other.emptyStateStyle, t),
+      emptyStateStyle: TextStyle.lerp(
+        emptyStateStyle,
+        other.emptyStateStyle,
+        t,
+      ),
       iconStrokeWidth: lerpDouble(iconStrokeWidth, other.iconStrokeWidth, t),
       iconRounded: t < 0.5 ? iconRounded : other.iconRounded,
       iconSize: lerpDouble(iconSize, other.iconSize, t),
@@ -189,16 +229,36 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
       showSearch: t < 0.5 ? showSearch : other.showSearch,
       showCategories: t < 0.5 ? showCategories : other.showCategories,
       categoryStyle: t < 0.5 ? categoryStyle : other.categoryStyle,
-      allowUserToggleCategories:
-          t < 0.5 ? allowUserToggleCategories : other.allowUserToggleCategories,
-      searchBarFillColor:
-          Color.lerp(searchBarFillColor, other.searchBarFillColor, t),
-      sheetHandleColor:
-          Color.lerp(sheetHandleColor, other.sheetHandleColor, t),
-      sheetTitleBarColor:
-          Color.lerp(sheetTitleBarColor, other.sheetTitleBarColor, t),
-      tabIndicatorColor:
-          Color.lerp(tabIndicatorColor, other.tabIndicatorColor, t),
+      allowUserToggleCategories: t < 0.5
+          ? allowUserToggleCategories
+          : other.allowUserToggleCategories,
+      crossAxisCount: t < 0.5 ? crossAxisCount : other.crossAxisCount,
+      allowedCategoryIds: t < 0.5
+          ? allowedCategoryIds
+          : other.allowedCategoryIds,
+      categoryIconSize: lerpDouble(categoryIconSize, other.categoryIconSize, t),
+      categoryTextSpacing: lerpDouble(
+        categoryTextSpacing,
+        other.categoryTextSpacing,
+        t,
+      ),
+      gridPadding: EdgeInsetsGeometry.lerp(gridPadding, other.gridPadding, t),
+      searchBarFillColor: Color.lerp(
+        searchBarFillColor,
+        other.searchBarFillColor,
+        t,
+      ),
+      sheetHandleColor: Color.lerp(sheetHandleColor, other.sheetHandleColor, t),
+      sheetTitleBarColor: Color.lerp(
+        sheetTitleBarColor,
+        other.sheetTitleBarColor,
+        t,
+      ),
+      tabIndicatorColor: Color.lerp(
+        tabIndicatorColor,
+        other.tabIndicatorColor,
+        t,
+      ),
     );
   }
 }

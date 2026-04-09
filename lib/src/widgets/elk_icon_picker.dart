@@ -90,6 +90,18 @@ class ElkIconPicker extends StatefulWidget {
   /// Overrides [ElkIconPickerThemeData.allowUserToggleCategories]. Defaults to `false`.
   final bool? allowUserToggleCategories;
 
+  /// Rendered size of icons in the category tab bar.
+  /// Overrides [ElkIconPickerThemeData.categoryIconSize]. Defaults to `18.0`.
+  final double? categoryIconSize;
+
+  /// Spacing between the icon and text in a category tab.
+  /// Overrides [ElkIconPickerThemeData.categoryTextSpacing]. Defaults to `8.0`.
+  final double? categoryTextSpacing;
+
+  /// Padding around the main icon grid.
+  /// Overrides [ElkIconPickerThemeData.gridPadding]. Defaults to `EdgeInsets.all(16.0)`.
+  final EdgeInsetsGeometry? gridPadding;
+
   const ElkIconPicker({
     super.key,
     required this.onSelected,
@@ -111,6 +123,9 @@ class ElkIconPicker extends StatefulWidget {
     this.categoryStyle,
     this.allowedCategoryIds,
     this.allowUserToggleCategories,
+    this.categoryIconSize,
+    this.categoryTextSpacing,
+    this.gridPadding,
   });
 
   @override
@@ -118,7 +133,7 @@ class ElkIconPicker extends StatefulWidget {
 }
 
 class _ElkIconPickerState extends State<ElkIconPicker>
-    with SingleTickerProviderStateMixin {
+    with TickerProviderStateMixin {
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
   TabController? _tabController;
@@ -132,7 +147,10 @@ class _ElkIconPickerState extends State<ElkIconPicker>
   );
 
   List<LucideCategory> get _categories {
-    final allowed = widget.allowedCategoryIds;
+    final theme = Theme.of(context);
+    final ext = theme.extension<ElkIconPickerThemeData>();
+    final allowed = widget.allowedCategoryIds ?? ext?.allowedCategoryIds;
+
     final filtered = (allowed == null || allowed.isEmpty)
         ? kLucideCategories
         : kLucideCategories.where((c) => allowed.contains(c.id)).toList();
@@ -142,31 +160,39 @@ class _ElkIconPickerState extends State<ElkIconPicker>
   @override
   void initState() {
     super.initState();
-    // showCategories may be null when driven by theme; default to true here.
-    // didChangeDependencies will correct this once Theme context is available.
+    // We CANNOT initialize _tabController here because its length depends on
+    // Theme.of(context) via the _categories getter.
+    // didChangeDependencies will handle the initial creation.
     _categoriesVisible = widget.showCategories ?? true;
-    if (_categoriesVisible) {
-      _tabController = TabController(length: _categories.length, vsync: this);
-      _tabController?.addListener(() => setState(() {}));
-    }
+  }
+
+  void _handleTabChange() {
+    if (mounted) setState(() {});
   }
 
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    // Resolve the initial visibility from the theme when widget param is null.
-    // Only runs on first dependency resolution to avoid overriding user toggles.
+    
+    bool needsRecreate = false;
+
+    // Resolve the visibility from the theme when widget param is null.
     if (widget.showCategories == null) {
       final ext = Theme.of(context).extension<ElkIconPickerThemeData>();
       final themeShow = ext?.showCategories ?? true;
       if (_categoriesVisible != themeShow) {
         _categoriesVisible = themeShow;
-        _tabController?.dispose();
-        _tabController = themeShow
-            ? (TabController(length: _categories.length, vsync: this)
-              ..addListener(() => setState(() {})))
-            : null;
+        needsRecreate = true;
       }
+    }
+
+    // Initialize the controller if it doesn't exist yet but categories are visible.
+    if (_categoriesVisible && _tabController == null) {
+      needsRecreate = true;
+    }
+
+    if (needsRecreate) {
+      _recreateTabController();
     }
   }
 
@@ -178,14 +204,20 @@ class _ElkIconPickerState extends State<ElkIconPicker>
         widget.allowedCategoryIds != oldWidget.allowedCategoryIds;
     if (categoriesChanged) {
       _categoriesVisible = widget.showCategories ?? _categoriesVisible;
-      _tabController?.dispose();
-      if (_categoriesVisible) {
-        _tabController = TabController(length: _categories.length, vsync: this);
-        _tabController?.addListener(() => setState(() {}));
-      } else {
-        _tabController = null;
-      }
+      _recreateTabController();
     }
+  }
+
+  void _recreateTabController() {
+    _tabController?.removeListener(_handleTabChange);
+    _tabController?.dispose();
+    if (_categoriesVisible) {
+      _tabController = TabController(length: _categories.length, vsync: this);
+      _tabController?.addListener(_handleTabChange);
+    } else {
+      _tabController = null;
+    }
+    if (mounted) setState(() {});
   }
 
   @override
@@ -226,8 +258,16 @@ class _ElkIconPickerState extends State<ElkIconPicker>
 
     // Adaptive column count: target ~64 dp per cell, clamp 4–10.
     final screenWidth = MediaQuery.of(context).size.width;
-    final resolvedCrossAxisCount =
-        widget.crossAxisCount ?? (screenWidth / 64).floor().clamp(4, 10);
+    final resolvedCrossAxisCount = widget.crossAxisCount ??
+        ext?.crossAxisCount ??
+        (screenWidth / 64).floor().clamp(4, 10);
+
+    final resolvedCategoryIconSize =
+        widget.categoryIconSize ?? ext?.categoryIconSize ?? 18.0;
+    final resolvedCategoryTextSpacing =
+        widget.categoryTextSpacing ?? ext?.categoryTextSpacing ?? 8.0;
+    final resolvedGridPadding =
+        widget.gridPadding ?? ext?.gridPadding ?? const EdgeInsets.all(16.0);
 
     final currentCategory = (_tabController != null && _categoriesVisible)
         ? _categories[_tabController!.index]
@@ -311,6 +351,7 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                 final showText =
                     resolvedCategoryStyle == CategoryStyle.both ||
                     resolvedCategoryStyle == CategoryStyle.textOnly;
+                final isSelected = _tabController?.index == _categories.indexOf(cat);
 
                 return Tab(
                   child: Row(
@@ -319,12 +360,14 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                       if (showIcon) ...[
                         LucideIcon(
                           cat.representativeIcon,
-                          size: 16,
+                          size: resolvedCategoryIconSize,
+                          color: isSelected ? resolvedSelectedColor : resolvedIconColor,
                           strokeWidth: resolvedStrokeWidth,
                           rounded: resolvedRounded,
                         ),
-                        if (showText) const SizedBox(width: 8),
                       ],
+                      if (showIcon && showText)
+                        SizedBox(width: resolvedCategoryTextSpacing),
                       if (showText) Text(cat.title),
                     ],
                   ),
@@ -355,11 +398,11 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                   )
                 : GridView.builder(
                     controller: widget.scrollController,
-                    padding: const EdgeInsets.all(16.0),
+                    padding: resolvedGridPadding,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: resolvedCrossAxisCount,
-                      mainAxisSpacing: 8.0,
-                      crossAxisSpacing: 8.0,
+                      mainAxisSpacing: 12,
+                      crossAxisSpacing: 12,
                     ),
                     itemCount: filteredIcons.length,
                     itemBuilder: (context, index) {

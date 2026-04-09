@@ -256,11 +256,18 @@ class _ElkIconPickerState extends State<ElkIconPicker>
     final resolvedAllowUserToggle =
         widget.allowUserToggleCategories ?? ext?.allowUserToggleCategories ?? false;
 
-    // Adaptive column count: target ~64 dp per cell, clamp 4–10.
-    final screenWidth = MediaQuery.of(context).size.width;
-    final resolvedCrossAxisCount = widget.crossAxisCount ??
-        ext?.crossAxisCount ??
-        (screenWidth / 64).floor().clamp(4, 10);
+    // Grid layout: fixed columns vs fluid/adaptive extent
+    final gridDelegate = (widget.crossAxisCount != null || ext?.crossAxisCount != null)
+        ? SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: widget.crossAxisCount ?? ext!.crossAxisCount!,
+            mainAxisSpacing: 12,
+            crossAxisSpacing: 12,
+          )
+        : SliverGridDelegateWithMaxCrossAxisExtent(
+            maxCrossAxisExtent: ext?.maxCrossAxisExtent ?? (resolvedIconSize * 2.5),
+            mainAxisSpacing: 12,
+            crossAxisSpacing: 12,
+          );
 
     final resolvedCategoryIconSize =
         widget.categoryIconSize ?? ext?.categoryIconSize ?? 18.0;
@@ -399,11 +406,7 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                 : GridView.builder(
                     controller: widget.scrollController,
                     padding: resolvedGridPadding,
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: resolvedCrossAxisCount,
-                      mainAxisSpacing: 12,
-                      crossAxisSpacing: 12,
-                    ),
+                    gridDelegate: gridDelegate,
                     itemCount: filteredIcons.length,
                     itemBuilder: (context, index) {
                       final iconData = filteredIcons[index];

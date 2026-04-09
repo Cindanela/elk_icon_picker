@@ -91,6 +91,11 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
   /// Padding around the main icon grid. Defaults to `EdgeInsets.all(16.0)`.
   final EdgeInsetsGeometry? gridPadding;
 
+  /// The maximum width of a cell in the adaptive grid.
+  /// Used by [SliverGridDelegateWithMaxCrossAxisExtent] to fill the width.
+  /// Defaults to `iconSize * 2.5` when null.
+  final double? maxCrossAxisExtent;
+
   /// Fill color of the search input field.
   /// Falls back to the ambient [InputDecorationTheme] when null.
   final Color? searchBarFillColor;
@@ -130,6 +135,7 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
     this.categoryIconSize,
     this.categoryTextSpacing,
     this.gridPadding,
+    this.maxCrossAxisExtent,
     this.searchBarFillColor,
     this.sheetHandleColor,
     this.sheetTitleBarColor,
@@ -160,6 +166,7 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
     double? categoryIconSize,
     double? categoryTextSpacing,
     EdgeInsetsGeometry? gridPadding,
+    double? maxCrossAxisExtent,
     Color? searchBarFillColor,
     Color? sheetHandleColor,
     Color? sheetTitleBarColor,
@@ -189,6 +196,7 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
       categoryIconSize: categoryIconSize ?? this.categoryIconSize,
       categoryTextSpacing: categoryTextSpacing ?? this.categoryTextSpacing,
       gridPadding: gridPadding ?? this.gridPadding,
+      maxCrossAxisExtent: maxCrossAxisExtent ?? this.maxCrossAxisExtent,
       searchBarFillColor: searchBarFillColor ?? this.searchBarFillColor,
       sheetHandleColor: sheetHandleColor ?? this.sheetHandleColor,
       sheetTitleBarColor: sheetTitleBarColor ?? this.sheetTitleBarColor,
@@ -243,6 +251,7 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
         t,
       ),
       gridPadding: EdgeInsetsGeometry.lerp(gridPadding, other.gridPadding, t),
+      maxCrossAxisExtent: lerpDouble(maxCrossAxisExtent, other.maxCrossAxisExtent, t),
       searchBarFillColor: Color.lerp(
         searchBarFillColor,
         other.searchBarFillColor,

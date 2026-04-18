@@ -1,2 +1,7 @@
 CLAUDE.md
 FILES.md
+tool/
+icon_emote_selector.iml
+.claude/
+.idea/
+.dart_tool/

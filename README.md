@@ -7,6 +7,7 @@ A high-performance, reusable, and **dependency-free** Flutter package for pickin
 
 <p align="center">
   <img src="assets/screenshot_category_names.jpg" width="250"/>
+  &nbsp;&nbsp;&nbsp;
   <img src="assets/screenshot_search.png" width="250"/>
 </p>
 

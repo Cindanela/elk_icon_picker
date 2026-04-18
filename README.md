@@ -172,6 +172,25 @@ showElkIconPicker(context, selectedColor: Colors.orange);
 | `sheetHandleColor` | Color of the drag handle in the bottom sheet |
 | `sheetTitleBarColor` | Background color of the title bar area in the sheet |
 | `tabIndicatorColor` | Color of the selected tab underline/indicator |
+| `categoryTabWidth` | Fixed width for each category tab — controls how many are visible at once |
+| `showCategoryFade` | Show gradient fade at the edges of the tab bar when more tabs exist (default `true`) |
+| `categoryFadeColor` | Color of the tab bar edge fade (defaults to the picker's background color) |
+| `swipeCategoryOnGrid` | Allow horizontal swipes on the icon grid to change category (default `true`) |
+| `swipeVelocityThreshold` | Minimum swipe velocity (px/s) to trigger a category change (default `300.0`) |
+
+## Category navigation
+
+### Edge fade
+
+When the category tab bar has more tabs than fit in the viewport, gradient overlays appear at the left and/or right edges to signal that the bar is scrollable. The fade color automatically matches the picker background, so it blends seamlessly. Set `showCategoryFade: false` to disable it, or `categoryFadeColor` to override the color.
+
+### Controlling visible tab count
+
+Use `categoryTabWidth` to give all tabs a fixed width. For example, setting `categoryTabWidth: 110` on a 360dp-wide picker shows approximately three tabs at a time. Leave it null (the default) for natural intrinsic widths.
+
+### Swipe to change category
+
+By default, a fast horizontal swipe anywhere on the icon grid advances or retreats the active category — the same gesture that a tab bar swipe would produce. Flutter's gesture arena handles the disambiguation: vertical scrolling of the grid and horizontal category switching work without conflict. Use `swipeCategoryOnGrid: false` to disable, or `swipeVelocityThreshold` to tune the sensitivity.
 
 ## Customization
 
@@ -201,6 +220,11 @@ Per-widget constructor params work exactly as before. These take priority over a
 | `categoryTextSpacing` | Gap between icon and text in tabs | from theme |
 | `gridPadding` | Padding around the icon grid | from theme |
 | `scrollController` | Controller for the icon grid scroll | `null` |
+| `categoryTabWidth` | Fixed width for each category tab | from theme |
+| `showCategoryFade` | Show gradient fade at the tab bar edges | from theme (`true`) |
+| `categoryFadeColor` | Color of the tab bar edge fade | from theme / bg |
+| `swipeCategoryOnGrid` | Horizontal swipe on grid changes category | from theme (`true`) |
+| `swipeVelocityThreshold` | Min swipe velocity to trigger category change | from theme (`300.0`) |
 
 ## License
 

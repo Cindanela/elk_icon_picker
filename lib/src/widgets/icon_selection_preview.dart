@@ -4,7 +4,7 @@ import 'lucide_icon.dart';
 
 /// A widget that displays a preview of an [IconSelection].
 ///
-/// This handles [LucideIconSelection], [EmojiSelection], [ImportedIconSelection], 
+/// This handles [LucideIconSelection], [EmojiSelection], [ImportedIconSelection],
 /// and [BundledIconSelection].
 class IconSelectionPreview extends StatelessWidget {
   /// The current selection to preview.
@@ -35,10 +35,7 @@ class IconSelectionPreview extends StatelessWidget {
       case LucideIconSelection s:
         return LucideIcon(s.data, size: size, color: color);
       case EmojiSelection s:
-        return Text(
-          s.emoji,
-          style: TextStyle(fontSize: size),
-        );
+        return Text(s.emoji, style: TextStyle(fontSize: size));
       case ImportedIconSelection s:
         return Icon(
           IconData(s.codepoint, fontFamily: s.fontFamily),

@@ -32,10 +32,16 @@ Future<IconSelection?> showElkIconPicker(
   CategoryStyle? categoryStyle,
   List<String>? allowedCategoryIds,
   bool? allowUserToggleCategories,
+  double? categoryTabWidth,
+  bool? showCategoryFade,
+  Color? categoryFadeColor,
+  bool? swipeCategoryOnGrid,
+  double? swipeVelocityThreshold,
 }) {
   final ext = Theme.of(context).extension<ElkIconPickerThemeData>();
 
-  final resolvedBg = backgroundColor ??
+  final resolvedBg =
+      backgroundColor ??
       ext?.backgroundColor ??
       Theme.of(context).scaffoldBackgroundColor;
   final resolvedBorderRadius = borderRadius ?? ext?.borderRadius ?? 12.0;
@@ -52,8 +58,8 @@ Future<IconSelection?> showElkIconPicker(
       builder: (context, scrollController) {
         final sheetExt = Theme.of(context).extension<ElkIconPickerThemeData>();
 
-        final resolvedHandleColor = sheetExt?.sheetHandleColor ??
-            Colors.grey.withValues(alpha: 0.3);
+        final resolvedHandleColor =
+            sheetExt?.sheetHandleColor ?? Colors.grey.withValues(alpha: 0.3);
 
         return Container(
           decoration: BoxDecoration(
@@ -90,7 +96,8 @@ Future<IconSelection?> showElkIconPicker(
                       ),
                       child: Text(
                         'Select Icon',
-                        style: sheetExt?.titleStyle ??
+                        style:
+                            sheetExt?.titleStyle ??
                             const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -127,6 +134,11 @@ Future<IconSelection?> showElkIconPicker(
                   categoryStyle: categoryStyle,
                   allowedCategoryIds: allowedCategoryIds,
                   allowUserToggleCategories: allowUserToggleCategories,
+                  categoryTabWidth: categoryTabWidth,
+                  showCategoryFade: showCategoryFade,
+                  categoryFadeColor: categoryFadeColor,
+                  swipeCategoryOnGrid: swipeCategoryOnGrid,
+                  swipeVelocityThreshold: swipeVelocityThreshold,
                 ),
               ),
             ],

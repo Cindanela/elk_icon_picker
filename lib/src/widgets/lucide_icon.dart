@@ -4,7 +4,7 @@ import '../utils/svg_path_parser.dart';
 
 /// A widget that renders a Lucide icon using standard Flutter [Canvas] drawing.
 ///
-/// This provides a zero-dependency, high-performance way to render Lucide's 
+/// This provides a zero-dependency, high-performance way to render Lucide's
 /// SVG-based icons while maintaining their stroke-based aesthetic.
 class LucideIcon extends StatelessWidget {
   /// The icon data to render.
@@ -99,7 +99,11 @@ class _LucidePainter extends CustomPainter {
 
     // Draw lines
     for (final line in data.lines) {
-      canvas.drawLine(Offset(line.$1, line.$2), Offset(line.$3, line.$4), paint);
+      canvas.drawLine(
+        Offset(line.$1, line.$2),
+        Offset(line.$3, line.$4),
+        paint,
+      );
     }
 
     // Draw rects

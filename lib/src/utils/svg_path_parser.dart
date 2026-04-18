@@ -23,53 +23,63 @@ Path parseSvgPath(String d) {
     switch (cmd) {
       // ── Move ──────────────────────────────────────────────────────────────
       case 'M':
-        cx = nextNum(); cy = nextNum();
+        cx = nextNum();
+        cy = nextNum();
         path.moveTo(cx, cy);
         lastCmd = 'M';
         while (i < tokens.length && !tokens[i].isCmd) {
-          cx = nextNum(); cy = nextNum();
+          cx = nextNum();
+          cy = nextNum();
           path.lineTo(cx, cy);
         }
       case 'm':
-        cx += nextNum(); cy += nextNum();
+        cx += nextNum();
+        cy += nextNum();
         path.moveTo(cx, cy);
         lastCmd = 'm';
         while (i < tokens.length && !tokens[i].isCmd) {
-          cx += nextNum(); cy += nextNum();
+          cx += nextNum();
+          cy += nextNum();
           path.lineTo(cx, cy);
         }
 
       // ── Line ──────────────────────────────────────────────────────────────
       case 'L':
         while (i < tokens.length && !tokens[i].isCmd) {
-          cx = nextNum(); cy = nextNum();
+          cx = nextNum();
+          cy = nextNum();
           path.lineTo(cx, cy);
         }
         lastCmd = 'L';
       case 'l':
         while (i < tokens.length && !tokens[i].isCmd) {
-          cx += nextNum(); cy += nextNum();
+          cx += nextNum();
+          cy += nextNum();
           path.lineTo(cx, cy);
         }
         lastCmd = 'l';
       case 'H':
         while (i < tokens.length && !tokens[i].isCmd) {
-          cx = nextNum(); path.lineTo(cx, cy);
+          cx = nextNum();
+          path.lineTo(cx, cy);
         }
         lastCmd = 'H';
       case 'h':
         while (i < tokens.length && !tokens[i].isCmd) {
-          cx += nextNum(); path.lineTo(cx, cy);
+          cx += nextNum();
+          path.lineTo(cx, cy);
         }
         lastCmd = 'h';
       case 'V':
         while (i < tokens.length && !tokens[i].isCmd) {
-          cy = nextNum(); path.lineTo(cx, cy);
+          cy = nextNum();
+          path.lineTo(cx, cy);
         }
         lastCmd = 'V';
       case 'v':
         while (i < tokens.length && !tokens[i].isCmd) {
-          cy += nextNum(); path.lineTo(cx, cy);
+          cy += nextNum();
+          path.lineTo(cx, cy);
         }
         lastCmd = 'v';
 
@@ -80,8 +90,10 @@ Path parseSvgPath(String d) {
           final x2 = nextNum(), y2 = nextNum();
           final x = nextNum(), y = nextNum();
           path.cubicTo(x1, y1, x2, y2, x, y);
-          lastCpx = x2; lastCpy = y2;
-          cx = x; cy = y;
+          lastCpx = x2;
+          lastCpy = y2;
+          cx = x;
+          cy = y;
         }
         lastCmd = 'C';
       case 'c':
@@ -90,40 +102,62 @@ Path parseSvgPath(String d) {
           final x2 = cx + nextNum(), y2 = cy + nextNum();
           final x = cx + nextNum(), y = cy + nextNum();
           path.cubicTo(x1, y1, x2, y2, x, y);
-          lastCpx = x2; lastCpy = y2;
-          cx = x; cy = y;
+          lastCpx = x2;
+          lastCpy = y2;
+          cx = x;
+          cy = y;
         }
         lastCmd = 'c';
 
       // ── Smooth Cubic ──────────────────────────────────────────────────────
       case 'S':
         while (i < tokens.length && !tokens[i].isCmd) {
-          final rx1 = (lastCmd == 'C' || lastCmd == 'S' || lastCmd == 'c' || lastCmd == 's')
+          final rx1 =
+              (lastCmd == 'C' ||
+                  lastCmd == 'S' ||
+                  lastCmd == 'c' ||
+                  lastCmd == 's')
               ? 2 * cx - (lastCpx ?? cx)
               : cx;
-          final ry1 = (lastCmd == 'C' || lastCmd == 'S' || lastCmd == 'c' || lastCmd == 's')
+          final ry1 =
+              (lastCmd == 'C' ||
+                  lastCmd == 'S' ||
+                  lastCmd == 'c' ||
+                  lastCmd == 's')
               ? 2 * cy - (lastCpy ?? cy)
               : cy;
           final x2 = nextNum(), y2 = nextNum();
           final x = nextNum(), y = nextNum();
           path.cubicTo(rx1, ry1, x2, y2, x, y);
-          lastCpx = x2; lastCpy = y2;
-          cx = x; cy = y;
+          lastCpx = x2;
+          lastCpy = y2;
+          cx = x;
+          cy = y;
         }
         lastCmd = 'S';
       case 's':
         while (i < tokens.length && !tokens[i].isCmd) {
-          final rx1 = (lastCmd == 'C' || lastCmd == 'S' || lastCmd == 'c' || lastCmd == 's')
+          final rx1 =
+              (lastCmd == 'C' ||
+                  lastCmd == 'S' ||
+                  lastCmd == 'c' ||
+                  lastCmd == 's')
               ? 2 * cx - (lastCpx ?? cx)
               : cx;
-          final ry1 = (lastCmd == 'C' || lastCmd == 'S' || lastCmd == 'c' || lastCmd == 's')
+          final ry1 =
+              (lastCmd == 'C' ||
+                  lastCmd == 'S' ||
+                  lastCmd == 'c' ||
+                  lastCmd == 's')
               ? 2 * cy - (lastCpy ?? cy)
               : cy;
           final x2 = cx + nextNum(), y2 = cy + nextNum();
           final x = cx + nextNum(), y = cy + nextNum();
           path.cubicTo(rx1, ry1, x2, y2, x, y);
-          lastCpx = x2; lastCpy = y2;
-          cx = x; cy = y;
+          lastCpx = x2;
+          lastCpy = y2;
+          cx = x;
+          cy = y;
         }
         lastCmd = 's';
 
@@ -133,8 +167,10 @@ Path parseSvgPath(String d) {
           final x1 = nextNum(), y1 = nextNum();
           final x = nextNum(), y = nextNum();
           path.quadraticBezierTo(x1, y1, x, y);
-          lastCpx = x1; lastCpy = y1;
-          cx = x; cy = y;
+          lastCpx = x1;
+          lastCpy = y1;
+          cx = x;
+          cy = y;
         }
         lastCmd = 'Q';
       case 'q':
@@ -142,38 +178,60 @@ Path parseSvgPath(String d) {
           final x1 = cx + nextNum(), y1 = cy + nextNum();
           final x = cx + nextNum(), y = cy + nextNum();
           path.quadraticBezierTo(x1, y1, x, y);
-          lastCpx = x1; lastCpy = y1;
-          cx = x; cy = y;
+          lastCpx = x1;
+          lastCpy = y1;
+          cx = x;
+          cy = y;
         }
         lastCmd = 'q';
 
       // ── Smooth Quadratic ──────────────────────────────────────────────────
       case 'T':
         while (i < tokens.length && !tokens[i].isCmd) {
-          final x1 = (lastCmd == 'Q' || lastCmd == 'T' || lastCmd == 'q' || lastCmd == 't')
+          final x1 =
+              (lastCmd == 'Q' ||
+                  lastCmd == 'T' ||
+                  lastCmd == 'q' ||
+                  lastCmd == 't')
               ? 2 * cx - (lastCpx ?? cx)
               : cx;
-          final y1 = (lastCmd == 'Q' || lastCmd == 'T' || lastCmd == 'q' || lastCmd == 't')
+          final y1 =
+              (lastCmd == 'Q' ||
+                  lastCmd == 'T' ||
+                  lastCmd == 'q' ||
+                  lastCmd == 't')
               ? 2 * cy - (lastCpy ?? cy)
               : cy;
           final x = nextNum(), y = nextNum();
           path.quadraticBezierTo(x1, y1, x, y);
-          lastCpx = x1; lastCpy = y1;
-          cx = x; cy = y;
+          lastCpx = x1;
+          lastCpy = y1;
+          cx = x;
+          cy = y;
         }
         lastCmd = 'T';
       case 't':
         while (i < tokens.length && !tokens[i].isCmd) {
-          final x1 = (lastCmd == 'Q' || lastCmd == 'T' || lastCmd == 'q' || lastCmd == 't')
+          final x1 =
+              (lastCmd == 'Q' ||
+                  lastCmd == 'T' ||
+                  lastCmd == 'q' ||
+                  lastCmd == 't')
               ? 2 * cx - (lastCpx ?? cx)
               : cx;
-          final y1 = (lastCmd == 'Q' || lastCmd == 'T' || lastCmd == 'q' || lastCmd == 't')
+          final y1 =
+              (lastCmd == 'Q' ||
+                  lastCmd == 'T' ||
+                  lastCmd == 'q' ||
+                  lastCmd == 't')
               ? 2 * cy - (lastCpy ?? cy)
               : cy;
           final x = cx + nextNum(), y = cy + nextNum();
           path.quadraticBezierTo(x1, y1, x, y);
-          lastCpx = x1; lastCpy = y1;
-          cx = x; cy = y;
+          lastCpx = x1;
+          lastCpy = y1;
+          cx = x;
+          cy = y;
         }
         lastCmd = 't';
 
@@ -186,7 +244,8 @@ Path parseSvgPath(String d) {
           final sweep = nextNum() != 0;
           final x = nextNum(), y = nextNum();
           _arcTo(path, cx, cy, rx, ry, xRot, largeArc, sweep, x, y);
-          cx = x; cy = y;
+          cx = x;
+          cy = y;
         }
         lastCmd = 'A';
       case 'a':
@@ -197,7 +256,8 @@ Path parseSvgPath(String d) {
           final sweep = nextNum() != 0;
           final x = cx + nextNum(), y = cy + nextNum();
           _arcTo(path, cx, cy, rx, ry, xRot, largeArc, sweep, x, y);
-          cx = x; cy = y;
+          cx = x;
+          cy = y;
         }
         lastCmd = 'a';
 
@@ -208,8 +268,14 @@ Path parseSvgPath(String d) {
         lastCmd = 'Z';
     }
 
-    if (cmd != 'C' && cmd != 'c' && cmd != 'S' && cmd != 's' &&
-        cmd != 'Q' && cmd != 'q' && cmd != 'T' && cmd != 't') {
+    if (cmd != 'C' &&
+        cmd != 'c' &&
+        cmd != 'S' &&
+        cmd != 's' &&
+        cmd != 'Q' &&
+        cmd != 'q' &&
+        cmd != 'T' &&
+        cmd != 't') {
       lastCpx = null;
       lastCpy = null;
     }
@@ -221,12 +287,15 @@ Path parseSvgPath(String d) {
 
 void _arcTo(
   Path path,
-  double x1, double y1,
-  double rx, double ry,
+  double x1,
+  double y1,
+  double rx,
+  double ry,
   double xAxisRotationDeg,
   bool largeArc,
   bool sweep,
-  double x2, double y2,
+  double x2,
+  double y2,
 ) {
   if (rx == 0 || ry == 0) {
     path.lineTo(x2, y2);

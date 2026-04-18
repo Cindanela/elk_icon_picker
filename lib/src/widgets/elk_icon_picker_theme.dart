@@ -112,6 +112,29 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
   /// Falls back to the ambient [TabBarTheme.indicatorColor] when null.
   final Color? tabIndicatorColor;
 
+  /// Fixed width for each category tab. When null, tabs use their natural
+  /// intrinsic width. Setting this (e.g. `120.0`) makes all tabs the same
+  /// width, giving predictable control over how many tabs are visible at once.
+  final double? categoryTabWidth;
+
+  /// Whether to show gradient fade overlays at the edges of the category tab
+  /// bar to indicate more tabs exist beyond the visible viewport.
+  /// Defaults to `true`.
+  final bool? showCategoryFade;
+
+  /// Color of the category tab bar edge fade gradient.
+  /// When null, falls back to the picker's effective background color, then
+  /// [ThemeData.scaffoldBackgroundColor].
+  final Color? categoryFadeColor;
+
+  /// Whether horizontal swipes on the icon grid change the active category.
+  /// Defaults to `true`.
+  final bool? swipeCategoryOnGrid;
+
+  /// Minimum horizontal velocity (logical px/s) for a swipe on the icon grid
+  /// to trigger a category change. Defaults to `300.0`.
+  final double? swipeVelocityThreshold;
+
   const ElkIconPickerThemeData({
     this.backgroundColor,
     this.iconColor,
@@ -140,6 +163,11 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
     this.sheetHandleColor,
     this.sheetTitleBarColor,
     this.tabIndicatorColor,
+    this.categoryTabWidth,
+    this.showCategoryFade,
+    this.categoryFadeColor,
+    this.swipeCategoryOnGrid,
+    this.swipeVelocityThreshold,
   });
 
   @override
@@ -171,6 +199,11 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
     Color? sheetHandleColor,
     Color? sheetTitleBarColor,
     Color? tabIndicatorColor,
+    double? categoryTabWidth,
+    bool? showCategoryFade,
+    Color? categoryFadeColor,
+    bool? swipeCategoryOnGrid,
+    double? swipeVelocityThreshold,
   }) {
     return ElkIconPickerThemeData(
       backgroundColor: backgroundColor ?? this.backgroundColor,
@@ -201,6 +234,12 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
       sheetHandleColor: sheetHandleColor ?? this.sheetHandleColor,
       sheetTitleBarColor: sheetTitleBarColor ?? this.sheetTitleBarColor,
       tabIndicatorColor: tabIndicatorColor ?? this.tabIndicatorColor,
+      categoryTabWidth: categoryTabWidth ?? this.categoryTabWidth,
+      showCategoryFade: showCategoryFade ?? this.showCategoryFade,
+      categoryFadeColor: categoryFadeColor ?? this.categoryFadeColor,
+      swipeCategoryOnGrid: swipeCategoryOnGrid ?? this.swipeCategoryOnGrid,
+      swipeVelocityThreshold:
+          swipeVelocityThreshold ?? this.swipeVelocityThreshold,
     );
   }
 
@@ -251,7 +290,11 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
         t,
       ),
       gridPadding: EdgeInsetsGeometry.lerp(gridPadding, other.gridPadding, t),
-      maxCrossAxisExtent: lerpDouble(maxCrossAxisExtent, other.maxCrossAxisExtent, t),
+      maxCrossAxisExtent: lerpDouble(
+        maxCrossAxisExtent,
+        other.maxCrossAxisExtent,
+        t,
+      ),
       searchBarFillColor: Color.lerp(
         searchBarFillColor,
         other.searchBarFillColor,
@@ -266,6 +309,21 @@ class ElkIconPickerThemeData extends ThemeExtension<ElkIconPickerThemeData> {
       tabIndicatorColor: Color.lerp(
         tabIndicatorColor,
         other.tabIndicatorColor,
+        t,
+      ),
+      categoryTabWidth: lerpDouble(categoryTabWidth, other.categoryTabWidth, t),
+      showCategoryFade: t < 0.5 ? showCategoryFade : other.showCategoryFade,
+      categoryFadeColor: Color.lerp(
+        categoryFadeColor,
+        other.categoryFadeColor,
+        t,
+      ),
+      swipeCategoryOnGrid: t < 0.5
+          ? swipeCategoryOnGrid
+          : other.swipeCategoryOnGrid,
+      swipeVelocityThreshold: lerpDouble(
+        swipeVelocityThreshold,
+        other.swipeVelocityThreshold,
         t,
       ),
     );

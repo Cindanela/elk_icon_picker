@@ -102,6 +102,27 @@ class ElkIconPicker extends StatefulWidget {
   /// Overrides [ElkIconPickerThemeData.gridPadding]. Defaults to `EdgeInsets.all(16.0)`.
   final EdgeInsetsGeometry? gridPadding;
 
+  /// Fixed width for each category tab.
+  /// Overrides [ElkIconPickerThemeData.categoryTabWidth].
+  final double? categoryTabWidth;
+
+  /// Whether to show gradient fade overlays at the edges of the category tab bar.
+  /// Overrides [ElkIconPickerThemeData.showCategoryFade]. Defaults to `true`.
+  final bool? showCategoryFade;
+
+  /// Color of the category tab bar edge fade gradient.
+  /// Overrides [ElkIconPickerThemeData.categoryFadeColor].
+  final Color? categoryFadeColor;
+
+  /// Whether horizontal swipes on the icon grid change the active category.
+  /// Overrides [ElkIconPickerThemeData.swipeCategoryOnGrid]. Defaults to `true`.
+  final bool? swipeCategoryOnGrid;
+
+  /// Minimum horizontal velocity (logical px/s) for a swipe to trigger a
+  /// category change. Overrides [ElkIconPickerThemeData.swipeVelocityThreshold].
+  /// Defaults to `300.0`.
+  final double? swipeVelocityThreshold;
+
   const ElkIconPicker({
     super.key,
     required this.onSelected,
@@ -126,6 +147,11 @@ class ElkIconPicker extends StatefulWidget {
     this.categoryIconSize,
     this.categoryTextSpacing,
     this.gridPadding,
+    this.categoryTabWidth,
+    this.showCategoryFade,
+    this.categoryFadeColor,
+    this.swipeCategoryOnGrid,
+    this.swipeVelocityThreshold,
   });
 
   @override
@@ -138,6 +164,9 @@ class _ElkIconPickerState extends State<ElkIconPicker>
   String _searchQuery = '';
   TabController? _tabController;
   late bool _categoriesVisible;
+  double _tabBarScrollOffset = 0.0;
+  // Start > 0 so the right fade shows on first build before scroll metrics arrive.
+  double _tabBarMaxScrollExtent = 1.0;
 
   // We add an "All" category at index 0.
   static const _allCategory = LucideCategory(
@@ -173,7 +202,7 @@ class _ElkIconPickerState extends State<ElkIconPicker>
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    
+
     bool needsRecreate = false;
 
     // Resolve the visibility from the theme when widget param is null.
@@ -211,6 +240,8 @@ class _ElkIconPickerState extends State<ElkIconPicker>
   void _recreateTabController() {
     _tabController?.removeListener(_handleTabChange);
     _tabController?.dispose();
+    _tabBarScrollOffset = 0.0;
+    _tabBarMaxScrollExtent = 1.0;
     if (_categoriesVisible) {
       _tabController = TabController(length: _categories.length, vsync: this);
       _tabController?.addListener(_handleTabChange);
@@ -235,13 +266,20 @@ class _ElkIconPickerState extends State<ElkIconPicker>
     // Resolve values: explicit param > theme extension > M3 fallback
     final resolvedBg = widget.backgroundColor ?? ext?.backgroundColor;
     final resolvedIconColor =
-        widget.iconColor ?? ext?.iconColor ?? theme.iconTheme.color ?? Colors.black54;
+        widget.iconColor ??
+        ext?.iconColor ??
+        theme.iconTheme.color ??
+        Colors.black54;
     final resolvedSelectedColor =
         widget.selectedColor ?? ext?.selectedColor ?? theme.colorScheme.primary;
     final resolvedSelectedIconColor =
-        widget.selectedIconColor ?? ext?.selectedIconColor ?? resolvedSelectedColor;
-    final resolvedBorderRadius = widget.borderRadius ?? ext?.borderRadius ?? 8.0;
-    final resolvedStrokeWidth = widget.iconStrokeWidth ?? ext?.iconStrokeWidth ?? 2.0;
+        widget.selectedIconColor ??
+        ext?.selectedIconColor ??
+        resolvedSelectedColor;
+    final resolvedBorderRadius =
+        widget.borderRadius ?? ext?.borderRadius ?? 8.0;
+    final resolvedStrokeWidth =
+        widget.iconStrokeWidth ?? ext?.iconStrokeWidth ?? 2.0;
     final resolvedRounded = widget.iconRounded ?? ext?.iconRounded ?? true;
     final resolvedIconSize = widget.iconSize ?? ext?.iconSize ?? 24.0;
     final resolvedSearchBarFillColor =
@@ -254,17 +292,21 @@ class _ElkIconPickerState extends State<ElkIconPicker>
     final resolvedCategoryStyle =
         widget.categoryStyle ?? ext?.categoryStyle ?? CategoryStyle.both;
     final resolvedAllowUserToggle =
-        widget.allowUserToggleCategories ?? ext?.allowUserToggleCategories ?? false;
+        widget.allowUserToggleCategories ??
+        ext?.allowUserToggleCategories ??
+        false;
 
     // Grid layout: fixed columns vs fluid/adaptive extent
-    final gridDelegate = (widget.crossAxisCount != null || ext?.crossAxisCount != null)
+    final gridDelegate =
+        (widget.crossAxisCount != null || ext?.crossAxisCount != null)
         ? SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: widget.crossAxisCount ?? ext!.crossAxisCount!,
             mainAxisSpacing: 12,
             crossAxisSpacing: 12,
           )
         : SliverGridDelegateWithMaxCrossAxisExtent(
-            maxCrossAxisExtent: ext?.maxCrossAxisExtent ?? (resolvedIconSize * 2.5),
+            maxCrossAxisExtent:
+                ext?.maxCrossAxisExtent ?? (resolvedIconSize * 2.5),
             mainAxisSpacing: 12,
             crossAxisSpacing: 12,
           );
@@ -275,6 +317,20 @@ class _ElkIconPickerState extends State<ElkIconPicker>
         widget.categoryTextSpacing ?? ext?.categoryTextSpacing ?? 8.0;
     final resolvedGridPadding =
         widget.gridPadding ?? ext?.gridPadding ?? const EdgeInsets.all(16.0);
+
+    final resolvedCategoryTabWidth =
+        widget.categoryTabWidth ?? ext?.categoryTabWidth;
+    final resolvedShowFade =
+        widget.showCategoryFade ?? ext?.showCategoryFade ?? true;
+    final resolvedFadeColor =
+        widget.categoryFadeColor ??
+        ext?.categoryFadeColor ??
+        resolvedBg ??
+        theme.scaffoldBackgroundColor;
+    final resolvedSwipeOnGrid =
+        widget.swipeCategoryOnGrid ?? ext?.swipeCategoryOnGrid ?? true;
+    final resolvedSwipeThreshold =
+        widget.swipeVelocityThreshold ?? ext?.swipeVelocityThreshold ?? 300.0;
 
     final currentCategory = (_tabController != null && _categoriesVisible)
         ? _categories[_tabController!.index]
@@ -315,13 +371,16 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                               )
                             : null,
                         border: OutlineInputBorder(
-                          borderRadius:
-                              BorderRadius.circular(resolvedBorderRadius),
+                          borderRadius: BorderRadius.circular(
+                            resolvedBorderRadius,
+                          ),
                         ),
-                        contentPadding:
-                            const EdgeInsets.symmetric(horizontal: 16.0),
+                        contentPadding: const EdgeInsets.symmetric(
+                          horizontal: 16.0,
+                        ),
                       ),
-                      onChanged: (value) => setState(() => _searchQuery = value),
+                      onChanged: (value) =>
+                          setState(() => _searchQuery = value),
                     ),
                   ),
                   if (resolvedAllowUserToggle && resolvedShowCategories) ...[
@@ -335,8 +394,9 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                             ? Icons.label_off_outlined
                             : Icons.label_outline,
                       ),
-                      onPressed: () =>
-                          setState(() => _categoriesVisible = !_categoriesVisible),
+                      onPressed: () => setState(
+                        () => _categoriesVisible = !_categoriesVisible,
+                      ),
                     ),
                   ],
                 ],
@@ -345,41 +405,120 @@ class _ElkIconPickerState extends State<ElkIconPicker>
 
           // Categories
           if (_categoriesVisible && _tabController != null)
-            TabBar(
-              controller: _tabController,
-              isScrollable: true,
-              tabAlignment: TabAlignment.start,
-              labelStyle: ext?.tabLabelStyle,
-              indicatorColor: resolvedTabIndicatorColor,
-              tabs: _categories.map((cat) {
-                final showIcon =
-                    resolvedCategoryStyle == CategoryStyle.both ||
-                    resolvedCategoryStyle == CategoryStyle.iconsOnly;
-                final showText =
-                    resolvedCategoryStyle == CategoryStyle.both ||
-                    resolvedCategoryStyle == CategoryStyle.textOnly;
-                final isSelected = _tabController?.index == _categories.indexOf(cat);
+            Stack(
+              children: [
+                NotificationListener<ScrollNotification>(
+                  onNotification: (notification) {
+                    final px = notification.metrics.pixels;
+                    final mx = notification.metrics.maxScrollExtent;
+                    if (px != _tabBarScrollOffset ||
+                        mx != _tabBarMaxScrollExtent) {
+                      setState(() {
+                        _tabBarScrollOffset = px;
+                        _tabBarMaxScrollExtent = mx;
+                      });
+                    }
+                    return false;
+                  },
+                  child: TabBar(
+                    controller: _tabController,
+                    isScrollable: true,
+                    tabAlignment: TabAlignment.start,
+                    labelStyle: ext?.tabLabelStyle,
+                    indicatorColor: resolvedTabIndicatorColor,
+                    tabs: _categories.map((cat) {
+                      final showIcon =
+                          resolvedCategoryStyle == CategoryStyle.both ||
+                          resolvedCategoryStyle == CategoryStyle.iconsOnly;
+                      final showText =
+                          resolvedCategoryStyle == CategoryStyle.both ||
+                          resolvedCategoryStyle == CategoryStyle.textOnly;
+                      final isSelected =
+                          _tabController?.index == _categories.indexOf(cat);
 
-                return Tab(
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      if (showIcon) ...[
-                        LucideIcon(
-                          cat.representativeIcon,
-                          size: resolvedCategoryIconSize,
-                          color: isSelected ? resolvedSelectedColor : resolvedIconColor,
-                          strokeWidth: resolvedStrokeWidth,
-                          rounded: resolvedRounded,
-                        ),
-                      ],
-                      if (showIcon && showText)
-                        SizedBox(width: resolvedCategoryTextSpacing),
-                      if (showText) Text(cat.title),
-                    ],
+                      final tabContent = Row(
+                        mainAxisSize: resolvedCategoryTabWidth != null
+                            ? MainAxisSize.max
+                            : MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          if (showIcon) ...[
+                            LucideIcon(
+                              cat.representativeIcon,
+                              size: resolvedCategoryIconSize,
+                              color: isSelected
+                                  ? resolvedSelectedColor
+                                  : resolvedIconColor,
+                              strokeWidth: resolvedStrokeWidth,
+                              rounded: resolvedRounded,
+                            ),
+                          ],
+                          if (showIcon && showText)
+                            SizedBox(width: resolvedCategoryTextSpacing),
+                          if (showText) Text(cat.title),
+                        ],
+                      );
+
+                      return Tab(
+                        child: resolvedCategoryTabWidth != null
+                            ? SizedBox(
+                                width: resolvedCategoryTabWidth,
+                                child: tabContent,
+                              )
+                            : tabContent,
+                      );
+                    }).toList(),
                   ),
-                );
-              }).toList(),
+                ),
+
+                // Left fade — visible once the tab bar has been scrolled right
+                if (resolvedShowFade && _tabBarScrollOffset > 0)
+                  Positioned(
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    width: 32,
+                    child: IgnorePointer(
+                      child: DecoratedBox(
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.centerLeft,
+                            end: Alignment.centerRight,
+                            colors: [
+                              resolvedFadeColor,
+                              resolvedFadeColor.withValues(alpha: 0.0),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+
+                // Right fade — visible when more tabs exist beyond the viewport
+                if (resolvedShowFade &&
+                    _tabBarMaxScrollExtent > 0 &&
+                    _tabBarScrollOffset < _tabBarMaxScrollExtent)
+                  Positioned(
+                    top: 0,
+                    bottom: 0,
+                    right: 0,
+                    width: 32,
+                    child: IgnorePointer(
+                      child: DecoratedBox(
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.centerRight,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              resolvedFadeColor,
+                              resolvedFadeColor.withValues(alpha: 0.0),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+              ],
             ),
 
           // Icon Grid
@@ -397,57 +536,91 @@ class _ElkIconPickerState extends State<ElkIconPicker>
                         const SizedBox(height: 16),
                         Text(
                           'No icons found for "$_searchQuery"',
-                          style: ext?.emptyStateStyle ??
+                          style:
+                              ext?.emptyStateStyle ??
                               const TextStyle(color: Colors.grey),
                         ),
                       ],
                     ),
                   )
-                : GridView.builder(
-                    controller: widget.scrollController,
-                    padding: resolvedGridPadding,
-                    gridDelegate: gridDelegate,
-                    itemCount: filteredIcons.length,
-                    itemBuilder: (context, index) {
-                      final iconData = filteredIcons[index];
-                      final isSelected =
-                          widget.currentSelection is LucideIconSelection &&
-                              (widget.currentSelection as LucideIconSelection)
-                                      .data ==
-                                  iconData;
+                : _buildSwipeableGrid(
+                    resolvedSwipeOnGrid: resolvedSwipeOnGrid,
+                    resolvedSwipeThreshold: resolvedSwipeThreshold,
+                    gridView: GridView.builder(
+                      controller: widget.scrollController,
+                      padding: resolvedGridPadding,
+                      gridDelegate: gridDelegate,
+                      itemCount: filteredIcons.length,
+                      itemBuilder: (context, index) {
+                        final iconData = filteredIcons[index];
+                        final isSelected =
+                            widget.currentSelection is LucideIconSelection &&
+                            (widget.currentSelection as LucideIconSelection)
+                                    .data ==
+                                iconData;
 
-                      return InkWell(
-                        onTap: () => widget.onSelected(LucideIconSelection(iconData)),
-                        borderRadius: BorderRadius.circular(resolvedBorderRadius),
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: isSelected
-                                ? resolvedSelectedColor.withValues(alpha: 0.12)
-                                : Colors.transparent,
-                            borderRadius:
-                                BorderRadius.circular(resolvedBorderRadius),
-                            border: isSelected
-                                ? Border.all(color: resolvedSelectedColor, width: 2)
-                                : null,
+                        return InkWell(
+                          onTap: () =>
+                              widget.onSelected(LucideIconSelection(iconData)),
+                          borderRadius: BorderRadius.circular(
+                            resolvedBorderRadius,
                           ),
-                          child: Center(
-                            child: LucideIcon(
-                              iconData,
-                              size: resolvedIconSize,
+                          child: Container(
+                            decoration: BoxDecoration(
                               color: isSelected
-                                  ? resolvedSelectedIconColor
-                                  : resolvedIconColor,
-                              strokeWidth: resolvedStrokeWidth,
-                              rounded: resolvedRounded,
+                                  ? resolvedSelectedColor.withValues(
+                                      alpha: 0.12,
+                                    )
+                                  : Colors.transparent,
+                              borderRadius: BorderRadius.circular(
+                                resolvedBorderRadius,
+                              ),
+                              border: isSelected
+                                  ? Border.all(
+                                      color: resolvedSelectedColor,
+                                      width: 2,
+                                    )
+                                  : null,
+                            ),
+                            child: Center(
+                              child: LucideIcon(
+                                iconData,
+                                size: resolvedIconSize,
+                                color: isSelected
+                                    ? resolvedSelectedIconColor
+                                    : resolvedIconColor,
+                                strokeWidth: resolvedStrokeWidth,
+                                rounded: resolvedRounded,
+                              ),
                             ),
                           ),
-                        ),
-                      );
-                    },
+                        );
+                      },
+                    ),
                   ),
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildSwipeableGrid({
+    required Widget gridView,
+    required bool resolvedSwipeOnGrid,
+    required double resolvedSwipeThreshold,
+  }) {
+    if (!resolvedSwipeOnGrid || _tabController == null) return gridView;
+
+    return GestureDetector(
+      onHorizontalDragEnd: (details) {
+        final v = details.primaryVelocity ?? 0.0;
+        if (v.abs() < resolvedSwipeThreshold) return;
+        final idx = _tabController!.index;
+        final max = _categories.length - 1;
+        if (v < 0 && idx < max) _tabController!.animateTo(idx + 1);
+        if (v > 0 && idx > 0) _tabController!.animateTo(idx - 1);
+      },
+      child: gridView,
     );
   }
 }

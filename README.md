@@ -5,7 +5,8 @@
 
 A high-performance, reusable, and **dependency-free** Flutter package for picking Lucide icons. Renders icons via `CustomPainter` from generated Dart data, ensuring zero impact on your app's font or SVG asset overhead.
 
-![Mockup](elk_icon_picker_mockup_1774783608858.png)
+![Screenshot Category names](assets/screenshot_category_names.jpg)
+![Screenshot Search](assets/screenshot_search.png)
 
 ## Features
 

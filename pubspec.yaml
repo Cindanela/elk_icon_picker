@@ -1,7 +1,7 @@
 name: elk_icon_picker
 description: "A reusable, dependency-free Flutter package for picking Lucide icons. Renders icons via CustomPainter from generated Dart data."
 version: 0.1.1
-homepage:
+repository : https://github.com/elk-software/elk_icon_picker
 
 environment:
   sdk: ^3.11.0

@@ -1,3 +1,14 @@
+## 0.1.2
+
+* Fixed README screenshots not rendering on pub.dev (relative image paths aren't
+  reliably resolved there; switched to absolute GitHub URLs per pub.dev's own
+  guidance).
+* Refreshed the Lucide icon registry against current upstream data (1694 -> 1748
+  icons) using a new reproducible generator (`tool/generate_lucide_icons.dart`).
+* Fixed a broken `repository` link in `pubspec.yaml`.
+* Trimmed the published package archive by excluding the example app's platform
+  scaffolding (563 KB -> 303 KB).
+
 ## 0.1.1
 
 * Improved Lucide icon registry generation.

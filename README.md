@@ -6,9 +6,9 @@
 A high-performance, reusable, and **dependency-free** Flutter package for picking Lucide icons. Renders icons via `CustomPainter` from generated Dart data, ensuring zero impact on your app's font or SVG asset overhead.
 
 <p align="center">
-  <img src="assets/screenshot_category_names.jpg" width="250"/>
+  <img src="https://raw.githubusercontent.com/Cindanela/elk_icon_picker/main/assets/screenshot_category_names.jpg" width="250"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="assets/screenshot_search.png" width="250"/>
+  <img src="https://raw.githubusercontent.com/Cindanela/elk_icon_picker/main/assets/screenshot_search.png" width="250"/>
 </p>
 
 ## Features
@@ -34,7 +34,7 @@ Add `elk_icon_picker` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  elk_icon_picker: ^0.1.1
+  elk_icon_picker: ^0.1.2
 ```
 
 ## Usage

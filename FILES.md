@@ -1,6 +1,6 @@
 # File index — elk_icon_picker
 
-Last updated: 2026-04-16
+Last updated: 2026-07-18
 
 > Maintenance: ask Claude Code to update this file at the end of any
 > session where files were added, renamed, moved, or deleted.
@@ -40,6 +40,12 @@ Last updated: 2026-04-16
 | File | Path | What it does |
 |------|------|-------------|
 | `svg_path_parser.dart` | `lib/src/utils/svg_path_parser.dart` | parseSvgPath() — converts SVG path d-attribute string to Flutter Path, supporting all standard commands (M, L, H, V, C, S, Q, T, A, Z). |
+
+### Tool
+
+| File | Path | What it does |
+|------|------|-------------|
+| `generate_lucide_icons.dart` | `tool/generate_lucide_icons.dart` | Regenerates `lib/src/gen/lucide_icons.g.dart` from Lucide's published SVG + JSON source on GitHub. Zero dependencies (dart:io/dart:convert). Run with `dart run tool/generate_lucide_icons.dart`. |
 
 ### Widgets
 

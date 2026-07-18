@@ -5,7 +5,6 @@ repository : https://github.com/elk-software/elk_icon_picker
 
 environment:
   sdk: ^3.11.0
-  flutter: ">=3.19.0"
 
 dependencies:
   flutter:

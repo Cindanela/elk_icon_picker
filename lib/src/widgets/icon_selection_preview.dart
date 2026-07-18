@@ -37,7 +37,11 @@ class IconSelectionPreview extends StatelessWidget {
       case EmojiSelection s:
         return Text(s.emoji, style: TextStyle(fontSize: size));
       case ImportedIconSelection s:
+        // Imported icon codepoints are runtime data, not compile-time
+        // constants, so they can't satisfy IconData's @mustBeConst params.
+        // This disables icon tree-shaking for consumers of this widget.
         return Icon(
+          // ignore: non_const_argument_for_const_parameter
           IconData(s.codepoint, fontFamily: s.fontFamily),
           size: size,
           color: color,

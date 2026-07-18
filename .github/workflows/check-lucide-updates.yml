@@ -24,6 +24,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           dart run tool/generate_lucide_icons.dart --out="$RUNNER_TEMP/lucide_icons.g.dart"
+          # Must match the formatting of the committed file, or every run
+          # false-positives on line-wrapping differences alone.
+          dart format "$RUNNER_TEMP/lucide_icons.g.dart"
 
       - name: Compare against committed icon data
         id: compare

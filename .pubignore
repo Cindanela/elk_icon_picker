@@ -5,3 +5,13 @@ icon_emote_selector.iml
 .claude/
 .idea/
 .dart_tool/
+
+# Platform scaffolding for the example app isn't needed to demonstrate
+# usage on pub.dev and just bloats the published archive; example/lib
+# and example/pubspec.yaml are what pub.dev actually shows.
+example/android/
+example/ios/
+example/linux/
+example/macos/
+example/windows/
+example/web/

@@ -1,3 +1,9 @@
+## 0.1.3
+
+* Added a dartdoc comment to every generated `LucideIcons` constant, raising
+  pub.dev's public API documentation coverage from 5.5% to 98.9% (full score
+  on the "20% or more of the public API has dartdoc comments" check).
+
 ## 0.1.2
 
 * Fixed README screenshots not rendering on pub.dev (relative image paths aren't

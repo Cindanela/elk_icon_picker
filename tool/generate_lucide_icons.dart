@@ -378,6 +378,7 @@ String _generateSource(
     final identifier = _camelCase(icon.name);
     identifiers.add(identifier);
 
+    buffer.writeln('  /// The "${icon.name}" icon from Lucide.');
     buffer.writeln(
       '  static const LucideIconData $identifier = LucideIconData(',
     );
@@ -425,6 +426,7 @@ String _generateSource(
     buffer.writeln('  );');
   }
 
+  buffer.writeln('  /// All Lucide icons in this registry, sorted by name.');
   buffer.writeln('  static const List<LucideIconData> all = [');
   for (final identifier in identifiers) {
     buffer.writeln('    $identifier,');

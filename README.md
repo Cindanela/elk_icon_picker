@@ -34,7 +34,7 @@ Add `elk_icon_picker` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  elk_icon_picker: ^0.1.2
+  elk_icon_picker: ^0.1.3
 ```
 
 ## Usage

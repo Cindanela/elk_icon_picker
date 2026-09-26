@@ -322,13 +322,14 @@ class _Token {
   const _Token.number(this._num) : isCmd = false, cmd = '';
 }
 
+final _pathRegExp = RegExp(
+  r'([MmZzLlHhVvCcSsQqTtAa])'
+  r'|([+-]?(?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?)',
+);
+
 List<_Token> _tokenize(String d) {
   final result = <_Token>[];
-  final re = RegExp(
-    r'([MmZzLlHhVvCcSsQqTtAa])'
-    r'|([+-]?(?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?)',
-  );
-  for (final m in re.allMatches(d)) {
+  for (final m in _pathRegExp.allMatches(d)) {
     if (m.group(1) != null) {
       result.add(_Token.command(m.group(1)!));
     } else {

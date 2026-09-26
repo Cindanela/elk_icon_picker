@@ -85,7 +85,7 @@ class LucideIcons {
       'hospital',
       'defibrillator',
       'earthquake',
-      'siesmic',
+      'seismic',
       'magnitude',
       'richter scale',
       'aftershock',
@@ -121,8 +121,12 @@ class LucideIcons {
       'partner',
       'promo',
       'sponsor',
+      'audio description',
+      'video description',
+      'described video',
+      'visual description',
     ],
-    categories: ['multimedia', 'notifications'],
+    categories: ['multimedia', 'accessibility', 'notifications'],
   );
 
   /// The "air-vent" icon from Lucide.
@@ -252,17 +256,6 @@ class LucideIcons {
       'amenities',
     ],
     categories: ['home', 'devices', 'travel'],
-  );
-
-  /// The "album" icon from Lucide.
-  static const LucideIconData album = LucideIconData(
-    name: 'album',
-    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
-    polylines: [
-      [(11.0, 3.0), (11.0, 11.0), (14.0, 8.0), (17.0, 11.0), (17.0, 3.0)],
-    ],
-    tags: ['photo', 'book'],
-    categories: ['photography', 'multimedia'],
   );
 
   /// The "align-center-horizontal" icon from Lucide.
@@ -556,28 +549,28 @@ class LucideIcons {
     categories: ['transportation', 'text'],
   );
 
-  /// The "angry" icon from Lucide.
-  static const LucideIconData angry = LucideIconData(
-    name: 'angry',
-    circles: [(12.0, 12.0, 10.0)],
-    paths: [
-      'M16 16s-1.5-2-4-2-4 2-4 2',
-      'M7.5 8 10 9',
-      'm14 9 2.5-1',
-      'M9 10h.01',
-      'M15 10h.01',
+  /// The "angle" icon from Lucide.
+  static const LucideIconData angle = LucideIconData(
+    name: 'angle',
+    paths: ['M3 3v16a2 2 0 0 0 2 2h16', 'M3 11a10 10 0 0 1 10 10'],
+    tags: [
+      'angle',
+      'degree',
+      'corner',
+      'geometry',
+      'measure',
+      'math',
+      'rotate',
+      'vertex',
+      'slope',
+      'protractor',
+      'measurement',
+      'dimension',
+      'arc',
+      'drafting',
+      'cad',
     ],
-    tags: ['emoji', 'anger', 'face', 'emotion'],
-    categories: ['emoji'],
-  );
-
-  /// The "annoyed" icon from Lucide.
-  static const LucideIconData annoyed = LucideIconData(
-    name: 'annoyed',
-    circles: [(12.0, 12.0, 10.0)],
-    paths: ['M8 15h8', 'M8 9h2', 'M14 9h2'],
-    tags: ['emoji', 'nuisance', 'face', 'emotion'],
-    categories: ['emoji'],
+    categories: ['math', 'design'],
   );
 
   /// The "antenna" icon from Lucide.
@@ -1439,8 +1432,18 @@ class LucideIcons {
   /// The "asterisk" icon from Lucide.
   static const LucideIconData asterisk = LucideIconData(
     name: 'asterisk',
-    paths: ['M12 6v12', 'M17.196 9 6.804 15', 'm6.804 9 10.392 6'],
+    paths: ['M12 5v14', 'm18.065 8.496-12.125 7', 'm5.94 8.504 12.125 7'],
     tags: [
+      'symbol',
+      'sterisk',
+      'mark',
+      'pointer',
+      'pencil',
+      'sign',
+      'alert',
+      'notification',
+      'indicator',
+      'symbolic',
       'reference',
       'times',
       'multiply',
@@ -1527,6 +1530,105 @@ class LucideIcons {
       'wavelength',
       'vibrate',
       'sine',
+      'synthesizer',
+      'synthesiser',
+      'levels',
+      'track',
+      'music',
+      'playback',
+      'radio',
+      'broadcast',
+      'airwaves',
+      'voice',
+      'vocals',
+      'singer',
+      'song',
+    ],
+    categories: ['multimedia', 'communication'],
+  );
+
+  /// The "audio-lines-off" icon from Lucide.
+  static const LucideIconData audioLinesOff = LucideIconData(
+    name: 'audio-lines-off',
+    paths: [
+      'M10 10v11',
+      'M10 3v1.35',
+      'M14 14v1',
+      'M14 8v.35',
+      'M18 5v7.35',
+      'M2 10v3',
+      'm2 2 20 20',
+      'M22 10v3',
+      'M6 6v11',
+    ],
+    tags: [
+      'audio',
+      'sound',
+      'noise',
+      'mute',
+      'silence',
+      'off',
+      'disabled',
+      'inactive',
+      'listen',
+      'hearing',
+      'equalizer',
+      'equaliser',
+      'hertz',
+      'frequency',
+      'wavelength',
+      'vibrate',
+      'sine',
+      'waveform',
+      'synthesizer',
+      'synthesiser',
+      'levels',
+      'track',
+      'music',
+      'playback',
+      'radio',
+      'broadcast',
+      'airwaves',
+      'voice',
+      'vocals',
+      'singer',
+      'song',
+    ],
+    categories: ['multimedia', 'communication'],
+  );
+
+  /// The "audio-lines-x" icon from Lucide.
+  static const LucideIconData audioLinesX = LucideIconData(
+    name: 'audio-lines-x',
+    paths: [
+      'M10 3v18',
+      'M14 8v6.35',
+      'm17 17 5 5',
+      'M18 5v8.1',
+      'M2 10v3',
+      'M22 10v3',
+      'm22 17-5 5',
+      'M6 6v11',
+    ],
+    tags: [
+      'sound',
+      'noise',
+      'mute',
+      'silence',
+      'disabled',
+      'cancel',
+      'remove',
+      'unavailable',
+      'listen',
+      'hearing',
+      'equalizer',
+      'equaliser',
+      'hertz',
+      'frequency',
+      'wavelength',
+      'vibrate',
+      'sine',
+      'waveform',
       'synthesizer',
       'synthesiser',
       'levels',
@@ -1708,7 +1810,7 @@ class LucideIcons {
     name: 'badge-check',
     paths: [
       'M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z',
-      'm9 12 2 2 4-4',
+      'm16 9-5.5 5.5L8 12',
     ],
     tags: ['verified', 'check'],
     categories: ['social'],
@@ -2117,6 +2219,26 @@ class LucideIcons {
     categories: ['medical'],
   );
 
+  /// The "bangladeshi-taka" icon from Lucide.
+  static const LucideIconData bangladeshiTaka = LucideIconData(
+    name: 'bangladeshi-taka',
+    paths: ['M6 5a2 2 0 0 1 4 0v12a4 4 0 0 0 8 0 2 2 0 0 0-4 0', 'M6 9h12'],
+    tags: [
+      'currency',
+      'money',
+      'payment',
+      'bdt',
+      '৳',
+      'currencysymbol',
+      'cash',
+      'banknote',
+      'price',
+      'remittance',
+      'ecommerce',
+    ],
+    categories: ['finance', 'shopping', 'travel'],
+  );
+
   /// The "banknote" icon from Lucide.
   static const LucideIconData banknote = LucideIconData(
     name: 'banknote',
@@ -2280,11 +2402,11 @@ class LucideIcons {
   static const LucideIconData barrel = LucideIconData(
     name: 'barrel',
     paths: [
-      'M10 3a41 41 0 0 0 0 18',
-      'M14 3a41 41 0 0 1 0 18',
-      'M17 3a2 2 0 0 1 1.68.92 15.25 15.25 0 0 1 0 16.16A2 2 0 0 1 17 21H7a2 2 0 0 1-1.68-.92 15.25 15.25 0 0 1 0-16.16A2 2 0 0 1 7 3z',
-      'M3.84 17h16.32',
-      'M3.84 7h16.32',
+      'M10 3a41 41 0 000 18',
+      'M14 3a41 41 0 010 18',
+      'M16.997 21a2 2 0 001.68-.92 15.25 15.25 0 000-16.16 2 2 0 00-1.68-.92h-10a2 2 0 00-1.681.92 15.25 15.25 0 000 16.16 2 2 0 001.681.92z',
+      'M3.54 16h16.914',
+      'M3.54 8h16.914',
     ],
     tags: [
       'keg',
@@ -2510,7 +2632,7 @@ class LucideIcons {
     circles: [(12.5, 8.5, 2.5)],
     paths: [
       'M16.4 13.7A6.5 6.5 0 1 0 6.28 6.6c-1.1 3.13-.78 3.9-3.18 6.08A3 3 0 0 0 5 18c4 0 8.4-1.8 11.4-4.3',
-      'm18.5 6 2.19 4.5a6.48 6.48 0 0 1-2.29 7.2C15.4 20.2 11 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5',
+      'm18.5 6 1.754 3.5a6.48 6.48 0 0 1-1.854 8.2C15.4 20.2 11 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5',
     ],
     tags: [
       'food',
@@ -2984,7 +3106,7 @@ class LucideIcons {
   /// The "blend" icon from Lucide.
   static const LucideIconData blend = LucideIconData(
     name: 'blend',
-    circles: [(9.0, 9.0, 7.0), (15.0, 15.0, 7.0)],
+    circles: [(15.0, 9.0, 7.0), (9.0, 15.0, 7.0)],
     tags: [
       'mode',
       'overlay',
@@ -3004,6 +3126,10 @@ class LucideIcons {
       'overlap',
       'colors',
       'colours',
+      'marriage',
+      'rings',
+      'couple',
+      'connection',
     ],
     categories: ['design', 'photography', 'tools', 'development'],
   );
@@ -3397,6 +3523,57 @@ class LucideIcons {
     categories: ['multimedia', 'text'],
   );
 
+  /// The "book-bookmark" icon from Lucide.
+  static const LucideIconData bookBookmark = LucideIconData(
+    name: 'book-bookmark',
+    paths: [
+      'M10 2v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834A.25.25 0 0016 9.751V2',
+      'M4 19.5v-15A2.5 2.5 0 016.5 2H19a1 1 0 011 1v18a1 1 0 01-1 1H6.5a1 1 0 010-5H20',
+    ],
+    tags: [
+      'dictionary',
+      'reading',
+      'booklet',
+      'magazine',
+      'leaflet',
+      'pamphlet',
+      'tome',
+      'library',
+      'writing',
+      'written',
+      'writer',
+      'author',
+      'story',
+      'script',
+      'fiction',
+      'novel',
+      'information',
+      'knowledge',
+      'education',
+      'high school',
+      'university',
+      'college',
+      'academy',
+      'student',
+      'study',
+      'learning',
+      'homework',
+      'research',
+      'documentation',
+      'saved',
+      'later',
+      'future',
+      'reference',
+      'index',
+      'code',
+      'coding',
+      'version control',
+      'git',
+      'repository',
+    ],
+    categories: ['text', 'development', 'gaming'],
+  );
+
   /// The "book-check" icon from Lucide.
   static const LucideIconData bookCheck = LucideIconData(
     name: 'book-check',
@@ -3594,7 +3771,7 @@ class LucideIcons {
       'teens',
       'teenager',
       'therapy',
-      'theraputic',
+      'therapeutic',
       'therapist',
       'planner',
       'organizer',
@@ -3697,57 +3874,6 @@ class LucideIcons {
     categories: ['development', 'security', 'gaming'],
   );
 
-  /// The "book-marked" icon from Lucide.
-  static const LucideIconData bookMarked = LucideIconData(
-    name: 'book-marked',
-    paths: [
-      'M10 2v8l3-3 3 3V2',
-      'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20',
-    ],
-    tags: [
-      'dictionary',
-      'reading',
-      'booklet',
-      'magazine',
-      'leaflet',
-      'pamphlet',
-      'tome',
-      'library',
-      'writing',
-      'written',
-      'writer',
-      'author',
-      'story',
-      'script',
-      'fiction',
-      'novel',
-      'information',
-      'knowledge',
-      'education',
-      'high school',
-      'university',
-      'college',
-      'academy',
-      'student',
-      'study',
-      'learning',
-      'homework',
-      'research',
-      'documentation',
-      'saved',
-      'later',
-      'future',
-      'reference',
-      'index',
-      'code',
-      'coding',
-      'version control',
-      'git',
-      'repository',
-    ],
-    categories: ['text', 'development', 'gaming'],
-  );
-
   /// The "book-minus" icon from Lucide.
   static const LucideIconData bookMinus = LucideIconData(
     name: 'book-minus',
@@ -3780,8 +3906,8 @@ class LucideIcons {
   static const LucideIconData bookOpen = LucideIconData(
     name: 'book-open',
     paths: [
-      'M12 7v14',
-      'M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z',
+      'M12 5v16',
+      'M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z',
     ],
     tags: [
       'reading',
@@ -3824,9 +3950,9 @@ class LucideIcons {
   static const LucideIconData bookOpenCheck = LucideIconData(
     name: 'book-open-check',
     paths: [
-      'M12 21V7',
+      'M12 5v16',
       'm16 12 2 2 4-4',
-      'M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3',
+      'M22 6V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2h4.001A2 2 0 0022 17v-1.344',
     ],
     tags: [
       'read',
@@ -3875,12 +4001,12 @@ class LucideIcons {
   static const LucideIconData bookOpenText = LucideIconData(
     name: 'book-open-text',
     paths: [
-      'M12 7v14',
-      'M16 12h2',
-      'M16 8h2',
-      'M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z',
-      'M6 12h2',
-      'M6 8h2',
+      'M12 5v16',
+      'M16 13h2',
+      'M16 9h2',
+      'M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z',
+      'M6 13h2',
+      'M6 9h2',
     ],
     tags: [
       'reading',
@@ -4127,9 +4253,9 @@ class LucideIcons {
   static const LucideIconData bookX = LucideIconData(
     name: 'book-x',
     paths: [
-      'm14.5 7-5 5',
+      'm14.5 7.5-5 5',
       'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20',
-      'm9.5 7 5 5',
+      'm9.5 7.5 5 5',
     ],
     tags: [
       'code',
@@ -4689,6 +4815,39 @@ class LucideIcons {
     categories: ['security', 'home', 'connectivity'],
   );
 
+  /// The "bridge" icon from Lucide.
+  static const LucideIconData bridge = LucideIconData(
+    name: 'bridge',
+    paths: [
+      'M10 9.728V16',
+      'M14 9.728V16',
+      'M18 20V4',
+      'm22 11-4-4A7.5 7.5 0 0 1 6 7l-4 4',
+      'M22 16H2',
+      'M6 20V4',
+    ],
+    tags: [
+      'overpass',
+      'cross over',
+      'traverse',
+      'viaduct',
+      'suspension',
+      'infrastructure',
+      'transportation',
+      'crossing',
+      'road',
+      'river',
+      'gate',
+      'golden',
+      'travel',
+      'landmark',
+      'route',
+      'maritime',
+      'clearance',
+    ],
+    categories: ['travel', 'transportation', 'buildings'],
+  );
+
   /// The "briefcase" icon from Lucide.
   static const LucideIconData briefcase = LucideIconData(
     name: 'briefcase',
@@ -4742,6 +4901,35 @@ class LucideIcons {
     categories: ['medical', 'transportation'],
   );
 
+  /// The "briefcase-plus" icon from Lucide.
+  static const LucideIconData briefcasePlus = LucideIconData(
+    name: 'briefcase-plus',
+    paths: [
+      'M13.354 20H4a2 2 0 01-2-2V8a2 2 0 012-2h16a2 2 0 012 2v3.354',
+      'M16 11.354V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v16',
+      'M16 17h6',
+      'M19 14v6',
+    ],
+    tags: [
+      'work',
+      'bag',
+      'baggage',
+      'folder',
+      'new',
+      'add',
+      'create',
+      'increase',
+      'briefcase',
+      'portfolio',
+      'business',
+      'career',
+      'employment',
+      'professional',
+      'plus',
+    ],
+    categories: ['transportation', 'files', 'account'],
+  );
+
   /// The "bring-to-front" icon from Lucide.
   static const LucideIconData bringToFront = LucideIconData(
     name: 'bring-to-front',
@@ -4768,10 +4956,10 @@ class LucideIcons {
   static const LucideIconData broccoli = LucideIconData(
     name: 'broccoli',
     paths: [
-      'M10 13a3 3 0 0 1-2.121-5.121',
-      'M15.606 14.204c-3.5 1.5-5.899 4.503-8.899 7.503A1 1 0 0 1 6 22c-2 0-4-2-4-4a1 1 0 0 1 .293-.707c1.911-1.911 3.823-3.578 5.347-5.441',
-      'M16.573 14.737A4 4 0 0 1 14 11',
-      'M7.14 10.907a4 4 0 1 1 2.756-7.43A4 4 0 0 1 16.7 4.48a2 2 0 0 1 2.82 2.82 4 4 0 0 1 1.002 6.805A4 4 0 1 1 13 16',
+      'M10 13a3 3 0 01-2.121-5.121',
+      'M15.606 14.204c-3.5 1.5-5.899 4.503-8.899 7.503A1 1 0 016 22c-2 0-4-2-4-4a1 1 0 01.293-.707c1.911-1.911 3.823-3.578 5.347-5.441',
+      'M16.573 14.737A4 4 0 0114 11',
+      'M7.14 10.907a4 4 0 112.756-7.43A4 4 0 0116.7 4.48a2 2 0 012.82 2.82 4 4 0 011.002 6.805 4 4 0 11-7.51 1.59',
     ],
     tags: [
       'leafy',
@@ -4791,6 +4979,82 @@ class LucideIcons {
       'produce',
     ],
     categories: ['food-beverage'],
+  );
+
+  /// The "broom" icon from Lucide.
+  static const LucideIconData broom = LucideIconData(
+    name: 'broom',
+    paths: [
+      'M13.5 10.5 22 2',
+      'M14.734 13.841a2 2 0 00-.314-2.42L12.58 9.58a2 2 0 00-2.421-.314l-7.657 4.461A1 1 0 002.3 15.3l6.403 6.403a1 1 0 001.571-.204z',
+      'm5 18 2-2',
+      'm7.699 10.7 5.602 5.601',
+    ],
+    tags: [
+      'broomstick',
+      'brush',
+      'sweep',
+      'sweeping',
+      'floor',
+      'cleaning',
+      'housekeeping',
+      'chores',
+      'tidy',
+      'spotless',
+      'dust',
+      'debris',
+      'bristles',
+      'handle',
+      'janitor',
+      'maintenance',
+      'witch',
+      'halloween',
+    ],
+    categories: ['tools', 'home', 'gaming'],
+  );
+
+  /// The "broom-sparkles" icon from Lucide.
+  static const LucideIconData broomSparkles = LucideIconData(
+    name: 'broom-sparkles',
+    paths: [
+      'M11 2v2',
+      'M12 3h-2',
+      'M13.5 10.5 22 2',
+      'M14.734 13.841a2 2 0 00-.314-2.42L12.58 9.58a2 2 0 00-2.421-.314l-7.657 4.461A1 1 0 002.3 15.3l6.403 6.403a1 1 0 001.571-.204z',
+      'M20 15v4',
+      'M22 17h-4',
+      'M4 4v4',
+      'm5 18 2-2',
+      'M6 6H2',
+      'm7.699 10.7 5.602 5.601',
+    ],
+    tags: [
+      'broomstick',
+      'brush',
+      'sweep',
+      'sweeping',
+      'floor',
+      'cleaning',
+      'ai',
+      'magic',
+      'sparkle',
+      'smart',
+      'automation',
+      'housekeeping',
+      'chores',
+      'tidy',
+      'spotless',
+      'pristine',
+      'dust',
+      'debris',
+      'bristles',
+      'handle',
+      'janitor',
+      'maintenance',
+      'witch',
+      'halloween',
+    ],
+    categories: ['tools', 'home', 'gaming'],
   );
 
   /// The "brush" icon from Lucide.
@@ -4991,9 +5255,9 @@ class LucideIcons {
     categories: ['account', 'buildings'],
   );
 
-  /// The "building-2" icon from Lucide.
-  static const LucideIconData building2 = LucideIconData(
-    name: 'building-2',
+  /// The "building-complex" icon from Lucide.
+  static const LucideIconData buildingComplex = LucideIconData(
+    name: 'building-complex',
     paths: [
       'M10 12h4',
       'M10 8h4',
@@ -5009,6 +5273,42 @@ class LucideIcons {
       'organisation',
       'organization',
       'city',
+    ],
+    categories: ['account', 'buildings'],
+  );
+
+  /// The "building-complex-plus" icon from Lucide.
+  static const LucideIconData buildingComplexPlus = LucideIconData(
+    name: 'building-complex-plus',
+    paths: [
+      'M10 12h4',
+      'M10 21v-3a2 2 0 013.05-1.702',
+      'M10 8h4',
+      'M16 19h6',
+      'M18 7h2a2 2 0 012 2v4.355',
+      'M19 16v6',
+      'M6 10H4a2 2 0 00-2 2v7a2 2 0 002 2h8.535',
+      'M6 21V5a2 2 0 012-2h8a2 2 0 012 2v7.126',
+    ],
+    tags: [
+      'business',
+      'company',
+      'enterprise',
+      'skyscraper',
+      'organisation',
+      'organization',
+      'city',
+      'new',
+      'add',
+      'create',
+      'increase',
+      'office',
+      'headquarters',
+      'startup',
+      'registration',
+      'onboarding',
+      'realestate',
+      'property',
     ],
     categories: ['account', 'buildings'],
   );
@@ -5187,8 +5487,8 @@ class LucideIcons {
   /// The "calendar" icon from Lucide.
   static const LucideIconData calendar = LucideIconData(
     name: 'calendar',
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
-    paths: ['M8 2v4', 'M16 2v4', 'M3 10h18'],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M8 2v3', 'M16 2v3', 'M3 9h18'],
     tags: ['date', 'month', 'year', 'event', 'birthday', 'birthdate'],
     categories: ['time'],
   );
@@ -5196,8 +5496,8 @@ class LucideIcons {
   /// The "calendar-1" icon from Lucide.
   static const LucideIconData calendar1 = LucideIconData(
     name: 'calendar-1',
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
-    paths: ['M11 14h1v4', 'M16 2v4', 'M3 10h18', 'M8 2v4'],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M11 13h1v4', 'M16 2v3', 'M3 9h18', 'M8 2v3'],
     tags: [
       'date',
       'month',
@@ -5216,12 +5516,12 @@ class LucideIcons {
   static const LucideIconData calendarArrowDown = LucideIconData(
     name: 'calendar-arrow-down',
     paths: [
-      'm14 18 4 4 4-4',
-      'M16 2v4',
-      'M18 14v8',
-      'M21 11.354V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.343',
-      'M3 10h18',
-      'M8 2v4',
+      'm14 17 4 4 4-4',
+      'M16 2v3',
+      'M18 13v8',
+      'M21 10.354V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h7.343',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: [
       'date',
@@ -5244,12 +5544,12 @@ class LucideIcons {
   static const LucideIconData calendarArrowUp = LucideIconData(
     name: 'calendar-arrow-up',
     paths: [
-      'm14 18 4-4 4 4',
-      'M16 2v4',
-      'M18 22v-8',
-      'M21 11.343V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9',
-      'M3 10h18',
-      'M8 2v4',
+      'm14 17 4-4 4 4',
+      'M16 2v3',
+      'M18 21v-8',
+      'M21 10.343V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h9',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: [
       'date',
@@ -5271,8 +5571,8 @@ class LucideIcons {
   /// The "calendar-check" icon from Lucide.
   static const LucideIconData calendarCheck = LucideIconData(
     name: 'calendar-check',
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
-    paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'm9 16 2 2 4-4'],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M8 2v3', 'M16 2v3', 'M3 9h18', 'm9 15 2 2 4-4'],
     tags: [
       'date',
       'day',
@@ -5295,11 +5595,17 @@ class LucideIcons {
   static const LucideIconData calendarCheck2 = LucideIconData(
     name: 'calendar-check-2',
     paths: [
-      'M8 2v4',
-      'M16 2v4',
-      'M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8',
-      'M3 10h18',
-      'm16 20 2 2 4-4',
+      'M 19 3 L 5 3',
+      'M 21 13 L 21 5',
+      'M 21 5 A2 2 0 0 0 19 3',
+      'M 3 19 A2 2 0 0 0 5 21',
+      'M 3 5 L 3 19',
+      'M 5 3 A2 2 0 0 0 3 5',
+      'm16 19 2 2 4-4',
+      'M16 2v3',
+      'M3 9h18',
+      'M5 21 L12.5 21',
+      'M8 2v3',
     ],
     tags: [
       'date',
@@ -5319,16 +5625,48 @@ class LucideIcons {
     categories: ['time'],
   );
 
+  /// The "calendar-chevrons-right" icon from Lucide.
+  static const LucideIconData calendarChevronsRight = LucideIconData(
+    name: 'calendar-chevrons-right',
+    paths: [
+      'm13 21 3-3-3-3',
+      'M16 2v3',
+      'm19 21 3-3-3-3',
+      'M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h4',
+      'M3 9h18',
+      'M8 2v3',
+    ],
+    tags: [
+      'navigation',
+      'arrow',
+      'right',
+      'chevron',
+      'direction',
+      'symbol',
+      'pointer',
+      'indicator',
+      'next',
+      'menu',
+      'date',
+      'day',
+      'month',
+      'year',
+      'events',
+      'chevrons',
+    ],
+    categories: ['time', 'arrows', 'navigation'],
+  );
+
   /// The "calendar-clock" icon from Lucide.
   static const LucideIconData calendarClock = LucideIconData(
     name: 'calendar-clock',
     circles: [(16.0, 16.0, 6.0)],
     paths: [
       'M16 14v2.2l1.6 1',
-      'M16 2v4',
-      'M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5',
-      'M3 10h5',
-      'M8 2v4',
+      'M16 2v3',
+      'M21 7.338V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h2.338',
+      'M3 9h5.859',
+      'M8 2v3',
     ],
     tags: ['date', 'day', 'month', 'year', 'event', 'clock', 'hour'],
     categories: ['time'],
@@ -5341,16 +5679,16 @@ class LucideIcons {
     paths: [
       'm15.228 16.852-.923-.383',
       'm15.228 19.148-.923.383',
-      'M16 2v4',
+      'M16 2v3',
       'm16.47 14.305.382.923',
       'm16.852 20.772-.383.924',
       'm19.148 15.228.383-.923',
       'm19.53 21.696-.382-.924',
-      'm20.772 16.852.924-.383',
-      'm20.772 19.148.924.383',
-      'M21 10.592V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6',
-      'M3 10h18',
-      'M8 2v4',
+      'm20.773 16.852.924-.383',
+      'm20.773 19.148.924.383',
+      'M21 10.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h5.5',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: ['date', 'day', 'month', 'year', 'events', 'settings', 'gear', 'cog'],
     categories: ['time'],
@@ -5359,17 +5697,17 @@ class LucideIcons {
   /// The "calendar-days" icon from Lucide.
   static const LucideIconData calendarDays = LucideIconData(
     name: 'calendar-days',
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
     paths: [
-      'M8 2v4',
-      'M16 2v4',
-      'M3 10h18',
-      'M8 14h.01',
-      'M12 14h.01',
-      'M16 14h.01',
-      'M8 18h.01',
-      'M12 18h.01',
-      'M16 18h.01',
+      'M8 2v3',
+      'M16 2v3',
+      'M3 9h18',
+      'M8 13h.01',
+      'M12 13h.01',
+      'M16 13h.01',
+      'M8 17h.01',
+      'M12 17h.01',
+      'M16 17h.01',
     ],
     tags: ['date', 'month', 'year', 'event'],
     categories: ['time'],
@@ -5379,11 +5717,10 @@ class LucideIcons {
   static const LucideIconData calendarFold = LucideIconData(
     name: 'calendar-fold',
     paths: [
-      'M3 20a2 2 0 0 0 2 2h10a2.4 2.4 0 0 0 1.706-.706l3.588-3.588A2.4 2.4 0 0 0 21 16V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z',
-      'M15 22v-5a1 1 0 0 1 1-1h5',
-      'M8 2v4',
-      'M16 2v4',
-      'M3 10h18',
+      'M16 2v3',
+      'M21 15V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h10v-5a1 1 0 011-1za2.4 2.4 0 01-.706 1.706l-3.588 3.588A2.4 2.4 0 0115 21',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: ['date', 'month', 'year', 'event', 'birthday', 'birthdate', 'ics'],
     categories: ['time', 'files'],
@@ -5393,11 +5730,11 @@ class LucideIcons {
   static const LucideIconData calendarHeart = LucideIconData(
     name: 'calendar-heart',
     paths: [
-      'M12.127 22H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.125',
-      'M14.62 18.8A2.25 2.25 0 1 1 18 15.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z',
-      'M16 2v4',
-      'M3 10h18',
-      'M8 2v4',
+      'M12.127 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v5.125',
+      'M14.62 17.8A2.25 2.25 0 1118 14.836a2.25 2.25 0 113.38 2.966l-2.626 2.856a.998.998 0 01-1.507 0z',
+      'M16 2v3',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: [
       'date',
@@ -5416,11 +5753,11 @@ class LucideIcons {
   static const LucideIconData calendarMinus = LucideIconData(
     name: 'calendar-minus',
     paths: [
-      'M16 19h6',
-      'M16 2v4',
-      'M21 15V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5',
-      'M3 10h18',
-      'M8 2v4',
+      'M16 18h6',
+      'M16 2v3',
+      'M21 14V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8.3',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: ['date', 'day', 'month', 'year', 'event', 'delete', 'remove'],
     categories: ['time'],
@@ -5429,8 +5766,8 @@ class LucideIcons {
   /// The "calendar-minus-2" icon from Lucide.
   static const LucideIconData calendarMinus2 = LucideIconData(
     name: 'calendar-minus-2',
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
-    paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'M10 16h4'],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M8 2v3', 'M16 2v3', 'M3 9h18', 'M10 15h4'],
     tags: ['date', 'day', 'month', 'year', 'event', 'delete', 'remove'],
     categories: ['time'],
   );
@@ -5439,12 +5776,12 @@ class LucideIcons {
   static const LucideIconData calendarOff = LucideIconData(
     name: 'calendar-off',
     paths: [
-      'M4.2 4.2A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18',
-      'M21 15.5V6a2 2 0 0 0-2-2H9.5',
-      'M16 2v4',
-      'M3 10h7',
-      'M21 10h-5.5',
+      'M16 2v3',
       'm2 2 20 20',
+      'M21 9h-5.5',
+      'M3 9h6',
+      'M3.586 3.586A2 2 0 003 5v14a2 2 0 002 2h14a2 2 0 001.414-.586',
+      'M8.656 3H19a2 2 0 012 2v10.344',
     ],
     tags: ['date', 'day', 'month', 'year', 'event', 'delete', 'remove'],
     categories: ['time'],
@@ -5454,12 +5791,12 @@ class LucideIcons {
   static const LucideIconData calendarPlus = LucideIconData(
     name: 'calendar-plus',
     paths: [
-      'M16 19h6',
-      'M16 2v4',
-      'M19 16v6',
-      'M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5',
-      'M3 10h18',
-      'M8 2v4',
+      'M16 18h6',
+      'M16 2v3',
+      'M19 15v6',
+      'M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8.3',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: [
       'date',
@@ -5478,8 +5815,8 @@ class LucideIcons {
   /// The "calendar-plus-2" icon from Lucide.
   static const LucideIconData calendarPlus2 = LucideIconData(
     name: 'calendar-plus-2',
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
-    paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'M10 16h4', 'M12 14v4'],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M8 2v3', 'M16 2v3', 'M3 9h18', 'M10 15h4', 'M12 13v4'],
     tags: [
       'date',
       'day',
@@ -5497,15 +5834,15 @@ class LucideIcons {
   /// The "calendar-range" icon from Lucide.
   static const LucideIconData calendarRange = LucideIconData(
     name: 'calendar-range',
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
     paths: [
-      'M16 2v4',
-      'M3 10h18',
-      'M8 2v4',
-      'M17 14h-6',
-      'M13 18H7',
-      'M7 14h.01',
-      'M17 18h.01',
+      'M16 2v3',
+      'M3 9h18',
+      'M8 2v3',
+      'M17 13h-6',
+      'M13 17H7',
+      'M7 13h.01',
+      'M17 17h.01',
     ],
     tags: ['date', 'day', 'month', 'year', 'event', 'range', 'period'],
     categories: ['time'],
@@ -5514,13 +5851,13 @@ class LucideIcons {
   /// The "calendar-search" icon from Lucide.
   static const LucideIconData calendarSearch = LucideIconData(
     name: 'calendar-search',
-    circles: [(18.0, 18.0, 3.0)],
+    circles: [(18.0, 17.0, 3.0)],
     paths: [
-      'M16 2v4',
-      'M21 11.75V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.25',
-      'm22 22-1.875-1.875',
-      'M3 10h18',
-      'M8 2v4',
+      'M16 2v3',
+      'M21 10.69V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h7.25',
+      'm22 21-1.875-1.875',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: ['date', 'day', 'month', 'year', 'events', 'search', 'lens'],
     categories: ['time'],
@@ -5531,13 +5868,13 @@ class LucideIcons {
     name: 'calendar-sync',
     paths: [
       'M11 10v4h4',
-      'm11 14 1.535-1.605a5 5 0 0 1 8 1.5',
-      'M16 2v4',
-      'm21 18-1.535 1.605a5 5 0 0 1-8-1.5',
+      'm11 14 1.535-1.605a5 5 0 018 1.5',
+      'M16 2v3',
+      'm21 18-1.535 1.605a5 5 0 01-8-1.5',
       'M21 22v-4h-4',
-      'M21 8.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4.3',
-      'M3 10h4',
-      'M8 2v4',
+      'M21 8.517V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h3.517',
+      'M3 9h4',
+      'M8 2v3',
     ],
     tags: [
       'repeat',
@@ -5562,8 +5899,8 @@ class LucideIcons {
   /// The "calendar-x" icon from Lucide.
   static const LucideIconData calendarX = LucideIconData(
     name: 'calendar-x',
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
-    paths: ['M8 2v4', 'M16 2v4', 'M3 10h18', 'm14 14-4 4', 'm10 14 4 4'],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M8 2v3', 'M16 2v3', 'M3 9h18', 'm14 13-4 4', 'm10 13 4 4'],
     tags: ['date', 'day', 'month', 'year', 'event', 'remove', 'busy'],
     categories: ['time'],
   );
@@ -5572,12 +5909,12 @@ class LucideIcons {
   static const LucideIconData calendarX2 = LucideIconData(
     name: 'calendar-x-2',
     paths: [
-      'M8 2v4',
-      'M16 2v4',
-      'M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8',
-      'M3 10h18',
-      'm17 22 5-5',
-      'm17 17 5 5',
+      'M16 2v3',
+      'm17 16 5 5',
+      'm17 21 5-5',
+      'M21 12V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8',
+      'M3 9h18',
+      'M8 2v3',
     ],
     tags: ['date', 'day', 'month', 'year', 'event', 'remove'],
     categories: ['time'],
@@ -5642,6 +5979,54 @@ class LucideIcons {
     ],
     tags: ['photo', 'webcam', 'video'],
     categories: ['photography', 'devices', 'communication'],
+  );
+
+  /// The "can" icon from Lucide.
+  static const LucideIconData can = LucideIconData(
+    name: 'can',
+    paths: [
+      'M21 10.5a9 2.5 0 01-18 0v8a9 2.5 0 0018 0z',
+      'M21 10.5A9 2.5 25.32 004.59 3.47 9 2.5 25.32 0021 10.5',
+      'M3 10.5a9 2.5 0 016.527-2.405',
+      'M9 16.858a31 31 0 006 0',
+    ],
+    tags: [
+      'food',
+      'storage',
+      'groceries',
+      'tin',
+      'metal',
+      'recyclable',
+      'container',
+      'pantry',
+      'grocery',
+      'preserved',
+    ],
+    categories: ['food-beverage'],
+  );
+
+  /// The "can-soda" icon from Lucide.
+  static const LucideIconData canSoda = LucideIconData(
+    name: 'can-soda',
+    paths: [
+      'm17 22 1.664-2.496a2 2 0 00.336-1.11V5.606a2 2 0 00-.336-1.11L17 2',
+      'M18 22H6',
+      'M18 2H6',
+      'M5 17h14',
+      'M5 7h14',
+      'm7 22-1.664-2.496A2 2 0 015 18.394V5.606a2 2 0 01.336-1.11L7 2',
+    ],
+    tags: [
+      'beverage',
+      'drink',
+      'food',
+      'soda',
+      'tin',
+      'beer',
+      'alcohol',
+      'waste',
+    ],
+    categories: ['food-beverage'],
   );
 
   /// The "candy" icon from Lucide.
@@ -5766,6 +6151,28 @@ class LucideIcons {
     categories: ['transportation'],
   );
 
+  /// The "car-battery" icon from Lucide.
+  static const LucideIconData carBattery = LucideIconData(
+    name: 'car-battery',
+    rects: [(2.0, 7.0, 20.0, 12.0, 2.0)],
+    paths: ['M14 13h4', 'M16 15v-4', 'M18 5v2', 'M6 13h4', 'M6 5v2'],
+    tags: [
+      'battery',
+      'automobile',
+      'powercell',
+      'electric',
+      'power',
+      'electricity',
+      'energy',
+      'accumulator',
+      'charge',
+      'transport',
+      'vehicle',
+      'car',
+    ],
+    categories: ['connectivity', 'transportation'],
+  );
+
   /// The "car-front" icon from Lucide.
   static const LucideIconData carFront = LucideIconData(
     name: 'car-front',
@@ -5823,7 +6230,7 @@ class LucideIcons {
   /// The "card-sim" icon from Lucide.
   static const LucideIconData cardSim = LucideIconData(
     name: 'card-sim',
-    rects: [(8.0, 10.0, 8.0, 8.0, 1.0)],
+    rects: [(8.0, 10.0, 8.0, 8.0, 2.0)],
     paths: [
       'M12 14v4',
       'M14.172 2a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 20 7.828V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z',
@@ -5874,6 +6281,75 @@ class LucideIcons {
       'vegetable',
       'food',
       'eat',
+    ],
+    categories: ['food-beverage'],
+  );
+
+  /// The "carton" icon from Lucide.
+  static const LucideIconData carton = LucideIconData(
+    name: 'carton',
+    paths: [
+      'M13 22V10a2 2 0 01.539-1.367L16 6H8L5.539 8.633A2 2 0 005 10v10a2 2 0 002 2h10a2 2 0 002-2V10a2 2 0 00-.539-1.367L16 6V3a1 1 0 00-1-1H9a1 1 0 00-1 1v3',
+      'M5 10h8',
+    ],
+    tags: [
+      'milk',
+      'dairy',
+      'beverage',
+      'drink',
+      'diet',
+      'lactose',
+      'liquid',
+      'liter',
+      'litre',
+      'pint',
+      'pints',
+      'pasteurized',
+      'skim',
+      'skimmed',
+      'container',
+      'packaging',
+      'grocery',
+      'juice',
+      'cream',
+      'cow',
+    ],
+    categories: ['food-beverage'],
+  );
+
+  /// The "carton-off" icon from Lucide.
+  static const LucideIconData cartonOff = LucideIconData(
+    name: 'carton-off',
+    paths: [
+      'M10 10H5v10a2 2 0 002 2h10a2 2 0 002-2v-1',
+      'M13 22v-9',
+      'M13.902 8.245 16 6h-4.343',
+      'M19 13.343V10a2 2 0 00-.539-1.367L16 6V3a1 1 0 00-1-1H9a1 1 0 00-.857.486',
+      'm2 2 20 20',
+      'M7.034 7.034 5.539 8.633A2 2 0 005 10',
+    ],
+    tags: [
+      'milk',
+      'dairy',
+      'beverage',
+      'drink',
+      'diet',
+      'lactose free',
+      'non dairy',
+      'liquid',
+      'liter',
+      'litre',
+      'pint',
+      'pints',
+      'pasteurized',
+      'skim',
+      'skimmed',
+      'container',
+      'packaging',
+      'allergy',
+      'intolerance',
+      'vegan',
+      'unavailable',
     ],
     categories: ['food-beverage'],
   );
@@ -5940,7 +6416,20 @@ class LucideIcons {
       'M2 12a9 9 0 0 1 8 8',
       'M2 16a5 5 0 0 1 4 4',
     ],
-    tags: ['chromecast', 'airplay', 'screen'],
+    tags: [
+      'stream',
+      'streaming',
+      'screen',
+      'display',
+      'wireless',
+      'broadcast',
+      'transmit',
+      'media',
+      'receiver',
+      'remote display',
+      'screen sharing',
+      'media streaming',
+    ],
     categories: ['devices', 'connectivity'],
   );
 
@@ -6801,7 +7290,7 @@ class LucideIcons {
   static const LucideIconData circleCheck = LucideIconData(
     name: 'circle-check',
     circles: [(12.0, 12.0, 10.0)],
-    paths: ['m9 12 2 2 4-4'],
+    paths: ['m16 9-5.5 5.5L8 12'],
     tags: ['done', 'todo', 'tick', 'complete', 'task'],
     categories: ['notifications'],
   );
@@ -6876,6 +7365,41 @@ class LucideIcons {
     categories: ['development', 'shapes'],
   );
 
+  /// The "circle-dashed-check" icon from Lucide.
+  static const LucideIconData circleDashedCheck = LucideIconData(
+    name: 'circle-dashed-check',
+    paths: [
+      'M10.1 2.182a10 10 0 013.8 0',
+      'M13.9 21.818a10 10 0 01-3.8 0',
+      'm16 9-5.5 5.5L8 12',
+      'M17.609 3.721a10 10 0 012.69 2.7',
+      'M2.182 13.9a10 10 0 010-3.8',
+      'M20.279 17.609a10 10 0 01-2.7 2.69',
+      'M21.818 10.1a10 10 0 010 3.8',
+      'M3.721 6.391a10 10 0 012.7-2.69',
+      'M6.391 20.279a10 10 0 01-2.69-2.7',
+    ],
+    tags: [
+      'approved',
+      'pending',
+      'changes',
+      'revision',
+      'reapproval',
+      'published',
+      'schedule',
+      'assignment',
+      'request',
+      'review',
+      'progress',
+      'issue',
+      'draft',
+      'code',
+      'coding',
+      'version control',
+    ],
+    categories: ['shapes', 'development', 'notifications'],
+  );
+
   /// The "circle-divide" icon from Lucide.
   static const LucideIconData circleDivide = LucideIconData(
     name: 'circle-divide',
@@ -6897,7 +7421,7 @@ class LucideIcons {
   /// The "circle-dot" icon from Lucide.
   static const LucideIconData circleDot = LucideIconData(
     name: 'circle-dot',
-    circles: [(12.0, 12.0, 10.0), (12.0, 12.0, 1.0)],
+    circles: [(12.0, 12.0, 1.0), (12.0, 12.0, 10.0)],
     tags: [
       'pending',
       'dot',
@@ -6909,6 +7433,24 @@ class LucideIcons {
       'choices',
       'multiple choice',
       'choose',
+      'album',
+      'music',
+      'songs',
+      'format',
+      'cd',
+      'dvd',
+      'vinyl',
+      'sleeve',
+      'cover',
+      'platinum',
+      'compilation',
+      'ep',
+      'recording',
+      'playback',
+      'spin',
+      'rotate',
+      'rpm',
+      'dj',
     ],
     categories: ['development', 'shapes'],
   );
@@ -7031,16 +7573,7 @@ class LucideIcons {
       'M4.636 5.235a10 10 0 0 1 .891-.857',
       'M8.644 21.42a10 10 0 0 0 7.631-.38',
     ],
-    tags: [
-      'stories',
-      'social media',
-      'instagram',
-      'facebook',
-      'meta',
-      'snapchat',
-      'sharing',
-      'content',
-    ],
+    tags: ['stories', 'social media', 'sharing', 'content'],
     categories: ['communication', 'social'],
   );
 
@@ -7481,6 +8014,81 @@ class LucideIcons {
     categories: ['multimedia'],
   );
 
+  /// The "clef-alto" icon from Lucide.
+  static const LucideIconData clefAlto = LucideIconData(
+    name: 'clef-alto',
+    paths: [
+      'M10 4v16',
+      'M14 4.764a3 3 0 1 1-.152 4.327A4 4 0 0 1 10 12a4 4 0 0 1 3.848 2.909A3 3 0 1 1 14 19.236',
+      'M6 4v16',
+    ],
+    tags: [
+      'do',
+      'c',
+      'music',
+      'note',
+      'key',
+      'soprano',
+      'mezzo',
+      'alto',
+      'staff',
+      'pitch',
+      'baritone',
+      'major',
+      'scale',
+    ],
+    categories: ['multimedia'],
+  );
+
+  /// The "clef-bass" icon from Lucide.
+  static const LucideIconData clefBass = LucideIconData(
+    name: 'clef-bass',
+    circles: [(7.0, 8.0, 2.0)],
+    paths: [
+      'M19 11h.01',
+      'M19 6h.01',
+      'M5 8c0-4 4-4 4-4 6 0 6 6 6 6 0 7-10 11-10 11',
+    ],
+    tags: [
+      'fa',
+      'f',
+      'music',
+      'note',
+      'key',
+      'baritone',
+      'staff',
+      'pitch',
+      'bass',
+      'subbass',
+      'major',
+      'scale',
+    ],
+    categories: ['multimedia'],
+  );
+
+  /// The "clef-treble" icon from Lucide.
+  static const LucideIconData clefTreble = LucideIconData(
+    name: 'clef-treble',
+    paths: [
+      'M10.586 21.414a2 2 0 0 0 3.378-1.791L11.036 4.377a2 2 0 1 1 3.378 1.037C12.414 7.414 7 8 7 13a5 5 0 0 0 5 5 5 4 0 0 0 5-4 3 3 0 0 0-3-3 3 2 0 0 0-3 2',
+    ],
+    tags: [
+      'sol',
+      'g',
+      'music',
+      'note',
+      'key',
+      'treble',
+      'staff',
+      'pitch',
+      'violin',
+      'solfege',
+      'major',
+      'scale',
+    ],
+    categories: ['multimedia'],
+  );
+
   /// The "clipboard" icon from Lucide.
   static const LucideIconData clipboard = LucideIconData(
     name: 'clipboard',
@@ -7671,8 +8279,8 @@ class LucideIcons {
     rects: [(8.0, 2.0, 8.0, 4.0, 1.0)],
     paths: [
       'M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2',
-      'm15 11-6 6',
-      'm9 11 6 6',
+      'm14.5 11.5-5 5',
+      'm9.5 11.5 5 5',
     ],
     tags: ['copy', 'paste', 'discard', 'remove'],
     categories: ['text'],
@@ -7888,9 +8496,9 @@ class LucideIcons {
   static const LucideIconData clockCheck = LucideIconData(
     name: 'clock-check',
     paths: [
+      'M21.95 13a10 10 0 1 0-8.685 8.92',
       'M12 6v6l4 2',
-      'M22 12a10 10 0 1 0-11 9.95',
-      'm22 16-5.5 5.5L14 19',
+      'm16 19 2 2 4-4',
     ],
     tags: ['time', 'watch', 'alarm'],
     categories: ['time'],
@@ -8438,16 +9046,16 @@ class LucideIcons {
     name: 'columns-3-cog',
     circles: [(18.0, 18.0, 3.0)],
     paths: [
-      'M10.5 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.5',
-      'm14.3 19.6 1-.4',
-      'M15 3v7.5',
-      'm15.2 16.9-.9-.3',
-      'm16.6 21.7.3-.9',
-      'm16.8 15.3-.4-1',
-      'm19.1 15.2.3-.9',
-      'm19.6 21.7-.4-1',
-      'm20.7 16.8 1-.4',
-      'm21.7 19.4-.9-.3',
+      'M10.6 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v5.6',
+      'm14.305 19.53.923-.382',
+      'M15 3v7.6',
+      'm15.229 16.852-.924-.383',
+      'm16.852 15.228-.383-.923',
+      'm16.852 20.772-.383.924',
+      'm19.148 15.228.383-.923',
+      'm19.53 21.696-.382-.924',
+      'm20.773 16.852.922-.383',
+      'm20.773 19.148.922.383',
       'M9 3v18',
     ],
     tags: [
@@ -8551,7 +9159,7 @@ class LucideIcons {
     paths: [
       'm16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z',
     ],
-    tags: ['direction', 'north', 'east', 'south', 'west', 'safari', 'browser'],
+    tags: ['direction', 'north', 'east', 'south', 'west', 'browser'],
     categories: ['navigation', 'travel'],
   );
 
@@ -8571,9 +9179,9 @@ class LucideIcons {
   /// The "computer" icon from Lucide.
   static const LucideIconData computer = LucideIconData(
     name: 'computer',
-    rects: [(5.0, 2.0, 14.0, 8.0, 2.0), (2.0, 14.0, 20.0, 8.0, 2.0)],
-    paths: ['M6 18h2', 'M12 18h6'],
-    tags: ['pc', 'chassis', 'codespaces', 'github'],
+    rects: [(2.0, 14.0, 20.0, 8.0, 2.0), (4.0, 2.0, 16.0, 12.0, 2.0)],
+    paths: ['M12 18h6', 'M6 18h.01', 'M8 6h1'],
+    tags: ['pc', 'chassis', 'codespaces'],
     categories: ['devices', 'development', 'gaming'],
   );
 
@@ -8629,9 +9237,9 @@ class LucideIcons {
   /// The "contact" icon from Lucide.
   static const LucideIconData contact = LucideIconData(
     name: 'contact',
-    circles: [(12.0, 11.0, 3.0)],
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
-    paths: ['M16 2v2', 'M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2', 'M8 2v2'],
+    circles: [(12.0, 10.0, 3.0)],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M16 2v2', 'M7 21v-2a2 2 0 012-2h6a2 2 0 012 2v2', 'M8 2v2'],
     tags: [
       'user',
       'person',
@@ -8647,9 +9255,9 @@ class LucideIcons {
   /// The "contact-round" icon from Lucide.
   static const LucideIconData contactRound = LucideIconData(
     name: 'contact-round',
-    circles: [(12.0, 12.0, 4.0)],
-    rects: [(3.0, 4.0, 18.0, 18.0, 2.0)],
-    paths: ['M16 2v2', 'M17.915 22a6 6 0 0 0-12 0', 'M8 2v2'],
+    circles: [(12.0, 11.0, 4.0)],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M16 2v2', 'M17.915 21a6 6 0 10-12 0', 'M8 2v2'],
     tags: [
       'user',
       'person',
@@ -8677,7 +9285,6 @@ class LucideIcons {
       'shipping',
       'freight',
       'supply chain',
-      'docker',
       'environment',
       'devops',
       'code',
@@ -8699,14 +9306,30 @@ class LucideIcons {
   static const LucideIconData cookie = LucideIconData(
     name: 'cookie',
     paths: [
-      'M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5',
-      'M8.5 8.5v.01',
-      'M16 15.5v.01',
-      'M12 12v.01',
-      'M11 17v.01',
-      'M7 14v.01',
+      'M11 17h.01',
+      'M11.496 2c.324-.016.558.292.529.615a4 4 0 004.235 4.368.713.713 0 01.758.757 4 4 0 004.366 4.237c.323-.03.63.204.614.527a10 10 0 01-2.915 6.566A1 1 0 114.93 4.918 10 10 0 0111.496 2',
+      'M12 12h.01',
+      'M16 16h.01',
+      'M16 3h.01',
+      'M21 4h.01',
+      'M21 8h.01',
+      'M7 14h.01',
+      'M9 8h.01',
     ],
-    tags: ['biscuit', 'privacy', 'legal', 'food'],
+    tags: [
+      'biscuit',
+      'snack',
+      'dessert',
+      'food',
+      'sweet',
+      'bakery',
+      'consent',
+      'privacy',
+      'legal',
+      'tracking',
+      'browser',
+      'website',
+    ],
     categories: ['account', 'food-beverage'],
   );
 
@@ -8815,9 +9438,12 @@ class LucideIcons {
   /// The "copy-x" icon from Lucide.
   static const LucideIconData copyX = LucideIconData(
     name: 'copy-x',
-    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
     rects: [(8.0, 8.0, 14.0, 14.0, 2.0)],
-    paths: ['M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2'],
+    paths: [
+      'M4 16a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2',
+      'm12.5 12.5 5 5',
+      'm12.5 17.5 5-5',
+    ],
     tags: [
       'cancel',
       'close',
@@ -8965,8 +9591,178 @@ class LucideIcons {
     name: 'credit-card',
     lines: [(0.0, 0.0, 0.0, 0.0)],
     rects: [(2.0, 5.0, 20.0, 14.0, 2.0)],
+    paths: ['M6 14h2'],
     tags: ['bank', 'purchase', 'payment', 'cc'],
     categories: ['account', 'finance'],
+  );
+
+  /// The "credit-card-check" icon from Lucide.
+  static const LucideIconData creditCardCheck = LucideIconData(
+    name: 'credit-card-check',
+    paths: [
+      'M12.5 19H4a2 2 0 01-2-2V7a2 2 0 012-2h16a2 2 0 012 2v4',
+      'M2 10h20',
+      'M6 14h2',
+      'm16 17 2 2 4-4',
+    ],
+    tags: [
+      'debit',
+      'payment',
+      'banking',
+      'finance',
+      'transaction',
+      'wallet',
+      'purchase',
+      'checkout',
+      'billing',
+      'account',
+      'cardholder',
+      'verified',
+      'approved',
+      'authorized',
+      'valid',
+      'success',
+      'complete',
+      'check',
+      'bank',
+      'cc',
+    ],
+    categories: ['account', 'finance', 'shopping'],
+  );
+
+  /// The "credit-card-minus" icon from Lucide.
+  static const LucideIconData creditCardMinus = LucideIconData(
+    name: 'credit-card-minus',
+    paths: [
+      'M22 13V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2h8.536',
+      'M22 10H2',
+      'M6 14h2',
+      'M16 17h6',
+    ],
+    tags: [
+      'debit',
+      'payment',
+      'remove',
+      'delete',
+      'unlink',
+      'revoke',
+      'decline',
+      'canceled',
+      'banking',
+      'finance',
+      'wallet',
+      'transaction',
+      'billing',
+      'account',
+      'purchase',
+      'checkout',
+      'subtract',
+      'minus',
+      'bank',
+      'cc',
+    ],
+    categories: ['account', 'finance', 'shopping'],
+  );
+
+  /// The "credit-card-plus" icon from Lucide.
+  static const LucideIconData creditCardPlus = LucideIconData(
+    name: 'credit-card-plus',
+    paths: [
+      'M22 11.354V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2h8.536',
+      'M22 10H2',
+      'M6 14h2',
+      'M16 17h6',
+      'M19 14v6',
+    ],
+    tags: [
+      'debit',
+      'payment',
+      'banking',
+      'finance',
+      'transaction',
+      'wallet',
+      'purchase',
+      'checkout',
+      'billing',
+      'account',
+      'cardholder',
+      'add',
+      'new',
+      'link',
+      'save',
+      'method',
+      'plastic',
+      'bank',
+      'cc',
+    ],
+    categories: ['account', 'finance', 'shopping'],
+  );
+
+  /// The "credit-card-reader" icon from Lucide.
+  static const LucideIconData creditCardReader = LucideIconData(
+    name: 'credit-card-reader',
+    paths: [
+      'M15 16v1',
+      'M16.963 7.734A1 1 0 0015.999 7H8.003a1 1 0 00-.964.734L4.073 18.467A2 2 0 006 21h12a2 2 0 001.927-2.532z',
+      'M2.678 8.5A2 2 0 012 7V5a2 2 0 012-2h16a2 2 0 012 2v2a2 2 0 01-.676 1.499',
+      'm9 21 2-14',
+    ],
+    tags: [
+      'bank',
+      'purchase',
+      'payment',
+      'cc',
+      'atm',
+      'terminal',
+      'checkout',
+      'kiosk',
+      'pos',
+      'point of sale',
+      'transaction',
+      'contactless',
+      'chip',
+      'swipe',
+      'tap',
+      'banking',
+      'finance',
+      'retail',
+    ],
+    categories: ['finance', 'navigation', 'shopping'],
+  );
+
+  /// The "credit-card-x" icon from Lucide.
+  static const LucideIconData creditCardX = LucideIconData(
+    name: 'credit-card-x',
+    paths: [
+      'M12.5 19H4a2 2 0 01-2-2V7a2 2 0 012-2h16a2 2 0 012 2v3.5',
+      'M2 10h20',
+      'M6 14h2',
+      'm16.5 14.5 5 5',
+      'm21.5 14.5-5 5',
+    ],
+    tags: [
+      'debit',
+      'payment',
+      'banking',
+      'finance',
+      'transaction',
+      'wallet',
+      'purchase',
+      'checkout',
+      'billing',
+      'account',
+      'cardholder',
+      'declined',
+      'rejected',
+      'failed',
+      'invalid',
+      'canceled',
+      'error',
+      'cancel',
+      'bank',
+      'cc',
+    ],
+    categories: ['account', 'finance', 'shopping'],
   );
 
   /// The "croissant" icon from Lucide.
@@ -9078,6 +9874,30 @@ class LucideIcons {
       'm12 8 1-6h2',
     ],
     tags: ['beverage', 'cup', 'drink', 'soda', 'straw', 'water'],
+    categories: ['food-beverage'],
+  );
+
+  /// The "cupcake" icon from Lucide.
+  static const LucideIconData cupcake = LucideIconData(
+    name: 'cupcake',
+    circles: [(12.0, 4.0, 2.0)],
+    paths: [
+      'M12 22v-9',
+      'M14 4h1a3 3 0 013 3l-.004.125A4 4 0 0121 11v2',
+      'm15.5 22 1.5-9',
+      'M21 13a1 1 0 01.919 1.394l-2.74 6.394A2 2 0 0117.34 22H6.659a2 2 0 01-1.838-1.212l-2.74-6.394A1 1 0 013 13z',
+      'M3 13v-2a4 4 0 013.003-3.875L6 7a3 3 0 013-3h1',
+      'M8.5 22 7 13',
+    ],
+    tags: [
+      'cake',
+      'dessert',
+      'food',
+      'celebration',
+      'sweet',
+      'baking',
+      'cooking',
+    ],
     categories: ['food-beverage'],
   );
 
@@ -9852,6 +10672,41 @@ class LucideIcons {
     categories: ['finance'],
   );
 
+  /// The "dome" icon from Lucide.
+  static const LucideIconData dome = LucideIconData(
+    name: 'dome',
+    paths: [
+      'M10 21v-3a2 2 0 014 0v3',
+      'M12 2v2',
+      'M18 12v9',
+      'M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2v-6a1 1 0 011-1h18a1 1 0 011 1z',
+      'M4 12a8 8 0 0116 0',
+      'M6 12v9',
+    ],
+    tags: [
+      'roof',
+      'cupola',
+      'rotunda',
+      'shelter',
+      'building',
+      'architecture',
+      'structure',
+      'church',
+      'christian',
+      'orthodox',
+      'byzantine',
+      'cathedral',
+      'basilica',
+      'chapel',
+      'monument',
+      'landmark',
+      'museum',
+      'observatory',
+      'heritage',
+    ],
+    categories: ['buildings', 'navigation', 'travel'],
+  );
+
   /// The "donut" icon from Lucide.
   static const LucideIconData donut = LucideIconData(
     name: 'donut',
@@ -9879,11 +10734,7 @@ class LucideIcons {
   /// The "door-closed" icon from Lucide.
   static const LucideIconData doorClosed = LucideIconData(
     name: 'door-closed',
-    paths: [
-      'M10 12h.01',
-      'M18 20V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14',
-      'M2 20h20',
-    ],
+    paths: ['M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16', 'M2 21h20', 'M9 12h.01'],
     tags: [
       'entrance',
       'entry',
@@ -9900,12 +10751,12 @@ class LucideIcons {
   /// The "door-closed-locked" icon from Lucide.
   static const LucideIconData doorClosedLocked = LucideIconData(
     name: 'door-closed-locked',
-    rects: [(14.0, 17.0, 8.0, 5.0, 1.0)],
+    rects: [(14.0, 16.0, 8.0, 5.0, 1.0)],
     paths: [
-      'M10 12h.01',
-      'M18 9V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14',
-      'M2 20h8',
-      'M20 17v-2a2 2 0 1 0-4 0v2',
+      'M19 8V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16',
+      'M2 21h8',
+      'M20 16v-2a2 2 0 00-4 0v2',
+      'M9 12h.01',
     ],
     tags: [
       'entrance',
@@ -9921,15 +10772,29 @@ class LucideIcons {
     categories: ['home', 'travel', 'security'],
   );
 
+  /// The "door-closed-package" icon from Lucide.
+  static const LucideIconData doorClosedPackage = LucideIconData(
+    name: 'door-closed-package',
+    rects: [(14.0, 13.0, 8.0, 8.0, 1.0)],
+    paths: [
+      'M18 13v3',
+      'M19 9V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16',
+      'M2 21h8',
+      'M9 12h.01',
+    ],
+    tags: ['delivery', 'parcel', 'doorstep', 'shipping', 'drop-off', 'courier'],
+    categories: ['home', 'food-beverage', 'transportation'],
+  );
+
   /// The "door-open" icon from Lucide.
   static const LucideIconData doorOpen = LucideIconData(
     name: 'door-open',
     paths: [
-      'M11 20H2',
-      'M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z',
-      'M11 4H8a2 2 0 0 0-2 2v14',
+      'M10 21H2',
+      'M10 3H7a2 2 0 00-2 2v16',
       'M14 12h.01',
-      'M22 20h-3',
+      'M19 21V5a2 2 0 00-1.675-1.974l-6.163-1.013A1 1 0 0010 3v18a1 1 0 001.124.992z',
+      'M22 21h-3',
     ],
     tags: [
       'entrance',
@@ -9942,6 +10807,42 @@ class LucideIcons {
       'emergency exit',
     ],
     categories: ['home', 'travel', 'security'],
+  );
+
+  /// The "door-stairwell" icon from Lucide.
+  static const LucideIconData doorStairwell = LucideIconData(
+    name: 'door-stairwell',
+    paths: [
+      'M12 17v-3a1 1 0 011-1h6',
+      'M19 17h-9a1 1 0 00-1 1v3',
+      'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16',
+      'M19 9h-3a1 1 0 00-1 1v3',
+      'M22 21H2',
+    ],
+    tags: [
+      'staircase',
+      'stairway',
+      'stairs',
+      'steps',
+      'ladder',
+      'transition',
+      'access',
+      'structure',
+      'spiral',
+      'building',
+      'vertical',
+      'movement',
+      'floor',
+      'level',
+      'entrance',
+      'entry',
+      'exit',
+      'egress',
+      'route',
+      'indoor',
+      'emergency exit',
+    ],
+    categories: ['home', 'travel'],
   );
 
   /// The "dot" icon from Lucide.
@@ -10354,6 +11255,31 @@ class LucideIcons {
     categories: ['food-beverage'],
   );
 
+  /// The "eject" icon from Lucide.
+  static const LucideIconData eject = LucideIconData(
+    name: 'eject',
+    rects: [(3.0, 17.0, 18.0, 4.0, 1.0)],
+    paths: [
+      'M4 13a1 1 0 0 1-.72-1.695l7.257-7.668a2 2 0 0 1 2.926 0l7.256 7.668A1 1 0 0 1 20 13z',
+    ],
+    tags: [
+      'disc',
+      'drive',
+      'dvd',
+      'blu-ray',
+      'cd',
+      'media',
+      'optical',
+      'optical drive',
+      'removable media',
+      'storage',
+      'tray',
+      'unmount',
+      'usb',
+    ],
+    categories: ['devices', 'files', 'multimedia'],
+  );
+
   /// The "ellipse" icon from Lucide.
   static const LucideIconData ellipse = LucideIconData(
     name: 'ellipse',
@@ -10423,6 +11349,34 @@ class LucideIcons {
     categories: ['layout'],
   );
 
+  /// The "engine" icon from Lucide.
+  static const LucideIconData engine = LucideIconData(
+    name: 'engine',
+    paths: [
+      'M10 3h6',
+      'M13 3v4',
+      'M2 10v6',
+      'M2 13h4',
+      'M6 16a2 2 0 002 2h1a2 2 0 011.6.8l.3.4a2 2 0 001.6.8h2.264a2 2 0 001.789-1.106l1.67-3.341a1 1 0 01.895-.553H21a1 1 0 001-1v-4a1 1 0 00-1-1h-3.5a1 1 0 01-.8-.4l-.9-1.2A1 1 0 0015 7h-4a1 1 0 00-.8.4l-.9 1.2a1 1 0 01-.8.4H7a1 1 0 00-1 1z',
+    ],
+    tags: [
+      'vehicle',
+      'power',
+      'energy',
+      'drive',
+      'repair',
+      'car',
+      'motor',
+      'mechanical',
+      'diagnostics',
+      'maintenance',
+      'warning',
+      'dashboard',
+      'parts',
+    ],
+    categories: ['transportation'],
+  );
+
   /// The "equal" icon from Lucide.
   static const LucideIconData equal = LucideIconData(
     name: 'equal',
@@ -10438,8 +11392,35 @@ class LucideIcons {
       'M5 15a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0',
       'M5 9a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0',
     ],
-    tags: ['about', 'calculate', 'math', 'operater'],
+    tags: ['about', 'calculate', 'math', 'operator'],
     categories: ['math'],
+  );
+
+  /// The "equal-approximately-not" icon from Lucide.
+  static const LucideIconData equalApproximatelyNot = LucideIconData(
+    name: 'equal-approximately-not',
+    lines: [(0.0, 0.0, 0.0, 0.0)],
+    paths: [
+      'M5 15a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0',
+      'M5 9a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0',
+    ],
+    tags: [
+      'calculate',
+      'math',
+      'operator',
+      'not',
+      'approximately',
+      'unequal',
+      'code',
+      '≇',
+      'tolerance',
+      'threshold',
+      'mismatch',
+      'comparison',
+      'assertion',
+      'variance',
+    ],
+    categories: ['math', 'development', 'charts', 'science'],
   );
 
   /// The "equal-not" icon from Lucide.
@@ -10669,6 +11650,144 @@ class LucideIcons {
     categories: ['accessibility', 'photography', 'design', 'security'],
   );
 
+  /// The "face-angry" icon from Lucide.
+  static const LucideIconData faceAngry = LucideIconData(
+    name: 'face-angry',
+    circles: [(12.0, 12.0, 10.0)],
+    paths: [
+      'M15 12v-1.584',
+      'M17 10a5 5 0 00-3 1',
+      'M7 10a5 5 0 013 1',
+      'M9 12v-1.584',
+      'M9 17a5 5 0 016.001 0',
+    ],
+    tags: [
+      'anger',
+      'rage',
+      'fury',
+      'resentment',
+      'irritation',
+      'disgust',
+      'emoji',
+      'emotion',
+    ],
+    categories: ['emoji'],
+  );
+
+  /// The "face-expressionless" icon from Lucide.
+  static const LucideIconData faceExpressionless = LucideIconData(
+    name: 'face-expressionless',
+    circles: [(12.0, 12.0, 10.0)],
+    paths: ['M14 10h2', 'M8 10h2', 'M8 16h8'],
+    tags: [
+      'nuisance',
+      'annoyed',
+      'annoyance',
+      'frustration',
+      'emoji',
+      'emotion',
+    ],
+    categories: ['emoji'],
+  );
+
+  /// The "face-grinning" icon from Lucide.
+  static const LucideIconData faceGrinning = LucideIconData(
+    name: 'face-grinning',
+    circles: [(12.0, 12.0, 10.0)],
+    paths: [
+      'M15 10V9',
+      'M7.084 14.302a5.12 5.12 0 009.833 0 .24.24 0 00-.235-.302H7.32a.24.24 0 00-.235.302',
+      'M9 10V9',
+    ],
+    tags: [
+      'happy',
+      'happiness',
+      'good',
+      'laugh',
+      'broad smile',
+      'pleasure',
+      'good cheer',
+      'humour',
+      'funny',
+      'emoji',
+      'emotion',
+    ],
+    categories: ['emoji'],
+  );
+
+  /// The "face-neutral" icon from Lucide.
+  static const LucideIconData faceNeutral = LucideIconData(
+    name: 'face-neutral',
+    circles: [(12.0, 12.0, 10.0)],
+    paths: ['M15 10V9', 'M8 16h8', 'M9 10V9'],
+    tags: [
+      'emoji',
+      'neutral',
+      'emotion',
+      'meh',
+      'blank stare',
+      'social masking',
+      'irritation',
+      'concern',
+      'deadpan',
+    ],
+    categories: ['emoji'],
+  );
+
+  /// The "face-slightly-frowning" icon from Lucide.
+  static const LucideIconData faceSlightlyFrowning = LucideIconData(
+    name: 'face-slightly-frowning',
+    circles: [(12.0, 12.0, 10.0)],
+    paths: ['M15 10V9', 'M9 10V9', 'M9 16a5 5 0 016 0'],
+    tags: ['emoji', 'bad', 'sadness', 'emotion', 'concern', 'disappointment'],
+    categories: ['emoji', 'account'],
+  );
+
+  /// The "face-slightly-smiling" icon from Lucide.
+  static const LucideIconData faceSlightlySmiling = LucideIconData(
+    name: 'face-slightly-smiling',
+    circles: [(12.0, 12.0, 10.0)],
+    paths: ['M15 10V9', 'M16.472 15a6 6 0 01-8.943 0', 'M9 10V9'],
+    tags: [
+      'smile',
+      'happy',
+      'happiness',
+      'good',
+      'positive',
+      'friendly',
+      'patronizing',
+      'passive aggressive',
+      'ironic',
+      'emoji',
+      'emotion',
+    ],
+    categories: ['emoji', 'account'],
+  );
+
+  /// The "face-slightly-smiling-plus" icon from Lucide.
+  static const LucideIconData faceSlightlySmilingPlus = LucideIconData(
+    name: 'face-slightly-smiling-plus',
+    paths: [
+      'M13.267 2.08a10 10 0 108.653 8.653',
+      'M15 10V9',
+      'M16 5h6',
+      'M16.472 15a6 6 0 01-8.943 0',
+      'M19 2v6',
+      'M9 10V9',
+    ],
+    tags: [
+      'smile',
+      'happy',
+      'good',
+      'react',
+      'reaction',
+      'emoji',
+      'add',
+      'emotion',
+    ],
+    categories: ['emoji', 'social', 'notifications', 'communication'],
+  );
+
   /// The "factory" icon from Lucide.
   static const LucideIconData factory = LucideIconData(
     name: 'factory',
@@ -10711,16 +11830,67 @@ class LucideIcons {
     categories: ['multimedia', 'arrows'],
   );
 
+  /// The "faucet" icon from Lucide.
+  static const LucideIconData faucet = LucideIconData(
+    name: 'faucet',
+    circles: [(12.0, 6.0, 2.0)],
+    paths: [
+      'M10.083 5.428 5.57 4.083a2 2 0 10.001 3.834l4.512-1.345',
+      'M12 8v3',
+      'm13.917 5.428 4.511-1.345a2 2 0 110 3.834l-4.51-1.345',
+      'M18 17v-4.006',
+      'M22 11v8',
+      'M22 12h-3a1 1 0 00-1 .994h-2.539a4 4 0 00-6.915-.012L7 13a5 5 0 00-5 5v1a1 1 0 001 1h2a1 1 0 001-1v-1a1 1 0 01.995-1l1.552.018a4 4 0 006.907 0L18 17a1 1 0 001 1h3',
+    ],
+    tags: [
+      'tap',
+      'spigot',
+      'water',
+      'drinking',
+      'fresh',
+      'source',
+      'pipes',
+      'plumbing',
+      'plumber',
+      'sink',
+      'basin',
+      'kitchen',
+      'bathroom',
+      'washroom',
+      'fixture',
+      'valve',
+      'flow',
+      'drinkable',
+      'potable',
+      'amenities',
+      'utilities',
+      'hydration',
+    ],
+    categories: ['food-beverage', 'home', 'navigation', 'travel'],
+  );
+
   /// The "feather" icon from Lucide.
   static const LucideIconData feather = LucideIconData(
     name: 'feather',
     paths: [
-      'M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z',
+      'M14.086 18.412A2 2 0 0112.67 19H5v-7.672a2 2 0 01.586-1.414L11.75 3.75a6 6 0 118.49 8.49z',
       'M16 8 2 22',
-      'M17.5 15H9',
+      'M17.488 15H9',
     ],
-    tags: ['logo'],
-    categories: ['gaming'],
+    tags: [
+      'quill',
+      'plume',
+      'writing',
+      'author',
+      'literature',
+      'poetry',
+      'manuscript',
+      'bird',
+      'plumage',
+      'lightweight',
+      'soft',
+    ],
+    categories: ['nature', 'animals', 'gaming', 'text'],
   );
 
   /// The "fence" icon from Lucide.
@@ -11967,36 +13137,6 @@ class LucideIcons {
     categories: ['science', 'gaming'],
   );
 
-  /// The "flip-horizontal-2" icon from Lucide.
-  static const LucideIconData flipHorizontal2 = LucideIconData(
-    name: 'flip-horizontal-2',
-    paths: [
-      'm3 7 5 5-5 5V7',
-      'm21 7-5 5 5 5V7',
-      'M12 20v2',
-      'M12 14v2',
-      'M12 8v2',
-      'M12 2v2',
-    ],
-    tags: ['reflect', 'mirror', 'alignment', 'dashed'],
-    categories: ['design', 'photography'],
-  );
-
-  /// The "flip-vertical-2" icon from Lucide.
-  static const LucideIconData flipVertical2 = LucideIconData(
-    name: 'flip-vertical-2',
-    paths: [
-      'm17 3-5 5-5-5h10',
-      'm17 21-5-5-5 5h10',
-      'M4 12H2',
-      'M10 12H8',
-      'M16 12h-2',
-      'M22 12h-2',
-    ],
-    tags: ['reflect', 'mirror', 'alignment', 'dashed'],
-    categories: ['design', 'photography'],
-  );
-
   /// The "flower" icon from Lucide.
   static const LucideIconData flower = LucideIconData(
     name: 'flower',
@@ -12105,8 +13245,8 @@ class LucideIcons {
   static const LucideIconData folderBookmark = LucideIconData(
     name: 'folder-bookmark',
     paths: [
-      'M12 6v8l3-3 3 3V6',
-      'M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z',
+      'M12 6v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834a.25.25 0 00.406-.195V6',
+      'M20 20a2 2 0 002-2V8a2 2 0 00-2-2h-7.9a2 2 0 01-1.69-.9L9.6 3.9A2 2 0 007.93 3H4a2 2 0 00-2 2v13a2 2 0 002 2z',
     ],
     tags: [
       'folder',
@@ -12609,16 +13749,6 @@ class LucideIcons {
     categories: ['design', 'photography'],
   );
 
-  /// The "frown" icon from Lucide.
-  static const LucideIconData frown = LucideIconData(
-    name: 'frown',
-    circles: [(12.0, 12.0, 10.0)],
-    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
-    paths: ['M16 16s-1.5-2-4-2-4 2-4 2'],
-    tags: ['emoji', 'face', 'bad', 'sad', 'emotion'],
-    categories: ['emoji', 'account'],
-  );
-
   /// The "fuel" icon from Lucide.
   static const LucideIconData fuel = LucideIconData(
     name: 'fuel',
@@ -12678,6 +13808,35 @@ class LucideIcons {
     ],
     tags: ['filter', 'hopper', 'remove', 'delete'],
     categories: ['layout'],
+  );
+
+  /// The "galaxy" icon from Lucide.
+  static const LucideIconData galaxy = LucideIconData(
+    name: 'galaxy',
+    circles: [(12.0, 12.0, 1.0)],
+    paths: [
+      'M16.005 15.108a5.041 6.52 28.25 00-8.008-6.217 5.041 6.52 28.25 008.008 6.217A11.884 7.288-60.76 014.029 7.001',
+      'M17 21h.01',
+      'M7 3h.01',
+      'M7.997 8.891a11.885 7.288-60.756 0111.977 8.107',
+    ],
+    tags: [
+      'astronomy',
+      'space',
+      'stars',
+      'cosmos',
+      'universe',
+      'spiral',
+      'milky way',
+      'nebula',
+      'cosmology',
+      'interstellar',
+      'celestial',
+      'constellation',
+      'stargazing',
+      'spaceflight',
+    ],
+    categories: ['science'],
   );
 
   /// The "gallery-horizontal" icon from Lucide.
@@ -12852,6 +14011,62 @@ class LucideIcons {
     categories: ['gaming', 'devices'],
   );
 
+  /// The "gap-horizontal" icon from Lucide.
+  static const LucideIconData gapHorizontal = LucideIconData(
+    name: 'gap-horizontal',
+    paths: [
+      'M12 2v2',
+      'M12 8v2',
+      'M12 14v2',
+      'M12 20v2',
+      'M21 3h-3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3',
+      'M3 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3',
+    ],
+    tags: [
+      'gap',
+      'spacing',
+      'space',
+      'between',
+      'padding',
+      'margin',
+      'horizontal',
+      'auto layout',
+      'layout',
+      'distance',
+      'frame',
+      'distribute',
+    ],
+    categories: ['design', 'layout'],
+  );
+
+  /// The "gap-vertical" icon from Lucide.
+  static const LucideIconData gapVertical = LucideIconData(
+    name: 'gap-vertical',
+    paths: [
+      'M2 12h2',
+      'M8 12h2',
+      'M14 12h2',
+      'M20 12h2',
+      'M3 21v-3a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3',
+      'M3 3v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3',
+    ],
+    tags: [
+      'gap',
+      'spacing',
+      'space',
+      'between',
+      'padding',
+      'margin',
+      'vertical',
+      'auto layout',
+      'layout',
+      'distance',
+      'frame',
+      'distribute',
+    ],
+    categories: ['design', 'layout'],
+  );
+
   /// The "gauge" icon from Lucide.
   static const LucideIconData gauge = LucideIconData(
     name: 'gauge',
@@ -12928,15 +14143,139 @@ class LucideIcons {
     categories: ['finance'],
   );
 
+  /// The "germ" icon from Lucide.
+  static const LucideIconData germ = LucideIconData(
+    name: 'germ',
+    circles: [(15.0, 9.0, 2.0)],
+    paths: [
+      'm11 2 .925 1.848',
+      'M13 15h.01',
+      'm16 21-1-2.472',
+      'm19 2-1 1.804',
+      'm2 19 2.746-1.373',
+      'm22 16-2.474-2.13',
+      'm22 5-1.804 1',
+      'm3 10 2 2',
+      'M9 16h.01',
+      'M9 20v2',
+      'M9.33 7.035c-.51 1.478-1.786 2.93-3.09 3.794A5 5 0 009 20a12.1 12.1 0 0011.902-9.916A6 6 0 009.33 7.035',
+    ],
+    tags: [
+      'virus',
+      'microbe',
+      'bacterium',
+      'bacteria',
+      'germ',
+      'organism',
+      'cilia',
+      'pathogen',
+      'infection',
+      'disease',
+      'contagion',
+      'contamination',
+      'microbiology',
+      'health',
+      'medicine',
+      'biology',
+      'science',
+      'microorganism',
+      'pandemic',
+      'epidemic',
+      'outbreak',
+      'amoeba',
+      'flu',
+      'security',
+      'single cell',
+      'unicellular',
+      'vaccine',
+      'immunity',
+      'quarantine',
+    ],
+    categories: ['medical', 'science', 'security'],
+  );
+
+  /// The "germ-off" icon from Lucide.
+  static const LucideIconData germOff = LucideIconData(
+    name: 'germ-off',
+    paths: [
+      'm11 2 .925 1.848',
+      'M13 15h.01',
+      'M13.424 7.768a2 2 0 112.808 2.808',
+      'm16 21-1-2.472',
+      'M16.988 16.988A12 12 0 019 20a5 5 0 01-2.759-9.171 8.8 8.8 0 002.307-2.28',
+      'm19 2-1 1.804',
+      'm2 19 2.746-1.373',
+      'm2 2 20 20',
+      'm22 16-2.474-2.13a12 12 0 001.376-3.786 6 6 0 00-10.313-5.151',
+      'm22 5-1.804 1',
+      'm3 10 2 2',
+      'M9 16h.01',
+      'M9 20v2',
+    ],
+    tags: [
+      'virus',
+      'microbe',
+      'bacterium',
+      'bacteria',
+      'germ',
+      'organism',
+      'cilia',
+      'pathogen',
+      'infection',
+      'disease',
+      'contagion',
+      'contamination',
+      'microbiology',
+      'health',
+      'medicine',
+      'biology',
+      'science',
+      'microorganism',
+      'pandemic',
+      'epidemic',
+      'outbreak',
+      'amoeba',
+      'flu',
+      'security',
+      'single cell',
+      'unicellular',
+      'vaccine',
+      'immunity',
+      'quarantine',
+    ],
+    categories: ['medical', 'science', 'security'],
+  );
+
   /// The "ghost" icon from Lucide.
   static const LucideIconData ghost = LucideIconData(
     name: 'ghost',
     paths: [
-      'M9 10h.01',
-      'M15 10h.01',
-      'M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z',
+      'M15 10v1',
+      'M7.528 20.472a1.6 1.6 0 012.277 0l1.057 1.056a1.6 1.6 0 002.276 0l1.057-1.056a1.6 1.6 0 012.277 0l1.114 1.114a1.4 1.4 0 002.414-1V10a8 8 0 00-16 0v10.586a1.4 1.4 0 002.414 1z',
+      'M9 10v1',
     ],
-    tags: ['pac-man', 'spooky'],
+    tags: [
+      'spirit',
+      'haunt',
+      'specter',
+      'apparition',
+      'wraith',
+      'shade',
+      'phantom',
+      'entity',
+      'shadow',
+      'silhouette',
+      'pac-man',
+      'spooky',
+      'halloween',
+      'haunted',
+      'invisible',
+      'hidden',
+      'empty',
+      'dead',
+      'obsolete',
+      'outdated',
+    ],
     categories: ['gaming'],
   );
 
@@ -13074,7 +14413,12 @@ class LucideIcons {
   static const LucideIconData gitMergeConflict = LucideIconData(
     name: 'git-merge-conflict',
     circles: [(18.0, 18.0, 3.0)],
-    paths: ['M12 6h4a2 2 0 0 1 2 2v7', 'M6 12v9', 'M9 3 3 9', 'M9 9 3 3'],
+    paths: [
+      'M12 6h4a2 2 0 0 1 2 2v7',
+      'M6 12v9',
+      'm8.5 3.5-5 5',
+      'm8.5 8.5-5-5',
+    ],
     tags: ['code', 'version control', 'commits', 'diff', 'error', 'conflict'],
     categories: ['development'],
   );
@@ -13101,8 +14445,8 @@ class LucideIcons {
   /// The "git-pull-request-closed" icon from Lucide.
   static const LucideIconData gitPullRequestClosed = LucideIconData(
     name: 'git-pull-request-closed',
-    circles: [(6.0, 6.0, 3.0), (18.0, 18.0, 3.0)],
-    paths: ['M6 9v12', 'm21 3-6 6', 'm21 9-6-6', 'M18 11.5V15'],
+    circles: [(18.0, 18.0, 3.0), (6.0, 6.0, 3.0)],
+    paths: ['m15.5 3.5 5 5', 'm15.5 8.5 5-5', 'M18 11.62V15', 'M6 9v12'],
     tags: ['code', 'version control', 'rejected', 'closed', 'cancelled', 'x'],
     categories: ['development'],
   );
@@ -13197,6 +14541,33 @@ class LucideIcons {
       'status',
     ],
     categories: ['navigation'],
+  );
+
+  /// The "globe-code" icon from Lucide.
+  static const LucideIconData globeCode = LucideIconData(
+    name: 'globe-code',
+    paths: [
+      'M15.5 10 13 7.5 15.5 5',
+      'M15.861 14A14.5 14.5 0 0112 22a14.48 14.48 0 010-20 10 10 0 109.888 11.5',
+      'M19.5 5 22 7.5 19.5 10',
+      'M2 12h8.5',
+    ],
+    tags: [
+      'website',
+      'internet',
+      'globe',
+      'connection',
+      'network',
+      'digital',
+      'access',
+      'global',
+      'link',
+      'world',
+      'browser',
+      'language',
+      'translate',
+    ],
+    categories: ['navigation', 'development'],
   );
 
   /// The "globe-lock" icon from Lucide.
@@ -13342,7 +14713,7 @@ class LucideIcons {
       'academic',
       'hat',
       'diploma',
-      'bachlor\'s',
+      'bachelor\'s',
       'master\'s',
       'doctorate',
     ],
@@ -13456,8 +14827,8 @@ class LucideIcons {
     name: 'grid-2x2-x',
     paths: [
       'M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3',
-      'm16 16 5 5',
-      'm16 21 5-5',
+      'm16.5 16.5 5 5',
+      'm16.5 21.5 5-5',
     ],
     tags: [
       'table',
@@ -13956,7 +15327,7 @@ class LucideIcons {
       'M14 6a6 6 0 0 1 6 6v3',
       'M4 15v-3a6 6 0 0 1 6-6',
     ],
-    tags: ['helmet', 'construction', 'safety', 'savety'],
+    tags: ['helmet', 'construction', 'safety'],
     categories: ['tools'],
   );
 
@@ -14403,29 +15774,6 @@ class LucideIcons {
     categories: ['text', 'design'],
   );
 
-  /// The "history" icon from Lucide.
-  static const LucideIconData history = LucideIconData(
-    name: 'history',
-    paths: [
-      'M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8',
-      'M3 3v5h5',
-      'M12 7v5l4 2',
-    ],
-    tags: [
-      'time',
-      'redo',
-      'undo',
-      'rewind',
-      'timeline',
-      'version',
-      'time machine',
-      'backup',
-      'rotate',
-      'ccw',
-    ],
-    categories: ['arrows', 'time'],
-  );
-
   /// The "hop" icon from Lucide.
   static const LucideIconData hop = LucideIconData(
     name: 'hop',
@@ -14527,6 +15875,41 @@ class LucideIcons {
     categories: ['time', 'gaming'],
   );
 
+  /// The "hourglass-cog" icon from Lucide.
+  static const LucideIconData hourglassCog = LucideIconData(
+    name: 'hourglass-cog',
+    circles: [(18.0, 18.0, 3.0)],
+    paths: [
+      'm14.305 19.53.923-.382',
+      'm15.228 16.852-.923-.383',
+      'm16.852 15.228-.383-.923',
+      'm16.852 20.772-.383.924',
+      'M17 2v4.172a2 2 0 0 1-.586 1.414l-8.828 8.828A2 2 0 0 0 7 17.828V22',
+      'm19.148 15.228.383-.923',
+      'm19.53 21.696-.382-.924',
+      'm20.772 16.852.924-.383',
+      'm20.772 19.148.924.383',
+      'M5 22h6.159',
+      'M5 2h14',
+      'M7 2v4.172a2 2 0 0 0 .586 1.414l5.188 5.188',
+    ],
+    tags: [
+      'timer',
+      'time',
+      'sandglass',
+      'duration',
+      'settings',
+      'gear',
+      'cog',
+      'edit',
+      'configuration',
+      'countdown',
+      'timeout',
+      'expiration',
+    ],
+    categories: ['time', 'tools'],
+  );
+
   /// The "house" icon from Lucide.
   static const LucideIconData house = LucideIconData(
     name: 'house',
@@ -14536,6 +15919,35 @@ class LucideIcons {
     ],
     tags: ['home', 'living', 'building', 'residence', 'architecture'],
     categories: ['buildings', 'home', 'navigation'],
+  );
+
+  /// The "house-cog" icon from Lucide.
+  static const LucideIconData houseCog = LucideIconData(
+    name: 'house-cog',
+    circles: [(18.0, 18.0, 3.0)],
+    paths: [
+      'M10.584 21H5a2 2 0 01-2-2v-9a2 2 0 01.709-1.527l7-6a2 2 0 012.582 0l7 6A2 2 0 0121 10.001v.583',
+      'M14 12H10a1 1 0 00-1 1v8',
+      'm14.305 19.53.923-.382',
+      'm15.229 16.852-.924-.383',
+      'm16.852 15.228-.383-.923',
+      'm16.852 20.773-.383.924',
+      'm19.148 15.228.383-.923',
+      'm19.53 21.697-.382-.924',
+      'm20.773 16.852.922-.383',
+      'm20.773 19.148.922.383',
+    ],
+    tags: [
+      'home',
+      'building',
+      'residence',
+      'settings',
+      'gear',
+      'configuration',
+      'property',
+      'automation',
+    ],
+    categories: ['buildings', 'home'],
   );
 
   /// The "house-heart" icon from Lucide.
@@ -14612,6 +16024,33 @@ class LucideIcons {
     categories: ['home', 'buildings', 'connectivity'],
   );
 
+  /// The "houses" icon from Lucide.
+  static const LucideIconData houses = LucideIconData(
+    name: 'houses',
+    paths: [
+      'm12.681 4.24.834-.715a1.45 1.45 0 011.88 0l5.09 4.364A1.45 1.45 0 0121 9v6.546a1.45 1.45 0 01-1 1.381',
+      'M15.485 11.889A1.45 1.45 0 0116 13v6.546A1.454 1.454 0 0114.546 21H4.364a1.454 1.454 0 01-1.454-1.454V13a1.45 1.45 0 01.515-1.111l5.09-4.364a1.45 1.45 0 011.88 0z',
+      'M7.41 20.546v-4a1 1 0 011-1h2a1 1 0 011 1v4',
+    ],
+    tags: [
+      'homes',
+      'housing',
+      'estate',
+      'living',
+      'buildings',
+      'development',
+      'residences',
+      'residential',
+      'village',
+      'neighbourhood',
+      'accommodation',
+      'community',
+      'dwellings',
+      'architecture',
+    ],
+    categories: ['buildings', 'home'],
+  );
+
   /// The "ice-cream-bowl" icon from Lucide.
   static const LucideIconData iceCreamBowl = LucideIconData(
     name: 'ice-cream-bowl',
@@ -14639,9 +16078,9 @@ class LucideIcons {
   /// The "id-card" icon from Lucide.
   static const LucideIconData idCard = LucideIconData(
     name: 'id-card',
-    circles: [(9.0, 11.0, 2.0)],
+    circles: [(9.0, 12.0, 3.0)],
     rects: [(2.0, 5.0, 20.0, 14.0, 2.0)],
-    paths: ['M16 10h2', 'M16 14h2', 'M6.17 15a3 3 0 0 1 5.66 0'],
+    paths: ['M13 19a4 4 0 00-8 0', 'M16 10h2', 'M16 14h2'],
     tags: ['card', 'badge', 'identity', 'authentication', 'secure'],
     categories: ['security', 'account'],
   );
@@ -14652,8 +16091,8 @@ class LucideIcons {
     circles: [(12.0, 15.0, 3.0)],
     paths: [
       'M13.5 8h-3',
-      'm15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3',
-      'M16.899 22A5 5 0 0 0 7.1 22',
+      'm15 2-1 2h3a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2h3',
+      'M16 22a4 4 0 00-8 0',
       'm9 2 3 6',
     ],
     tags: [
@@ -14906,6 +16345,37 @@ class LucideIcons {
     categories: ['arrows', 'design'],
   );
 
+  /// The "iv-bag" icon from Lucide.
+  static const LucideIconData ivBag = LucideIconData(
+    name: 'iv-bag',
+    paths: [
+      'M12 18v2a2 2 0 002 2h6',
+      'M6 11c.72.5 1.44 1 3 1 3 0 3-2 6-2 1.56 0 2.28.5 3 1',
+      'M9.293 3c.453 0 .887-.18 1.207-.5s.754-.5 1.207-.5h.586c.453 0 .887.18 1.207.5s.754.5 1.207.5H16a2 2 0 012 2v11a2 2 0 01-2 2H8a2 2 0 01-2-2V5a2 2 0 012-2z',
+    ],
+    tags: [
+      'intravenous',
+      'therapy',
+      'infusion',
+      'medicine',
+      'medication',
+      'treatment',
+      'healthcare',
+      'hydration',
+      'vitamin',
+      'supplement',
+      'blood',
+      'donation',
+      'chemotherapy',
+      'clinic',
+      'feeding tube',
+      'administration',
+      'health',
+      'regeneration',
+    ],
+    categories: ['medical'],
+  );
+
   /// The "japanese-yen" icon from Lucide.
   static const LucideIconData japaneseYen = LucideIconData(
     name: 'japanese-yen',
@@ -14978,10 +16448,10 @@ class LucideIcons {
   /// The "key" icon from Lucide.
   static const LucideIconData key = LucideIconData(
     name: 'key',
-    circles: [(7.5, 15.5, 5.5)],
+    circles: [(15.5, 7.5, 5.5)],
     paths: [
-      'm15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4',
-      'm21 2-9.6 9.6',
+      'm2 21 9.6-9.6',
+      'm7.5 15.5 2.3 2.3a1 1 0 0 1 0 1.4l-2.1 2.1a1 1 0 0 1-1.4 0L4 19',
     ],
     tags: [
       'password',
@@ -15102,6 +16572,30 @@ class LucideIcons {
     ],
     tags: ['unkeys', 'layout', 'spell', 'settings', 'mouse'],
     categories: ['devices', 'text', 'development'],
+  );
+
+  /// The "lambda" icon from Lucide.
+  static const LucideIconData lambda = LucideIconData(
+    name: 'lambda',
+    paths: [
+      'M11.38 10 5 20',
+      'M19 18a2 2 0 01-2 2c-4.87-.003-5.052-16-10-16a2 2 0 00-2 2',
+    ],
+    tags: [
+      'greek',
+      'symbol',
+      'math',
+      'function',
+      'programming',
+      'serverless',
+      'anonymous',
+      'functional',
+      'cloud',
+      'wavelength',
+      'calculus',
+      'linear algebra',
+    ],
+    categories: ['development', 'math', 'science', 'text'],
   );
 
   /// The "lamp" icon from Lucide.
@@ -15324,14 +16818,62 @@ class LucideIcons {
     categories: ['arrows', 'design', 'cursors'],
   );
 
-  /// The "laugh" icon from Lucide.
-  static const LucideIconData laugh = LucideIconData(
-    name: 'laugh',
-    circles: [(12.0, 12.0, 10.0)],
-    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
-    paths: ['M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z'],
-    tags: ['emoji', 'face', 'happy', 'good', 'emotion'],
-    categories: ['emoji'],
+  /// The "layer-arrow-down" icon from Lucide.
+  static const LucideIconData layerArrowDown = LucideIconData(
+    name: 'layer-arrow-down',
+    paths: [
+      'M12 10v10',
+      'M22 10a1 1 0 01-.59.92l-5.077 2.308',
+      'M22.017 10.005a1 1 0 00-.597-.916l-8.59-3.91a2 2 0 00-1.66.001L2.6 9.08a1 1 0 00-.02 1.831l5.093 2.316',
+      'm9 17 3 3 3-3',
+    ],
+    tags: [
+      'move back',
+      'backward',
+      'lower',
+      'demote',
+      'step back',
+      'behind',
+      'reorder',
+      'arrange',
+      'layer',
+      'layers',
+      'stack',
+      'stacking',
+      'z-index',
+      'depth',
+      'graphics',
+      'design',
+    ],
+    categories: ['design', 'layout'],
+  );
+
+  /// The "layer-arrow-up" icon from Lucide.
+  static const LucideIconData layerArrowUp = LucideIconData(
+    name: 'layer-arrow-up',
+    paths: [
+      'M12 14V4',
+      'M7.674 10.774 2.58 13.09a1 1 0 000 1.822l8.6 3.91a2 2 0 001.65 0l8.58-3.9a1 1 0 00.59-.92 1 1 0 00-.59-.922l-5.078-2.308',
+      'm9 7 3-3 3 3',
+    ],
+    tags: [
+      'move forward',
+      'forward',
+      'raise',
+      'lift',
+      'promote',
+      'advance',
+      'step forward',
+      'reorder',
+      'arrange',
+      'stack',
+      'stacking',
+      'z-index',
+      'depth',
+      'graphics',
+      'design',
+    ],
+    categories: ['design', 'layout'],
   );
 
   /// The "layers" icon from Lucide.
@@ -15366,6 +16908,69 @@ class LucideIcons {
       'shortcuts',
     ],
     categories: ['design', 'layout'],
+  );
+
+  /// The "layers-arrow-down" icon from Lucide.
+  static const LucideIconData layersArrowDown = LucideIconData(
+    name: 'layers-arrow-down',
+    paths: [
+      'M12 7v15',
+      'M2 12a1 1 0 00.58.91l5.093 2.316',
+      'M22 12a1 1 0 01-.59.92l-5.077 2.308',
+      'M8 10.37 2.6 7.91a1 1 0 010-1.831l8.57-3.9a2 2 0 011.66.001l8.59 3.91a1 1 0 010 1.831l-5.392 2.45',
+      'm9 19 3 3 3-3',
+    ],
+    tags: [
+      'send to back',
+      'send backward',
+      'back',
+      'background',
+      'bottom',
+      'bottommost',
+      'lower',
+      'demote',
+      'behind',
+      'reorder',
+      'arrange',
+      'stack',
+      'stacking',
+      'z-index',
+      'depth',
+      'graphics',
+      'design',
+    ],
+    categories: ['design', 'layout'],
+  );
+
+  /// The "layers-arrow-up" icon from Lucide.
+  static const LucideIconData layersArrowUp = LucideIconData(
+    name: 'layers-arrow-up',
+    paths: [
+      'M12 12V2',
+      'M2 17.002a1 1 0 00.58.91l8.6 3.91a2 2 0 001.65 0l8.58-3.9a1 1 0 00.59-.92',
+      'M7.674 8.774 2.58 11.09a1 1 0 000 1.822l8.6 3.91a2 2 0 001.65 0l8.58-3.9a1 1 0 00.59-.92 1 1 0 00-.59-.922l-5.078-2.308',
+      'm9 5 3-3 3 3',
+    ],
+    tags: [
+      'bring to front',
+      'bring forward',
+      'front',
+      'foreground',
+      'top',
+      'topmost',
+      'raise',
+      'lift',
+      'promote',
+      'reorder',
+      'arrange',
+      'stack',
+      'stacking',
+      'z-index',
+      'depth',
+      'graphics',
+      'design',
+    ],
+    categories: ['design', 'layout', 'arrows'],
   );
 
   /// The "layers-minus" icon from Lucide.
@@ -15417,6 +17022,50 @@ class LucideIcons {
     categories: ['design', 'layout'],
   );
 
+  /// The "layout-arrow-down" icon from Lucide.
+  static const LucideIconData layoutArrowDown = LucideIconData(
+    name: 'layout-arrow-down',
+    rects: [(3.0, 3.0, 7.0, 7.0, 1.0), (3.0, 14.0, 7.0, 7.0, 1.0)],
+    paths: ['M18 3v18', 'm21 18-3 3-3-3'],
+    tags: [
+      'layout',
+      'direction',
+      'flex',
+      'flexbox',
+      'flex-direction',
+      'column',
+      'auto layout',
+      'vertical',
+      'arrange',
+      'order',
+      'flow',
+      'stack',
+    ],
+    categories: ['design', 'layout'],
+  );
+
+  /// The "layout-arrow-right" icon from Lucide.
+  static const LucideIconData layoutArrowRight = LucideIconData(
+    name: 'layout-arrow-right',
+    rects: [(3.0, 3.0, 7.0, 7.0, 1.0), (14.0, 3.0, 7.0, 7.0, 1.0)],
+    paths: ['M3 18h18', 'm18 21 3-3-3-3'],
+    tags: [
+      'layout',
+      'direction',
+      'flex',
+      'flexbox',
+      'flex-direction',
+      'row',
+      'auto layout',
+      'horizontal',
+      'arrange',
+      'order',
+      'flow',
+      'stack',
+    ],
+    categories: ['design', 'layout'],
+  );
+
   /// The "layout-dashboard" icon from Lucide.
   static const LucideIconData layoutDashboard = LucideIconData(
     name: 'layout-dashboard',
@@ -15427,6 +17076,31 @@ class LucideIcons {
       (3.0, 16.0, 7.0, 5.0, 1.0),
     ],
     tags: ['masonry', 'brick'],
+    categories: ['design', 'layout'],
+  );
+
+  /// The "layout-freeform" icon from Lucide.
+  static const LucideIconData layoutFreeform = LucideIconData(
+    name: 'layout-freeform',
+    rects: [
+      (3.0, 3.0, 7.0, 7.0, 1.0),
+      (14.0, 4.0, 7.0, 7.0, 1.0),
+      (4.0, 14.0, 7.0, 7.0, 1.0),
+    ],
+    tags: [
+      'layout',
+      'freeform',
+      'free',
+      'absolute',
+      'position',
+      'auto layout',
+      'unaligned',
+      'scattered',
+      'arrange',
+      'blocks',
+      'canvas',
+      'frame',
+    ],
     categories: ['design', 'layout'],
   );
 
@@ -15500,8 +17174,8 @@ class LucideIcons {
   static const LucideIconData leaf = LucideIconData(
     name: 'leaf',
     paths: [
-      'M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z',
-      'M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12',
+      'M11 20a10 10 0 0010-10 25.9 25.9 0 00-1.04-7.281 1 1 0 00-1.755-.325C15.833 5.5 13 5.5 9.8 6.1A7 7 0 0011 20',
+      'M2 21a5 5 0 012.911-4.544C7.613 15.212 8.351 15.24 11 13',
     ],
     tags: ['sustainability', 'nature', 'energy', 'plant', 'autumn'],
     categories: ['nature', 'sustainability', 'seasons'],
@@ -15521,10 +17195,11 @@ class LucideIcons {
   /// The "lectern" icon from Lucide.
   static const LucideIconData lectern = LucideIconData(
     name: 'lectern',
-    rects: [(8.0, 10.0, 8.0, 12.0, 1.0)],
     paths: [
-      'M16 12h3a2 2 0 0 0 1.902-1.38l1.056-3.333A1 1 0 0 0 21 6H3a1 1 0 0 0-.958 1.287l1.056 3.334A2 2 0 0 0 5 12h3',
-      'M18 6V3a1 1 0 0 0-1-1h-3',
+      'M15 13h4a2 2 0 001.901-1.38l1.057-4.333A1 1 0 0021 6H3a1 1 0 00-.958 1.287L3.1 11.621A2 2 0 005.001 13h4',
+      'M15 22V11a1 1 0 00-1-1h-4a1 1 0 00-1 1v11',
+      'M18 22H6',
+      'M18 6V3a1 1 0 00-1-1h-3',
     ],
     tags: ['pulpit', 'podium', 'stand'],
     categories: ['communication', 'multimedia'],
@@ -15576,6 +17251,29 @@ class LucideIcons {
       'science',
     ],
     categories: ['science', 'tools', 'shapes'],
+  );
+
+  /// The "letters" icon from Lucide.
+  static const LucideIconData letters = LucideIconData(
+    name: 'letters',
+    paths: [
+      'M15 8H9',
+      'M21 15.354a4 4 0 100 5.292',
+      'M3 18h4a2 2 0 010 4H3.5a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5H6a2 2 0 010 4',
+      'm8 10 3.453-7.648a.6.6 0 011.094 0L16 10',
+    ],
+    tags: [
+      'abc',
+      'alphabet',
+      'alphabetical',
+      'text',
+      'characters',
+      'language',
+      'typography',
+      'literacy',
+      'spelling',
+    ],
+    categories: ['text'],
   );
 
   /// The "library" icon from Lucide.
@@ -15724,6 +17422,96 @@ class LucideIcons {
     categories: ['photography'],
   );
 
+  /// The "lighthouse" icon from Lucide.
+  static const LucideIconData lighthouse = LucideIconData(
+    name: 'lighthouse',
+    paths: [
+      'M12 3V2',
+      'M16.066 16.865 7 22l2-11V6a3 3 0 016 0v5l2 11',
+      'm19.792 4.5.866-.5',
+      'm19.797 13.5.866.5',
+      'M21 9h1',
+      'M3 9H2',
+      'm4.203 13.5-.866.5',
+      'M4.208 4.5 3.342 4',
+      'M5.5 22h13',
+      'm7.932 16.875 7.377-4.178',
+      'M8 11h8',
+      'M8 7h8',
+    ],
+    tags: [
+      'lighthouse',
+      'beacon',
+      'coast',
+      'navigation',
+      'tower',
+      'sea',
+      'ocean',
+      'maritime',
+      'guide',
+      'safety',
+      'light',
+      'shine',
+      'port',
+      'marine',
+      'faro',
+      'signal',
+      'nautical',
+      'harbor',
+      'shore',
+      'lightbeam',
+      'wayfinding',
+      'guidance',
+      'onboarding',
+      'help',
+      'landmark',
+    ],
+    categories: ['buildings', 'navigation', 'travel'],
+  );
+
+  /// The "line-dot-bottom-vertical" icon from Lucide.
+  static const LucideIconData lineDotBottomVertical = LucideIconData(
+    name: 'line-dot-bottom-vertical',
+    circles: [(12.0, 18.0, 3.0)],
+    paths: ['M12 3v12'],
+    tags: [
+      'code',
+      'version',
+      'control',
+      'station',
+      'waypoint',
+      'start',
+      'first',
+    ],
+    categories: ['development', 'navigation'],
+  );
+
+  /// The "line-dot-left-horizontal" icon from Lucide.
+  static const LucideIconData lineDotLeftHorizontal = LucideIconData(
+    name: 'line-dot-left-horizontal',
+    circles: [(6.0, 12.0, 3.0)],
+    paths: ['M9 12h12'],
+    tags: [
+      'line',
+      'dot',
+      'left',
+      'horizontal',
+      'shape',
+      'symbol',
+      'navigation',
+      'arrow',
+      'pointer',
+      'code',
+      'version control',
+      'waypoint',
+      'stop',
+      'start',
+      'first',
+      'station',
+    ],
+    categories: ['development', 'navigation'],
+  );
+
   /// The "line-dot-right-horizontal" icon from Lucide.
   static const LucideIconData lineDotRightHorizontal = LucideIconData(
     name: 'line-dot-right-horizontal',
@@ -15732,6 +17520,28 @@ class LucideIcons {
     tags: [
       'code',
       'version control',
+      'waypoint',
+      'stop',
+      'station',
+      'last',
+      'end',
+    ],
+    categories: ['development', 'navigation'],
+  );
+
+  /// The "line-dot-top-vertical" icon from Lucide.
+  static const LucideIconData lineDotTopVertical = LucideIconData(
+    name: 'line-dot-top-vertical',
+    circles: [(12.0, 6.0, 3.0)],
+    paths: ['M12 9v12'],
+    tags: [
+      'arrow',
+      'pointer',
+      'direction',
+      'indicator',
+      'code',
+      'version',
+      'control',
       'waypoint',
       'stop',
       'station',
@@ -15888,6 +17698,27 @@ class LucideIcons {
       'vertical',
     ],
     categories: ['text', 'arrows'],
+  );
+
+  /// The "list-clock" icon from Lucide.
+  static const LucideIconData listClock = LucideIconData(
+    name: 'list-clock',
+    circles: [(16.0, 15.0, 6.0)],
+    paths: ['M16 13v2.2l1.6 1', 'M3 12h3.458', 'M3 19h3.832', 'M3 5h18'],
+    tags: [
+      'history',
+      'log',
+      'clock',
+      'time',
+      'recent',
+      'updated',
+      'revision',
+      'activity',
+      'timestamp',
+      'audit',
+      'list',
+    ],
+    categories: ['text', 'time', 'notifications'],
   );
 
   /// The "list-collapse" icon from Lucide.
@@ -16377,6 +18208,33 @@ class LucideIcons {
     categories: ['text', 'account', 'mail'],
   );
 
+  /// The "mail-badge" icon from Lucide.
+  static const LucideIconData mailBadge = LucideIconData(
+    name: 'mail-badge',
+    circles: [(19.0, 14.0, 3.0)],
+    paths: [
+      'M22 7.7V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8.25',
+      'M12 12.996a1.94 1.94 0 0 1-1.03-.296L2 7',
+      'm20.69 16.479 1.29 4.88a.5.5 0 0 1-.698.591l-1.843-.849a1 1 0 0 0-.879.001l-1.846.85a.5.5 0 0 1-.692-.593l1.29-4.88',
+    ],
+    tags: [
+      'email',
+      'message',
+      'letter',
+      'certified',
+      'registered',
+      'seal',
+      'stamp',
+      'verified',
+      'envelope',
+      'rosette',
+      'signed',
+      'official',
+      'delivery',
+    ],
+    categories: ['mail', 'communication', 'security'],
+  );
+
   /// The "mail-check" icon from Lucide.
   static const LucideIconData mailCheck = LucideIconData(
     name: 'mail-check',
@@ -16402,6 +18260,40 @@ class LucideIcons {
     categories: ['mail'],
   );
 
+  /// The "mail-clock" icon from Lucide.
+  static const LucideIconData mailClock = LucideIconData(
+    name: 'mail-clock',
+    circles: [(16.0, 16.0, 6.0)],
+    paths: [
+      'M16 14v2.2l1.6 1',
+      'm22 7-.759.484',
+      'M6.835 20H4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2v2',
+      'M7.605 10.567 2 7',
+    ],
+    tags: [
+      'email',
+      'message',
+      'letter',
+      'unread',
+      'scheduled',
+      'delayed',
+      'sendlater',
+      'delivery',
+      'reminder',
+      'pending',
+      'outgoing',
+      'timer',
+    ],
+    categories: [
+      'text',
+      'account',
+      'mail',
+      'time',
+      'notifications',
+      'communication',
+    ],
+  );
+
   /// The "mail-minus" icon from Lucide.
   static const LucideIconData mailMinus = LucideIconData(
     name: 'mail-minus',
@@ -16422,6 +18314,30 @@ class LucideIcons {
       'm22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10',
     ],
     tags: ['email', 'message', 'letter', 'read'],
+    categories: ['mail'],
+  );
+
+  /// The "mail-pen" icon from Lucide.
+  static const LucideIconData mailPen = LucideIconData(
+    name: 'mail-pen',
+    paths: [
+      'M15.363 17.634a2 2 0 00-.506.854l-.837 2.87a.5.5 0 00.62.62l2.87-.837a2 2 0 00.854-.506l3.013-3.009a1 1 0 10-3.004-3.004z',
+      'M22 10.38V6a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2h6.25',
+      'm22 7-8.991 5.727a2 2 0 01-2.009 0L2 7',
+    ],
+    tags: [
+      'email',
+      'message',
+      'letter',
+      'pen',
+      'edit',
+      'compose',
+      'draft',
+      'write',
+      'writing',
+      'create',
+      'reply',
+    ],
     categories: ['mail'],
   );
 
@@ -16482,10 +18398,10 @@ class LucideIcons {
   static const LucideIconData mailX = LucideIconData(
     name: 'mail-x',
     paths: [
-      'M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h9',
-      'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7',
-      'm17 17 4 4',
-      'm21 17-4 4',
+      'M22 12.532V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8.792',
+      'm22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7',
+      'm16.5 16.5 5 5',
+      'm21.5 16.5-5 5',
     ],
     tags: ['email', 'message', 'letter', 'remove', 'delete'],
     categories: ['mail'],
@@ -16793,8 +18709,8 @@ class LucideIcons {
     name: 'map-pinned',
     circles: [(12.0, 8.0, 2.0)],
     paths: [
-      'M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0',
-      'M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712',
+      'M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 01-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0112 0',
+      'M4.474 15h-.197a1 1 0 00-.969.753l-1.097 4.35a1.5 1.5 0 001.444 1.898L20.344 22a1.5 1.5 0 001.446-1.897l-1.098-4.35a1 1 0 00-.969-.753h-.197',
     ],
     tags: ['location', 'waypoint', 'marker', 'drop'],
     categories: ['navigation', 'travel', 'account'],
@@ -16935,15 +18851,6 @@ class LucideIcons {
     categories: ['multimedia', 'notifications'],
   );
 
-  /// The "meh" icon from Lucide.
-  static const LucideIconData meh = LucideIconData(
-    name: 'meh',
-    circles: [(12.0, 12.0, 10.0)],
-    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
-    tags: ['emoji', 'face', 'neutral', 'emotion'],
-    categories: ['emoji'],
-  );
-
   /// The "memory-stick" icon from Lucide.
   static const LucideIconData memoryStick = LucideIconData(
     name: 'memory-stick',
@@ -17017,7 +18924,7 @@ class LucideIcons {
     name: 'message-circle-check',
     paths: [
       'M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719',
-      'm9 12 2 2 4-4',
+      'm16 9-5.5 5.5L8 12',
     ],
     tags: [
       'comment',
@@ -17079,6 +18986,44 @@ class LucideIcons {
       'draft',
     ],
     categories: ['social'],
+  );
+
+  /// The "message-circle-dashed-check" icon from Lucide.
+  static const LucideIconData messageCircleDashedCheck = LucideIconData(
+    name: 'message-circle-dashed-check',
+    paths: [
+      'M10.1 2.182a10 10 0 013.8 0',
+      'M13.9 21.818a10 10 0 01-3.8 0',
+      'M17.609 3.72a10 10 0 012.69 2.7',
+      'M2.182 13.9a10 10 0 010-3.8',
+      'M20.28 17.61a10 10 0 01-2.7 2.69',
+      'M21.818 10.1a10 10 0 010 3.8',
+      'M3.721 6.391a10 10 0 012.7-2.69',
+      'm6.163 21.117-2.906.85a1 1 0 01-1.236-1.169l.965-2.98',
+      'm16 9-5.5 5.5L8 12',
+    ],
+    tags: [
+      'comment',
+      'chat',
+      'conversation',
+      'dialog',
+      'feedback',
+      'speech bubble',
+      'draft',
+      'pending',
+      'provisional',
+      'verification',
+      'confirmation',
+      'success',
+      'status',
+      'check',
+      'approval',
+      'moderate',
+      'resolved',
+      'done',
+      'complete',
+    ],
+    categories: ['social', 'account'],
   );
 
   /// The "message-circle-heart" icon from Lucide.
@@ -17676,6 +19621,35 @@ class LucideIcons {
     categories: ['social'],
   );
 
+  /// The "messages-circle" icon from Lucide.
+  static const LucideIconData messagesCircle = LucideIconData(
+    name: 'messages-circle',
+    paths: [
+      'M19.95 10.05a7 7 0 011.412 7.872 1 1 0 00-.058.787l.675 2.089a1 1 0 01-1.236 1.168l-2.155-.631a1 1 0 00-.745.06 7 7 0 01-7.793-1.445',
+      'M2.696 12.708a1 1 0 00-.058-.785 7 7 0 113.518 3.473 1 1 0 00-.744-.061l-2.155.63a1 1 0 01-1.236-1.167z',
+    ],
+    tags: [
+      'comment',
+      'chat',
+      'conversation',
+      'dialog',
+      'feedback',
+      'speech bubbles',
+      'copy',
+      'multiple',
+      'discussion',
+      'interview',
+      'debate',
+      'group',
+      'groupchat',
+      'threads',
+      'unread',
+      'bubble',
+      'messaging',
+    ],
+    categories: ['social', 'communication', 'notifications'],
+  );
+
   /// The "messages-square" icon from Lucide.
   static const LucideIconData messagesSquare = LucideIconData(
     name: 'messages-square',
@@ -17741,6 +19715,40 @@ class LucideIcons {
     categories: ['devices', 'communication', 'connectivity', 'multimedia'],
   );
 
+  /// The "mic-audio-lines" icon from Lucide.
+  static const LucideIconData micAudioLines = LucideIconData(
+    name: 'mic-audio-lines',
+    rects: [(10.0, 9.0, 4.0, 8.0, 2.0)],
+    paths: [
+      'M10 3v2.341',
+      'M12 17v4',
+      'M14 5v.341',
+      'M18 5v13',
+      'M2 10v3',
+      'M22 10v3',
+      'M6 6v11',
+      'M9 21h6',
+    ],
+    tags: [
+      'podcast',
+      'audio',
+      'waveform',
+      'sound waves',
+      'microphone',
+      'talk',
+      'voice',
+      'speech',
+      'stream',
+      'recording',
+      'transcription',
+      'dictation',
+      'voice assistant',
+      'noise cancellation',
+      'sound processing',
+    ],
+    categories: ['devices', 'communication', 'multimedia'],
+  );
+
   /// The "mic-off" icon from Lucide.
   static const LucideIconData micOff = LucideIconData(
     name: 'mic-off',
@@ -17753,6 +19761,39 @@ class LucideIcons {
       'M9 9v3a3 3 0 0 0 5.12 2.12',
     ],
     tags: ['record', 'sound', 'mute', 'microphone'],
+    categories: ['devices', 'communication', 'connectivity', 'multimedia'],
+  );
+
+  /// The "mic-signal" icon from Lucide.
+  static const LucideIconData micSignal = LucideIconData(
+    name: 'mic-signal',
+    rects: [(10.0, 9.0, 4.0, 8.0, 2.0)],
+    paths: [
+      'M12 17v4',
+      'M18 11a6 6 0 00-3-5.197',
+      'M2 11a10 10 0 015-8.662',
+      'M22 11a10 10 0 00-5-8.662',
+      'M6 11a6 6 0 013-5.197',
+      'M9 21h6',
+    ],
+    tags: [
+      'podcast',
+      'audio',
+      'broadcast',
+      'signal',
+      'wireless',
+      'radio',
+      'airwaves',
+      'microphone',
+      'talk',
+      'voice',
+      'speech',
+      'stream',
+      'live',
+      'voice chat',
+      'push to talk',
+      'transmission',
+    ],
     categories: ['devices', 'communication', 'connectivity', 'multimedia'],
   );
 
@@ -17833,6 +19874,39 @@ class LucideIcons {
     paths: ['M18 8v7', 'M6 19v2', 'M18 19v2'],
     tags: ['oven', 'cooker', 'toaster oven', 'bake'],
     categories: ['food-beverage', 'home'],
+  );
+
+  /// The "midi-port" icon from Lucide.
+  static const LucideIconData midiPort = LucideIconData(
+    name: 'midi-port',
+    circles: [(12.0, 12.0, 10.0)],
+    paths: [
+      'M12 18h.01',
+      'M15 2.458V5a1 1 0 01-1 1h-4a1 1 0 01-1-1V2.458',
+      'M16 16h.01',
+      'M18 12h.01',
+      'M6 12h.01',
+      'M8 16h.01',
+    ],
+    tags: [
+      'musical instrument digital interface',
+      'port',
+      'connector',
+      'socket',
+      'jack',
+      'din',
+      '5-pin',
+      'audio',
+      'music',
+      'synthesizer',
+      'keyboard',
+      'controller',
+      'interface',
+      'input',
+      'output',
+      'io',
+    ],
+    categories: ['multimedia', 'connectivity', 'devices'],
   );
 
   /// The "milestone" icon from Lucide.
@@ -17993,7 +20067,17 @@ class LucideIcons {
     name: 'monitor',
     lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
     rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],
-    tags: ['tv', 'screen', 'display', 'virtual machine', 'vm'],
+    tags: [
+      'tv',
+      'computer',
+      'desktop',
+      'screen',
+      'display',
+      'external display',
+      'screen sharing',
+      'virtual machine',
+      'vm',
+    ],
     categories: ['connectivity', 'devices'],
   );
 
@@ -18004,9 +20088,15 @@ class LucideIcons {
     paths: ['m9 10 2 2 4-4', 'M12 17v4', 'M8 21h8'],
     tags: [
       'tv',
+      'computer',
       'screen',
       'display',
       'desktop',
+      'external display',
+      'screen sharing',
+      'connected',
+      'success',
+      'verified',
       'running',
       'active',
       'virtual machine',
@@ -18021,6 +20111,12 @@ class LucideIcons {
     rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],
     paths: ['M11 13a3 3 0 1 1 2.83-4H14a2 2 0 0 1 0 4z', 'M12 17v4', 'M8 21h8'],
     tags: [
+      'tv',
+      'computer',
+      'screen',
+      'display',
+      'desktop',
+      'external display',
       'virtual machine',
       'virtual desktop',
       'vm',
@@ -18033,9 +20129,6 @@ class LucideIcons {
       'saas',
       'workstation',
       'environment',
-      'tv',
-      'screen',
-      'display',
     ],
     categories: ['connectivity', 'devices', 'development'],
   );
@@ -18059,13 +20152,15 @@ class LucideIcons {
     ],
     tags: [
       'tv',
+      'computer',
       'screen',
       'display',
+      'desktop',
+      'external display',
       'virtual machine',
       'vm',
       'executable',
       'settings',
-      'cog',
       'edit',
       'gear',
       'configuration',
@@ -18089,9 +20184,15 @@ class LucideIcons {
     ],
     tags: [
       'tv',
+      'computer',
       'screen',
       'display',
       'desktop',
+      'external display',
+      'screen sharing',
+      'status',
+      'notification',
+      'indicator',
       'running',
       'active',
       'virtual machine',
@@ -18105,7 +20206,18 @@ class LucideIcons {
     name: 'monitor-down',
     rects: [(2.0, 3.0, 20.0, 14.0, 2.0)],
     paths: ['M12 13V7', 'm15 10-3 3-3-3', 'M12 17v4', 'M8 21h8'],
-    tags: ['tv', 'screen', 'display', 'desktop', 'download'],
+    tags: [
+      'tv',
+      'computer',
+      'screen',
+      'display',
+      'desktop',
+      'external display',
+      'screen sharing',
+      'download',
+      'remote',
+      'cast',
+    ],
     categories: ['connectivity', 'devices'],
   );
 
@@ -18119,7 +20231,19 @@ class LucideIcons {
       'M8 21h8',
       'M8.656 3H20a2 2 0 0 1 2 2v10a2 2 0 0 1-.293 1.042',
     ],
-    tags: ['share'],
+    tags: [
+      'tv',
+      'computer',
+      'screen',
+      'display',
+      'desktop',
+      'external display',
+      'screen sharing',
+      'offline',
+      'disabled',
+      'disconnected',
+      'power',
+    ],
     categories: ['connectivity', 'devices'],
   );
 
@@ -18130,12 +20254,16 @@ class LucideIcons {
     paths: ['M10 13V7', 'M14 13V7', 'M12 17v4', 'M8 21h8'],
     tags: [
       'tv',
+      'computer',
       'screen',
       'display',
       'desktop',
+      'external display',
+      'screen sharing',
       'video',
       'movie',
       'film',
+      'pause',
       'suspend',
       'hibernate',
       'boot',
@@ -18143,6 +20271,33 @@ class LucideIcons {
       'vm',
     ],
     categories: ['connectivity', 'devices', 'multimedia'],
+  );
+
+  /// The "monitor-pc" icon from Lucide.
+  static const LucideIconData monitorPc = LucideIconData(
+    name: 'monitor-pc',
+    rects: [(14.0, 3.0, 8.0, 18.0, 1.0)],
+    paths: [
+      'M10 15H4a2 2 0 01-2-2V7a2 2 0 012-2h6',
+      'M10 19H5',
+      'M14 11h8',
+      'M14 7h8',
+      'M18 17h.01',
+      'M9 19v-4',
+    ],
+    tags: [
+      'personal computer',
+      'desktop',
+      'screen',
+      'display',
+      'workstation',
+      'tower',
+      'chassis',
+      'hardware',
+      'setup',
+      'gaming',
+    ],
+    categories: ['devices', 'development', 'gaming'],
   );
 
   /// The "monitor-play" icon from Lucide.
@@ -18156,12 +20311,16 @@ class LucideIcons {
     ],
     tags: [
       'tv',
+      'computer',
       'screen',
       'display',
       'desktop',
+      'external display',
+      'screen sharing',
       'video',
       'movie',
       'film',
+      'play',
       'running',
       'start',
       'boot',
@@ -18181,15 +20340,19 @@ class LucideIcons {
       'M7 19h5',
     ],
     tags: [
-      'smartphone',
       'phone',
       'cellphone',
       'device',
       'mobile',
       'desktop',
-      'monitor',
+      'screen',
+      'display',
+      'external display',
+      'screen sharing',
       'responsive',
       'screens',
+      'sync',
+      'cast',
     ],
     categories: ['connectivity', 'devices'],
   );
@@ -18200,7 +20363,20 @@ class LucideIcons {
     circles: [(17.0, 15.0, 1.0)],
     rects: [(12.0, 4.0, 10.0, 16.0, 2.0)],
     paths: ['M5.5 20H8', 'M17 9h.01', 'M8 6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h4'],
-    tags: ['devices', 'connect', 'cast'],
+    tags: [
+      'tv',
+      'computer',
+      'screen',
+      'display',
+      'desktop',
+      'external display',
+      'connect',
+      'cast',
+      'audio',
+      'sound',
+      'volume',
+      'presentation',
+    ],
     categories: ['connectivity', 'devices'],
   );
 
@@ -18211,9 +20387,12 @@ class LucideIcons {
     paths: ['M12 17v4', 'M8 21h8'],
     tags: [
       'tv',
+      'computer',
       'screen',
       'display',
       'desktop',
+      'external display',
+      'screen sharing',
       'video',
       'movie',
       'film',
@@ -18232,12 +20411,16 @@ class LucideIcons {
     paths: ['m9 10 3-3 3 3', 'M12 13V7', 'M12 17v4', 'M8 21h8'],
     tags: [
       'tv',
+      'computer',
       'screen',
       'display',
+      'desktop',
+      'external display',
       'upload',
       'connect',
       'remote',
-      'screen share',
+      'screen sharing',
+      'cast',
     ],
     categories: ['connectivity', 'devices'],
   );
@@ -18249,12 +20432,18 @@ class LucideIcons {
     paths: ['m14.5 12.5-5-5', 'm9.5 12.5 5-5', 'M12 17v4', 'M8 21h8'],
     tags: [
       'tv',
+      'computer',
       'screen',
       'display',
       'desktop',
+      'external display',
+      'screen sharing',
       'virtual machine',
       'vm',
       'close',
+      'error',
+      'failed',
+      'disconnected',
       'stop',
       'suspend',
       'remove',
@@ -18283,6 +20472,114 @@ class LucideIcons {
     ],
     tags: ['dark', 'night', 'star'],
     categories: ['accessibility', 'weather'],
+  );
+
+  /// The "mop" icon from Lucide.
+  static const LucideIconData mop = LucideIconData(
+    name: 'mop',
+    paths: [
+      'M10 22c2.761 0 5-1.79 5-4-4.42 0-4.08-5-8.5-5a1 1 0 100 9za3 3 0 01-3-3',
+      'M12.5 11.5 22 2',
+      'm6.98 13.02 2.665-2.664a1.21 1.21 0 011.71 0l2.29 2.288a1.21 1.21 0 010 1.712l-2.088 2.087',
+    ],
+    tags: [
+      'cleaning',
+      'sweeping',
+      'scrubbing',
+      'housekeeping',
+      'hygiene',
+      'sanitation',
+      'chores',
+      'swab',
+      'tidy',
+      'floor',
+      'janitor',
+      'maintenance',
+      'wash',
+      'wipe',
+      'spotless',
+      'pristine',
+      'disinfect',
+    ],
+    categories: ['home', 'tools'],
+  );
+
+  /// The "mop-sparkles" icon from Lucide.
+  static const LucideIconData mopSparkles = LucideIconData(
+    name: 'mop-sparkles',
+    paths: [
+      'M10 22a3 3 0 01-3-3',
+      'M10 22c2.761 0 5-1.79 5-4-4.42 0-4.08-5-8.5-5a4.501 4.501 0 000 9z',
+      'M10 3H8',
+      'M12.5 11.5 22 2',
+      'M20 13v4',
+      'M22 15h-4',
+      'M4 5v4',
+      'M6 7H2',
+      'm6.98 13.02 2.665-2.664a1.21 1.21 0 011.71 0l2.29 2.288a1.21 1.21 0 010 1.712l-2.088 2.087',
+      'M9 2v2',
+    ],
+    tags: [
+      'cleaning',
+      'scrubbing',
+      'sweeping',
+      'ai',
+      'magic',
+      'sparkle',
+      'smart',
+      'automation',
+      'housekeeping',
+      'hygiene',
+      'sanitation',
+      'chores',
+      'swab',
+      'tidy',
+      'floor',
+      'spotless',
+      'pristine',
+      'polish',
+      'sanitize',
+      'disinfect',
+    ],
+    categories: ['home', 'tools', 'design'],
+  );
+
+  /// The "mosque" icon from Lucide.
+  static const LucideIconData mosque = LucideIconData(
+    name: 'mosque',
+    paths: [
+      'M12.268 2a2 2 0 003.465 2',
+      'M14 5 L14 8',
+      'M16 22v-3a2 2 0 00-4 0v3',
+      'M21 13c-.662-1.497-1.666-2.753-2.9-3.63C16.825 8.47 15.422 8 14 8s-2.826.47-4.1 1.37C8.668 10.248 7.663 11.504 7 13z',
+      'M3 9h4',
+      'M7 22V6a5 5 0 00-2-4 5 5 0 00-2 4v14a2 2 0 002 2h14a2 2 0 002-2v-7',
+    ],
+    tags: [
+      'mosque',
+      'masjid',
+      'islam',
+      'muslim',
+      'ramadan',
+      'eid',
+      'prayer',
+      'worship',
+      'building',
+      'minaret',
+      'dome',
+      'architecture',
+      'faith',
+      'religion',
+      'holy',
+      'sacred',
+      'landmark',
+      'community',
+      'spiritual',
+      'tourism',
+      'map',
+      'heritage',
+    ],
+    categories: ['buildings', 'navigation', 'travel'],
   );
 
   /// The "motorbike" icon from Lucide.
@@ -18442,6 +20739,63 @@ class LucideIcons {
     ],
     tags: ['device', 'scroll', 'click'],
     categories: ['devices'],
+  );
+
+  /// The "mouth" icon from Lucide.
+  static const LucideIconData mouth = LucideIconData(
+    name: 'mouth',
+    paths: [
+      'M2 12a50.5 50.5 0 0020 0 1 1 0 00-1-1',
+      'M2.457 11.159a1 1 0 00-.307 1.369 11.59 11.59 0 0019.7 0 1 1 0 00-.308-1.368c-2.426-1.568-3.65-2.284-5.479-3.644a2.6 2.6 0 00-3.373.208 1 1 0 01-1.38 0 2.62 2.62 0 00-3.373-.208c-1.83 1.36-3.053 2.076-5.48 3.643',
+    ],
+    tags: [
+      'speech',
+      'voice',
+      'talk',
+      'speaking',
+      'taste',
+      'tasting',
+      'flavor',
+      'palate',
+      'tongue',
+      'gustatory',
+      'oral',
+      'dental',
+      'expression',
+      'communication',
+      'accessibility',
+    ],
+    categories: ['medical', 'accessibility', 'communication'],
+  );
+
+  /// The "mouth-off" icon from Lucide.
+  static const LucideIconData mouthOff = LucideIconData(
+    name: 'mouth-off',
+    paths: [
+      'M13.074 7.417a2.6 2.6 0 012.989.099c1.829 1.36 3.053 2.076 5.479 3.644a1 1 0 01.308 1.368 11.6 11.6 0 01-1.617 2.05',
+      'M2 12a50.5 50.5 0 0010.99.99',
+      'm2 2 20 20',
+      'M21 11a1 1 0 011 1 51 51 0 01-3.734.61',
+      'M7.695 7.695c-1.7 1.247-2.92 1.967-5.238 3.464a1 1 0 00-.307 1.369 11.6 11.6 0 0014.766 4.388',
+    ],
+    tags: [
+      'speech',
+      'voice',
+      'talk',
+      'mute',
+      'silence',
+      'speechless',
+      'taste loss',
+      'flavor loss',
+      'ageusia',
+      'tasteless',
+      'gustatory',
+      'oral',
+      'dental',
+      'communication',
+      'accessibility',
+    ],
+    categories: ['medical', 'accessibility', 'communication'],
   );
 
   /// The "move" icon from Lucide.
@@ -18640,6 +20994,20 @@ class LucideIcons {
     categories: ['navigation'],
   );
 
+  /// The "nepali-rupee" icon from Lucide.
+  static const LucideIconData nepaliRupee = LucideIconData(
+    name: 'nepali-rupee',
+    paths: [
+      'M18 16.173 A4.74 4.74 0 0 0 13.496 8.005',
+      'M4 3 L20 3',
+      'M5 13 L13.5 21',
+      'M5 13 L9 13',
+      'M8 13 C15.5 13 14.667 3 8 3',
+    ],
+    tags: ['currency', 'money', 'nepal', 'rupee', 'npr'],
+    categories: ['finance', 'shopping', 'travel'],
+  );
+
   /// The "network" icon from Lucide.
   static const LucideIconData network = LucideIconData(
     name: 'network',
@@ -18722,6 +21090,34 @@ class LucideIcons {
       'research',
     ],
     categories: ['text', 'communication', 'social', 'design'],
+  );
+
+  /// The "notebook-dot" icon from Lucide.
+  static const LucideIconData notebookDot = LucideIconData(
+    name: 'notebook-dot',
+    circles: [(18.0, 5.0, 3.0)],
+    paths: [
+      'M16 11.75V22',
+      'M2 10h4',
+      'M2 14h4',
+      'M2 18h4',
+      'M2 6h4',
+      'M20 11.75V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h5.65',
+    ],
+    tags: [
+      'document',
+      'file',
+      'journal',
+      'page',
+      'paper',
+      'record',
+      'entry',
+      'notebook',
+      'notification',
+      'unread',
+      'note',
+    ],
+    categories: ['communication'],
   );
 
   /// The "notebook-pen" icon from Lucide.
@@ -19318,9 +21714,9 @@ class LucideIcons {
     paths: [
       'M11.25 17.25h1.5L12 18z',
       'm15 12 2 2',
-      'M18 6.5a.5.5 0 0 0-.5-.5',
-      'M20.69 9.67a4.5 4.5 0 1 0-7.04-5.5 8.35 8.35 0 0 0-3.3 0 4.5 4.5 0 1 0-7.04 5.5C2.49 11.2 2 12.88 2 14.5 2 19.47 6.48 22 12 22s10-2.53 10-7.5c0-1.62-.48-3.3-1.3-4.83',
-      'M6 6.5a.495.495 0 0 1 .5-.5',
+      'M17.902 6.599a8 8 0 0 0-.5-.5',
+      'M2 14.5C2 19.47 6.48 22 12 22s10-2.53 10-7.5a10 10 0 0 0-1.3-4.83 4.5 4.5 0 1 0-7.05-5.5 8 8 0 0 0-3.3 0 4.5 4.5 0 1 0-7.04 5.5A10 10 0 0 0 2 14.5',
+      'M6.099 6.599a8 8 0 0 1 .5-.5',
       'm9 12-2 2',
     ],
     tags: ['animal', 'wildlife', 'bear', 'zoo', 'bamboo'],
@@ -19703,6 +22099,36 @@ class LucideIcons {
       ')',
     ],
     categories: ['development', 'files', 'math'],
+  );
+
+  /// The "park" icon from Lucide.
+  static const LucideIconData park = LucideIconData(
+    name: 'park',
+    circles: [(19.0, 6.0, 2.0)],
+    paths: [
+      'M12 18h10',
+      'M13.248 9.998A4.5 4.5 0 0 0 11.75 8.6V8a1 1 0 0 0-7.5 0 4.9 4.9 0 0 0 2.25 9H8',
+      'm15 14-2 6',
+      'm19 14 2 6',
+      'M21 14h-8',
+      'M8 20v-5.922a2 2 0 0 0-.586-1.414L6.5 11.75',
+      'M9.205 12.795 8 14',
+    ],
+    tags: [
+      'nature',
+      'green',
+      'trees',
+      'landscape',
+      'rest',
+      'walk',
+      'leisure',
+      'environment',
+      'tree',
+      'bench',
+      'outdoors',
+      'recreation',
+    ],
+    categories: ['nature', 'navigation', 'travel'],
   );
 
   /// The "parking-meter" icon from Lucide.
@@ -20204,12 +22630,12 @@ class LucideIcons {
   static const LucideIconData piano = LucideIconData(
     name: 'piano',
     paths: [
-      'M18.5 8c-1.4 0-2.6-.8-3.2-2A6.87 6.87 0 0 0 2 9v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-8.5C22 9.6 20.4 8 18.5 8',
-      'M2 14h20',
-      'M6 14v4',
-      'M10 14v4',
-      'M14 14v4',
-      'M18 14v4',
+      'M10 13v4',
+      'M14 13v4',
+      'M18 13v4',
+      'M2 13h20',
+      'M22 11.5A3.5 3.5 0 0018.5 8a3.52 3.52 0 01-3.173-2A7 7 0 002 9v10a2 2 0 002 2h16a2 2 0 002-2z',
+      'M6 13v4',
     ],
     tags: [
       'music',
@@ -20501,6 +22927,28 @@ class LucideIcons {
     categories: ['transportation', 'travel'],
   );
 
+  /// The "plant-pot" icon from Lucide.
+  static const LucideIconData plantPot = LucideIconData(
+    name: 'plant-pot',
+    paths: [
+      'M14 8.536V6a4 4 0 014-4h1.5a.5.5 0 01.5.5V4a4 4 0 01-4 4 4 4 0 00-4 4 5 5 0 01-8-4 5 5 0 018 4c0 2 1 3 1 5',
+      'm18 17-1.085 3.58A2 2 0 0115 22H9.002a2 2 0 01-1.913-1.418L6 17',
+      'M5 17h14',
+    ],
+    tags: [
+      'plant',
+      'leaf',
+      'nature',
+      'pot',
+      'houseplant',
+      'gardening',
+      'planter',
+      'decor',
+      'indoor',
+    ],
+    categories: ['home', 'nature'],
+  );
+
   /// The "play" icon from Lucide.
   static const LucideIconData play = LucideIconData(
     name: 'play',
@@ -20531,6 +22979,113 @@ class LucideIcons {
       'forbidden',
     ],
     categories: ['multimedia'],
+  );
+
+  /// The "playing-card" icon from Lucide.
+  static const LucideIconData playingCard = LucideIconData(
+    name: 'playing-card',
+    rects: [(5.0, 2.0, 14.0, 20.0, 2.0)],
+    paths: [
+      'M12.832 8.445a1 1 0 00-1.589-.098l-2.075 3.098a1 1 0 000 1.11l2 3a1 1 0 001.664 0l2-3a1 1 0 000-1.11z',
+    ],
+    tags: [
+      'deck',
+      'draw',
+      'deal',
+      'shuffle',
+      'chance',
+      'random',
+      'selection',
+      'tabletop',
+      'flashcard',
+      'study',
+      'learning',
+      'prompt',
+      'icebreaker',
+      'conversation',
+      'collectible',
+      'trading',
+      'poker',
+      'casino',
+      'game',
+      'gambling',
+      'suit',
+    ],
+    categories: ['gaming', 'development'],
+  );
+
+  /// The "playing-cards" icon from Lucide.
+  static const LucideIconData playingCards = LucideIconData(
+    name: 'playing-cards',
+    rects: [(7.0, 2.0, 14.0, 20.0, 2.0)],
+    paths: [
+      'M14.832 8.445a1 1 0 00-1.589-.098l-2.075 3.098a1 1 0 000 1.11l2 3a1 1 0 001.664 0l2-3a1 1 0 000-1.11z',
+      'm7.18 20.827-5-11a2 2 0 01.993-2.647L7 5.44',
+    ],
+    tags: [
+      'deck',
+      'stack',
+      'shuffle',
+      'deal',
+      'draw',
+      'hand',
+      'tabletop',
+      'planning poker',
+      'scrum',
+      'agile',
+      'estimation',
+      'estimate',
+      'flashcards',
+      'study',
+      'learning',
+      'collectible',
+      'collection',
+      'trading',
+      'poker',
+      'casino',
+      'game',
+      'gambling',
+      'suit',
+    ],
+    categories: ['gaming', 'development'],
+  );
+
+  /// The "playing-cards-fan" icon from Lucide.
+  static const LucideIconData playingCardsFan = LucideIconData(
+    name: 'playing-cards-fan',
+    paths: [
+      'M12.65 7.65a2 2 0 012.629-1.046l5.51 2.374a2 2 0 011.046 2.628l-3.957 9.184a2 2 0 01-2.628 1.046l-5.51-2.374a2 2 0 01-1.046-2.628z',
+      'M18 7.777V4a2 2 0 00-2-2h-6a2 2 0 00-2 2v10a2 2 0 001.137 1.805',
+      'm8 4.389-4.364.809a2 2 0 00-1.602 2.33l1.822 9.833a2 2 0 002.331 1.602l2.542-.47',
+    ],
+    tags: [
+      'deck',
+      'fan',
+      'spread',
+      'hand',
+      'deal',
+      'dealt',
+      'draw',
+      'shuffle',
+      'tabletop',
+      'planning poker',
+      'scrum',
+      'agile',
+      'estimation',
+      'estimate',
+      'prompt',
+      'icebreaker',
+      'conversation',
+      'collectible',
+      'collection',
+      'trading',
+      'poker',
+      'casino',
+      'game',
+      'gambling',
+      'suit',
+    ],
+    categories: ['gaming', 'development', 'social'],
   );
 
   /// The "plug" icon from Lucide.
@@ -20639,28 +23194,6 @@ class LucideIcons {
       'corkscrew',
     ],
     categories: ['tools'],
-  );
-
-  /// The "podcast" icon from Lucide.
-  static const LucideIconData podcast = LucideIconData(
-    name: 'podcast',
-    circles: [(12.0, 11.0, 1.0)],
-    paths: [
-      'M13 17a1 1 0 1 0-2 0l.5 4.5a0.5 0.5 0 0 0 1 0z',
-      'M16.85 18.58a9 9 0 1 0-9.7 0',
-      'M8 14a5 5 0 1 1 8 0',
-    ],
-    tags: [
-      'audio',
-      'music',
-      'mic',
-      'talk',
-      'voice',
-      'subscribe',
-      'subscription',
-      'stream',
-    ],
-    categories: ['multimedia', 'social'],
   );
 
   /// The "podium" icon from Lucide.
@@ -21853,6 +24386,67 @@ class LucideIcons {
     categories: ['transportation'],
   );
 
+  /// The "robot-arm" icon from Lucide.
+  static const LucideIconData robotArm = LucideIconData(
+    name: 'robot-arm',
+    circles: [(6.0, 7.0, 2.0)],
+    paths: [
+      'M12 21 7.5 8.322',
+      'm14 7 1.75-3.767a.5.5 0 0 1 .662-.172L20 5.005',
+      'm20 8.998-3.588 1.944a.5.5 0 0 1-.662-.172L14 7H8',
+      'M3.486 21h10',
+      'M5 21V8.732',
+    ],
+    tags: [
+      'mechanical',
+      'automation',
+      'factory',
+      'manufacture',
+      'technology',
+      'cyborg',
+      'industrial',
+      'hardware',
+      'machinery',
+    ],
+    categories: ['science', 'tools'],
+  );
+
+  /// The "robot-vacuum" icon from Lucide.
+  static const LucideIconData robotVacuum = LucideIconData(
+    name: 'robot-vacuum',
+    circles: [(12.0, 12.0, 10.0)],
+    paths: [
+      'M11 17h2',
+      'M12 12h.01',
+      'M17 12a5 5 0 00-10 0',
+      'M19 2v2.8',
+      'M2 5h2.8',
+      'M22 5h-2.8',
+      'M5 2v2.8',
+    ],
+    tags: [
+      'appliance',
+      'cleaning',
+      'household',
+      'housekeeping',
+      'tool',
+      'maintenance',
+      'smarthome',
+      'sweeping',
+      'hygiene',
+      'chores',
+      'automation',
+      'smart home',
+      'device',
+      'floor',
+      'dust',
+      'debris',
+      'navigation',
+      'sensor',
+    ],
+    categories: ['devices', 'home', 'tools'],
+  );
+
   /// The "rocket" icon from Lucide.
   static const LucideIconData rocket = LucideIconData(
     name: 'rocket',
@@ -21972,6 +24566,29 @@ class LucideIcons {
     categories: ['arrows', 'design', 'photography'],
   );
 
+  /// The "rotate-ccw-clock" icon from Lucide.
+  static const LucideIconData rotateCcwClock = LucideIconData(
+    name: 'rotate-ccw-clock',
+    paths: [
+      'M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8',
+      'M3 3v5h5',
+      'M12 7v5l4 2',
+    ],
+    tags: [
+      'history',
+      'time',
+      'redo',
+      'undo',
+      'rewind',
+      'timeline',
+      'version',
+      'time machine',
+      'backup',
+      'ccw',
+    ],
+    categories: ['arrows', 'time'],
+  );
+
   /// The "rotate-ccw-key" icon from Lucide.
   static const LucideIconData rotateCcwKey = LucideIconData(
     name: 'rotate-ccw-key',
@@ -22013,6 +24630,70 @@ class LucideIcons {
     paths: ['M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8', 'M21 3v5h-5'],
     tags: ['arrow', 'right', 'clockwise', 'refresh', 'reload', 'rerun', 'redo'],
     categories: ['arrows', 'design', 'photography'],
+  );
+
+  /// The "rotate-cw-clock" icon from Lucide.
+  static const LucideIconData rotateCwClock = LucideIconData(
+    name: 'rotate-cw-clock',
+    paths: [
+      'M12 7v5l4 2',
+      'M16 8h5V3',
+      'm21 8-2.3-2.3A9.7 9.7 0 0012 3a9 9 0 109 9',
+    ],
+    tags: [
+      'modify',
+      'edit',
+      'refresh',
+      'sync',
+      'renew',
+      'revision',
+      'settings',
+      'adjust',
+      'upgrade',
+      'time',
+      'timeline',
+      'version',
+      'time machine',
+      'backup',
+      'clockwise',
+      'arrow',
+      'reload',
+      'rerun',
+      'synchronize',
+      'circular',
+      'cycle',
+      'update',
+    ],
+    categories: ['arrows', 'time'],
+  );
+
+  /// The "rotate-cw-fading-clock" icon from Lucide.
+  static const LucideIconData rotateCwFadingClock = LucideIconData(
+    name: 'rotate-cw-fading-clock',
+    paths: [
+      'M12 3a9.75 9.75 0 0 1 6.74 2.74',
+      'M18.74 5.74 21 8',
+      'M21 8V3',
+      'M7.5 19.794c-6-3.464-6-12.124 0-15.588',
+      'M7.5 4.206A9 9 0 0 1 12 3',
+      'M12 7v5l4 2',
+      'M14 20.775A9 9 0 0 1 12 21',
+      'M19 17.656a9 9 0 0 1-1.5 1.456',
+      'M21 12a9 9 0 0 1-.228 2',
+      'M21 8h-5',
+    ],
+    tags: [
+      'clock',
+      'waiting',
+      'schedule',
+      'hourglass',
+      'loading',
+      'pause',
+      'pending',
+      'time',
+      'watch',
+    ],
+    categories: ['time'],
   );
 
   /// The "rotate-cw-square" icon from Lucide.
@@ -22333,12 +25014,20 @@ class LucideIcons {
   static const LucideIconData satelliteDish = LucideIconData(
     name: 'satellite-dish',
     paths: [
-      'M4 10a7.31 7.31 0 0 0 10 10Z',
-      'm9 15 3-3',
-      'M17 13a6 6 0 0 0-6-6',
-      'M21 13A10 10 0 0 0 11 3',
+      'M18 12a6 6 0 00-6-6',
+      'M2.824 10.459a8 8 0 0010.717 10.717c.558-.276.623-1.012.183-1.452l-9.448-9.448c-.44-.44-1.176-.375-1.452.183',
+      'M22 12A10 10 0 0012 2',
+      'm9 15 4-4',
     ],
-    tags: ['antenna', 'receiver', 'dish aerial', 'saucer'],
+    tags: [
+      'antenna',
+      'receiver',
+      'dish aerial',
+      'saucer',
+      'communication',
+      'broadcast',
+      'signal',
+    ],
     categories: ['connectivity', 'devices', 'multimedia'],
   );
 
@@ -22409,7 +25098,6 @@ class LucideIcons {
       'M17 21v-4',
       'm2 2 20 20',
       'M20.41 20.41A2 2 0 0 1 19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 .59-1.41',
-      'M29.5 11.5s5 5 4 5',
       'M9 3h6.2a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V15',
     ],
     tags: ['floppy disk', 'unsalvageable'],
@@ -22750,6 +25438,38 @@ class LucideIcons {
       'lens',
     ],
     categories: ['photography', 'multimedia', 'accessibility'],
+  );
+
+  /// The "scan-square" icon from Lucide.
+  static const LucideIconData scanSquare = LucideIconData(
+    name: 'scan-square',
+    rects: [(8.0, 8.0, 8.0, 8.0, 1.0)],
+    paths: [
+      'M3 7V5a2 2 0 0 1 2-2h2',
+      'M17 3h2a2 2 0 0 1 2 2v2',
+      'M21 17v2a2 2 0 0 1-2 2h-2',
+      'M7 21H5a2 2 0 0 1-2-2v-2',
+    ],
+    tags: [
+      'scan',
+      'square',
+      'detect',
+      'recognition',
+      'select',
+      'frame',
+      'object',
+      'viewfinder',
+      'capture',
+      'shape',
+      'boundary',
+      'camera',
+      'scanner',
+      'overlay',
+      'focus',
+      'crop',
+      'marker',
+    ],
+    categories: ['photography', 'design', 'development'],
   );
 
   /// The "scan-text" icon from Lucide.
@@ -23504,7 +26224,7 @@ class LucideIcons {
       'weakness',
       'infection',
       'infected',
-      'comprimised',
+      'compromised',
       'data leak',
       'audited',
       'admin',
@@ -23586,7 +26306,7 @@ class LucideIcons {
       'weakness',
       'infection',
       'infected',
-      'comprimised',
+      'compromised',
       'data leak',
       'audited',
       'admin',
@@ -23907,6 +26627,80 @@ class LucideIcons {
     categories: ['account', 'security', 'development', 'gaming'],
   );
 
+  /// The "shield-keyhole" icon from Lucide.
+  static const LucideIconData shieldKeyhole = LucideIconData(
+    name: 'shield-keyhole',
+    circles: [(12.0, 11.0, 2.0)],
+    paths: [
+      'M12 13v3',
+      'M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 01-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 011-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 011.52 0C14.51 3.81 17 5 19 5a1 1 0 011 1z',
+    ],
+    tags: [
+      'cybersecurity',
+      'secure',
+      'safety',
+      'protection',
+      'defense',
+      'defence',
+      'defender',
+      'block',
+      'threat',
+      'prevention',
+      'antivirus',
+      'vigilance',
+      'vigilant',
+      'detection',
+      'scan',
+      'find',
+      'strength',
+      'strong',
+      'tough',
+      'invincible',
+      'invincibility',
+      'invulnerable',
+      'undamaged',
+      'audit',
+      'admin',
+      'verification',
+      'crest',
+      'bravery',
+      'trooper',
+      'pawn',
+    ],
+    categories: ['account', 'security', 'development', 'files'],
+  );
+
+  /// The "shield-lock" icon from Lucide.
+  static const LucideIconData shieldLock = LucideIconData(
+    name: 'shield-lock',
+    rects: [(13.0, 17.0, 8.0, 5.0, 1.0)],
+    paths: [
+      'M20 9.807V6a1 1 0 00-1-1c-2 0-4.49-1.19-6.24-2.72a1.17 1.17 0 00-1.52 0C9.5 3.8 7 5 5 5a1 1 0 00-1 1v7c0 3.88 2.107 6.254 5 7.796',
+      'M19 17v-2a2 2 0 00-4 0v2',
+    ],
+    tags: [
+      'antivirus',
+      'authentication',
+      'authorization',
+      'credentials',
+      'cybersecurity',
+      'data protection',
+      'defense',
+      'encryption',
+      'guard',
+      'login',
+      'password',
+      'privacy',
+      'safeguard',
+      'ssl',
+      'tls',
+      'two-factor authentication',
+      'verification',
+      'vpn',
+    ],
+    categories: ['security'],
+  );
+
   /// The "shield-minus" icon from Lucide.
   static const LucideIconData shieldMinus = LucideIconData(
     name: 'shield-minus',
@@ -23985,7 +26779,7 @@ class LucideIcons {
       'weakness',
       'infected',
       'infection',
-      'comprimised',
+      'compromised',
       'data leak',
       'unaudited',
       'admin',
@@ -24099,7 +26893,7 @@ class LucideIcons {
       'vulnerable',
       'weakness',
       'infection',
-      'comprimised',
+      'compromised',
       'data leak',
       'audit',
       'admin',
@@ -24183,7 +26977,7 @@ class LucideIcons {
       'weakness',
       'infection',
       'infected',
-      'comprimised',
+      'compromised',
       'data leak',
       'audited',
       'admin',
@@ -24213,11 +27007,11 @@ class LucideIcons {
   static const LucideIconData ship = LucideIconData(
     name: 'ship',
     paths: [
-      'M12 10.189V14',
-      'M12 2v3',
-      'M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6',
-      'M19.38 20A11.6 11.6 0 0 0 21 14l-8.188-3.639a2 2 0 0 0-1.624 0L3 14a11.6 11.6 0 0 0 2.81 7.76',
-      'M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1',
+      'M12 2v2',
+      'M12 9.189V13',
+      'M19 12V6a2 2 0 00-2-2H7a2 2 0 00-2 2v6',
+      'M19.38 19A11.6 11.6 0 0021 13l-8.188-3.639a2 2 0 00-1.624 0L3 13.001a11.6 11.6 0 002.81 7.76',
+      'M2 20c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1',
     ],
     tags: [
       'boat',
@@ -24233,6 +27027,42 @@ class LucideIcons {
       'navy',
       'trip',
       'releases',
+    ],
+    categories: ['transportation', 'navigation', 'travel'],
+  );
+
+  /// The "ship-cargo" icon from Lucide.
+  static const LucideIconData shipCargo = LucideIconData(
+    name: 'ship-cargo',
+    paths: [
+      'M12 15v-3',
+      'M12 2v2',
+      'M16.5 12V9a1 1 0 011-1h1a1 1 0 001-1V5a1 1 0 00-1-1h-13a1 1 0 00-1 1v2a1 1 0 001 1h1a1 1 0 011 1v3',
+      'M19.38 19c1.076-1.815 1.636-4.89 1.628-6.008a1 1 0 00-1-.992H3.984a1 1 0 00-1 .984c-.03 1.86.97 5.621 2.826 7.776',
+      'M2 20c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1',
+    ],
+    tags: [
+      'boat',
+      'knots',
+      'nautical mile',
+      'maritime',
+      'sailing',
+      'cruise',
+      'ocean liner',
+      'tanker',
+      'vessel',
+      'navy',
+      'cargo',
+      'container',
+      'freighter',
+      'freight',
+      'shipping',
+      'port',
+      'harbor',
+      'dock',
+      'logistics',
+      'import',
+      'export',
     ],
     categories: ['transportation', 'navigation', 'travel'],
   );
@@ -24319,9 +27149,10 @@ class LucideIcons {
   /// The "shopping-cart" icon from Lucide.
   static const LucideIconData shoppingCart = LucideIconData(
     name: 'shopping-cart',
-    circles: [(8.0, 21.0, 1.0), (19.0, 21.0, 1.0)],
+    circles: [(18.0, 20.0, 2.0), (8.0, 20.0, 2.0)],
     paths: [
-      'M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12',
+      'm2.05 2.05 1.099-.028a1 1 0 0 1 1.008.815l2.69 14.347A1 1 0 0 0 7.83 18H18',
+      'M4.563 5h16.435a1 1 0 0 1 .981 1.204l-1.026 6.226A2 2 0 0 1 18.962 14H6.25',
     ],
     tags: [
       'trolley',
@@ -24333,6 +27164,69 @@ class LucideIcons {
       'products',
       'items',
       'ingredients',
+    ],
+    categories: ['shopping'],
+  );
+
+  /// The "shopping-cart-minus" icon from Lucide.
+  static const LucideIconData shoppingCartMinus = LucideIconData(
+    name: 'shopping-cart-minus',
+    circles: [(18.0, 20.0, 2.0), (8.0, 20.0, 2.0)],
+    paths: [
+      'M16 5h6',
+      'm2.05 2.05 1.099-.028a1 1 0 011.008.815l2.69 14.347A1 1 0 007.83 18H18',
+      'M4.564 5H12',
+      'M6.25 14h12.712a2 2 0 001.991-1.57l.514-3.113',
+    ],
+    tags: [
+      'trolley',
+      'cart',
+      'basket',
+      'e-commerce',
+      'ecommerce',
+      'store',
+      'purchase',
+      'products',
+      'items',
+      'checkout',
+      'order',
+      'retail',
+      'remove',
+      'decrease',
+      'quantity',
+      'subtract',
+    ],
+    categories: ['shopping'],
+  );
+
+  /// The "shopping-cart-plus" icon from Lucide.
+  static const LucideIconData shoppingCartPlus = LucideIconData(
+    name: 'shopping-cart-plus',
+    circles: [(18.0, 20.0, 2.0), (8.0, 20.0, 2.0)],
+    paths: [
+      'M16 5h6',
+      'M19 2v6',
+      'm2.05 2.05 1.099-.028a1 1 0 011.008.815l2.69 14.347A1 1 0 007.83 18H18',
+      'M4.564 5H12',
+      'M6.25 14h12.712a2 2 0 001.991-1.57l.172-1.041',
+    ],
+    tags: [
+      'trolley',
+      'cart',
+      'basket',
+      'e-commerce',
+      'ecommerce',
+      'store',
+      'purchase',
+      'products',
+      'items',
+      'checkout',
+      'order',
+      'retail',
+      'add',
+      'increase',
+      'quantity',
+      'buy',
     ],
     categories: ['shopping'],
   );
@@ -24409,11 +27303,11 @@ class LucideIcons {
   static const LucideIconData shrimp = LucideIconData(
     name: 'shrimp',
     paths: [
-      'M11 12h.01',
-      'M13 22c.5-.5 1.12-1 2.5-1-1.38 0-2-.5-2.5-1',
-      'M14 2a3.28 3.28 0 0 1-3.227 1.798l-6.17-.561A2.387 2.387 0 1 0 4.387 8H15.5a1 1 0 0 1 0 13 1 1 0 0 0 0-5H12a7 7 0 0 1-7-7V8',
-      'M14 8a8.5 8.5 0 0 1 0 8',
-      'M16 16c2 0 4.5-4 4-6',
+      'M10 2a3.28 3.28 0 003.227 1.798l6.17-.561A1 1 0 1119.614 8H8.5a6.44 6.44 0 00-5.63 9.75A6.5 6.5 0 008.5 21c1.38 0 2-.5 2.5-1',
+      'M10 8a8.5 8.5 0 000 8',
+      'M11 22c-.5-.5-1.12-1-2.5-1a1 1 0 010-5H12a7 7 0 007-7V8',
+      'M13 12h.01',
+      'M8 16c-2 0-4.5-4-4-6',
     ],
     tags: [
       'seafood',
@@ -24425,9 +27319,51 @@ class LucideIcons {
       'arthropod',
       'littleneck',
       'quahog',
-      'cherrystone',
+      'marine',
+      'creature',
+      'fisherman',
+      'ocean',
+      'fresh',
+      'cuisine',
+      'marine-life',
     ],
-    categories: ['animals'],
+    categories: ['animals', 'food-beverage'],
+  );
+
+  /// The "shrimp-off" icon from Lucide.
+  static const LucideIconData shrimpOff = LucideIconData(
+    name: 'shrimp-off',
+    paths: [
+      'M10 2a3.28 3.28 0 003.227 1.798l6.17-.561A1 1 0 1119.614 8H13.5',
+      'M11 20c-.5.5-1.12 1-2.5 1a1 1 0 010-5H12a7 7 0 003.283-.817',
+      'M11 22c-.5-.5-1.12-1-2.5-1a6.5 6.5 0 01-5.63-3.25 6.44 6.44 0 015.236-9.744',
+      'M18.04 12.54A7 7 0 0019 9V8',
+      'm2 2 20 20',
+      'M8 16c-2 0-4.5-4-4-6',
+      'M9.43 9.33A8.5 8.5 0 0010 16',
+    ],
+    tags: [
+      'marine',
+      'creature',
+      'fisherman',
+      'ocean',
+      'fresh',
+      'cuisine',
+      'marine-life',
+      'seafood',
+      'shellfish',
+      'crustacean',
+      'prawn',
+      'scallop',
+      'whelk',
+      'arthropod',
+      'littleneck',
+      'quahog',
+      'allergy',
+      'intolerance',
+      'diet',
+    ],
+    categories: ['animals', 'food-beverage'],
   );
 
   /// The "shrink" icon from Lucide.
@@ -24720,7 +27656,17 @@ class LucideIcons {
     name: 'smartphone',
     rects: [(5.0, 2.0, 14.0, 20.0, 2.0)],
     paths: ['M12 18h.01'],
-    tags: ['phone', 'cellphone', 'device', 'screen'],
+    tags: [
+      'phone',
+      'cellphone',
+      'device',
+      'mobile',
+      'screen',
+      'display',
+      'touchscreen',
+      'portable',
+      'responsive',
+    ],
     categories: ['connectivity', 'devices'],
   );
 
@@ -24744,39 +27690,6 @@ class LucideIcons {
     ],
     tags: ['contactless', 'payment', 'near-field communication', 'screen'],
     categories: ['communication', 'finance', 'devices'],
-  );
-
-  /// The "smile" icon from Lucide.
-  static const LucideIconData smile = LucideIconData(
-    name: 'smile',
-    circles: [(12.0, 12.0, 10.0)],
-    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
-    paths: ['M8 14s1.5 2 4 2 4-2 4-2'],
-    tags: ['emoji', 'face', 'happy', 'good', 'emotion'],
-    categories: ['emoji', 'account'],
-  );
-
-  /// The "smile-plus" icon from Lucide.
-  static const LucideIconData smilePlus = LucideIconData(
-    name: 'smile-plus',
-    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
-    paths: [
-      'M22 11v1a10 10 0 1 1-9-10',
-      'M8 14s1.5 2 4 2 4-2 4-2',
-      'M16 5h6',
-      'M19 2v6',
-    ],
-    tags: [
-      'emoji',
-      'face',
-      'happy',
-      'good',
-      'emotion',
-      'react',
-      'reaction',
-      'add',
-    ],
-    categories: ['emoji', 'social', 'notifications', 'communication'],
   );
 
   /// The "snail" icon from Lucide.
@@ -24986,7 +27899,7 @@ class LucideIcons {
   /// The "spell-check" icon from Lucide.
   static const LucideIconData spellCheck = LucideIconData(
     name: 'spell-check',
-    paths: ['m6 16 6-12 6 12', 'M8 12h8', 'm16 20 2 2 4-4'],
+    paths: ['m20 15-5.5 5.5L12 18', 'm4 16 6-12 5.115 10.23', 'M6 12h8'],
     tags: [
       'spelling',
       'error',
@@ -25234,7 +28147,7 @@ class LucideIcons {
       'hospital',
       'defibrillator',
       'earthquake',
-      'siesmic',
+      'seismic',
       'magnitude',
       'richter scale',
       'aftershock',
@@ -25481,25 +28394,28 @@ class LucideIcons {
     categories: ['text', 'security', 'math', 'development'],
   );
 
+  /// The "square-bookmark" icon from Lucide.
+  static const LucideIconData squareBookmark = LucideIconData(
+    name: 'square-bookmark',
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: [
+      'M11 3v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834a.25.25 0 00.406-.195V3',
+    ],
+    tags: ['photo', 'book'],
+    categories: ['photography', 'multimedia'],
+  );
+
   /// The "square-bottom-dashed-scissors" icon from Lucide.
   static const LucideIconData squareBottomDashedScissors = LucideIconData(
     name: 'square-bottom-dashed-scissors',
-    circles: [(8.5, 8.5, 1.5), (8.5, 15.5, 1.5)],
-    lines: [
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-    ],
+    circles: [(8.5, 15.5, 1.5), (8.5, 8.5, 1.5)],
     paths: [
-      'M 3 5 A2 2 0 0 1 5 3',
-      'M 19 3 A2 2 0 0 1 21 5',
-      'M 5 21 A2 2 0 0 1 3 19',
-      'M 21 19 A2 2 0 0 1 19 21',
+      'M14 21h1',
+      'm17 17-2.18-2.18',
+      'M5 21a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2',
+      'M9 21h1',
+      'M9.56 14.44 17 7',
+      'M9.56 9.56 12 12',
     ],
     tags: ['cut', 'snippet', 'chop', 'stationery', 'crafts'],
     categories: ['text', 'design', 'tools', 'files', 'development'],
@@ -25568,7 +28484,7 @@ class LucideIcons {
   static const LucideIconData squareCheck = LucideIconData(
     name: 'square-check',
     rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
-    paths: ['m9 12 2 2 4-4'],
+    paths: ['m16 9-5.5 5.5L8 12'],
     tags: ['done', 'todo', 'tick', 'complete', 'task'],
     categories: ['notifications'],
   );
@@ -25812,6 +28728,42 @@ class LucideIcons {
     categories: ['arrows', 'cursors', 'development', 'tools'],
   );
 
+  /// The "square-dashed-plus" icon from Lucide.
+  static const LucideIconData squareDashedPlus = LucideIconData(
+    name: 'square-dashed-plus',
+    paths: [
+      'M5 3a2 2 0 0 0-2 2',
+      'M19 3a2 2 0 0 1 2 2',
+      'M21 19a2 2 0 0 1-2 2',
+      'M5 21a2 2 0 0 1-2-2',
+      'M9 3h1',
+      'M9 21h1',
+      'M14 3h1',
+      'M14 21h1',
+      'M3 9v1',
+      'M21 9v1',
+      'M3 14v1',
+      'M21 14v1',
+      'M8 12h8',
+      'M12 8v8',
+    ],
+    tags: [
+      'selection',
+      'select',
+      'add',
+      'new',
+      'placeholder',
+      'marquee',
+      'box',
+      'dashed',
+      'plus',
+      'insert',
+      'frame',
+      'empty',
+    ],
+    categories: ['design', 'layout', 'shapes'],
+  );
+
   /// The "square-dashed-text" icon from Lucide.
   static const LucideIconData squareDashedText = LucideIconData(
     name: 'square-dashed-text',
@@ -25868,6 +28820,105 @@ class LucideIcons {
     categories: ['design', 'development', 'layout'],
   );
 
+  /// The "square-dashed-x" icon from Lucide.
+  static const LucideIconData squareDashedX = LucideIconData(
+    name: 'square-dashed-x',
+    paths: [
+      'M14 21h1',
+      'M14 3h1',
+      'M19 3a2 2 0 012 2',
+      'M21 14v1',
+      'M21 19a2 2 0 01-2 2',
+      'M21 9v1',
+      'M3 14v1',
+      'M3 9v1',
+      'M5 21a2 2 0 01-2-2',
+      'M5 3a2 2 0 00-2 2',
+      'm9 15 6-6',
+      'M9 21h1',
+      'M9 3h1',
+      'm9 9 6 6',
+    ],
+    tags: [
+      'deselect',
+      'unselect',
+      'delete',
+      'select',
+      'selection',
+      'border',
+      'width',
+      'layout',
+      'style',
+      'design',
+      'rectangular',
+      'marquee',
+      'box',
+      'rectangle',
+      'aspect ratio',
+      '1:1',
+    ],
+    categories: ['design', 'development', 'layout'],
+  );
+
+  /// The "square-dashed-x-corner" icon from Lucide.
+  static const LucideIconData squareDashedXCorner = LucideIconData(
+    name: 'square-dashed-x-corner',
+    paths: [
+      'M14 3h1',
+      'm16 16 5 5',
+      'M19 3a2 2 0 012 2',
+      'm21 16-5 5',
+      'M21 9v1',
+      'M3 14v1',
+      'M3 9v1',
+      'M5 21a2 2 0 01-2-2',
+      'M5 3a2 2 0 00-2 2',
+      'M9 21h1',
+      'M9 3h1',
+    ],
+    tags: [
+      'deselect',
+      'unselect',
+      'delete',
+      'select',
+      'selection',
+      'border',
+      'width',
+      'layout',
+      'style',
+      'design',
+      'rectangular',
+      'marquee',
+      'box',
+      'rectangle',
+      'aspect ratio',
+      '1:1',
+    ],
+    categories: ['design', 'development', 'layout'],
+  );
+
+  /// The "square-dimensions" icon from Lucide.
+  static const LucideIconData squareDimensions = LucideIconData(
+    name: 'square-dimensions',
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M12 7H7v5', 'M12 17h5v-5'],
+    tags: [
+      'ratio',
+      'size',
+      'width',
+      'height',
+      'resize',
+      'scale',
+      'frame',
+      'proportions',
+      'aspect',
+      'bounds',
+      'measurements',
+      'canvas',
+    ],
+    categories: ['design', 'layout'],
+  );
+
   /// The "square-divide" icon from Lucide.
   static const LucideIconData squareDivide = LucideIconData(
     name: 'square-divide',
@@ -25893,6 +28944,26 @@ class LucideIcons {
     paths: ['M7 10h10', 'M7 14h10'],
     tags: ['calculate', '='],
     categories: ['math'],
+  );
+
+  /// The "square-exclamation-point" icon from Lucide.
+  static const LucideIconData squareExclamationPoint = LucideIconData(
+    name: 'square-exclamation-point',
+    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    tags: [
+      'warning',
+      'alert',
+      'danger',
+      'exclamation mark',
+      'rectangle',
+      'square',
+      'notification',
+      'attention',
+      'important',
+      'caution',
+    ],
+    categories: ['notifications', 'shapes'],
   );
 
   /// The "square-function" icon from Lucide.
@@ -26042,6 +29113,37 @@ class LucideIcons {
       'node',
     ],
     categories: ['arrows', 'cursors', 'development', 'tools'],
+  );
+
+  /// The "square-off" icon from Lucide.
+  static const LucideIconData squareOff = LucideIconData(
+    name: 'square-off',
+    paths: [
+      'M20.4 20.4a2 2 0 01-1.4.6H5a2 2 0 01-2-2V5a2 2 0 01.59-1.41',
+      'M21 15.3V5a2 2 0 00-2-2H8.7',
+      'M22 22 2 2',
+    ],
+    tags: [
+      '/',
+      'not',
+      'slash',
+      'off',
+      'disabled',
+      'inactive',
+      'cancel',
+      'none',
+      'block',
+      'forbidden',
+      'unavailable',
+      'stopped',
+      'checkbox',
+      'unchecked',
+      'toggle',
+      'negation',
+      'form',
+      'ui',
+    ],
+    categories: ['shapes', 'design'],
   );
 
   /// The "square-parking" icon from Lucide.
@@ -26260,9 +29362,9 @@ class LucideIcons {
   /// The "square-scissors" icon from Lucide.
   static const LucideIconData squareScissors = LucideIconData(
     name: 'square-scissors',
-    circles: [(8.5, 8.5, 1.5), (8.5, 15.5, 1.5)],
-    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
+    circles: [(8.5, 15.5, 1.5), (8.5, 8.5, 1.5)],
     rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['m17 17-2.18-2.18', 'M9.56 14.44 17 7', 'M9.56 9.56 12 12'],
     tags: [
       'cut',
       'snippet',
@@ -26302,13 +29404,26 @@ class LucideIcons {
     categories: ['development', 'math'],
   );
 
+  /// The "square-sparkles" icon from Lucide.
+  static const LucideIconData squareSparkles = LucideIconData(
+    name: 'square-sparkles',
+    paths: [
+      'M11 15H7',
+      'M15.41 2.49a.6.6 0 011.18 0l.63 3.334a1.2 1.2 0 00.956.955l3.334.631a.6.6 0 010 1.18l-3.334.63a1.2 1.2 0 00-.955.956l-.631 3.334a.6.6 0 01-1.18 0l-.63-3.334a1.2 1.2 0 00-.956-.955L10.49 8.59a.6.6 0 010-1.18l3.334-.63a1.2 1.2 0 00.955-.956z',
+      'M21 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h6',
+      'M9 13v4',
+    ],
+    tags: ['picture', 'photo', 'sparkles'],
+    categories: ['photography', 'text', 'multimedia', 'files'],
+  );
+
   /// The "square-split-horizontal" icon from Lucide.
   static const LucideIconData squareSplitHorizontal = LucideIconData(
     name: 'square-split-horizontal',
-    lines: [(0.0, 0.0, 0.0, 0.0)],
     paths: [
-      'M8 19H5c-1 0-2-1-2-2V7c0-1 1-2 2-2h3',
-      'M16 5h3c1 0 2 1 2 2v10c0 1-1 2-2 2h-3',
+      'M12 2v20',
+      'M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3',
+      'M8 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3',
     ],
     tags: ['split', 'divide'],
     categories: ['layout'],
@@ -26317,10 +29432,10 @@ class LucideIcons {
   /// The "square-split-vertical" icon from Lucide.
   static const LucideIconData squareSplitVertical = LucideIconData(
     name: 'square-split-vertical',
-    lines: [(0.0, 0.0, 0.0, 0.0)],
     paths: [
-      'M5 8V5c0-1 1-2 2-2h10c1 0 2 1 2 2v3',
-      'M19 16v3c0 1-1 2-2 2H7c-1 0-2-1-2-2v-3',
+      'M2 12h20',
+      'M21 16v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3',
+      'M3 8V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3',
     ],
     tags: ['split', 'divide'],
     categories: ['layout'],
@@ -26396,6 +29511,37 @@ class LucideIcons {
     paths: ['m7 11 2-2-2-2', 'M11 13h4'],
     tags: ['code', 'command line', 'prompt', 'shell'],
     categories: ['development'],
+  );
+
+  /// The "square-text" icon from Lucide.
+  static const LucideIconData squareText = LucideIconData(
+    name: 'square-text',
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M7 8h8', 'M7 12h10', 'M7 16h6'],
+    tags: [
+      'text',
+      'paragraph',
+      'content',
+      'note',
+      'document',
+      'body',
+      'copy',
+      'article',
+      'square',
+      'container',
+      'block',
+      'card',
+      'placeholder',
+      'log',
+      'page',
+      'paper',
+      'sheet',
+      'list',
+      'script',
+      'code',
+      'editor',
+    ],
+    categories: ['text', 'shapes', 'development'],
   );
 
   /// The "square-user" icon from Lucide.
@@ -27339,28 +30485,61 @@ class LucideIcons {
       'm11 19-6-6',
       'm5 21-2-2',
       'm8 16-4 4',
-      'M9.5 17.5 21 6V3h-3L6.5 14.5',
+      'M9.5 17.5 20.414 6.586A2 2 0 0021 5.172V3h-2.172a2 2 0 00-1.414.586L6.5 14.5',
     ],
-    tags: ['battle', 'challenge', 'game', 'war', 'weapon'],
+    tags: [
+      'battle',
+      'challenge',
+      'combat',
+      'duel',
+      'fantasy',
+      'game',
+      'knight',
+      'melee',
+      'medieval',
+      'offense',
+      'rpg',
+      'sharp',
+      'weapon',
+      'war',
+      'warrior',
+    ],
     categories: ['gaming', 'tools'],
   );
 
   /// The "swords" icon from Lucide.
   static const LucideIconData swords = LucideIconData(
     name: 'swords',
-    lines: [
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
-      (0.0, 0.0, 0.0, 0.0),
+    paths: [
+      'm13 19 6-6',
+      'M14.5 17.5 3.586 6.586A2 2 0 013 5.172V3h2.172a2 2 0 011.414.586L17.5 14.5',
+      'm14.828 6.172 2.586-2.586A2 2 0 0118.828 3H21v2.172a2 2 0 01-.586 1.414l-2.586 2.586',
+      'm16 16 4 4',
+      'm19 21 2-2',
+      'm5 14 4 4',
+      'm5 21-2-2',
+      'M7.5 16.5 4 20',
     ],
-    polylines: [
-      [(14.5, 17.5), (3.0, 6.0), (3.0, 3.0), (6.0, 3.0), (17.5, 14.5)],
-      [(14.5, 6.5), (18.0, 3.0), (21.0, 3.0), (21.0, 6.0), (17.5, 9.5)],
+    tags: [
+      'battle',
+      'challenge',
+      'combat',
+      'conflict',
+      'crossed',
+      'duel',
+      'faction',
+      'fantasy',
+      'game',
+      'melee',
+      'medieval',
+      'opponent',
+      'rivalry',
+      'rpg',
+      'versus',
+      'weapon',
+      'war',
+      'warrior',
     ],
-    tags: ['battle', 'challenge', 'game', 'war', 'weapon'],
     categories: ['gaming', 'tools'],
   );
 
@@ -27399,9 +30578,8 @@ class LucideIcons {
   /// The "table-2" icon from Lucide.
   static const LucideIconData table2 = LucideIconData(
     name: 'table-2',
-    paths: [
-      'M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18',
-    ],
+    rects: [(3.0, 3.0, 18.0, 18.0, 2.0)],
+    paths: ['M3 9h18', 'M9 3v18'],
     tags: ['spreadsheet', 'grid'],
     categories: ['text', 'files'],
   );
@@ -27531,7 +30709,15 @@ class LucideIcons {
     name: 'tablet',
     lines: [(0.0, 0.0, 0.0, 0.0)],
     rects: [(4.0, 2.0, 16.0, 20.0, 2.0)],
-    tags: ['device'],
+    tags: [
+      'device',
+      'mobile',
+      'screen',
+      'display',
+      'touchscreen',
+      'portable',
+      'responsive',
+    ],
     categories: ['devices'],
   );
 
@@ -27543,7 +30729,20 @@ class LucideIcons {
       'M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4',
       'M8 18h.01',
     ],
-    tags: ['responsive', 'screens', 'browser', 'testing', 'mobile'],
+    tags: [
+      'phone',
+      'cellphone',
+      'device',
+      'mobile',
+      'screen',
+      'display',
+      'touchscreen',
+      'portable',
+      'responsive',
+      'screens',
+      'browser',
+      'testing',
+    ],
     categories: ['devices', 'design', 'development', 'tools'],
   );
 
@@ -28119,6 +31318,22 @@ class LucideIcons {
     categories: ['account', 'social', 'emoji'],
   );
 
+  /// The "tic-tac-toe" icon from Lucide.
+  static const LucideIconData ticTacToe = LucideIconData(
+    name: 'tic-tac-toe',
+    circles: [(18.5, 5.5, 2.5), (5.5, 18.5, 2.5)],
+    paths: [
+      'M12 2v20',
+      'm21 16-5 5',
+      'm21 21-5-5',
+      'M22 12H2',
+      'M8 3 3 8',
+      'M8 8 3 3',
+    ],
+    tags: ['game', 'board', 'grid', 'strategy', 'noughts and crosses'],
+    categories: ['gaming'],
+  );
+
   /// The "ticket" icon from Lucide.
   static const LucideIconData ticket = LucideIconData(
     name: 'ticket',
@@ -28471,8 +31686,8 @@ class LucideIcons {
     name: 'toolbox',
     paths: [
       'M16 12v4',
-      'M16 6a2 2 0 0 1 1.414.586l4 4A2 2 0 0 1 22 12v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 .586-1.414l4-4A2 2 0 0 1 8 6z',
-      'M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2',
+      'M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2',
+      'M17 6a2 2 0 011.414.586l3 3A2 2 0 0122 11v8a2 2 0 01-2 2H4a2 2 0 01-2-2v-8a2 2 0 01.586-1.414l3-3A2 2 0 017 6z',
       'M2 14h20',
       'M8 12v4',
     ],
@@ -28504,6 +31719,69 @@ class LucideIcons {
       'diy',
     ],
     categories: ['tools', 'home'],
+  );
+
+  /// The "toothbrush" icon from Lucide.
+  static const LucideIconData toothbrush = LucideIconData(
+    name: 'toothbrush',
+    paths: [
+      'M15 11c-2 2-4 2-6 4l-7 7',
+      'm22 4-7.414 7.414-2-2A2 2 0 0114 6c0-.512.196-1.024.586-1.414A2 2 0 0116 4a2 2 0 013.262-1.552l2.152 2.138',
+    ],
+    tags: [
+      'dental care',
+      'oral hygiene',
+      'brushing',
+      'teeth',
+      'dentist',
+      'bathroom',
+      'toiletries',
+      'personal care',
+      'cleaning',
+      'bristles',
+      'handle',
+      'plaque',
+      'toothpaste',
+      'selfcare',
+      'grooming',
+    ],
+    categories: ['home', 'travel', 'tools', 'medical'],
+  );
+
+  /// The "toothbrush-sparkles" icon from Lucide.
+  static const LucideIconData toothbrushSparkles = LucideIconData(
+    name: 'toothbrush-sparkles',
+    paths: [
+      'M10 3H8',
+      'M14.586 11.414 22 4',
+      'M15 11a8 8 0 01-.429.4',
+      'm2 22 7-7c1.857-1.857 3.714-1.99 5.571-3.6l-1.985-1.986A2 2 0 0114 6a2 2 0 012-2 2 2 0 013.262-1.552l2.152 2.138',
+      'M20 15v4',
+      'M22 17h-4',
+      'M4 5v4',
+      'M6 7H2',
+      'M9 2v2',
+    ],
+    tags: [
+      'dental care',
+      'oral hygiene',
+      'brushing',
+      'teeth',
+      'dentist',
+      'bathroom',
+      'toiletries',
+      'personal care',
+      'cleaning',
+      'bristles',
+      'handle',
+      'plaque',
+      'toothpaste',
+      'selfcare',
+      'grooming',
+      'fresh',
+      'clean',
+    ],
+    categories: ['home', 'tools', 'medical', 'travel'],
   );
 
   /// The "tornado" icon from Lucide.
@@ -28646,6 +31924,29 @@ class LucideIcons {
     categories: ['transportation'],
   );
 
+  /// The "trailer" icon from Lucide.
+  static const LucideIconData trailer = LucideIconData(
+    name: 'trailer',
+    circles: [(8.0, 17.0, 2.0)],
+    paths: [
+      'M10 11.341V10',
+      'M14 13v-3',
+      'M18 17V8a2 2 0 00-2-2H4a2 2 0 00-2 2v7a2 2 0 002 2h2',
+      'M22 15v1a1 1 0 01-1 1H10',
+      'M6 11.341V10',
+    ],
+    tags: [
+      'tow',
+      'shipping',
+      'delivery',
+      'haulage',
+      'vehicle',
+      'equipment',
+      'freight',
+    ],
+    categories: ['transportation'],
+  );
+
   /// The "train-front" icon from Lucide.
   static const LucideIconData trainFront = LucideIconData(
     name: 'train-front',
@@ -28758,6 +32059,8 @@ class LucideIcons {
   static const LucideIconData trash = LucideIconData(
     name: 'trash',
     paths: [
+      'M10 11v6',
+      'M14 11v6',
       'M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6',
       'M3 6h18',
       'M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2',
@@ -28781,17 +32084,41 @@ class LucideIcons {
     categories: ['files', 'mail'],
   );
 
-  /// The "trash-2" icon from Lucide.
-  static const LucideIconData trash2 = LucideIconData(
-    name: 'trash-2',
+  /// The "trash-off" icon from Lucide.
+  static const LucideIconData trashOff = LucideIconData(
+    name: 'trash-off',
     paths: [
       'M10 11v6',
-      'M14 11v6',
-      'M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6',
-      'M3 6h18',
-      'M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2',
+      'M14 17v-3',
+      'M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-1.576.768',
+      'M19 6v7.344',
+      'm2 2 20 20',
+      'M21 6h-9.344',
+      'M3 6h3',
+      'M5 6v14a2 2 0 002 2h10a2 2 0 002-2v-1',
     ],
-    tags: ['garbage', 'delete', 'remove', 'bin'],
+    tags: [
+      'empty',
+      'deletion',
+      'cleanup',
+      'junk',
+      'clear',
+      'garbage',
+      'delete',
+      'remove',
+      'bin',
+      'trash',
+      'waste',
+      'recycle',
+      'discard',
+      'rubbish',
+      'disabled',
+      'off',
+      'prevent',
+      'locked',
+      'unavailable',
+      'protected',
+    ],
     categories: ['files', 'mail'],
   );
 
@@ -28944,16 +32271,48 @@ class LucideIcons {
     categories: ['shapes', 'math'],
   );
 
+  /// The "triangles-centerline-dashed-horizontal" icon from Lucide.
+  static const LucideIconData
+  trianglesCenterlineDashedHorizontal = LucideIconData(
+    name: 'triangles-centerline-dashed-horizontal',
+    paths: [
+      'M10 12H8',
+      'M16 12h-2',
+      'M22 12h-2',
+      'M4 12H2',
+      'M7.298 20.288A1 1 0 008 22h8a1 1 0 00.703-1.712l-3.991-3.99a1 1 0 00-1.424-.001z',
+      'M7.298 3.712A1 1 0 018 2h8a1 1 0 01.703 1.712l-3.991 3.99a1 1 0 01-1.424.001z',
+    ],
+    tags: ['reflect', 'mirror', 'alignment', 'dashed'],
+    categories: ['design', 'photography'],
+  );
+
+  /// The "triangles-centerline-dashed-vertical" icon from Lucide.
+  static const LucideIconData
+  trianglesCenterlineDashedVertical = LucideIconData(
+    name: 'triangles-centerline-dashed-vertical',
+    paths: [
+      'M12 14v2',
+      'M12 20v2',
+      'M12 2v2',
+      'M12 8v2',
+      'M20.288 16.703A1 1 0 0022 16V8a1 1 0 00-1.712-.703l-3.99 3.991a1 1 0 00-.001 1.424z',
+      'M3.712 16.703A1 1 0 012 16V8a1 1 0 011.712-.703l3.99 3.991a1 1 0 01.001 1.424z',
+    ],
+    tags: ['reflect', 'mirror', 'alignment', 'dashed'],
+    categories: ['design', 'photography'],
+  );
+
   /// The "trophy" icon from Lucide.
   static const LucideIconData trophy = LucideIconData(
     name: 'trophy',
     paths: [
-      'M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978',
-      'M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978',
-      'M18 9h1.5a1 1 0 0 0 0-5H18',
+      'M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2',
+      'M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2',
+      'M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3',
       'M4 22h16',
       'M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z',
-      'M6 9H4.5a1 1 0 0 1 0-5H6',
+      'M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3',
     ],
     tags: [
       'prize',
@@ -28964,6 +32323,15 @@ class LucideIcons {
       'champion',
       'celebration',
       'victory',
+      'competition',
+      'tournament',
+      'leaderboard',
+      'ranking',
+      'success',
+      'reward',
+      'cup',
+      'first',
+      'gold',
     ],
     categories: ['sports', 'gaming'],
   );
@@ -28994,6 +32362,32 @@ class LucideIcons {
     ],
     tags: ['delivery', 'van', 'shipping', 'haulage', 'lorry', 'electric'],
     categories: ['transportation'],
+  );
+
+  /// The "tube-lotion" icon from Lucide.
+  static const LucideIconData tubeLotion = LucideIconData(
+    name: 'tube-lotion',
+    paths: [
+      'M15 18v3a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-3',
+      'M17 2a2 2 0 0 1 1.6 3.2A8 8 0 0 0 17 10v6a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-6a8 8 0 0 0-1.6-4.8A2 2 0 0 1 7 2z',
+      'M7 10a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0',
+    ],
+    tags: [
+      'sunscreen',
+      'sunblock',
+      'spf',
+      'uv',
+      'cream',
+      'skincare',
+      'toothpaste',
+      'ointment',
+      'bottle',
+      'toiletries',
+      'bathroom',
+      'beach',
+      'summer',
+    ],
+    categories: ['medical', 'home', 'shopping', 'travel', 'seasons'],
   );
 
   /// The "turkish-lira" icon from Lucide.
@@ -29411,6 +32805,28 @@ class LucideIcons {
     categories: ['devices', 'multimedia', 'home'],
   );
 
+  /// The "usb-c-port" icon from Lucide.
+  static const LucideIconData usbCPort = LucideIconData(
+    name: 'usb-c-port',
+    rects: [(2.0, 8.0, 20.0, 8.0, 4.0)],
+    paths: ['M6 12h12'],
+    tags: [
+      'universal',
+      'serial',
+      'bus',
+      'controller',
+      'connector',
+      'interface',
+      'socket',
+      'plug',
+      'slot',
+      'data',
+      'input',
+      'output',
+    ],
+    categories: ['devices', 'multimedia', 'home', 'gaming'],
+  );
+
   /// The "user" icon from Lucide.
   static const LucideIconData user = LucideIconData(
     name: 'user',
@@ -29454,6 +32870,36 @@ class LucideIcons {
     ],
     tags: ['settings', 'edit', 'cog', 'gear'],
     categories: ['account'],
+  );
+
+  /// The "user-group" icon from Lucide.
+  static const LucideIconData userGroup = LucideIconData(
+    name: 'user-group',
+    circles: [(12.0, 11.0, 3.0), (18.0, 4.0, 2.0), (6.0, 4.0, 2.0)],
+    paths: [
+      'M17 21v-1a2 2 0 00-2-2H9a2 2 0 00-2 2v1',
+      'M19 10h1a2 2 0 012 2v1',
+      'M5 10H4a2 2 0 00-2 2v1',
+    ],
+    tags: [
+      'group',
+      'people',
+      'team',
+      'members',
+      'community',
+      'membership',
+      'collaboration',
+      'organization',
+      'contacts',
+      'directory',
+      'staff',
+      'family',
+      'ancestry',
+      'ancestors',
+      'lineage',
+      'parents',
+    ],
+    categories: ['account', 'people', 'social'],
   );
 
   /// The "user-key" icon from Lucide.
@@ -29594,6 +33040,36 @@ class LucideIcons {
     categories: ['account'],
   );
 
+  /// The "user-round-group" icon from Lucide.
+  static const LucideIconData userRoundGroup = LucideIconData(
+    name: 'user-round-group',
+    circles: [(12.0, 13.0, 3.0), (18.5, 4.5, 2.5), (5.5, 4.5, 2.5)],
+    paths: [
+      'M17 21a5 5 0 00-10 0',
+      'M22 10.5a3.5 3.5 0 00-5.507-2.868',
+      'M7.507 7.632A3.5 3.5 0 002 10.5',
+    ],
+    tags: [
+      'group',
+      'people',
+      'team',
+      'members',
+      'community',
+      'membership',
+      'collaboration',
+      'organization',
+      'contacts',
+      'directory',
+      'staff',
+      'family',
+      'ancestry',
+      'ancestors',
+      'lineage',
+      'parents',
+    ],
+    categories: ['account', 'people', 'social'],
+  );
+
   /// The "user-round-key" icon from Lucide.
   static const LucideIconData userRoundKey = LucideIconData(
     name: 'user-round-key',
@@ -29669,7 +33145,7 @@ class LucideIcons {
   static const LucideIconData userRoundX = LucideIconData(
     name: 'user-round-x',
     circles: [(10.0, 8.0, 5.0)],
-    paths: ['M2 21a8 8 0 0 1 11.873-7', 'm17 17 5 5', 'm22 17-5 5'],
+    paths: ['m16.5 16.5 5 5', 'M2 21a8 8 0 0 1 11.531-7.18', 'm21.5 16.5-5 5'],
     tags: ['delete', 'remove', 'unfollow', 'unsubscribe', 'unavailable'],
     categories: ['account'],
   );
@@ -29690,6 +33166,29 @@ class LucideIcons {
       'lens',
     ],
     categories: ['account', 'social'],
+  );
+
+  /// The "user-shield" icon from Lucide.
+  static const LucideIconData userShield = LucideIconData(
+    name: 'user-shield',
+    circles: [(9.0, 7.0, 4.0)],
+    paths: [
+      'M10 15H6a4 4 0 0 0-4 4v2',
+      'M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z',
+    ],
+    tags: [
+      'user',
+      'shield',
+      'admin',
+      'protected',
+      'guard',
+      'profile',
+      'security',
+      'privacy',
+      'permissions',
+      'role',
+    ],
+    categories: ['account', 'security', 'development', 'people'],
   );
 
   /// The "user-star" icon from Lucide.
@@ -29908,20 +33407,57 @@ class LucideIcons {
     categories: ['security', 'travel', 'home'],
   );
 
+  /// The "vector-polygon" icon from Lucide.
+  static const LucideIconData vectorPolygon = LucideIconData(
+    name: 'vector-polygon',
+    circles: [
+      (11.0, 4.0, 2.0),
+      (15.0, 20.0, 2.0),
+      (20.0, 8.0, 2.0),
+      (4.0, 13.0, 2.0),
+    ],
+    paths: [
+      'm12.828 4.813 5.344 2.375',
+      'm15.769 18.153 3.461-8.306',
+      'm5.687 14.074 7.625 4.852',
+      'M9.772 5.579 5.228 11.42',
+    ],
+    tags: [
+      'map',
+      'vector',
+      'geometry',
+      'coordinates',
+      'shape',
+      'location',
+      'boundary',
+      'area',
+      'region',
+      'gis',
+      'geospatial',
+      'vertices',
+      'points',
+      'outline',
+      'drawing',
+      'design',
+      'math',
+    ],
+    categories: ['design', 'math', 'shapes'],
+  );
+
   /// The "vector-square" icon from Lucide.
   static const LucideIconData vectorSquare = LucideIconData(
     name: 'vector-square',
-    rects: [
-      (17.0, 17.0, 5.0, 5.0, 1.0),
-      (17.0, 2.0, 5.0, 5.0, 1.0),
-      (2.0, 17.0, 5.0, 5.0, 1.0),
-      (2.0, 2.0, 5.0, 5.0, 1.0),
+    circles: [
+      (19.0, 19.0, 2.0),
+      (19.0, 5.0, 2.0),
+      (5.0, 19.0, 2.0),
+      (5.0, 5.0, 2.0),
     ],
     paths: [
-      'M19.5 7a24 24 0 0 1 0 10',
-      'M4.5 7a24 24 0 0 0 0 10',
-      'M7 19.5a24 24 0 0 0 10 0',
-      'M7 4.5a24 24 0 0 1 10 0',
+      'M17.055 4.533a24 24 0 00-10.11 0',
+      'M19.467 17.055a24 24 0 000-10.11',
+      'M4.533 6.945a24 24 0 000 10.11',
+      'M6.945 19.467a24 24 0 0010.11 0',
     ],
     tags: [
       'shape',
@@ -30079,6 +33615,111 @@ class LucideIcons {
     categories: ['design', 'photography'],
   );
 
+  /// The "virus" icon from Lucide.
+  static const LucideIconData virus = LucideIconData(
+    name: 'virus',
+    circles: [(12.0, 12.0, 7.0)],
+    paths: [
+      'M12 14.991h.01',
+      'M12 22v-3',
+      'M12 2v3',
+      'M13 22h-2',
+      'M13 2h-2',
+      'M13.99 10H14',
+      'm16.5 19.794-1-1.733',
+      'm16.5 4.205-1 1.732',
+      'm19.794 16.5-1.732-1',
+      'm19.794 7.5-1.732 1',
+      'M2 12h3',
+      'M2 13v-2',
+      'M22 12h-3',
+      'M22 13v-2',
+      'm4.206 16.5 1.732-1',
+      'm4.206 7.5 1.732 1',
+      'm7.5 19.794 1-1.733',
+      'm7.5 4.205 1 1.732',
+      'M9 12h.01',
+    ],
+    tags: [
+      'pathogen',
+      'infection',
+      'disease',
+      'illness',
+      'contagion',
+      'outbreak',
+      'pandemic',
+      'epidemic',
+      'covid',
+      'coronavirus',
+      'germ',
+      'microbe',
+      'microorganism',
+      'biology',
+      'medical',
+      'healthcare',
+      'malware',
+      'cybersecurity',
+      'threat',
+    ],
+    categories: ['medical', 'science', 'security'],
+  );
+
+  /// The "virus-off" icon from Lucide.
+  static const LucideIconData virusOff = LucideIconData(
+    name: 'virus-off',
+    paths: [
+      'M10.01 10h.01',
+      'M12 14.991h.01',
+      'M12 22v-3',
+      'M12 2v3',
+      'M13 22h-2',
+      'M13 2h-2',
+      'm16.5 19.794-1-1.733',
+      'm16.5 4.205-1 1.732',
+      'M18.891 13.235a7 7 0 00-8.126-8.126',
+      'm19.794 7.5-1.732 1',
+      'M2 12h3',
+      'M2 13v-2',
+      'm2 2 20 20',
+      'M22 12h-3',
+      'M22 13v-2',
+      'm4.206 16.5 1.732-1',
+      'm4.206 7.5 1.732 1',
+      'M7.05 7.05a7 7 0 009.9 9.9',
+      'm7.5 19.794 1-1.733',
+      'M9 12h.01',
+    ],
+    tags: [
+      'pathogen',
+      'infection',
+      'disease',
+      'illness',
+      'contagion',
+      'outbreak',
+      'pandemic',
+      'epidemic',
+      'covid',
+      'coronavirus',
+      'germ',
+      'microbe',
+      'microorganism',
+      'biology',
+      'medical',
+      'healthcare',
+      'malware',
+      'cybersecurity',
+      'threat',
+      'antivirus',
+      'blocked',
+      'removed',
+      'clean',
+      'safe',
+      'prevention',
+      'quarantine',
+    ],
+    categories: ['medical', 'science', 'security'],
+  );
+
   /// The "voicemail" icon from Lucide.
   static const LucideIconData voicemail = LucideIconData(
     name: 'voicemail',
@@ -30176,9 +33817,10 @@ class LucideIcons {
   /// The "volume-x" icon from Lucide.
   static const LucideIconData volumeX = LucideIconData(
     name: 'volume-x',
-    lines: [(0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)],
     paths: [
-      'M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z',
+      'M11 4.702a.7.7 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.7.7 0 0 0 11 19.298z',
+      'm16.5 14.5 5-5',
+      'm16.5 9.5 5 5',
     ],
     tags: ['music', 'sound', 'mute', 'speaker'],
     categories: ['connectivity', 'communication', 'multimedia'],
@@ -30659,6 +34301,36 @@ class LucideIcons {
     categories: ['food-beverage'],
   );
 
+  /// The "whistle" icon from Lucide.
+  static const LucideIconData whistle = LucideIconData(
+    name: 'whistle',
+    paths: [
+      'M10 6v4',
+      'M21 6a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.675A7 7 0 1 1 9 6z',
+    ],
+    tags: [
+      'alert',
+      'signal',
+      'sound',
+      'blow',
+      'noise',
+      'coach',
+      'trainer',
+      'referee',
+      'gym',
+      'game',
+      'training',
+      'sports',
+      'traffic cops',
+      'police',
+      'lifeguard',
+      'safety',
+      'rescue',
+      'emergency',
+    ],
+    categories: ['sports', 'notifications'],
+  );
+
   /// The "whole-word" icon from Lucide.
   static const LucideIconData wholeWord = LucideIconData(
     name: 'whole-word',
@@ -31004,7 +34676,7 @@ class LucideIcons {
   static const LucideIconData zap = LucideIconData(
     name: 'zap',
     paths: [
-      'M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z',
+      'M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z',
     ],
     tags: [
       'flash',
@@ -31022,10 +34694,10 @@ class LucideIcons {
   static const LucideIconData zapOff = LucideIconData(
     name: 'zap-off',
     paths: [
-      'M10.513 4.856 13.12 2.17a.5.5 0 0 1 .86.46l-1.377 4.317',
-      'M15.656 10H20a1 1 0 0 1 .78 1.63l-1.72 1.773',
-      'M16.273 16.273 10.88 21.83a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14H4a1 1 0 0 1-.78-1.63l4.507-4.643',
+      'M10.768 5.111 13.44 2.44a1.5 1.5 0 012.474 1.561l-1.633 4.625',
+      'm18.889 13.232.672-.672A1.5 1.5 0 0018.5 10h-2.844',
       'm2 2 20 20',
+      'm7.94 7.94-3.5 3.499A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l5.5-5.5',
     ],
     tags: ['flash', 'camera', 'lightning', 'electricity', 'energy', 'power'],
     categories: ['connectivity', 'devices', 'photography', 'weather'],
@@ -31346,7 +35018,6 @@ class LucideIcons {
     alarmClockOff,
     alarmClockPlus,
     alarmSmoke,
-    album,
     alignCenterHorizontal,
     alignCenterVertical,
     alignEndHorizontal,
@@ -31374,8 +35045,7 @@ class LucideIcons {
     ampersands,
     amphora,
     anchor,
-    angry,
-    annoyed,
+    angle,
     antenna,
     anvil,
     aperture,
@@ -31434,6 +35104,8 @@ class LucideIcons {
     atSign,
     atom,
     audioLines,
+    audioLinesOff,
+    audioLinesX,
     audioWaveform,
     award,
     axe,
@@ -31463,6 +35135,7 @@ class LucideIcons {
     ban,
     banana,
     bandage,
+    bangladeshiTaka,
     banknote,
     banknoteArrowDown,
     banknoteArrowUp,
@@ -31526,6 +35199,7 @@ class LucideIcons {
     bookA,
     bookAlert,
     bookAudio,
+    bookBookmark,
     bookCheck,
     bookCopy,
     bookDashed,
@@ -31535,7 +35209,6 @@ class LucideIcons {
     bookImage,
     bookKey,
     bookLock,
-    bookMarked,
     bookMinus,
     bookOpen,
     bookOpenCheck,
@@ -31570,12 +35243,16 @@ class LucideIcons {
     brickWall,
     brickWallFire,
     brickWallShield,
+    bridge,
     briefcase,
     briefcaseBusiness,
     briefcaseConveyorBelt,
     briefcaseMedical,
+    briefcasePlus,
     bringToFront,
     broccoli,
+    broom,
+    broomSparkles,
     brush,
     brushCleaning,
     bubbles,
@@ -31583,7 +35260,8 @@ class LucideIcons {
     bugOff,
     bugPlay,
     building,
-    building2,
+    buildingComplex,
+    buildingComplexPlus,
     bus,
     busFront,
     cable,
@@ -31597,6 +35275,7 @@ class LucideIcons {
     calendarArrowUp,
     calendarCheck,
     calendarCheck2,
+    calendarChevronsRight,
     calendarClock,
     calendarCog,
     calendarDays,
@@ -31615,6 +35294,8 @@ class LucideIcons {
     calendars,
     camera,
     cameraOff,
+    can,
+    canSoda,
     candy,
     candyCane,
     candyOff,
@@ -31623,11 +35304,14 @@ class LucideIcons {
     captions,
     captionsOff,
     car,
+    carBattery,
     carFront,
     carTaxiFront,
     caravan,
     cardSim,
     carrot,
+    carton,
+    cartonOff,
     caseLower,
     caseSensitive,
     caseUpper,
@@ -31706,6 +35390,7 @@ class LucideIcons {
     circleChevronRight,
     circleChevronUp,
     circleDashed,
+    circleDashedCheck,
     circleDivide,
     circleDollarSign,
     circleDot,
@@ -31739,6 +35424,9 @@ class LucideIcons {
     circuitBoard,
     citrus,
     clapperboard,
+    clefAlto,
+    clefBass,
+    clefTreble,
     clipboard,
     clipboardCheck,
     clipboardClock,
@@ -31838,6 +35526,11 @@ class LucideIcons {
     cpu,
     creativeCommons,
     creditCard,
+    creditCardCheck,
+    creditCardMinus,
+    creditCardPlus,
+    creditCardReader,
+    creditCardX,
     croissant,
     crop,
     cross,
@@ -31845,6 +35538,7 @@ class LucideIcons {
     crown,
     cuboid,
     cupSoda,
+    cupcake,
     currency,
     cylinder,
     dam,
@@ -31885,10 +35579,13 @@ class LucideIcons {
     dock,
     dog,
     dollarSign,
+    dome,
     donut,
     doorClosed,
     doorClosedLocked,
+    doorClosedPackage,
     doorOpen,
+    doorStairwell,
     dot,
     download,
     draftingCompass,
@@ -31909,11 +35606,14 @@ class LucideIcons {
     egg,
     eggFried,
     eggOff,
+    eject,
     ellipse,
     ellipsis,
     ellipsisVertical,
+    engine,
     equal,
     equalApproximately,
+    equalApproximatelyNot,
     equalNot,
     eraser,
     ethernetPort,
@@ -31925,9 +35625,17 @@ class LucideIcons {
     eyeClosed,
     eyeDashed,
     eyeOff,
+    faceAngry,
+    faceExpressionless,
+    faceGrinning,
+    faceNeutral,
+    faceSlightlyFrowning,
+    faceSlightlySmiling,
+    faceSlightlySmilingPlus,
     factory,
     fan,
     fastForward,
+    faucet,
     feather,
     fence,
     ferrisWheel,
@@ -32006,8 +35714,6 @@ class LucideIcons {
     flaskConical,
     flaskConicalOff,
     flaskRound,
-    flipHorizontal2,
-    flipVertical2,
     flower,
     flower2,
     focus,
@@ -32050,12 +35756,12 @@ class LucideIcons {
     form,
     forward,
     frame,
-    frown,
     fuel,
     fullscreen,
     funnel,
     funnelPlus,
     funnelX,
+    galaxy,
     galleryHorizontal,
     galleryHorizontalEnd,
     galleryThumbnails,
@@ -32064,10 +35770,14 @@ class LucideIcons {
     gamepad,
     gamepad2,
     gamepadDirectional,
+    gapHorizontal,
+    gapVertical,
     gauge,
     gavel,
     gem,
     georgianLari,
+    germ,
+    germOff,
     ghost,
     gift,
     gitBranch,
@@ -32091,6 +35801,7 @@ class LucideIcons {
     glasses,
     globe,
     globeCheck,
+    globeCode,
     globeLock,
     globeOff,
     globeX,
@@ -32153,17 +35864,19 @@ class LucideIcons {
     helicopter,
     hexagon,
     highlighter,
-    history,
     hop,
     hopOff,
     hospital,
     hotel,
     hourglass,
+    hourglassCog,
     house,
+    houseCog,
     houseHeart,
     housePlug,
     housePlus,
     houseWifi,
+    houses,
     iceCreamBowl,
     iceCreamCone,
     idCard,
@@ -32186,6 +35899,7 @@ class LucideIcons {
     italic,
     iterationCcw,
     iterationCw,
+    ivBag,
     japaneseYen,
     joystick,
     kanban,
@@ -32196,6 +35910,7 @@ class LucideIcons {
     keyboard,
     keyboardMusic,
     keyboardOff,
+    lambda,
     lamp,
     lampCeiling,
     lampDesk,
@@ -32210,12 +35925,18 @@ class LucideIcons {
     laptopMinimalCheck,
     lasso,
     lassoSelect,
-    laugh,
+    layerArrowDown,
+    layerArrowUp,
     layers,
     layers2,
+    layersArrowDown,
+    layersArrowUp,
     layersMinus,
     layersPlus,
+    layoutArrowDown,
+    layoutArrowRight,
     layoutDashboard,
+    layoutFreeform,
     layoutGrid,
     layoutList,
     layoutPanelLeft,
@@ -32226,13 +35947,18 @@ class LucideIcons {
     lectern,
     lensConcave,
     lensConvex,
+    letters,
     library,
     libraryBig,
     lifeBuoy,
     ligature,
     lightbulb,
     lightbulbOff,
+    lighthouse,
+    lineDotBottomVertical,
+    lineDotLeftHorizontal,
     lineDotRightHorizontal,
+    lineDotTopVertical,
     lineSquiggle,
     lineStyle,
     link,
@@ -32243,6 +35969,7 @@ class LucideIcons {
     listChecks,
     listChevronsDownUp,
     listChevronsUpDown,
+    listClock,
     listCollapse,
     listEnd,
     listFilter,
@@ -32278,9 +36005,12 @@ class LucideIcons {
     luggage,
     magnet,
     mail,
+    mailBadge,
     mailCheck,
+    mailClock,
     mailMinus,
     mailOpen,
+    mailPen,
     mailPlus,
     mailQuestionMark,
     mailSearch,
@@ -32313,7 +36043,6 @@ class LucideIcons {
     medal,
     megaphone,
     megaphoneOff,
-    meh,
     memoryStick,
     menu,
     merge,
@@ -32321,6 +36050,7 @@ class LucideIcons {
     messageCircleCheck,
     messageCircleCode,
     messageCircleDashed,
+    messageCircleDashedCheck,
     messageCircleHeart,
     messageCircleMore,
     messageCircleOff,
@@ -32346,14 +36076,18 @@ class LucideIcons {
     messageSquareText,
     messageSquareWarning,
     messageSquareX,
+    messagesCircle,
     messagesSquare,
     metronome,
     mic,
+    micAudioLines,
     micOff,
+    micSignal,
     micVocal,
     microchip,
     microscope,
     microwave,
+    midiPort,
     milestone,
     milk,
     milkOff,
@@ -32370,6 +36104,7 @@ class LucideIcons {
     monitorDown,
     monitorOff,
     monitorPause,
+    monitorPc,
     monitorPlay,
     monitorSmartphone,
     monitorSpeaker,
@@ -32378,6 +36113,9 @@ class LucideIcons {
     monitorX,
     moon,
     moonStar,
+    mop,
+    mopSparkles,
+    mosque,
     motorbike,
     mountain,
     mountainSnow,
@@ -32390,6 +36128,8 @@ class LucideIcons {
     mousePointerBan,
     mousePointerClick,
     mouseRight,
+    mouth,
+    mouthOff,
     move,
     move3d,
     moveDiagonal,
@@ -32412,11 +36152,13 @@ class LucideIcons {
     navigation2,
     navigation2Off,
     navigationOff,
+    nepaliRupee,
     network,
     newspaper,
     nfc,
     nonBinary,
     notebook,
+    notebookDot,
     notebookPen,
     notebookTabs,
     notebookText,
@@ -32472,6 +36214,7 @@ class LucideIcons {
     paperclip,
     parasol,
     parentheses,
+    park,
     parkingMeter,
     partyPopper,
     pause,
@@ -32516,14 +36259,17 @@ class LucideIcons {
     plane,
     planeLanding,
     planeTakeoff,
+    plantPot,
     play,
     playOff,
+    playingCard,
+    playingCards,
+    playingCardsFan,
     plug,
     plug2,
     plugZap,
     plus,
     pocketKnife,
-    podcast,
     podium,
     pointer,
     pointerOff,
@@ -32591,15 +36337,20 @@ class LucideIcons {
     rewind,
     ribbon,
     road,
+    robotArm,
+    robotVacuum,
     rocket,
     rockingChair,
     rollerCoaster,
     rose,
     rotate3d,
     rotateCcw,
+    rotateCcwClock,
     rotateCcwKey,
     rotateCcwSquare,
     rotateCw,
+    rotateCwClock,
+    rotateCwFadingClock,
     rotateCwSquare,
     route,
     routeOff,
@@ -32635,6 +36386,7 @@ class LucideIcons {
     scanLine,
     scanQrCode,
     scanSearch,
+    scanSquare,
     scanText,
     school,
     scissors,
@@ -32677,6 +36429,8 @@ class LucideIcons {
     shieldCogCorner,
     shieldEllipsis,
     shieldHalf,
+    shieldKeyhole,
+    shieldLock,
     shieldMinus,
     shieldOff,
     shieldPlus,
@@ -32684,15 +36438,19 @@ class LucideIcons {
     shieldUser,
     shieldX,
     ship,
+    shipCargo,
     shipWheel,
     shirt,
     shoppingBag,
     shoppingBasket,
     shoppingCart,
+    shoppingCartMinus,
+    shoppingCartPlus,
     shovel,
     showerHead,
     shredder,
     shrimp,
+    shrimpOff,
     shrink,
     shrub,
     shuffle,
@@ -32716,8 +36474,6 @@ class LucideIcons {
     smartphone,
     smartphoneCharging,
     smartphoneNfc,
-    smile,
-    smilePlus,
     snail,
     snowflake,
     soapDispenserDroplet,
@@ -32757,6 +36513,7 @@ class LucideIcons {
     squareArrowUpLeft,
     squareArrowUpRight,
     squareAsterisk,
+    squareBookmark,
     squareBottomDashedScissors,
     squareCenterlineDashedHorizontal,
     squareCenterlineDashedVertical,
@@ -32773,11 +36530,16 @@ class LucideIcons {
     squareDashedBottomCode,
     squareDashedKanban,
     squareDashedMousePointer,
+    squareDashedPlus,
     squareDashedText,
     squareDashedTopSolid,
+    squareDashedX,
+    squareDashedXCorner,
+    squareDimensions,
     squareDivide,
     squareDot,
     squareEqual,
+    squareExclamationPoint,
     squareFunction,
     squareKanban,
     squareLibrary,
@@ -32785,6 +36547,7 @@ class LucideIcons {
     squareMenu,
     squareMinus,
     squareMousePointer,
+    squareOff,
     squareParking,
     squareParkingOff,
     squarePause,
@@ -32800,6 +36563,7 @@ class LucideIcons {
     squareScissors,
     squareSigma,
     squareSlash,
+    squareSparkles,
     squareSplitHorizontal,
     squareSplitVertical,
     squareSquare,
@@ -32807,6 +36571,7 @@ class LucideIcons {
     squareStar,
     squareStop,
     squareTerminal,
+    squareText,
     squareUser,
     squareUserRound,
     squareX,
@@ -32902,6 +36667,7 @@ class LucideIcons {
     thermometerSun,
     thumbsDown,
     thumbsUp,
+    ticTacToe,
     ticket,
     ticketCheck,
     ticketMinus,
@@ -32920,6 +36686,8 @@ class LucideIcons {
     toilet,
     toolCase,
     toolbox,
+    toothbrush,
+    toothbrushSparkles,
     tornado,
     torus,
     touchpad,
@@ -32929,13 +36697,14 @@ class LucideIcons {
     toyBrick,
     tractor,
     trafficCone,
+    trailer,
     trainFront,
     trainFrontTunnel,
     trainTrack,
     tramFront,
     transgender,
     trash,
-    trash2,
+    trashOff,
     treeDeciduous,
     treePalm,
     treePine,
@@ -32947,9 +36716,12 @@ class LucideIcons {
     triangleAlert,
     triangleDashed,
     triangleRight,
+    trianglesCenterlineDashedHorizontal,
+    trianglesCenterlineDashedVertical,
     trophy,
     truck,
     truckElectric,
+    tubeLotion,
     turkishLira,
     turntable,
     turtle,
@@ -32973,9 +36745,11 @@ class LucideIcons {
     unplug,
     upload,
     usb,
+    usbCPort,
     user,
     userCheck,
     userCog,
+    userGroup,
     userKey,
     userLock,
     userMinus,
@@ -32985,6 +36759,7 @@ class LucideIcons {
     userRoundArrowLeft,
     userRoundCheck,
     userRoundCog,
+    userRoundGroup,
     userRoundKey,
     userRoundMinus,
     userRoundPen,
@@ -32992,6 +36767,7 @@ class LucideIcons {
     userRoundSearch,
     userRoundX,
     userSearch,
+    userShield,
     userStar,
     userX,
     users,
@@ -33002,6 +36778,7 @@ class LucideIcons {
     van,
     variable,
     vault,
+    vectorPolygon,
     vectorSquare,
     vegan,
     venetianMask,
@@ -33013,6 +36790,8 @@ class LucideIcons {
     videoOff,
     videotape,
     view,
+    virus,
+    virusOff,
     voicemail,
     volleyball,
     volume,
@@ -33044,6 +36823,7 @@ class LucideIcons {
     weightTilde,
     wheat,
     wheatOff,
+    whistle,
     wholeWord,
     wifi,
     wifiCog,
@@ -33151,7 +36931,7 @@ const List<LucideCategory> kLucideCategories = [
   LucideCategory(
     id: 'emoji',
     title: 'Emoji',
-    representativeIcon: LucideIcons.smile,
+    representativeIcon: LucideIcons.faceSlightlySmiling,
   ),
   LucideCategory(
     id: 'files',

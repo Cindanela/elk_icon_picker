@@ -14,3 +14,7 @@ example/linux/
 example/macos/
 example/windows/
 example/web/WORKLOG.md
+
+# .pubignore replaces .gitignore for publishing, so repeat its build outputs.
+build/
+pubspec.lock

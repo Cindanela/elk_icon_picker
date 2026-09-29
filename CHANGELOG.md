@@ -1,3 +1,15 @@
+## 0.2.0
+
+* Split the Lucide icon data into its own package,
+  [`elk_lucide_icons`](https://pub.dev/packages/elk_lucide_icons), now this
+  package's only dependency. `LucideIcon`, `LucideIcons`, `LucideIconData`,
+  `LucideCategory`, `IconSearchService`, `kLucideIcons`, `kLucideCategories`
+  and `kLucideIconAliases` moved there and are re-exported, so
+  `import 'package:elk_icon_picker/elk_icon_picker.dart'` works as before.
+  Code that imported `package:elk_icon_picker/src/...` paths directly must
+  switch to the barrel import.
+* `CategoryStyle` moved to its own file (still exported from the barrel).
+
 ## 0.1.4
 
 * Refreshed the Lucide icon registry against current upstream data (1748 ->

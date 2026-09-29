@@ -1,9 +1,9 @@
 # elk_icon_picker
 
 [![Pub Version](https://img.shields.io/pub/v/elk_icon_picker?style=for-the-badge)](https://pub.dev/packages/elk_icon_picker)
-[![License](https://img.shields.io/badge/license-MIT%20/%20ISC-blue.svg?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-A high-performance, reusable, and **dependency-free** Flutter package for picking Lucide icons. Renders icons via `CustomPainter` from generated Dart data, ensuring zero impact on your app's font or SVG asset overhead.
+A themeable Flutter picker for [Lucide](https://lucide.dev) icons, usable inline or as a bottom sheet, with search and category tabs. The icons come from [`elk_lucide_icons`](https://pub.dev/packages/elk_lucide_icons), which draws them with `CustomPainter` (no fonts or SVG assets). It is re-exported, so one import gives you both.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Cindanela/elk_icon_picker/main/assets/screenshot_category_names.jpg" width="250"/>
@@ -13,20 +13,10 @@ A high-performance, reusable, and **dependency-free** Flutter package for pickin
 
 ## Features
 
-- 🚀 **Performance**: Icons are rendered using `CustomPainter` with standard Flutter `Canvas` commands.
-- 📦 **Zero Dependencies**: Does not depend on `flutter_svg`, `lucide_icons`, or any other third-party package.
+- 📦 **Minimal Dependencies**: Only depends on its sibling package `elk_lucide_icons`. No `flutter_svg`, icon fonts, or other third-party packages.
 - 🎨 **Fully Customizable**: Control colors, sizes, stroke widths, rounded caps/joins, and fonts — globally via `ThemeData` or per-widget.
 - 🔍 **Searchable**: Built-in fuzzy search and categorized icon browsing.
 - 📱 **Adaptive UI**: Works beautifully as an inline widget or a professional bottom sheet.
-- 🛠 **Generated Data**: Uses a custom build tool to convert Lucide SVG paths into optimized Dart draw commands.
-
-## Why CustomPainter?
-
-Unlike traditional icon fonts or SVG assets, `elk_icon_picker` uses `CustomPainter` to draw icons. This provides several advantages:
-1. **No Font Bloat**: You don't need to ship large `.ttf` or `.otf` files.
-2. **Dynamic Styling**: Stroke width and rounding can be changed at runtime without pixelation.
-3. **Optimized Payloads**: Only the raw path data is stored in the Dart binary, which is highly compressible.
-4. **Memory Efficient**: No SVG parsing at runtime for most icons (complex paths are cached).
 
 ## Getting Started
 
@@ -34,7 +24,7 @@ Add `elk_icon_picker` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  elk_icon_picker: ^0.1.3
+  elk_icon_picker: ^0.2.0
 ```
 
 ## Usage
@@ -77,7 +67,7 @@ ElkIconPicker(
 
 ### Displaying the Selected Icon
 
-Use the `LucideIcon` widget to render the selected icon data.
+Use the `LucideIcon` widget (from `elk_lucide_icons`, re-exported here) to render the selected icon data. If you only need to show icons, without the picker, depend on [`elk_lucide_icons`](https://pub.dev/packages/elk_lucide_icons) directly.
 
 ```dart
 LucideIcon(
@@ -249,4 +239,4 @@ Per-widget constructor params work exactly as before. These take priority over a
 ## License
 
 - The picker code is licensed under the [MIT License](LICENSE).
-- Lucide icon data is provided under the [ISC License](LICENSE-LUCIDE).
+- Lucide icon data ships in `elk_lucide_icons` under the [ISC License](https://github.com/Cindanela/elk_lucide_icons/blob/main/LICENSE-LUCIDE).

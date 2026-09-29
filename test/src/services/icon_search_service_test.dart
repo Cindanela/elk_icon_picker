@@ -60,6 +60,7 @@ void main() {
     test('returns null for unknown names', () {
       expect(IconSearchService.findByName('not-a-real-icon'), isNull);
       expect(IconSearchService.findByName(''), isNull);
+      expect(IconSearchService.findByName(null), isNull);
     });
 
     test('every alias points at an existing icon', () {

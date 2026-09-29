@@ -104,9 +104,9 @@ old names (e.g. `'smile'`, now `'face-slightly-smiling'`) still resolve via
 `kLucideIconAliases`, so saved data keeps working after an icon set update.
 
 ```dart
-final name = selection.data.name; // save this
+final savedName = selection.data.name; // store this string
 
-final icon = IconSearchService.findByName(name) ?? LucideIcons.circleQuestionMark;
+final icon = IconSearchService.findByName(savedName) ?? LucideIcons.circleQuestionMark;
 ```
 
 Renamed icons also keep deprecated constants (e.g. `LucideIcons.smile`), so

@@ -14,9 +14,13 @@ class IconSearchService {
   /// Names Lucide has since renamed (e.g. `'smile'`, now
   /// `'face-slightly-smiling'`) resolve to the current icon via
   /// [kLucideIconAliases], so icon names saved by the host app keep working
-  /// across icon set updates. Returns `null` for unknown names.
-  static LucideIconData? findByName(String name) =>
-      _byName[name] ?? _byName[kLucideIconAliases[name]];
+  /// across icon set updates. Returns `null` for a `null` or unknown name,
+  /// so a stored optional name can be looked up directly with a fallback:
+  /// `IconSearchService.findByName(savedName) ?? LucideIcons.circleCheck`.
+  static LucideIconData? findByName(String? name) {
+    if (name == null) return null;
+    return _byName[name] ?? _byName[kLucideIconAliases[name]];
+  }
 
   /// Filters icons based on a query string and/or a category ID.
   ///

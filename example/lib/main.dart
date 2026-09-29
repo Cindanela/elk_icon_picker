@@ -54,18 +54,22 @@ class _PickerDemoState extends State<PickerDemo> {
           mainAxisAlignment: MainAxisAlignment.center,
           spacing: 24,
           children: [
-            if (_selection is LucideIconSelection)
-              LucideIcon(
-                (_selection as LucideIconSelection).data,
+            if (_selection != null)
+              IconSelectionPreview(
+                selection: _selection,
                 size: 64,
                 color: scheme.primary,
               )
             else
               Icon(Icons.image_outlined, size: 64, color: scheme.outline),
             Text(
-              _selection is LucideIconSelection
-                  ? (_selection as LucideIconSelection).name
-                  : 'No icon selected',
+              switch (_selection) {
+                LucideIconSelection s => s.name,
+                EmojiSelection s => s.emoji,
+                ImportedIconSelection s => s.name,
+                BundledIconSelection s => s.assetPath,
+                null => 'No icon selected',
+              },
               style: Theme.of(context).textTheme.titleMedium,
             ),
             FilledButton.icon(

@@ -15,6 +15,19 @@ Path parseSvgPath(String d) {
 
   double nextNum() => tokens[i++].num;
 
+  void processLineTo(bool isRelative) {
+    while (i < tokens.length && !tokens[i].isCmd) {
+      if (isRelative) {
+        cx += nextNum();
+        cy += nextNum();
+      } else {
+        cx = nextNum();
+        cy = nextNum();
+      }
+      path.lineTo(cx, cy);
+    }
+  }
+
   while (i < tokens.length) {
     final tok = tokens[i++];
     if (!tok.isCmd) continue; // should always be a command here
@@ -27,36 +40,20 @@ Path parseSvgPath(String d) {
         cy = nextNum();
         path.moveTo(cx, cy);
         lastCmd = 'M';
-        while (i < tokens.length && !tokens[i].isCmd) {
-          cx = nextNum();
-          cy = nextNum();
-          path.lineTo(cx, cy);
-        }
+        processLineTo(false);
       case 'm':
         cx += nextNum();
         cy += nextNum();
         path.moveTo(cx, cy);
         lastCmd = 'm';
-        while (i < tokens.length && !tokens[i].isCmd) {
-          cx += nextNum();
-          cy += nextNum();
-          path.lineTo(cx, cy);
-        }
+        processLineTo(true);
 
       // ── Line ──────────────────────────────────────────────────────────────
       case 'L':
-        while (i < tokens.length && !tokens[i].isCmd) {
-          cx = nextNum();
-          cy = nextNum();
-          path.lineTo(cx, cy);
-        }
+        processLineTo(false);
         lastCmd = 'L';
       case 'l':
-        while (i < tokens.length && !tokens[i].isCmd) {
-          cx += nextNum();
-          cy += nextNum();
-          path.lineTo(cx, cy);
-        }
+        processLineTo(true);
         lastCmd = 'l';
       case 'H':
         while (i < tokens.length && !tokens[i].isCmd) {

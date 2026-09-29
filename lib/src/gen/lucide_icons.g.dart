@@ -35002,6 +35002,1051 @@ class LucideIcons {
     categories: ['accessibility', 'layout', 'design', 'text', 'photography'],
   );
 
+  /// Former name of [alarmClockCheck] ("alarm-check"), renamed upstream.
+  @Deprecated('Use LucideIcons.alarmClockCheck instead.')
+  static const LucideIconData alarmCheck = alarmClockCheck;
+
+  /// Former name of [alarmClockMinus] ("alarm-minus"), renamed upstream.
+  @Deprecated('Use LucideIcons.alarmClockMinus instead.')
+  static const LucideIconData alarmMinus = alarmClockMinus;
+
+  /// Former name of [alarmClockPlus] ("alarm-plus"), renamed upstream.
+  @Deprecated('Use LucideIcons.alarmClockPlus instead.')
+  static const LucideIconData alarmPlus = alarmClockPlus;
+
+  /// Former name of [arrowDownAZ] ("arrow-down-az"), renamed upstream.
+  @Deprecated('Use LucideIcons.arrowDownAZ instead.')
+  static const LucideIconData arrowDownAz = arrowDownAZ;
+
+  /// Former name of [arrowDownWideNarrow] ("sort-desc"), renamed upstream.
+  @Deprecated('Use LucideIcons.arrowDownWideNarrow instead.')
+  static const LucideIconData sortDesc = arrowDownWideNarrow;
+
+  /// Former name of [arrowDownZA] ("arrow-down-za"), renamed upstream.
+  @Deprecated('Use LucideIcons.arrowDownZA instead.')
+  static const LucideIconData arrowDownZa = arrowDownZA;
+
+  /// Former name of [arrowUpAZ] ("arrow-up-az"), renamed upstream.
+  @Deprecated('Use LucideIcons.arrowUpAZ instead.')
+  static const LucideIconData arrowUpAz = arrowUpAZ;
+
+  /// Former name of [arrowUpNarrowWide] ("sort-asc"), renamed upstream.
+  @Deprecated('Use LucideIcons.arrowUpNarrowWide instead.')
+  static const LucideIconData sortAsc = arrowUpNarrowWide;
+
+  /// Former name of [arrowUpZA] ("arrow-up-za"), renamed upstream.
+  @Deprecated('Use LucideIcons.arrowUpZA instead.')
+  static const LucideIconData arrowUpZa = arrowUpZA;
+
+  /// Former name of [axis3d] ("axis-3-d"), renamed upstream.
+  @Deprecated('Use LucideIcons.axis3d instead.')
+  static const LucideIconData axis3D = axis3d;
+
+  /// Former name of [badgeCheck] ("verified"), renamed upstream.
+  @Deprecated('Use LucideIcons.badgeCheck instead.')
+  static const LucideIconData verified = badgeCheck;
+
+  /// Former name of [badgeQuestionMark] ("badge-help"), renamed upstream.
+  @Deprecated('Use LucideIcons.badgeQuestionMark instead.')
+  static const LucideIconData badgeHelp = badgeQuestionMark;
+
+  /// Former name of [betweenHorizontalEnd] ("between-horizonal-end"), renamed upstream.
+  @Deprecated('Use LucideIcons.betweenHorizontalEnd instead.')
+  static const LucideIconData betweenHorizonalEnd = betweenHorizontalEnd;
+
+  /// Former name of [betweenHorizontalStart] ("between-horizonal-start"), renamed upstream.
+  @Deprecated('Use LucideIcons.betweenHorizontalStart instead.')
+  static const LucideIconData betweenHorizonalStart = betweenHorizontalStart;
+
+  /// Former name of [bookBookmark] ("book-marked"), renamed upstream.
+  @Deprecated('Use LucideIcons.bookBookmark instead.')
+  static const LucideIconData bookMarked = bookBookmark;
+
+  /// Former name of [bookDashed] ("book-template"), renamed upstream.
+  @Deprecated('Use LucideIcons.bookDashed instead.')
+  static const LucideIconData bookTemplate = bookDashed;
+
+  /// Former name of [braces] ("curly-braces"), renamed upstream.
+  @Deprecated('Use LucideIcons.braces instead.')
+  static const LucideIconData curlyBraces = braces;
+
+  /// Former name of [buildingComplex] ("building-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.buildingComplex instead.')
+  static const LucideIconData building2 = buildingComplex;
+
+  /// Former name of [captions] ("subtitles"), renamed upstream.
+  @Deprecated('Use LucideIcons.captions instead.')
+  static const LucideIconData subtitles = captions;
+
+  /// Former name of [chartArea] ("area-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartArea instead.')
+  static const LucideIconData areaChart = chartArea;
+
+  /// Former name of [chartBar] ("bar-chart-horizontal"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartBar instead.')
+  static const LucideIconData barChartHorizontal = chartBar;
+
+  /// Former name of [chartBarBig] ("bar-chart-horizontal-big"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartBarBig instead.')
+  static const LucideIconData barChartHorizontalBig = chartBarBig;
+
+  /// Former name of [chartCandlestick] ("candlestick-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartCandlestick instead.')
+  static const LucideIconData candlestickChart = chartCandlestick;
+
+  /// Former name of [chartColumn] ("bar-chart-3"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartColumn instead.')
+  static const LucideIconData barChart3 = chartColumn;
+
+  /// Former name of [chartColumnBig] ("bar-chart-big"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartColumnBig instead.')
+  static const LucideIconData barChartBig = chartColumnBig;
+
+  /// Former name of [chartColumnIncreasing] ("bar-chart-4"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartColumnIncreasing instead.')
+  static const LucideIconData barChart4 = chartColumnIncreasing;
+
+  /// Former name of [chartLine] ("line-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartLine instead.')
+  static const LucideIconData lineChart = chartLine;
+
+  /// Former name of [chartNoAxesColumn] ("bar-chart-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartNoAxesColumn instead.')
+  static const LucideIconData barChart2 = chartNoAxesColumn;
+
+  /// Former name of [chartNoAxesColumnIncreasing] ("bar-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartNoAxesColumnIncreasing instead.')
+  static const LucideIconData barChart = chartNoAxesColumnIncreasing;
+
+  /// Former name of [chartNoAxesGantt] ("gantt-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartNoAxesGantt instead.')
+  static const LucideIconData ganttChart = chartNoAxesGantt;
+
+  /// Former name of [chartPie] ("pie-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartPie instead.')
+  static const LucideIconData pieChart = chartPie;
+
+  /// Former name of [chartScatter] ("scatter-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.chartScatter instead.')
+  static const LucideIconData scatterChart = chartScatter;
+
+  /// Former name of [circleAlert] ("alert-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleAlert instead.')
+  static const LucideIconData alertCircle = circleAlert;
+
+  /// Former name of [circleArrowDown] ("arrow-down-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleArrowDown instead.')
+  static const LucideIconData arrowDownCircle = circleArrowDown;
+
+  /// Former name of [circleArrowLeft] ("arrow-left-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleArrowLeft instead.')
+  static const LucideIconData arrowLeftCircle = circleArrowLeft;
+
+  /// Former name of [circleArrowOutDownLeft] ("arrow-down-left-from-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleArrowOutDownLeft instead.')
+  static const LucideIconData arrowDownLeftFromCircle = circleArrowOutDownLeft;
+
+  /// Former name of [circleArrowOutDownRight] ("arrow-down-right-from-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleArrowOutDownRight instead.')
+  static const LucideIconData arrowDownRightFromCircle =
+      circleArrowOutDownRight;
+
+  /// Former name of [circleArrowOutUpLeft] ("arrow-up-left-from-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleArrowOutUpLeft instead.')
+  static const LucideIconData arrowUpLeftFromCircle = circleArrowOutUpLeft;
+
+  /// Former name of [circleArrowOutUpRight] ("arrow-up-right-from-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleArrowOutUpRight instead.')
+  static const LucideIconData arrowUpRightFromCircle = circleArrowOutUpRight;
+
+  /// Former name of [circleArrowRight] ("arrow-right-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleArrowRight instead.')
+  static const LucideIconData arrowRightCircle = circleArrowRight;
+
+  /// Former name of [circleArrowUp] ("arrow-up-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleArrowUp instead.')
+  static const LucideIconData arrowUpCircle = circleArrowUp;
+
+  /// Former name of [circleCheck] ("check-circle-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleCheck instead.')
+  static const LucideIconData checkCircle2 = circleCheck;
+
+  /// Former name of [circleCheckBig] ("check-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleCheckBig instead.')
+  static const LucideIconData checkCircle = circleCheckBig;
+
+  /// Former name of [circleChevronDown] ("chevron-down-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleChevronDown instead.')
+  static const LucideIconData chevronDownCircle = circleChevronDown;
+
+  /// Former name of [circleChevronLeft] ("chevron-left-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleChevronLeft instead.')
+  static const LucideIconData chevronLeftCircle = circleChevronLeft;
+
+  /// Former name of [circleChevronRight] ("chevron-right-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleChevronRight instead.')
+  static const LucideIconData chevronRightCircle = circleChevronRight;
+
+  /// Former name of [circleChevronUp] ("chevron-up-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleChevronUp instead.')
+  static const LucideIconData chevronUpCircle = circleChevronUp;
+
+  /// Former name of [circleDivide] ("divide-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleDivide instead.')
+  static const LucideIconData divideCircle = circleDivide;
+
+  /// Former name of [circleGauge] ("gauge-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleGauge instead.')
+  static const LucideIconData gaugeCircle = circleGauge;
+
+  /// Former name of [circleMinus] ("minus-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleMinus instead.')
+  static const LucideIconData minusCircle = circleMinus;
+
+  /// Former name of [circleParking] ("parking-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleParking instead.')
+  static const LucideIconData parkingCircle = circleParking;
+
+  /// Former name of [circleParkingOff] ("parking-circle-off"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleParkingOff instead.')
+  static const LucideIconData parkingCircleOff = circleParkingOff;
+
+  /// Former name of [circlePause] ("pause-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circlePause instead.')
+  static const LucideIconData pauseCircle = circlePause;
+
+  /// Former name of [circlePercent] ("percent-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circlePercent instead.')
+  static const LucideIconData percentCircle = circlePercent;
+
+  /// Former name of [circlePlay] ("play-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circlePlay instead.')
+  static const LucideIconData playCircle = circlePlay;
+
+  /// Former name of [circlePlus] ("plus-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circlePlus instead.')
+  static const LucideIconData plusCircle = circlePlus;
+
+  /// Former name of [circlePower] ("power-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circlePower instead.')
+  static const LucideIconData powerCircle = circlePower;
+
+  /// Former name of [circleQuestionMark] ("help-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleQuestionMark instead.')
+  static const LucideIconData helpCircle = circleQuestionMark;
+
+  /// Former name of [circleQuestionMark] ("circle-help"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleQuestionMark instead.')
+  static const LucideIconData circleHelp = circleQuestionMark;
+
+  /// Former name of [circleSlash2] ("circle-slashed"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleSlash2 instead.')
+  static const LucideIconData circleSlashed = circleSlash2;
+
+  /// Former name of [circleStop] ("stop-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleStop instead.')
+  static const LucideIconData stopCircle = circleStop;
+
+  /// Former name of [circleUser] ("user-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleUser instead.')
+  static const LucideIconData userCircle = circleUser;
+
+  /// Former name of [circleUserRound] ("user-circle-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleUserRound instead.')
+  static const LucideIconData userCircle2 = circleUserRound;
+
+  /// Former name of [circleX] ("x-circle"), renamed upstream.
+  @Deprecated('Use LucideIcons.circleX instead.')
+  static const LucideIconData xCircle = circleX;
+
+  /// Former name of [clipboardPen] ("clipboard-edit"), renamed upstream.
+  @Deprecated('Use LucideIcons.clipboardPen instead.')
+  static const LucideIconData clipboardEdit = clipboardPen;
+
+  /// Former name of [clipboardPenLine] ("clipboard-signature"), renamed upstream.
+  @Deprecated('Use LucideIcons.clipboardPenLine instead.')
+  static const LucideIconData clipboardSignature = clipboardPenLine;
+
+  /// Former name of [cloudDownload] ("download-cloud"), renamed upstream.
+  @Deprecated('Use LucideIcons.cloudDownload instead.')
+  static const LucideIconData downloadCloud = cloudDownload;
+
+  /// Former name of [cloudUpload] ("upload-cloud"), renamed upstream.
+  @Deprecated('Use LucideIcons.cloudUpload instead.')
+  static const LucideIconData uploadCloud = cloudUpload;
+
+  /// Former name of [codeXml] ("code-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.codeXml instead.')
+  static const LucideIconData code2 = codeXml;
+
+  /// Former name of [columns2] ("columns"), renamed upstream.
+  @Deprecated('Use LucideIcons.columns2 instead.')
+  static const LucideIconData columns = columns2;
+
+  /// Former name of [columns3] ("panels-left-right"), renamed upstream.
+  @Deprecated('Use LucideIcons.columns3 instead.')
+  static const LucideIconData panelsLeftRight = columns3;
+
+  /// Former name of [columns3Cog] ("columns-settings"), renamed upstream.
+  @Deprecated('Use LucideIcons.columns3Cog instead.')
+  static const LucideIconData columnsSettings = columns3Cog;
+
+  /// Former name of [columns3Cog] ("table-config"), renamed upstream.
+  @Deprecated('Use LucideIcons.columns3Cog instead.')
+  static const LucideIconData tableConfig = columns3Cog;
+
+  /// Former name of [contactRound] ("contact-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.contactRound instead.')
+  static const LucideIconData contact2 = contactRound;
+
+  /// Former name of [diamondPercent] ("percent-diamond"), renamed upstream.
+  @Deprecated('Use LucideIcons.diamondPercent instead.')
+  static const LucideIconData percentDiamond = diamondPercent;
+
+  /// Former name of [earth] ("globe-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.earth instead.')
+  static const LucideIconData globe2 = earth;
+
+  /// Former name of [ellipsis] ("more-horizontal"), renamed upstream.
+  @Deprecated('Use LucideIcons.ellipsis instead.')
+  static const LucideIconData moreHorizontal = ellipsis;
+
+  /// Former name of [ellipsisVertical] ("more-vertical"), renamed upstream.
+  @Deprecated('Use LucideIcons.ellipsisVertical instead.')
+  static const LucideIconData moreVertical = ellipsisVertical;
+
+  /// Former name of [faceAngry] ("angry"), renamed upstream.
+  @Deprecated('Use LucideIcons.faceAngry instead.')
+  static const LucideIconData angry = faceAngry;
+
+  /// Former name of [faceExpressionless] ("annoyed"), renamed upstream.
+  @Deprecated('Use LucideIcons.faceExpressionless instead.')
+  static const LucideIconData annoyed = faceExpressionless;
+
+  /// Former name of [faceGrinning] ("laugh"), renamed upstream.
+  @Deprecated('Use LucideIcons.faceGrinning instead.')
+  static const LucideIconData laugh = faceGrinning;
+
+  /// Former name of [faceNeutral] ("meh"), renamed upstream.
+  @Deprecated('Use LucideIcons.faceNeutral instead.')
+  static const LucideIconData meh = faceNeutral;
+
+  /// Former name of [faceSlightlyFrowning] ("frown"), renamed upstream.
+  @Deprecated('Use LucideIcons.faceSlightlyFrowning instead.')
+  static const LucideIconData frown = faceSlightlyFrowning;
+
+  /// Former name of [faceSlightlySmiling] ("smile"), renamed upstream.
+  @Deprecated('Use LucideIcons.faceSlightlySmiling instead.')
+  static const LucideIconData smile = faceSlightlySmiling;
+
+  /// Former name of [faceSlightlySmilingPlus] ("smile-plus"), renamed upstream.
+  @Deprecated('Use LucideIcons.faceSlightlySmilingPlus instead.')
+  static const LucideIconData smilePlus = faceSlightlySmilingPlus;
+
+  /// Former name of [fileAxis3d] ("file-axis-3-d"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileAxis3d instead.')
+  static const LucideIconData fileAxis3D = fileAxis3d;
+
+  /// Former name of [fileBadge] ("file-badge-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileBadge instead.')
+  static const LucideIconData fileBadge2 = fileBadge;
+
+  /// Former name of [fileBraces] ("file-json"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileBraces instead.')
+  static const LucideIconData fileJson = fileBraces;
+
+  /// Former name of [fileBracesCorner] ("file-json-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileBracesCorner instead.')
+  static const LucideIconData fileJson2 = fileBracesCorner;
+
+  /// Former name of [fileChartColumn] ("file-bar-chart-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileChartColumn instead.')
+  static const LucideIconData fileBarChart2 = fileChartColumn;
+
+  /// Former name of [fileChartColumnIncreasing] ("file-bar-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileChartColumnIncreasing instead.')
+  static const LucideIconData fileBarChart = fileChartColumnIncreasing;
+
+  /// Former name of [fileChartLine] ("file-line-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileChartLine instead.')
+  static const LucideIconData fileLineChart = fileChartLine;
+
+  /// Former name of [fileChartPie] ("file-pie-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileChartPie instead.')
+  static const LucideIconData filePieChart = fileChartPie;
+
+  /// Former name of [fileCheckCorner] ("file-check-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileCheckCorner instead.')
+  static const LucideIconData fileCheck2 = fileCheckCorner;
+
+  /// Former name of [fileCodeCorner] ("file-code-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileCodeCorner instead.')
+  static const LucideIconData fileCode2 = fileCodeCorner;
+
+  /// Former name of [fileCog] ("file-cog-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileCog instead.')
+  static const LucideIconData fileCog2 = fileCog;
+
+  /// Former name of [fileExclamationPoint] ("file-warning"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileExclamationPoint instead.')
+  static const LucideIconData fileWarning = fileExclamationPoint;
+
+  /// Former name of [fileHeadphone] ("file-audio"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileHeadphone instead.')
+  static const LucideIconData fileAudio = fileHeadphone;
+
+  /// Former name of [fileHeadphone] ("file-audio-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileHeadphone instead.')
+  static const LucideIconData fileAudio2 = fileHeadphone;
+
+  /// Former name of [fileKey] ("file-key-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileKey instead.')
+  static const LucideIconData fileKey2 = fileKey;
+
+  /// Former name of [fileLock] ("file-lock-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileLock instead.')
+  static const LucideIconData fileLock2 = fileLock;
+
+  /// Former name of [fileMinusCorner] ("file-minus-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileMinusCorner instead.')
+  static const LucideIconData fileMinus2 = fileMinusCorner;
+
+  /// Former name of [filePen] ("file-edit"), renamed upstream.
+  @Deprecated('Use LucideIcons.filePen instead.')
+  static const LucideIconData fileEdit = filePen;
+
+  /// Former name of [filePenLine] ("file-signature"), renamed upstream.
+  @Deprecated('Use LucideIcons.filePenLine instead.')
+  static const LucideIconData fileSignature = filePenLine;
+
+  /// Former name of [filePlay] ("file-video"), renamed upstream.
+  @Deprecated('Use LucideIcons.filePlay instead.')
+  static const LucideIconData fileVideo = filePlay;
+
+  /// Former name of [filePlusCorner] ("file-plus-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.filePlusCorner instead.')
+  static const LucideIconData filePlus2 = filePlusCorner;
+
+  /// Former name of [fileQuestionMark] ("file-question"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileQuestionMark instead.')
+  static const LucideIconData fileQuestion = fileQuestionMark;
+
+  /// Former name of [fileSearchCorner] ("file-search-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileSearchCorner instead.')
+  static const LucideIconData fileSearch2 = fileSearchCorner;
+
+  /// Former name of [fileSignal] ("file-volume-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileSignal instead.')
+  static const LucideIconData fileVolume2 = fileSignal;
+
+  /// Former name of [fileTypeCorner] ("file-type-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileTypeCorner instead.')
+  static const LucideIconData fileType2 = fileTypeCorner;
+
+  /// Former name of [fileVideoCamera] ("file-video-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileVideoCamera instead.')
+  static const LucideIconData fileVideo2 = fileVideoCamera;
+
+  /// Former name of [fileXCorner] ("file-x-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.fileXCorner instead.')
+  static const LucideIconData fileX2 = fileXCorner;
+
+  /// Former name of [fingerprintPattern] ("fingerprint"), renamed upstream.
+  @Deprecated('Use LucideIcons.fingerprintPattern instead.')
+  static const LucideIconData fingerprint = fingerprintPattern;
+
+  /// Former name of [folderCog] ("folder-cog-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.folderCog instead.')
+  static const LucideIconData folderCog2 = folderCog;
+
+  /// Former name of [folderPen] ("folder-edit"), renamed upstream.
+  @Deprecated('Use LucideIcons.folderPen instead.')
+  static const LucideIconData folderEdit = folderPen;
+
+  /// Former name of [funnel] ("filter"), renamed upstream.
+  @Deprecated('Use LucideIcons.funnel instead.')
+  static const LucideIconData filter = funnel;
+
+  /// Former name of [funnelX] ("filter-x"), renamed upstream.
+  @Deprecated('Use LucideIcons.funnelX instead.')
+  static const LucideIconData filterX = funnelX;
+
+  /// Former name of [gitCommitHorizontal] ("git-commit"), renamed upstream.
+  @Deprecated('Use LucideIcons.gitCommitHorizontal instead.')
+  static const LucideIconData gitCommit = gitCommitHorizontal;
+
+  /// Former name of [grid2x2] ("grid-2-x-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.grid2x2 instead.')
+  static const LucideIconData grid2X2 = grid2x2;
+
+  /// Former name of [grid2x2Check] ("grid-2-x-2-check"), renamed upstream.
+  @Deprecated('Use LucideIcons.grid2x2Check instead.')
+  static const LucideIconData grid2X2Check = grid2x2Check;
+
+  /// Former name of [grid2x2Plus] ("grid-2-x-2-plus"), renamed upstream.
+  @Deprecated('Use LucideIcons.grid2x2Plus instead.')
+  static const LucideIconData grid2X2Plus = grid2x2Plus;
+
+  /// Former name of [grid2x2X] ("grid-2-x-2-x"), renamed upstream.
+  @Deprecated('Use LucideIcons.grid2x2X instead.')
+  static const LucideIconData grid2X2X = grid2x2X;
+
+  /// Former name of [grid3x3] ("grid"), renamed upstream.
+  @Deprecated('Use LucideIcons.grid3x3 instead.')
+  static const LucideIconData grid = grid3x3;
+
+  /// Former name of [grid3x3] ("grid-3-x-3"), renamed upstream.
+  @Deprecated('Use LucideIcons.grid3x3 instead.')
+  static const LucideIconData grid3X3 = grid3x3;
+
+  /// Former name of [handGrab] ("grab"), renamed upstream.
+  @Deprecated('Use LucideIcons.handGrab instead.')
+  static const LucideIconData grab = handGrab;
+
+  /// Former name of [handHelping] ("helping-hand"), renamed upstream.
+  @Deprecated('Use LucideIcons.handHelping instead.')
+  static const LucideIconData helpingHand = handHelping;
+
+  /// Former name of [house] ("home"), renamed upstream.
+  @Deprecated('Use LucideIcons.house instead.')
+  static const LucideIconData home = house;
+
+  /// Former name of [iceCreamBowl] ("ice-cream-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.iceCreamBowl instead.')
+  static const LucideIconData iceCream2 = iceCreamBowl;
+
+  /// Former name of [iceCreamCone] ("ice-cream"), renamed upstream.
+  @Deprecated('Use LucideIcons.iceCreamCone instead.')
+  static const LucideIconData iceCream = iceCreamCone;
+
+  /// Former name of [laptopMinimal] ("laptop-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.laptopMinimal instead.')
+  static const LucideIconData laptop2 = laptopMinimal;
+
+  /// Former name of [layers] ("layers-3"), renamed upstream.
+  @Deprecated('Use LucideIcons.layers instead.')
+  static const LucideIconData layers3 = layers;
+
+  /// Former name of [listIndentDecrease] ("outdent"), renamed upstream.
+  @Deprecated('Use LucideIcons.listIndentDecrease instead.')
+  static const LucideIconData outdent = listIndentDecrease;
+
+  /// Former name of [listIndentDecrease] ("indent-decrease"), renamed upstream.
+  @Deprecated('Use LucideIcons.listIndentDecrease instead.')
+  static const LucideIconData indentDecrease = listIndentDecrease;
+
+  /// Former name of [listIndentIncrease] ("indent"), renamed upstream.
+  @Deprecated('Use LucideIcons.listIndentIncrease instead.')
+  static const LucideIconData indent = listIndentIncrease;
+
+  /// Former name of [listIndentIncrease] ("indent-increase"), renamed upstream.
+  @Deprecated('Use LucideIcons.listIndentIncrease instead.')
+  static const LucideIconData indentIncrease = listIndentIncrease;
+
+  /// Former name of [loaderCircle] ("loader-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.loaderCircle instead.')
+  static const LucideIconData loader2 = loaderCircle;
+
+  /// Former name of [lockKeyholeOpen] ("unlock-keyhole"), renamed upstream.
+  @Deprecated('Use LucideIcons.lockKeyholeOpen instead.')
+  static const LucideIconData unlockKeyhole = lockKeyholeOpen;
+
+  /// Former name of [lockOpen] ("unlock"), renamed upstream.
+  @Deprecated('Use LucideIcons.lockOpen instead.')
+  static const LucideIconData unlock = lockOpen;
+
+  /// Former name of [mailQuestionMark] ("mail-question"), renamed upstream.
+  @Deprecated('Use LucideIcons.mailQuestionMark instead.')
+  static const LucideIconData mailQuestion = mailQuestionMark;
+
+  /// Former name of [mapPinPen] ("location-edit"), renamed upstream.
+  @Deprecated('Use LucideIcons.mapPinPen instead.')
+  static const LucideIconData locationEdit = mapPinPen;
+
+  /// Former name of [messageCircleQuestionMark] ("message-circle-question"), renamed upstream.
+  @Deprecated('Use LucideIcons.messageCircleQuestionMark instead.')
+  static const LucideIconData messageCircleQuestion = messageCircleQuestionMark;
+
+  /// Former name of [micSignal] ("podcast"), renamed upstream.
+  @Deprecated('Use LucideIcons.micSignal instead.')
+  static const LucideIconData podcast = micSignal;
+
+  /// Former name of [micVocal] ("mic-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.micVocal instead.')
+  static const LucideIconData mic2 = micVocal;
+
+  /// Former name of [move3d] ("move-3-d"), renamed upstream.
+  @Deprecated('Use LucideIcons.move3d instead.')
+  static const LucideIconData move3D = move3d;
+
+  /// Former name of [octagonAlert] ("alert-octagon"), renamed upstream.
+  @Deprecated('Use LucideIcons.octagonAlert instead.')
+  static const LucideIconData alertOctagon = octagonAlert;
+
+  /// Former name of [octagonPause] ("pause-octagon"), renamed upstream.
+  @Deprecated('Use LucideIcons.octagonPause instead.')
+  static const LucideIconData pauseOctagon = octagonPause;
+
+  /// Former name of [octagonX] ("x-octagon"), renamed upstream.
+  @Deprecated('Use LucideIcons.octagonX instead.')
+  static const LucideIconData xOctagon = octagonX;
+
+  /// Former name of [paintbrushVertical] ("paintbrush-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.paintbrushVertical instead.')
+  static const LucideIconData paintbrush2 = paintbrushVertical;
+
+  /// Former name of [panelBottomDashed] ("panel-bottom-inactive"), renamed upstream.
+  @Deprecated('Use LucideIcons.panelBottomDashed instead.')
+  static const LucideIconData panelBottomInactive = panelBottomDashed;
+
+  /// Former name of [panelLeft] ("sidebar"), renamed upstream.
+  @Deprecated('Use LucideIcons.panelLeft instead.')
+  static const LucideIconData sidebar = panelLeft;
+
+  /// Former name of [panelLeftClose] ("sidebar-close"), renamed upstream.
+  @Deprecated('Use LucideIcons.panelLeftClose instead.')
+  static const LucideIconData sidebarClose = panelLeftClose;
+
+  /// Former name of [panelLeftDashed] ("panel-left-inactive"), renamed upstream.
+  @Deprecated('Use LucideIcons.panelLeftDashed instead.')
+  static const LucideIconData panelLeftInactive = panelLeftDashed;
+
+  /// Former name of [panelLeftOpen] ("sidebar-open"), renamed upstream.
+  @Deprecated('Use LucideIcons.panelLeftOpen instead.')
+  static const LucideIconData sidebarOpen = panelLeftOpen;
+
+  /// Former name of [panelRightDashed] ("panel-right-inactive"), renamed upstream.
+  @Deprecated('Use LucideIcons.panelRightDashed instead.')
+  static const LucideIconData panelRightInactive = panelRightDashed;
+
+  /// Former name of [panelTopDashed] ("panel-top-inactive"), renamed upstream.
+  @Deprecated('Use LucideIcons.panelTopDashed instead.')
+  static const LucideIconData panelTopInactive = panelTopDashed;
+
+  /// Former name of [panelsTopLeft] ("layout"), renamed upstream.
+  @Deprecated('Use LucideIcons.panelsTopLeft instead.')
+  static const LucideIconData layout = panelsTopLeft;
+
+  /// Former name of [pen] ("edit-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.pen instead.')
+  static const LucideIconData edit2 = pen;
+
+  /// Former name of [penLine] ("edit-3"), renamed upstream.
+  @Deprecated('Use LucideIcons.penLine instead.')
+  static const LucideIconData edit3 = penLine;
+
+  /// Former name of [plugZap] ("plug-zap-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.plugZap instead.')
+  static const LucideIconData plugZap2 = plugZap;
+
+  /// Former name of [rectangleEllipsis] ("form-input"), renamed upstream.
+  @Deprecated('Use LucideIcons.rectangleEllipsis instead.')
+  static const LucideIconData formInput = rectangleEllipsis;
+
+  /// Former name of [rotate3d] ("rotate-3-d"), renamed upstream.
+  @Deprecated('Use LucideIcons.rotate3d instead.')
+  static const LucideIconData rotate3D = rotate3d;
+
+  /// Former name of [rotateCcwClock] ("history"), renamed upstream.
+  @Deprecated('Use LucideIcons.rotateCcwClock instead.')
+  static const LucideIconData history = rotateCcwClock;
+
+  /// Former name of [rows2] ("rows"), renamed upstream.
+  @Deprecated('Use LucideIcons.rows2 instead.')
+  static const LucideIconData rows = rows2;
+
+  /// Former name of [rows3] ("panels-top-bottom"), renamed upstream.
+  @Deprecated('Use LucideIcons.rows3 instead.')
+  static const LucideIconData panelsTopBottom = rows3;
+
+  /// Former name of [scale3d] ("scale-3-d"), renamed upstream.
+  @Deprecated('Use LucideIcons.scale3d instead.')
+  static const LucideIconData scale3D = scale3d;
+
+  /// Former name of [sendHorizontal] ("send-horizonal"), renamed upstream.
+  @Deprecated('Use LucideIcons.sendHorizontal instead.')
+  static const LucideIconData sendHorizonal = sendHorizontal;
+
+  /// Former name of [shieldQuestionMark] ("shield-question"), renamed upstream.
+  @Deprecated('Use LucideIcons.shieldQuestionMark instead.')
+  static const LucideIconData shieldQuestion = shieldQuestionMark;
+
+  /// Former name of [shieldX] ("shield-close"), renamed upstream.
+  @Deprecated('Use LucideIcons.shieldX instead.')
+  static const LucideIconData shieldClose = shieldX;
+
+  /// Former name of [slidersVertical] ("sliders"), renamed upstream.
+  @Deprecated('Use LucideIcons.slidersVertical instead.')
+  static const LucideIconData sliders = slidersVertical;
+
+  /// Former name of [sparkles] ("stars"), renamed upstream.
+  @Deprecated('Use LucideIcons.sparkles instead.')
+  static const LucideIconData stars = sparkles;
+
+  /// Former name of [squareActivity] ("activity-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareActivity instead.')
+  static const LucideIconData activitySquare = squareActivity;
+
+  /// Former name of [squareArrowDown] ("arrow-down-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowDown instead.')
+  static const LucideIconData arrowDownSquare = squareArrowDown;
+
+  /// Former name of [squareArrowDownLeft] ("arrow-down-left-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowDownLeft instead.')
+  static const LucideIconData arrowDownLeftSquare = squareArrowDownLeft;
+
+  /// Former name of [squareArrowDownRight] ("arrow-down-right-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowDownRight instead.')
+  static const LucideIconData arrowDownRightSquare = squareArrowDownRight;
+
+  /// Former name of [squareArrowLeft] ("arrow-left-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowLeft instead.')
+  static const LucideIconData arrowLeftSquare = squareArrowLeft;
+
+  /// Former name of [squareArrowOutDownLeft] ("arrow-down-left-from-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowOutDownLeft instead.')
+  static const LucideIconData arrowDownLeftFromSquare = squareArrowOutDownLeft;
+
+  /// Former name of [squareArrowOutDownRight] ("arrow-down-right-from-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowOutDownRight instead.')
+  static const LucideIconData arrowDownRightFromSquare =
+      squareArrowOutDownRight;
+
+  /// Former name of [squareArrowOutUpLeft] ("arrow-up-left-from-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowOutUpLeft instead.')
+  static const LucideIconData arrowUpLeftFromSquare = squareArrowOutUpLeft;
+
+  /// Former name of [squareArrowOutUpRight] ("arrow-up-right-from-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowOutUpRight instead.')
+  static const LucideIconData arrowUpRightFromSquare = squareArrowOutUpRight;
+
+  /// Former name of [squareArrowRight] ("arrow-right-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowRight instead.')
+  static const LucideIconData arrowRightSquare = squareArrowRight;
+
+  /// Former name of [squareArrowUp] ("arrow-up-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowUp instead.')
+  static const LucideIconData arrowUpSquare = squareArrowUp;
+
+  /// Former name of [squareArrowUpLeft] ("arrow-up-left-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowUpLeft instead.')
+  static const LucideIconData arrowUpLeftSquare = squareArrowUpLeft;
+
+  /// Former name of [squareArrowUpRight] ("arrow-up-right-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareArrowUpRight instead.')
+  static const LucideIconData arrowUpRightSquare = squareArrowUpRight;
+
+  /// Former name of [squareAsterisk] ("asterisk-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareAsterisk instead.')
+  static const LucideIconData asteriskSquare = squareAsterisk;
+
+  /// Former name of [squareBookmark] ("album"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareBookmark instead.')
+  static const LucideIconData album = squareBookmark;
+
+  /// Former name of [squareBottomDashedScissors] ("scissors-square-dashed-bottom"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareBottomDashedScissors instead.')
+  static const LucideIconData scissorsSquareDashedBottom =
+      squareBottomDashedScissors;
+
+  /// Former name of [squareCenterlineDashedHorizontal] ("flip-horizontal"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareCenterlineDashedHorizontal instead.')
+  static const LucideIconData flipHorizontal = squareCenterlineDashedHorizontal;
+
+  /// Former name of [squareCenterlineDashedVertical] ("flip-vertical"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareCenterlineDashedVertical instead.')
+  static const LucideIconData flipVertical = squareCenterlineDashedVertical;
+
+  /// Former name of [squareChartGantt] ("gantt-chart-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareChartGantt instead.')
+  static const LucideIconData ganttChartSquare = squareChartGantt;
+
+  /// Former name of [squareChartGantt] ("square-gantt-chart"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareChartGantt instead.')
+  static const LucideIconData squareGanttChart = squareChartGantt;
+
+  /// Former name of [squareCheck] ("check-square-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareCheck instead.')
+  static const LucideIconData checkSquare2 = squareCheck;
+
+  /// Former name of [squareCheckBig] ("check-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareCheckBig instead.')
+  static const LucideIconData checkSquare = squareCheckBig;
+
+  /// Former name of [squareChevronDown] ("chevron-down-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareChevronDown instead.')
+  static const LucideIconData chevronDownSquare = squareChevronDown;
+
+  /// Former name of [squareChevronLeft] ("chevron-left-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareChevronLeft instead.')
+  static const LucideIconData chevronLeftSquare = squareChevronLeft;
+
+  /// Former name of [squareChevronRight] ("chevron-right-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareChevronRight instead.')
+  static const LucideIconData chevronRightSquare = squareChevronRight;
+
+  /// Former name of [squareChevronUp] ("chevron-up-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareChevronUp instead.')
+  static const LucideIconData chevronUpSquare = squareChevronUp;
+
+  /// Former name of [squareCode] ("code-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareCode instead.')
+  static const LucideIconData codeSquare = squareCode;
+
+  /// Former name of [squareDashed] ("box-select"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareDashed instead.')
+  static const LucideIconData boxSelect = squareDashed;
+
+  /// Former name of [squareDashedKanban] ("kanban-square-dashed"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareDashedKanban instead.')
+  static const LucideIconData kanbanSquareDashed = squareDashedKanban;
+
+  /// Former name of [squareDashedMousePointer] ("mouse-pointer-square-dashed"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareDashedMousePointer instead.')
+  static const LucideIconData mousePointerSquareDashed =
+      squareDashedMousePointer;
+
+  /// Former name of [squareDashedText] ("text-selection"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareDashedText instead.')
+  static const LucideIconData textSelection = squareDashedText;
+
+  /// Former name of [squareDashedText] ("text-select"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareDashedText instead.')
+  static const LucideIconData textSelect = squareDashedText;
+
+  /// Former name of [squareDivide] ("divide-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareDivide instead.')
+  static const LucideIconData divideSquare = squareDivide;
+
+  /// Former name of [squareDot] ("dot-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareDot instead.')
+  static const LucideIconData dotSquare = squareDot;
+
+  /// Former name of [squareEqual] ("equal-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareEqual instead.')
+  static const LucideIconData equalSquare = squareEqual;
+
+  /// Former name of [squareFunction] ("function-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareFunction instead.')
+  static const LucideIconData functionSquare = squareFunction;
+
+  /// Former name of [squareKanban] ("kanban-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareKanban instead.')
+  static const LucideIconData kanbanSquare = squareKanban;
+
+  /// Former name of [squareLibrary] ("library-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareLibrary instead.')
+  static const LucideIconData librarySquare = squareLibrary;
+
+  /// Former name of [squareM] ("m-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareM instead.')
+  static const LucideIconData mSquare = squareM;
+
+  /// Former name of [squareMenu] ("menu-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareMenu instead.')
+  static const LucideIconData menuSquare = squareMenu;
+
+  /// Former name of [squareMinus] ("minus-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareMinus instead.')
+  static const LucideIconData minusSquare = squareMinus;
+
+  /// Former name of [squareMousePointer] ("inspect"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareMousePointer instead.')
+  static const LucideIconData inspect = squareMousePointer;
+
+  /// Former name of [squareParking] ("parking-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareParking instead.')
+  static const LucideIconData parkingSquare = squareParking;
+
+  /// Former name of [squareParkingOff] ("parking-square-off"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareParkingOff instead.')
+  static const LucideIconData parkingSquareOff = squareParkingOff;
+
+  /// Former name of [squarePen] ("pen-box"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePen instead.')
+  static const LucideIconData penBox = squarePen;
+
+  /// Former name of [squarePen] ("edit"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePen instead.')
+  static const LucideIconData edit = squarePen;
+
+  /// Former name of [squarePen] ("pen-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePen instead.')
+  static const LucideIconData penSquare = squarePen;
+
+  /// Former name of [squarePercent] ("percent-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePercent instead.')
+  static const LucideIconData percentSquare = squarePercent;
+
+  /// Former name of [squarePi] ("pi-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePi instead.')
+  static const LucideIconData piSquare = squarePi;
+
+  /// Former name of [squarePilcrow] ("pilcrow-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePilcrow instead.')
+  static const LucideIconData pilcrowSquare = squarePilcrow;
+
+  /// Former name of [squarePlay] ("play-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePlay instead.')
+  static const LucideIconData playSquare = squarePlay;
+
+  /// Former name of [squarePlus] ("plus-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePlus instead.')
+  static const LucideIconData plusSquare = squarePlus;
+
+  /// Former name of [squarePower] ("power-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squarePower instead.')
+  static const LucideIconData powerSquare = squarePower;
+
+  /// Former name of [squareScissors] ("scissors-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareScissors instead.')
+  static const LucideIconData scissorsSquare = squareScissors;
+
+  /// Former name of [squareSigma] ("sigma-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareSigma instead.')
+  static const LucideIconData sigmaSquare = squareSigma;
+
+  /// Former name of [squareSlash] ("slash-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareSlash instead.')
+  static const LucideIconData slashSquare = squareSlash;
+
+  /// Former name of [squareSplitHorizontal] ("split-square-horizontal"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareSplitHorizontal instead.')
+  static const LucideIconData splitSquareHorizontal = squareSplitHorizontal;
+
+  /// Former name of [squareSplitVertical] ("split-square-vertical"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareSplitVertical instead.')
+  static const LucideIconData splitSquareVertical = squareSplitVertical;
+
+  /// Former name of [squareTerminal] ("terminal-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareTerminal instead.')
+  static const LucideIconData terminalSquare = squareTerminal;
+
+  /// Former name of [squareUser] ("user-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareUser instead.')
+  static const LucideIconData userSquare = squareUser;
+
+  /// Former name of [squareUserRound] ("user-square-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareUserRound instead.')
+  static const LucideIconData userSquare2 = squareUserRound;
+
+  /// Former name of [squareX] ("x-square"), renamed upstream.
+  @Deprecated('Use LucideIcons.squareX instead.')
+  static const LucideIconData xSquare = squareX;
+
+  /// Former name of [testTubeDiagonal] ("test-tube-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.testTubeDiagonal instead.')
+  static const LucideIconData testTube2 = testTubeDiagonal;
+
+  /// Former name of [textAlignCenter] ("align-center"), renamed upstream.
+  @Deprecated('Use LucideIcons.textAlignCenter instead.')
+  static const LucideIconData alignCenter = textAlignCenter;
+
+  /// Former name of [textAlignEnd] ("align-right"), renamed upstream.
+  @Deprecated('Use LucideIcons.textAlignEnd instead.')
+  static const LucideIconData alignRight = textAlignEnd;
+
+  /// Former name of [textAlignJustify] ("align-justify"), renamed upstream.
+  @Deprecated('Use LucideIcons.textAlignJustify instead.')
+  static const LucideIconData alignJustify = textAlignJustify;
+
+  /// Former name of [textAlignStart] ("text"), renamed upstream.
+  @Deprecated('Use LucideIcons.textAlignStart instead.')
+  static const LucideIconData text = textAlignStart;
+
+  /// Former name of [textAlignStart] ("align-left"), renamed upstream.
+  @Deprecated('Use LucideIcons.textAlignStart instead.')
+  static const LucideIconData alignLeft = textAlignStart;
+
+  /// Former name of [textInitial] ("letter-text"), renamed upstream.
+  @Deprecated('Use LucideIcons.textInitial instead.')
+  static const LucideIconData letterText = textInitial;
+
+  /// Former name of [textWrap] ("wrap-text"), renamed upstream.
+  @Deprecated('Use LucideIcons.textWrap instead.')
+  static const LucideIconData wrapText = textWrap;
+
+  /// Former name of [tramFront] ("train"), renamed upstream.
+  @Deprecated('Use LucideIcons.tramFront instead.')
+  static const LucideIconData train = tramFront;
+
+  /// Former name of [trash] ("trash-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.trash instead.')
+  static const LucideIconData trash2 = trash;
+
+  /// Former name of [treePalm] ("palmtree"), renamed upstream.
+  @Deprecated('Use LucideIcons.treePalm instead.')
+  static const LucideIconData palmtree = treePalm;
+
+  /// Former name of [triangleAlert] ("alert-triangle"), renamed upstream.
+  @Deprecated('Use LucideIcons.triangleAlert instead.')
+  static const LucideIconData alertTriangle = triangleAlert;
+
+  /// Former name of [trianglesCenterlineDashedHorizontal] ("flip-horizontal-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.trianglesCenterlineDashedHorizontal instead.')
+  static const LucideIconData flipHorizontal2 =
+      trianglesCenterlineDashedHorizontal;
+
+  /// Former name of [trianglesCenterlineDashedVertical] ("flip-vertical-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.trianglesCenterlineDashedVertical instead.')
+  static const LucideIconData flipVertical2 = trianglesCenterlineDashedVertical;
+
+  /// Former name of [tvMinimal] ("tv-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.tvMinimal instead.')
+  static const LucideIconData tv2 = tvMinimal;
+
+  /// Former name of [university] ("school-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.university instead.')
+  static const LucideIconData school2 = university;
+
+  /// Former name of [userRound] ("user-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.userRound instead.')
+  static const LucideIconData user2 = userRound;
+
+  /// Former name of [userRoundCheck] ("user-check-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.userRoundCheck instead.')
+  static const LucideIconData userCheck2 = userRoundCheck;
+
+  /// Former name of [userRoundCog] ("user-cog-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.userRoundCog instead.')
+  static const LucideIconData userCog2 = userRoundCog;
+
+  /// Former name of [userRoundMinus] ("user-minus-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.userRoundMinus instead.')
+  static const LucideIconData userMinus2 = userRoundMinus;
+
+  /// Former name of [userRoundPlus] ("user-plus-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.userRoundPlus instead.')
+  static const LucideIconData userPlus2 = userRoundPlus;
+
+  /// Former name of [userRoundX] ("user-x-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.userRoundX instead.')
+  static const LucideIconData userX2 = userRoundX;
+
+  /// Former name of [usersRound] ("users-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.usersRound instead.')
+  static const LucideIconData users2 = usersRound;
+
+  /// Former name of [utensils] ("fork-knife"), renamed upstream.
+  @Deprecated('Use LucideIcons.utensils instead.')
+  static const LucideIconData forkKnife = utensils;
+
+  /// Former name of [utensilsCrossed] ("fork-knife-crossed"), renamed upstream.
+  @Deprecated('Use LucideIcons.utensilsCrossed instead.')
+  static const LucideIconData forkKnifeCrossed = utensilsCrossed;
+
+  /// Former name of [walletMinimal] ("wallet-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.walletMinimal instead.')
+  static const LucideIconData wallet2 = walletMinimal;
+
+  /// Former name of [wandSparkles] ("wand-2"), renamed upstream.
+  @Deprecated('Use LucideIcons.wandSparkles instead.')
+  static const LucideIconData wand2 = wandSparkles;
+
+  /// Former name of [wavesHorizontal] ("waves"), renamed upstream.
+  @Deprecated('Use LucideIcons.wavesHorizontal instead.')
+  static const LucideIconData waves = wavesHorizontal;
+
   /// All Lucide icons in this registry, sorted by name.
   static const List<LucideIconData> all = [
     aArrowDown,
@@ -36865,6 +37910,276 @@ class LucideIcons {
 
 /// Registry of all Lucide icons (see [LucideIcons.all]).
 const List<LucideIconData> kLucideIcons = LucideIcons.all;
+
+/// Former Lucide icon names mapped to their current names, from upstream's
+/// `aliases` metadata. Lets icon names saved by an older version still
+/// resolve; see `IconSearchService.findByName`.
+const Map<String, String> kLucideIconAliases = {
+  'activity-square': 'square-activity',
+  'alarm-check': 'alarm-clock-check',
+  'alarm-minus': 'alarm-clock-minus',
+  'alarm-plus': 'alarm-clock-plus',
+  'album': 'square-bookmark',
+  'alert-circle': 'circle-alert',
+  'alert-octagon': 'octagon-alert',
+  'alert-triangle': 'triangle-alert',
+  'align-center': 'text-align-center',
+  'align-justify': 'text-align-justify',
+  'align-left': 'text-align-start',
+  'align-right': 'text-align-end',
+  'angry': 'face-angry',
+  'annoyed': 'face-expressionless',
+  'area-chart': 'chart-area',
+  'arrow-down-01': 'arrow-down-0-1',
+  'arrow-down-10': 'arrow-down-1-0',
+  'arrow-down-az': 'arrow-down-a-z',
+  'arrow-down-circle': 'circle-arrow-down',
+  'arrow-down-left-from-circle': 'circle-arrow-out-down-left',
+  'arrow-down-left-from-square': 'square-arrow-out-down-left',
+  'arrow-down-left-square': 'square-arrow-down-left',
+  'arrow-down-right-from-circle': 'circle-arrow-out-down-right',
+  'arrow-down-right-from-square': 'square-arrow-out-down-right',
+  'arrow-down-right-square': 'square-arrow-down-right',
+  'arrow-down-square': 'square-arrow-down',
+  'arrow-down-za': 'arrow-down-z-a',
+  'arrow-left-circle': 'circle-arrow-left',
+  'arrow-left-square': 'square-arrow-left',
+  'arrow-right-circle': 'circle-arrow-right',
+  'arrow-right-square': 'square-arrow-right',
+  'arrow-up-01': 'arrow-up-0-1',
+  'arrow-up-10': 'arrow-up-1-0',
+  'arrow-up-az': 'arrow-up-a-z',
+  'arrow-up-circle': 'circle-arrow-up',
+  'arrow-up-left-from-circle': 'circle-arrow-out-up-left',
+  'arrow-up-left-from-square': 'square-arrow-out-up-left',
+  'arrow-up-left-square': 'square-arrow-up-left',
+  'arrow-up-right-from-circle': 'circle-arrow-out-up-right',
+  'arrow-up-right-from-square': 'square-arrow-out-up-right',
+  'arrow-up-right-square': 'square-arrow-up-right',
+  'arrow-up-square': 'square-arrow-up',
+  'arrow-up-za': 'arrow-up-z-a',
+  'asterisk-square': 'square-asterisk',
+  'axis-3-d': 'axis-3d',
+  'badge-help': 'badge-question-mark',
+  'bar-chart': 'chart-no-axes-column-increasing',
+  'bar-chart-2': 'chart-no-axes-column',
+  'bar-chart-3': 'chart-column',
+  'bar-chart-4': 'chart-column-increasing',
+  'bar-chart-big': 'chart-column-big',
+  'bar-chart-horizontal': 'chart-bar',
+  'bar-chart-horizontal-big': 'chart-bar-big',
+  'between-horizonal-end': 'between-horizontal-end',
+  'between-horizonal-start': 'between-horizontal-start',
+  'book-marked': 'book-bookmark',
+  'book-template': 'book-dashed',
+  'box-select': 'square-dashed',
+  'building-2': 'building-complex',
+  'candlestick-chart': 'chart-candlestick',
+  'check-circle': 'circle-check-big',
+  'check-circle-2': 'circle-check',
+  'check-square': 'square-check-big',
+  'check-square-2': 'square-check',
+  'chevron-down-circle': 'circle-chevron-down',
+  'chevron-down-square': 'square-chevron-down',
+  'chevron-left-circle': 'circle-chevron-left',
+  'chevron-left-square': 'square-chevron-left',
+  'chevron-right-circle': 'circle-chevron-right',
+  'chevron-right-square': 'square-chevron-right',
+  'chevron-up-circle': 'circle-chevron-up',
+  'chevron-up-square': 'square-chevron-up',
+  'circle-help': 'circle-question-mark',
+  'circle-slashed': 'circle-slash-2',
+  'clipboard-edit': 'clipboard-pen',
+  'clipboard-signature': 'clipboard-pen-line',
+  'code-2': 'code-xml',
+  'code-square': 'square-code',
+  'columns': 'columns-2',
+  'columns-settings': 'columns-3-cog',
+  'contact-2': 'contact-round',
+  'curly-braces': 'braces',
+  'divide-circle': 'circle-divide',
+  'divide-square': 'square-divide',
+  'dot-square': 'square-dot',
+  'download-cloud': 'cloud-download',
+  'edit': 'square-pen',
+  'edit-2': 'pen',
+  'edit-3': 'pen-line',
+  'equal-square': 'square-equal',
+  'file-audio': 'file-headphone',
+  'file-audio-2': 'file-headphone',
+  'file-axis-3-d': 'file-axis-3d',
+  'file-badge-2': 'file-badge',
+  'file-bar-chart': 'file-chart-column-increasing',
+  'file-bar-chart-2': 'file-chart-column',
+  'file-check-2': 'file-check-corner',
+  'file-code-2': 'file-code-corner',
+  'file-cog-2': 'file-cog',
+  'file-edit': 'file-pen',
+  'file-json': 'file-braces',
+  'file-json-2': 'file-braces-corner',
+  'file-key-2': 'file-key',
+  'file-line-chart': 'file-chart-line',
+  'file-lock-2': 'file-lock',
+  'file-minus-2': 'file-minus-corner',
+  'file-pie-chart': 'file-chart-pie',
+  'file-plus-2': 'file-plus-corner',
+  'file-question': 'file-question-mark',
+  'file-search-2': 'file-search-corner',
+  'file-signature': 'file-pen-line',
+  'file-type-2': 'file-type-corner',
+  'file-video': 'file-play',
+  'file-video-2': 'file-video-camera',
+  'file-volume-2': 'file-signal',
+  'file-warning': 'file-exclamation-point',
+  'file-x-2': 'file-x-corner',
+  'filter': 'funnel',
+  'filter-x': 'funnel-x',
+  'fingerprint': 'fingerprint-pattern',
+  'flip-horizontal': 'square-centerline-dashed-horizontal',
+  'flip-horizontal-2': 'triangles-centerline-dashed-horizontal',
+  'flip-vertical': 'square-centerline-dashed-vertical',
+  'flip-vertical-2': 'triangles-centerline-dashed-vertical',
+  'folder-cog-2': 'folder-cog',
+  'folder-edit': 'folder-pen',
+  'fork-knife': 'utensils',
+  'fork-knife-crossed': 'utensils-crossed',
+  'form-input': 'rectangle-ellipsis',
+  'frown': 'face-slightly-frowning',
+  'function-square': 'square-function',
+  'gantt-chart': 'chart-no-axes-gantt',
+  'gantt-chart-square': 'square-chart-gantt',
+  'gauge-circle': 'circle-gauge',
+  'git-commit': 'git-commit-horizontal',
+  'globe-2': 'earth',
+  'grab': 'hand-grab',
+  'grid': 'grid-3x3',
+  'grid-2-x-2': 'grid-2x2',
+  'grid-2-x-2-check': 'grid-2x2-check',
+  'grid-2-x-2-plus': 'grid-2x2-plus',
+  'grid-2-x-2-x': 'grid-2x2-x',
+  'grid-3-x-3': 'grid-3x3',
+  'help-circle': 'circle-question-mark',
+  'helping-hand': 'hand-helping',
+  'history': 'rotate-ccw-clock',
+  'home': 'house',
+  'ice-cream': 'ice-cream-cone',
+  'ice-cream-2': 'ice-cream-bowl',
+  'indent': 'list-indent-increase',
+  'indent-decrease': 'list-indent-decrease',
+  'indent-increase': 'list-indent-increase',
+  'inspect': 'square-mouse-pointer',
+  'kanban-square': 'square-kanban',
+  'kanban-square-dashed': 'square-dashed-kanban',
+  'laptop-2': 'laptop-minimal',
+  'laugh': 'face-grinning',
+  'layers-3': 'layers',
+  'layout': 'panels-top-left',
+  'letter-text': 'text-initial',
+  'library-square': 'square-library',
+  'line-chart': 'chart-line',
+  'loader-2': 'loader-circle',
+  'location-edit': 'map-pin-pen',
+  'm-square': 'square-m',
+  'mail-question': 'mail-question-mark',
+  'meh': 'face-neutral',
+  'menu-square': 'square-menu',
+  'message-circle-question': 'message-circle-question-mark',
+  'mic-2': 'mic-vocal',
+  'minus-circle': 'circle-minus',
+  'minus-square': 'square-minus',
+  'more-horizontal': 'ellipsis',
+  'more-vertical': 'ellipsis-vertical',
+  'mouse-pointer-square-dashed': 'square-dashed-mouse-pointer',
+  'move-3-d': 'move-3d',
+  'outdent': 'list-indent-decrease',
+  'paintbrush-2': 'paintbrush-vertical',
+  'palmtree': 'tree-palm',
+  'panel-bottom-inactive': 'panel-bottom-dashed',
+  'panel-left-inactive': 'panel-left-dashed',
+  'panel-right-inactive': 'panel-right-dashed',
+  'panel-top-inactive': 'panel-top-dashed',
+  'panels-left-right': 'columns-3',
+  'panels-top-bottom': 'rows-3',
+  'parking-circle': 'circle-parking',
+  'parking-circle-off': 'circle-parking-off',
+  'parking-square': 'square-parking',
+  'parking-square-off': 'square-parking-off',
+  'pause-circle': 'circle-pause',
+  'pause-octagon': 'octagon-pause',
+  'pen-box': 'square-pen',
+  'pen-square': 'square-pen',
+  'percent-circle': 'circle-percent',
+  'percent-diamond': 'diamond-percent',
+  'percent-square': 'square-percent',
+  'pi-square': 'square-pi',
+  'pie-chart': 'chart-pie',
+  'pilcrow-square': 'square-pilcrow',
+  'play-circle': 'circle-play',
+  'play-square': 'square-play',
+  'plug-zap-2': 'plug-zap',
+  'plus-circle': 'circle-plus',
+  'plus-square': 'square-plus',
+  'podcast': 'mic-signal',
+  'power-circle': 'circle-power',
+  'power-square': 'square-power',
+  'rotate-3-d': 'rotate-3d',
+  'rows': 'rows-2',
+  'scale-3-d': 'scale-3d',
+  'scatter-chart': 'chart-scatter',
+  'school-2': 'university',
+  'scissors-square': 'square-scissors',
+  'scissors-square-dashed-bottom': 'square-bottom-dashed-scissors',
+  'send-horizonal': 'send-horizontal',
+  'shield-close': 'shield-x',
+  'shield-question': 'shield-question-mark',
+  'sidebar': 'panel-left',
+  'sidebar-close': 'panel-left-close',
+  'sidebar-open': 'panel-left-open',
+  'sigma-square': 'square-sigma',
+  'slash-square': 'square-slash',
+  'sliders': 'sliders-vertical',
+  'smile': 'face-slightly-smiling',
+  'smile-plus': 'face-slightly-smiling-plus',
+  'sort-asc': 'arrow-up-narrow-wide',
+  'sort-desc': 'arrow-down-wide-narrow',
+  'split-square-horizontal': 'square-split-horizontal',
+  'split-square-vertical': 'square-split-vertical',
+  'square-gantt-chart': 'square-chart-gantt',
+  'stars': 'sparkles',
+  'stop-circle': 'circle-stop',
+  'subtitles': 'captions',
+  'table-config': 'columns-3-cog',
+  'terminal-square': 'square-terminal',
+  'test-tube-2': 'test-tube-diagonal',
+  'text': 'text-align-start',
+  'text-select': 'square-dashed-text',
+  'text-selection': 'square-dashed-text',
+  'train': 'tram-front',
+  'trash-2': 'trash',
+  'tv-2': 'tv-minimal',
+  'unlock': 'lock-open',
+  'unlock-keyhole': 'lock-keyhole-open',
+  'upload-cloud': 'cloud-upload',
+  'user-2': 'user-round',
+  'user-check-2': 'user-round-check',
+  'user-circle': 'circle-user',
+  'user-circle-2': 'circle-user-round',
+  'user-cog-2': 'user-round-cog',
+  'user-minus-2': 'user-round-minus',
+  'user-plus-2': 'user-round-plus',
+  'user-square': 'square-user',
+  'user-square-2': 'square-user-round',
+  'user-x-2': 'user-round-x',
+  'users-2': 'users-round',
+  'verified': 'badge-check',
+  'wallet-2': 'wallet-minimal',
+  'wand-2': 'wand-sparkles',
+  'waves': 'waves-horizontal',
+  'wrap-text': 'text-wrap',
+  'x-circle': 'circle-x',
+  'x-octagon': 'octagon-x',
+  'x-square': 'square-x',
+};
 
 /// Registry of all icon categories.
 const List<LucideCategory> kLucideCategories = [

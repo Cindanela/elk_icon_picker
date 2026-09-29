@@ -1,6 +1,6 @@
 # File index — elk_icon_picker
 
-Last updated: 2026-07-18
+Last updated: 2026-09-29
 
 > Maintenance: ask Claude Code to update this file at the end of any
 > session where files were added, renamed, moved, or deleted.
@@ -25,7 +25,7 @@ Last updated: 2026-07-18
 
 | File | Path | What it does |
 |------|------|-------------|
-| `icon_search_service.dart` | `lib/src/services/icon_search_service.dart` | IconSearchService.filter() — searches the icon catalogue by name/tags, optionally limited to a category. |
+| `icon_search_service.dart` | `lib/src/services/icon_search_service.dart` | IconSearchService.filter() — searches the icon catalogue by name/tags, optionally limited to a category. IconSearchService.findByName() — looks up an icon by name, resolving names Lucide has renamed via kLucideIconAliases. |
 
 ### Models
 
@@ -45,7 +45,13 @@ Last updated: 2026-07-18
 
 | File | Path | What it does |
 |------|------|-------------|
-| `generate_lucide_icons.dart` | `tool/generate_lucide_icons.dart` | Regenerates `lib/src/gen/lucide_icons.g.dart` from Lucide's published SVG + JSON source on GitHub. Zero dependencies (dart:io/dart:convert). Run with `dart run tool/generate_lucide_icons.dart`. |
+| `generate_lucide_icons.dart` | `tool/generate_lucide_icons.dart` | Regenerates `lib/src/gen/lucide_icons.g.dart` from Lucide's published SVG + JSON source on GitHub. Zero dependencies (dart:io/dart:convert). Run with `dart run tool/generate_lucide_icons.dart`, or `--source=<dir>` to read a local Lucide checkout. Also emits deprecated constants and `kLucideIconAliases` for renamed icons. |
+
+### Tests
+
+| File | Path | What it does |
+|------|------|-------------|
+| `icon_search_service_test.dart` | `test/src/services/icon_search_service_test.dart` | Tests for IconSearchService.filter() (empty/whitespace queries, category filter) and findByName() (current names, renamed names, unknown names, alias integrity). |
 
 ### Widgets
 

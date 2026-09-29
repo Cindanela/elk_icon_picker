@@ -27,6 +27,13 @@ class LucideIconSelection extends IconSelection {
 class EmojiSelection extends IconSelection {
   final String emoji;
   const EmojiSelection(this.emoji);
+
+  @override
+  bool operator ==(Object other) =>
+      other is EmojiSelection && other.emoji == emoji;
+
+  @override
+  int get hashCode => emoji.hashCode;
 }
 
 /// A custom font icon provided by the host application.
@@ -40,6 +47,16 @@ class ImportedIconSelection extends IconSelection {
     required this.codepoint,
     required this.name,
   });
+
+  @override
+  bool operator ==(Object other) =>
+      other is ImportedIconSelection &&
+      other.fontFamily == fontFamily &&
+      other.codepoint == codepoint &&
+      other.name == name;
+
+  @override
+  int get hashCode => Object.hash(fontFamily, codepoint, name);
 }
 
 /// A bundled SVG asset (legacy / host-app-supplied assets).
@@ -47,4 +64,11 @@ class ImportedIconSelection extends IconSelection {
 class BundledIconSelection extends IconSelection {
   final String assetPath;
   const BundledIconSelection(this.assetPath);
+
+  @override
+  bool operator ==(Object other) =>
+      other is BundledIconSelection && other.assetPath == assetPath;
+
+  @override
+  int get hashCode => assetPath.hashCode;
 }

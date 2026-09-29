@@ -4,11 +4,14 @@
 // Usage:
 //   dart run tool/generate_lucide_icons.dart
 //   dart run tool/generate_lucide_icons.dart --limit=20   # smoke test
+//   dart run tool/generate_lucide_icons.dart --source=../lucide  # local clone
 //
 // Zero external dependencies (dart:io / dart:convert only), matching this
-// package's no-dependency policy. Downloads ~1500 icons' SVG + metadata
-// files directly from GitHub, so it needs network access and takes a
-// couple of minutes for a full run.
+// package's no-dependency policy. By default it downloads ~1500 icons' SVG +
+// metadata files directly from GitHub, so it needs network access and takes a
+// couple of minutes for a full run. `--source=<dir>` reads the same files from
+// a local checkout of the Lucide repository instead (no network, and pinned to
+// whatever commit that checkout is on).
 
 import 'dart:convert';
 import 'dart:io';
@@ -26,23 +29,35 @@ const _maxConcurrentRequests = 16;
 
 Future<void> main(List<String> args) async {
   int? limit;
+  String? sourceDir;
   var outputPath = 'lib/src/gen/lucide_icons.g.dart';
   for (final arg in args) {
     if (arg.startsWith('--limit=')) {
       limit = int.parse(arg.substring('--limit='.length));
     } else if (arg.startsWith('--out=')) {
       outputPath = arg.substring('--out='.length);
+    } else if (arg.startsWith('--source=')) {
+      sourceDir = arg.substring('--source='.length);
     }
   }
   final outputFile = File(outputPath);
 
   final client = HttpClient();
   try {
-    stdout.writeln('Fetching repository file tree...');
-    final tree = await _fetchTree(client);
+    final List<String> paths;
+    final _Reader read;
+    if (sourceDir != null) {
+      stdout.writeln('Reading local Lucide checkout at $sourceDir...');
+      paths = _localPaths(sourceDir);
+      read = (path) => File('$sourceDir/$path').readAsString();
+    } else {
+      stdout.writeln('Fetching repository file tree...');
+      paths = await _fetchTreePaths(client);
+      read = (path) => _getText(client, Uri.parse('$_rawBase/$path'));
+    }
 
-    var iconNames = _iconNamesFrom(tree);
-    final categoryIds = _categoryIdsFrom(tree);
+    var iconNames = _iconNamesFrom(paths);
+    final categoryIds = _categoryIdsFrom(paths);
     stdout.writeln(
       'Found ${iconNames.length} icons, ${categoryIds.length} categories.',
     );
@@ -53,10 +68,10 @@ Future<void> main(List<String> args) async {
     }
 
     stdout.writeln('Downloading icon SVG + metadata...');
-    final icons = await _fetchIcons(client, iconNames);
+    final icons = await _fetchIcons(read, iconNames);
 
     stdout.writeln('Downloading category metadata...');
-    final categories = await _fetchCategories(client, categoryIds);
+    final categories = await _fetchCategories(read, categoryIds);
 
     stdout.writeln('Generating Dart source...');
     final source = _generateSource(icons, categories);
@@ -73,7 +88,18 @@ Future<void> main(List<String> args) async {
 // Fetching
 // ---------------------------------------------------------------------------
 
-Future<List<dynamic>> _fetchTree(HttpClient client) async {
+/// Reads a file by its path relative to the Lucide repository root.
+typedef _Reader = Future<String> Function(String path);
+
+/// Repository-relative paths of every file under [dir]'s `icons/` and
+/// `categories/` folders, in the same form as the GitHub tree API returns.
+List<String> _localPaths(String dir) => [
+  for (final folder in ['icons', 'categories'])
+    for (final entity in Directory('$dir/$folder').listSync())
+      if (entity is File) '$folder/${entity.uri.pathSegments.last}',
+];
+
+Future<List<String>> _fetchTreePaths(HttpClient client) async {
   // api.github.com is rate-limited to 60 req/hour anonymously; CI runs can
   // pass GITHUB_TOKEN (auto-provided by GitHub Actions) for 5000 req/hour.
   final token = Platform.environment['GITHUB_TOKEN'];
@@ -90,13 +116,14 @@ Future<List<dynamic>> _fetchTree(HttpClient client) async {
       'missing. Consider fetching subtrees individually.',
     );
   }
-  return json['tree'] as List;
+  return [
+    for (final entry in json['tree'] as List) (entry as Map)['path'] as String,
+  ];
 }
 
-Set<String> _iconNamesFrom(List<dynamic> tree) {
+Set<String> _iconNamesFrom(List<String> paths) {
   final names = <String>{};
-  for (final entry in tree) {
-    final path = (entry as Map)['path'] as String;
+  for (final path in paths) {
     if (path.startsWith('icons/') && path.endsWith('.svg')) {
       names.add(path.substring('icons/'.length, path.length - '.svg'.length));
     }
@@ -104,10 +131,9 @@ Set<String> _iconNamesFrom(List<dynamic> tree) {
   return names;
 }
 
-Set<String> _categoryIdsFrom(List<dynamic> tree) {
+Set<String> _categoryIdsFrom(List<String> paths) {
   final ids = <String>{};
-  for (final entry in tree) {
-    final path = (entry as Map)['path'] as String;
+  for (final path in paths) {
     if (path.startsWith('categories/') && path.endsWith('.json')) {
       ids.add(
         path.substring('categories/'.length, path.length - '.json'.length),
@@ -121,26 +147,27 @@ class _IconSource {
   final String name; // kebab-case
   final List<String> tags;
   final List<String> categories;
+
+  /// Former names of this icon (kebab-case), from the metadata's `aliases`.
+  final List<String> aliases;
   final String svg;
 
   _IconSource({
     required this.name,
     required this.tags,
     required this.categories,
+    required this.aliases,
     required this.svg,
   });
 }
 
-Future<List<_IconSource>> _fetchIcons(
-  HttpClient client,
-  Set<String> names,
-) async {
+Future<List<_IconSource>> _fetchIcons(_Reader read, Set<String> names) async {
   final sorted = names.toList()..sort();
   final results = <_IconSource>[];
   for (var i = 0; i < sorted.length; i += _maxConcurrentRequests) {
     final batch = sorted.skip(i).take(_maxConcurrentRequests);
     final batchResults = await Future.wait(
-      batch.map((name) => _fetchIcon(client, name)),
+      batch.map((name) => _fetchIcon(read, name)),
     );
     results.addAll(batchResults);
     stdout.write('\r  ${results.length}/${sorted.length}');
@@ -150,15 +177,21 @@ Future<List<_IconSource>> _fetchIcons(
   return results;
 }
 
-Future<_IconSource> _fetchIcon(HttpClient client, String name) async {
-  final svgFuture = _getText(client, Uri.parse('$_rawBase/icons/$name.svg'));
-  final metaFuture = _getJson(client, Uri.parse('$_rawBase/icons/$name.json'));
+Future<_IconSource> _fetchIcon(_Reader read, String name) async {
+  final svgFuture = read('icons/$name.svg');
+  final metaFuture = read('icons/$name.json');
   final svg = await svgFuture;
-  final meta = await metaFuture as Map;
+  final meta = jsonDecode(await metaFuture) as Map;
   return _IconSource(
     name: name,
     tags: ((meta['tags'] as List?) ?? const []).cast<String>(),
     categories: ((meta['categories'] as List?) ?? const []).cast<String>(),
+    // Lucide lists aliases as `{"name": "old-name", ...}` objects; older
+    // metadata used plain strings, so accept both.
+    aliases: [
+      for (final alias in (meta['aliases'] as List?) ?? const [])
+        alias is Map ? alias['name'] as String : alias as String,
+    ],
     svg: svg,
   );
 }
@@ -176,15 +209,13 @@ class _CategorySource {
 }
 
 Future<List<_CategorySource>> _fetchCategories(
-  HttpClient client,
+  _Reader read,
   Set<String> ids,
 ) async {
   final sorted = ids.toList()..sort();
   final results = <_CategorySource>[];
   for (final id in sorted) {
-    final meta =
-        await _getJson(client, Uri.parse('$_rawBase/categories/$id.json'))
-            as Map;
+    final meta = jsonDecode(await read('categories/$id.json')) as Map;
     results.add(
       _CategorySource(
         id: id,
@@ -426,6 +457,33 @@ String _generateSource(
     buffer.writeln('  );');
   }
 
+  // Deprecated constants for icons Lucide has renamed, so code written
+  // against an older version of this package keeps compiling. The constant
+  // is skipped when it would clash with a current icon's (or another
+  // alias's) identifier, e.g. "arrow-down-01" vs "arrow-down-0-1"; the
+  // string alias is still recorded for name lookups.
+  final iconNames = {for (final icon in icons) icon.name};
+  final aliases = <String, String>{}; // old kebab name -> current kebab name
+  final takenIdentifiers = identifiers.toSet();
+  for (final icon in icons) {
+    for (final alias in icon.aliases) {
+      if (!iconNames.contains(alias)) {
+        aliases.putIfAbsent(alias, () => icon.name);
+      }
+      final aliasIdentifier = _camelCase(alias);
+      if (!takenIdentifiers.add(aliasIdentifier)) continue;
+      final target = _camelCase(icon.name);
+      buffer.writeln(
+        '  /// Former name of [$target] ("$alias"), renamed upstream.',
+      );
+      buffer.writeln("  @Deprecated('Use LucideIcons.$target instead.')");
+      buffer.writeln(
+        '  static const LucideIconData $aliasIdentifier = $target;',
+      );
+    }
+  }
+  buffer.writeln();
+
   buffer.writeln('  /// All Lucide icons in this registry, sorted by name.');
   buffer.writeln('  static const List<LucideIconData> all = [');
   for (final identifier in identifiers) {
@@ -436,6 +494,20 @@ String _generateSource(
   buffer.writeln();
   buffer.writeln('/// Registry of all Lucide icons (see [LucideIcons.all]).');
   buffer.writeln('const List<LucideIconData> kLucideIcons = LucideIcons.all;');
+  buffer.writeln();
+  buffer.writeln(
+    '/// Former Lucide icon names mapped to their current names, from '
+    "upstream's",
+  );
+  buffer.writeln(
+    '/// `aliases` metadata. Lets icon names saved by an older version still',
+  );
+  buffer.writeln('/// resolve; see `IconSearchService.findByName`.');
+  buffer.writeln('const Map<String, String> kLucideIconAliases = {');
+  for (final alias in aliases.keys.toList()..sort()) {
+    buffer.writeln("  '$alias': '${aliases[alias]}',");
+  }
+  buffer.writeln('};');
   buffer.writeln();
   buffer.writeln('/// Registry of all icon categories.');
   buffer.writeln('const List<LucideCategory> kLucideCategories = [');

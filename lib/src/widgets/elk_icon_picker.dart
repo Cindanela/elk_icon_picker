@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import '../gen/lucide_icons.g.dart';
+import 'package:elk_lucide_icons/elk_lucide_icons.dart';
 import '../models/icon_source.dart';
-import '../models/lucide_category.dart';
-import '../services/icon_search_service.dart';
+import '../models/category_style.dart';
 import 'elk_icon_picker_theme.dart';
-import 'lucide_icon.dart';
 
 /// A customizable, inline Lucide icon picker widget.
 ///

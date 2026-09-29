@@ -1,6 +1,5 @@
 CLAUDE.md
 FILES.md
-tool/
 icon_emote_selector.iml
 .claude/
 .idea/
@@ -14,4 +13,4 @@ example/ios/
 example/linux/
 example/macos/
 example/windows/
-example/web/
+example/web/WORKLOG.md

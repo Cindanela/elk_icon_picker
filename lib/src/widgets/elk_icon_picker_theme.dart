@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/lucide_category.dart';
+import '../models/category_style.dart';
 
 /// Theme data for [ElkIconPicker] and [showElkIconPicker].
 ///

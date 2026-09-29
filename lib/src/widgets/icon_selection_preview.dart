@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/icon_source.dart';
-import 'lucide_icon.dart';
+import 'package:elk_lucide_icons/elk_lucide_icons.dart';
 
 /// A widget that displays a preview of an [IconSelection].
 ///

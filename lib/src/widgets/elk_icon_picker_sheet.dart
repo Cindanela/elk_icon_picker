@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/icon_source.dart';
-import '../models/lucide_category.dart';
+import '../models/category_style.dart';
 import 'elk_icon_picker.dart';
 import 'elk_icon_picker_theme.dart';
 

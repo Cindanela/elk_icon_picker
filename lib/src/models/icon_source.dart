@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'lucide_icon_data.dart';
+import 'package:elk_lucide_icons/elk_lucide_icons.dart';
 
 /// Base class for any icon/emote selection a user can make.
 sealed class IconSelection {

@@ -41,9 +41,16 @@ See FILES.md for the full file index. Quick summary:
   source (github.com/lucide-icons/lucide, ISC licensed). Zero external dependencies (`dart:io` /
   `dart:convert` only) — downloads each icon's SVG + JSON metadata directly from GitHub.
   Run `dart run tool/generate_lucide_icons.dart` (~40s for all icons) or add `--limit=N` for a
-  quick smoke test against `--out=<scratch path>`. Always `dart format` the output and run
+  quick smoke test against `--out=<scratch path>`. `--source=<dir>` reads a local clone of the
+  Lucide repo instead of the network (pins output to that clone's commit; also works where
+  api.github.com is blocked). Always `dart format` the output and run
   `flutter analyze` after regenerating — ask the user before swapping in new data, since upstream
-  Lucide renames/removes icons occasionally (breaking for any code referencing that name directly).
+  Lucide renames/removes icons occasionally.
+- Renamed icons: the generator reads each icon's upstream `aliases` and emits a `@Deprecated`
+  `LucideIcons.<oldName>` constant plus a `kLucideIconAliases` map (old name → current name).
+  Host apps store icons by name string, so they must look up with
+  `IconSearchService.findByName()` (resolves aliases, returns null) rather than
+  `kLucideIcons.firstWhere` (throws on a renamed name).
 - Theme resolution in `ElkIconPicker`: explicit constructor param > `ElkIconPickerThemeData`
   from `ThemeData.extensions` > M3 `ColorScheme`/`TextTheme` fallback.
 - `lerpDouble` is defined locally in `elk_icon_picker_theme.dart` (not imported from `dart:ui`)

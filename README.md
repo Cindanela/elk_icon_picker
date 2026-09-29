@@ -81,7 +81,7 @@ Use the `LucideIcon` widget to render the selected icon data.
 
 ```dart
 LucideIcon(
-  LucideIcons.home,
+  LucideIcons.house,
   size: 32,
   color: Colors.blue,
   strokeWidth: 2.5,
@@ -90,11 +90,27 @@ LucideIcon(
 
 | Property | Description | Default |
 |----------|-------------|---------|
-| `data` | **Required**. The icon data to render (e.g., `LucideIcons.home`) | - |
+| `data` | **Required**. The icon data to render (e.g., `LucideIcons.house`) | - |
 | `size` | The size of the icon | `24` |
 | `color` | The color of the icon's stroke | `IconTheme.of(context).color` |
 | `strokeWidth` | The width of the icon's stroke | `2.0` |
 | `rounded` | Whether to use rounded stroke caps and joins | `true` |
+
+### Saving and Restoring a Selection
+
+Store the icon's `name` (e.g. `'circle-check'`) and look it up again with
+`IconSearchService.findByName`. Lucide occasionally renames icons upstream;
+old names (e.g. `'smile'`, now `'face-slightly-smiling'`) still resolve via
+`kLucideIconAliases`, so saved data keeps working after an icon set update.
+
+```dart
+final savedName = selection.data.name; // store this string
+
+final icon = IconSearchService.findByName(savedName) ?? LucideIcons.circleQuestionMark;
+```
+
+Renamed icons also keep deprecated constants (e.g. `LucideIcons.smile`), so
+existing code still compiles and the analyzer points you at the new name.
 
 ## Theming
 

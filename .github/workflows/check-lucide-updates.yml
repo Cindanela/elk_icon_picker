@@ -25,8 +25,12 @@ jobs:
         run: |
           dart run tool/generate_lucide_icons.dart --out="$RUNNER_TEMP/lucide_icons.g.dart"
           # Must match the formatting of the committed file, or every run
-          # false-positives on line-wrapping differences alone.
-          dart format "$RUNNER_TEMP/lucide_icons.g.dart"
+          # false-positives on line-wrapping differences alone. A file outside
+          # the package is formatted with the SDK's latest language version,
+          # which wraps long declarations differently, so pin it to the
+          # package's own (from the `sdk: ^X.Y.Z` constraint in pubspec.yaml).
+          LANGUAGE_VERSION=$(grep -oP '^\s*sdk:\s*\^\K[0-9]+\.[0-9]+' pubspec.yaml)
+          dart format --language-version="$LANGUAGE_VERSION" "$RUNNER_TEMP/lucide_icons.g.dart"
 
       - name: Compare against committed icon data
         id: compare
@@ -38,8 +42,13 @@ jobs:
           fi
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
-          grep -oP 'static const LucideIconData \K\w+' lib/src/gen/lucide_icons.g.dart | sort > "$RUNNER_TEMP/old_names.txt"
-          grep -oP 'static const LucideIconData \K\w+' "$RUNNER_TEMP/lucide_icons.g.dart" | sort > "$RUNNER_TEMP/new_names.txt"
+          # Icon names from each icon's `name: '...'` field (the declaration
+          # line itself can wrap), and renamed-icon aliases from the
+          # kLucideIconAliases map entries.
+          grep -oP "^\s*name: '\K[^']+" lib/src/gen/lucide_icons.g.dart | sort > "$RUNNER_TEMP/old_names.txt"
+          grep -oP "^\s*name: '\K[^']+" "$RUNNER_TEMP/lucide_icons.g.dart" | sort > "$RUNNER_TEMP/new_names.txt"
+          grep -oP "^\s*'\K[a-z0-9-]+(?=': ')" "$RUNNER_TEMP/lucide_icons.g.dart" | sort -u > "$RUNNER_TEMP/new_aliases.txt"
+          comm -23 "$RUNNER_TEMP/old_names.txt" "$RUNNER_TEMP/new_names.txt" > "$RUNNER_TEMP/gone.txt"
 
           OLD_COUNT=$(wc -l < "$RUNNER_TEMP/old_names.txt")
           NEW_COUNT=$(wc -l < "$RUNNER_TEMP/new_names.txt")
@@ -55,10 +64,16 @@ jobs:
             ADDED=$(comm -13 "$RUNNER_TEMP/old_names.txt" "$RUNNER_TEMP/new_names.txt")
             if [ -z "$ADDED" ]; then echo "_none_"; else echo "$ADDED" | sed 's/^/- /'; fi
             echo ""
+            echo "### Renamed icons"
+            echo "Still work after regenerating: the old name becomes a deprecated constant and resolves via \`IconSearchService.findByName\`."
+            echo ""
+            RENAMED=$(comm -12 "$RUNNER_TEMP/gone.txt" "$RUNNER_TEMP/new_aliases.txt")
+            if [ -z "$RENAMED" ]; then echo "_none_"; else echo "$RENAMED" | sed 's/^/- /'; fi
+            echo ""
             echo "### Removed icons"
             echo "Removed icon names are a breaking change for any code referencing them directly — check downstream consumers before regenerating."
             echo ""
-            REMOVED=$(comm -23 "$RUNNER_TEMP/old_names.txt" "$RUNNER_TEMP/new_names.txt")
+            REMOVED=$(comm -23 "$RUNNER_TEMP/gone.txt" "$RUNNER_TEMP/new_aliases.txt")
             if [ -z "$REMOVED" ]; then echo "_none_"; else echo "$REMOVED" | sed 's/^/- /'; fi
             echo ""
             echo "### Other changes"

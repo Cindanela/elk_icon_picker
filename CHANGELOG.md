@@ -1,3 +1,21 @@
+## 0.1.4
+
+* Refreshed the Lucide icon registry against current upstream data (1748 ->
+  1856 icons).
+* Icons Lucide has renamed upstream keep working: each old name gets a
+  deprecated `LucideIcons` constant (e.g. `LucideIcons.smile` ->
+  `LucideIcons.faceSlightlySmiling`), and the new `kLucideIconAliases` map
+  resolves old names saved as strings.
+* Added `IconSearchService.findByName()`, which looks up an icon by name,
+  including renamed ones, and returns `null` instead of throwing for unknown
+  names.
+* The SVG path tokenizer now compiles its regular expression once instead of
+  on every call.
+* The icon generator can read from a local Lucide checkout
+  (`--source=<dir>`), pinning the output to that checkout's commit.
+* Fixed the README example referencing `LucideIcons.home`, which Lucide
+  renamed to `house`.
+
 ## 0.1.3
 
 * Added a dartdoc comment to every generated `LucideIcons` constant, raising

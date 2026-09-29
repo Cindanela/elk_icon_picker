@@ -36,4 +36,41 @@ void main() {
       }
     });
   });
+
+  group('IconSearchService.findByName', () {
+    test('finds an icon by its current name', () {
+      expect(
+        IconSearchService.findByName('circle-check'),
+        LucideIcons.circleCheck,
+      );
+    });
+
+    test('resolves names Lucide has renamed', () {
+      expect(
+        IconSearchService.findByName('smile'),
+        LucideIcons.faceSlightlySmiling,
+      );
+      expect(IconSearchService.findByName('trash-2'), LucideIcons.trash);
+      expect(
+        IconSearchService.findByName('history'),
+        LucideIcons.rotateCcwClock,
+      );
+    });
+
+    test('returns null for unknown names', () {
+      expect(IconSearchService.findByName('not-a-real-icon'), isNull);
+      expect(IconSearchService.findByName(''), isNull);
+      expect(IconSearchService.findByName(null), isNull);
+    });
+
+    test('every alias points at an existing icon', () {
+      for (final entry in kLucideIconAliases.entries) {
+        expect(
+          IconSearchService.findByName(entry.value),
+          isNotNull,
+          reason: '${entry.key} -> ${entry.value}',
+        );
+      }
+    });
+  });
 }

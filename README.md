@@ -3,7 +3,7 @@
 [![Pub Version](https://img.shields.io/pub/v/elk_icon_picker?style=for-the-badge)](https://pub.dev/packages/elk_icon_picker)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-A themeable Flutter picker for [Lucide](https://lucide.dev) icons, usable inline or as a bottom sheet, with search and category tabs. The icons come from [`elk_lucide_icons`](https://pub.dev/packages/elk_lucide_icons), which draws them with `CustomPainter` (no fonts or SVG assets). It is re-exported, so one import gives you both.
+A themeable Flutter picker for [Lucide](https://lucide.dev) icons, usable inline or as a bottom sheet, with search and category tabs. The icons come from [`elk_lucide_icons`](https://pub.dev/packages/elk_icon_picker), which draws them with `CustomPainter` (no fonts or SVG assets). It is re-exported, so one import gives you both.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Cindanela/elk_icon_picker/main/assets/screenshot_category_names.jpg" width="250"/>

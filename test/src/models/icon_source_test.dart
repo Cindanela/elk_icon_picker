@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:elk_icon_picker/src/models/icon_source.dart';
-import 'package:elk_lucide_icons/elk_lucide_icons.dart';
+import 'package:elk_stroke_icons/elk_stroke_icons.dart';
 
 void main() {
   group('IconSelection Equality', () {

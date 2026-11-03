@@ -1,5 +1,5 @@
 name: elk_icon_picker
-description: "A themeable Flutter picker for Lucide icons: inline widget or bottom sheet, with search and categories. Icons come from elk_lucide_icons."
+description: "A themeable Flutter picker for Lucide icons: inline widget or bottom sheet, with search and categories. Icons come from elk_stroke_icons."
 version: 0.2.0
 repository: https://github.com/Cindanela/elk_icon_picker
 
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  elk_lucide_icons: ^0.1.0
+  elk_stroke_icons: ^0.1.0
 
 dev_dependencies:
   flutter_test:

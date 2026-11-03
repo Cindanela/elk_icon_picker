@@ -56,10 +56,10 @@ packages:
       relative: true
     source: path
     version: "0.2.0"
-  elk_lucide_icons:
+  elk_stroke_icons:
     dependency: "direct overridden"
     description:
-      path: "../../elk_lucide_icons"
+      path: "../../elk_stroke_icons"
       relative: true
     source: path
     version: "0.1.0"

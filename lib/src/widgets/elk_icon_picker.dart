@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:elk_lucide_icons/elk_lucide_icons.dart';
+import 'package:elk_stroke_icons/elk_stroke_icons.dart';
 import '../models/icon_source.dart';
 import '../models/category_style.dart';
 import 'elk_icon_picker_theme.dart';

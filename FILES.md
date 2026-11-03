@@ -6,7 +6,7 @@ Last updated: 2026-09-29
 > session where files were added, renamed, moved, or deleted.
 
 Icon data, `LucideIcon`, `IconSearchService` and the generator live in
-`../elk_lucide_icons` — see its FILES.md.
+`../elk_stroke_icons` — see its FILES.md.
 
 ---
 
@@ -15,9 +15,9 @@ Icon data, `LucideIcon`, `IconSearchService` and the generator live in
 | File | Path | What it does |
 |------|------|-------------|
 | `analysis_options.yaml` | `analysis_options.yaml` | Linter rules for code quality within the package. |
-| `pubspec.yaml` | `pubspec.yaml` | Package manifest — only dependency is `elk_lucide_icons`. |
-| `pubspec_overrides.yaml` | `pubspec_overrides.yaml`, `example/pubspec_overrides.yaml` | Gitignored, local only — points `elk_lucide_icons` at the sibling checkout. |
-| `elk_icon_picker.dart` | `lib/elk_icon_picker.dart` | Public API barrel file; re-exports `elk_lucide_icons`. |
+| `pubspec.yaml` | `pubspec.yaml` | Package manifest — only dependency is `elk_stroke_icons`. |
+| `pubspec_overrides.yaml` | `pubspec_overrides.yaml`, `example/pubspec_overrides.yaml` | Gitignored, local only — points `elk_stroke_icons` at the sibling checkout. |
+| `elk_icon_picker.dart` | `lib/elk_icon_picker.dart` | Public API barrel file; re-exports `elk_stroke_icons`. |
 
 ### Theme
 

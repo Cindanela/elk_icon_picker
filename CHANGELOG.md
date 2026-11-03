@@ -1,7 +1,7 @@
 ## 0.2.0
 
 * Split the Lucide icon data into its own package,
-  [`elk_lucide_icons`](https://pub.dev/packages/elk_lucide_icons), now this
+  [`elk_stroke_icons`](https://pub.dev/packages/elk_stroke_icons), now this
   package's only dependency. `LucideIcon`, `LucideIcons`, `LucideIconData`,
   `LucideCategory`, `IconSearchService`, `kLucideIcons`, `kLucideCategories`
   and `kLucideIconAliases` moved there and are re-exported, so

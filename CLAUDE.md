@@ -7,14 +7,14 @@ the same rules apply here.
 
 The picker UI (inline widget, bottom sheet, theme extension) used by elk_planner.
 Icon data, `LucideIcon` and `IconSearchService` live in the sibling package
-`../elk_lucide_icons` (own repo) — read its CLAUDE.md before touching icon data,
+`../elk_stroke_icons` (own repo) — read its CLAUDE.md before touching icon data,
 the generator, or search. The barrel re-exports it.
 Local path dependency: declared in elk_planner/pubspec.yaml as
 `../packages/elk_icon_picker`.
 
 ## Rules
 
-- No external dependencies besides `elk_lucide_icons` (split out 2026-09-29). Ask before adding anything.
+- No external dependencies besides `elk_stroke_icons` (split out 2026-09-29). Ask before adding anything.
 - Public API is the barrel file lib/elk_icon_picker.dart — any new
   public class or function must be exported there.
 - ElkIconPickerThemeData is the integration point with the host app —
@@ -38,9 +38,9 @@ See FILES.md for the full file index. Quick summary:
 
 ## Gotchas
 
-- `pubspec.yaml` depends on hosted `elk_lucide_icons`; the gitignored `pubspec_overrides.yaml`
-  (root and `example/`) points it at `../elk_lucide_icons` for local dev. Publish
-  `elk_lucide_icons` first whenever the picker needs a new version of it.
+- `pubspec.yaml` depends on hosted `elk_stroke_icons`; the gitignored `pubspec_overrides.yaml`
+  (root and `example/`) points it at `../elk_stroke_icons` for local dev. Publish
+  `elk_stroke_icons` first whenever the picker needs a new version of it.
 - Theme resolution in `ElkIconPicker`: explicit constructor param > `ElkIconPickerThemeData`
   from `ThemeData.extensions` > M3 `ColorScheme`/`TextTheme` fallback.
 - `lerpDouble` is defined locally in `elk_icon_picker_theme.dart` (not imported from `dart:ui`)

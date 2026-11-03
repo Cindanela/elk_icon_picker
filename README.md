@@ -3,7 +3,9 @@
 [![Pub Version](https://img.shields.io/pub/v/elk_icon_picker?style=for-the-badge)](https://pub.dev/packages/elk_icon_picker)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-A themeable Flutter picker for [Lucide](https://lucide.dev) icons, usable inline or as a bottom sheet, with search and category tabs. The icons come from [`elk_lucide_icons`](https://github.com/Cindanela/elk_lucide_icons), which draws them with `CustomPainter` (no fonts or SVG assets). It is re-exported, so one import gives you both.
+A themeable Flutter picker for [Lucide](https://lucide.dev) icons, usable inline or as a bottom sheet, with search and category tabs. The icons come from [`elk_stroke_icons`](https://pub.dev/packages/elk_stroke_icons), which draws them with `CustomPainter` (no fonts or SVG assets). It is re-exported, so one import gives you both.
+
+> **Unofficial.** Not affiliated with or endorsed by the [Lucide](https://lucide.dev) project.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Cindanela/elk_icon_picker/main/assets/screenshot_category_names.jpg" width="250"/>
@@ -13,7 +15,7 @@ A themeable Flutter picker for [Lucide](https://lucide.dev) icons, usable inline
 
 ## Features
 
-- 📦 **Minimal Dependencies**: Only depends on its sibling package `elk_lucide_icons`. No `flutter_svg`, icon fonts, or other third-party packages.
+- 📦 **Minimal Dependencies**: Only depends on its sibling package `elk_stroke_icons`. No `flutter_svg`, icon fonts, or other third-party packages.
 - 🎨 **Fully Customizable**: Control colors, sizes, stroke widths, rounded caps/joins, and fonts — globally via `ThemeData` or per-widget.
 - 🔍 **Searchable**: Built-in fuzzy search and categorized icon browsing.
 - 📱 **Adaptive UI**: Works beautifully as an inline widget or a professional bottom sheet.
@@ -67,7 +69,7 @@ ElkIconPicker(
 
 ### Displaying the Selected Icon
 
-Use the `LucideIcon` widget (from `elk_lucide_icons`, re-exported here) to render the selected icon data. If you only need to show icons, without the picker, depend on [`elk_lucide_icons`](https://github.com/Cindanela/elk_lucide_icons) directly.
+Use the `LucideIcon` widget (from `elk_stroke_icons`, re-exported here) to render the selected icon data. If you only need to show icons, without the picker, depend on [`elk_stroke_icons`](https://pub.dev/packages/elk_stroke_icons) directly.
 
 ```dart
 LucideIcon(
@@ -239,4 +241,4 @@ Per-widget constructor params work exactly as before. These take priority over a
 ## License
 
 - The picker code is licensed under the [MIT License](LICENSE).
-- Lucide icon data ships in `elk_lucide_icons` under the [ISC License](https://github.com/Cindanela/elk_lucide_icons/blob/main/LICENSE-LUCIDE).
+- Lucide icon data ships in `elk_stroke_icons` under the [ISC License](https://github.com/Cindanela/elk_stroke_icons/blob/main/LICENSE-LUCIDE).

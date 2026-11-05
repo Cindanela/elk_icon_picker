@@ -4,12 +4,12 @@ version: 0.2.0
 repository: https://github.com/Cindanela/elk_icon_picker
 
 environment:
-  sdk: ^3.12.0
+  sdk: ^3.13.0
 
 dependencies:
   flutter:
     sdk: flutter
-  elk_stroke_icons: ^0.1.0
+  elk_stroke_icons: ^0.1.2
 
 dev_dependencies:
   flutter_test:
